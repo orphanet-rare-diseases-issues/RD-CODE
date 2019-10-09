@@ -1,1 +1,3 @@
-test README
+#About RD-code
+The <a href="http://www.rd-code.eu/" target="_blank" rel="noopener noreferrer">RD-code project</a>, co-funded by the European Union’s Third Health Program, intends to support Member States in the implementation of rare diseases-specific codification systems. Starting with countries that have no systematic implementation of the Orpha codification yet, but that are actively committed already in doing so, this project will provide a sufficient real-world implementation experience to be captured by other countries in the future.
+In the framework of the RD-CODE project, Orphanet provides a set of files, the Orphanet nomenclature files for coding, intended to be used to implement the Orphanet nomenclature in Health Information Systems for codification purposes. This set includes:
