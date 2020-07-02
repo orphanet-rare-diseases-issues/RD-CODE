@@ -1,68 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:50:10" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="10557">
-      <OrphaNumber>68416</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=68416</ExpertLink>
-      <Name lang="pl">Rzadkie choroby zakaźne</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:44:34" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="203">
+      <OrphaNumber>162976</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare infectious diseases</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="10557">
+            <OrphaCode>68416</OrphaCode>
+            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68416</ExpertLink>
+            <Name lang="pl">Rzadkie choroby zakaźne</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
           <ClassificationNodeChildList count="5">
             <ClassificationNode>
               <Disorder id="17503">
-                <OrphaNumber>163582</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163582</ExpertLink>
+                <OrphaCode>163582</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163582</ExpertLink>
                 <Name lang="pl">Rzadka zakaźna choroba bakteryjna</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="41">
                 <ClassificationNode>
                   <Disorder id="725">
-                    <OrphaNumber>1304</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1304</ExpertLink>
+                    <OrphaCode>1304</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1304</ExpertLink>
                     <Name lang="pl">Brucelloza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="726">
-                    <OrphaNumber>173</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=173</ExpertLink>
+                    <OrphaCode>173</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=173</ExpertLink>
                     <Name lang="pl">Cholera</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="734">
-                    <OrphaNumber>795</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=795</ExpertLink>
+                    <OrphaCode>795</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=795</ExpertLink>
                     <Name lang="pl">Salmonelloza</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="14318">
-                        <OrphaNumber>99745</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99745</ExpertLink>
+                        <OrphaCode>99745</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99745</ExpertLink>
                         <Name lang="pl">Dur brzuszny</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21797">
-                        <OrphaNumber>324648</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324648</ExpertLink>
+                        <OrphaCode>324648</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324648</ExpertLink>
                         <Name lang="pl">Inwazyjna salmonelloza nietyfusowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="23452">
-                        <OrphaNumber>443227</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443227</ExpertLink>
+                        <OrphaCode>443227</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=443227</ExpertLink>
                         <Name lang="pl">Dur rzekomy</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -71,43 +106,58 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="750">
-                    <OrphaNumber>509</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=509</ExpertLink>
+                    <OrphaCode>509</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=509</ExpertLink>
                     <Name lang="pl">Leptospiroza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="754">
-                    <OrphaNumber>810</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=810</ExpertLink>
+                    <OrphaCode>810</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=810</ExpertLink>
                     <Name lang="pl">Szigelloza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="789">
-                    <OrphaNumber>3452</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3452</ExpertLink>
+                    <OrphaCode>3452</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3452</ExpertLink>
                     <Name lang="pl">Choroba Whipple'a</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="815">
-                    <OrphaNumber>549</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=549</ExpertLink>
+                    <OrphaCode>549</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=549</ExpertLink>
                     <Name lang="pl">Legionelloza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="1">
                     <ClassificationNode>
                       <Disorder id="14321">
-                        <OrphaNumber>99748</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99748</ExpertLink>
+                        <OrphaCode>99748</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99748</ExpertLink>
                         <Name lang="pl">Gorączka Pontiac</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -116,75 +166,102 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="842">
-                    <OrphaNumber>533</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=533</ExpertLink>
+                    <OrphaCode>533</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=533</ExpertLink>
                     <Name lang="pl">Listerioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="859">
-                    <OrphaNumber>1489</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1489</ExpertLink>
+                    <OrphaCode>1489</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1489</ExpertLink>
                     <Name lang="pl">Krztusiec</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="861">
-                    <OrphaNumber>1267</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1267</ExpertLink>
+                    <OrphaCode>1267</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1267</ExpertLink>
                     <Name lang="pl">Botulizm</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="4">
                     <ClassificationNode>
                       <Disorder id="19116">
-                        <OrphaNumber>228371</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228371</ExpertLink>
+                        <OrphaCode>228371</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=228371</ExpertLink>
                         <Name lang="pl">Botulizm pokarmowy</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19141">
-                        <OrphaNumber>230800</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=230800</ExpertLink>
+                        <OrphaCode>230800</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=230800</ExpertLink>
                         <Name lang="pl">Botulizm zakaźny wywołany przez toksyny</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="18029">
-                            <OrphaNumber>178475</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178475</ExpertLink>
+                            <OrphaCode>178475</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178475</ExpertLink>
                             <Name lang="pl">Botulizm przyranny</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="18031">
-                            <OrphaNumber>178481</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178481</ExpertLink>
+                            <OrphaCode>178481</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178481</ExpertLink>
                             <Name lang="pl">Botulizm jelitowy</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="18030">
-                                <OrphaNumber>178478</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178478</ExpertLink>
+                                <OrphaCode>178478</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178478</ExpertLink>
                                 <Name lang="pl">Botulizm przyranny</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="18032">
-                                <OrphaNumber>178487</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178487</ExpertLink>
+                                <OrphaCode>178487</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178487</ExpertLink>
                                 <Name lang="pl">Botulizm jelitowy dorosłych</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -195,18 +272,24 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19754">
-                        <OrphaNumber>254504</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=254504</ExpertLink>
+                        <OrphaCode>254504</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=254504</ExpertLink>
                         <Name lang="pl">Botulizm inhalacyjny</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19755">
-                        <OrphaNumber>254509</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=254509</ExpertLink>
+                        <OrphaCode>254509</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=254509</ExpertLink>
                         <Name lang="pl">Botulizm jatrogenny</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -215,133 +298,178 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="862">
-                    <OrphaNumber>1679</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1679</ExpertLink>
+                    <OrphaCode>1679</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1679</ExpertLink>
                     <Name lang="pl">Błonica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="863">
-                    <OrphaNumber>3389</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3389</ExpertLink>
+                    <OrphaCode>3389</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3389</ExpertLink>
                     <Name lang="pl">Gruźlica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="864">
-                    <OrphaNumber>3299</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3299</ExpertLink>
+                    <OrphaCode>3299</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3299</ExpertLink>
                     <Name lang="pl">Tężec</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1036">
-                    <OrphaNumber>548</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=548</ExpertLink>
+                    <OrphaCode>548</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=548</ExpertLink>
                     <Name lang="pl">Trąd</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3341">
-                    <OrphaNumber>707</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=707</ExpertLink>
+                    <OrphaCode>707</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=707</ExpertLink>
                     <Name lang="pl">Dżuma</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3394">
-                    <OrphaNumber>2700</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2700</ExpertLink>
+                    <OrphaCode>2700</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2700</ExpertLink>
                     <Name lang="pl">Noma</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3539">
-                    <OrphaNumber>2583</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2583</ExpertLink>
+                    <OrphaCode>2583</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2583</ExpertLink>
                     <Name lang="pl">Grzybica madurska</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3542">
-                    <OrphaNumber>3392</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3392</ExpertLink>
+                    <OrphaCode>3392</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3392</ExpertLink>
                     <Name lang="pl">Tularemia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8529">
-                    <OrphaNumber>781</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=781</ExpertLink>
+                    <OrphaCode>781</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=781</ExpertLink>
                     <Name lang="pl">Gorączka Q</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8609">
-                    <OrphaNumber>764</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=764</ExpertLink>
+                    <OrphaCode>764</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=764</ExpertLink>
                     <Name lang="pl">Ropne zapalenie mięśni</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9291">
-                    <OrphaNumber>31202</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31202</ExpertLink>
+                    <OrphaCode>31202</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31202</ExpertLink>
                     <Name lang="pl">Melioidoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9293">
-                    <OrphaNumber>31204</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31204</ExpertLink>
+                    <OrphaCode>31204</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31204</ExpertLink>
                     <Name lang="pl">Nokardioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9294">
-                    <OrphaNumber>31205</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31205</ExpertLink>
+                    <OrphaCode>31205</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31205</ExpertLink>
                     <Name lang="pl">Gorączka od ugryzienia szczura</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14476">
-                        <OrphaNumber>99903</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99903</ExpertLink>
+                        <OrphaCode>99903</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99903</ExpertLink>
                         <Name lang="pl">Śrubowcowa gorączka szczurza</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14478">
-                        <OrphaNumber>99905</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99905</ExpertLink>
+                        <OrphaCode>99905</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99905</ExpertLink>
                         <Name lang="pl">Streptobacillusowa gorączka szczurza</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -349,35 +477,35 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10363">
-                    <OrphaNumber>35065</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35065</ExpertLink>
-                    <Name lang="pl">Idiopatyczne ciężkie zakażenie pneumokokami</Name>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="10409">
-                    <OrphaNumber>36234</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36234</ExpertLink>
+                    <OrphaCode>36234</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=36234</ExpertLink>
                     <Name lang="pl">Zespół bakteryjnego wstrząsu toksycznego</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14491">
-                        <OrphaNumber>99918</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99918</ExpertLink>
+                        <OrphaCode>99918</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99918</ExpertLink>
                         <Name lang="pl">Paciorkowcowy zespół wstrząsu toksycznego</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14492">
-                        <OrphaNumber>99919</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99919</ExpertLink>
+                        <OrphaCode>99919</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99919</ExpertLink>
                         <Name lang="pl">Gronkowcowy zespół wstrząsu toksycznego</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -386,131 +514,176 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10658">
-                    <OrphaNumber>50839</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=50839</ExpertLink>
+                    <OrphaCode>50839</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=50839</ExpertLink>
                     <Name lang="pl">Choroba kociego pazura</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10761">
-                    <OrphaNumber>55655</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=55655</ExpertLink>
+                    <OrphaCode>55655</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=55655</ExpertLink>
                     <Name lang="pl">Pneumokokowe zapalenie opon mózgowych</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10836">
-                    <OrphaNumber>64692</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64692</ExpertLink>
+                    <OrphaCode>64692</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64692</ExpertLink>
                     <Name lang="pl">Gorączka Oroya</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10837">
-                    <OrphaNumber>64694</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64694</ExpertLink>
+                    <OrphaCode>64694</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64694</ExpertLink>
                     <Name lang="pl">Gorączka okopowa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11562">
-                    <OrphaNumber>83317</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83317</ExpertLink>
+                    <OrphaCode>83317</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83317</ExpertLink>
                     <Name lang="pl">Japońska gorączka rzeczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12159">
-                    <OrphaNumber>91546</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91546</ExpertLink>
+                    <OrphaCode>91546</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91546</ExpertLink>
                     <Name lang="pl">Choroba z Lyme</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12160">
-                    <OrphaNumber>91547</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91547</ExpertLink>
+                    <OrphaCode>91547</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91547</ExpertLink>
                     <Name lang="pl">Dur powrotny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="14957">
-                    <OrphaNumber>102021</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=102021</ExpertLink>
+                    <OrphaCode>102021</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=102021</ExpertLink>
                     <Name lang="pl">Choroba riketsjowa</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="3537">
-                        <OrphaNumber>1902</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1902</ExpertLink>
+                        <OrphaCode>1902</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1902</ExpertLink>
                         <Name lang="pl">Erlichioza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14958">
-                        <OrphaNumber>102022</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=102022</ExpertLink>
+                        <OrphaCode>102022</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=102022</ExpertLink>
                         <Name lang="pl">Gorączka plamista wywołana przez riketsje</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="11556">
-                            <OrphaNumber>83311</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83311</ExpertLink>
+                            <OrphaCode>83311</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83311</ExpertLink>
                             <Name lang="pl">Gorączka plamista z Gór Skalistych</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11557">
-                            <OrphaNumber>83312</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83312</ExpertLink>
+                            <OrphaCode>83312</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83312</ExpertLink>
                             <Name lang="pl">Ospa riketsjowa</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11558">
-                            <OrphaNumber>83313</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83313</ExpertLink>
+                            <OrphaCode>83313</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83313</ExpertLink>
                             <Name lang="en">Boutonneuse fever</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11561">
-                            <OrphaNumber>83316</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83316</ExpertLink>
+                            <OrphaCode>83316</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83316</ExpertLink>
                             <Name lang="pl">Pseudotyfus kalifornijski</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14845">
-                            <OrphaNumber>101334</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101334</ExpertLink>
+                            <OrphaCode>101334</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101334</ExpertLink>
                             <Name lang="pl">Dur kleszczowy afrykański</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -519,32 +692,44 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14959">
-                        <OrphaNumber>102023</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=102023</ExpertLink>
+                        <OrphaCode>102023</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=102023</ExpertLink>
                         <Name lang="pl">Riketsje wywołujące tyfus</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="11559">
-                            <OrphaNumber>83314</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83314</ExpertLink>
+                            <OrphaCode>83314</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83314</ExpertLink>
                             <Name lang="pl">Dur plamisty</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="14563">
-                                <OrphaNumber>99990</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99990</ExpertLink>
+                                <OrphaCode>99990</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99990</ExpertLink>
                                 <Name lang="pl">Choroba Brilla i Zinssera</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="14564">
-                                <OrphaNumber>99991</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99991</ExpertLink>
+                                <OrphaCode>99991</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99991</ExpertLink>
                                 <Name lang="pl">Epidemiczny dur powrotny</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -553,9 +738,12 @@
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11560">
-                            <OrphaNumber>83315</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83315</ExpertLink>
+                            <OrphaCode>83315</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83315</ExpertLink>
                             <Name lang="pl">Dur szczurzy</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -566,70 +754,94 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16726">
-                    <OrphaNumber>137839</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137839</ExpertLink>
+                    <OrphaCode>137839</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137839</ExpertLink>
                     <Name lang="pl">Zespół Lemierre'a</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19517">
-                    <OrphaNumber>247257</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247257</ExpertLink>
+                    <OrphaCode>247257</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247257</ExpertLink>
                     <Name lang="pl">Wąglik płucny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="21135">
-                    <OrphaNumber>300579</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300579</ExpertLink>
+                    <OrphaCode>300579</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300579</ExpertLink>
                     <Name lang="pl">Toksemia gronkowcowa</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="10410">
-                        <OrphaNumber>36235</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36235</ExpertLink>
+                        <OrphaCode>36235</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=36235</ExpertLink>
                         <Name lang="pl">Szkarlatyna gronkowcowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="10411">
-                        <OrphaNumber>36236</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36236</ExpertLink>
+                        <OrphaCode>36236</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=36236</ExpertLink>
                         <Name lang="pl">Gronkowcowy zespół oparzeniowy skóry</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="10412">
-                        <OrphaNumber>36237</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36237</ExpertLink>
+                        <OrphaCode>36237</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=36237</ExpertLink>
                         <Name lang="pl">Liszajec pęcherzowy</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="10413">
-                        <OrphaNumber>36238</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36238</ExpertLink>
+                        <OrphaCode>36238</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=36238</ExpertLink>
                         <Name lang="pl">Gronkowcowe martwicze zapalenie płuc</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14492">
-                        <OrphaNumber>99919</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99919</ExpertLink>
+                        <OrphaCode>99919</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99919</ExpertLink>
                         <Name lang="pl">Gronkowcowy zespół wstrząsu toksycznego</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -637,46 +849,73 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="21542">
-                    <OrphaNumber>314946</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314946</ExpertLink>
-                    <Name lang="pl">Zakażenie Mycobacterium xenopi</Name>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="23030">
-                    <OrphaNumber>411703</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=411703</ExpertLink>
+                    <OrphaCode>411703</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=411703</ExpertLink>
                     <Name lang="pl">Niegruźlicza  mykobakteryjna infekcja płuc</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23402">
-                    <OrphaNumber>440368</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440368</ExpertLink>
+                    <OrphaCode>440368</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=440368</ExpertLink>
                     <Name lang="pl">Martwicze zakażenie tkanek miękkich</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11969">
+                    <OrphaCode>90078</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90078</ExpertLink>
+                    <Name lang="pl">Inwazyjne zakażenie enterokokami opornymi na wankomycynę</Name>
+                    <DisorderType id="21429">
+                      <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25940">
-                    <OrphaNumber>499004</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=499004</ExpertLink>
+                    <OrphaCode>499004</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=499004</ExpertLink>
                     <Name lang="en">Tuberculous meningitis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28678">
+                    <OrphaCode>570762</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=570762</ExpertLink>
+                    <Name lang="en">Infective endocarditis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23699">
-                    <OrphaNumber>457095</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=457095</ExpertLink>
+                    <OrphaCode>457095</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=457095</ExpertLink>
                     <Name lang="pl">Aktynomikoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -685,185 +924,248 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="17504">
-                <OrphaNumber>163585</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163585</ExpertLink>
+                <OrphaCode>163585</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163585</ExpertLink>
                 <Name lang="pl">Rzadka choroba wirusowa</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="18">
+              <ClassificationNodeChildList count="20">
                 <ClassificationNode>
                   <Disorder id="793">
-                    <OrphaNumber>3020</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3020</ExpertLink>
+                    <OrphaCode>3020</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3020</ExpertLink>
                     <Name lang="pl">Zespół Ramsaya Hunta</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="804">
-                    <OrphaNumber>293</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293</ExpertLink>
+                    <OrphaCode>293</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie herpeswirusowe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="866">
-                    <OrphaNumber>770</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=770</ExpertLink>
+                    <OrphaCode>770</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=770</ExpertLink>
                     <Name lang="pl">Wścieklizna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3412">
-                    <OrphaNumber>341</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=341</ExpertLink>
+                    <OrphaCode>341</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=341</ExpertLink>
                     <Name lang="pl">Wirusowa gorączka krwotoczna</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="16">
                     <ClassificationNode>
                       <Disorder id="3411">
-                        <OrphaNumber>340</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=340</ExpertLink>
+                        <OrphaCode>340</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=340</ExpertLink>
                         <Name lang="pl">Gorączka  krwotoczna - zespół nerkowy</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14397">
-                        <OrphaNumber>99824</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99824</ExpertLink>
+                        <OrphaCode>99824</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99824</ExpertLink>
                         <Name lang="pl">Gorączka Lassa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14399">
-                        <OrphaNumber>99826</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99826</ExpertLink>
+                        <OrphaCode>99826</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99826</ExpertLink>
                         <Name lang="pl">Gorączka krwotoczna Marburg</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14400">
-                        <OrphaNumber>99827</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99827</ExpertLink>
+                        <OrphaCode>99827</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99827</ExpertLink>
                         <Name lang="pl">Krymsko-Kongijska gorączka krwotoczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21627">
-                        <OrphaNumber>319213</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319213</ExpertLink>
+                        <OrphaCode>319213</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319213</ExpertLink>
                         <Name lang="pl">Gorączka krwotoczna Lujo</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21628">
-                        <OrphaNumber>319218</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319218</ExpertLink>
+                        <OrphaCode>319218</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319218</ExpertLink>
                         <Name lang="pl">Gorączka krwotoczna Ebola</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21629">
-                        <OrphaNumber>319223</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319223</ExpertLink>
+                        <OrphaCode>319223</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319223</ExpertLink>
                         <Name lang="pl">Argentyńska gorączka krwotoczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21630">
-                        <OrphaNumber>319229</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319229</ExpertLink>
+                        <OrphaCode>319229</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319229</ExpertLink>
                         <Name lang="pl">Boliwijska gorączka krwotoczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21631">
-                        <OrphaNumber>319234</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319234</ExpertLink>
+                        <OrphaCode>319234</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319234</ExpertLink>
                         <Name lang="pl">Wenezuelska gorączka krwotoczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21632">
-                        <OrphaNumber>319239</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319239</ExpertLink>
+                        <OrphaCode>319239</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319239</ExpertLink>
                         <Name lang="pl">Brazylijska gorączka krwotoczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21633">
-                        <OrphaNumber>319244</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319244</ExpertLink>
+                        <OrphaCode>319244</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319244</ExpertLink>
                         <Name lang="pl">Gorączka krwotoczna Chapare</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21634">
-                        <OrphaNumber>319247</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319247</ExpertLink>
+                        <OrphaCode>319247</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319247</ExpertLink>
                         <Name lang="pl">Hantawirusowy zespół płucny</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21635">
-                        <OrphaNumber>319251</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319251</ExpertLink>
+                        <OrphaCode>319251</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319251</ExpertLink>
                         <Name lang="pl">Gorączka doliny Rift</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21636">
-                        <OrphaNumber>319254</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319254</ExpertLink>
+                        <OrphaCode>319254</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319254</ExpertLink>
                         <Name lang="pl">Leśna choroba Kyasanur</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21637">
-                        <OrphaNumber>319266</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319266</ExpertLink>
+                        <OrphaCode>319266</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319266</ExpertLink>
                         <Name lang="pl">Gorączka krwotoczna Omsk</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14402">
-                        <OrphaNumber>99829</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99829</ExpertLink>
+                        <OrphaCode>99829</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99829</ExpertLink>
                         <Name lang="pl">Żółta febra</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -872,34 +1174,46 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3413">
-                    <OrphaNumber>344</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=344</ExpertLink>
+                    <OrphaCode>344</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=344</ExpertLink>
                     <Name lang="pl">Gorączka arbowirusowa</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="14401">
-                        <OrphaNumber>99828</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99828</ExpertLink>
+                        <OrphaCode>99828</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99828</ExpertLink>
                         <Name lang="pl">Gorączka Denga</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14402">
-                        <OrphaNumber>99829</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99829</ExpertLink>
+                        <OrphaCode>99829</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99829</ExpertLink>
                         <Name lang="pl">Żółta febra</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21794">
-                        <OrphaNumber>324625</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324625</ExpertLink>
+                        <OrphaCode>324625</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324625</ExpertLink>
                         <Name lang="pl">Chikungunya</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -908,187 +1222,238 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3417">
-                    <OrphaNumber>2566</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2566</ExpertLink>
+                    <OrphaCode>2566</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2566</ExpertLink>
                     <Name lang="pl">Podatność na przewlekłe zakażenie wirusem Epsteina-Barra</Name>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10359">
-                    <OrphaNumber>35061</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35061</ExpertLink>
-                    <Name lang="pl">Idiopatyczne nawracające zakażenie skóry herpes wirusem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10360">
-                    <OrphaNumber>35062</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35062</ExpertLink>
+                    <OrphaCode>35062</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=35062</ExpertLink>
                     <Name lang="pl">Idiopatyczna rosiane zakażenie cytomegalowirusem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10967">
-                    <OrphaNumber>70596</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70596</ExpertLink>
+                    <OrphaCode>70596</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70596</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie wirusem Epsteina-Barra</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="13269">
-                    <OrphaNumber>98252</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98252</ExpertLink>
+                    <OrphaCode>98252</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98252</ExpertLink>
                     <Name lang="pl">Zakaźne zapalenie mózgu</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="16">
                     <ClassificationNode>
                       <Disorder id="3275">
-                        <OrphaNumber>1930</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1930</ExpertLink>
+                        <OrphaCode>1930</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1930</ExpertLink>
                         <Name lang="pl">Opryszczkowe zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="8530">
-                        <OrphaNumber>297</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=297</ExpertLink>
+                        <OrphaCode>297</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=297</ExpertLink>
                         <Name lang="pl">Kleszczowe zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11165">
-                        <OrphaNumber>79139</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79139</ExpertLink>
+                        <OrphaCode>79139</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79139</ExpertLink>
                         <Name lang="pl">Japońskie zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11583">
-                        <OrphaNumber>83476</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83476</ExpertLink>
+                        <OrphaCode>83476</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83476</ExpertLink>
                         <Name lang="pl">Zapalenie mózgu Zachodniego Nilu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11584">
-                        <OrphaNumber>83482</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83482</ExpertLink>
+                        <OrphaCode>83482</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83482</ExpertLink>
                         <Name lang="pl">Mykoplazmowe zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11585">
-                        <OrphaNumber>83483</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83483</ExpertLink>
+                        <OrphaCode>83483</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83483</ExpertLink>
                         <Name lang="pl">Zapalenie mózgu La Crosse</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11586">
-                        <OrphaNumber>83484</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83484</ExpertLink>
+                        <OrphaCode>83484</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83484</ExpertLink>
                         <Name lang="pl">Zapalenie mózgu St. Louis</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11587">
-                        <OrphaNumber>83593</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83593</ExpertLink>
+                        <OrphaCode>83593</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83593</ExpertLink>
                         <Name lang="pl">Zachodnie końskie zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11588">
-                        <OrphaNumber>83594</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83594</ExpertLink>
+                        <OrphaCode>83594</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83594</ExpertLink>
                         <Name lang="pl">Wschodnie końskie zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11589">
-                        <OrphaNumber>83595</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83595</ExpertLink>
+                        <OrphaCode>83595</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83595</ExpertLink>
                         <Name lang="pl">Gorączka kleszczowa Kolorado</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11594">
-                        <OrphaNumber>83616</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83616</ExpertLink>
+                        <OrphaCode>83616</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=83616</ExpertLink>
                         <Name lang="pl">Różyczkowe zapalenie mózgu</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14398">
-                        <OrphaNumber>99825</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99825</ExpertLink>
+                        <OrphaCode>99825</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99825</ExpertLink>
                         <Name lang="pl">Choroba wirusowa Nipah</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="17150">
-                        <OrphaNumber>157823</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=157823</ExpertLink>
+                        <OrphaCode>157823</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=157823</ExpertLink>
                         <Name lang="pl">Zespół Klüvera i Bucy'ego</Name>
+                        <DisorderType id="21422">
+                          <Name lang="pl">Zespół kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18828">
-                        <OrphaNumber>217260</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217260</ExpertLink>
+                        <OrphaCode>217260</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217260</ExpertLink>
                         <Name lang="pl">Postępująca wieloogniskowa leukoencefalopatia</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="20067">
-                        <OrphaNumber>263524</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263524</ExpertLink>
+                        <OrphaCode>263524</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=263524</ExpertLink>
                         <Name lang="pl">Dziecięca ostra encefalopatia marwicza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21795">
-                        <OrphaNumber>324632</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324632</ExpertLink>
+                        <OrphaCode>324632</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324632</ExpertLink>
                         <Name lang="pl">Zakażenie wirusem Hendra</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1097,72 +1462,132 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16993">
-                    <OrphaNumber>140896</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=140896</ExpertLink>
+                    <OrphaCode>140896</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=140896</ExpertLink>
                     <Name lang="pl">Zespół ostrej niewydolności oddechowej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19118">
-                    <OrphaNumber>228379</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228379</ExpertLink>
+                    <OrphaCode>228379</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=228379</ExpertLink>
                     <Name lang="pl">Trichodysplazja spowodowana zakażeniem wirusowym</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20711">
-                    <OrphaNumber>289326</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289326</ExpertLink>
+                    <OrphaCode>289326</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=289326</ExpertLink>
                     <Name lang="pl">Tropikalna parapareza spastyczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20712">
-                    <OrphaNumber>289347</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289347</ExpertLink>
+                    <OrphaCode>289347</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=289347</ExpertLink>
                     <Name lang="pl">Zakaźne zapalenie skóry związane z HTLV-1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23374">
-                    <OrphaNumber>438279</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=438279</ExpertLink>
+                    <OrphaCode>438279</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=438279</ExpertLink>
                     <Name lang="pl">Zakażenie ludzkim ortopokswirusem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22889">
-                    <OrphaNumber>402823</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=402823</ExpertLink>
+                    <OrphaCode>402823</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=402823</ExpertLink>
                     <Name lang="pl">Zapalenie wątroby delta</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="12104">
+                    <OrphaCode>91127</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91127</ExpertLink>
+                    <Name lang="pl">Infekcja adenowirusowa u pacjentów z upośledzeniem odporności</Name>
+                    <DisorderType id="21429">
+                      <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="16710">
+                    <OrphaCode>137698</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137698</ExpertLink>
+                    <Name lang="pl">Choroba cytomegalowirusowa u pacjentów zagrożonych upośledzeniem odporności komórkowej</Name>
+                    <DisorderType id="21429">
+                      <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23562">
-                    <OrphaNumber>448237</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=448237</ExpertLink>
+                    <OrphaCode>448237</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=448237</ExpertLink>
                     <Name lang="pl">Choroba wirusa Zika</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28838">
+                    <OrphaCode>576074</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=576074</ExpertLink>
+                    <Name lang="en">Middle East respiratory syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23665">
-                    <OrphaNumber>454836</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454836</ExpertLink>
+                    <OrphaCode>454836</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=454836</ExpertLink>
                     <Name lang="pl">Ptasia grypa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1171,212 +1596,284 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="17505">
-                <OrphaNumber>163588</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163588</ExpertLink>
+                <OrphaCode>163588</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163588</ExpertLink>
                 <Name lang="pl">Rzadka choroba parazytologiczna</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="35">
                 <ClassificationNode>
                   <Disorder id="3596">
-                    <OrphaNumber>1223</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1223</ExpertLink>
+                    <OrphaCode>1223</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1223</ExpertLink>
                     <Name lang="pl">Balantidioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="210">
-                    <OrphaNumber>673</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=673</ExpertLink>
+                    <OrphaCode>673</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=673</ExpertLink>
                     <Name lang="pl">Malaria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="258">
-                    <OrphaNumber>1247</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1247</ExpertLink>
+                    <OrphaCode>1247</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1247</ExpertLink>
                     <Name lang="pl">Schistosomatoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="596">
-                    <OrphaNumber>858</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=858</ExpertLink>
+                    <OrphaCode>858</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=858</ExpertLink>
                     <Name lang="pl">Toksoplazmoza wrodzona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="757">
-                    <OrphaNumber>863</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=863</ExpertLink>
+                    <OrphaCode>863</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=863</ExpertLink>
                     <Name lang="pl">Włośnica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="813">
-                    <OrphaNumber>1549</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1549</ExpertLink>
+                    <OrphaCode>1549</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1549</ExpertLink>
                     <Name lang="pl">Kryptosporydioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="830">
-                    <OrphaNumber>284</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284</ExpertLink>
+                    <OrphaCode>284</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284</ExpertLink>
                     <Name lang="pl">Echinokokoza pęcherzykowa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="867">
-                    <OrphaNumber>3386</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3386</ExpertLink>
+                    <OrphaCode>3386</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3386</ExpertLink>
                     <Name lang="pl">Trypanosomoza amerykańska</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1033">
-                    <OrphaNumber>507</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=507</ExpertLink>
+                    <OrphaCode>507</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=507</ExpertLink>
                     <Name lang="pl">Leiszmanioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3332">
-                    <OrphaNumber>1070</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1070</ExpertLink>
+                    <OrphaCode>1070</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1070</ExpertLink>
                     <Name lang="pl">Anisakioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3410">
-                    <OrphaNumber>2552</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2552</ExpertLink>
+                    <OrphaCode>2552</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2552</ExpertLink>
                     <Name lang="pl">Mikrosporydioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3415">
-                    <OrphaNumber>1560</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1560</ExpertLink>
+                    <OrphaCode>1560</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1560</ExpertLink>
                     <Name lang="pl">Wągrzyca</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3416">
-                    <OrphaNumber>3385</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3385</ExpertLink>
+                    <OrphaCode>3385</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3385</ExpertLink>
                     <Name lang="pl">Trypanosomatoza afrykańska</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3534">
-                    <OrphaNumber>67</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=67</ExpertLink>
+                    <OrphaCode>67</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=67</ExpertLink>
                     <Name lang="pl">Pełzakowica wywołana Entamoeba histolytica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3535">
-                    <OrphaNumber>1546</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1546</ExpertLink>
+                    <OrphaCode>1546</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1546</ExpertLink>
                     <Name lang="pl">Kryptokokoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3536">
-                    <OrphaNumber>1685</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1685</ExpertLink>
+                    <OrphaCode>1685</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1685</ExpertLink>
                     <Name lang="pl">Przywrzyca</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3538">
-                    <OrphaNumber>2034</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2034</ExpertLink>
+                    <OrphaCode>2034</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2034</ExpertLink>
                     <Name lang="pl">Filarioza</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="3540">
-                        <OrphaNumber>2737</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2737</ExpertLink>
+                        <OrphaCode>2737</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2737</ExpertLink>
                         <Name lang="pl">Onchocerkoza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="5518">
-                        <OrphaNumber>231</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231</ExpertLink>
+                        <OrphaCode>231</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=231</ExpertLink>
                         <Name lang="pl">Drakunkuloza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="5519">
-                        <OrphaNumber>2035</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2035</ExpertLink>
+                        <OrphaCode>2035</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2035</ExpertLink>
                         <Name lang="pl">Filarioza limfatyczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="5521">
-                        <OrphaNumber>2404</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2404</ExpertLink>
+                        <OrphaCode>2404</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2404</ExpertLink>
                         <Name lang="pl">Loaoza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="5522">
-                        <OrphaNumber>2459</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2459</ExpertLink>
+                        <OrphaCode>2459</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2459</ExpertLink>
                         <Name lang="pl">Mansoneloza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="17630">
-                        <OrphaNumber>166291</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166291</ExpertLink>
+                        <OrphaCode>166291</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166291</ExpertLink>
                         <Name lang="pl">Dirofilarioza</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1385,176 +1882,272 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3541">
-                    <OrphaNumber>3343</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3343</ExpertLink>
+                    <OrphaCode>3343</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3343</ExpertLink>
                     <Name lang="pl">Toksokaroza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8535">
-                    <OrphaNumber>68</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=68</ExpertLink>
+                    <OrphaCode>68</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68</ExpertLink>
                     <Name lang="pl">Ameboza wywołana  wolno żyjącą amebą</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8536">
-                    <OrphaNumber>74</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=74</ExpertLink>
+                    <OrphaCode>74</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=74</ExpertLink>
                     <Name lang="pl">Angiostrogyloza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8537">
-                    <OrphaNumber>76</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=76</ExpertLink>
+                    <OrphaCode>76</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=76</ExpertLink>
                     <Name lang="pl">Węgorczyca</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8538">
-                    <OrphaNumber>78</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=78</ExpertLink>
+                    <OrphaCode>78</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=78</ExpertLink>
                     <Name lang="pl">Ankilostomatoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8539">
-                    <OrphaNumber>108</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108</ExpertLink>
+                    <OrphaCode>108</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108</ExpertLink>
                     <Name lang="pl">Babeszioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8540">
-                    <OrphaNumber>128</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=128</ExpertLink>
+                    <OrphaCode>128</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=128</ExpertLink>
                     <Name lang="pl">Difylobotrioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8542">
-                    <OrphaNumber>210</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=210</ExpertLink>
+                    <OrphaCode>210</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=210</ExpertLink>
                     <Name lang="pl">Cyklosporoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8543">
-                    <OrphaNumber>283</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=283</ExpertLink>
+                    <OrphaCode>283</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=283</ExpertLink>
                     <Name lang="pl">Demodekoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8545">
-                    <OrphaNumber>400</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=400</ExpertLink>
+                    <OrphaCode>400</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=400</ExpertLink>
                     <Name lang="pl">Bąblowica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8546">
-                    <OrphaNumber>401</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=401</ExpertLink>
+                    <OrphaCode>401</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=401</ExpertLink>
                     <Name lang="pl">Hymenolepioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8548">
-                    <OrphaNumber>472</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=472</ExpertLink>
+                    <OrphaCode>472</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=472</ExpertLink>
                     <Name lang="pl">Izosporydoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8553">
-                    <OrphaNumber>879</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=879</ExpertLink>
+                    <OrphaCode>879</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=879</ExpertLink>
                     <Name lang="pl">Tungiaza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10754">
-                    <OrphaNumber>54368</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=54368</ExpertLink>
+                    <OrphaCode>54368</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=54368</ExpertLink>
                     <Name lang="pl">Sarkocystoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10903">
-                    <OrphaNumber>67043</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=67043</ExpertLink>
+                    <OrphaCode>67043</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=67043</ExpertLink>
                     <Name lang="pl">Pełzakowe zapalenie rogówki</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11066">
-                    <OrphaNumber>75110</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=75110</ExpertLink>
+                    <OrphaCode>75110</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=75110</ExpertLink>
                     <Name lang="pl">Muszyca</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14556">
-                        <OrphaNumber>99983</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99983</ExpertLink>
+                        <OrphaCode>99983</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99983</ExpertLink>
                         <Name lang="pl">Muszyca skórna</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="8549">
-                            <OrphaNumber>504</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=504</ExpertLink>
+                            <OrphaCode>504</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=504</ExpertLink>
                             <Name lang="pl">Muszyca pełzająca</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="8550">
-                            <OrphaNumber>591</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=591</ExpertLink>
+                            <OrphaCode>591</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=591</ExpertLink>
                             <Name lang="pl">Muszyca czyrakowata</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="28372">
+                                <OrphaCode>563690</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563690</ExpertLink>
+                                <Name lang="en">Furuncular myiasis due to Cordylobia rodhaini</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="28371">
+                                <OrphaCode>563687</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563687</ExpertLink>
+                                <Name lang="en">Furuncular myiasis due to Cordylobia anthropophaga</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="28370">
+                                <OrphaCode>563684</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563684</ExpertLink>
+                                <Name lang="en">Furuncular myiasis due to Dermatobia hominis</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="17588">
-                            <OrphaNumber>165955</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165955</ExpertLink>
+                            <OrphaCode>165955</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=165955</ExpertLink>
                             <Name lang="pl">Muszyca ran</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -1563,9 +2156,12 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="17589">
-                        <OrphaNumber>165958</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165958</ExpertLink>
+                        <OrphaCode>165958</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=165958</ExpertLink>
                         <Name lang="pl">Muszyca jamy ciała</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1574,18 +2170,24 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19071">
-                    <OrphaNumber>228123</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228123</ExpertLink>
+                    <OrphaCode>228123</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=228123</ExpertLink>
                     <Name lang="pl">Kokcydioidomikoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23166">
-                    <OrphaNumber>423717</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=423717</ExpertLink>
+                    <OrphaCode>423717</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=423717</ExpertLink>
                     <Name lang="pl">Larwa wędrująca skórna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1594,106 +2196,142 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="17506">
-                <OrphaNumber>163591</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163591</ExpertLink>
+                <OrphaCode>163591</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163591</ExpertLink>
                 <Name lang="pl">Rzadka grzybica</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="11">
                 <ClassificationNode>
                   <Disorder id="719">
-                    <OrphaNumber>1163</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1163</ExpertLink>
+                    <OrphaCode>1163</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1163</ExpertLink>
                     <Name lang="pl">Aspergiloza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3539">
-                    <OrphaNumber>2583</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2583</ExpertLink>
+                    <OrphaCode>2583</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2583</ExpertLink>
                     <Name lang="pl">Grzybica madurska</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8541">
-                    <OrphaNumber>182</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182</ExpertLink>
+                    <OrphaCode>182</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182</ExpertLink>
                     <Name lang="pl">Chromomikoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8544">
-                    <OrphaNumber>390</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=390</ExpertLink>
+                    <OrphaCode>390</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=390</ExpertLink>
                     <Name lang="pl">Histoplazmoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8551">
-                    <OrphaNumber>723</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=723</ExpertLink>
+                    <OrphaCode>723</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=723</ExpertLink>
                     <Name lang="pl">Pneumocystoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8552">
-                    <OrphaNumber>826</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=826</ExpertLink>
+                    <OrphaCode>826</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=826</ExpertLink>
                     <Name lang="pl">Sporotrychoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11043">
-                    <OrphaNumber>73260</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73260</ExpertLink>
+                    <OrphaCode>73260</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=73260</ExpertLink>
                     <Name lang="pl">Parakokcydioidomikoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11044">
-                    <OrphaNumber>73263</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73263</ExpertLink>
+                    <OrphaCode>73263</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=73263</ExpertLink>
                     <Name lang="pl">Mukormykoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19070">
-                    <OrphaNumber>228119</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228119</ExpertLink>
+                    <OrphaCode>228119</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=228119</ExpertLink>
                     <Name lang="pl">Fuzarioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22682">
-                    <OrphaNumber>397587</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397587</ExpertLink>
+                    <OrphaCode>397587</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=397587</ExpertLink>
                     <Name lang="pl">Dermatofitoza głęboka</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23614">
-                    <OrphaNumber>449280</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449280</ExpertLink>
+                    <OrphaCode>449280</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449280</ExpertLink>
                     <Name lang="pl">Scedosporioza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1702,88 +2340,118 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="19217">
-                <OrphaNumber>232035</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=232035</ExpertLink>
+                <OrphaCode>232035</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=232035</ExpertLink>
                 <Name lang="pl">Embriofetopatia zakaźna</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="9">
                 <ClassificationNode>
                   <Disorder id="488">
-                    <OrphaNumber>295</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=295</ExpertLink>
+                    <OrphaCode>295</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=295</ExpertLink>
                     <Name lang="pl">Parwowirusowy zespół płodu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="575">
-                    <OrphaNumber>290</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=290</ExpertLink>
+                    <OrphaCode>290</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=290</ExpertLink>
                     <Name lang="pl">Różyczka wrodzona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="596">
-                    <OrphaNumber>858</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=858</ExpertLink>
+                    <OrphaCode>858</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=858</ExpertLink>
                     <Name lang="pl">Toksoplazmoza wrodzona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="602">
-                    <OrphaNumber>291</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=291</ExpertLink>
+                    <OrphaCode>291</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=291</ExpertLink>
                     <Name lang="pl">Zespół wrodzonej ospy wietrznej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="804">
-                    <OrphaNumber>293</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293</ExpertLink>
+                    <OrphaCode>293</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie herpeswirusowe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1878">
-                    <OrphaNumber>294</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294</ExpertLink>
+                    <OrphaCode>294</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=294</ExpertLink>
                     <Name lang="pl">Zespół cytomegalii płodu</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3402">
-                    <OrphaNumber>292</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=292</ExpertLink>
+                    <OrphaCode>292</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=292</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie enterowirusem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10967">
-                    <OrphaNumber>70596</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70596</ExpertLink>
+                    <OrphaCode>70596</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70596</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie wirusem Epsteina-Barra</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25941">
-                    <OrphaNumber>499009</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=499009</ExpertLink>
+                    <OrphaCode>499009</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=499009</ExpertLink>
                     <Name lang="en">Congenital syphilis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1792,7 +2460,7 @@
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

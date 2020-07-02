@@ -1,43 +1,105 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2019-07-08 16:57:34" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="15031">
-      <OrphaNumber>108999</OrphaNumber>
-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=108999</ExpertLink>
-      <Name lang="es">Trastorno raro por efectos tóxicos</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:45:15" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="204">
+      <OrphaNumber>162979</OrphaNumber>
+      <Name lang="es">Clasificación de Orphanet de los trastornos por efectos tóxicos raros</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
-          <ClassificationNodeChildList count="20">
-            <ClassificationNode>
-              <Disorder id="24156">
-                <OrphaNumber>466677</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=466677</ExpertLink>
-                <Name lang="es">Envenenamiento por escorpión</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
+          <Disorder id="15031">
+            <OrphaCode>108999</OrphaCode>
+            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=108999</ExpertLink>
+            <Name lang="es">Trastorno raro por efectos tóxicos</Name>
+            <DisorderType id="36561">
+              <Name lang="es">Category</Name>
+            </DisorderType>
+          </Disorder>
+          <ClassificationNodeChildList count="4">
             <ClassificationNode>
               <Disorder id="27316">
-                <OrphaNumber>521132</OrphaNumber>
+                <OrphaCode>521132</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=521132</ExpertLink>
                 <Name lang="es">Trastorno inducido por radiación</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="2">
+              <ClassificationNodeChildList count="6">
                 <ClassificationNode>
                   <Disorder id="27315">
-                    <OrphaNumber>521127</OrphaNumber>
+                    <OrphaCode>521127</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=521127</ExpertLink>
                     <Name lang="es">Osteorradionecrosis de la mandíbula</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27314">
-                    <OrphaNumber>521123</OrphaNumber>
+                    <OrphaCode>521123</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=521123</ExpertLink>
                     <Name lang="es">Plexopatía inducida por radiación</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23664">
+                    <OrphaCode>454831</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=454831</ExpertLink>
+                    <Name lang="es">Síndrome de irradiación aguda</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11923">
+                    <OrphaCode>90021</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90021</ExpertLink>
+                    <Name lang="es">Mielitis por radiación</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10948">
+                    <OrphaCode>70475</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=70475</ExpertLink>
+                    <Name lang="es">Proctitis por radiación</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="17567">
+                    <OrphaCode>164726</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=164726</ExpertLink>
+                    <Name lang="es">Leucemia mieloide aguda y síndromes mielodisplásicos relacionados con la radiación</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -45,188 +107,143 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="9797">
-                <OrphaNumber>31825</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31825</ExpertLink>
-                <Name lang="es">Envenenamiento por metanol</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="9798">
-                <OrphaNumber>31826</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31826</ExpertLink>
-                <Name lang="es">Envenenamiento por etilenglicol</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="9799">
-                <OrphaNumber>31827</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31827</ExpertLink>
-                <Name lang="es">Envenenamiento por paraquat</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="10404">
-                <OrphaNumber>35889</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=35889</ExpertLink>
-                <Name lang="es">Envenenamiento agudo por opioides</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="10795">
-                <OrphaNumber>60014</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=60014</ExpertLink>
-                <Name lang="es">Argiria</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11054">
-                <OrphaNumber>73423</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=73423</ExpertLink>
-                <Name lang="es">Intoxicación aguda por fruto de ackee</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11959">
-                <OrphaNumber>90068</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90068</ExpertLink>
-                <Name lang="es">Intoxicación por cocaína</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11960">
-                <OrphaNumber>90069</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90069</ExpertLink>
-                <Name lang="es">Intoxicación sistémica por monocloroacetato</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="19057">
-                <OrphaNumber>227972</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=227972</ExpertLink>
-                <Name lang="es">Síndrome del aceite tóxico</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="19510">
-                <OrphaNumber>247165</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=247165</ExpertLink>
-                <Name lang="es">Intoxicación infantil por mercurio</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
               <Disorder id="21242">
-                <OrphaNumber>306640</OrphaNumber>
+                <OrphaCode>306640</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306640</ExpertLink>
                 <Name lang="es">Intoxicación rara por productos médicos</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="10">
+              <ClassificationNodeChildList count="11">
+                <ClassificationNode>
+                  <Disorder id="28446">
+                    <OrphaCode>565782</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=565782</ExpertLink>
+                    <Name lang="es">Toxicidad por metotrexato</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27624">
-                    <OrphaNumber>529831</OrphaNumber>
+                    <OrphaCode>529831</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=529831</ExpertLink>
                     <Name lang="es">Toxicidad por letrozol</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27623">
-                    <OrphaNumber>529828</OrphaNumber>
+                    <OrphaCode>529828</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=529828</ExpertLink>
                     <Name lang="es">Toxicidad por enzalutamida</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9796">
-                    <OrphaNumber>31824</OrphaNumber>
+                    <OrphaCode>31824</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31824</ExpertLink>
-                    <Name lang="es">Envenenamiento por colchicina</Name>
+                    <Name lang="es">Intoxicación por colchicina</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9800">
-                    <OrphaNumber>31828</OrphaNumber>
+                    <OrphaCode>31828</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31828</ExpertLink>
                     <Name lang="es">Intoxicación digitálica</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10581">
-                    <OrphaNumber>43117</OrphaNumber>
+                    <OrphaCode>43117</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=43117</ExpertLink>
                     <Name lang="es">Intoxicación aguda por antidepresivos tricíclicos</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10582">
-                    <OrphaNumber>43119</OrphaNumber>
+                    <OrphaCode>43119</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=43119</ExpertLink>
-                    <Name lang="es">Envenenamiento agudo por fármacos con efecto estabilizador de membrana</Name>
+                    <Name lang="es">Intoxicación  aguda por fármacos con efecto estabilizador de membrana</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18819">
-                    <OrphaNumber>217064</OrphaNumber>
+                    <OrphaCode>217064</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=217064</ExpertLink>
-                    <Name lang="es">Envenenamiento por 5-fluorouracilo</Name>
+                    <Name lang="es">Intoxicación por 5-fluorouracilo</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20871">
-                    <OrphaNumber>293807</OrphaNumber>
+                    <OrphaCode>293807</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=293807</ExpertLink>
                     <Name lang="es">Dilatación biliar inducida por ketamina</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24154">
-                    <OrphaNumber>466670</OrphaNumber>
+                    <OrphaCode>466670</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=466670</ExpertLink>
-                    <Name lang="es">Envenenamiento por cianuro</Name>
+                    <Name lang="es">Intoxicación por cianuro</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24028">
-                    <OrphaNumber>464458</OrphaNumber>
+                    <OrphaCode>464458</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=464458</ExpertLink>
                     <Name lang="es">Intoxicación por paracetamol</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -234,132 +251,117 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="21251">
-                <OrphaNumber>306682</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306682</ExpertLink>
-                <Name lang="es">Envenenamiento por manganeso</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21252">
-                <OrphaNumber>306686</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306686</ExpertLink>
-                <Name lang="es">Parkinsonismo inducido por monóxido de carbono</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21253">
-                <OrphaNumber>306692</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306692</ExpertLink>
-                <Name lang="es">Parkinsonismo inducido por cianuro</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21959">
-                <OrphaNumber>330015</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=330015</ExpertLink>
-                <Name lang="es">Envenenamiento por plomo</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21960">
-                <OrphaNumber>330021</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=330021</ExpertLink>
-                <Name lang="es">Envenenamiento por mercurio</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
               <Disorder id="19645">
-                <OrphaNumber>251529</OrphaNumber>
+                <OrphaCode>251529</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=251529</ExpertLink>
                 <Name lang="es">Embriofetopatía tóxica o asociada a medicamentos</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
                 <ClassificationNode>
                   <Disorder id="25307">
-                    <OrphaNumber>485358</OrphaNumber>
+                    <OrphaCode>485358</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485358</ExpertLink>
                     <Name lang="es">Embriofetopatía por propiltiouracilo</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1871">
-                    <OrphaNumber>1909</OrphaNumber>
+                    <OrphaCode>1909</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1909</ExpertLink>
                     <Name lang="es">Embriopatía por indometacina</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1870">
-                    <OrphaNumber>1908</OrphaNumber>
+                    <OrphaCode>1908</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1908</ExpertLink>
                     <Name lang="es">Embriofetopatía por aminopterina/metotrexato</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22475">
-                    <OrphaNumber>370068</OrphaNumber>
+                    <OrphaCode>370068</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=370068</ExpertLink>
                     <Name lang="es">Síndrome fetal por anticonvulsivos</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="1875">
-                        <OrphaNumber>1912</OrphaNumber>
+                        <OrphaCode>1912</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1912</ExpertLink>
                         <Name lang="es">Síndrome fetal por hidantoína</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1876">
-                        <OrphaNumber>1913</OrphaNumber>
+                        <OrphaCode>1913</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1913</ExpertLink>
                         <Name lang="es">Síndrome fetal por trimetadiona</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1881">
-                        <OrphaNumber>1919</OrphaNumber>
+                        <OrphaCode>1919</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1919</ExpertLink>
                         <Name lang="es">Embriopatía por fenobarbital</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1868">
-                        <OrphaNumber>1906</OrphaNumber>
+                        <OrphaCode>1906</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1906</ExpertLink>
                         <Name lang="es">Síndrome fetal por valproato</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="22476">
-                        <OrphaNumber>370076</OrphaNumber>
+                        <OrphaCode>370076</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=370076</ExpertLink>
                         <Name lang="es">Síndrome fetal por carbamazepina</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -368,117 +370,156 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="487">
-                    <OrphaNumber>1915</OrphaNumber>
+                    <OrphaCode>1915</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1915</ExpertLink>
-                    <Name lang="es">Embriopatía alcohólica</Name>
+                    <Name lang="es">Síndrome de embriopatía alcohólica</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1885">
-                    <OrphaNumber>1923</OrphaNumber>
+                    <OrphaCode>1923</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1923</ExpertLink>
                     <Name lang="es">Embriofetopatía por metimazol</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2943">
-                    <OrphaNumber>3312</OrphaNumber>
+                    <OrphaCode>3312</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3312</ExpertLink>
                     <Name lang="es">Embriopatía por talidomida</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1877">
-                    <OrphaNumber>1914</OrphaNumber>
+                    <OrphaCode>1914</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1914</ExpertLink>
                     <Name lang="es">Embriofetopatía por antagonistas de la vitamina K</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10462">
-                    <OrphaNumber>40366</OrphaNumber>
+                    <OrphaCode>40366</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=40366</ExpertLink>
                     <Name lang="es">Embriofetopatía por acitretina/etretinato</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1874">
-                    <OrphaNumber>1918</OrphaNumber>
+                    <OrphaCode>1918</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1918</ExpertLink>
-                    <Name lang="es">Embriopatía por minoxidil</Name>
+                    <Name lang="es">Síndrome de embriopatía por minoxidil</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1879">
-                    <OrphaNumber>1916</OrphaNumber>
+                    <OrphaCode>1916</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1916</ExpertLink>
                     <Name lang="es">Síndrome por dietilestilbestrol</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1872">
-                    <OrphaNumber>1910</OrphaNumber>
+                    <OrphaCode>1910</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1910</ExpertLink>
                     <Name lang="es">Síndrome por exposición fetal a la iodina</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2166">
-                    <OrphaNumber>2305</OrphaNumber>
+                    <OrphaCode>2305</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2305</ExpertLink>
                     <Name lang="es">Síndrome por isotretinoina</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20172">
-                    <OrphaNumber>268249</OrphaNumber>
+                    <OrphaCode>268249</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=268249</ExpertLink>
                     <Name lang="es">Embriopatía por micofenolato mofetilo</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1873">
-                    <OrphaNumber>1911</OrphaNumber>
+                    <OrphaCode>1911</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1911</ExpertLink>
                     <Name lang="es">Embriopatía por cocaína</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1880">
-                    <OrphaNumber>1917</OrphaNumber>
+                    <OrphaCode>1917</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1917</ExpertLink>
                     <Name lang="es">Síndrome del metilmercurio fetal</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1882">
-                    <OrphaNumber>1920</OrphaNumber>
+                    <OrphaCode>1920</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1920</ExpertLink>
                     <Name lang="es">Embriopatía por tolueno</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -486,17 +527,236 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="23615">
-                <OrphaNumber>449285</OrphaNumber>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449285</ExpertLink>
-                <Name lang="es">Envenenamiento por mordedura de serpiente</Name>
+              <Disorder id="28137">
+                <OrphaCode>556508</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=556508</ExpertLink>
+                <Name lang="es">Trastorno raro por envenenamiento</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="0">
+              <ClassificationNodeChildList count="18">
+                <ClassificationNode>
+                  <Disorder id="28676">
+                    <OrphaCode>570470</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=570470</ExpertLink>
+                    <Name lang="es">Intoxicación por ricina</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9797">
+                    <OrphaCode>31825</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31825</ExpertLink>
+                    <Name lang="es">Intoxicación por metanol</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9798">
+                    <OrphaCode>31826</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31826</ExpertLink>
+                    <Name lang="es">Intoxicación por etilenglicol</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9799">
+                    <OrphaCode>31827</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31827</ExpertLink>
+                    <Name lang="es">Intoxicación por paraquat</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10404">
+                    <OrphaCode>35889</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=35889</ExpertLink>
+                    <Name lang="es">Intoxicación aguda por opioides</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10795">
+                    <OrphaCode>60014</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=60014</ExpertLink>
+                    <Name lang="es">Argiria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11054">
+                    <OrphaCode>73423</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=73423</ExpertLink>
+                    <Name lang="es">Intoxicación aguda por fruto de ackee</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11959">
+                    <OrphaCode>90068</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90068</ExpertLink>
+                    <Name lang="es">Intoxicación por cocaína</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11960">
+                    <OrphaCode>90069</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90069</ExpertLink>
+                    <Name lang="es">Intoxicación sistémica por monocloroacetato</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19057">
+                    <OrphaCode>227972</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=227972</ExpertLink>
+                    <Name lang="es">Síndrome del aceite tóxico</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19510">
+                    <OrphaCode>247165</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=247165</ExpertLink>
+                    <Name lang="es">Intoxicación infantil por mercurio</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21251">
+                    <OrphaCode>306682</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306682</ExpertLink>
+                    <Name lang="es">Intoxicación por manganeso</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21252">
+                    <OrphaCode>306686</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306686</ExpertLink>
+                    <Name lang="es">Encefalopatía retardada por intoxicación por monóxido de carbono</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21253">
+                    <OrphaCode>306692</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306692</ExpertLink>
+                    <Name lang="es">Distonía-parkinsonismo inducido por cianuro</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21959">
+                    <OrphaCode>330015</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=330015</ExpertLink>
+                    <Name lang="es">Intoxicación por plomo</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21960">
+                    <OrphaCode>330021</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=330021</ExpertLink>
+                    <Name lang="es">Intoxicación por mercurio</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23615">
+                    <OrphaCode>449285</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449285</ExpertLink>
+                    <Name lang="es">Envenenamiento por mordedura de serpiente</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="24156">
+                    <OrphaCode>466677</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=466677</ExpertLink>
+                    <Name lang="es">Envenenamiento por escorpión</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

@@ -1,43 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:48:53" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="12980">
-      <OrphaNumber>97962</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97962</ExpertLink>
-      <Name lang="pl">Rzadkie operacyjne choroby klatki piersiowej</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:35:23" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="186">
+      <OrphaNumber>162709</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare surgical thoracic diseases</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="12980">
+            <OrphaCode>97962</OrphaCode>
+            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97962</ExpertLink>
+            <Name lang="pl">Rzadkie operacyjne choroby klatki piersiowej</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
           <ClassificationNodeChildList count="6">
             <ClassificationNode>
               <Disorder id="12889">
-                <OrphaNumber>97330</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97330</ExpertLink>
+                <OrphaCode>97330</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97330</ExpertLink>
                 <Name lang="pl">Zespół górnego otworu klatki piersiowej</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
                   <Disorder id="14646">
-                    <OrphaNumber>100073</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100073</ExpertLink>
+                    <OrphaCode>100073</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100073</ExpertLink>
                     <Name lang="pl">Neurogenny zespół górnego otworu klatki piersiowej</Name>
+                    <DisorderType id="21450">
+                      <Name lang="pl">Podtyp kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22204">
-                    <OrphaNumber>357107</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357107</ExpertLink>
+                    <OrphaCode>357107</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357107</ExpertLink>
                     <Name lang="pl">Tętniczy zespół górnego otworu klatki piersiowej</Name>
+                    <DisorderType id="21450">
+                      <Name lang="pl">Podtyp kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22205">
-                    <OrphaNumber>357131</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357131</ExpertLink>
+                    <OrphaCode>357131</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357131</ExpertLink>
                     <Name lang="pl">Żylny zespół górnego otworu klatki piersiowej</Name>
+                    <DisorderType id="21450">
+                      <Name lang="pl">Podtyp kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -46,77 +72,104 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="15028">
-                <OrphaNumber>108993</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108993</ExpertLink>
+                <OrphaCode>108993</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108993</ExpertLink>
                 <Name lang="pl">Niesyndromiczna malformacja układu oddechowego lub śródpiersia</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="4">
                 <ClassificationNode>
                   <Disorder id="597">
-                    <OrphaNumber>3346</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3346</ExpertLink>
+                    <OrphaCode>3346</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3346</ExpertLink>
                     <Name lang="pl">Agenezja tchawicy</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="802">
-                    <OrphaNumber>1928</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1928</ExpertLink>
+                    <OrphaCode>1928</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1928</ExpertLink>
                     <Name lang="pl">Wrodzona rozedma płatowa</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1941">
-                    <OrphaNumber>2004</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2004</ExpertLink>
+                    <OrphaCode>2004</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2004</ExpertLink>
                     <Name lang="pl">Rozszczep krtaniowo-tchawiczo-przełykowy</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="12498">
-                        <OrphaNumber>93938</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93938</ExpertLink>
+                        <OrphaCode>93938</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93938</ExpertLink>
                         <Name lang="pl">Rozszczep krtaniowo-tchawiczo-przełykowy typu 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12499">
-                        <OrphaNumber>93939</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93939</ExpertLink>
+                        <OrphaCode>93939</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93939</ExpertLink>
                         <Name lang="pl">Rozszczep krtaniowo-tchawiczo-przełykowy typu 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12500">
-                        <OrphaNumber>93940</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93940</ExpertLink>
+                        <OrphaCode>93940</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93940</ExpertLink>
                         <Name lang="pl">Rozszczep krtaniowo-tchawiczo-przełykowy typu 3</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12501">
-                        <OrphaNumber>93941</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93941</ExpertLink>
+                        <OrphaCode>93941</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93941</ExpertLink>
                         <Name lang="pl">Rozszczep krtaniowo-tchawiczo-przełykowy typu 4</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="20437">
-                        <OrphaNumber>280205</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280205</ExpertLink>
+                        <OrphaCode>280205</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280205</ExpertLink>
                         <Name lang="pl">Szczelina krtaniowo-tchawiczo-przełykowa typu 0</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -125,9 +178,12 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23661">
-                    <OrphaNumber>454750</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454750</ExpertLink>
+                    <OrphaCode>454750</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=454750</ExpertLink>
                     <Name lang="pl">Izolowana przetoka tchawiczo-przełykowa</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -136,16 +192,22 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="15029">
-                <OrphaNumber>108995</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108995</ExpertLink>
+                <OrphaCode>108995</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108995</ExpertLink>
                 <Name lang="pl">Syndromiczna malformacja układu oddechowego lub śródpiersia</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="1">
                 <ClassificationNode>
                   <Disorder id="2283">
-                    <OrphaNumber>2470</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
+                    <OrphaCode>2470</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2470</ExpertLink>
                     <Name lang="pl">Zespół Matthew i Wooda</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -154,201 +216,258 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="18157">
-                <OrphaNumber>180776</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180776</ExpertLink>
+                <OrphaCode>180776</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=180776</ExpertLink>
                 <Name lang="pl">Niesyndromiczna malformacja przepony lub klatki piersiowej</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
                   <Disorder id="506">
-                    <OrphaNumber>2140</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2140</ExpertLink>
+                    <OrphaCode>2140</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2140</ExpertLink>
                     <Name lang="pl">Wrodzona przepuklina przeponowa</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1951">
-                    <OrphaNumber>2017</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2017</ExpertLink>
+                    <OrphaCode>2017</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2017</ExpertLink>
                     <Name lang="pl">Rozszczep  mostka</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="12502">
-                        <OrphaNumber>93942</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93942</ExpertLink>
-                        <Name lang="pl">Przepuklina pępkowa</Name>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="18158">
-                <OrphaNumber>180779</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180779</ExpertLink>
+                <OrphaCode>180779</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=180779</ExpertLink>
                 <Name lang="pl">Syndromiczna malformacja przepony lub klatki piersiowej</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
                 <ClassificationNode>
                   <Disorder id="25843">
-                    <OrphaNumber>496693</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=496693</ExpertLink>
+                    <OrphaCode>496693</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=496693</ExpertLink>
                     <Name lang="en">Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25213">
-                    <OrphaNumber>480528</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480528</ExpertLink>
+                    <OrphaCode>480528</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480528</ExpertLink>
                     <Name lang="pl">Śmiertelny zespół wodogłowia i przepukliny przepony</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="147">
-                    <OrphaNumber>280</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280</ExpertLink>
+                    <OrphaCode>280</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280</ExpertLink>
                     <Name lang="pl">Zespół Wolfa i Hirschorna</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="299">
-                    <OrphaNumber>199</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=199</ExpertLink>
+                    <OrphaCode>199</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=199</ExpertLink>
                     <Name lang="pl">Zespół Cornelii de Lange</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="557">
-                    <OrphaNumber>884</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=884</ExpertLink>
+                    <OrphaCode>884</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=884</ExpertLink>
                     <Name lang="pl">Tetrasomia 12p</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="612">
-                    <OrphaNumber>287</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=287</ExpertLink>
+                    <OrphaCode>287</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=287</ExpertLink>
                     <Name lang="pl">Zespół Ehlersa i Danlosa, typ klasyczny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="912">
-                    <OrphaNumber>373</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=373</ExpertLink>
+                    <OrphaCode>373</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=373</ExpertLink>
                     <Name lang="pl">Zespół Simpsona, Golabiego i Behmela</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1306">
-                    <OrphaNumber>991</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=991</ExpertLink>
+                    <OrphaCode>991</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=991</ExpertLink>
                     <Name lang="pl">Zespół PAGOD</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1554">
-                    <OrphaNumber>1335</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1335</ExpertLink>
+                    <OrphaCode>1335</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1335</ExpertLink>
                     <Name lang="pl">Pentalogia Cantrella</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2040">
-                    <OrphaNumber>2141</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2141</ExpertLink>
+                    <OrphaCode>2141</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2141</ExpertLink>
                     <Name lang="pl">Wada przepony - skrócenie kończyny - wada czaszki</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2043">
-                    <OrphaNumber>2143</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2143</ExpertLink>
+                    <OrphaCode>2143</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2143</ExpertLink>
                     <Name lang="pl">Zespół Donnai i Barrowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2177">
-                    <OrphaNumber>2322</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2322</ExpertLink>
+                    <OrphaCode>2322</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2322</ExpertLink>
                     <Name lang="pl">Zespół Kabuki</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2283">
-                    <OrphaNumber>2470</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
+                    <OrphaCode>2470</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2470</ExpertLink>
                     <Name lang="pl">Zespół Matthew i Wooda</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3569">
-                    <OrphaNumber>209</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209</ExpertLink>
+                    <OrphaCode>209</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=209</ExpertLink>
                     <Name lang="pl">Skóra wiotka</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="1993">
-                        <OrphaNumber>2078</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2078</ExpertLink>
+                        <OrphaCode>2078</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2078</ExpertLink>
                         <Name lang="pl">Geroderma osteodysplastica</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="2673">
-                        <OrphaNumber>2962</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2962</ExpertLink>
+                        <OrphaCode>2962</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2962</ExpertLink>
                         <Name lang="pl">Zespół de Barsy'ego</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="10381">
-                            <OrphaNumber>35664</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35664</ExpertLink>
+                            <OrphaCode>35664</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=35664</ExpertLink>
                             <Name lang="pl">Zespół De Barsy'ego związany z  ALDH18A1</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="20864">
-                            <OrphaNumber>293633</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293633</ExpertLink>
+                            <OrphaCode>293633</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293633</ExpertLink>
                             <Name lang="pl">Zespół DeBarsy</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -357,77 +476,104 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="2805">
-                        <OrphaNumber>3134</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3134</ExpertLink>
+                        <OrphaCode>3134</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3134</ExpertLink>
                         <Name lang="pl">Zespół SCARF</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="2965">
-                        <OrphaNumber>3342</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3342</ExpertLink>
+                        <OrphaCode>3342</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3342</ExpertLink>
                         <Name lang="pl">Zespół krętości tętnic</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="7035">
-                        <OrphaNumber>198</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=198</ExpertLink>
+                        <OrphaCode>198</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=198</ExpertLink>
                         <Name lang="pl">Zespół rogu potylicznego</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12024">
-                        <OrphaNumber>90348</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90348</ExpertLink>
+                        <OrphaCode>90348</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90348</ExpertLink>
                         <Name lang="pl">Autosomalna dominująca skóra wiotka</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12025">
-                        <OrphaNumber>90349</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90349</ExpertLink>
+                        <OrphaCode>90349</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90349</ExpertLink>
                         <Name lang="pl">Autosomalna recesywna skóra wiotka typu 1</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="12026">
-                        <OrphaNumber>90350</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90350</ExpertLink>
+                        <OrphaCode>90350</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90350</ExpertLink>
                         <Name lang="pl">Autosomalna recesywna skóra wiotka typu  2</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="22201">
-                            <OrphaNumber>357058</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357058</ExpertLink>
+                            <OrphaCode>357058</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357058</ExpertLink>
                             <Name lang="pl">Autosomalna recesywna luźna skóra typu 2A</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="2571">
-                                <OrphaNumber>2834</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2834</ExpertLink>
+                                <OrphaCode>2834</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2834</ExpertLink>
                                 <Name lang="pl">Zespół pomarszczonej skóry</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="22203">
-                                <OrphaNumber>357074</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357074</ExpertLink>
+                                <OrphaCode>357074</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357074</ExpertLink>
                                 <Name lang="pl">Autosomalna recesywna luźna skóra typu 2, typ klasyczny</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -436,9 +582,12 @@
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="22202">
-                            <OrphaNumber>357064</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357064</ExpertLink>
+                            <OrphaCode>357064</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357064</ExpertLink>
                             <Name lang="pl">Autosomalna recesywna luźna skóra typu 2B</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -447,27 +596,36 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18846">
-                        <OrphaNumber>217335</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217335</ExpertLink>
+                        <OrphaCode>217335</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217335</ExpertLink>
                         <Name lang="pl">Zespół RIN2</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18949">
-                        <OrphaNumber>221145</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=221145</ExpertLink>
+                        <OrphaCode>221145</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=221145</ExpertLink>
                         <Name lang="pl">Wiotka skóra z ciężkimi anomaliami płucnymi, żołądkowo-jelitowymi i moczowymi</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21520">
-                        <OrphaNumber>314718</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314718</ExpertLink>
+                        <OrphaCode>314718</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=314718</ExpertLink>
                         <Name lang="pl">Zespół śmiertelnej arteriopatii z powodu niedoboru fibuliny-4</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -476,27 +634,36 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12794">
-                    <OrphaNumber>96170</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96170</ExpertLink>
+                    <OrphaCode>96170</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=96170</ExpertLink>
                     <Name lang="pl">Zespół Emanuela</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19142">
-                    <OrphaNumber>230839</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=230839</ExpertLink>
+                    <OrphaCode>230839</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=230839</ExpertLink>
                     <Name lang="pl">Zespół Ehlersa i Danlosa z powodu niedoboru tenascyny-X</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27458">
-                    <OrphaNumber>527468</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=527468</ExpertLink>
+                    <OrphaCode>527468</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=527468</ExpertLink>
                     <Name lang="pl">Zespół przepukliny przeponowej-krótkiego jelita-braku śledziony</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -505,32 +672,44 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="20633">
-                <OrphaNumber>285014</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=285014</ExpertLink>
+                <OrphaCode>285014</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=285014</ExpertLink>
                 <Name lang="pl">Rzadkie choroby z tętniakiem aorty piersiowej i rozwarstwieniem aorty</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="10">
                 <ClassificationNode>
                   <Disorder id="109">
-                    <OrphaNumber>558</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=558</ExpertLink>
+                    <OrphaCode>558</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=558</ExpertLink>
                     <Name lang="pl">Zespół Marfana</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="20628">
-                        <OrphaNumber>284963</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284963</ExpertLink>
+                        <OrphaCode>284963</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284963</ExpertLink>
                         <Name lang="pl">Zespół Marfana typu 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="20629">
-                        <OrphaNumber>284973</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284973</ExpertLink>
+                        <OrphaCode>284973</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284973</ExpertLink>
                         <Name lang="pl">Zespół Marfana typu 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -539,81 +718,108 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2965">
-                    <OrphaNumber>3342</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3342</ExpertLink>
+                    <OrphaCode>3342</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3342</ExpertLink>
                     <Name lang="pl">Zespół krętości tętnic</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="4042">
-                    <OrphaNumber>286</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=286</ExpertLink>
+                    <OrphaCode>286</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=286</ExpertLink>
                     <Name lang="pl">Zespół Ehlersa i Danlosa typ naczyniowy</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10799">
-                    <OrphaNumber>60030</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60030</ExpertLink>
+                    <OrphaCode>60030</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=60030</ExpertLink>
                     <Name lang="pl">Zespół Loeysa i Dietza</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12138">
-                    <OrphaNumber>91387</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91387</ExpertLink>
+                    <OrphaCode>91387</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91387</ExpertLink>
                     <Name lang="pl">Rodzinny tętniak aorty piersiowej i rozwarstwienie aorty</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20630">
-                    <OrphaNumber>284979</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284979</ExpertLink>
+                    <OrphaCode>284979</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284979</ExpertLink>
                     <Name lang="pl">Zespół Marfana noworodków</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20631">
-                    <OrphaNumber>284984</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284984</ExpertLink>
+                    <OrphaCode>284984</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284984</ExpertLink>
                     <Name lang="pl">Zespół tętniaka i zapalenia kości i stawów</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22877">
-                    <OrphaNumber>402075</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=402075</ExpertLink>
+                    <OrphaCode>402075</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=402075</ExpertLink>
                     <Name lang="pl">Rodzinna dwupłatkowa zastawka aortalna</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3258">
-                    <OrphaNumber>229</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=229</ExpertLink>
+                    <OrphaCode>229</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=229</ExpertLink>
                     <Name lang="pl">Rodzinne rozwarstwienie aorty</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22924">
-                    <OrphaNumber>404463</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404463</ExpertLink>
+                    <OrphaCode>404463</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=404463</ExpertLink>
                     <Name lang="pl">Zespół wielosystemowej dysfunkcji mieśni gładkich</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -622,7 +828,7 @@
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

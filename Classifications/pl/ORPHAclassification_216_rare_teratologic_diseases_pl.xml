@@ -1,97 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:50:36" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="10701">
-      <OrphaNumber>52662</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=52662</ExpertLink>
-      <Name lang="pl">Rzadkie choroby teratologiczne</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:47:34" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="216">
+      <OrphaNumber>168923</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare teratologic disorders</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="10701">
+            <OrphaCode>52662</OrphaCode>
+            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=52662</ExpertLink>
+            <Name lang="pl">Rzadkie choroby teratologiczne</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
           <ClassificationNodeChildList count="3">
             <ClassificationNode>
               <Disorder id="19217">
-                <OrphaNumber>232035</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=232035</ExpertLink>
+                <OrphaCode>232035</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=232035</ExpertLink>
                 <Name lang="pl">Embriofetopatia zakaźna</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="9">
                 <ClassificationNode>
                   <Disorder id="488">
-                    <OrphaNumber>295</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=295</ExpertLink>
+                    <OrphaCode>295</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=295</ExpertLink>
                     <Name lang="pl">Parwowirusowy zespół płodu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="575">
-                    <OrphaNumber>290</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=290</ExpertLink>
+                    <OrphaCode>290</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=290</ExpertLink>
                     <Name lang="pl">Różyczka wrodzona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="596">
-                    <OrphaNumber>858</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=858</ExpertLink>
+                    <OrphaCode>858</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=858</ExpertLink>
                     <Name lang="pl">Toksoplazmoza wrodzona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="602">
-                    <OrphaNumber>291</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=291</ExpertLink>
+                    <OrphaCode>291</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=291</ExpertLink>
                     <Name lang="pl">Zespół wrodzonej ospy wietrznej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="804">
-                    <OrphaNumber>293</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293</ExpertLink>
+                    <OrphaCode>293</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie herpeswirusowe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1878">
-                    <OrphaNumber>294</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294</ExpertLink>
+                    <OrphaCode>294</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=294</ExpertLink>
                     <Name lang="pl">Zespół cytomegalii płodu</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3402">
-                    <OrphaNumber>292</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=292</ExpertLink>
+                    <OrphaCode>292</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=292</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie enterowirusem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10967">
-                    <OrphaNumber>70596</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70596</ExpertLink>
+                    <OrphaCode>70596</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70596</ExpertLink>
                     <Name lang="pl">Wrodzone zakażenie wirusem Epsteina-Barra</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25941">
-                    <OrphaNumber>499009</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=499009</ExpertLink>
+                    <OrphaCode>499009</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=499009</ExpertLink>
                     <Name lang="en">Congenital syphilis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -100,203 +144,272 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="19645">
-                <OrphaNumber>251529</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251529</ExpertLink>
+                <OrphaCode>251529</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251529</ExpertLink>
                 <Name lang="pl">Embriofetopatia związana z zatruciem lub lekiem</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
                 <ClassificationNode>
                   <Disorder id="25307">
-                    <OrphaNumber>485358</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=485358</ExpertLink>
+                    <OrphaCode>485358</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=485358</ExpertLink>
                     <Name lang="pl">Embriofetopatia spowodowana propylotiouracylem</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="487">
-                    <OrphaNumber>1915</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1915</ExpertLink>
+                    <OrphaCode>1915</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1915</ExpertLink>
                     <Name lang="pl">Alkoholowy zespół płodu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1870">
-                    <OrphaNumber>1908</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1908</ExpertLink>
+                    <OrphaCode>1908</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1908</ExpertLink>
                     <Name lang="pl">Embriofetopatia aminopterynowa/metotreksatowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1871">
-                    <OrphaNumber>1909</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1909</ExpertLink>
+                    <OrphaCode>1909</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1909</ExpertLink>
                     <Name lang="pl">Embriofetopatia indometacynowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1872">
-                    <OrphaNumber>1910</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1910</ExpertLink>
+                    <OrphaCode>1910</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1910</ExpertLink>
                     <Name lang="pl">Płodowy zespół jodowy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1873">
-                    <OrphaNumber>1911</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1911</ExpertLink>
+                    <OrphaCode>1911</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1911</ExpertLink>
                     <Name lang="pl">Embriofetopatia kokainowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1874">
-                    <OrphaNumber>1918</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1918</ExpertLink>
+                    <OrphaCode>1918</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1918</ExpertLink>
                     <Name lang="pl">Płodowy zespół minoksydylowy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1877">
-                    <OrphaNumber>1914</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1914</ExpertLink>
+                    <OrphaCode>1914</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1914</ExpertLink>
                     <Name lang="pl">Embriofetopatia antagonistów witaminy K</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1879">
-                    <OrphaNumber>1916</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1916</ExpertLink>
+                    <OrphaCode>1916</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1916</ExpertLink>
                     <Name lang="pl">Zespół dietylstilbestrolowy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1880">
-                    <OrphaNumber>1917</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1917</ExpertLink>
+                    <OrphaCode>1917</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1917</ExpertLink>
                     <Name lang="pl">Płodowy zespół metylortęciowy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1882">
-                    <OrphaNumber>1920</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1920</ExpertLink>
+                    <OrphaCode>1920</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1920</ExpertLink>
                     <Name lang="pl">Embriopatia toluenowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1885">
-                    <OrphaNumber>1923</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1923</ExpertLink>
+                    <OrphaCode>1923</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1923</ExpertLink>
                     <Name lang="pl">Embriofetopatia metimazolowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2166">
-                    <OrphaNumber>2305</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2305</ExpertLink>
+                    <OrphaCode>2305</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2305</ExpertLink>
                     <Name lang="pl">Zespół izotretynoinowy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2943">
-                    <OrphaNumber>3312</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3312</ExpertLink>
+                    <OrphaCode>3312</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3312</ExpertLink>
                     <Name lang="pl">Embriopatia spowodowana talomidem</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10462">
-                    <OrphaNumber>40366</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=40366</ExpertLink>
+                    <OrphaCode>40366</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=40366</ExpertLink>
                     <Name lang="pl">Embriopatia acytretynowa/etretynatowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20172">
-                    <OrphaNumber>268249</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=268249</ExpertLink>
+                    <OrphaCode>268249</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268249</ExpertLink>
                     <Name lang="pl">Embriopatia spowodowana mykofenolanem mofetilu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22475">
-                    <OrphaNumber>370068</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=370068</ExpertLink>
+                    <OrphaCode>370068</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370068</ExpertLink>
                     <Name lang="pl">Zespół przeciwdrgawkowy płodu</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="1868">
-                        <OrphaNumber>1906</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1906</ExpertLink>
+                        <OrphaCode>1906</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1906</ExpertLink>
                         <Name lang="pl">Płodowy zespół walproinianowy</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1875">
-                        <OrphaNumber>1912</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1912</ExpertLink>
+                        <OrphaCode>1912</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1912</ExpertLink>
                         <Name lang="pl">Płodowy zespół hydantoinowy</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1876">
-                        <OrphaNumber>1913</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1913</ExpertLink>
+                        <OrphaCode>1913</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1913</ExpertLink>
                         <Name lang="pl">Płodowy zespół trimetadionowy</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1881">
-                        <OrphaNumber>1919</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1919</ExpertLink>
+                        <OrphaCode>1919</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1919</ExpertLink>
                         <Name lang="pl">Embriopatia fenobarbitolowa</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="22476">
-                        <OrphaNumber>370076</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=370076</ExpertLink>
+                        <OrphaCode>370076</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370076</ExpertLink>
                         <Name lang="pl">Zespół karbamazepinowy płodu</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -307,34 +420,46 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="19646">
-                <OrphaNumber>251535</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251535</ExpertLink>
+                <OrphaCode>251535</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251535</ExpertLink>
                 <Name lang="pl">Embriofetopatia związana z chorobą matczyną</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
                   <Disorder id="1888">
-                    <OrphaNumber>1926</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1926</ExpertLink>
+                    <OrphaCode>1926</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1926</ExpertLink>
                     <Name lang="pl">Embriopatia cukrzycowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1889">
-                    <OrphaNumber>2209</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2209</ExpertLink>
+                    <OrphaCode>2209</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2209</ExpertLink>
                     <Name lang="pl">Fenyloketonuria matczyna</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2093">
-                    <OrphaNumber>2216</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2216</ExpertLink>
+                    <OrphaCode>2216</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2216</ExpertLink>
                     <Name lang="pl">Matczyna hipertermia powodująca wady płodu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -343,7 +468,7 @@
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

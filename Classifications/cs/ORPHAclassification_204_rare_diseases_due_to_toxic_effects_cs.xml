@@ -1,44 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:50:15" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="15031">
-      <OrphaNumber>108999</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108999</ExpertLink>
-      <Name lang="cz">Vzácné intoxikace</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:45:10" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="204">
+      <OrphaNumber>162979</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare disorders due to toxic effects</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
-          <ClassificationNodeChildList count="20">
-            <ClassificationNode>
-              <Disorder id="24156">
-              <Disorder id="24156">
-                <OrphaNumber>466677</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=466677</ExpertLink>
-                <Name lang="en">Scorpion envenomation</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
+          <Disorder id="15031">
+            <OrphaCode>108999</OrphaCode>
+            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108999</ExpertLink>
+            <Name lang="cs">Vzácné intoxikace</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
+          <ClassificationNodeChildList count="4">
             <ClassificationNode>
               <Disorder id="27316">
-                <OrphaNumber>521132</OrphaNumber>
+                <OrphaCode>521132</OrphaCode>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=521132</ExpertLink>
-                <Name lang="en">Radiation-induced disorder</Name>
+                <Name lang="cs">Porucha vyvolaná radiací</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="2">
+              <ClassificationNodeChildList count="6">
                 <ClassificationNode>
                   <Disorder id="27315">
-                    <OrphaNumber>521127</OrphaNumber>
+                    <OrphaCode>521127</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=521127</ExpertLink>
-                    <Name lang="en">Osteoradionecrosis of the mandible</Name>
+                    <Name lang="cs">Osteoradionekróza mandibuly</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27314">
-                    <OrphaNumber>521123</OrphaNumber>
+                    <OrphaCode>521123</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=521123</ExpertLink>
-                    <Name lang="en">Radiation-induced plexopathy</Name>
+                    <Name lang="cs">Plexopatie vyvolaná radiací</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23664">
+                    <OrphaCode>454831</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454831</ExpertLink>
+                    <Name lang="cs">Akutní nemoc z ozáření</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11923">
+                    <OrphaCode>90021</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90021</ExpertLink>
+                    <Name lang="cs">Radiační myelitida</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10948">
+                    <OrphaCode>70475</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70475</ExpertLink>
+                    <Name lang="cs">Radiační proktitida</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="17567">
+                    <OrphaCode>164726</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=164726</ExpertLink>
+                    <Name lang="cs">Akutní myeloidní leukemie a myelodysplastické syndromy související s radiací</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -46,188 +107,143 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="9797">
-                <OrphaNumber>31825</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31825</ExpertLink>
-                <Name lang="cz">Otrava metanolem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="9798">
-                <OrphaNumber>31826</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31826</ExpertLink>
-                <Name lang="cz">Otrava ethylenglykolem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="9799">
-                <OrphaNumber>31827</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31827</ExpertLink>
-                <Name lang="cz">Otrava paraquatem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="10404">
-                <OrphaNumber>35889</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35889</ExpertLink>
-                <Name lang="cz">Akutní intoxikace opiáty</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="10795">
-                <OrphaNumber>60014</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60014</ExpertLink>
-                <Name lang="cz">Argyrie</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11054">
-                <OrphaNumber>73423</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73423</ExpertLink>
-                <Name lang="cz">Akutní intoxikace ovocem ackee</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11959">
-                <OrphaNumber>90068</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90068</ExpertLink>
-                <Name lang="cz">Intoxikace kokainem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11960">
-                <OrphaNumber>90069</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90069</ExpertLink>
-                <Name lang="cz">Systémová otrava monochlóracetátem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="19057">
-                <OrphaNumber>227972</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=227972</ExpertLink>
-                <Name lang="cz">Syndrom toxického oleje</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="19510">
-                <OrphaNumber>247165</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247165</ExpertLink>
-                <Name lang="cz">Infantilní otrava rtutí</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
               <Disorder id="21242">
-                <OrphaNumber>306640</OrphaNumber>
+                <OrphaCode>306640</OrphaCode>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306640</ExpertLink>
-                <Name lang="cz">Vzácné intoxikace způsobené užíváním léčivých přípravků</Name>
+                <Name lang="cs">Vzácné intoxikace způsobené užíváním léčivých přípravků</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="10">
+              <ClassificationNodeChildList count="11">
+                <ClassificationNode>
+                  <Disorder id="28446">
+                    <OrphaCode>565782</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=565782</ExpertLink>
+                    <Name lang="en">Methotrexate toxicity</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27624">
-                    <OrphaNumber>529831</OrphaNumber>
+                    <OrphaCode>529831</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529831</ExpertLink>
-                    <Name lang="en">Letrozole toxicity</Name>
+                    <Name lang="cs">Toxicita letrozolu</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27623">
-                    <OrphaNumber>529828</OrphaNumber>
+                    <OrphaCode>529828</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529828</ExpertLink>
-                    <Name lang="en">Enzalutamide toxicity</Name>
+                    <Name lang="cs">Toxicita enzalutamidu</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9796">
-                    <OrphaNumber>31824</OrphaNumber>
+                    <OrphaCode>31824</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31824</ExpertLink>
-                    <Name lang="cz">Otrava kolchicinem</Name>
+                    <Name lang="cs">Otrava kolchicinem</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9800">
-                    <OrphaNumber>31828</OrphaNumber>
+                    <OrphaCode>31828</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31828</ExpertLink>
-                    <Name lang="cz">Otrava digitalisem</Name>
+                    <Name lang="cs">Otrava digitalisem</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10581">
-                    <OrphaNumber>43117</OrphaNumber>
+                    <OrphaCode>43117</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=43117</ExpertLink>
-                    <Name lang="cz">Akutní otrava tricyklickými antidepresivy</Name>
+                    <Name lang="cs">Akutní otrava tricyklickými antidepresivy</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10582">
-                    <OrphaNumber>43119</OrphaNumber>
+                    <OrphaCode>43119</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=43119</ExpertLink>
-                    <Name lang="cz">Akutní otrava léky s membrány-stabilizujícím efektem</Name>
+                    <Name lang="cs">Akutní otrava léky s membrány-stabilizujícím efektem</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18819">
-                    <OrphaNumber>217064</OrphaNumber>
+                    <OrphaCode>217064</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217064</ExpertLink>
-                    <Name lang="cz">Otrava 5-fluorouracilem</Name>
+                    <Name lang="cs">Otrava 5-fluorouracilem</Name>
+                    <DisorderType id="21429">
+                      <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20871">
-                    <OrphaNumber>293807</OrphaNumber>
+                    <OrphaCode>293807</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293807</ExpertLink>
-                    <Name lang="cz">Ketaminem indukovaná dilatace žlučových cest</Name>
+                    <Name lang="cs">Ketaminem indukovaná dilatace žlučových cest</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24154">
-                    <OrphaNumber>466670</OrphaNumber>
+                    <OrphaCode>466670</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=466670</ExpertLink>
                     <Name lang="en">Cyanide poisoning</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24028">
-                    <OrphaNumber>464458</OrphaNumber>
+                    <OrphaCode>464458</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464458</ExpertLink>
                     <Name lang="en">Paracetamol poisoning</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -235,132 +251,117 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="21251">
-                <OrphaNumber>306682</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306682</ExpertLink>
-                <Name lang="cz">Otrava manganem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21252">
-                <OrphaNumber>306686</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306686</ExpertLink>
-                <Name lang="cz">Parkinsonismus indukovaný oxidem uhelnatým</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21253">
-                <OrphaNumber>306692</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306692</ExpertLink>
-                <Name lang="cz">Parkinsonismus indukovaný kyanidem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21959">
-                <OrphaNumber>330015</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=330015</ExpertLink>
-                <Name lang="cz">Otrava olovem</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="21960">
-                <OrphaNumber>330021</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=330021</ExpertLink>
-                <Name lang="cz">Otrava rtutí</Name>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
               <Disorder id="19645">
-                <OrphaNumber>251529</OrphaNumber>
+                <OrphaCode>251529</OrphaCode>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251529</ExpertLink>
-                <Name lang="cz">Embryofetopatie vázaná s drogami nebo léky</Name>
+                <Name lang="cs">Embryofetopatie vázaná s drogami nebo léky</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
                 <ClassificationNode>
                   <Disorder id="25307">
-                    <OrphaNumber>485358</OrphaNumber>
+                    <OrphaCode>485358</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=485358</ExpertLink>
                     <Name lang="en">Propylthiouracil embryofetopathy</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1871">
-                    <OrphaNumber>1909</OrphaNumber>
+                    <OrphaCode>1909</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1909</ExpertLink>
-                    <Name lang="cz">Indometacinová embryofetopatie</Name>
+                    <Name lang="cs">Indometacinová embryofetopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1870">
-                    <OrphaNumber>1908</OrphaNumber>
+                    <OrphaCode>1908</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1908</ExpertLink>
-                    <Name lang="cz">Aminopterinová/methotrexátová embryofetopatie</Name>
+                    <Name lang="cs">Aminopterinová/methotrexátová embryofetopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22475">
-                    <OrphaNumber>370068</OrphaNumber>
+                    <OrphaCode>370068</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=370068</ExpertLink>
-                    <Name lang="cz">Fetální antikonvulzivní syndrom</Name>
+                    <Name lang="cs">Fetální antikonvulzivní syndrom</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="1875">
-                        <OrphaNumber>1912</OrphaNumber>
+                        <OrphaCode>1912</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1912</ExpertLink>
-                        <Name lang="cz">Fetální hydantoinový syndrom</Name>
+                        <Name lang="cs">Fetální hydantoinový syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1876">
-                        <OrphaNumber>1913</OrphaNumber>
+                        <OrphaCode>1913</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1913</ExpertLink>
-                        <Name lang="cz">Fetální trimetadionový syndrom</Name>
+                        <Name lang="cs">Fetální trimetadionový syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1881">
-                        <OrphaNumber>1919</OrphaNumber>
+                        <OrphaCode>1919</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1919</ExpertLink>
-                        <Name lang="cz">Fenobarbitalová embryopatie</Name>
+                        <Name lang="cs">Fenobarbitalová embryopatie</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1868">
-                        <OrphaNumber>1906</OrphaNumber>
+                        <OrphaCode>1906</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1906</ExpertLink>
-                        <Name lang="cz">Fetální valproátový syndrom</Name>
+                        <Name lang="cs">Fetální valproátový syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="22476">
-                        <OrphaNumber>370076</OrphaNumber>
+                        <OrphaCode>370076</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=370076</ExpertLink>
-                        <Name lang="cz">Fetální karbamazepinový syndrom</Name>
+                        <Name lang="cs">Fetální karbamazepinový syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -369,117 +370,156 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="487">
-                    <OrphaNumber>1915</OrphaNumber>
+                    <OrphaCode>1915</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1915</ExpertLink>
-                    <Name lang="cz">Fetální alkoholový syndrom</Name>
+                    <Name lang="cs">Fetální alkoholový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1885">
-                    <OrphaNumber>1923</OrphaNumber>
+                    <OrphaCode>1923</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1923</ExpertLink>
-                    <Name lang="cz">Methimazolová embryopatie</Name>
+                    <Name lang="cs">Methimazolová embryopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2943">
-                    <OrphaNumber>3312</OrphaNumber>
+                    <OrphaCode>3312</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3312</ExpertLink>
-                    <Name lang="cz">Thalidomidová embryopatie</Name>
+                    <Name lang="cs">Thalidomidová embryopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1877">
-                    <OrphaNumber>1914</OrphaNumber>
+                    <OrphaCode>1914</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1914</ExpertLink>
-                    <Name lang="cz">Embryofetopatie způsobená terapií orálními antikoagulancii</Name>
+                    <Name lang="cs">Embryofetopatie způsobená terapií orálními antikoagulancii</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10462">
-                    <OrphaNumber>40366</OrphaNumber>
+                    <OrphaCode>40366</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=40366</ExpertLink>
-                    <Name lang="cz">Acitretinová/etretinátová embryopatie</Name>
+                    <Name lang="cs">Acitretinová/etretinátová embryopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1874">
-                    <OrphaNumber>1918</OrphaNumber>
+                    <OrphaCode>1918</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1918</ExpertLink>
-                    <Name lang="cz">Fetální minoxidilový syndrom</Name>
+                    <Name lang="cs">Fetální minoxidilový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1879">
-                    <OrphaNumber>1916</OrphaNumber>
+                    <OrphaCode>1916</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1916</ExpertLink>
-                    <Name lang="cz">Diethylstilbestrolový syndrom</Name>
+                    <Name lang="cs">Diethylstilbestrolový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1872">
-                    <OrphaNumber>1910</OrphaNumber>
+                    <OrphaCode>1910</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1910</ExpertLink>
-                    <Name lang="cz">Fetální jodový syndrom</Name>
+                    <Name lang="cs">Fetální jodový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2166">
-                    <OrphaNumber>2305</OrphaNumber>
+                    <OrphaCode>2305</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2305</ExpertLink>
-                    <Name lang="cz">Izotretinoinový syndrom</Name>
+                    <Name lang="cs">Izotretinoinový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20172">
-                    <OrphaNumber>268249</OrphaNumber>
+                    <OrphaCode>268249</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=268249</ExpertLink>
-                    <Name lang="cz">Mykofenolátová embryopatie</Name>
+                    <Name lang="cs">Mykofenolátová embryopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1873">
-                    <OrphaNumber>1911</OrphaNumber>
+                    <OrphaCode>1911</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1911</ExpertLink>
-                    <Name lang="cz">Kokainová embryofetopatie</Name>
+                    <Name lang="cs">Kokainová embryofetopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1880">
-                    <OrphaNumber>1917</OrphaNumber>
+                    <OrphaCode>1917</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1917</ExpertLink>
-                    <Name lang="cz">Fetální methylrtuťový syndrom</Name>
+                    <Name lang="cs">Fetální methylrtuťový syndrom</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1882">
-                    <OrphaNumber>1920</OrphaNumber>
+                    <OrphaCode>1920</OrphaCode>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1920</ExpertLink>
-                    <Name lang="cz">Toluenová embryopatie</Name>
+                    <Name lang="cs">Toluenová embryopatie</Name>
+                    <DisorderType id="21401">
+                      <Name lang="cs">Malformační syndrom</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -487,17 +527,236 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="23615">
-                <OrphaNumber>449285</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449285</ExpertLink>
-                <Name lang="cz">Otrava hadím uštknutím</Name>
+              <Disorder id="28137">
+                <OrphaCode>556508</OrphaCode>
+                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=556508</ExpertLink>
+                <Name lang="en">Rare disorder due to poisoning</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="0">
+              <ClassificationNodeChildList count="18">
+                <ClassificationNode>
+                  <Disorder id="28676">
+                    <OrphaCode>570470</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=570470</ExpertLink>
+                    <Name lang="en">Ricin poisoning</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9797">
+                    <OrphaCode>31825</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31825</ExpertLink>
+                    <Name lang="cs">Otrava metanolem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9798">
+                    <OrphaCode>31826</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31826</ExpertLink>
+                    <Name lang="cs">Otrava ethylenglykolem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="9799">
+                    <OrphaCode>31827</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31827</ExpertLink>
+                    <Name lang="cs">Otrava paraquatem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10404">
+                    <OrphaCode>35889</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35889</ExpertLink>
+                    <Name lang="cs">Akutní intoxikace opiáty</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10795">
+                    <OrphaCode>60014</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60014</ExpertLink>
+                    <Name lang="cs">Argyrie</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11054">
+                    <OrphaCode>73423</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73423</ExpertLink>
+                    <Name lang="cs">Akutní intoxikace ovocem ackee</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11959">
+                    <OrphaCode>90068</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90068</ExpertLink>
+                    <Name lang="cs">Intoxikace kokainem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11960">
+                    <OrphaCode>90069</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90069</ExpertLink>
+                    <Name lang="cs">Systémová otrava monochlóracetátem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19057">
+                    <OrphaCode>227972</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=227972</ExpertLink>
+                    <Name lang="cs">Syndrom toxického oleje</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19510">
+                    <OrphaCode>247165</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247165</ExpertLink>
+                    <Name lang="cs">Infantilní otrava rtutí</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21251">
+                    <OrphaCode>306682</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306682</ExpertLink>
+                    <Name lang="cs">Otrava manganem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21252">
+                    <OrphaCode>306686</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306686</ExpertLink>
+                    <Name lang="cs">Parkinsonismus indukovaný oxidem uhelnatým</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21253">
+                    <OrphaCode>306692</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306692</ExpertLink>
+                    <Name lang="cs">Parkinsonismus indukovaný kyanidem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21959">
+                    <OrphaCode>330015</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=330015</ExpertLink>
+                    <Name lang="cs">Otrava olovem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21960">
+                    <OrphaCode>330021</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=330021</ExpertLink>
+                    <Name lang="cs">Otrava rtutí</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23615">
+                    <OrphaCode>449285</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449285</ExpertLink>
+                    <Name lang="cs">Otrava hadím uštknutím</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="24156">
+                    <OrphaCode>466677</OrphaCode>
+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=466677</ExpertLink>
+                    <Name lang="en">Scorpion envenomation</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

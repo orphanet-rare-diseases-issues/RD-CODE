@@ -1,48 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:50:31" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="13068">
-      <OrphaNumber>98050</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98050</ExpertLink>
-      <Name lang="pl">Rzadkie choroby alergiczne</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:46:58" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="212">
+      <OrphaNumber>164832</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare allergic disease</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="13068">
+            <OrphaCode>98050</OrphaCode>
+            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98050</ExpertLink>
+            <Name lang="pl">Rzadkie choroby alergiczne</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
           <ClassificationNodeChildList count="4">
             <ClassificationNode>
               <Disorder id="8618">
-                <OrphaNumber>658</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658</ExpertLink>
+                <OrphaCode>658</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=658</ExpertLink>
                 <Name lang="pl">Obrzęk naczynioruchowy niehistaminowy</Name>
+                <DisorderType id="21436">
+                  <Name lang="pl">Grupa fenomenów</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
                   <Disorder id="12136">
-                    <OrphaNumber>91378</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91378</ExpertLink>
+                    <OrphaCode>91378</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91378</ExpertLink>
                     <Name lang="pl">Dziedziczny obrzęk naczynioruchowy</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="27541">
-                        <OrphaNumber>528623</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528623</ExpertLink>
+                        <OrphaCode>528623</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=528623</ExpertLink>
                         <Name lang="pl">Dziedziczny obrzęk naczynioruchowy z niedoborem C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14623">
-                            <OrphaNumber>100050</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100050</ExpertLink>
+                            <OrphaCode>100050</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100050</ExpertLink>
                             <Name lang="pl">Dziedziczny obrzęk naczynioruchowy typu 1</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14624">
-                            <OrphaNumber>100051</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100051</ExpertLink>
+                            <OrphaCode>100051</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100051</ExpertLink>
                             <Name lang="pl">Dziedziczny obrzęk naczynioruchowy 2</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -51,34 +80,46 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="27542">
-                        <OrphaNumber>528647</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528647</ExpertLink>
+                        <OrphaCode>528647</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=528647</ExpertLink>
                         <Name lang="pl">Dziedziczny obrzęk naczynioruchowy z prawidłowym poziomem C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14627">
-                            <OrphaNumber>100054</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100054</ExpertLink>
+                            <OrphaCode>100054</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100054</ExpertLink>
                             <Name lang="pl">Dziedziczny obrzęk naczynioruchowy typu 3</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="27892">
-                            <OrphaNumber>537072</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=537072</ExpertLink>
+                            <OrphaCode>537072</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=537072</ExpertLink>
                             <Name lang="en">PLG-related hereditary angioedema with normal C1Inh</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="27912">
-                            <OrphaNumber>537891</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=537891</ExpertLink>
+                            <OrphaCode>537891</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=537891</ExpertLink>
                             <Name lang="en">ANGPT1-related hereditary angioedema with normal C1Inh</Name>
+                            <DisorderType id="21443">
+                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -89,32 +130,44 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12137">
-                    <OrphaNumber>91385</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91385</ExpertLink>
+                    <OrphaCode>91385</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=91385</ExpertLink>
                     <Name lang="pl">Nabyty obrzęk naczynioruchowy</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="27543">
-                        <OrphaNumber>528663</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528663</ExpertLink>
+                        <OrphaCode>528663</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=528663</ExpertLink>
                         <Name lang="pl">Nabyty obrzęk naczynioruchowy z niedoborem C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14628">
-                            <OrphaNumber>100055</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100055</ExpertLink>
+                            <OrphaCode>100055</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100055</ExpertLink>
                             <Name lang="pl">Nabyty obrzęk naczynioruchowy typu 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14629">
-                            <OrphaNumber>100056</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100056</ExpertLink>
+                            <OrphaCode>100056</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100056</ExpertLink>
                             <Name lang="pl">Nabyty obrzęk naczynioruchowy typu 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -123,9 +176,12 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14630">
-                        <OrphaNumber>100057</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100057</ExpertLink>
+                        <OrphaCode>100057</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100057</ExpertLink>
                         <Name lang="pl">Obrzęk naczynioruchowy indukowany blokerem układu renina-angiotensyna-aldosteron</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -136,52 +192,70 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="11410">
-                <OrphaNumber>79384</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79384</ExpertLink>
+                <OrphaCode>79384</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79384</ExpertLink>
                 <Name lang="pl">Rzadka pokrzywka</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="2296">
-                    <OrphaNumber>2483</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2483</ExpertLink>
+                    <OrphaCode>2483</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2483</ExpertLink>
                     <Name lang="pl">Zespół Melkerssona i Rosenthala</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10849">
-                    <OrphaNumber>64745</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64745</ExpertLink>
+                    <OrphaCode>64745</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64745</ExpertLink>
                     <Name lang="pl">Swędzące grudki i ogniska pokrzywkowe w przebiegu ciąży</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16886">
-                    <OrphaNumber>139402</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139402</ExpertLink>
+                    <OrphaCode>139402</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139402</ExpertLink>
                     <Name lang="pl">Wysypka polekowa z eozynofilią  i objawami ogólnymi</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25553">
-                    <OrphaNumber>493342</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=493342</ExpertLink>
+                    <OrphaCode>493342</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=493342</ExpertLink>
                     <Name lang="en">Vibratory urticaria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25555">
-                    <OrphaNumber>493348</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=493348</ExpertLink>
+                    <OrphaCode>493348</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=493348</ExpertLink>
                     <Name lang="en">Vibratory angioedema</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -190,66 +264,90 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="13070">
-                <OrphaNumber>98052</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98052</ExpertLink>
+                <OrphaCode>98052</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98052</ExpertLink>
                 <Name lang="pl">Rzadkie choroby alergiczne układu oddechowego</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
                   <Disorder id="744">
-                    <OrphaNumber>1164</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1164</ExpertLink>
+                    <OrphaCode>1164</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1164</ExpertLink>
                     <Name lang="pl">Alergiczna aspegiloza oskrzelowo-płucna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="7033">
-                    <OrphaNumber>2902</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2902</ExpertLink>
+                    <OrphaCode>2902</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2902</ExpertLink>
                     <Name lang="pl">Idiopatyczne przewlekłe eozynofilowe zapalenie płuc</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9794">
-                    <OrphaNumber>31740</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31740</ExpertLink>
+                    <OrphaCode>31740</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31740</ExpertLink>
                     <Name lang="pl">Alergiczne zapalenie pęcherzyków płucnych</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14480">
-                        <OrphaNumber>99907</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99907</ExpertLink>
+                        <OrphaCode>99907</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99907</ExpertLink>
                         <Name lang="pl">Domowe alergiczne zapalenie pcherzyków płucnych</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14482">
-                        <OrphaNumber>99909</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99909</ExpertLink>
+                        <OrphaCode>99909</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99909</ExpertLink>
                         <Name lang="pl">Zawodowe alergiczne zapalenie pęcherzyków płucnych</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14479">
-                            <OrphaNumber>99906</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99906</ExpertLink>
+                            <OrphaCode>99906</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99906</ExpertLink>
                             <Name lang="pl">Płuca rolnika</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14481">
-                            <OrphaNumber>99908</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99908</ExpertLink>
+                            <OrphaCode>99908</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99908</ExpertLink>
                             <Name lang="pl">Choroba płuc hodowców gołębi</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -262,16 +360,19 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="22459">
-                <OrphaNumber>369992</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369992</ExpertLink>
+                <OrphaCode>369992</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=369992</ExpertLink>
                 <Name lang="pl">Zespół ciężkie zapalenie skóry-mnogie alergie-wyniszczenie metaboliczne</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

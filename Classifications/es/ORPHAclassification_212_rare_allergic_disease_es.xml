@@ -1,48 +1,77 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2019-07-08 16:57:51" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="13068">
-      <OrphaNumber>98050</OrphaNumber>
-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98050</ExpertLink>
-      <Name lang="es">Enfermedad alérgica rara</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:47:03" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="212">
+      <OrphaNumber>164832</OrphaNumber>
+      <Name lang="es">Clasificación de Orphanet de las enfermedades alérgicas raras</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="13068">
+            <OrphaCode>98050</OrphaCode>
+            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98050</ExpertLink>
+            <Name lang="es">Enfermedad alérgica rara</Name>
+            <DisorderType id="36561">
+              <Name lang="es">Category</Name>
+            </DisorderType>
+          </Disorder>
           <ClassificationNodeChildList count="4">
             <ClassificationNode>
               <Disorder id="8618">
-                <OrphaNumber>658</OrphaNumber>
+                <OrphaCode>658</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=658</ExpertLink>
                 <Name lang="es">Angioedema no histamínico</Name>
+                <DisorderType id="21436">
+                  <Name lang="es">Grupo de fenomas</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
                   <Disorder id="12136">
-                    <OrphaNumber>91378</OrphaNumber>
+                    <OrphaCode>91378</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91378</ExpertLink>
                     <Name lang="es">Angioedema hereditario</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="27541">
-                        <OrphaNumber>528623</OrphaNumber>
+                        <OrphaCode>528623</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528623</ExpertLink>
                         <Name lang="es">Angioedema hereditario con deficiencia de C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14623">
-                            <OrphaNumber>100050</OrphaNumber>
+                            <OrphaCode>100050</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100050</ExpertLink>
                             <Name lang="es">Angioedema hereditario tipo 1</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14624">
-                            <OrphaNumber>100051</OrphaNumber>
+                            <OrphaCode>100051</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100051</ExpertLink>
                             <Name lang="es">Angioedema hereditario tipo 2</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -51,34 +80,46 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="27542">
-                        <OrphaNumber>528647</OrphaNumber>
+                        <OrphaCode>528647</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528647</ExpertLink>
                         <Name lang="es">Angioedema hereditario con C1Inh normal</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14627">
-                            <OrphaNumber>100054</OrphaNumber>
+                            <OrphaCode>100054</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100054</ExpertLink>
-                            <Name lang="es">Angioedema hereditario tipo 3</Name>
+                            <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen F12</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="27892">
-                            <OrphaNumber>537072</OrphaNumber>
+                            <OrphaCode>537072</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537072</ExpertLink>
-                            <Name lang="es">PLG-related hereditary angioedema with normal C1Inh</Name>
+                            <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen PLG</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="27912">
-                            <OrphaNumber>537891</OrphaNumber>
+                            <OrphaCode>537891</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537891</ExpertLink>
-                            <Name lang="es">ANGPT1-related hereditary angioedema with normal C1Inh</Name>
+                            <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen ANGPT1</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -89,32 +130,44 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12137">
-                    <OrphaNumber>91385</OrphaNumber>
+                    <OrphaCode>91385</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91385</ExpertLink>
                     <Name lang="es">Angioedema adquirido</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="27543">
-                        <OrphaNumber>528663</OrphaNumber>
+                        <OrphaCode>528663</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528663</ExpertLink>
                         <Name lang="es">Angioedema adquirido con deficiencia de C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14628">
-                            <OrphaNumber>100055</OrphaNumber>
+                            <OrphaCode>100055</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100055</ExpertLink>
                             <Name lang="es">Angioedema adquirido tipo 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14629">
-                            <OrphaNumber>100056</OrphaNumber>
+                            <OrphaCode>100056</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100056</ExpertLink>
                             <Name lang="es">Angioedema adquirido tipo 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -123,9 +176,12 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14630">
-                        <OrphaNumber>100057</OrphaNumber>
+                        <OrphaCode>100057</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100057</ExpertLink>
                         <Name lang="es">Angioedema inducido por inhibidores del sistema renina-angiotensina-aldosterona</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -136,52 +192,70 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="11410">
-                <OrphaNumber>79384</OrphaNumber>
+                <OrphaCode>79384</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79384</ExpertLink>
                 <Name lang="es">Urticaria rara</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="2296">
-                    <OrphaNumber>2483</OrphaNumber>
+                    <OrphaCode>2483</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2483</ExpertLink>
                     <Name lang="es">Síndrome de Melkersson-Rosenthal</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10849">
-                    <OrphaNumber>64745</OrphaNumber>
+                    <OrphaCode>64745</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64745</ExpertLink>
                     <Name lang="es">Pápulas urticariales pruriginosas y placas de embarazo</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16886">
-                    <OrphaNumber>139402</OrphaNumber>
+                    <OrphaCode>139402</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=139402</ExpertLink>
                     <Name lang="es">Erupción con eosinofilia y síntomas sistémicos causada por medicamentos</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25553">
-                    <OrphaNumber>493342</OrphaNumber>
+                    <OrphaCode>493342</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=493342</ExpertLink>
                     <Name lang="es">Urticaria vibratoria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25555">
-                    <OrphaNumber>493348</OrphaNumber>
+                    <OrphaCode>493348</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=493348</ExpertLink>
                     <Name lang="es">Angioedema vibratorio</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -190,66 +264,90 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="13070">
-                <OrphaNumber>98052</OrphaNumber>
+                <OrphaCode>98052</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98052</ExpertLink>
                 <Name lang="es">Enfermedad alérgica respiratoria rara</Name>
+                <DisorderType id="36561">
+                  <Name lang="es">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
                   <Disorder id="744">
-                    <OrphaNumber>1164</OrphaNumber>
+                    <OrphaCode>1164</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1164</ExpertLink>
                     <Name lang="es">Aspergilosis bronco-pulmonar alérgica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="7033">
-                    <OrphaNumber>2902</OrphaNumber>
+                    <OrphaCode>2902</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2902</ExpertLink>
                     <Name lang="es">Neumonía eosinofílica crónica idiopática</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="9794">
-                    <OrphaNumber>31740</OrphaNumber>
+                    <OrphaCode>31740</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31740</ExpertLink>
                     <Name lang="es">Neumonitis por hipersensibilidad</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14480">
-                        <OrphaNumber>99907</OrphaNumber>
+                        <OrphaCode>99907</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99907</ExpertLink>
                         <Name lang="es">Alveolitis alérgica doméstica</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14482">
-                        <OrphaNumber>99909</OrphaNumber>
+                        <OrphaCode>99909</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99909</ExpertLink>
                         <Name lang="es">Alveolitis alérgica profesional</Name>
+                        <DisorderType id="21436">
+                          <Name lang="es">Grupo de fenomas</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14479">
-                            <OrphaNumber>99906</OrphaNumber>
+                            <OrphaCode>99906</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99906</ExpertLink>
                             <Name lang="es">Enfermedad del pulmón de granjero</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14481">
-                            <OrphaNumber>99908</OrphaNumber>
+                            <OrphaCode>99908</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99908</ExpertLink>
                             <Name lang="es">Pulmón del criador de pájaros</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -262,16 +360,19 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="22459">
-                <OrphaNumber>369992</OrphaNumber>
+                <OrphaCode>369992</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=369992</ExpertLink>
                 <Name lang="es">Síndrome de dermatitis grave-alergias múltiples-desgaste metabólico</Name>
+                <DisorderType id="21394">
+                  <Name lang="es">Enfermedad</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

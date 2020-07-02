@@ -1,124 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2019-07-10 11:48:38" version="1.2.11 / 4.1.6 [2018-04-12] (orientdb version)" copyright="Orphanet (c) 2019">
-  <DisorderList count="1">
-    <Disorder id="10772">
-      <OrphaNumber>57146</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=57146</ExpertLink>
-      <Name lang="pl">Rzadkie choroby wątroby</Name>
-      <ClassificationNodeList count="1">
+<JDBOR date="2020-06-29 19:33:34" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
+  <ClassificationList count="1">
+    <Classification id="183">
+      <OrphaNumber>162651</OrphaNumber>
+      <Name lang="en">Orphanet classification of rare hepatic diseases</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
-          <ClassificationNodeChildList count="9">
+          <Disorder id="10772">
+            <OrphaCode>57146</OrphaCode>
+            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=57146</ExpertLink>
+            <Name lang="pl">Rzadkie choroby wątroby</Name>
+            <DisorderType id="36561">
+              <Name lang="en">Category</Name>
+            </DisorderType>
+          </Disorder>
+          <ClassificationNodeChildList count="12">
             <ClassificationNode>
               <Disorder id="838">
-                <OrphaNumber>2312</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2312</ExpertLink>
+                <OrphaCode>2312</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2312</ExpertLink>
                 <Name lang="pl">Przejściowa rodzinna hiperbilirubinemia noworodków</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="14874">
-                <OrphaNumber>101938</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101938</ExpertLink>
+                <OrphaCode>101938</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101938</ExpertLink>
                 <Name lang="pl">Rzadkie choroby naczyniowe wątroby</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="11">
                 <ClassificationNode>
                   <Disorder id="236">
-                    <OrphaNumber>774</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=774</ExpertLink>
+                    <OrphaCode>774</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=774</ExpertLink>
                     <Name lang="pl">Dziedziczna krwotoczna telangiektazja</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25212">
-                    <OrphaNumber>480524</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480524</ExpertLink>
+                    <OrphaCode>480524</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480524</ExpertLink>
                     <Name lang="pl">Prosowate wylewy krwawe wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12631">
-                    <OrphaNumber>95507</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95507</ExpertLink>
+                    <OrphaCode>95507</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95507</ExpertLink>
                     <Name lang="pl">Wrodzona anomalia żyły wątrobowej</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10615">
-                    <OrphaNumber>48372</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=48372</ExpertLink>
+                    <OrphaCode>48372</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=48372</ExpertLink>
                     <Name lang="pl">Guzkowa regeneratywna hiperplazja wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25214">
-                    <OrphaNumber>480531</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480531</ExpertLink>
+                    <OrphaCode>480531</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480531</ExpertLink>
                     <Name lang="pl">Wrodzone zespolenie wrotno-układowe</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="854">
-                    <OrphaNumber>131</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=131</ExpertLink>
+                    <OrphaCode>131</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=131</ExpertLink>
                     <Name lang="pl">Zespół Budda i Chiariego</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="5533">
-                    <OrphaNumber>890</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=890</ExpertLink>
+                    <OrphaCode>890</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=890</ExpertLink>
                     <Name lang="pl">Choroba zarostowa żył wątrobowych</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8029">
-                    <OrphaNumber>854</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=854</ExpertLink>
+                    <OrphaCode>854</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=854</ExpertLink>
                     <Name lang="pl">Pierwotna zakrzepica żyły wrotnej</Name>
+                    <DisorderType id="21422">
+                      <Name lang="pl">Zespół kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10847">
-                    <OrphaNumber>64743</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64743</ExpertLink>
+                    <OrphaCode>64743</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64743</ExpertLink>
                     <Name lang="pl">Stwardnienie wątrobowo-wrotne</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11152">
-                    <OrphaNumber>79124</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79124</ExpertLink>
+                    <OrphaCode>79124</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79124</ExpertLink>
                     <Name lang="pl">Choroba zarostowa żył wątrobowych - Niedobór odporności</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25668">
-                    <OrphaNumber>494348</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=494348</ExpertLink>
+                    <OrphaCode>494348</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=494348</ExpertLink>
                     <Name lang="en">Early-onset familial noncirrhotic portal hypertension</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -127,214 +180,358 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="14875">
-                <OrphaNumber>101939</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101939</ExpertLink>
+                <OrphaCode>101939</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101939</ExpertLink>
                 <Name lang="pl">Rzadkie choroby miąższu wątroby</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="23">
-                <ClassificationNode>
-                  <Disorder id="11953">
-                    <OrphaNumber>90062</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90062</ExpertLink>
-                    <Name lang="pl">Ostra niewydolność wątroby</Name>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
+              <ClassificationNodeChildList count="24">
                 <ClassificationNode>
                   <Disorder id="873">
-                    <OrphaNumber>2137</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2137</ExpertLink>
+                    <OrphaCode>2137</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2137</ExpertLink>
                     <Name lang="pl">Autoimmunologiczne zapalenie wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="28362">
+                        <OrphaCode>563576</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563576</ExpertLink>
+                        <Name lang="en">Autoimmune hepatitis type 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="28363">
+                        <OrphaCode>563581</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563581</ExpertLink>
+                        <Name lang="en">Autoimmune hepatitis type 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="28364">
+                        <OrphaCode>563589</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563589</ExpertLink>
+                        <Name lang="en">Seronegative autoimmune hepatitis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1961">
-                    <OrphaNumber>2031</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2031</ExpertLink>
+                    <OrphaCode>2031</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2031</ExpertLink>
                     <Name lang="pl">Zwłóknienie wątroby - torbiele nerek - niepełnosprawność intelektualna</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10361">
-                    <OrphaNumber>35063</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35063</ExpertLink>
+                    <OrphaCode>35063</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=35063</ExpertLink>
                     <Name lang="pl">Piorunujące wirusowe zapalenie wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10775">
-                    <OrphaNumber>57777</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=57777</ExpertLink>
+                    <OrphaCode>57777</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=57777</ExpertLink>
                     <Name lang="pl">Kardiomiopatia związana z marskością wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11605">
-                    <OrphaNumber>84064</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=84064</ExpertLink>
+                    <OrphaCode>84064</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=84064</ExpertLink>
                     <Name lang="pl">Biegunka syndromiczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11921">
-                    <OrphaNumber>90003</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90003</ExpertLink>
+                    <OrphaCode>90003</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90003</ExpertLink>
                     <Name lang="pl">Pseudoguz zapalny wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="28105">
+                        <OrphaCode>555434</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=555434</ExpertLink>
+                        <Name lang="en">Fibrohistiocytic inflammatory pseudotumor of the liver</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="28106">
+                        <OrphaCode>555437</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=555437</ExpertLink>
+                        <Name lang="en">Lymphoplasmacytic inflammatory pseudotumor of the liver</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18669">
-                    <OrphaNumber>209919</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209919</ExpertLink>
+                    <OrphaCode>209919</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=209919</ExpertLink>
                     <Name lang="pl">Idiopatyczna marskość wątroby związana z miedzią</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18687">
-                    <OrphaNumber>210136</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=210136</ExpertLink>
+                    <OrphaCode>210136</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=210136</ExpertLink>
                     <Name lang="pl">Włóknienie płuc - hiperplazja wątroby - hipoplazja szpiku kostnego</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19469">
-                    <OrphaNumber>243367</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=243367</ExpertLink>
+                    <OrphaCode>243367</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=243367</ExpertLink>
                     <Name lang="pl">Ostre stłuszczenie wątroby w ciąży</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="21105">
-                    <OrphaNumber>300293</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300293</ExpertLink>
+                    <OrphaCode>300293</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300293</ExpertLink>
                     <Name lang="pl">Przejściowa hipertriglicerydemia dziecięca i stłuszczenie wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22479">
-                    <OrphaNumber>370088</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=370088</ExpertLink>
+                    <OrphaCode>370088</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370088</ExpertLink>
                     <Name lang="pl">Zespół ostra dziecięca niewydolność wątroby-zaburzenia wieloukładowe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22611">
-                    <OrphaNumber>391366</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=391366</ExpertLink>
+                    <OrphaCode>391366</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=391366</ExpertLink>
                     <Name lang="pl">Zespół opóźnienie wzrostu-łagodne opóźnienie rozwoju-przewlekłe zapalenie wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22704">
-                    <OrphaNumber>397922</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397922</ExpertLink>
+                    <OrphaCode>397922</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=397922</ExpertLink>
                     <Name lang="pl">Zespół żelazowo-mózgowo-skórny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="97">
-                    <OrphaNumber>731</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=731</ExpertLink>
+                    <OrphaCode>731</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=731</ExpertLink>
                     <Name lang="pl">Autosomalna  recesywna wielotorbielowatość nerek</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25312">
-                    <OrphaNumber>485426</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=485426</ExpertLink>
+                    <OrphaCode>485426</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=485426</ExpertLink>
                     <Name lang="pl">Izolowane wrodzone włóknienie wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2725">
-                    <OrphaNumber>3032</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3032</ExpertLink>
+                    <OrphaCode>3032</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3032</ExpertLink>
                     <Name lang="pl">Zespół podobny do zespołu Meckela zwiazany z NPHP3</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24040">
-                    <OrphaNumber>464724</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464724</ExpertLink>
+                    <OrphaCode>464724</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=464724</ExpertLink>
                     <Name lang="pl">Zespół ostrej niewydolności wątroby u niemowląt związany z gorączką</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="24170">
-                    <OrphaNumber>466794</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=466794</ExpertLink>
+                    <OrphaCode>466794</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=466794</ExpertLink>
                     <Name lang="pl">Zespół ostrej niewydolności wątroby niemowląt, ataksji móżdżkowej oraz obwodowej neuropatii czuciowej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28017">
+                    <OrphaCode>541423</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=541423</ExpertLink>
+                    <Name lang="en">Growth delay-intellectual disability-hepatopathy syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23408">
-                    <OrphaNumber>440427</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440427</ExpertLink>
+                    <OrphaCode>440427</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=440427</ExpertLink>
                     <Name lang="pl">Ciężka płucna proteinoza pęcherzykowa o wczesnym pocztąku spowodowana niedoborem MARS</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1644">
-                    <OrphaNumber>1454</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1454</ExpertLink>
+                    <OrphaCode>1454</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1454</ExpertLink>
                     <Name lang="pl">Zespół Joubert z wadą wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20908">
-                    <OrphaNumber>294415</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294415</ExpertLink>
+                    <OrphaCode>294415</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=294415</ExpertLink>
                     <Name lang="pl">Dysplazja nerkowo-wątrobowo-trzustkowa</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18849">
-                    <OrphaNumber>217371</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217371</ExpertLink>
+                    <OrphaCode>217371</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217371</ExpertLink>
                     <Name lang="pl">Ostra dziecięca niewydolność wątroby z powodu defektu syntezy białek kodowanych przez mtDNA</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=562639</ExpertLink>
+                    <Name lang="en">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -343,122 +540,308 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="14876">
-                <OrphaNumber>101940</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101940</ExpertLink>
+                <OrphaCode>101940</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101940</ExpertLink>
                 <Name lang="pl">Choroby metaboliczne wątroby</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="38">
+              <ClassificationNodeChildList count="42">
+                <ClassificationNode>
+                  <Disorder id="12578">
+                    <OrphaCode>95157</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95157</ExpertLink>
+                    <Name lang="pl">Ostra porfiria wątrobowa</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="4">
+                    <ClassificationNode>
+                      <Disorder id="14678">
+                        <OrphaCode>100924</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100924</ExpertLink>
+                        <Name lang="pl">Porfiria z powodu niedoboru dehydratazy ALA</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11299">
+                        <OrphaCode>79273</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79273</ExpertLink>
+                        <Name lang="pl">Koproporfiria dziedziczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11302">
+                        <OrphaCode>79276</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79276</ExpertLink>
+                        <Name lang="pl">Ostra porfiria przerywana</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11499">
+                        <OrphaCode>79473</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79473</ExpertLink>
+                        <Name lang="pl">Porfiria mieszana</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="12581">
+                    <OrphaCode>95161</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95161</ExpertLink>
+                    <Name lang="pl">Przewlekła porfiria wątrobowa</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="14841">
+                        <OrphaCode>101330</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101330</ExpertLink>
+                        <Name lang="pl">Porfiria skórna późna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="23434">
+                            <OrphaCode>443057</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=443057</ExpertLink>
+                            <Name lang="pl">Sporadyczna porfiria skórna późna</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23435">
+                            <OrphaCode>443062</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=443062</ExpertLink>
+                            <Name lang="pl">Rodzinna porfiria skórna późna</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="12580">
+                        <OrphaCode>95159</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95159</ExpertLink>
+                        <Name lang="pl">Porfiria hepatoerytropoetyczna</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11304">
+                    <OrphaCode>79278</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79278</ExpertLink>
+                    <Name lang="pl">Autosomalna protoporfiria erytropoetyczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23451">
+                    <OrphaCode>443197</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=443197</ExpertLink>
+                    <Name lang="pl">Protoporfiria erytropoetyczna sprzężona z chromosomem X</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="15">
-                    <OrphaNumber>366</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=366</ExpertLink>
+                    <OrphaCode>366</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=366</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu spowodowana niedoborem enzymu odgałęziającego glikogen</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11265">
-                    <OrphaNumber>79239</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79239</ExpertLink>
+                    <OrphaCode>79239</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79239</ExpertLink>
                     <Name lang="pl">Galaktozemia klasyczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22704">
-                    <OrphaNumber>397922</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397922</ExpertLink>
+                    <OrphaCode>397922</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=397922</ExpertLink>
                     <Name lang="pl">Zespół żelazowo-mózgowo-skórny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10933">
-                    <OrphaNumber>69665</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69665</ExpertLink>
+                    <OrphaCode>69665</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=69665</ExpertLink>
                     <Name lang="pl">Cholestaza wewnątrzwątrobowa ciężarnych</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16">
-                    <OrphaNumber>367</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=367</ExpertLink>
+                    <OrphaCode>367</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=367</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu spowodowana niedoborem enzymu rozgałęziającego</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="18528">
-                        <OrphaNumber>206583</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=206583</ExpertLink>
+                        <OrphaCode>206583</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=206583</ExpertLink>
                         <Name lang="pl">Choroba ciał skrobiowatych u dorosłych</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21325">
-                        <OrphaNumber>308621</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308621</ExpertLink>
+                        <OrphaCode>308621</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308621</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać wątrobowa postępująca</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21326">
-                        <OrphaNumber>308638</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308638</ExpertLink>
+                        <OrphaCode>308638</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308638</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać wątrobowa niepostępująca</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21327">
-                        <OrphaNumber>308655</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308655</ExpertLink>
+                        <OrphaCode>308655</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308655</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, śmiertelna postać prenatalna nerwowo-mięśniowa</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21328">
-                        <OrphaNumber>308670</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308670</ExpertLink>
+                        <OrphaCode>308670</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308670</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać wrodzona nerwowo-mięśniowa</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21329">
-                        <OrphaNumber>308684</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308684</ExpertLink>
+                        <OrphaCode>308684</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308684</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać złożona wątrobowa i miopatyczna o początku w wieku dziecięcym</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21330">
-                        <OrphaNumber>308698</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308698</ExpertLink>
+                        <OrphaCode>308698</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308698</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać nerwowo-mięśniowa o początku w wieku dziecięcym</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21331">
-                        <OrphaNumber>308712</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308712</ExpertLink>
+                        <OrphaCode>308712</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308712</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru enzymu rozgałęziającego glikogen, postać nerwowo-mięśniowa o początku w wieku dorosłym</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -467,52 +850,70 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18">
-                    <OrphaNumber>369</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369</ExpertLink>
+                    <OrphaCode>369</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=369</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu spowodowana niedoborem wątrobowej fosforylazy glikogenu</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="134">
-                    <OrphaNumber>905</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=905</ExpertLink>
+                    <OrphaCode>905</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=905</ExpertLink>
                     <Name lang="pl">Choroba Wilsona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="194">
-                    <OrphaNumber>60</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60</ExpertLink>
+                    <OrphaCode>60</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=60</ExpertLink>
                     <Name lang="pl">Niedobór alfa-1-antytrypsyny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="242">
-                    <OrphaNumber>205</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=205</ExpertLink>
+                    <OrphaCode>205</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=205</ExpertLink>
                     <Name lang="pl">Zespół Criglera i Najjara</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="11260">
-                        <OrphaNumber>79234</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79234</ExpertLink>
+                        <OrphaCode>79234</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79234</ExpertLink>
                         <Name lang="pl">Zespół Criglera i Najjara typu 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11261">
-                        <OrphaNumber>79235</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79235</ExpertLink>
+                        <OrphaCode>79235</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79235</ExpertLink>
                         <Name lang="pl">Zespół Criglera i Najjara typu 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -521,25 +922,34 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11264">
-                    <OrphaNumber>79238</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79238</ExpertLink>
+                    <OrphaCode>79238</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79238</ExpertLink>
                     <Name lang="pl">Niedobór epimerazy galaktozy</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="21318">
-                        <OrphaNumber>308473</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308473</ExpertLink>
+                        <OrphaCode>308473</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308473</ExpertLink>
                         <Name lang="pl">Niedobór epimerazy galaktozy czerwonokrwinkowej</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21319">
-                        <OrphaNumber>308487</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=308487</ExpertLink>
+                        <OrphaCode>308487</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=308487</ExpertLink>
                         <Name lang="pl">Uogólniony Niedobór epimerazy galaktozy</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -548,43 +958,58 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="504">
-                    <OrphaNumber>446</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=446</ExpertLink>
+                    <OrphaCode>446</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=446</ExpertLink>
                     <Name lang="pl">Hemochromatoza noworodkowa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="517">
-                    <OrphaNumber>469</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=469</ExpertLink>
+                    <OrphaCode>469</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=469</ExpertLink>
                     <Name lang="pl">Dziedziczna nietolerancja fruktozy</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="645">
-                    <OrphaNumber>364</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=364</ExpertLink>
+                    <OrphaCode>364</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=364</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu spowodowana niedoborem glukozo-6-fosfatazy</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="11284">
-                        <OrphaNumber>79258</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79258</ExpertLink>
+                        <OrphaCode>79258</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79258</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru glukozo-6-fosfatazy typu a</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11285">
-                        <OrphaNumber>79259</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79259</ExpertLink>
+                        <OrphaCode>79259</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79259</ExpertLink>
                         <Name lang="pl">Choroba spichrzania glikogenu typu wywołana niedoborem glukozo-6-fosfatazy typu 1b</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -593,79 +1018,106 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="805">
-                    <OrphaNumber>234</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=234</ExpertLink>
+                    <OrphaCode>234</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=234</ExpertLink>
                     <Name lang="pl">Zespół Dubina i Johnsona</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="882">
-                    <OrphaNumber>3111</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3111</ExpertLink>
+                    <OrphaCode>3111</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3111</ExpertLink>
                     <Name lang="pl">Zespół Rotora</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="1728">
-                    <OrphaNumber>3196</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3196</ExpertLink>
+                    <OrphaCode>3196</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3196</ExpertLink>
                     <Name lang="pl">Niedobór dehydrogenazy steroidowej - wady zębów</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3494">
-                    <OrphaNumber>882</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=882</ExpertLink>
+                    <OrphaCode>882</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=882</ExpertLink>
                     <Name lang="pl">Tyrozynemia typu 1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="3513">
-                    <OrphaNumber>2088</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2088</ExpertLink>
+                    <OrphaCode>2088</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2088</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru GLUT2</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11215">
-                    <OrphaNumber>79189</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79189</ExpertLink>
+                    <OrphaCode>79189</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79189</ExpertLink>
                     <Name lang="pl">Zaburzenie biogenezy peroksysomów</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="225">
-                        <OrphaNumber>912</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=912</ExpertLink>
+                        <OrphaCode>912</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=912</ExpertLink>
                         <Name lang="pl">Zespół Zellwegera</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="410">
-                        <OrphaNumber>44</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=44</ExpertLink>
+                        <OrphaCode>44</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=44</ExpertLink>
                         <Name lang="pl">Adrenoleukodystrofia noworodkowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="5016">
-                        <OrphaNumber>772</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=772</ExpertLink>
+                        <OrphaCode>772</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=772</ExpertLink>
                         <Name lang="pl">Dziecięca choroba Refsuma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -674,61 +1126,82 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11266">
-                    <OrphaNumber>79240</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79240</ExpertLink>
+                    <OrphaCode>79240</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79240</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru kinazy fosforylazy wątrobowej i mięśniowej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19792">
-                    <OrphaNumber>254871</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=254871</ExpertLink>
+                    <OrphaCode>254871</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=254871</ExpertLink>
                     <Name lang="pl">Zespół deplecji mitochondrialnego DNA, postać wątrobowo-mózgowa</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="20419">
-                        <OrphaNumber>279934</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=279934</ExpertLink>
+                        <OrphaCode>279934</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=279934</ExpertLink>
                         <Name lang="pl">Zespół deplecji mitochondrialnego DNA, postać wątrobowo-mózgowa z powodu niedoboru DGUOK</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="22319">
-                        <OrphaNumber>363534</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363534</ExpertLink>
+                        <OrphaCode>363534</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363534</ExpertLink>
                         <Name lang="pl">Zespół deplecji mitochondrialnego DNA, postać wątrobowo-mózgowo-nerkowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19812">
-                        <OrphaNumber>255229</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=255229</ExpertLink>
+                        <OrphaCode>255229</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=255229</ExpertLink>
                         <Name lang="pl">Neurohepatopatia Navajo</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1443">
-                        <OrphaNumber>1186</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1186</ExpertLink>
+                        <OrphaCode>1186</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1186</ExpertLink>
                         <Name lang="pl">Dziecięca ataksja rdzeniowo-mózdżkowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1730">
-                        <OrphaNumber>726</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=726</ExpertLink>
+                        <OrphaCode>726</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=726</ExpertLink>
                         <Name lang="pl">Zespół Alpersa i Huttenlochera</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -737,79 +1210,106 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16706">
-                    <OrphaNumber>137681</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137681</ExpertLink>
+                    <OrphaCode>137681</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137681</ExpertLink>
                     <Name lang="pl">Encefalopatia wątrobowa z powodu złożonego niedoboru fosforylacji oksydacyjnej typu 1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="16911">
-                    <OrphaNumber>139507</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139507</ExpertLink>
+                    <OrphaCode>139507</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139507</ExpertLink>
                     <Name lang="pl">Afrykańskie przeciążenie żelazem</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18849">
-                    <OrphaNumber>217371</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217371</ExpertLink>
+                    <OrphaCode>217371</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217371</ExpertLink>
                     <Name lang="pl">Ostra dziecięca niewydolność wątroby z powodu defektu syntezy białek kodowanych przez mtDNA</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="18915">
-                    <OrphaNumber>220489</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=220489</ExpertLink>
+                    <OrphaCode>220489</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220489</ExpertLink>
                     <Name lang="pl">Rzadka dziedziczna hemochromatoza</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="11256">
-                        <OrphaNumber>79230</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79230</ExpertLink>
+                        <OrphaCode>79230</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79230</ExpertLink>
                         <Name lang="pl">Hemochromatoza typu 2</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="16909">
-                        <OrphaNumber>139491</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139491</ExpertLink>
+                        <OrphaCode>139491</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139491</ExpertLink>
                         <Name lang="pl">Hemochromatoza typu 4</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18976">
-                        <OrphaNumber>225123</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=225123</ExpertLink>
+                        <OrphaCode>225123</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=225123</ExpertLink>
                         <Name lang="pl">Hemochromatoza typu 3</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="23545">
-                        <OrphaNumber>447792</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447792</ExpertLink>
+                        <OrphaCode>447792</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447792</ExpertLink>
                         <Name lang="pl">Hemochromatoza typu 5</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="24056">
-                        <OrphaNumber>465508</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=465508</ExpertLink>
+                        <OrphaCode>465508</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=465508</ExpertLink>
                         <Name lang="pl">Objawowa postać hemochromatozy typu 1</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -818,104 +1318,140 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19267">
-                    <OrphaNumber>238475</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=238475</ExpertLink>
+                    <OrphaCode>238475</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238475</ExpertLink>
                     <Name lang="pl">Rodzinna hipercholanemia/podwyższone stężenie kwasów żółciowych w osoczu</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19546">
-                    <OrphaNumber>247790</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247790</ExpertLink>
+                    <OrphaCode>247790</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247790</ExpertLink>
                     <Name lang="pl">Przeładowanie żelazem zwiazane z FTH1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20103">
-                    <OrphaNumber>264580</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264580</ExpertLink>
+                    <OrphaCode>264580</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=264580</ExpertLink>
                     <Name lang="pl">Choroba spichrzania glikogenu z powodu niedoboru kinazy fosforylazy wątrobowej</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="20602">
-                    <OrphaNumber>284385</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284385</ExpertLink>
+                    <OrphaCode>284385</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284385</ExpertLink>
                     <Name lang="pl">Rodzinna cholestaza wewnątrzwątrobowa</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="1073">
-                        <OrphaNumber>172</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=172</ExpertLink>
+                        <OrphaCode>172</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=172</ExpertLink>
                         <Name lang="pl">Postępująca rodzinna cholestaza wewnątrzwątrobowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="11330">
-                            <OrphaNumber>79304</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79304</ExpertLink>
+                            <OrphaCode>79304</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79304</ExpertLink>
                             <Name lang="pl">Postępująca rodzinna wewnątrzwątrobowa cholestaza typu 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11331">
-                            <OrphaNumber>79305</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79305</ExpertLink>
+                            <OrphaCode>79305</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79305</ExpertLink>
                             <Name lang="pl">Postępująca rodzinna wewnątrzwątrobowa cholestaza typu 3</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11332">
-                            <OrphaNumber>79306</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79306</ExpertLink>
+                            <OrphaCode>79306</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79306</ExpertLink>
                             <Name lang="pl">Postępująca rodzinna wewnątrzwątrobowa cholestaza typu 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="25206">
-                            <OrphaNumber>480483</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480483</ExpertLink>
+                            <OrphaCode>480483</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480483</ExpertLink>
                             <Name lang="pl">Rodzinna postępująca choleostaza wewnątrzwątrobowa typu 4</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="25207">
-                            <OrphaNumber>480491</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480491</ExpertLink>
+                            <OrphaCode>480491</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480491</ExpertLink>
                             <Name lang="pl">Rodzinna postępująca choleostaza wewnątrzwątrobowa zależna od MYO5B</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="17777">
-                            <OrphaNumber>168583</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=168583</ExpertLink>
+                            <OrphaCode>168583</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=168583</ExpertLink>
                             <Name lang="pl">Dziedziczna marskość wątroby u Indian Ameryki Północnej</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="25205">
-                            <OrphaNumber>480476</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480476</ExpertLink>
+                            <OrphaCode>480476</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480476</ExpertLink>
                             <Name lang="pl">Rodzinna postępująca choleostaza wewnątrzwątrobowa typu 5</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -924,25 +1460,34 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="10872">
-                        <OrphaNumber>65682</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=65682</ExpertLink>
+                        <OrphaCode>65682</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=65682</ExpertLink>
                         <Name lang="pl">Łagodna nawracająca cholestaza wewnątrzwątrobowa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14533">
-                            <OrphaNumber>99960</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99960</ExpertLink>
+                            <OrphaCode>99960</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99960</ExpertLink>
                             <Name lang="pl">Łagodna nawracająca cholestaza wewnątrzwątrobowa typu 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14534">
-                            <OrphaNumber>99961</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99961</ExpertLink>
+                            <OrphaCode>99961</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99961</ExpertLink>
                             <Name lang="pl">Łagodna nawracająca cholestaza wewnątrzwątrobowa typu 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -951,59 +1496,80 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="17508">
-                        <OrphaNumber>163631</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163631</ExpertLink>
+                        <OrphaCode>163631</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163631</ExpertLink>
                         <Name lang="pl">Zaburzenie syntezy kwasów tłuszczowych z cholestazą i złym wchłanianiem</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="605">
-                            <OrphaNumber>909</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=909</ExpertLink>
+                            <OrphaCode>909</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=909</ExpertLink>
                             <Name lang="pl">Ksantomatoza mózgowo-ścięgnista</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="25322">
-                            <OrphaNumber>485631</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=485631</ExpertLink>
+                            <OrphaCode>485631</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=485631</ExpertLink>
                             <Name lang="pl">Wrodzona wada syntezy kwasów żółciowych</Name>
+                            <DisorderType id="21436">
+                              <Name lang="pl">Grupa fenomenów</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="11137">
-                                <OrphaNumber>79095</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79095</ExpertLink>
+                                <OrphaCode>79095</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79095</ExpertLink>
                                 <Name lang="pl">Wrodzony defekt syntezy kwasów żółciowych typu 4</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="11328">
-                                <OrphaNumber>79302</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79302</ExpertLink>
+                                <OrphaCode>79302</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79302</ExpertLink>
                                 <Name lang="pl">Wrodzony defekt syntezy kwasów żółciowych typu 3</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="11329">
-                                <OrphaNumber>79303</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79303</ExpertLink>
+                                <OrphaCode>79303</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79303</ExpertLink>
                                 <Name lang="pl">Wrodzony defekt syntezy kwasów żółciowych typu 2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="11327">
-                                <OrphaNumber>79301</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79301</ExpertLink>
+                                <OrphaCode>79301</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79301</ExpertLink>
                                 <Name lang="pl">Wrodzony defekt syntezy kwasów żółciowych typu 1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1012,18 +1578,24 @@
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="19267">
-                            <OrphaNumber>238475</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=238475</ExpertLink>
+                            <OrphaCode>238475</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238475</ExpertLink>
                             <Name lang="pl">Rodzinna hipercholanemia/podwyższone stężenie kwasów żółciowych w osoczu</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="20346">
-                            <OrphaNumber>276066</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276066</ExpertLink>
+                            <OrphaCode>276066</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=276066</ExpertLink>
                             <Name lang="pl">Niedobór i wadliwa amidacja ligazy kwas tłuszczowy:CoA</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -1034,160 +1606,214 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="21405">
-                    <OrphaNumber>309854</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309854</ExpertLink>
+                    <OrphaCode>309854</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=309854</ExpertLink>
                     <Name lang="pl">Zespół marskość wątroby-dystonia-policytemia-hipermanganemia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22319">
-                    <OrphaNumber>363534</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363534</ExpertLink>
+                    <OrphaCode>363534</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363534</ExpertLink>
                     <Name lang="pl">Zespół deplecji mitochondrialnego DNA, postać wątrobowo-mózgowo-nerkowa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22451">
-                    <OrphaNumber>369942</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369942</ExpertLink>
+                    <OrphaCode>369942</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=369942</ExpertLink>
                     <Name lang="pl">CADDS</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="22521">
-                    <OrphaNumber>371157</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=371157</ExpertLink>
+                    <OrphaCode>371157</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=371157</ExpertLink>
                     <Name lang="pl">Wrodzone zaburzenie glikozylacji z udziałem wątroby</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="11344">
-                        <OrphaNumber>79318</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79318</ExpertLink>
+                        <OrphaCode>79318</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79318</ExpertLink>
                         <Name lang="pl">PMM2-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11345">
-                        <OrphaNumber>79319</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79319</ExpertLink>
+                        <OrphaCode>79319</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79319</ExpertLink>
                         <Name lang="pl">MPI-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11351">
-                        <OrphaNumber>79325</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79325</ExpertLink>
+                        <OrphaCode>79325</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79325</ExpertLink>
                         <Name lang="pl">ALG8-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11352">
-                        <OrphaNumber>79326</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79326</ExpertLink>
+                        <OrphaCode>79326</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79326</ExpertLink>
                         <Name lang="pl">ALG2-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11354">
-                        <OrphaNumber>79328</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79328</ExpertLink>
+                        <OrphaCode>79328</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79328</ExpertLink>
                         <Name lang="pl">ALG9-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11356">
-                        <OrphaNumber>79330</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79330</ExpertLink>
+                        <OrphaCode>79330</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79330</ExpertLink>
                         <Name lang="pl">GCS1-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11358">
-                        <OrphaNumber>79332</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79332</ExpertLink>
+                        <OrphaCode>79332</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79332</ExpertLink>
                         <Name lang="pl">B4GALT1-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19478">
-                        <OrphaNumber>244310</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=244310</ExpertLink>
+                        <OrphaCode>244310</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=244310</ExpertLink>
                         <Name lang="pl">RFT1-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="20064">
-                        <OrphaNumber>263501</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263501</ExpertLink>
+                        <OrphaCode>263501</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=263501</ExpertLink>
                         <Name lang="pl">COG4-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21127">
-                        <OrphaNumber>300536</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300536</ExpertLink>
+                        <OrphaCode>300536</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300536</ExpertLink>
                         <Name lang="pl">DDOST-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21512">
-                        <OrphaNumber>314667</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314667</ExpertLink>
+                        <OrphaCode>314667</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=314667</ExpertLink>
                         <Name lang="pl">TMEM165-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21686">
-                        <OrphaNumber>319646</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319646</ExpertLink>
+                        <OrphaCode>319646</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=319646</ExpertLink>
                         <Name lang="pl">PGM1-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21777">
-                        <OrphaNumber>324422</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324422</ExpertLink>
+                        <OrphaCode>324422</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324422</ExpertLink>
                         <Name lang="pl">ALG13-CDG</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21904">
-                        <OrphaNumber>329178</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329178</ExpertLink>
+                        <OrphaCode>329178</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=329178</ExpertLink>
                         <Name lang="pl">Wrodzona dystrofia mięśniowa z niepełnosprawnością intelektualną i cieżką padaczką</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1196,45 +1822,60 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10737">
-                    <OrphaNumber>53693</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=53693</ExpertLink>
+                    <OrphaCode>53693</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=53693</ExpertLink>
                     <Name lang="pl">Zespół GRACILE</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19798">
-                    <OrphaNumber>254902</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=254902</ExpertLink>
+                    <OrphaCode>254902</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=254902</ExpertLink>
                     <Name lang="pl">Tubulopatia nerkowa - encefalopatia - niewydolność wątroby</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11067">
-                    <OrphaNumber>75233</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=75233</ExpertLink>
+                    <OrphaCode>75233</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=75233</ExpertLink>
                     <Name lang="pl">Choroba Wolmana</Name>
+                    <DisorderType id="21450">
+                      <Name lang="pl">Podtyp kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11068">
-                    <OrphaNumber>75234</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=75234</ExpertLink>
+                    <OrphaCode>75234</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=75234</ExpertLink>
                     <Name lang="pl">Choroba spichrzania estrów cholesterolu</Name>
+                    <DisorderType id="21450">
+                      <Name lang="pl">Podtyp kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="19528">
-                    <OrphaNumber>247585</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247585</ExpertLink>
+                    <OrphaCode>247585</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247585</ExpertLink>
                     <Name lang="pl">Citrulinemia typu II</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1243,95 +1884,140 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="14877">
-                <OrphaNumber>101941</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101941</ExpertLink>
+                <OrphaCode>101941</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101941</ExpertLink>
                 <Name lang="pl">Rzadkie choroby dróg żółciowych</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="19">
+              <ClassificationNodeChildList count="21">
+                <ClassificationNode>
+                  <Disorder id="28606">
+                    <OrphaCode>567983</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=567983</ExpertLink>
+                    <Name lang="en">Parenteral nutrition-associated cholestasis</Name>
+                    <DisorderType id="21429">
+                      <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25211">
-                    <OrphaNumber>480520</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480520</ExpertLink>
+                    <OrphaCode>480520</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480520</ExpertLink>
                     <Name lang="pl">Zespół Caroliego</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25210">
-                    <OrphaNumber>480512</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480512</ExpertLink>
+                    <OrphaCode>480512</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480512</ExpertLink>
                     <Name lang="pl">Duktopenia idiopatyczna</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25209">
-                    <OrphaNumber>480506</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480506</ExpertLink>
+                    <OrphaCode>480506</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480506</ExpertLink>
                     <Name lang="pl">Pierwotna kamica wewnątrzwątrobowa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25208">
-                    <OrphaNumber>480501</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480501</ExpertLink>
+                    <OrphaCode>480501</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480501</ExpertLink>
                     <Name lang="pl">Torbiel przewodu żółciowego wspólnego</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23540">
-                    <OrphaNumber>447771</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447771</ExpertLink>
+                    <OrphaCode>447771</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447771</ExpertLink>
                     <Name lang="pl">Twardniające zapalenie dróg żółciowych</Name>
+                    <DisorderType id="21436">
+                      <Name lang="pl">Grupa fenomenów</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="10788">
-                        <OrphaNumber>59303</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=59303</ExpertLink>
+                        <OrphaCode>59303</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=59303</ExpertLink>
                         <Name lang="pl">Noworodkowy zespół rybiej łuski i stwardniającego zapalenia dróg żółciowych</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="25219">
-                        <OrphaNumber>480556</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480556</ExpertLink>
+                        <OrphaCode>480556</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=480556</ExpertLink>
                         <Name lang="pl">Izolowane stwardniające zapalnie dróg żółciowych noworodków</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="783">
-                        <OrphaNumber>171</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=171</ExpertLink>
+                        <OrphaCode>171</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171</ExpertLink>
                         <Name lang="pl">Pierwotne stwardniające zapalenie dróg żółciowych</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="23539">
-                        <OrphaNumber>447764</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447764</ExpertLink>
+                        <OrphaCode>447764</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447764</ExpertLink>
                         <Name lang="pl">Twardniające zapalenie dróg żółciowych związane z IgG4</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="23541">
-                        <OrphaNumber>447774</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447774</ExpertLink>
+                        <OrphaCode>447774</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447774</ExpertLink>
                         <Name lang="pl">Wtórne twardniające zapalenie dróg żółciowych</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1339,53 +2025,83 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=562639</ExpertLink>
+                    <Name lang="en">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="49">
-                    <OrphaNumber>586</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=586</ExpertLink>
+                    <OrphaCode>586</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=586</ExpertLink>
                     <Name lang="pl">Mukowiscydoza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2641">
-                    <OrphaNumber>2924</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2924</ExpertLink>
+                    <OrphaCode>2924</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2924</ExpertLink>
                     <Name lang="pl">Izolowana wielotorbielowatość wątroby</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="253">
-                    <OrphaNumber>52</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=52</ExpertLink>
+                    <OrphaCode>52</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=52</ExpertLink>
                     <Name lang="pl">Zespół Alagille'a</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="19894">
-                        <OrphaNumber>261600</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261600</ExpertLink>
+                        <OrphaCode>261600</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=261600</ExpertLink>
                         <Name lang="pl">Zespół Alagille'a z powodu mikrodelecji 20p12</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19895">
-                        <OrphaNumber>261619</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261619</ExpertLink>
+                        <OrphaCode>261619</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=261619</ExpertLink>
                         <Name lang="pl">Zespół Alagille'a z powodu mutacji punktowej JAG1</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19896">
-                        <OrphaNumber>261629</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261629</ExpertLink>
+                        <OrphaCode>261629</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=261629</ExpertLink>
                         <Name lang="pl">Zespół Alagille'a z powodu mutacji punktowej NOTCH2</Name>
+                        <DisorderType id="21443">
+                          <Name lang="pl">Podtyp etiologiczny</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1394,68 +2110,92 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="798">
-                    <OrphaNumber>2040</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2040</ExpertLink>
+                    <OrphaCode>2040</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2040</ExpertLink>
                     <Name lang="pl">Wrodzona przetoka oskrzelowo-żółciowa</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="874">
-                    <OrphaNumber>186</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=186</ExpertLink>
+                    <OrphaCode>186</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=186</ExpertLink>
                     <Name lang="pl">Pierwotne zapalenie dróg żółciowych</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8608">
-                    <OrphaNumber>779</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=779</ExpertLink>
+                    <OrphaCode>779</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=779</ExpertLink>
                     <Name lang="pl">Zespół Reynoldsa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="25906">
-                    <OrphaNumber>498345</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=498345</ExpertLink>
+                    <OrphaCode>498345</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498345</ExpertLink>
                     <Name lang="en">Biliary atresia and associated disorders</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="8781">
-                        <OrphaNumber>30391</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=30391</ExpertLink>
+                        <OrphaCode>30391</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=30391</ExpertLink>
                         <Name lang="pl">Atrezja dróg żółciowych</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="25907">
-                        <OrphaNumber>498350</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=498350</ExpertLink>
+                        <OrphaCode>498350</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498350</ExpertLink>
                         <Name lang="en">Syndromic biliary atresia</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="19476">
-                            <OrphaNumber>244283</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=244283</ExpertLink>
+                            <OrphaCode>244283</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=244283</ExpertLink>
                             <Name lang="pl">Zespół atrezji przewodów żółciowych z malformacją śledziony</Name>
+                            <DisorderType id="21401">
+                              <Name lang="pl">Zespół wad wrodzonych</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="20883">
-                            <OrphaNumber>293864</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293864</ExpertLink>
+                            <OrphaCode>293864</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293864</ExpertLink>
                             <Name lang="pl">Zespół hipoplastyczna trzustka-atrezja jelit-hipoplastyczny pęcherzyk żółciowy</Name>
+                            <DisorderType id="21401">
+                              <Name lang="pl">Zespół wad wrodzonych</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -1466,63 +2206,84 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10715">
-                    <OrphaNumber>53035</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=53035</ExpertLink>
+                    <OrphaCode>53035</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=53035</ExpertLink>
                     <Name lang="pl">Choroba Caroliego</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="10932">
-                    <OrphaNumber>69663</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69663</ExpertLink>
+                    <OrphaCode>69663</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=69663</ExpertLink>
                     <Name lang="pl">Kamica żółciowa związana z niskim poziomem fosfolipidów</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="21129">
-                    <OrphaNumber>300552</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300552</ExpertLink>
+                    <OrphaCode>300552</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300552</ExpertLink>
                     <Name lang="pl">Grudkowe zapalenie przewodów żółciowych i trzustki</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="23416">
-                    <OrphaNumber>440987</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440987</ExpertLink>
+                    <OrphaCode>440987</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=440987</ExpertLink>
                     <Name lang="pl">Izolowana agnezja pęcherzyka żółciowego</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27317">
-                    <OrphaNumber>521219</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=521219</ExpertLink>
+                    <OrphaCode>521219</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=521219</ExpertLink>
                     <Name lang="pl">Zespół Mirizziego</Name>
+                    <DisorderType id="21422">
+                      <Name lang="pl">Zespół kliniczny</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27330">
-                    <OrphaNumber>521432</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=521432</ExpertLink>
+                    <OrphaCode>521432</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=521432</ExpertLink>
                     <Name lang="pl">Zespół wrodzonej zaćmy- ciężkiej hepatopatii noworodków-uogólnionego opóźnienia w rozwoju</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="2459">
-                    <OrphaNumber>2697</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2697</ExpertLink>
+                    <OrphaCode>2697</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2697</ExpertLink>
                     <Name lang="pl">Artrogrypoza - dysfunkcja nerek - cholestaza</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1531,66 +2292,90 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="14879">
-                <OrphaNumber>101943</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101943</ExpertLink>
+                <OrphaCode>101943</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101943</ExpertLink>
                 <Name lang="pl">Rzadkie guzy wątroby i dróg żółciowych</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
                   <Disorder id="21240">
-                    <OrphaNumber>306633</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306633</ExpertLink>
+                    <OrphaCode>306633</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306633</ExpertLink>
                     <Name lang="pl">Rzadki guz pęcherzyka żółciowego i zewnątrzwątrobowych przewodów żółciowych</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="10765">
-                        <OrphaNumber>56044</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=56044</ExpertLink>
+                        <OrphaCode>56044</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=56044</ExpertLink>
                         <Name lang="pl">Rak pęchrzyka żółciowego i zewnątrzwątrobowych przewodów żółciowych</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="10951">
-                            <OrphaNumber>70567</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70567</ExpertLink>
+                            <OrphaCode>70567</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70567</ExpertLink>
                             <Name lang="pl">Rak dróg żółciowych</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="14551">
-                            <OrphaNumber>99978</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99978</ExpertLink>
+                            <OrphaCode>99978</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99978</ExpertLink>
                             <Name lang="pl">Guz Klatskina</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="23206">
-                            <OrphaNumber>424991</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424991</ExpertLink>
+                            <OrphaCode>424991</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424991</ExpertLink>
                             <Name lang="pl">Gruczolakorak pęcherzyka żółciowego i zewnątrzwątrobowego przewodu żółciowego</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="23207">
-                            <OrphaNumber>424996</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424996</ExpertLink>
+                            <OrphaCode>424996</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424996</ExpertLink>
                             <Name lang="pl">Rak płaskonabłonkowy pęcherzyka żółciowego i zewnątrzwątrobowego przewodu żółciowego</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="27629">
-                            <OrphaNumber>529852</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529852</ExpertLink>
+                            <OrphaCode>529852</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529852</ExpertLink>
                             <Name lang="en">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -1599,9 +2384,12 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14658">
-                        <OrphaNumber>100086</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100086</ExpertLink>
+                        <OrphaCode>100086</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100086</ExpertLink>
                         <Name lang="pl">Guz neuroendokrynny woreczka żółciowego</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1610,109 +2398,148 @@
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="21241">
-                    <OrphaNumber>306636</OrphaNumber>
-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306636</ExpertLink>
+                    <OrphaCode>306636</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306636</ExpertLink>
                     <Name lang="pl">Rzadki guz wątroby i wewnątrzwątrobowych przewodów żółciowych</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="836">
-                        <OrphaNumber>449</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449</ExpertLink>
+                        <OrphaCode>449</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449</ExpertLink>
                         <Name lang="pl">Hepatoblastoma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="8705">
-                        <OrphaNumber>386</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=386</ExpertLink>
+                        <OrphaCode>386</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=386</ExpertLink>
                         <Name lang="pl">Torbielowaty guz wątroby o utkaniu hamartoma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="10752">
-                        <OrphaNumber>54272</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=54272</ExpertLink>
+                        <OrphaCode>54272</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=54272</ExpertLink>
                         <Name lang="pl">Gruczolak wątrobowokomórkowy</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18012">
-                        <OrphaNumber>178315</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178315</ExpertLink>
+                        <OrphaCode>178315</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178315</ExpertLink>
                         <Name lang="pl">Niezróżnicowany embrionalny mięsak wątroby</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="23200">
-                        <OrphaNumber>424933</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424933</ExpertLink>
+                        <OrphaCode>424933</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424933</ExpertLink>
                         <Name lang="pl">Rzadki nabłonkowy guz wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14657">
-                            <OrphaNumber>100085</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100085</ExpertLink>
+                            <OrphaCode>100085</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100085</ExpertLink>
                             <Name lang="pl">Pierwotny neuroendokrynny guz wątroby</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="23201">
-                            <OrphaNumber>424936</OrphaNumber>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424936</ExpertLink>
+                            <OrphaCode>424936</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424936</ExpertLink>
                             <Name lang="pl">Rak wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
                             <ClassificationNode>
                               <Disorder id="27629">
-                                <OrphaNumber>529852</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529852</ExpertLink>
+                                <OrphaCode>529852</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529852</ExpertLink>
                                 <Name lang="en">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="10951">
-                                <OrphaNumber>70567</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70567</ExpertLink>
+                                <OrphaCode>70567</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70567</ExpertLink>
                                 <Name lang="pl">Rak dróg żółciowych</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="11824">
-                                <OrphaNumber>88673</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=88673</ExpertLink>
+                                <OrphaCode>88673</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=88673</ExpertLink>
                                 <Name lang="pl">Rak wątrobowokomórkowy</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="pl">Grupa fenomenów</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
                                   <Disorder id="10320">
-                                    <OrphaNumber>33402</OrphaNumber>
-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=33402</ExpertLink>
+                                    <OrphaCode>33402</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=33402</ExpertLink>
                                     <Name lang="pl">Dziecięcy rak wątrobowokomórkowy</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="18690">
-                                    <OrphaNumber>210159</OrphaNumber>
-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=210159</ExpertLink>
+                                    <OrphaCode>210159</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=210159</ExpertLink>
                                     <Name lang="pl">Rak wątrobowokomórkowy dorosłych</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1721,45 +2548,60 @@
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="22851">
-                                <OrphaNumber>401920</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=401920</ExpertLink>
+                                <OrphaCode>401920</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=401920</ExpertLink>
                                 <Name lang="pl">Postać włóknisto-blaszkowa raka wątrobowokomórkowego</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="23202">
-                                <OrphaNumber>424943</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424943</ExpertLink>
+                                <OrphaCode>424943</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424943</ExpertLink>
                                 <Name lang="pl">Gruczolakorak wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="23203">
-                                <OrphaNumber>424970</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424970</ExpertLink>
+                                <OrphaCode>424970</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424970</ExpertLink>
                                 <Name lang="pl">Niezróżnicowany rak wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="23204">
-                                <OrphaNumber>424975</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424975</ExpertLink>
+                                <OrphaCode>424975</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424975</ExpertLink>
                                 <Name lang="pl">Rak płaskonabłonkowy wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="23205">
-                                <OrphaNumber>424982</OrphaNumber>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=424982</ExpertLink>
+                                <OrphaCode>424982</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424982</ExpertLink>
                                 <Name lang="pl">Torbielogruczolakorak przewodów żółciowych</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1770,9 +2612,24 @@
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14608">
-                        <OrphaNumber>100035</OrphaNumber>
-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100035</ExpertLink>
+                        <OrphaCode>100035</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100035</ExpertLink>
                         <Name lang="pl">Pojedynczy martwiczy guz wątroby</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="28552">
+                        <OrphaCode>566841</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=566841</ExpertLink>
+                        <Name lang="en">Liver adenomatosis</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1783,34 +2640,79 @@
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="20373">
-                <OrphaNumber>276405</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276405</ExpertLink>
+                <OrphaCode>276405</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=276405</ExpertLink>
                 <Name lang="pl">Hiperbiliwerdynemia</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="437">
-                <OrphaNumber>1414</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1414</ExpertLink>
+                <OrphaCode>1414</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1414</ExpertLink>
                 <Name lang="pl">Zespół cholestazy i obrzęku  limfatycznego</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11943">
+                <OrphaCode>90052</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90052</ExpertLink>
+                <Name lang="pl">Nawracające zapalenie wątroby typu C indukujące chorobę wątroby u biorców przeszczepionej wątroby</Name>
+                <DisorderType id="21429">
+                  <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11953">
+                <OrphaCode>90062</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90062</ExpertLink>
+                <Name lang="pl">Ostra niewydolność wątroby</Name>
+                <DisorderType id="21422">
+                  <Name lang="pl">Zespół kliniczny</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11964">
+                <OrphaCode>90073</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90073</ExpertLink>
+                <Name lang="pl">Powtórne zakażenie wirusem zapalenia wątroby typu B po transplantacji wątroby</Name>
+                <DisorderType id="21429">
+                  <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
               <Disorder id="22889">
-                <OrphaNumber>402823</OrphaNumber>
-                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=402823</ExpertLink>
+                <OrphaCode>402823</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=402823</ExpertLink>
                 <Name lang="pl">Zapalenie wątroby delta</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>
