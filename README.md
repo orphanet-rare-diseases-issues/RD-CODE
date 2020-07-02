@@ -17,11 +17,11 @@
   
    <p><h3><i><strong>How to quote</strong></i></h3></p><ul>
 <li>When quoting Orphanet, please use the following format :
-<p>Orphanet: an online rare disease and orphan drug data base. © INSERM 1997.
+<p>Orphanet: an online rare disease and orphan drug data base. © INSERM 1999.
   Available on http://www.orpha.net. Accessed [date accessed].</p></li>
  
 <li>When quoting Orphadata (using xml files), please use the following format:
-<p>Orphadata: Free access data from Orphanet. © INSERM 1997.
+<p>Orphadata: Free access data from Orphanet. © INSERM 1999.
 Available on http://www.orphadata.org. Data version [e.g.XML data version].</p></li></ul>
 
 <p><h3><i><strong>License</strong></i></h3></p>
