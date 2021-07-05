@@ -1,13 +1,12 @@
 <p><h3><i><strong>About RD-code</strong></i></h3></p>
 <p align="justify">The <a href="http://www.rd-code.eu/" target="_blank" rel="noopener noreferrer">RD-code project</a>, co-funded by the European Union’s Third Health Program, intends to support Member States in the implementation of rare diseases-specific codification systems. Starting with countries that have no systematic implementation of the Orpha codification yet, but that are actively committed already in doing so, this project will provide a sufficient real-world implementation experience to be captured by other countries in the future.</p>
-<p align="justify">In the framework of the RD-CODE project, Orphanet provides a set of files, the Orphanet nomenclature files for coding, intended to be used to implement the Orphanet nomenclature in Health Information Systems for codification purposes. This set includes:<ul>
-<li><p align="justify">Orphanet nomenclature file ( XML Schema Definitions and JPEG representations for this file).
-<li><p align="justify">Orphanet to ICD-10 mapping file ( XML Schema Definitions and JPEG representations for this file).
-<li><p align="justify">a directory containing the Orphanet classifications files by medical specialities ( XML Schema Definitions and JPEG representations for these files).
-<li><p align="justify">Linearization file ( XML Schema Definitions and JPEG representations for this file) attributing one preferential medical specialty to every clinical entity.
-<li><p align="justify">Master file which is a subset of the Orphanet classifications of rare diseases that contains only the ORPHAcodes that should be used for data sharing and statistical purposes at EU-level.
-<li><p align="justify">ORPHAnomenclature differential file which provides changes made to the nomenclature compared to the previous version.
-<li><p align="justify">a PDF file describing in details all files enclosed in the Orphanet nomenclature pack for coding.
+<p align="justify">In the framework of the RD-CODE project, Orphanet provides a set of files, the Orphanet nomenclature files for coding, intended to be used to implement the Orphanet nomenclature in Health Information Systems for codification purposes. This set includes directories for:<ul>
+<li><p align="justify">Orphanet nomenclature files.
+<li><p align="justify">Orphanet to ICD-10 mapping files.
+<li><p align="justify">Orphanet classifications files by medical specialities.
+<li><p align="justify">Linearization files attributing one preferential medical specialty to every clinical entity.
+<li><p align="justify">ChangeLogs for each files.
+Separately, one can find , Master file which is a subset of the Orphanet classifications of rare diseases that contains only the ORPHAcodes that should be used for data sharing and statistical purposes at EU-level ORPHAnomenclature differential file which provides changes made to the nomenclature compared to the previous version and a PDF file describing in details all files enclosed in the Orphanet nomenclature pack for coding.
   <p align="justify">These files are generated in xml format, and made available at least once a year, in 9 different languages: Czech, Dutch, English, French, German, Italian, Polish, Portuguese and Spanish. These files are available for free download in <a href="http://www.orphadata.org/cgi-bin/ORPHAnomenclature.html" target="_blank" rel="noopener noreferrer">Orphadata</a> and also made available here in Github with the previous versions as well as their related change logs.</p>
 <p align= "justify">In order to better understand and manage the xml files, we provide a <a href="http://www.orphadata.org/cgi-bin/img/PDF/ORPHAnomenclaturexmlcontent.pdf" target="_blank" rel="noopener noreferrer">detailed description</a> of the Orphanet nomenclature files for coding.</p>
   
