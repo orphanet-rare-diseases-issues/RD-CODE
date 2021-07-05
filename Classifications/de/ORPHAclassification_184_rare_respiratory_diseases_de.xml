@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:34:05" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:51:41" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="184">
       <OrphaNumber>162655</OrphaNumber>
@@ -16,7 +9,7 @@
           <Disorder id="12974">
             <OrphaCode>97955</OrphaCode>
             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=97955</ExpertLink>
-            <Name lang="de">Atemwegskrankheit, seltene</Name>
+            <Name lang="de">Seltene respiratorische Krankheit</Name>
             <DisorderType id="36561">
               <Name lang="de">Category</Name>
             </DisorderType>
@@ -51,8 +44,8 @@
                 <OrphaCode>63999</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=63999</ExpertLink>
                 <Name lang="de">Mediastinitis, IgG4-assoziierte</Name>
-                <DisorderType id="21394">
-                  <Name lang="de">Krankheit</Name>
+                <DisorderType id="21450">
+                  <Name lang="de">Klinischer Subtyp</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -338,7 +331,7 @@
               <Disorder id="12976">
                 <OrphaCode>97957</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=97957</ExpertLink>
-                <Name lang="de">Atemwegs- und Thoraxfehlbildung</Name>
+                <Name lang="de">Fehlbildungen von intrathorakalen Atemwegen, Lunge und Thorax</Name>
                 <DisorderType id="36561">
                   <Name lang="de">Category</Name>
                 </DisorderType>
@@ -502,7 +495,7 @@
                       <Disorder id="1660">
                         <OrphaCode>1486</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1486</ExpertLink>
-                        <Name lang="de">Syndrom der letalen Kontrakturen Typ 1</Name>
+                        <Name lang="de">Syndrom der kongenitalen letalen Kontrakturen Typ 1</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -641,7 +634,43 @@
                       <Name lang="de">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="20">
+                  <ClassificationNodeChildList count="26">
+                    <ClassificationNode>
+                      <Disorder id="14100">
+                        <OrphaCode>99083</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99083</ExpertLink>
+                        <Name lang="de">Pulmonalarterienhypoplasie</Name>
+                        <DisorderType id="21415">
+                          <Name lang="de">Morphologische Anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3459">
+                        <OrphaCode>3188</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3188</ExpertLink>
+                        <Name lang="de">Pulmonalvenenatresie oder -stenose, kongenital</Name>
+                        <DisorderType id="21415">
+                          <Name lang="de">Morphologische Anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3462">
+                        <OrphaCode>185</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=185</ExpertLink>
+                        <Name lang="de">Scimitar-Syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="de">Fehlbildungs-Syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="534">
                         <OrphaCode>2414</OrphaCode>
@@ -668,7 +697,7 @@
                           <Disorder id="20506">
                             <OrphaCode>280827</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280827</ExpertLink>
-                            <Name lang="de">Atemwegsfehlbildung, kongenitale, Typ 0</Name>
+                            <Name lang="de">Kongenitale Fehlbildung der Atemwege Typ 0</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -692,7 +721,7 @@
                           <Disorder id="20508">
                             <OrphaCode>280840</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280840</ExpertLink>
-                            <Name lang="de">Atemwegsfehlbildung, kongenitale, Typ 2</Name>
+                            <Name lang="de">Kongenitale Fehlbildung der Atemwege Typ 2</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -704,7 +733,7 @@
                           <Disorder id="20509">
                             <OrphaCode>280847</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280847</ExpertLink>
-                            <Name lang="de">Atemwegsfehlbildung, kongenitale, Typ 3</Name>
+                            <Name lang="de">Kongenitale Fehlbildung der Atemwege Typ 3</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -716,7 +745,7 @@
                           <Disorder id="20510">
                             <OrphaCode>280854</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280854</ExpertLink>
-                            <Name lang="de">Atemwegsfehlbildung, kongenitale, Typ 4</Name>
+                            <Name lang="de">Kongenitale Fehlbildung der Atemwege Typ 4</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -886,7 +915,7 @@
                       <Disorder id="2233">
                         <OrphaCode>2407</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2407</ExpertLink>
-                        <Name lang="de">LOC-Syndrom</Name>
+                        <Name lang="de">Laryngo-onycho-kutanes Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -910,7 +939,7 @@
                       <Disorder id="2729">
                         <OrphaCode>3035</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3035</ExpertLink>
-                        <Name lang="de">Wachstumsretardierung - Hydrozephalus - Lungenhypoplasie</Name>
+                        <Name lang="de">Wachstumsretardierung-Hydrozephalus-Lungenhypoplasie-Syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -1111,10 +1140,46 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="236">
+                        <OrphaCode>774</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=774</ExpertLink>
+                        <Name lang="de">Hereditäre hämorrhagische Teleangiektasie</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="23661">
                         <OrphaCode>454750</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=454750</ExpertLink>
                         <Name lang="de">Tracheoösophageale Fistel, isolierte</Name>
+                        <DisorderType id="21415">
+                          <Name lang="de">Morphologische Anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3441">
+                        <OrphaCode>2038</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2038</ExpertLink>
+                        <Name lang="de">Fehlbildung, arteriovenöse pulmonale</Name>
+                        <DisorderType id="21415">
+                          <Name lang="de">Morphologische Anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14067">
+                        <OrphaCode>99050</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99050</ExpertLink>
+                        <Name lang="de">Pulmonalarterie, der Aorta entstammend</Name>
                         <DisorderType id="21415">
                           <Name lang="de">Morphologische Anomalie</Name>
                         </DisorderType>
@@ -1130,7 +1195,7 @@
               <Disorder id="13078">
                 <OrphaCode>98060</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98060</ExpertLink>
-                <Name lang="de">Atemwegstumor, seltener</Name>
+                <Name lang="de">Seltener Tumor des respiratorischen Systems</Name>
                 <DisorderType id="36561">
                   <Name lang="de">Category</Name>
                 </DisorderType>
@@ -1327,7 +1392,19 @@
                   <Name lang="de">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="39">
+              <ClassificationNodeChildList count="43">
+                <ClassificationNode>
+                  <Disorder id="3768">
+                    <OrphaCode>389</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=389</ExpertLink>
+                    <Name lang="de">Langerhans-Zell-Histiozytose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
@@ -1529,19 +1606,7 @@
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="14554">
-                        <OrphaCode>99981</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99981</ExpertLink>
-                        <Name lang="de">Frühgeborenen-Apnoe</Name>
-                        <DisorderType id="21450">
-                          <Name lang="de">Klinischer Subtyp</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1645,8 +1710,8 @@
                     <OrphaCode>178320</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=178320</ExpertLink>
                     <Name lang="de">Lungenverletzung, akute</Name>
-                    <DisorderType id="21422">
-                      <Name lang="de">Klinisches Syndrom</Name>
+                    <DisorderType id="21429">
+                      <Name lang="de">Besondere klinische Situation bei einer Krankheit oder einem Syndrom</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -1790,7 +1855,7 @@
                                       <Disorder id="28746">
                                         <OrphaCode>572428</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572428</ExpertLink>
-                                        <Name lang="de">Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia</Name>
+                                        <Name lang="de">Pulmonale Alveolarproteinose-Hypogammaglobulinämie, infantile Form</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -1804,7 +1869,7 @@
                                   <Disorder id="21219">
                                     <OrphaCode>306504</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=306504</ExpertLink>
-                                    <Name lang="de">Junktionale Epidermolysis bullosa mit respiratorischer und renaler Beteiligung</Name>
+                                    <Name lang="de">Interstitielle Lungenkrankheit-Nephrotisches Syndrom-Epidermolysis bullosa-Syndrom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -1987,31 +2052,7 @@
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="2">
-                                        <ClassificationNode>
-                                          <Disorder id="19555">
-                                            <OrphaCode>247839</OrphaCode>
-                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247839</ExpertLink>
-                                            <Name lang="de">Arthritis, idiopathische juvenile, oligoartikuläre, mit anti-nukleären Antikörpern</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="de">Ätiologischer Subtyp</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
-                                        <ClassificationNode>
-                                          <Disorder id="19556">
-                                            <OrphaCode>247846</OrphaCode>
-                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247846</ExpertLink>
-                                            <Name lang="de">Arthritis, idiopathische juvenile, oligoartikuläre, ohne anti-nukleäre Antikörper</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="de">Ätiologischer Subtyp</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
+                                      <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
@@ -2076,43 +2117,19 @@
                                           <Disorder id="11709">
                                             <OrphaCode>85408</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85408</ExpertLink>
-                                            <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-negative</Name>
+                                            <Name lang="de">Arthritis, idiopathische juvenile polyartikuläre, Rheumafaktor-negative</Name>
                                             <DisorderType id="21394">
                                               <Name lang="de">Krankheit</Name>
                                             </DisorderType>
                                           </Disorder>
-                                          <ClassificationNodeChildList count="2">
-                                            <ClassificationNode>
-                                              <Disorder id="19557">
-                                                <OrphaCode>247854</OrphaCode>
-                                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247854</ExpertLink>
-                                                <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-negative, mit anti-nukleären Antikörpern</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="de">Ätiologischer Subtyp</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
-                                            <ClassificationNode>
-                                              <Disorder id="19558">
-                                                <OrphaCode>247861</OrphaCode>
-                                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247861</ExpertLink>
-                                                <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-negative, ohne anti-nukleäre Antikörper</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="de">Ätiologischer Subtyp</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
+                                          <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
                                         </ClassificationNode>
                                         <ClassificationNode>
                                           <Disorder id="11712">
                                             <OrphaCode>85435</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85435</ExpertLink>
-                                            <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-positive</Name>
+                                            <Name lang="de">Arthritis, idiopathische juvenile polyartikuläre, Rheumafaktor-positive</Name>
                                             <DisorderType id="21394">
                                               <Name lang="de">Krankheit</Name>
                                             </DisorderType>
@@ -2464,7 +2481,7 @@
                                   <Disorder id="11154">
                                     <OrphaCode>79127</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79127</ExpertLink>
-                                    <Name lang="de">Respiratorische Bronchiolitis  - interstitielle Lungenerkrankung</Name>
+                                    <Name lang="de">Respiratorische Bronchiolitis mit interstitieller Lungenerkrankung</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -2605,7 +2622,19 @@
                               <Name lang="de">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="1">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="8611">
+                                <OrphaCode>81</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=81</ExpertLink>
+                                <Name lang="de">Antisynthetase-Syndrom</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="735">
                                 <OrphaCode>797</OrphaCode>
@@ -2880,7 +2909,7 @@
                                           <Disorder id="18804">
                                             <OrphaCode>216981</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=216981</ExpertLink>
-                                            <Name lang="de">Niemann-Pick-Krankheit Typ C,  juvenile neurologische Form</Name>
+                                            <Name lang="de">Niemann-Pick-Krankheit Typ C, juvenile neurologische Form</Name>
                                             <DisorderType id="21450">
                                               <Name lang="de">Klinischer Subtyp</Name>
                                             </DisorderType>
@@ -3144,7 +3173,7 @@
                   <Disorder id="23030">
                     <OrphaCode>411703</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=411703</ExpertLink>
-                    <Name lang="de">Pulmonale nicht-tuberkulöse mykobakterielle Infektionen</Name>
+                    <Name lang="de">Pulmonale nicht-tuberkulöse mykobakterielle Infektion</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
@@ -3159,6 +3188,18 @@
                     <Name lang="de">Bronchitis, plastische</Name>
                     <DisorderType id="21429">
                       <Name lang="de">Besondere klinische Situation bei einer Krankheit oder einem Syndrom</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23209">
+                    <OrphaCode>425120</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=425120</ExpertLink>
+                    <Name lang="de">STING-assoziierte Vaskulopathie mit Beginn in der Kindheit</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -3291,6 +3332,30 @@
                     <Name lang="de">Pulmonale Pilzinfektion bei Risiko-Patienten</Name>
                     <DisorderType id="21429">
                       <Name lang="de">Besondere klinische Situation bei einer Krankheit oder einem Syndrom</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="14554">
+                    <OrphaCode>99981</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99981</ExpertLink>
+                    <Name lang="de">Frühgeborenen-Apnoe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20721">
+                    <OrphaCode>289390</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=289390</ExpertLink>
+                    <Name lang="de">Sjögren-Syndrom, primäres</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">

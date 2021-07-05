@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:38:19" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:01:17" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="193">
       <OrphaNumber>162946</OrphaNumber>
@@ -737,36 +730,72 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
-                      <Disorder id="121">
-                        <OrphaCode>652</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=652</ExpertLink>
-                        <Name lang="es">Neoplasia endocrina múltiple tipo 1</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
+                      <Disorder id="5545">
+                        <OrphaCode>2207</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2207</ExpertLink>
+                        <Name lang="es">Hiperparatiroidismo familiar primario</Name>
+                        <DisorderType id="21436">
+                          <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="14450">
+                            <OrphaCode>99877</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99877</ExpertLink>
+                            <Name lang="es">Adenoma paratiroideo familar</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="14451">
+                            <OrphaCode>99878</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99878</ExpertLink>
+                            <Name lang="es">Hiperplasia paratiroidea primaria</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="14452">
+                            <OrphaCode>99879</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99879</ExpertLink>
+                            <Name lang="es">Hiperparatiroidismo aislado familiar</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="14453">
+                            <OrphaCode>99880</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99880</ExpertLink>
+                            <Name lang="es">Hiperparatiroidismo-síndrome de tumor de mandíbula</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="8675">
                         <OrphaCode>143</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=143</ExpertLink>
-                        <Name lang="es">Cáncer de paratiroides</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="14450">
-                        <OrphaCode>99877</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99877</ExpertLink>
-                        <Name lang="es">Adenoma paratiroideo familar</Name>
+                        <Name lang="es">Carcinoma de paratiroides</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -975,7 +1004,19 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="8">
+                      <ClassificationNodeChildList count="9">
+                        <ClassificationNode>
+                          <Disorder id="29446">
+                            <OrphaCode>589856</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589856</ExpertLink>
+                            <Name lang="es">Síndrome de atresia de coanas-atelia-hipotiroidismo-retraso puberal-talla baja</Name>
+                            <DisorderType id="21401">
+                              <Name lang="es">Síndrome de malformación</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="61">
                             <OrphaCode>480</OrphaCode>
@@ -1109,19 +1150,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="121">
-                        <OrphaCode>652</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=652</ExpertLink>
-                        <Name lang="es">Neoplasia endocrina múltiple tipo 1</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="508">
                         <OrphaCode>417</OrphaCode>
@@ -1198,7 +1227,7 @@
                       <Disorder id="8675">
                         <OrphaCode>143</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=143</ExpertLink>
-                        <Name lang="es">Cáncer de paratiroides</Name>
+                        <Name lang="es">Carcinoma de paratiroides</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -1227,7 +1256,43 @@
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
+                        <ClassificationNode>
+                          <Disorder id="3719">
+                            <OrphaCode>1652</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1652</ExpertLink>
+                            <Name lang="es">Enfermedad de Dent</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="12453">
+                                <OrphaCode>93622</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93622</ExpertLink>
+                                <Name lang="es">Enfermedad de Dent tipo 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="12454">
+                                <OrphaCode>93623</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93623</ExpertLink>
+                                <Name lang="es">Enfermedad de Dent tipo 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11911">
                             <OrphaCode>89936</OrphaCode>
@@ -1481,7 +1546,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="31">
+                  <ClassificationNodeChildList count="33">
                     <ClassificationNode>
                       <Disorder id="387">
                         <OrphaCode>819</OrphaCode>
@@ -1605,8 +1670,8 @@
                             <OrphaCode>353277</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=353277</ExpertLink>
                             <Name lang="es">Síndrome de Rubinstein-Taybi por mutaciones en el gen CREBBP</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1617,8 +1682,8 @@
                             <OrphaCode>353281</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=353281</ExpertLink>
                             <Name lang="es">Síndrome de Rubinstein-Taybi por microdeleción 16p13.3</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1629,8 +1694,8 @@
                             <OrphaCode>353284</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=353284</ExpertLink>
                             <Name lang="es">Síndrome de Rubinstein-Taybi por haploinsuficiencia EP300</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
+                            <DisorderType id="21443">
+                              <Name lang="es">Subtipo etiológico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -2059,10 +2124,34 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="29447">
+                        <OrphaCode>589905</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589905</ExpertLink>
+                        <Name lang="es">Síndrome de trastornos de conducta-discapacidad intelectual-obesidad-rasgos dismórficos asociado al gen PHIP</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="24011">
                         <OrphaCode>464288</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=464288</ExpertLink>
                         <Name lang="es">Síndrome de talla baja-braquidactilia-obesidad-retraso global del desarrollo</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="30478">
+                        <OrphaCode>600731</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600731</ExpertLink>
+                        <Name lang="es">Síndrome de Clark-Baraitser</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2097,54 +2186,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="44">
-                    <OrphaCode>881</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=881</ExpertLink>
-                    <Name lang="es">Síndrome de Turner</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="14199">
-                        <OrphaCode>99226</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99226</ExpertLink>
-                        <Name lang="es">Monosomía X</Name>
-                        <DisorderType id="21443">
-                          <Name lang="es">Subtipo etiológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="14200">
-                        <OrphaCode>99228</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99228</ExpertLink>
-                        <Name lang="es">Monosomía X en mosaico</Name>
-                        <DisorderType id="21443">
-                          <Name lang="es">Subtipo etiológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="14210">
-                        <OrphaCode>99413</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99413</ExpertLink>
-                        <Name lang="es">Síndrome de Turner por anomalías estructurales del cromosoma X</Name>
-                        <DisorderType id="21443">
-                          <Name lang="es">Subtipo etiológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="648">
                     <OrphaCode>418</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=418</ExpertLink>
@@ -2153,7 +2194,7 @@
                       <Name lang="es">Grupo de fenomas</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="12094">
                         <OrphaCode>90790</OrphaCode>
@@ -2269,6 +2310,18 @@
                         <Name lang="es">Hiperplasia suprarrenal congénita por deficiencia de citocromo P450 oxidoreductasa</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10819">
+                        <OrphaCode>63269</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                        <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -2401,12 +2454,24 @@
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="13">
+                            <ClassificationNode>
+                              <Disorder id="29865">
+                                <OrphaCode>597746</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=597746</ExpertLink>
+                                <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS con solapamiento con síndrome genito-patelar</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="es">Síndrome de malformación</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="2176">
                                 <OrphaCode>2321</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2321</ExpertLink>
-                                <Name lang="es">Síndrome de Jung-Wolff-Back-Stahl</Name>
+                                <Name lang="es">Síndrome de Jung</Name>
                                 <DisorderType id="21401">
                                   <Name lang="es">Síndrome de malformación</Name>
                                 </DisorderType>
@@ -2466,7 +2531,7 @@
                               <Disorder id="2739">
                                 <OrphaCode>3047</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3047</ExpertLink>
-                                <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS</Name>
+                                <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual, tipo SBBYS</Name>
                                 <DisorderType id="21401">
                                   <Name lang="es">Síndrome de malformación</Name>
                                 </DisorderType>
@@ -2526,9 +2591,21 @@
                               <Disorder id="23676">
                                 <OrphaCode>456312</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=456312</ExpertLink>
-                                <Name lang="es">Enfermedad infantil mutisistémica neurológica-endocrina-pancreática</Name>
+                                <Name lang="es">Enfermedad infantil multisistémica neurológica-endocrina-pancreática</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29446">
+                                <OrphaCode>589856</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589856</ExpertLink>
+                                <Name lang="es">Síndrome de atresia de coanas-atelia-hipotiroidismo-retraso puberal-talla baja</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="es">Síndrome de malformación</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -2615,19 +2692,7 @@
                                   <Name lang="es">Category</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
-                                <ClassificationNode>
-                                  <Disorder id="28493">
-                                    <OrphaCode>566231</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=566231</ExpertLink>
-                                    <Name lang="es">Resistencia a la hormona tiroidea por una mutación en el receptor alfa de hormona tiroidea</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
                                   <Disorder id="12074">
                                     <OrphaCode>90673</OrphaCode>
@@ -2749,31 +2814,7 @@
                               <Name lang="es">Grupo de fenomas</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="1315">
-                                <OrphaCode>59</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=59</ExpertLink>
-                                <Name lang="es">Síndrome de Allan-Herndon-Dudley</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="17931">
-                                <OrphaCode>171706</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171706</ExpertLink>
-                                <Name lang="es">Talla baja-retraso en la edad ósea por deficiencia en el metabolismo de hormonas tiroideas</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -2801,7 +2842,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="171">
                         <OrphaCode>631</OrphaCode>
@@ -3126,7 +3167,7 @@
                               <Disorder id="12081">
                                 <OrphaCode>90695</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90695</ExpertLink>
-                                <Name lang="es">Panhipopituitarismo</Name>
+                                <Name lang="es">Panhipopituitarismo no adquirido</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -3148,18 +3189,6 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="10706">
-                        <OrphaCode>52901</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=52901</ExpertLink>
-                        <Name lang="es">Deficiencia aislada de hormona estimulante folicular (FSH)</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -3200,12 +3229,12 @@
                           <Disorder id="18174">
                             <OrphaCode>181387</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181387</ExpertLink>
-                            <Name lang="es">Enfermedad rara con hipogonadismo hipogonadotrópico</Name>
+                            <Name lang="es">Enfermedad rara con afectación multisistémica e hipogonadismo hipogonadotrópico congénito</Name>
                             <DisorderType id="36561">
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="20">
+                          <ClassificationNodeChildList count="19">
                             <ClassificationNode>
                               <Disorder id="110">
                                 <OrphaCode>138</OrphaCode>
@@ -3213,18 +3242,6 @@
                                 <Name lang="es">Síndrome CHARGE</Name>
                                 <DisorderType id="21401">
                                   <Name lang="es">Síndrome de malformación</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="125">
-                                <OrphaCode>232</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=232</ExpertLink>
-                                <Name lang="es">Anemia falciforme</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -3560,7 +3577,7 @@
                           <Disorder id="18175">
                             <OrphaCode>181390</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181390</ExpertLink>
-                            <Name lang="es">Hipogonadismo hipogonadotrópico asociado con otras endocrinopatías</Name>
+                            <Name lang="es">Endocrinopatía con hipogonadismo hipogonadotrópico congénito como característica principal</Name>
                             <DisorderType id="36561">
                               <Name lang="es">Category</Name>
                             </DisorderType>
@@ -3594,7 +3611,7 @@
                               <Disorder id="12081">
                                 <OrphaCode>90695</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90695</ExpertLink>
-                                <Name lang="es">Panhipopituitarismo</Name>
+                                <Name lang="es">Panhipopituitarismo no adquirido</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -3630,7 +3647,7 @@
                               <Disorder id="12657">
                                 <OrphaCode>95702</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
-                                <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
+                                <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -3678,7 +3695,7 @@
                               <Disorder id="8668">
                                 <OrphaCode>432</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=432</ExpertLink>
-                                <Name lang="es">Hipogonadismo hipogonadotropo normosómico congénito</Name>
+                                <Name lang="es">Hipogonadismo hipogonadotrópico normosómico congénito</Name>
                                 <DisorderType id="21450">
                                   <Name lang="es">Subtipo clínico</Name>
                                 </DisorderType>
@@ -4162,7 +4179,7 @@
                       <Disorder id="11048">
                         <OrphaCode>73272</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=73272</ExpertLink>
-                        <Name lang="es">Retraso en el crecimiento por deficiencia del factor de crecimiento similar a la insulina tipo 1</Name>
+                        <Name lang="es">Retraso del crecimiento por deficiencia del factor de crecimiento similar a la insulina tipo 1</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -4174,7 +4191,7 @@
                       <Disorder id="11049">
                         <OrphaCode>73273</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=73273</ExpertLink>
-                        <Name lang="es">Retraso en el crecimiento por resistencia al factor de crecimiento similar a la insulina tipo 1</Name>
+                        <Name lang="es">Retraso del crecimiento por resistencia al factor de crecimiento similar a la insulina tipo 1</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -4232,6 +4249,18 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11640">
+                    <OrphaCode>85173</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=85173</ExpertLink>
+                    <Name lang="es">Síndrome IMAGe</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -4273,7 +4302,7 @@
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
                             <ClassificationNode>
                               <Disorder id="8672">
                                 <OrphaCode>786</OrphaCode>
@@ -4358,6 +4387,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10819">
+                                <OrphaCode>63269</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                                <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -4374,7 +4415,7 @@
                               <Disorder id="21829">
                                 <OrphaCode>325093</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=325093</ExpertLink>
-                                <Name lang="es">46,XX disorder of sex development induced by endogenous maternal-derived androgen</Name>
+                                <Name lang="es">Anomalía del desarrollo sexual 46,XX inducido por exceso de andrógenos endógenos de origen materno</Name>
                                 <DisorderType id="21436">
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
@@ -4664,7 +4705,7 @@
                           <Disorder id="570">
                             <OrphaCode>2983</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2983</ExpertLink>
-                            <Name lang="es">Disorder of sex development-intellectual disability syndrome</Name>
+                            <Name lang="es">Síndrome de trastorno del desarrollo sexual-discapacidad intelectual</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -4689,8 +4730,8 @@
                             <OrphaCode>847</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=847</ExpertLink>
                             <Name lang="es">Síndrome de alfa talasemia-discapacidad intelectual ligada al cromosoma X</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
+                            <DisorderType id="21401">
+                              <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -5061,7 +5102,7 @@
                                       <Name lang="es">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="5">
+                                  <ClassificationNodeChildList count="6">
                                     <ClassificationNode>
                                       <Disorder id="12094">
                                         <OrphaCode>90790</OrphaCode>
@@ -5141,6 +5182,18 @@
                                         <Name lang="es">Anomalía del desarrollo sexual 46,XY-insuficiencia suprarrenal por deficiencia de CYP11A1</Name>
                                         <DisorderType id="21394">
                                           <Name lang="es">Enfermedad</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="10819">
+                                        <OrphaCode>63269</OrphaCode>
+                                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                                        <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="es">Subtipo clínico</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -5238,7 +5291,7 @@
                               <Disorder id="23441">
                                 <OrphaCode>443090</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=443090</ExpertLink>
-                                <Name lang="es">Anomalía del desarrollo sexual 46,XY por un defecto de la biosíntesis de la dihidrotestosterona por la via alterna</Name>
+                                <Name lang="es">Anomalía del desarrollo sexual 46,XY por un defecto de la biosíntesis de dihidrotestosterona por la via alterna</Name>
                                 <DisorderType id="36561">
                                   <Name lang="es">Category</Name>
                                 </DisorderType>
@@ -5422,7 +5475,7 @@
                       <Disorder id="1007">
                         <OrphaCode>528</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528</ExpertLink>
-                        <Name lang="es">Lipodistrofia congénita de Berardinelli-Seip</Name>
+                        <Name lang="es">Lipodistrofia congénita generalizada</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -5518,7 +5571,7 @@
                       <Disorder id="13323">
                         <OrphaCode>98306</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98306</ExpertLink>
-                        <Name lang="es">Lipodistrofia familiar parcial</Name>
+                        <Name lang="es">Lipodistrofia parcial familiar</Name>
                         <DisorderType id="21436">
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
@@ -5528,7 +5581,7 @@
                           <Disorder id="2200">
                             <OrphaCode>2348</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2348</ExpertLink>
-                            <Name lang="es">Lipodistrofia familiar parcial tipo Dunnigan</Name>
+                            <Name lang="es">Lipodistrofia parcial familiar tipo Dunnigan</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -5552,7 +5605,7 @@
                           <Disorder id="11128">
                             <OrphaCode>79084</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79084</ExpertLink>
-                            <Name lang="es">Lipodistrofia familiar parcial tipo Köbberling</Name>
+                            <Name lang="es">Lipodistrofia parcial familiar tipo Köbberling</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -5564,7 +5617,7 @@
                           <Disorder id="11129">
                             <OrphaCode>79085</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79085</ExpertLink>
-                            <Name lang="es">Lipodistrofia familiar parcial asociada al gen AKT2</Name>
+                            <Name lang="es">Lipodistrofia parcial familiar asociada al gen AKT2</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -5600,7 +5653,7 @@
                           <Disorder id="23309">
                             <OrphaCode>435651</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=435651</ExpertLink>
-                            <Name lang="es">Lipodistrofia familiar parcial asociada al gen CIDEC</Name>
+                            <Name lang="es">Lipodistrofia parcial familiar asociada al gen CIDEC</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -5612,7 +5665,7 @@
                           <Disorder id="23310">
                             <OrphaCode>435660</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=435660</ExpertLink>
-                            <Name lang="es">Lipodistrofia familiar parcial asociada al gen LIPE</Name>
+                            <Name lang="es">Lipodistrofia parcial familiar asociada al gen LIPE</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -5662,7 +5715,7 @@
                       <Disorder id="21819">
                         <OrphaCode>324977</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=324977</ExpertLink>
-                        <Name lang="es">Síndrome autoinflamatorio asociado a proteosoma</Name>
+                        <Name lang="es">Síndrome autoinflamatorio asociado al proteosoma</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -5813,7 +5866,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
+                  <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="10870">
                         <OrphaCode>65288</OrphaCode>
@@ -5835,26 +5888,14 @@
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="1">
-                        <ClassificationNode>
-                          <Disorder id="14562">
-                            <OrphaCode>99989</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99989</ExpertLink>
-                            <Name lang="es">Síndrome intermedio DEND</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="14458">
                         <OrphaCode>99885</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99885</ExpertLink>
-                        <Name lang="es">Diabetes mellitus neonatal permanente</Name>
+                        <Name lang="es">Diabetes mellitus neonatal permanente aislada</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -5867,6 +5908,18 @@
                         <OrphaCode>99886</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99886</ExpertLink>
                         <Name lang="es">Diabetes mellitus neonatal transitoria</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14562">
+                        <OrphaCode>99989</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99989</ExpertLink>
+                        <Name lang="es">Síndrome intermedio DEND</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -5902,7 +5955,7 @@
                       <Disorder id="1007">
                         <OrphaCode>528</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528</ExpertLink>
-                        <Name lang="es">Lipodistrofia congénita de Berardinelli-Seip</Name>
+                        <Name lang="es">Lipodistrofia congénita generalizada</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -6202,7 +6255,7 @@
                       <Disorder id="849">
                         <OrphaCode>3198</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3198</ExpertLink>
-                        <Name lang="es">Síndrome de la persona rígida y síndromes relacionados</Name>
+                        <Name lang="es">Trastorno del espectro de la persona rígida</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -7225,19 +7278,7 @@
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="13">
-                            <ClassificationNode>
-                              <Disorder id="26449">
-                                <OrphaCode>506334</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=506334</ExpertLink>
-                                <Name lang="es">Síndrome nefrótico resistente a esteroides con insuficiencia suprarrenal familiar</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="10">
                             <ClassificationNode>
                               <Disorder id="761">
                                 <OrphaCode>43</OrphaCode>
@@ -7311,42 +7352,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="11640">
-                                <OrphaCode>85173</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=85173</ExpertLink>
-                                <Name lang="es">Síndrome IMAGe</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="es">Síndrome de malformación</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12655">
-                                <OrphaCode>95700</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95700</ExpertLink>
-                                <Name lang="es">Hipoplasia suprarrenal familiar con ausencia de la hormona luteinizante hipofisaria</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12657">
-                                <OrphaCode>95702</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
-                                <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="17771">
                                 <OrphaCode>168558</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=168558</ExpertLink>
@@ -7363,6 +7368,18 @@
                                 <OrphaCode>289548</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289548</ExpertLink>
                                 <Name lang="es">Insuficiencia suprarrenal hereditaria aislada por deficiencia de CYP11A1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="es">Enfermedad</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="3035">
+                                <OrphaCode>3453</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3453</ExpertLink>
+                                <Name lang="es">Poliendocrinopatía autoinmune tipo 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -7391,7 +7408,7 @@
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="6">
+                              <ClassificationNodeChildList count="7">
                                 <ClassificationNode>
                                   <Disorder id="12094">
                                     <OrphaCode>90790</OrphaCode>
@@ -7512,18 +7529,102 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="10819">
+                                    <OrphaCode>63269</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                                    <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="es">Subtipo clínico</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="25674">
-                                <OrphaCode>494433</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=494433</ExpertLink>
-                                <Name lang="es">Síndrome MIRAGE</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
+                              <Disorder id="29737">
+                                <OrphaCode>595337</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=595337</ExpertLink>
+                                <Name lang="es">Hipoplasia suprarrenal congénita</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="6">
+                                <ClassificationNode>
+                                  <Disorder id="11640">
+                                    <OrphaCode>85173</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=85173</ExpertLink>
+                                    <Name lang="es">Síndrome IMAGe</Name>
+                                    <DisorderType id="21401">
+                                      <Name lang="es">Síndrome de malformación</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="12655">
+                                    <OrphaCode>95700</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95700</ExpertLink>
+                                    <Name lang="es">Hipoplasia suprarrenal familiar con ausencia de la hormona luteinizante hipofisaria</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="12657">
+                                    <OrphaCode>95702</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
+                                    <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="25674">
+                                    <OrphaCode>494433</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=494433</ExpertLink>
+                                    <Name lang="es">Síndrome MIRAGE</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="26449">
+                                    <OrphaCode>506334</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=506334</ExpertLink>
+                                    <Name lang="es">Síndrome nefrótico resistente a esteroides con insuficiencia suprarrenal familiar</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="19879">
+                                    <OrphaCode>261476</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=261476</ExpertLink>
+                                    <Name lang="es">Síndrome de deleción Xp21</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                           </ClassificationNodeChildList>
@@ -7537,24 +7638,12 @@
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="2812">
                                 <OrphaCode>3143</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3143</ExpertLink>
                                 <Name lang="es">Poliendocrinopatía autoinmune tipo 2</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="3035">
-                                <OrphaCode>3453</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3453</ExpertLink>
-                                <Name lang="es">Poliendocrinopatía autoinmune tipo 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -7599,7 +7688,7 @@
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="12094">
                             <OrphaCode>90790</OrphaCode>
@@ -7715,6 +7804,18 @@
                             <Name lang="es">Hiperplasia suprarrenal congénita por deficiencia de citocromo P450 oxidoreductasa</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10819">
+                            <OrphaCode>63269</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                            <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -7963,7 +8064,79 @@
                   <Name lang="es">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="5">
+              <ClassificationNodeChildList count="6">
+                <ClassificationNode>
+                  <Disorder id="29775">
+                    <OrphaCode>596426</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=596426</ExpertLink>
+                    <Name lang="es">Síndromes de sensibilidad reducida a las hormonas tiroideas</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="28493">
+                        <OrphaCode>566231</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=566231</ExpertLink>
+                        <Name lang="es">Resistencia a la hormona tiroidea por una mutación en el receptor alfa de hormona tiroidea</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="1315">
+                        <OrphaCode>59</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=59</ExpertLink>
+                        <Name lang="es">Síndrome de Allan-Herndon-Dudley</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="17931">
+                        <OrphaCode>171706</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171706</ExpertLink>
+                        <Name lang="es">Talla baja-retraso en la edad ósea por deficiencia en el metabolismo de hormonas tiroideas</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="28494">
+                        <OrphaCode>566243</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=566243</ExpertLink>
+                        <Name lang="es">Resistencia a la hormona tiroidea por una mutación en el receptor beta de hormona tiroidea</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29871">
+                        <OrphaCode>597939</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=597939</ExpertLink>
+                        <Name lang="es">Hipertiroxinemia disprealbuminémica eutiroidea</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12673">
                     <OrphaCode>95718</OrphaCode>
@@ -7978,7 +8151,7 @@
                       <Disorder id="12511">
                         <OrphaCode>93953</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93953</ExpertLink>
-                        <Name lang="es">Quiste de, conducto tirogloso, forma familiar</Name>
+                        <Name lang="es">Quiste del conducto tirogloso familiar</Name>
                         <DisorderType id="21415">
                           <Name lang="es">Anomalía morfológica</Name>
                         </DisorderType>
@@ -8021,7 +8194,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="14660">
                         <OrphaCode>100088</OrphaCode>
@@ -8031,12 +8204,24 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
+                        <ClassificationNode>
+                          <Disorder id="14205">
+                            <OrphaCode>99361</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99361</ExpertLink>
+                            <Name lang="es">Carcinoma medular de tiroides familiar</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="905">
                             <OrphaCode>146</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=146</ExpertLink>
-                            <Name lang="es">Carcinoma tiroideo diferenciado</Name>
+                            <Name lang="es">Carcinoma diferenciado de tiroides</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -8053,19 +8238,7 @@
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
-                            <ClassificationNode>
-                              <Disorder id="14205">
-                                <OrphaCode>99361</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99361</ExpertLink>
-                                <Name lang="es">Carcinoma medular de tiroides familiar</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="19538">
                                 <OrphaCode>247698</OrphaCode>
@@ -8096,7 +8269,7 @@
                           <Disorder id="8676">
                             <OrphaCode>142</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=142</ExpertLink>
-                            <Name lang="es">Cáncer anaplásico de tiroides</Name>
+                            <Name lang="es">Carcinoma anaplásico de tiroides</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -8152,6 +8325,18 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="12879">
+                        <OrphaCode>97285</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=97285</ExpertLink>
+                        <Name lang="es">Linfoma tiroideo</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -8291,12 +8476,24 @@
                                   <Name lang="es">Category</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="11">
+                              <ClassificationNodeChildList count="13">
+                                <ClassificationNode>
+                                  <Disorder id="29865">
+                                    <OrphaCode>597746</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=597746</ExpertLink>
+                                    <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS con solapamiento con síndrome genito-patelar</Name>
+                                    <DisorderType id="21401">
+                                      <Name lang="es">Síndrome de malformación</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="2176">
                                     <OrphaCode>2321</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2321</ExpertLink>
-                                    <Name lang="es">Síndrome de Jung-Wolff-Back-Stahl</Name>
+                                    <Name lang="es">Síndrome de Jung</Name>
                                     <DisorderType id="21401">
                                       <Name lang="es">Síndrome de malformación</Name>
                                     </DisorderType>
@@ -8356,7 +8553,7 @@
                                   <Disorder id="2739">
                                     <OrphaCode>3047</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3047</ExpertLink>
-                                    <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS</Name>
+                                    <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual, tipo SBBYS</Name>
                                     <DisorderType id="21401">
                                       <Name lang="es">Síndrome de malformación</Name>
                                     </DisorderType>
@@ -8416,9 +8613,21 @@
                                   <Disorder id="23676">
                                     <OrphaCode>456312</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=456312</ExpertLink>
-                                    <Name lang="es">Enfermedad infantil mutisistémica neurológica-endocrina-pancreática</Name>
+                                    <Name lang="es">Enfermedad infantil multisistémica neurológica-endocrina-pancreática</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29446">
+                                    <OrphaCode>589856</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589856</ExpertLink>
+                                    <Name lang="es">Síndrome de atresia de coanas-atelia-hipotiroidismo-retraso puberal-talla baja</Name>
+                                    <DisorderType id="21401">
+                                      <Name lang="es">Síndrome de malformación</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -8505,19 +8714,7 @@
                                       <Name lang="es">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="4">
-                                    <ClassificationNode>
-                                      <Disorder id="28493">
-                                        <OrphaCode>566231</OrphaCode>
-                                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=566231</ExpertLink>
-                                        <Name lang="es">Resistencia a la hormona tiroidea por una mutación en el receptor alfa de hormona tiroidea</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="es">Enfermedad</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
+                                  <ClassificationNodeChildList count="3">
                                     <ClassificationNode>
                                       <Disorder id="12074">
                                         <OrphaCode>90673</OrphaCode>
@@ -8639,31 +8836,7 @@
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="2">
-                                <ClassificationNode>
-                                  <Disorder id="1315">
-                                    <OrphaCode>59</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=59</ExpertLink>
-                                    <Name lang="es">Síndrome de Allan-Herndon-Dudley</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="17931">
-                                    <OrphaCode>171706</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171706</ExpertLink>
-                                    <Name lang="es">Talla baja-retraso en la edad ósea por deficiencia en el metabolismo de hormonas tiroideas</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                           </ClassificationNodeChildList>
@@ -8685,8 +8858,8 @@
                             <OrphaCode>64744</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64744</ExpertLink>
                             <Name lang="es">Enfermedad tiroidea asociada a IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -8717,7 +8890,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="3266">
                         <OrphaCode>424</OrphaCode>
@@ -8747,18 +8920,6 @@
                         <OrphaCode>525731</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=525731</ExpertLink>
                         <Name lang="es">Enfermedad de Graves de inicio pediátrico</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="28494">
-                        <OrphaCode>566243</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=566243</ExpertLink>
-                        <Name lang="es">Resistencia a la hormona tiroidea por una mutación en el receptor beta de hormona tiroidea</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -8905,19 +9066,7 @@
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
-                            <ClassificationNode>
-                              <Disorder id="14205">
-                                <OrphaCode>99361</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99361</ExpertLink>
-                                <Name lang="es">Carcinoma medular de tiroides familiar</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="19538">
                                 <OrphaCode>247698</OrphaCode>
@@ -9067,7 +9216,7 @@
                   <Name lang="es">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="8">
+              <ClassificationNodeChildList count="7">
                 <ClassificationNode>
                   <Disorder id="470">
                     <OrphaCode>1672</OrphaCode>
@@ -9078,198 +9227,6 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="14209">
-                    <OrphaCode>99408</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99408</ExpertLink>
-                    <Name lang="es">Adenoma hipofisario</Name>
-                    <DisorderType id="21436">
-                      <Name lang="es">Grupo de fenomas</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="12123">
-                        <OrphaCode>91349</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91349</ExpertLink>
-                        <Name lang="es">Adenoma hipofisario no secretor</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="21529">
-                            <OrphaCode>314786</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314786</ExpertLink>
-                            <Name lang="es">Adenoma hipofisario silente</Name>
-                            <DisorderType id="21457">
-                              <Name lang="es">Subtipo histopatológico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21530">
-                            <OrphaCode>314790</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314790</ExpertLink>
-                            <Name lang="es">Adenoma hipofisario nulo</Name>
-                            <DisorderType id="21457">
-                              <Name lang="es">Subtipo histopatológico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21524">
-                        <OrphaCode>314753</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314753</ExpertLink>
-                        <Name lang="es">Adenoma hipofisario secretor</Name>
-                        <DisorderType id="21436">
-                          <Name lang="es">Grupo de fenomas</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="7">
-                        <ClassificationNode>
-                          <Disorder id="3387">
-                            <OrphaCode>2965</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2965</ExpertLink>
-                            <Name lang="es">Prolactinoma</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12121">
-                            <OrphaCode>91347</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91347</ExpertLink>
-                            <Name lang="es">Adenoma hipofisario secretor de TSH</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12122">
-                            <OrphaCode>91348</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91348</ExpertLink>
-                            <Name lang="es">Adenoma gonadotrófico funcionante</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12827">
-                            <OrphaCode>96253</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=96253</ExpertLink>
-                            <Name lang="es">Enfermedad de Cushing</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12829">
-                            <OrphaCode>96256</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=96256</ExpertLink>
-                            <Name lang="es">Adenoma somatotropo</Name>
-                            <DisorderType id="21436">
-                              <Name lang="es">Grupo de fenomas</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="408">
-                                <OrphaCode>963</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=963</ExpertLink>
-                                <Name lang="es">Acromegalia</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="14298">
-                                <OrphaCode>99725</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99725</ExpertLink>
-                                <Name lang="es">Gigantismo hipofisario</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="18380">
-                            <OrphaCode>199244</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=199244</ExpertLink>
-                            <Name lang="es">Síndrome de Nelson</Name>
-                            <DisorderType id="21422">
-                              <Name lang="es">Síndrome clínico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21525">
-                            <OrphaCode>314759</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314759</ExpertLink>
-                            <Name lang="es">Adenoma hipofisario secretor mixto</Name>
-                            <DisorderType id="36561">
-                              <Name lang="es">Category</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="1">
-                            <ClassificationNode>
-                              <Disorder id="21527">
-                                <OrphaCode>314769</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314769</ExpertLink>
-                                <Name lang="es">Somatomamotropinoma</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21528">
-                        <OrphaCode>314777</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=314777</ExpertLink>
-                        <Name lang="es">Adenoma hipofisario aislado familiar</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -9291,7 +9248,7 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="8">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="171">
                             <OrphaCode>631</OrphaCode>
@@ -9616,7 +9573,7 @@
                                   <Disorder id="12081">
                                     <OrphaCode>90695</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90695</ExpertLink>
-                                    <Name lang="es">Panhipopituitarismo</Name>
+                                    <Name lang="es">Panhipopituitarismo no adquirido</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -9638,18 +9595,6 @@
                                 </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10706">
-                            <OrphaCode>52901</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=52901</ExpertLink>
-                            <Name lang="es">Deficiencia aislada de hormona estimulante folicular (FSH)</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -9690,12 +9635,12 @@
                               <Disorder id="18174">
                                 <OrphaCode>181387</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181387</ExpertLink>
-                                <Name lang="es">Enfermedad rara con hipogonadismo hipogonadotrópico</Name>
+                                <Name lang="es">Enfermedad rara con afectación multisistémica e hipogonadismo hipogonadotrópico congénito</Name>
                                 <DisorderType id="36561">
                                   <Name lang="es">Category</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="20">
+                              <ClassificationNodeChildList count="19">
                                 <ClassificationNode>
                                   <Disorder id="110">
                                     <OrphaCode>138</OrphaCode>
@@ -9703,18 +9648,6 @@
                                     <Name lang="es">Síndrome CHARGE</Name>
                                     <DisorderType id="21401">
                                       <Name lang="es">Síndrome de malformación</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="125">
-                                    <OrphaCode>232</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=232</ExpertLink>
-                                    <Name lang="es">Anemia falciforme</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -10050,7 +9983,7 @@
                               <Disorder id="18175">
                                 <OrphaCode>181390</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181390</ExpertLink>
-                                <Name lang="es">Hipogonadismo hipogonadotrópico asociado con otras endocrinopatías</Name>
+                                <Name lang="es">Endocrinopatía con hipogonadismo hipogonadotrópico congénito como característica principal</Name>
                                 <DisorderType id="36561">
                                   <Name lang="es">Category</Name>
                                 </DisorderType>
@@ -10084,7 +10017,7 @@
                                   <Disorder id="12081">
                                     <OrphaCode>90695</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90695</ExpertLink>
-                                    <Name lang="es">Panhipopituitarismo</Name>
+                                    <Name lang="es">Panhipopituitarismo no adquirido</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -10120,7 +10053,7 @@
                                   <Disorder id="12657">
                                     <OrphaCode>95702</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
-                                    <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
+                                    <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -10168,7 +10101,7 @@
                                   <Disorder id="8668">
                                     <OrphaCode>432</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=432</ExpertLink>
-                                    <Name lang="es">Hipogonadismo hipogonadotropo normosómico congénito</Name>
+                                    <Name lang="es">Hipogonadismo hipogonadotrópico normosómico congénito</Name>
                                     <DisorderType id="21450">
                                       <Name lang="es">Subtipo clínico</Name>
                                     </DisorderType>
@@ -10406,7 +10339,7 @@
                                       <Disorder id="12122">
                                         <OrphaCode>91348</OrphaCode>
                                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91348</ExpertLink>
-                                        <Name lang="es">Adenoma gonadotrófico funcionante</Name>
+                                        <Name lang="es">Adenoma gonadotrópico funcionante</Name>
                                         <DisorderType id="21394">
                                           <Name lang="es">Enfermedad</Name>
                                         </DisorderType>
@@ -10879,7 +10812,7 @@
                   <Name lang="es">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="17">
+              <ClassificationNodeChildList count="16">
                 <ClassificationNode>
                   <Disorder id="2737">
                     <OrphaCode>3044</OrphaCode>
@@ -10887,18 +10820,6 @@
                     <Name lang="es">Síndrome de discapacidad intelectual-dismorfia-hipogonadismo-diabetes mellitus</Name>
                     <DisorderType id="21401">
                       <Name lang="es">Síndrome de malformación</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="77">
-                    <OrphaCode>273</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=273</ExpertLink>
-                    <Name lang="es">Distrofia miotónica de Steinert</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -10980,7 +10901,7 @@
                   <Disorder id="2104">
                     <OrphaCode>2229</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2229</ExpertLink>
-                    <Name lang="es">Síndrome de miocardiopatía dilatada-hipogonadismo hipergonadotrófico</Name>
+                    <Name lang="es">Síndrome de miocardiopatía dilatada-hipogonadismo hipergonadotrópico</Name>
                     <DisorderType id="21401">
                       <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
@@ -11374,7 +11295,7 @@
                       <Disorder id="20389">
                         <OrphaCode>276608</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=276608</ExpertLink>
-                        <Name lang="es">Hipoglucemia hiperinsulinémica persistente sin insulinoma de inicio en el adulto</Name>
+                        <Name lang="es">Encefalomielitis progresiva con rigidez y mioclonías</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:45:51" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:02:25" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="205">
       <OrphaNumber>162982</OrphaNumber>
@@ -2554,7 +2547,7 @@
                       <Disorder id="18174">
                         <OrphaCode>181387</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181387</ExpertLink>
-                        <Name lang="es">Enfermedad rara con hipogonadismo hipogonadotrópico</Name>
+                        <Name lang="es">Enfermedad rara con afectación multisistémica e hipogonadismo hipogonadotrópico congénito</Name>
                         <DisorderType id="36561">
                           <Name lang="es">Category</Name>
                         </DisorderType>
@@ -2567,18 +2560,6 @@
                             <Name lang="es">Síndrome CHARGE</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="125">
-                            <OrphaCode>232</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=232</ExpertLink>
-                            <Name lang="es">Anemia falciforme</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -2896,13 +2877,25 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23649">
+                            <OrphaCode>453533</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=453533</ExpertLink>
+                            <Name lang="es">Síndrome poliendocrino-polineuropatía</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18175">
                         <OrphaCode>181390</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=181390</ExpertLink>
-                        <Name lang="es">Hipogonadismo hipogonadotrópico asociado con otras endocrinopatías</Name>
+                        <Name lang="es">Endocrinopatía con hipogonadismo hipogonadotrópico congénito como característica principal</Name>
                         <DisorderType id="36561">
                           <Name lang="es">Category</Name>
                         </DisorderType>
@@ -2936,7 +2929,7 @@
                           <Disorder id="12081">
                             <OrphaCode>90695</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90695</ExpertLink>
-                            <Name lang="es">Panhipopituitarismo</Name>
+                            <Name lang="es">Panhipopituitarismo no adquirido</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -2972,7 +2965,7 @@
                           <Disorder id="12657">
                             <OrphaCode>95702</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
-                            <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
+                            <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -3020,7 +3013,7 @@
                           <Disorder id="8668">
                             <OrphaCode>432</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=432</ExpertLink>
-                            <Name lang="es">Hipogonadismo hipogonadotropo normosómico congénito</Name>
+                            <Name lang="es">Hipogonadismo hipogonadotrópico normosómico congénito</Name>
                             <DisorderType id="21450">
                               <Name lang="es">Subtipo clínico</Name>
                             </DisorderType>
@@ -3255,7 +3248,7 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="8672">
                             <OrphaCode>786</OrphaCode>
@@ -3340,6 +3333,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10819">
+                            <OrphaCode>63269</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                            <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -3356,7 +3361,7 @@
                           <Disorder id="21829">
                             <OrphaCode>325093</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=325093</ExpertLink>
-                            <Name lang="es">46,XX disorder of sex development induced by endogenous maternal-derived androgen</Name>
+                            <Name lang="es">Anomalía del desarrollo sexual 46,XX inducido por exceso de andrógenos endógenos de origen materno</Name>
                             <DisorderType id="21436">
                               <Name lang="es">Grupo de fenomas</Name>
                             </DisorderType>
@@ -3459,7 +3464,7 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="12094">
                             <OrphaCode>90790</OrphaCode>
@@ -3539,6 +3544,18 @@
                             <Name lang="es">Anomalía del desarrollo sexual 46,XY-insuficiencia suprarrenal por deficiencia de CYP11A1</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10819">
+                            <OrphaCode>63269</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63269</ExpertLink>
+                            <Name lang="es">Síndrome de Antley-Bixler con anomalías genitales y alteración de la esteroidogénesis</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -3706,7 +3723,7 @@
                       <Disorder id="570">
                         <OrphaCode>2983</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2983</ExpertLink>
-                        <Name lang="es">Disorder of sex development-intellectual disability syndrome</Name>
+                        <Name lang="es">Síndrome de trastorno del desarrollo sexual-discapacidad intelectual</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -3731,8 +3748,8 @@
                         <OrphaCode>847</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=847</ExpertLink>
                         <Name lang="es">Síndrome de alfa talasemia-discapacidad intelectual ligada al cromosoma X</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">

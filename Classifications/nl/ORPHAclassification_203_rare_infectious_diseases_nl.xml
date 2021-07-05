@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:44:54" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:57:46" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="203">
       <OrphaNumber>162976</OrphaNumber>
@@ -141,30 +134,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="815">
-                    <OrphaCode>549</OrphaCode>
-                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=549</ExpertLink>
-                    <Name lang="nl">Legionellose</Name>
-                    <DisorderType id="21394">
-                      <Name lang="nl">Ziekte</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="14321">
-                        <OrphaCode>99748</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99748</ExpertLink>
-                        <Name lang="nl">Pontiackoorts</Name>
-                        <DisorderType id="21450">
-                          <Name lang="nl">Klinisch subtype</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="842">
                     <OrphaCode>533</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=533</ExpertLink>
@@ -274,7 +243,7 @@
                       <Disorder id="19754">
                         <OrphaCode>254504</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=254504</ExpertLink>
-                        <Name lang="nl">Ademhalingsgerelateerd botulisme</Name>
+                        <Name lang="nl">Inhalatiebotulisme</Name>
                         <DisorderType id="21450">
                           <Name lang="nl">Klinisch subtype</Name>
                         </DisorderType>
@@ -420,7 +389,7 @@
                   <Disorder id="9291">
                     <OrphaCode>31202</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=31202</ExpertLink>
-                    <Name lang="nl">Melioidose</Name>
+                    <Name lang="nl">Melioïdose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -632,7 +601,7 @@
                           <Disorder id="11556">
                             <OrphaCode>83311</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=83311</ExpertLink>
-                            <Name lang="nl">Rocky Mountain vlekkenkoorts</Name>
+                            <Name lang="nl">Rocky Mountain-vlekkenkoorts</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -920,6 +889,42 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="30484">
+                    <OrphaCode>600832</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600832</ExpertLink>
+                    <Name lang="nl">Legionellose</Name>
+                    <DisorderType id="21436">
+                      <Name lang="nl">Group of phenomes</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="14321">
+                        <OrphaCode>99748</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99748</ExpertLink>
+                        <Name lang="nl">Pontiac-koorts</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="815">
+                        <OrphaCode>549</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=549</ExpertLink>
+                        <Name lang="nl">Veteranenziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -960,7 +965,7 @@
                   <Disorder id="866">
                     <OrphaCode>770</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=770</ExpertLink>
-                    <Name lang="nl">Hondsdolheid</Name>
+                    <Name lang="nl">Rabiës</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1176,7 +1181,7 @@
                   <Disorder id="3413">
                     <OrphaCode>344</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=344</ExpertLink>
-                    <Name lang="nl">Arbovirus fever</Name>
+                    <Name lang="nl">Koorts door arbovirus</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Category</Name>
                     </DisorderType>
@@ -1956,7 +1961,7 @@
                   <Disorder id="8540">
                     <OrphaCode>128</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=128</ExpertLink>
-                    <Name lang="nl">Diphyllobotriasis</Name>
+                    <Name lang="nl">Diphyllobothriasis</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1992,7 +1997,7 @@
                   <Disorder id="8545">
                     <OrphaCode>400</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=400</ExpertLink>
-                    <Name lang="nl">Hydatidose</Name>
+                    <Name lang="nl">Cystische echinokokkose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -2424,7 +2429,7 @@
                   <Disorder id="3402">
                     <OrphaCode>292</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=292</ExpertLink>
-                    <Name lang="nl">Congenitale enterovirusinfectie</Name>
+                    <Name lang="nl">Congenitale infectie door enterovirus</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>

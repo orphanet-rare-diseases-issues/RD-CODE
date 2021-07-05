@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2020-06-29 19:33:34" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:42:42" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="183">
       <OrphaNumber>162651</OrphaNumber>
-      <Name lang="en">Orphanet classification of rare hepatic diseases</Name>
+      <Name lang="pl">Klasyfikacja Orphanetu rzadkich chorób wątroby</Name>
       <ClassificationNodeRootList count="1">
         <ClassificationNode>
           <Disorder id="10772">
@@ -18,7 +11,7 @@
             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=57146</ExpertLink>
             <Name lang="pl">Rzadkie choroby wątroby</Name>
             <DisorderType id="36561">
-              <Name lang="en">Category</Name>
+              <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="12">
@@ -40,10 +33,10 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101938</ExpertLink>
                 <Name lang="pl">Rzadkie choroby naczyniowe wątroby</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="11">
+              <ClassificationNodeChildList count="9">
                 <ClassificationNode>
                   <Disorder id="236">
                     <OrphaCode>774</OrphaCode>
@@ -75,18 +68,6 @@
                     <Name lang="pl">Wrodzona anomalia żyły wątrobowej</Name>
                     <DisorderType id="21415">
                       <Name lang="pl">Wada morfologiczna</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10615">
-                    <OrphaCode>48372</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=48372</ExpertLink>
-                    <Name lang="pl">Guzkowa regeneratywna hiperplazja wątroby</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -141,18 +122,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10847">
-                    <OrphaCode>64743</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64743</ExpertLink>
-                    <Name lang="pl">Stwardnienie wątrobowo-wrotne</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="11152">
                     <OrphaCode>79124</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79124</ExpertLink>
@@ -165,15 +134,51 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="25668">
-                    <OrphaCode>494348</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=494348</ExpertLink>
-                    <Name lang="en">Early-onset familial noncirrhotic portal hypertension</Name>
+                  <Disorder id="29788">
+                    <OrphaCode>596937</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596937</ExpertLink>
+                    <Name lang="pl">Choroba naczyń wrotnych i zatokowych</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="29789">
+                        <OrphaCode>596941</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596941</ExpertLink>
+                        <Name lang="pl">Niekompletne włóknienie przegrodowe</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pl">Podtyp histopatologiczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10615">
+                        <OrphaCode>48372</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=48372</ExpertLink>
+                        <Name lang="pl">Ogniskowy rozrost guzkowy wątroby</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pl">Podtyp histopatologiczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10847">
+                        <OrphaCode>64743</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64743</ExpertLink>
+                        <Name lang="pl">Stwardnienie wątrobowo-wrotne</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pl">Podtyp histopatologiczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
@@ -184,7 +189,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101939</ExpertLink>
                 <Name lang="pl">Rzadkie choroby miąższu wątroby</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="24">
@@ -202,7 +207,7 @@
                       <Disorder id="28362">
                         <OrphaCode>563576</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563576</ExpertLink>
-                        <Name lang="en">Autoimmune hepatitis type 1</Name>
+                        <Name lang="pl">Autoimmunizacyjne zapalenie wątroby typu 1</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -214,7 +219,7 @@
                       <Disorder id="28363">
                         <OrphaCode>563581</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563581</ExpertLink>
-                        <Name lang="en">Autoimmune hepatitis type 2</Name>
+                        <Name lang="pl">Autoimmunizacyjne zapalenie wątroby typu 2</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -226,7 +231,7 @@
                       <Disorder id="28364">
                         <OrphaCode>563589</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563589</ExpertLink>
-                        <Name lang="en">Seronegative autoimmune hepatitis</Name>
+                        <Name lang="pl">Autoimmunologiczne zapalenie wątroby seronegatywne</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -298,7 +303,7 @@
                       <Disorder id="28105">
                         <OrphaCode>555434</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=555434</ExpertLink>
-                        <Name lang="en">Fibrohistiocytic inflammatory pseudotumor of the liver</Name>
+                        <Name lang="pl">Guz rzekomy fibrohistiocytarny zapalnywątroby</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -310,7 +315,7 @@
                       <Disorder id="28106">
                         <OrphaCode>555437</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=555437</ExpertLink>
-                        <Name lang="en">Lymphoplasmacytic inflammatory pseudotumor of the liver</Name>
+                        <Name lang="pl">Guz rzekomy limfoplazmatyczny zapalny wątroby</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -468,7 +473,7 @@
                   <Disorder id="28017">
                     <OrphaCode>541423</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=541423</ExpertLink>
-                    <Name lang="en">Growth delay-intellectual disability-hepatopathy syndrome</Name>
+                    <Name lang="pl">Zespół opóźnionego wzrastania, niepełnosprawności intelektualnej oraz hepatopatii</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -528,7 +533,7 @@
                   <Disorder id="28337">
                     <OrphaCode>562639</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=562639</ExpertLink>
-                    <Name lang="en">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <Name lang="pl">Zespół nakładania się objawów pierwotnego żółciowego zapalenia dróg żółciowych/pierwotnego stwardniającego zapalenia dróg żólciowych i autoimmunologicznego zapalenia wątroby</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -544,10 +549,10 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101940</ExpertLink>
                 <Name lang="pl">Choroby metaboliczne wątroby</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="42">
+              <ClassificationNodeChildList count="40">
                 <ClassificationNode>
                   <Disorder id="12578">
                     <OrphaCode>95157</OrphaCode>
@@ -1250,7 +1255,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220489</ExpertLink>
                     <Name lang="pl">Rzadka dziedziczna hemochromatoza</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
@@ -1317,18 +1322,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="19267">
-                    <OrphaCode>238475</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238475</ExpertLink>
-                    <Name lang="pl">Rodzinna hipercholanemia/podwyższone stężenie kwasów żółciowych w osoczu</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="19546">
                     <OrphaCode>247790</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247790</ExpertLink>
@@ -1358,7 +1351,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284385</ExpertLink>
                     <Name lang="pl">Rodzinna cholestaza wewnątrzwątrobowa</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
@@ -1500,7 +1493,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=163631</ExpertLink>
                         <Name lang="pl">Zaburzenie syntezy kwasów tłuszczowych z cholestazą i złym wchłanianiem</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -1617,18 +1610,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="22319">
-                    <OrphaCode>363534</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363534</ExpertLink>
-                    <Name lang="pl">Zespół deplecji mitochondrialnego DNA, postać wątrobowo-mózgowo-nerkowa</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="22451">
                     <OrphaCode>369942</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=369942</ExpertLink>
@@ -1646,7 +1627,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=371157</ExpertLink>
                     <Name lang="pl">Wrodzone zaburzenie glikozylacji z udziałem wątroby</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="14">
@@ -1888,7 +1869,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101941</ExpertLink>
                 <Name lang="pl">Rzadkie choroby dróg żółciowych</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="21">
@@ -1896,7 +1877,7 @@
                   <Disorder id="28606">
                     <OrphaCode>567983</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=567983</ExpertLink>
-                    <Name lang="en">Parenteral nutrition-associated cholestasis</Name>
+                    <Name lang="pl">Żywienie parenteralne z towarzyszacą cholestazą</Name>
                     <DisorderType id="21429">
                       <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
                     </DisorderType>
@@ -2003,8 +1984,8 @@
                         <OrphaCode>447764</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447764</ExpertLink>
                         <Name lang="pl">Twardniające zapalenie dróg żółciowych związane z IgG4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -2028,7 +2009,7 @@
                   <Disorder id="28337">
                     <OrphaCode>562639</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=562639</ExpertLink>
-                    <Name lang="en">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <Name lang="pl">Zespół nakładania się objawów pierwotnego żółciowego zapalenia dróg żółciowych/pierwotnego stwardniającego zapalenia dróg żólciowych i autoimmunologicznego zapalenia wątroby</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -2148,9 +2129,9 @@
                   <Disorder id="25906">
                     <OrphaCode>498345</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498345</ExpertLink>
-                    <Name lang="en">Biliary atresia and associated disorders</Name>
+                    <Name lang="pl">Atrezja dróg żółciowych wraz z chorobami towarzyszącymi</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -2170,7 +2151,7 @@
                       <Disorder id="25907">
                         <OrphaCode>498350</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498350</ExpertLink>
-                        <Name lang="en">Syndromic biliary atresia</Name>
+                        <Name lang="pl">Zespół atrezji dróg żółciowych</Name>
                         <DisorderType id="21436">
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
@@ -2296,7 +2277,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101943</ExpertLink>
                 <Name lang="pl">Rzadkie guzy wątroby i dróg żółciowych</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
@@ -2306,7 +2287,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306633</ExpertLink>
                     <Name lang="pl">Rzadki guz pęcherzyka żółciowego i zewnątrzwątrobowych przewodów żółciowych</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -2372,7 +2353,7 @@
                           <Disorder id="27629">
                             <OrphaCode>529852</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529852</ExpertLink>
-                            <Name lang="en">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                            <Name lang="pl">Rak złożony wątrobowo-komórkowy i dróg żółciowych</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -2402,7 +2383,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306636</ExpertLink>
                     <Name lang="pl">Rzadki guz wątroby i wewnątrzwątrobowych przewodów żółciowych</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="7">
@@ -2460,7 +2441,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424933</ExpertLink>
                         <Name lang="pl">Rzadki nabłonkowy guz wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -2482,7 +2463,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=424936</ExpertLink>
                             <Name lang="pl">Rak wątroby i wewnątrzwątrobowego przewodu żółciowego</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
@@ -2490,7 +2471,7 @@
                               <Disorder id="27629">
                                 <OrphaCode>529852</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529852</ExpertLink>
-                                <Name lang="en">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                                <Name lang="pl">Rak złożony wątrobowo-komórkowy i dróg żółciowych</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -2626,7 +2607,7 @@
                       <Disorder id="28552">
                         <OrphaCode>566841</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=566841</ExpertLink>
-                        <Name lang="en">Liver adenomatosis</Name>
+                        <Name lang="pl">Gruczolakowatość wątroby</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>

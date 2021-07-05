@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2020-06-29 19:40:04" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:43:41" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="196">
       <OrphaNumber>162955</OrphaNumber>
-      <Name lang="en">Orphanet classification of rare systemic and rheumatological diseases</Name>
+      <Name lang="pl">Klasyfikacja Orphanetu rzadkich chorób układowych i reumatologicznych</Name>
       <ClassificationNodeRootList count="1">
         <ClassificationNode>
           <Disorder id="13041">
@@ -18,7 +11,7 @@
             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98023</ExpertLink>
             <Name lang="pl">Rzadkie choroby układowe i reumatologiczne</Name>
             <DisorderType id="36561">
-              <Name lang="en">Category</Name>
+              <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="4">
@@ -93,8 +86,8 @@
                             <OrphaCode>100054</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100054</ExpertLink>
                             <Name lang="pl">Dziedziczny obrzęk naczynioruchowy typu 3</Name>
-                            <DisorderType id="21443">
-                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -104,21 +97,21 @@
                           <Disorder id="27892">
                             <OrphaCode>537072</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=537072</ExpertLink>
-                            <Name lang="en">PLG-related hereditary angioedema with normal C1Inh</Name>
-                            <DisorderType id="21443">
-                              <Name lang="pl">Podtyp etiologiczny</Name>
+                            <Name lang="pl">Dziedziczny obrzęk naczynioruchowy związany z PLG z prawidłowym C1Inh</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="27912">
-                            <OrphaCode>537891</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=537891</ExpertLink>
-                            <Name lang="en">ANGPT1-related hereditary angioedema with normal C1Inh</Name>
-                            <DisorderType id="21443">
-                              <Name lang="pl">Podtyp etiologiczny</Name>
+                          <Disorder id="29926">
+                            <OrphaCode>599418</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599418</ExpertLink>
+                            <Name lang="pl">Dziedziczny obrzęk naczynioruchowy z prawidłowym C1Inh niezwiązany z wariantem F12 lub PLG</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -196,7 +189,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=52759</ExpertLink>
                 <Name lang="pl">Zapalenie naczyń</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="5">
@@ -293,7 +286,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="788">
                         <OrphaCode>2331</OrphaCode>
@@ -414,6 +407,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29783">
+                        <OrphaCode>596753</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596753</ExpertLink>
+                        <Name lang="pl">Zespół VEXAS</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -425,7 +430,19 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="17015">
+                        <OrphaCode>140989</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=140989</ExpertLink>
+                        <Name lang="pl">Pierwotne zapalenie naczyń ośrodkowego układu nerwowego</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="747">
                         <OrphaCode>375</OrphaCode>
@@ -444,7 +461,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=156149</ExpertLink>
                         <Name lang="pl">Zapalenie naczyń wywołane kompleksami immunologicznymi</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
@@ -614,7 +631,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=445197</ExpertLink>
                     <Name lang="pl">Wtórne zapalenie naczyń</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -652,10 +669,10 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182222</ExpertLink>
                 <Name lang="pl">Rzadka choroba układowa</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="33">
+              <ClassificationNodeChildList count="34">
                 <ClassificationNode>
                   <Disorder id="19145">
                     <OrphaCode>230857</OrphaCode>
@@ -722,7 +739,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=69</ExpertLink>
                     <Name lang="pl">Amyloidoza</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="12">
@@ -1258,7 +1275,7 @@
                       <Disorder id="3480">
                         <OrphaCode>2953</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2953</ExpertLink>
-                        <Name lang="pl">Zespół  Ehlersa-Danlosa typu mięśniowo-przykurczowego</Name>
+                        <Name lang="pl">Zespół Ehlersai Danlosa mięśniowo-przykurczowy</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1270,7 +1287,7 @@
                       <Disorder id="4041">
                         <OrphaCode>285</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=285</ExpertLink>
-                        <Name lang="pl">Zespół Ehlersa i Danlosa typ z nadmierną ruchomością stawów</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa z nadmierną ruchomością stawów</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1282,7 +1299,7 @@
                       <Disorder id="4042">
                         <OrphaCode>286</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=286</ExpertLink>
-                        <Name lang="pl">Zespół Ehlersa i Danlosa typ naczyniowy</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa naczyniowy</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1294,7 +1311,7 @@
                       <Disorder id="27853">
                         <OrphaCode>536545</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=536545</ExpertLink>
-                        <Name lang="en">Kyphoscoliotic Ehlers-Danlos syndrome</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa z kifoskoliozą</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1330,7 +1347,7 @@
                       <Disorder id="4044">
                         <OrphaCode>1899</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1899</ExpertLink>
-                        <Name lang="pl">Zespół Ehlersa i Danlosa typ z wiotkością stawów</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa z artrochalazją (wiotkością stawów)</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1342,7 +1359,7 @@
                       <Disorder id="4045">
                         <OrphaCode>1901</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1901</ExpertLink>
-                        <Name lang="pl">Zespół Ehlersa i Danlosa typ z dermatopraksją</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa z dermatosparaxis (skórny)</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1366,7 +1383,7 @@
                       <Disorder id="27850">
                         <OrphaCode>536471</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=536471</ExpertLink>
-                        <Name lang="en">Spondylodysplastic Ehlers-Danlos syndrome</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa kręgosłupowo-dysplastyczny</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1388,7 +1405,7 @@
                           <Disorder id="27849">
                             <OrphaCode>536467</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=536467</ExpertLink>
-                            <Name lang="en">B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome</Name>
+                            <Name lang="pl">Zespół Ehlersa i Danlosa kręgosłupowo-dysplastyczny związany z B3GALT6</Name>
                             <DisorderType id="21450">
                               <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
@@ -1438,7 +1455,7 @@
                       <Disorder id="27851">
                         <OrphaCode>536516</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=536516</ExpertLink>
-                        <Name lang="en">Myopathic Ehlers-Danlos syndrome</Name>
+                        <Name lang="pl">Zespół Ehlersa i Danlosa miopatyczny</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1474,7 +1491,7 @@
                       <Disorder id="27852">
                         <OrphaCode>536532</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=536532</ExpertLink>
-                        <Name lang="en">Classical-like Ehlers-Danlos syndrome type 2</Name>
+                        <Name lang="pl">Zespół podobny do klasycznego zespołu Ehlersa i Danlosa typu 2</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -1502,7 +1519,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182228</ExpertLink>
                     <Name lang="pl">Układowa choroba autoimmunologiczna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="24">
@@ -1572,7 +1589,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98482</ExpertLink>
                         <Name lang="pl">Idiopatyczna miopatia zapalna</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="11">
@@ -1690,7 +1707,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=329888</ExpertLink>
                             <Name lang="pl">Młodzieńcza idiopatyczna miopatia zapalna</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -1875,26 +1892,14 @@
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="16">
-                        <ClassificationNode>
-                          <Disorder id="11126">
-                            <OrphaCode>79078</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79078</ExpertLink>
-                            <Name lang="pl">Zapalenie gruczołów łzowych i ślinianek związane z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="14992">
                             <OrphaCode>103919</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=103919</ExpertLink>
                             <Name lang="pl">Autoimmunologiczne zapalenie trzustki</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
+                            <DisorderType id="21436">
+                              <Name lang="pl">Grupa fenomenów</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -1915,37 +1920,13 @@
                                 <OrphaCode>280315</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280315</ExpertLink>
                                 <Name lang="pl">Autoimmunologiczne zapalenie trzustki typu 2</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23539">
-                            <OrphaCode>447764</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447764</ExpertLink>
-                            <Name lang="pl">Twardniające zapalenie dróg żółciowych związane z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10848">
-                            <OrphaCode>64744</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64744</ExpertLink>
-                            <Name lang="pl">Choroba tarczycy związana z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -1964,69 +1945,9 @@
                           <Disorder id="28106">
                             <OrphaCode>555437</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=555437</ExpertLink>
-                            <Name lang="en">Lymphoplasmacytic inflammatory pseudotumor of the liver</Name>
+                            <Name lang="pl">Guz rzekomy limfoplazmatyczny zapalny wątroby</Name>
                             <DisorderType id="21450">
                               <Name lang="pl">Podtyp kliniczny</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10831">
-                            <OrphaCode>63999</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=63999</ExpertLink>
-                            <Name lang="pl">Włóknienie śródpiersia</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19280">
-                            <OrphaCode>238593</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238593</ExpertLink>
-                            <Name lang="pl">Stwardniające zapalenie krezki jelita cienkiego</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10637">
-                            <OrphaCode>49041</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=49041</ExpertLink>
-                            <Name lang="pl">Włóknienie zaotrzewnowe zależne od IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23624">
-                            <OrphaCode>449563</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449563</ExpertLink>
-                            <Name lang="pl">Choroba oftalmologiczna związane z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23623">
-                            <OrphaCode>449432</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449432</ExpertLink>
-                            <Name lang="pl">Choroba ślinianki podżuchwowej związana z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -2045,42 +1966,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="23622">
-                            <OrphaCode>449427</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449427</ExpertLink>
-                            <Name lang="pl">Zapalenie opony twardej związane z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23619">
-                            <OrphaCode>449400</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449400</ExpertLink>
-                            <Name lang="pl">Zapalenie aorty związane z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23618">
-                            <OrphaCode>449395</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449395</ExpertLink>
-                            <Name lang="pl">Choroba nerek związana z IgG4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="23642">
                             <OrphaCode>451607</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=451607</ExpertLink>
@@ -2090,6 +1975,162 @@
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29776">
+                            <OrphaCode>596448</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596448</ExpertLink>
+                            <Name lang="pl">Choroba układowa związana z IgG4</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="12">
+                            <ClassificationNode>
+                              <Disorder id="10637">
+                                <OrphaCode>49041</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=49041</ExpertLink>
+                                <Name lang="pl">Włóknienie zaotrzewnowe zależne od IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10831">
+                                <OrphaCode>63999</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=63999</ExpertLink>
+                                <Name lang="pl">Włóknienie śródpiersia</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10848">
+                                <OrphaCode>64744</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64744</ExpertLink>
+                                <Name lang="pl">Choroba tarczycy związana z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11126">
+                                <OrphaCode>79078</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79078</ExpertLink>
+                                <Name lang="pl">Zapalenie gruczołów łzowych i ślinianek związane z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="19280">
+                                <OrphaCode>238593</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238593</ExpertLink>
+                                <Name lang="pl">Stwardniające zapalenie krezki jelita cienkiego</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23539">
+                                <OrphaCode>447764</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=447764</ExpertLink>
+                                <Name lang="pl">Twardniające zapalenie dróg żółciowych związane z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23618">
+                                <OrphaCode>449395</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449395</ExpertLink>
+                                <Name lang="pl">Choroba nerek związana z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23619">
+                                <OrphaCode>449400</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449400</ExpertLink>
+                                <Name lang="pl">Zapalenie aorty związane z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23622">
+                                <OrphaCode>449427</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449427</ExpertLink>
+                                <Name lang="pl">Zapalenie opony twardej związane z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23623">
+                                <OrphaCode>449432</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449432</ExpertLink>
+                                <Name lang="pl">Choroba ślinianki podżuchwowej związana z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23624">
+                                <OrphaCode>449563</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449563</ExpertLink>
+                                <Name lang="pl">Choroba oftalmologiczna związane z IgG4</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="20452">
+                                <OrphaCode>280302</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280302</ExpertLink>
+                                <Name lang="pl">Autoimmunologiczne zapalenie trzustki typu 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -2124,7 +2165,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=398091</ExpertLink>
                         <Name lang="pl">Wtórna choroba autoimmunologiczna noworodków</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="6">
@@ -2534,7 +2575,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284993</ExpertLink>
                     <Name lang="pl">Zespół Marfana i zaburzenia pokrewne</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="9">
@@ -2724,7 +2765,7 @@
                   <Disorder id="28040">
                     <OrphaCode>542323</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=542323</ExpertLink>
-                    <Name lang="en">CAR T cell therapy-associated cytokine release syndrome</Name>
+                    <Name lang="pl">Zespół uwalniania cytokin związany z terapią limfocytami T CAR</Name>
                     <DisorderType id="21429">
                       <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
                     </DisorderType>
@@ -2756,6 +2797,18 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="29878">
+                    <OrphaCode>598363</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=598363</ExpertLink>
+                    <Name lang="pl">Wieloukładowy zespół zapalny u dzieci i dorosłych</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -2764,7 +2817,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182231</ExpertLink>
                 <Name lang="pl">Rzadka choroba reumatologiczna</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="20">
@@ -2799,38 +2852,14 @@
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="19555">
-                            <OrphaCode>247839</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247839</ExpertLink>
-                            <Name lang="pl">Skąpoostawowe młodzieńcze zapalnie stawów z z przeciwciałami przeciwjądrowymi</Name>
-                            <DisorderType id="21443">
-                              <Name lang="pl">Podtyp etiologiczny</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19556">
-                            <OrphaCode>247846</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247846</ExpertLink>
-                            <Name lang="pl">Skąpostawowe młodzieńcze zapalenie stawów bez przeciwciał przeciwjądrowych</Name>
-                            <DisorderType id="21443">
-                              <Name lang="pl">Podtyp etiologiczny</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="11711">
                         <OrphaCode>85414</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=85414</ExpertLink>
-                        <Name lang="pl">Uogólnione idiopatyczne młodzieńcze zapalenie stawów</Name>
+                        <Name lang="pl">Uogólnione idiopatyczne młodzieńcze zapalenie stawów o wczesnym początku</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -2893,31 +2922,7 @@
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="19557">
-                                <OrphaCode>247854</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247854</ExpertLink>
-                                <Name lang="pl">Młodzieńcze idiopatyczne zapalenie stawów z ujemnym czynnikiem reumatoidalnym z przeciwciałami przeciwjądrowymi</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="pl">Podtyp etiologiczny</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="19558">
-                                <OrphaCode>247861</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=247861</ExpertLink>
-                                <Name lang="pl">Młodzieńcze idiopatyczne zapalenie stawów z ujemnym czynnikiem reumatoidalnym bez przeciwciał przeciwjądrowych</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="pl">Podtyp etiologiczny</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -3038,7 +3043,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93665</ExpertLink>
                     <Name lang="pl">Zespół autoimmunologiczny/autozapalny</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="6">
@@ -3048,7 +3053,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=101995</ExpertLink>
                         <Name lang="pl">Zespół okresowej gorączki</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -3058,7 +3063,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=102237</ExpertLink>
                             <Name lang="pl">Zespół gorączki okresowej o nieznanej etiologii</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -3094,7 +3099,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324924</ExpertLink>
                             <Name lang="pl">Dziedziczny zespół gorączki okresowej</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="9">
@@ -3102,7 +3107,7 @@
                               <Disorder id="28477">
                                 <OrphaCode>566067</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=566067</ExpertLink>
-                                <Name lang="en">CEBPE-associated autoinflammation-immunodeficiency-neutrophil dysfunction syndrome</Name>
+                                <Name lang="pl">Zespół dysfunkcji neutrofili, niedoboru odporności, zaburzeń autoinflamatoryjnych związany z CEBPE</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -3114,7 +3119,7 @@
                               <Disorder id="25994">
                                 <OrphaCode>500062</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=500062</ExpertLink>
-                                <Name lang="en">Infantile-onset periodic fever-panniculitis-dermatosis syndrome</Name>
+                                <Name lang="pl">Zespół okresowej gorączki, zapalenia tkanki tłuszczowej i dermatozy o początku w niemowlęctwie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -3258,7 +3263,7 @@
                               <Disorder id="28852">
                                 <OrphaCode>576349</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=576349</ExpertLink>
-                                <Name lang="en">NLRC4-related familial cold autoinflammatory syndrome</Name>
+                                <Name lang="pl">Zespół rodzinnej zimnej choroby autoinflamatoryjnej związanej z NLRC4</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -3276,7 +3281,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324927</ExpertLink>
                         <Name lang="pl">Zespół autozapalenia ropnego</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="10">
@@ -3306,7 +3311,7 @@
                               <Disorder id="27951">
                                 <OrphaCode>538863</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=538863</ExpertLink>
-                                <Name lang="en">Classic pyoderma gangrenosum</Name>
+                                <Name lang="pl">Klasyczna piodermia zgorzelinowa</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -3318,7 +3323,7 @@
                               <Disorder id="27952">
                                 <OrphaCode>538866</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=538866</ExpertLink>
-                                <Name lang="en">Pustular pyoderma gangrenosum</Name>
+                                <Name lang="pl">Pioderma krostkowa zgorzelinowa</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -3330,7 +3335,7 @@
                               <Disorder id="27953">
                                 <OrphaCode>538869</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=538869</ExpertLink>
-                                <Name lang="en">Bullous pyoderma gangrenosum</Name>
+                                <Name lang="pl">Piodermia pęcherzowa zgorzelinowa</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -3342,7 +3347,7 @@
                               <Disorder id="27954">
                                 <OrphaCode>538872</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=538872</ExpertLink>
-                                <Name lang="en">Vegetative pyoderma gangrenosum</Name>
+                                <Name lang="pl">Piodermia wegetatywna zgorzelinowa</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -3456,7 +3461,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324930</ExpertLink>
                         <Name lang="pl">Zespół autozapalenia ziarniniakowego</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -3516,7 +3521,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324933</ExpertLink>
                         <Name lang="pl">Mieszany zespół autozapalenia i autoodporności</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
@@ -3564,10 +3569,10 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324936</ExpertLink>
                         <Name lang="pl">Niesklasyfikowany zespół autozapalenia</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="703">
                             <OrphaCode>117</OrphaCode>
@@ -3628,6 +3633,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29783">
+                            <OrphaCode>596753</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596753</ExpertLink>
+                            <Name lang="pl">Zespół VEXAS</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -3636,7 +3653,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=477647</ExpertLink>
                         <Name lang="pl">Interferonopatia typu 1</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="13">
@@ -3818,7 +3835,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399158</ExpertLink>
                     <Name lang="pl">Osteonekroza</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="8">
@@ -3826,7 +3843,7 @@
                       <Disorder id="28560">
                         <OrphaCode>566943</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=566943</ExpertLink>
-                        <Name lang="en">Mueller-Weiss syndrome</Name>
+                        <Name lang="pl">Zespół Muellera i Weissa</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -3888,7 +3905,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399164</ExpertLink>
                         <Name lang="pl">Martwica awaskularna kości</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -3898,7 +3915,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399169</ExpertLink>
                             <Name lang="pl">Wtórna martwica awaskularna</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
@@ -3932,7 +3949,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399185</ExpertLink>
                                 <Name lang="pl">Rzadka choroba dziedziczna z martwicą awaskularną</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="4">
@@ -4092,15 +4109,15 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399319</ExpertLink>
                         <Name lang="pl">Osteochondroza</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="28397">
                             <OrphaCode>564003</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=564003</ExpertLink>
-                            <Name lang="en">Osteochondrosis of the metatarsal bone</Name>
+                            <Name lang="pl">Osteochondroza kości śródstopia</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -4115,18 +4132,6 @@
                             <Name lang="pl">Rodzinna choroba Scheuermanna</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="774">
-                            <OrphaCode>1675</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1675</ExpertLink>
-                            <Name lang="pl">Niedobór dyhydrogenazy dihydropirymidynowej</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -4220,7 +4225,7 @@
                           <Disorder id="28396">
                             <OrphaCode>563991</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563991</ExpertLink>
-                            <Name lang="en">Osteochondrosis of the tarsal bone</Name>
+                            <Name lang="pl">Osteochondroza kości stępu</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -4272,7 +4277,7 @@
                   <Disorder id="27635">
                     <OrphaCode>529977</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529977</ExpertLink>
-                    <Name lang="en">Immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections-lymphopenia syndrome</Name>
+                    <Name lang="pl">Zespół dysregulacji immunologicznej, zapalnej choroby jelita, zapalenia stawów, nawracających infekcji i limfopenii</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>

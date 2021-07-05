@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:34:36" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:09:35" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="184">
       <OrphaNumber>162655</OrphaNumber>
@@ -51,8 +44,8 @@
                 <OrphaCode>63999</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=63999</ExpertLink>
                 <Name lang="pt">Fibrose mediastínica</Name>
-                <DisorderType id="21394">
-                  <Name lang="pt">Doença</Name>
+                <DisorderType id="21450">
+                  <Name lang="pt">Subtipo clínico</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -641,7 +634,43 @@
                       <Name lang="pt">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="20">
+                  <ClassificationNodeChildList count="26">
+                    <ClassificationNode>
+                      <Disorder id="14100">
+                        <OrphaCode>99083</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99083</ExpertLink>
+                        <Name lang="pt">Hipoplasia da artéria pulmonar</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pt">Anomalia morfológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3459">
+                        <OrphaCode>3188</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3188</ExpertLink>
+                        <Name lang="pt">Estenose das veias pulmonares</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pt">Anomalia morfológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3462">
+                        <OrphaCode>185</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=185</ExpertLink>
+                        <Name lang="pt">Síndrome de Scimitar</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pt">Síndrome malformativo</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="534">
                         <OrphaCode>2414</OrphaCode>
@@ -1111,10 +1140,46 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="236">
+                        <OrphaCode>774</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=774</ExpertLink>
+                        <Name lang="pt">Doença de Rendu-Osler-Weber</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pt">Doença</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="23661">
                         <OrphaCode>454750</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=454750</ExpertLink>
                         <Name lang="pt">Fistula traqueo-esofágica isolada</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pt">Anomalia morfológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3441">
+                        <OrphaCode>2038</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2038</ExpertLink>
+                        <Name lang="pt">Malformação arterio-venosa pulmonar</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pt">Anomalia morfológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14067">
+                        <OrphaCode>99050</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99050</ExpertLink>
+                        <Name lang="pt">Artéria pulmonar proveniente da aorta</Name>
                         <DisorderType id="21415">
                           <Name lang="pt">Anomalia morfológica</Name>
                         </DisorderType>
@@ -1327,7 +1392,19 @@
                   <Name lang="pt">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="39">
+              <ClassificationNodeChildList count="43">
+                <ClassificationNode>
+                  <Disorder id="3768">
+                    <OrphaCode>389</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=389</ExpertLink>
+                    <Name lang="pt">Histiocitose de células de Langerhans</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pt">Doença</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
@@ -1344,7 +1421,7 @@
                   <Disorder id="194">
                     <OrphaCode>60</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=60</ExpertLink>
-                    <Name lang="pt">Deficiência de alfa-1 antitripsina (AAT)</Name>
+                    <Name lang="pt">Deficiência de alfa-1 antitripsina</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -1529,19 +1606,7 @@
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="14554">
-                        <OrphaCode>99981</OrphaCode>
-                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99981</ExpertLink>
-                        <Name lang="pt">Apneia da prematuridade (AOP)</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pt">Subtipo clínico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1645,8 +1710,8 @@
                     <OrphaCode>178320</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=178320</ExpertLink>
                     <Name lang="pt">Lesão pulmonar aguda</Name>
-                    <DisorderType id="21422">
-                      <Name lang="pt">Síndrome clínica</Name>
+                    <DisorderType id="21429">
+                      <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -1790,7 +1855,7 @@
                                       <Disorder id="28746">
                                         <OrphaCode>572428</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=572428</ExpertLink>
-                                        <Name lang="pt">Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia</Name>
+                                        <Name lang="pt">Proteinose alveolar pulmonar de início infantil-hipogamaglobulinémia</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -1987,31 +2052,7 @@
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="2">
-                                        <ClassificationNode>
-                                          <Disorder id="19555">
-                                            <OrphaCode>247839</OrphaCode>
-                                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247839</ExpertLink>
-                                            <Name lang="pt">Arterite juvenil oligoarticular com anticorpos anti-nucleares</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="pt">Subtipo etiologico</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
-                                        <ClassificationNode>
-                                          <Disorder id="19556">
-                                            <OrphaCode>247846</OrphaCode>
-                                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247846</ExpertLink>
-                                            <Name lang="pt">Arterite juvenil oligoarticular sem anticorpos anti-nucleares</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="pt">Subtipo etiologico</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
+                                      <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
@@ -2081,31 +2122,7 @@
                                               <Name lang="pt">Doença</Name>
                                             </DisorderType>
                                           </Disorder>
-                                          <ClassificationNodeChildList count="2">
-                                            <ClassificationNode>
-                                              <Disorder id="19557">
-                                                <OrphaCode>247854</OrphaCode>
-                                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247854</ExpertLink>
-                                                <Name lang="pt">Poliartrite seronegativa com anticorpos antinucleares – factor reumatóide juvenil</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="pt">Subtipo etiologico</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
-                                            <ClassificationNode>
-                                              <Disorder id="19558">
-                                                <OrphaCode>247861</OrphaCode>
-                                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247861</ExpertLink>
-                                                <Name lang="pt">Poliartrite seronegativa sem anticorpos antinucleares – factor reumatóide juvenil</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="pt">Subtipo etiologico</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
+                                          <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
                                         </ClassificationNode>
                                         <ClassificationNode>
@@ -2370,7 +2387,7 @@
                               <Disorder id="8627">
                                 <OrphaCode>122</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=122</ExpertLink>
-                                <Name lang="pt">Síndrome de Birt-Hogg-Dube</Name>
+                                <Name lang="pt">Síndrome Birt-Hogg-Dubé</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -2605,7 +2622,19 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="1">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="8611">
+                                <OrphaCode>81</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=81</ExpertLink>
+                                <Name lang="pt">Síndrome anti-sintetase</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="735">
                                 <OrphaCode>797</OrphaCode>
@@ -3165,6 +3194,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="23209">
+                    <OrphaCode>425120</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=425120</ExpertLink>
+                    <Name lang="pt">Vasculopatia STING-associada com início na infância</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pt">Doença</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="21958">
                     <OrphaCode>330012</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=330012</ExpertLink>
@@ -3192,7 +3233,7 @@
                   <Disorder id="26330">
                     <OrphaCode>505248</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=505248</ExpertLink>
-                    <Name lang="pt">Hematopoietic disorder-congenital heart defects-mucopolysaccharidosis-like syndrome</Name>
+                    <Name lang="pt">Síndrome mucopolissacaridose-like com defeitos cardíacos congénitos e doenças hematopoiéticas</Name>
                     <DisorderType id="21401">
                       <Name lang="pt">Síndrome malformativo</Name>
                     </DisorderType>
@@ -3252,7 +3293,7 @@
                   <Disorder id="26354">
                     <OrphaCode>505395</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=505395</ExpertLink>
-                    <Name lang="pt">Ventilator-induced diaphragmatic dysfunction</Name>
+                    <Name lang="pt">Disfunção diafragmática induzida pelo ventilador</Name>
                     <DisorderType id="21429">
                       <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
                     </DisorderType>
@@ -3291,6 +3332,30 @@
                     <Name lang="pt">Infeções pulmonares fúngicas em doentes considerados em risco</Name>
                     <DisorderType id="21429">
                       <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="14554">
+                    <OrphaCode>99981</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99981</ExpertLink>
+                    <Name lang="pt">Apneia da prematuridade (AOP)</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pt">Doença</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20721">
+                    <OrphaCode>289390</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=289390</ExpertLink>
+                    <Name lang="pt">Síndrome de Sjögren primário</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pt">Doença</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:22:23" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:45:23" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="146">
       <OrphaNumber>156265</OrphaNumber>
@@ -565,7 +558,7 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="7">
+                          <ClassificationNodeChildList count="6">
                             <ClassificationNode>
                               <Disorder id="3294">
                                 <OrphaCode>746</OrphaCode>
@@ -651,18 +644,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="14473">
-                                <OrphaCode>99900</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99900</ExpertLink>
-                                <Name lang="fr">Déficit en acyl-CoA déshydrogénase des acides gras à chaîne longue</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="14474">
                                 <OrphaCode>99901</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99901</ExpertLink>
@@ -702,12 +683,72 @@
                               <Disorder id="77">
                                 <OrphaCode>273</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=273</ExpertLink>
-                                <Name lang="fr">Dystrophie myotonique de type 1</Name>
+                                <Name lang="fr">Dystrophie myotonique de Steinert</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="5">
+                                <ClassificationNode>
+                                  <Disorder id="29442">
+                                    <OrphaCode>589824</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589824</ExpertLink>
+                                    <Name lang="fr">Dystrophie myotonique de Steinert, forme infantile</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29443">
+                                    <OrphaCode>589827</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589827</ExpertLink>
+                                    <Name lang="fr">Dystrophie myotonique de Steinert à début juvénile</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29444">
+                                    <OrphaCode>589830</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589830</ExpertLink>
+                                    <Name lang="fr">Dystrophie myotonique de Steinert de l'adulte</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29445">
+                                    <OrphaCode>589833</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589833</ExpertLink>
+                                    <Name lang="fr">Dystrophie myotonique de Steinert à début tardif</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29441">
+                                    <OrphaCode>589821</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589821</ExpertLink>
+                                    <Name lang="fr">Dystrophie myotonique de Steinert, forme congénitale</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -1961,15 +2002,39 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="11723">
-                            <OrphaCode>85451</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85451</ExpertLink>
-                            <Name lang="fr">Amylose ATTRV122I</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
+                          <Disorder id="20307">
+                            <OrphaCode>271861</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=271861</ExpertLink>
+                            <Name lang="fr">Amylose ATTR héréditaire</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="11723">
+                                <OrphaCode>85451</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85451</ExpertLink>
+                                <Name lang="fr">Amylose ATTRV122I</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11720">
+                                <OrphaCode>85447</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85447</ExpertLink>
+                                <Name lang="fr">Amylose ATTRV30M</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -2209,7 +2274,55 @@
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="21544">
+                                <OrphaCode>314962</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314962</ExpertLink>
+                                <Name lang="fr">Syndrome hyperéosinophilique secondaire</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="1">
+                                <ClassificationNode>
+                                  <Disorder id="21545">
+                                    <OrphaCode>314970</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314970</ExpertLink>
+                                    <Name lang="fr">Syndrome hyperéosinophilique lymphoïde</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="3422">
+                                <OrphaCode>3260</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3260</ExpertLink>
+                                <Name lang="fr">Syndrome hyperéosinophilique idiopathique</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="21543">
+                                <OrphaCode>314950</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314950</ExpertLink>
+                                <Name lang="fr">Syndrome hyperéosinophilique primitif</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -2441,7 +2554,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="28">
+                  <ClassificationNodeChildList count="29">
                     <ClassificationNode>
                       <Disorder id="658">
                         <OrphaCode>768</OrphaCode>
@@ -2451,7 +2564,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="10865">
                             <OrphaCode>65283</OrphaCode>
@@ -2461,7 +2574,43 @@
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="29722">
+                                <OrphaCode>595098</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=595098</ExpertLink>
+                                <Name lang="fr">Syndrome de Timothy type 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29723">
+                                <OrphaCode>595105</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=595105</ExpertLink>
+                                <Name lang="fr">Syndrome de Timothy type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29724">
+                                <OrphaCode>595109</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=595109</ExpertLink>
+                                <Name lang="fr">Syndrome de Timothy atypique</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -2481,18 +2630,6 @@
                             <OrphaCode>101016</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101016</ExpertLink>
                             <Name lang="fr">Syndrome de Romano-Ward</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10442">
-                            <OrphaCode>37553</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=37553</ExpertLink>
-                            <Name lang="fr">Syndrome d'Andersen-Tawil</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2639,6 +2776,18 @@
                         <OrphaCode>334</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=334</ExpertLink>
                         <Name lang="fr">Fibrillation auriculaire familiale</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10442">
+                        <OrphaCode>37553</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=37553</ExpertLink>
+                        <Name lang="fr">Syndrome d'Andersen-Tawil</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>

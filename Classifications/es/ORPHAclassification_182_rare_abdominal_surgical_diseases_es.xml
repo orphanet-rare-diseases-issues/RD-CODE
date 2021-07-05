@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:33:03" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:00:29" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="182">
       <OrphaNumber>162647</OrphaNumber>
@@ -51,8 +44,8 @@
                 <OrphaCode>49041</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=49041</ExpertLink>
                 <Name lang="es">Fibrosis retroperitoneal asociada a IgG4</Name>
-                <DisorderType id="21394">
-                  <Name lang="es">Enfermedad</Name>
+                <DisorderType id="21450">
+                  <Name lang="es">Subtipo clínico</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -377,22 +370,22 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="1058">
                         <OrphaCode>557</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=557</ExpertLink>
-                        <Name lang="es">Malformación anorrectal aislada</Name>
+                        <Name lang="es">Malformación anorrectal no sindrómica</Name>
                         <DisorderType id="21436">
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
-                          <Disorder id="17901">
-                            <OrphaCode>171201</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171201</ExpertLink>
-                            <Name lang="es">Malformación anorrectal alta aislada</Name>
+                          <Disorder id="30540">
+                            <OrphaCode>600952</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600952</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula perineal</Name>
                             <DisorderType id="21415">
                               <Name lang="es">Anomalía morfológica</Name>
                             </DisorderType>
@@ -401,10 +394,46 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="17902">
-                            <OrphaCode>171208</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171208</ExpertLink>
-                            <Name lang="es">Malformación anorrectal intermedia aislada</Name>
+                          <Disorder id="30541">
+                            <OrphaCode>600961</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600961</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula rectouretral</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="30542">
+                                <OrphaCode>600966</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600966</ExpertLink>
+                                <Name lang="es">Malformación anorrectal no sindrómica con fístula rectouretral, tipo bulbar</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="30543">
+                                <OrphaCode>600975</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600975</ExpertLink>
+                                <Name lang="es">Malformación anorrectal no sindrómica con fístula rectouretral, tipo prostática</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30544">
+                            <OrphaCode>600984</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600984</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula rectovesical</Name>
                             <DisorderType id="21415">
                               <Name lang="es">Anomalía morfológica</Name>
                             </DisorderType>
@@ -413,10 +442,106 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="17903">
-                            <OrphaCode>171215</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171215</ExpertLink>
-                            <Name lang="es">Malformación anorrectal baja aislada</Name>
+                          <Disorder id="30545">
+                            <OrphaCode>600993</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600993</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula vestibular</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30546">
+                            <OrphaCode>600998</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=600998</ExpertLink>
+                            <Name lang="es">Malformación cloacal no sindrómica</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30547">
+                            <OrphaCode>601002</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601002</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica sin fístula</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30548">
+                            <OrphaCode>601008</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601008</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con estenosis anal</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30549">
+                            <OrphaCode>601013</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601013</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con bolsa colónica</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30550">
+                            <OrphaCode>601018</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601018</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con atresia rectal</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30551">
+                            <OrphaCode>601023</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601023</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con estenosis rectal</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30552">
+                            <OrphaCode>601028</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601028</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula rectovaginal</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30553">
+                            <OrphaCode>601033</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=601033</ExpertLink>
+                            <Name lang="es">Malformación anorrectal no sindrómica con fístula en H</Name>
                             <DisorderType id="21415">
                               <Name lang="es">Anomalía morfológica</Name>
                             </DisorderType>
@@ -435,7 +560,7 @@
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="46">
+                      <ClassificationNodeChildList count="43">
                         <ClassificationNode>
                           <Disorder id="126">
                             <OrphaCode>567</OrphaCode>
@@ -713,66 +838,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2900">
-                            <OrphaCode>3242</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3242</ExpertLink>
-                            <Name lang="es">Síndrome de Renpenning</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="4">
-                            <ClassificationNode>
-                              <Disorder id="12505">
-                                <OrphaCode>93945</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93945</ExpertLink>
-                                <Name lang="es">Discapacidad intelectual ligada al cromosoma X tipo Porteous</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12506">
-                                <OrphaCode>93946</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93946</ExpertLink>
-                                <Name lang="es">Síndrome cerebro-palato-cardíaco de Hamel</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12507">
-                                <OrphaCode>93947</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93947</ExpertLink>
-                                <Name lang="es">Discapacidad intelectual ligada al cromosoma X tipo Golabi-Ito-Hall</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12508">
-                                <OrphaCode>93950</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93950</ExpertLink>
-                                <Name lang="es">Discapacidad intelectual ligada al cromosoma X tipo Sutherland-Haan</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="3007">
                             <OrphaCode>3412</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3412</ExpertLink>
@@ -793,31 +858,7 @@
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="21237">
-                                <OrphaCode>306588</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306588</ExpertLink>
-                                <Name lang="es">Síndrome de Opitz G/BBB autosómico dominante</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="es">Subtipo etiológico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="21238">
-                                <OrphaCode>306597</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306597</ExpertLink>
-                                <Name lang="es">Síndrome de Opitz G/BBB ligado al cromosoma X</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="es">Subtipo etiológico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -825,18 +866,6 @@
                             <OrphaCode>782</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=782</ExpertLink>
                             <Name lang="es">Síndrome de Axenfeld-Rieger</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10887">
-                            <OrphaCode>66629</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=66629</ExpertLink>
-                            <Name lang="es">Síndrome de megacolon de Goldberg-Shprintzen</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -933,18 +962,6 @@
                             <OrphaCode>94095</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=94095</ExpertLink>
                             <Name lang="es">Síndrome de disostosis espondilocostal-atresia anal-malformaciones genitourinarias</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12792">
-                            <OrphaCode>96168</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=96168</ExpertLink>
-                            <Name lang="es">Monosomía 13q34</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -1097,18 +1114,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="12508">
-                            <OrphaCode>93950</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93950</ExpertLink>
-                            <Name lang="es">Discapacidad intelectual ligada al cromosoma X tipo Sutherland-Haan</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1305</ExpertLink>
@@ -1144,18 +1149,18 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="17904">
-                        <OrphaCode>171220</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171220</ExpertLink>
-                        <Name lang="es">Rectal duplication</Name>
-                        <DisorderType id="21415">
-                          <Name lang="es">Anomalía morfológica</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
+                        <ClassificationNode>
+                          <Disorder id="12213">
+                            <OrphaCode>93270</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93270</ExpertLink>
+                            <Name lang="es">Síndrome de costillas cortas-polidactilia tipo Saldino-Noonan</Name>
+                            <DisorderType id="21401">
+                              <Name lang="es">Síndrome de malformación</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1256,7 +1261,7 @@
                           <Disorder id="3155">
                             <OrphaCode>2538</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2538</ExpertLink>
-                            <Name lang="es">Síndrome de microgastria-anomalía de las extremidades</Name>
+                            <Name lang="es">Síndrome de microgastria-anomalía de reducción de las extremidades</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -1277,7 +1282,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="2">
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="15015">
                         <OrphaCode>108967</OrphaCode>
@@ -1626,6 +1631,18 @@
                         </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="17904">
+                        <OrphaCode>171220</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171220</ExpertLink>
+                        <Name lang="es">Duplicación rectal</Name>
+                        <DisorderType id="21415">
+                          <Name lang="es">Anomalía morfológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
@@ -1781,7 +1798,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="20908">
                         <OrphaCode>294415</OrphaCode>
@@ -1799,6 +1816,18 @@
                         <OrphaCode>293864</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=293864</ExpertLink>
                         <Name lang="es">Síndrome de hipoplasia del páncreas-atresia intestinal-hipoplasia de la vesícula biliar</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19476">
+                        <OrphaCode>244283</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=244283</ExpertLink>
+                        <Name lang="es">Atresia biliar con síndrome de malformación esplénica</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2271,7 +2300,7 @@
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
                           <Disorder id="1993">
                             <OrphaCode>2078</OrphaCode>
@@ -2476,6 +2505,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="22342">
+                            <OrphaCode>363705</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363705</ExpertLink>
+                            <Name lang="es">Síndrome craneofaciofrontodigital</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2655,8 +2696,8 @@
                 <OrphaCode>238593</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238593</ExpertLink>
                 <Name lang="es">Mesenteritis asociada a IgG4</Name>
-                <DisorderType id="21394">
-                  <Name lang="es">Enfermedad</Name>
+                <DisorderType id="21450">
+                  <Name lang="es">Subtipo clínico</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -2715,8 +2756,8 @@
                 <OrphaCode>449400</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449400</ExpertLink>
                 <Name lang="es">Aortitis asociada a IgG4</Name>
-                <DisorderType id="21394">
-                  <Name lang="es">Enfermedad</Name>
+                <DisorderType id="21450">
+                  <Name lang="es">Subtipo clínico</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">

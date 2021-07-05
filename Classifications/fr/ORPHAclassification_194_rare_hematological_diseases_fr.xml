@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:39:01" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:47:59" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="194">
       <OrphaNumber>162949</OrphaNumber>
@@ -419,7 +412,31 @@
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="29433">
+                                    <OrphaCode>589534</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589534</ExpertLink>
+                                    <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(9;22)(q34.1;q11.2)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29436">
+                                    <OrphaCode>589595</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589595</ExpertLink>
+                                    <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(v;11q23.3)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -445,7 +462,7 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="12">
                             <ClassificationNode>
                               <Disorder id="8559">
                                 <OrphaCode>520</OrphaCode>
@@ -571,6 +588,18 @@
                                 <OrphaCode>402026</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=402026</ExpertLink>
                                 <Name lang="fr">Leucémie myéloïde aiguë associée à des mutations somatiques de NPM1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29204">
+                                <OrphaCode>585867</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585867</ExpertLink>
+                                <Name lang="fr">Leucémie myéloïde aiguë associée à t(9;22)(q34.1;q11.2)</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -1162,12 +1191,12 @@
                       <Disorder id="17801">
                         <OrphaCode>168943</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168943</ExpertLink>
-                        <Name lang="fr">Tumeur myéloïde/lymphoïde avec éosinophiles associée à une anomalie de PDGFRA, PDGFRB ou FGFR1</Name>
+                        <Name lang="fr">Tumeur myéloïde/lymphoïde avec éosinophiles associée à une anomalie de PDGFRA, PDGFRB, FGFR1 ou JAK2</Name>
                         <DisorderType id="36561">
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="17802">
                             <OrphaCode>168947</OrphaCode>
@@ -1204,6 +1233,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29434">
+                            <OrphaCode>589542</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589542</ExpertLink>
+                            <Name lang="fr">Tumeur myéloïde/lymphoïde associée à un réarrangement de JAK2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1217,7 +1258,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="3468">
                         <OrphaCode>3261</OrphaCode>
@@ -1641,7 +1682,103 @@
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="1">
+                                    <ClassificationNode>
+                                      <Disorder id="29205">
+                                        <OrphaCode>585877</OrphaCode>
+                                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585877</ExpertLink>
+                                        <Name lang="fr">Leucémie/lymphome lymphoblastique B avec anomalie génétique récurrente</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="fr">Sous-type étiologique</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="7">
+                                        <ClassificationNode>
+                                          <Disorder id="29211">
+                                            <OrphaCode>585909</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585909</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(9;22)(q34.1;q11.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29212">
+                                            <OrphaCode>585918</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585918</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(v;11q23.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29213">
+                                            <OrphaCode>585929</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585929</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(12;21)(p13.2;q22.1)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29214">
+                                            <OrphaCode>585936</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585936</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hyperdiploïdie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29215">
+                                            <OrphaCode>585942</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585942</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hypodiploïdie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29216">
+                                            <OrphaCode>585948</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585948</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(5;14)(q31.1;q32.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29217">
+                                            <OrphaCode>585956</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585956</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(1;19)(q23;p13.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -1857,7 +1994,7 @@
                                       <Name lang="fr">Catégorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="3747">
                                         <OrphaCode>543</OrphaCode>
@@ -2007,18 +2144,6 @@
                                         <OrphaCode>86852</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86852</ExpertLink>
                                         <Name lang="fr">Leucémie prolymphocytaire à cellules B</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="fr">Maladie</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="14433">
-                                        <OrphaCode>99860</OrphaCode>
-                                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99860</ExpertLink>
-                                        <Name lang="fr">Leucémie aiguë lymphoblastique à précurseurs B</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -3078,18 +3203,6 @@
                         </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12466">
-                        <OrphaCode>93685</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93685</ExpertLink>
-                        <Name lang="fr">Maladie de Castleman unicentrique</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -3522,7 +3635,7 @@
                               <Disorder id="12423">
                                 <OrphaCode>93585</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93585</ExpertLink>
-                                <Name lang="fr">Purpura thrombotique thrombocytopénique acquis</Name>
+                                <Name lang="fr">Purpura thrombotique thrombocytopénique d'origine immunitaire</Name>
                                 <DisorderType id="21450">
                                   <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
@@ -4497,7 +4610,7 @@
                                       <Name lang="fr">Catégorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="18911">
                                         <OrphaCode>220452</OrphaCode>
@@ -4695,18 +4808,6 @@
                                         <OrphaCode>3319</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3319</ExpertLink>
                                         <Name lang="fr">Thrombocytopénie amégacaryocytaire congénitale</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="fr">Maladie</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="22346">
-                                        <OrphaCode>363727</OrphaCode>
-                                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363727</ExpertLink>
-                                        <Name lang="fr">Anémie dysérythropoïétique liée à l'X avec plaquettes anormales et neutropénie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -5264,7 +5365,7 @@
                           <Disorder id="19226">
                             <OrphaCode>232288</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=232288</ExpertLink>
-                            <Name lang="fr">Maladies associées à une alpha-thalassémie</Name>
+                            <Name lang="fr">Syndrome avec alpha-thalassémie comme manifestation majeure</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -5275,8 +5376,8 @@
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=847</ExpertLink>
                                 <Name lang="fr">Alpha-thalassémie-déficience intellectuelle liée à l'X</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5287,8 +5388,8 @@
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98791</ExpertLink>
                                 <Name lang="fr">Syndrome d'alpha-thalassémie-déficience intellectuelle associée au chromosome 16</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -6452,7 +6553,7 @@
                           <Disorder id="634">
                             <OrphaCode>84</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=84</ExpertLink>
-                            <Name lang="fr">Anémie de Fanconi</Name>
+                            <Name lang="fr">Maladie de Fanconi</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -6608,9 +6709,9 @@
                           <Disorder id="13438">
                             <OrphaCode>98421</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98421</ExpertLink>
-                            <Name lang="fr">Aplasie de la lignée rouge</Name>
-                            <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                            <Name lang="fr">Aplasie primaire acquise de la lignée rouge</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -6630,7 +6731,7 @@
                               <Disorder id="13889">
                                 <OrphaCode>98872</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98872</ExpertLink>
-                                <Name lang="fr">Aplasie pure des globules rouges de l'adulte</Name>
+                                <Name lang="fr">Aplasie pure des globules rouges</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>

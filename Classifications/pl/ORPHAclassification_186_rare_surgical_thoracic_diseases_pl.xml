@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2020-06-29 19:35:23" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:42:57" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="186">
       <OrphaNumber>162709</OrphaNumber>
-      <Name lang="en">Orphanet classification of rare surgical thoracic diseases</Name>
+      <Name lang="pl">Klasyfikacja Orphanetu rzadkich chorób klatki piersiowej poddawanych operacjom chirurgicznym</Name>
       <ClassificationNodeRootList count="1">
         <ClassificationNode>
           <Disorder id="12980">
@@ -18,7 +11,7 @@
             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97962</ExpertLink>
             <Name lang="pl">Rzadkie operacyjne choroby klatki piersiowej</Name>
             <DisorderType id="36561">
-              <Name lang="en">Category</Name>
+              <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="6">
@@ -76,10 +69,10 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108993</ExpertLink>
                 <Name lang="pl">Niesyndromiczna malformacja układu oddechowego lub śródpiersia</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="4">
+              <ClassificationNodeChildList count="15">
                 <ClassificationNode>
                   <Disorder id="597">
                     <OrphaCode>3346</OrphaCode>
@@ -177,6 +170,234 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="534">
+                    <OrphaCode>2414</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2414</ExpertLink>
+                    <Name lang="pl">Wrodzona limfangiektazja płuc</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="538">
+                    <OrphaCode>2444</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2444</ExpertLink>
+                    <Name lang="pl">Wrodzona malformacja dróg oddechowych w płucach</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="20506">
+                        <OrphaCode>280827</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280827</ExpertLink>
+                        <Name lang="pl">Wrodzona malformacja dróg oddechowych płuc, typu 0</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20507">
+                        <OrphaCode>280832</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280832</ExpertLink>
+                        <Name lang="pl">Wrodzona malformacja płuc, typu 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20508">
+                        <OrphaCode>280840</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280840</ExpertLink>
+                        <Name lang="pl">Wrodzona malformacja dróg oddechowych płuc, typu 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20509">
+                        <OrphaCode>280847</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280847</ExpertLink>
+                        <Name lang="pl">Wrodzona malformacja dróg oddechowych płuc, typu 3</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20510">
+                        <OrphaCode>280854</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280854</ExpertLink>
+                        <Name lang="pl">Wrodzona malformacja dróg oddechowych płuc, typu 4</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="715">
+                    <OrphaCode>984</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=984</ExpertLink>
+                    <Name lang="pl">Agenezja płuc</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="797">
+                    <OrphaCode>2357</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2357</ExpertLink>
+                    <Name lang="pl">Torbiel bronchogenna</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="798">
+                    <OrphaCode>2040</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2040</ExpertLink>
+                    <Name lang="pl">Wrodzona przetoka oskrzelowo-żółciowa</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2125">
+                    <OrphaCode>2257</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2257</ExpertLink>
+                    <Name lang="pl">Rodzinna pierwotna hipoplazja płuc</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="3441">
+                    <OrphaCode>2038</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2038</ExpertLink>
+                    <Name lang="pl">Płucna  przetoka tętniczo-żylna</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="3457">
+                    <OrphaCode>3161</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3161</ExpertLink>
+                    <Name lang="pl">Wrodzona sekwestracja płuc</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="20503">
+                        <OrphaCode>280802</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280802</ExpertLink>
+                        <Name lang="pl">Wrodzona sekwestracja wewnątrzpłatowa płuc</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20504">
+                        <OrphaCode>280811</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280811</ExpertLink>
+                        <Name lang="pl">Wrodzona sekwestracja pozapłatowa płuc</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20505">
+                        <OrphaCode>280821</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280821</ExpertLink>
+                        <Name lang="pl">Wrodzona komunikująca malformacja oskrzelowo-płucna i jelita przedniego</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10960">
+                    <OrphaCode>70589</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70589</ExpertLink>
+                    <Name lang="pl">Dysplazja oskrzelowo-płucna</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="12589">
+                    <OrphaCode>95430</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95430</ExpertLink>
+                    <Name lang="pl">Wrodzone rozmiękanie tchawicy</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23013">
+                    <OrphaCode>411501</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=411501</ExpertLink>
+                    <Name lang="pl">Zespół Williamsa i Campbella</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pl">Wada morfologiczna</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="23661">
                     <OrphaCode>454750</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=454750</ExpertLink>
@@ -196,15 +417,183 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108995</ExpertLink>
                 <Name lang="pl">Syndromiczna malformacja układu oddechowego lub śródpiersia</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="1">
+              <ClassificationNodeChildList count="8">
                 <ClassificationNode>
                   <Disorder id="2283">
                     <OrphaCode>2470</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2470</ExpertLink>
                     <Name lang="pl">Zespół Matthew i Wooda</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="1310">
+                    <OrphaCode>994</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=994</ExpertLink>
+                    <Name lang="pl">Sekwencja deformacyjna akinazji płodu</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="1400">
+                    <OrphaCode>1120</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1120</ExpertLink>
+                    <Name lang="pl">Agnezja płuc - wada serca - anomalie kciuka</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="3428">
+                    <OrphaCode>1132</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1132</ExpertLink>
+                    <Name lang="pl">Wady łuku aorty</Name>
+                    <DisorderType id="36561">
+                      <Name lang="pl">Kategoria</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="7">
+                    <ClassificationNode>
+                      <Disorder id="14092">
+                        <OrphaCode>99075</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99075</ExpertLink>
+                        <Name lang="pl">Podwójny łuk aorty</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14093">
+                        <OrphaCode>99076</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99076</ExpertLink>
+                        <Name lang="pl">Przetrwały piąty łuk aorty</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14094">
+                        <OrphaCode>99077</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99077</ExpertLink>
+                        <Name lang="pl">Uchyłek Kommerella</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14095">
+                        <OrphaCode>99078</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99078</ExpertLink>
+                        <Name lang="pl">Anomalia Neuhausera</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14096">
+                        <OrphaCode>99079</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99079</ExpertLink>
+                        <Name lang="pl">Łuk aorty szyjnej</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14098">
+                        <OrphaCode>99081</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99081</ExpertLink>
+                        <Name lang="pl">Prawy łuk aorty</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14099">
+                        <OrphaCode>99082</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99082</ExpertLink>
+                        <Name lang="pl">Dysphagia lusoria</Name>
+                        <DisorderType id="21415">
+                          <Name lang="pl">Wada morfologiczna</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2729">
+                    <OrphaCode>3035</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3035</ExpertLink>
+                    <Name lang="pl">Opóźnienie wzrostu - wodogłowie - hipoplazja płuc</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2233">
+                    <OrphaCode>2407</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2407</ExpertLink>
+                    <Name lang="pl">Zespół krtaniowo-paznokciowo-skórny</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="3423">
+                    <OrphaCode>2745</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2745</ExpertLink>
+                    <Name lang="pl">Zespół Opitza GBBB</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="1660">
+                    <OrphaCode>1486</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1486</ExpertLink>
+                    <Name lang="pl">Letalny zespół  wrodzonych przykurczów stawowych typu 1</Name>
                     <DisorderType id="21401">
                       <Name lang="pl">Zespół wad wrodzonych</Name>
                     </DisorderType>
@@ -220,7 +609,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=180776</ExpertLink>
                 <Name lang="pl">Niesyndromiczna malformacja przepony lub klatki piersiowej</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
@@ -256,7 +645,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=180779</ExpertLink>
                 <Name lang="pl">Syndromiczna malformacja przepony lub klatki piersiowej</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
@@ -425,7 +814,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="11">
+                  <ClassificationNodeChildList count="12">
                     <ClassificationNode>
                       <Disorder id="1993">
                         <OrphaCode>2078</OrphaCode>
@@ -630,6 +1019,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22342">
+                        <OrphaCode>363705</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363705</ExpertLink>
+                        <Name lang="pl">Zespół czaszkowo-twarzowo-czołowo-palcowy</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -676,7 +1077,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=285014</ExpertLink>
                 <Name lang="pl">Rzadkie choroby z tętniakiem aorty piersiowej i rozwarstwieniem aorty</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="10">
@@ -732,7 +1133,7 @@
                   <Disorder id="4042">
                     <OrphaCode>286</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=286</ExpertLink>
-                    <Name lang="pl">Zespół Ehlersa i Danlosa typ naczyniowy</Name>
+                    <Name lang="pl">Zespół Ehlersa i Danlosa naczyniowy</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>

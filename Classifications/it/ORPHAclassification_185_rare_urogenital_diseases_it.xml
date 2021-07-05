@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:35:02" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:05:12" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="185">
       <OrphaNumber>162706</OrphaNumber>
@@ -318,7 +311,7 @@
                               <Disorder id="18100">
                                 <OrphaCode>180142</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=180142</ExpertLink>
-                                <Name lang="it">Agenesia e aplasia del corpo uterino</Name>
+                                <Name lang="it">Agenesia e aplasia del corpo dell'utero</Name>
                                 <DisorderType id="21415">
                                   <Name lang="it">Anomalia morfologica</Name>
                                 </DisorderType>
@@ -330,7 +323,7 @@
                               <Disorder id="18101">
                                 <OrphaCode>180145</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=180145</ExpertLink>
-                                <Name lang="it">Aplasia e agenesia del collo dell'utero</Name>
+                                <Name lang="it">Disgenesia e aplasia della cervice uterina</Name>
                                 <DisorderType id="21415">
                                   <Name lang="it">Anomalia morfologica</Name>
                                 </DisorderType>
@@ -452,7 +445,7 @@
                           <Disorder id="8708">
                             <OrphaCode>49</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=49</ExpertLink>
-                            <Name lang="it">Agenesia peniena</Name>
+                            <Name lang="it">Agenesia del pene</Name>
                             <DisorderType id="21415">
                               <Name lang="it">Anomalia morfologica</Name>
                             </DisorderType>
@@ -797,7 +790,7 @@
                       <Name lang="it">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="35">
+                  <ClassificationNodeChildList count="36">
                     <ClassificationNode>
                       <Disorder id="44">
                         <OrphaCode>881</OrphaCode>
@@ -1054,7 +1047,7 @@
                       <Disorder id="2300">
                         <OrphaCode>2487</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2487</ExpertLink>
-                        <Name lang="it">Anomalie degli arti inferiori - ipospadia</Name>
+                        <Name lang="it">Sindrome da malformazioni degli arti inferiori e ipospadia</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -1114,7 +1107,7 @@
                       <Disorder id="2964">
                         <OrphaCode>3341</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3341</ExpertLink>
-                        <Name lang="it">Torcicollo - cheloidi - criptorchidismo</Name>
+                        <Name lang="it">Sindrome da torcicollo, cheliodi, criptorchidismo e displasia renale</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -1126,36 +1119,12 @@
                       <Disorder id="3423">
                         <OrphaCode>2745</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2745</ExpertLink>
-                        <Name lang="it">Sindrome di Opitz G/BBB</Name>
+                        <Name lang="it">Sindrome di Opitz GBBB</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="21237">
-                            <OrphaCode>306588</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=306588</ExpertLink>
-                            <Name lang="it">Sindrome di Opitz G/BBB autosomica dominante</Name>
-                            <DisorderType id="21443">
-                              <Name lang="it">Sottotipo eziologico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21238">
-                            <OrphaCode>306597</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=306597</ExpertLink>
-                            <Name lang="it">Sindrome di Opitz G/BBB legata all'X</Name>
-                            <DisorderType id="21443">
-                              <Name lang="it">Sottotipo eziologico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -1175,18 +1144,6 @@
                         <OrphaCode>85173</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85173</ExpertLink>
                         <Name lang="it">Sindrome IMAGe</Name>
-                        <DisorderType id="21401">
-                          <Name lang="it">Sindrome malformativa</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12530">
-                        <OrphaCode>93972</OrphaCode>
-                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93972</ExpertLink>
-                        <Name lang="it">Sindrome di Juberg-Marsidi</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -1330,9 +1287,69 @@
                       <Disorder id="28585">
                         <OrphaCode>567502</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=567502</ExpertLink>
-                        <Name lang="it">B-cell immunodeficiency-limb abnormalities-urogenital malformations syndrome</Name>
+                        <Name lang="it">Sindrome da immunodeficienza dei linfociti B, anomalie degli arti e malformazioni urogenitali</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29866">
+                        <OrphaCode>597749</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=597749</ExpertLink>
+                        <Name lang="it">Sindrome da anomalie congenite multiple correlata a KAT6B</Name>
+                        <DisorderType id="21436">
+                          <Name lang="it">Gruppo di fenomi</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="2739">
+                            <OrphaCode>3047</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3047</ExpertLink>
+                            <Name lang="it">Sindrome blefarofimosi-disabilità intellettiva, tipo SBBYS</Name>
+                            <DisorderType id="21401">
+                              <Name lang="it">Sindrome malformativa</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11659">
+                            <OrphaCode>85201</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85201</ExpertLink>
+                            <Name lang="it">Sindrome genitorotulea</Name>
+                            <DisorderType id="21401">
+                              <Name lang="it">Sindrome malformativa</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29865">
+                            <OrphaCode>597746</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=597746</ExpertLink>
+                            <Name lang="it">Sindrome da blefarofimosi e disabilità intellettiva, sindrome SBBYS sovrapposta alla sindrome genitopatellare</Name>
+                            <DisorderType id="21401">
+                              <Name lang="it">Sindrome malformativa</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29864">
+                        <OrphaCode>597743</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=597743</ExpertLink>
+                        <Name lang="it">Sindrome da microcefalia, grave disabilità intellettiva e anomalie congenite multiple correlata a SETD2</Name>
+                        <DisorderType id="21401">
+                          <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1393,7 +1410,7 @@
                               <Name lang="it">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
                             <ClassificationNode>
                               <Disorder id="8672">
                                 <OrphaCode>786</OrphaCode>
@@ -1473,6 +1490,18 @@
                                 <Name lang="it">Iperplasia congenita del surrene da deficit di citocromo P450 ossidoreduttasi</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10819">
+                                <OrphaCode>63269</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=63269</ExpertLink>
+                                <Name lang="it">Sindrome di Antley-Bixler con anomalia genitale e difetto della steroidogenesi</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="it">Sottotipo clinico</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -1592,7 +1621,7 @@
                           <Disorder id="23475">
                             <OrphaCode>444048</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=444048</ExpertLink>
-                            <Name lang="it">Sindrome disgenesia ovarica-bassa statura</Name>
+                            <Name lang="it">Disgenesia ovarica 46,XX con bassa statura</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1726,7 +1755,7 @@
                       <Disorder id="8708">
                         <OrphaCode>49</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=49</ExpertLink>
-                        <Name lang="it">Agenesia peniena</Name>
+                        <Name lang="it">Agenesia del pene</Name>
                         <DisorderType id="21415">
                           <Name lang="it">Anomalia morfologica</Name>
                         </DisorderType>
@@ -1809,8 +1838,8 @@
                             <OrphaCode>847</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=847</ExpertLink>
                             <Name lang="it">Sindrome alfa talassemia-disabilità cognitiva legata all'X</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
+                            <DisorderType id="21401">
+                              <Name lang="it">Sindrome malformativa</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -2181,7 +2210,7 @@
                                       <Name lang="it">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="5">
+                                  <ClassificationNodeChildList count="6">
                                     <ClassificationNode>
                                       <Disorder id="12094">
                                         <OrphaCode>90790</OrphaCode>
@@ -2266,6 +2295,18 @@
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="10819">
+                                        <OrphaCode>63269</OrphaCode>
+                                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=63269</ExpertLink>
+                                        <Name lang="it">Sindrome di Antley-Bixler con anomalia genitale e difetto della steroidogenesi</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="it">Sottotipo clinico</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -2294,7 +2335,7 @@
                                       <Disorder id="12099">
                                         <OrphaCode>90796</OrphaCode>
                                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90796</ExpertLink>
-                                        <Name lang="it">Disturbo 46,XY dello sviluppo sessuale da deficit isolato di 17,20-liasi</Name>
+                                        <Name lang="it">Disturbo dello sviluppo sessuale da deficit isolato di 17,20-liasi con cariotipo 46,XY</Name>
                                         <DisorderType id="21394">
                                           <Name lang="it">Malattia</Name>
                                         </DisorderType>
@@ -2537,12 +2578,24 @@
                       <Name lang="it">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
+                  <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="25898">
                         <OrphaCode>498228</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=498228</ExpertLink>
                         <Name lang="it">Tumore filloide della prostata</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29876">
+                        <OrphaCode>598216</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=598216</ExpertLink>
+                        <Name lang="it">Carcinoma uroteliale del tratto superiore</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>

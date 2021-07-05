@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:33:18" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:56:01" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="182">
       <OrphaNumber>162647</OrphaNumber>
@@ -51,8 +44,8 @@
                 <OrphaCode>49041</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=49041</ExpertLink>
                 <Name lang="nl">IgG4-gerelateerde retroperitoneale fibrose</Name>
-                <DisorderType id="21394">
-                  <Name lang="nl">Ziekte</Name>
+                <DisorderType id="21450">
+                  <Name lang="nl">Klinisch subtype</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -74,7 +67,7 @@
               <Disorder id="12229">
                 <OrphaCode>93292</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93292</ExpertLink>
-                <Name lang="nl">Adenoom van de pancreas</Name>
+                <Name lang="nl">Adenoom van pancreas</Name>
                 <DisorderType id="21394">
                   <Name lang="nl">Ziekte</Name>
                 </DisorderType>
@@ -308,7 +301,7 @@
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1305</ExpertLink>
-                            <Name lang="nl">Feingoldsyndroom</Name>
+                            <Name lang="nl">Syndroom van Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -318,7 +311,7 @@
                               <Disorder id="22634">
                                 <OrphaCode>391641</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391641</ExpertLink>
-                                <Name lang="nl">Feingoldsyndroom type 1</Name>
+                                <Name lang="nl">Syndroom van Feingold type 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -377,22 +370,22 @@
                       <Name lang="nl">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="1058">
                         <OrphaCode>557</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=557</ExpertLink>
-                        <Name lang="nl">Geïsoleerde anorectale malformatie</Name>
+                        <Name lang="nl">Niet-syndromale anorectale malformatie</Name>
                         <DisorderType id="21436">
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
-                          <Disorder id="17901">
-                            <OrphaCode>171201</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171201</ExpertLink>
-                            <Name lang="nl">Hoge geïsoleerde anorectale malformatie</Name>
+                          <Disorder id="30540">
+                            <OrphaCode>600952</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600952</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met fistel van perineum</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -401,10 +394,46 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="17902">
-                            <OrphaCode>171208</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171208</ExpertLink>
-                            <Name lang="nl">Intermediaire geïsoleerde anorectale malformatie</Name>
+                          <Disorder id="30541">
+                            <OrphaCode>600961</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600961</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met recto-urethrale fistel</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="30542">
+                                <OrphaCode>600966</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600966</ExpertLink>
+                                <Name lang="nl">Niet-syndromale anorectale malformatie met recto-urethrale fistel, bulbair type</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="30543">
+                                <OrphaCode>600975</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600975</ExpertLink>
+                                <Name lang="nl">Niet-syndromale anorectale malformatie met recto-urethrale fistel, prostaat-type</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30544">
+                            <OrphaCode>600984</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600984</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met rectovesicale fistel</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -413,10 +442,106 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="17903">
-                            <OrphaCode>171215</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171215</ExpertLink>
-                            <Name lang="nl">Lage geïsoleerde anorectale malformatie</Name>
+                          <Disorder id="30545">
+                            <OrphaCode>600993</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600993</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met vestibulaire fistel</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30546">
+                            <OrphaCode>600998</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600998</ExpertLink>
+                            <Name lang="nl">Niet-syndromale cloacale malformatie</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30547">
+                            <OrphaCode>601002</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601002</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie zonder fistel</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30548">
+                            <OrphaCode>601008</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601008</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met stenose van anus</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30549">
+                            <OrphaCode>601013</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601013</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met pouch van colon</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30550">
+                            <OrphaCode>601018</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601018</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met atresie van rectum</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30551">
+                            <OrphaCode>601023</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601023</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met stenose van rectum</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30552">
+                            <OrphaCode>601028</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601028</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met rectovaginale fistel</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30553">
+                            <OrphaCode>601033</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=601033</ExpertLink>
+                            <Name lang="nl">Niet-syndromale anorectale malformatie met H-type fistel</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -435,7 +560,7 @@
                           <Name lang="nl">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="46">
+                      <ClassificationNodeChildList count="43">
                         <ClassificationNode>
                           <Disorder id="126">
                             <OrphaCode>567</OrphaCode>
@@ -560,7 +685,7 @@
                           <Disorder id="1469">
                             <OrphaCode>1225</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1225</ExpertLink>
-                            <Name lang="nl">Baller-Geroldsyndroom</Name>
+                            <Name lang="nl">Syndroom van Baller-Gerold</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -620,7 +745,7 @@
                           <Disorder id="2130">
                             <OrphaCode>672</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=672</ExpertLink>
-                            <Name lang="nl">Pallister-Hallsyndroom</Name>
+                            <Name lang="nl">Syndroom van Pallister-Hall</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -644,7 +769,7 @@
                           <Disorder id="2177">
                             <OrphaCode>2322</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2322</ExpertLink>
-                            <Name lang="nl">Kabukisyndroom</Name>
+                            <Name lang="nl">Kabuki-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -692,7 +817,7 @@
                           <Disorder id="2679">
                             <OrphaCode>2973</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2973</ExpertLink>
-                            <Name lang="nl">46,XX geslachtsontwikkelingsstoornis - anorectale anomalieën-syndroom</Name>
+                            <Name lang="nl">46,XX-geslachtsontwikkelingsstoornis - anorectale anomalieën-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -713,66 +838,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2900">
-                            <OrphaCode>3242</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3242</ExpertLink>
-                            <Name lang="nl">Syndroom van Renpenning</Name>
-                            <DisorderType id="21401">
-                              <Name lang="nl">Malformatiesyndroom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="4">
-                            <ClassificationNode>
-                              <Disorder id="12505">
-                                <OrphaCode>93945</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93945</ExpertLink>
-                                <Name lang="nl">X-gebonden intellectuele achterstand, Porteous-type</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12506">
-                                <OrphaCode>93946</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93946</ExpertLink>
-                                <Name lang="nl">Cerebro-palato-cardiaal syndroom van Hamel</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12507">
-                                <OrphaCode>93947</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93947</ExpertLink>
-                                <Name lang="nl">X-gebonden intellectuele achterstand, Golabi-Ito-Hall-type</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="12508">
-                                <OrphaCode>93950</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93950</ExpertLink>
-                                <Name lang="nl">X-gebonden intellectuele achterstand, Sutherland-Haan-type</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="3007">
                             <OrphaCode>3412</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3412</ExpertLink>
@@ -788,43 +853,7 @@
                           <Disorder id="3423">
                             <OrphaCode>2745</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2745</ExpertLink>
-                            <Name lang="nl">Opitz G/BBB-syndroom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="nl">Malformatiesyndroom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="21237">
-                                <OrphaCode>306588</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=306588</ExpertLink>
-                                <Name lang="nl">Autosomaal dominante Opitz G/BBB-syndroom</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="nl">Etiologisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="21238">
-                                <OrphaCode>306597</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=306597</ExpertLink>
-                                <Name lang="nl">X-gebonden Opitz G/BBB-syndroom</Name>
-                                <DisorderType id="21443">
-                                  <Name lang="nl">Etiologisch subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="3485">
-                            <OrphaCode>782</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=782</ExpertLink>
-                            <Name lang="nl">Syndroom van Axenfeld-Rieger</Name>
+                            <Name lang="nl">Opitz GBBB-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -833,10 +862,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="10887">
-                            <OrphaCode>66629</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=66629</ExpertLink>
-                            <Name lang="nl">Goldberg-Shprintzen megacolonsyndroom</Name>
+                          <Disorder id="3485">
+                            <OrphaCode>782</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=782</ExpertLink>
+                            <Name lang="nl">Syndroom van Axenfeld-Rieger</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -920,7 +949,7 @@
                           <Disorder id="12489">
                             <OrphaCode>93929</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93929</ExpertLink>
-                            <Name lang="nl">Cloaca-extrofie</Name>
+                            <Name lang="nl">Exstrofie van cloaca</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -932,19 +961,7 @@
                           <Disorder id="12562">
                             <OrphaCode>94095</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=94095</ExpertLink>
-                            <Name lang="nl">Spondylocostale dysostose - anusatresie - genito-urinaire malformatie-syndroom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="nl">Malformatiesyndroom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12792">
-                            <OrphaCode>96168</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96168</ExpertLink>
-                            <Name lang="nl">Monosomie 13q34</Name>
+                            <Name lang="nl">Spondylocostale dysostose - anusatresie - urogenitale malformatie-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -956,7 +973,7 @@
                           <Disorder id="12800">
                             <OrphaCode>96176</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96176</ExpertLink>
-                            <Name lang="nl">Ringchromosoom 13 syndroom</Name>
+                            <Name lang="nl">Ringchromosoom 13-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -1026,7 +1043,7 @@
                               <Disorder id="946">
                                 <OrphaCode>3027</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3027</ExpertLink>
-                                <Name lang="nl">Caudale regressiesyndroom</Name>
+                                <Name lang="nl">Caudale regressie-sequentie</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -1097,22 +1114,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="12508">
-                            <OrphaCode>93950</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93950</ExpertLink>
-                            <Name lang="nl">X-gebonden intellectuele achterstand, Sutherland-Haan-type</Name>
-                            <DisorderType id="21450">
-                              <Name lang="nl">Klinisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1305</ExpertLink>
-                            <Name lang="nl">Feingoldsyndroom</Name>
+                            <Name lang="nl">Syndroom van Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -1122,7 +1127,7 @@
                               <Disorder id="22634">
                                 <OrphaCode>391641</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391641</ExpertLink>
-                                <Name lang="nl">Feingoldsyndroom type 1</Name>
+                                <Name lang="nl">Syndroom van Feingold type 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -1144,18 +1149,18 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="17904">
-                        <OrphaCode>171220</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171220</ExpertLink>
-                        <Name lang="nl">Rectale duplicatie</Name>
-                        <DisorderType id="21415">
-                          <Name lang="nl">Morfologische anomalie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
+                        <ClassificationNode>
+                          <Disorder id="12213">
+                            <OrphaCode>93270</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93270</ExpertLink>
+                            <Name lang="nl">Korte rib - polydactylie-syndroom, Saldino-Noonan-type</Name>
+                            <DisorderType id="21401">
+                              <Name lang="nl">Malformatiesyndroom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1220,7 +1225,7 @@
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1305</ExpertLink>
-                            <Name lang="nl">Feingoldsyndroom</Name>
+                            <Name lang="nl">Syndroom van Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -1230,7 +1235,7 @@
                               <Disorder id="22634">
                                 <OrphaCode>391641</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391641</ExpertLink>
-                                <Name lang="nl">Feingoldsyndroom type 1</Name>
+                                <Name lang="nl">Syndroom van Feingold type 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -1256,7 +1261,7 @@
                           <Disorder id="3155">
                             <OrphaCode>2538</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2538</ExpertLink>
-                            <Name lang="nl">Microgastrie - ledemaatreductiedefect</Name>
+                            <Name lang="nl">Microgastrie - reductiedefect van ledemaat-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -1277,7 +1282,7 @@
                       <Name lang="nl">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="2">
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="15015">
                         <OrphaCode>108967</OrphaCode>
@@ -1292,7 +1297,7 @@
                           <Disorder id="515">
                             <OrphaCode>2300</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2300</ExpertLink>
-                            <Name lang="nl">Meervoudige intestinale atresie</Name>
+                            <Name lang="nl">Multipele intestinale atresie</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -1446,7 +1451,7 @@
                               <Disorder id="14376">
                                 <OrphaCode>99803</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99803</ExpertLink>
-                                <Name lang="nl">Haddadsyndroom</Name>
+                                <Name lang="nl">Syndroom van Haddad</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -1626,6 +1631,18 @@
                         </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="17904">
+                        <OrphaCode>171220</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171220</ExpertLink>
+                        <Name lang="nl">Rectale duplicatie</Name>
+                        <DisorderType id="21415">
+                          <Name lang="nl">Morfologische anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
@@ -1634,7 +1651,7 @@
               <Disorder id="13059">
                 <OrphaCode>98041</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98041</ExpertLink>
-                <Name lang="nl">Viscerale malformatie van de lever, galweg, pancreas of milt</Name>
+                <Name lang="nl">Viscerale malformatie van lever, galweg, pancreas of milt</Name>
                 <DisorderType id="36561">
                   <Name lang="nl">Category</Name>
                 </DisorderType>
@@ -1678,7 +1695,7 @@
                       <Disorder id="2549">
                         <OrphaCode>675</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=675</ExpertLink>
-                        <Name lang="nl">Ringvormige pancreas</Name>
+                        <Name lang="nl">Annulaire pancreas</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1690,7 +1707,7 @@
                       <Disorder id="8707">
                         <OrphaCode>674</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=674</ExpertLink>
-                        <Name lang="nl">Bijkomstige pancreas</Name>
+                        <Name lang="nl">Accessoire pancreas</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1781,7 +1798,7 @@
                       <Name lang="nl">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="20908">
                         <OrphaCode>294415</OrphaCode>
@@ -1799,6 +1816,18 @@
                         <OrphaCode>293864</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293864</ExpertLink>
                         <Name lang="nl">Hypoplastische pancreas - intestinale atresie - hypoplastische galblaas-syndroom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="nl">Malformatiesyndroom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19476">
+                        <OrphaCode>244283</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=244283</ExpertLink>
+                        <Name lang="nl">Galatresie met miltmalformatiesyndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -1894,7 +1923,7 @@
                       <Disorder id="28138">
                         <OrphaCode>556955</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=556955</ExpertLink>
-                        <Name lang="nl">Agenesie van de pancreas - holoprosencefalie-syndroom</Name>
+                        <Name lang="nl">Agenesie van pancreas - holoprosencefalie-syndroom</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -1942,7 +1971,7 @@
                       <Disorder id="506">
                         <OrphaCode>2140</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2140</ExpertLink>
-                        <Name lang="nl">Congenitale diafragmatische hernia</Name>
+                        <Name lang="nl">Congenitale hernia diaphragmatica</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1954,7 +1983,7 @@
                       <Disorder id="551">
                         <OrphaCode>660</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=660</ExpertLink>
-                        <Name lang="nl">Omfalocèle</Name>
+                        <Name lang="nl">Omfalocele</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1966,7 +1995,7 @@
                       <Disorder id="730">
                         <OrphaCode>322</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=322</ExpertLink>
-                        <Name lang="nl">Extrofie - epispadieën-complex</Name>
+                        <Name lang="nl">Exstrofie - epispadieën-complex</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -1988,7 +2017,7 @@
                           <Disorder id="12489">
                             <OrphaCode>93929</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93929</ExpertLink>
-                            <Name lang="nl">Cloaca-extrofie</Name>
+                            <Name lang="nl">Exstrofie van cloaca</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -2000,7 +2029,7 @@
                           <Disorder id="12490">
                             <OrphaCode>93930</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93930</ExpertLink>
-                            <Name lang="nl">Blaasextrofie</Name>
+                            <Name lang="nl">Exstrofie van blaas</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -2050,7 +2079,7 @@
                       <Disorder id="25843">
                         <OrphaCode>496693</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=496693</ExpertLink>
-                        <Name lang="nl">Omphalocèle - hernia diafragmatica - cardiovasculaire anomalieën - radiale straal defect-syndroom</Name>
+                        <Name lang="nl">Omphalocele - hernia diafragmatica - cardiovasculaire anomalieën - radiale straal defect-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2170,7 +2199,7 @@
                       <Disorder id="2040">
                         <OrphaCode>2141</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2141</ExpertLink>
-                        <Name lang="nl">Diafragmatisch defect - ledemaatdeficiëntie - schedeldefect</Name>
+                        <Name lang="nl">Diafragmadefect - ledemaatdeficiëntie - schedeldefect-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2194,7 +2223,7 @@
                       <Disorder id="2177">
                         <OrphaCode>2322</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2322</ExpertLink>
-                        <Name lang="nl">Kabukisyndroom</Name>
+                        <Name lang="nl">Kabuki-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2230,7 +2259,7 @@
                       <Disorder id="2496">
                         <OrphaCode>2736</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2736</ExpertLink>
-                        <Name lang="nl">Letaal omfalocele - gespleten verhemeltesyndroom</Name>
+                        <Name lang="nl">Letale omfalocele - gespleten verhemelte-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2254,7 +2283,7 @@
                       <Disorder id="2830">
                         <OrphaCode>3164</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3164</ExpertLink>
-                        <Name lang="nl">Omfalocelesyndroom, Shprintzen-Goldberg-type</Name>
+                        <Name lang="nl">Omfalocele-syndroom, Shprintzen-Goldberg-type</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2271,7 +2300,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
                           <Disorder id="1993">
                             <OrphaCode>2078</OrphaCode>
@@ -2476,6 +2505,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="22342">
+                            <OrphaCode>363705</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=363705</ExpertLink>
+                            <Name lang="nl">Cranio-facio-fronto-digitaal syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2506,7 +2547,7 @@
                       <Disorder id="20469">
                         <OrphaCode>280403</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280403</ExpertLink>
-                        <Name lang="nl">Familiale omfalocèlesyndroom met faciale dysmorfie</Name>
+                        <Name lang="nl">Familiale omfalocele-syndroom met faciale dysmorfie</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -2655,8 +2696,8 @@
                 <OrphaCode>238593</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238593</ExpertLink>
                 <Name lang="nl">IgG4-gerelateerde mesenteritis</Name>
-                <DisorderType id="21394">
-                  <Name lang="nl">Ziekte</Name>
+                <DisorderType id="21450">
+                  <Name lang="nl">Klinisch subtype</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -2690,7 +2731,7 @@
               <Disorder id="21452">
                 <OrphaCode>313800</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=313800</ExpertLink>
-                <Name lang="nl">Oogzenuwoedeem - splenomegalie-syndroom</Name>
+                <Name lang="nl">Oedeem van nervus opticus - splenomegalie-syndroom</Name>
                 <DisorderType id="21394">
                   <Name lang="nl">Ziekte</Name>
                 </DisorderType>
@@ -2715,8 +2756,8 @@
                 <OrphaCode>449400</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449400</ExpertLink>
                 <Name lang="nl">IgG4-gerelateerde aortitis</Name>
-                <DisorderType id="21394">
-                  <Name lang="nl">Ziekte</Name>
+                <DisorderType id="21450">
+                  <Name lang="nl">Klinisch subtype</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">

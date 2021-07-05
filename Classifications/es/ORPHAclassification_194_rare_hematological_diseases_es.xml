@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:38:56" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:01:24" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="194">
       <OrphaNumber>162949</OrphaNumber>
@@ -419,7 +412,31 @@
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="29433">
+                                    <OrphaCode>589534</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589534</ExpertLink>
+                                    <Name lang="es">Leucemia aguda de fenotipo mixto con t(9; 22)(q34.1;q11.2)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="es">Subtipo etiológico</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29436">
+                                    <OrphaCode>589595</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589595</ExpertLink>
+                                    <Name lang="es">Leucemia aguda de fenotipo mixto con t(v;11q23.3)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="es">Subtipo etiológico</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -445,7 +462,7 @@
                               <Name lang="es">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="12">
                             <ClassificationNode>
                               <Disorder id="8559">
                                 <OrphaCode>520</OrphaCode>
@@ -571,6 +588,18 @@
                                 <OrphaCode>402026</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=402026</ExpertLink>
                                 <Name lang="es">Leucemia mieloide aguda con mutaciones somáticas en el gen NPM1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="es">Enfermedad</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29204">
+                                <OrphaCode>585867</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585867</ExpertLink>
+                                <Name lang="es">Leucemia mieloide aguda con t(9;22)(q34.1;q11.2)</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -1162,12 +1191,12 @@
                       <Disorder id="17801">
                         <OrphaCode>168943</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=168943</ExpertLink>
-                        <Name lang="es">Neoplasias mieloides/linfoides asociadas a eosinofilia y anomalías en los genes PDGFRA, PDGFRB o FGFR1</Name>
+                        <Name lang="es">Neoplasias mieloides/linfoides asociadas a eosinofilia y anomalías en los genes PDGFRA, PDGFRB, FGFR1 o JAK2</Name>
                         <DisorderType id="36561">
                           <Name lang="es">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="17802">
                             <OrphaCode>168947</OrphaCode>
@@ -1204,6 +1233,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29434">
+                            <OrphaCode>589542</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589542</ExpertLink>
+                            <Name lang="es">Neoplasia mieloide/linfoide asociada a un reordenamiento del gen JAK2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1217,7 +1258,7 @@
                       <Name lang="es">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="3468">
                         <OrphaCode>3261</OrphaCode>
@@ -1641,7 +1682,103 @@
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="1">
+                                    <ClassificationNode>
+                                      <Disorder id="29205">
+                                        <OrphaCode>585877</OrphaCode>
+                                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585877</ExpertLink>
+                                        <Name lang="es">Leucemia/linfoma linfoblástico de células B con anomalías genéticas recurrentes</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="es">Subtipo etiológico</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="7">
+                                        <ClassificationNode>
+                                          <Disorder id="29211">
+                                            <OrphaCode>585909</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585909</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con t(9;22)(q34.1;q11.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29212">
+                                            <OrphaCode>585918</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585918</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con t(v;11q23.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29213">
+                                            <OrphaCode>585929</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585929</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con t(12;21)(p13.2;q22.1)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29214">
+                                            <OrphaCode>585936</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585936</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con hiperdiploidía</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29215">
+                                            <OrphaCode>585942</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585942</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con hipodiploidía</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29216">
+                                            <OrphaCode>585948</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585948</ExpertLink>
+                                            <Name lang="es">Leucemia/linfoma linfoblástico de células B con t(5;14)(q31.1;q32.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29217">
+                                            <OrphaCode>585956</OrphaCode>
+                                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=585956</ExpertLink>
+                                            <Name lang="es">'Leucemia/linfoma linfoblástico B con t(1;19)(q23;p13.3)'</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="es">Subtipo etiológico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -1857,7 +1994,7 @@
                                       <Name lang="es">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="3747">
                                         <OrphaCode>543</OrphaCode>
@@ -1982,7 +2119,7 @@
                                       <Disorder id="10631">
                                         <OrphaCode>48686</OrphaCode>
                                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=48686</ExpertLink>
-                                        <Name lang="es">Linfoma primario de cavidades</Name>
+                                        <Name lang="es">Linfoma primario de efusiones</Name>
                                         <DisorderType id="21394">
                                           <Name lang="es">Enfermedad</Name>
                                         </DisorderType>
@@ -2007,18 +2144,6 @@
                                         <OrphaCode>86852</OrphaCode>
                                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=86852</ExpertLink>
                                         <Name lang="es">Leucemia prolinfocítica de células B</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="es">Enfermedad</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="14433">
-                                        <OrphaCode>99860</OrphaCode>
-                                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99860</ExpertLink>
-                                        <Name lang="es">Leucemia linfoblástica aguda de precursores de células B</Name>
                                         <DisorderType id="21394">
                                           <Name lang="es">Enfermedad</Name>
                                         </DisorderType>
@@ -2290,7 +2415,7 @@
                                               <Disorder id="3400">
                                                 <OrphaCode>2584</OrphaCode>
                                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2584</ExpertLink>
-                                                <Name lang="es">Micosis fungoide</Name>
+                                                <Name lang="es">Micosis fungoide clásica</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="es">Enfermedad</Name>
                                                 </DisorderType>
@@ -2722,7 +2847,7 @@
                                               <Disorder id="3400">
                                                 <OrphaCode>2584</OrphaCode>
                                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2584</ExpertLink>
-                                                <Name lang="es">Micosis fungoide</Name>
+                                                <Name lang="es">Micosis fungoide clásica</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="es">Enfermedad</Name>
                                                 </DisorderType>
@@ -3076,18 +3201,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12466">
-                        <OrphaCode>93685</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93685</ExpertLink>
-                        <Name lang="es">Enfermedad de Castleman unicéntrica</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -3522,7 +3635,7 @@
                               <Disorder id="12423">
                                 <OrphaCode>93585</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93585</ExpertLink>
-                                <Name lang="es">Púrpura trombótica trombocitopénica adquirida</Name>
+                                <Name lang="es">Púrpura trombótica trombocitopénica inmunomediada</Name>
                                 <DisorderType id="21450">
                                   <Name lang="es">Subtipo clínico</Name>
                                 </DisorderType>
@@ -4072,7 +4185,7 @@
                                   <Disorder id="13451">
                                     <OrphaCode>98434</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98434</ExpertLink>
-                                    <Name lang="es">Deficiencia combinada hereditaria de factores de la coagulación vitamina K dependientes</Name>
+                                    <Name lang="es">Deficiencia combinada de factores de la coagulación dependientes de la vitamina K, forma hereditaria</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -4497,7 +4610,7 @@
                                       <Name lang="es">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="18911">
                                         <OrphaCode>220452</OrphaCode>
@@ -4695,18 +4808,6 @@
                                         <OrphaCode>3319</OrphaCode>
                                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3319</ExpertLink>
                                         <Name lang="es">Trombocitopenia amegacariocítica congénita</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="es">Enfermedad</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="22346">
-                                        <OrphaCode>363727</OrphaCode>
-                                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363727</ExpertLink>
-                                        <Name lang="es">Anemia diseritropoyética ligada al cromosoma X con plaquetas anómalas y neutropenia</Name>
                                         <DisorderType id="21394">
                                           <Name lang="es">Enfermedad</Name>
                                         </DisorderType>
@@ -4960,7 +5061,7 @@
                                   <Disorder id="784">
                                     <OrphaCode>3002</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3002</ExpertLink>
-                                    <Name lang="es">Púrpura trombocitopénica inmunitaria</Name>
+                                    <Name lang="es">Trombocitopenia inmune</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -5264,7 +5365,7 @@
                           <Disorder id="19226">
                             <OrphaCode>232288</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=232288</ExpertLink>
-                            <Name lang="es">Enfermedades asociadas a una alfa-talasemia</Name>
+                            <Name lang="es">Síndrome con alfa-talasemia como característica principal</Name>
                             <DisorderType id="36561">
                               <Name lang="es">Category</Name>
                             </DisorderType>
@@ -5275,8 +5376,8 @@
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=847</ExpertLink>
                                 <Name lang="es">Síndrome de alfa talasemia-discapacidad intelectual ligada al cromosoma X</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="es">Síndrome de malformación</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5287,8 +5388,8 @@
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98791</ExpertLink>
                                 <Name lang="es">Síndrome de alfa talasemia-discapacidad intelectual ligado al cromosoma 16</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="es">Síndrome de malformación</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -6354,7 +6455,7 @@
                               <Disorder id="20343">
                                 <OrphaCode>275944</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=275944</ExpertLink>
-                                <Name lang="es">Enfermedad hemolítica del recién nacido con aloinmunización Kell</Name>
+                                <Name lang="es">Enfermedad hemolítica neonatal con aloinmunización Kell</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -6608,9 +6709,9 @@
                           <Disorder id="13438">
                             <OrphaCode>98421</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98421</ExpertLink>
-                            <Name lang="es">Aplasia eritrocitaria</Name>
-                            <DisorderType id="36561">
-                              <Name lang="es">Category</Name>
+                            <Name lang="es">Aplasia eritrocitaria primaria adquirida</Name>
+                            <DisorderType id="21436">
+                              <Name lang="es">Grupo de fenomas</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -6630,7 +6731,7 @@
                               <Disorder id="13889">
                                 <OrphaCode>98872</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98872</ExpertLink>
-                                <Name lang="es">Aplasia pura de glóbulos rojos del adulto</Name>
+                                <Name lang="es">Aplasia pura de glóbulos rojos primaria adquirida</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>

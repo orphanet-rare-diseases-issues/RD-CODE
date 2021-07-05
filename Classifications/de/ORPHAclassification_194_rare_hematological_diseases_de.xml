@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:38:46" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:52:25" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="194">
       <OrphaNumber>162949</OrphaNumber>
@@ -92,7 +85,7 @@
                           <Disorder id="13866">
                             <OrphaCode>98849</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98849</ExpertLink>
-                            <Name lang="de">Mastozytose, systemische, assoziiert mit klonaler hämatologischer nicht-Mastzellen-Krankheit</Name>
+                            <Name lang="de">Mastozytose, systemische, mit assoziierter hämatologischer Neoplasie</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -104,7 +97,7 @@
                           <Disorder id="13867">
                             <OrphaCode>98850</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98850</ExpertLink>
-                            <Name lang="de">Mastozytose, systemische, agressive Form</Name>
+                            <Name lang="de">Mastzell-Leukämie, agressive</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -126,7 +119,7 @@
                               <Disorder id="28495">
                                 <OrphaCode>566393</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566393</ExpertLink>
-                                <Name lang="de">Acute mast cell leukemia</Name>
+                                <Name lang="de">Mastzell-Leukämie, akute</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -138,7 +131,7 @@
                               <Disorder id="28496">
                                 <OrphaCode>566396</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566396</ExpertLink>
-                                <Name lang="de">Chronic mast cell leukemia</Name>
+                                <Name lang="de">Mastzell-Leukämie, chronische</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -246,7 +239,7 @@
                               <Disorder id="12033">
                                 <OrphaCode>90389</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90389</ExpertLink>
-                                <Name lang="de">Telangiectasia macularis eruptiva perstans</Name>
+                                <Name lang="de">Teleangiectasia macularis eruptiva perstans</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -419,7 +412,31 @@
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="29433">
+                                    <OrphaCode>589534</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589534</ExpertLink>
+                                    <Name lang="de">Akute Leukämie mit gemischtem Phänotyp mit t(9;22)(q34.1;q11.2)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="de">Ätiologischer Subtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29436">
+                                    <OrphaCode>589595</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589595</ExpertLink>
+                                    <Name lang="de">Akute Leukämie mit gemischtem Phänotyp mit t(v;11q23.3)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="de">Ätiologischer Subtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -445,7 +462,7 @@
                               <Name lang="de">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="12">
                             <ClassificationNode>
                               <Disorder id="8559">
                                 <OrphaCode>520</OrphaCode>
@@ -571,6 +588,18 @@
                                 <OrphaCode>402026</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=402026</ExpertLink>
                                 <Name lang="de">Akute myeloische Leukämie mit somatischen NPM1-Genmutationen</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29204">
+                                <OrphaCode>585867</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585867</ExpertLink>
+                                <Name lang="de">Akute myeloblastische Leukämie mit t(9;22)(q34.1;q11.2)</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -1162,12 +1191,12 @@
                       <Disorder id="17801">
                         <OrphaCode>168943</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168943</ExpertLink>
-                        <Name lang="de">Myeloische/lymphatische Neoplasie mit assoziierter Eosinophilie und Veränderungen von PDGFRA, PDGFRB oder FGRF1</Name>
+                        <Name lang="de">Myeloische/lymphatische Neoplasie mit assoziierter Eosinophilie und Veränderungen von PDGFRA, PDGFRB oder JAK2</Name>
                         <DisorderType id="36561">
                           <Name lang="de">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="17802">
                             <OrphaCode>168947</OrphaCode>
@@ -1204,6 +1233,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29434">
+                            <OrphaCode>589542</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589542</ExpertLink>
+                            <Name lang="de">Myeloische/lymphatische Neoplasie mit assoziierten JAK2-Rearrangement</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1217,7 +1258,7 @@
                       <Name lang="de">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="3468">
                         <OrphaCode>3261</OrphaCode>
@@ -1641,7 +1682,103 @@
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="1">
+                                    <ClassificationNode>
+                                      <Disorder id="29205">
+                                        <OrphaCode>585877</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585877</ExpertLink>
+                                        <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit rekurrenter genetischer Anomalie</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="de">Ätiologischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="7">
+                                        <ClassificationNode>
+                                          <Disorder id="29211">
+                                            <OrphaCode>585909</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585909</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(9;22)(q34.1;q11.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29212">
+                                            <OrphaCode>585918</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585918</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(v;11q23.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29213">
+                                            <OrphaCode>585929</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585929</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(12;21)(p13.2;q22.1)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29214">
+                                            <OrphaCode>585936</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585936</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit Hyperdiploidie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29215">
+                                            <OrphaCode>585942</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585942</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit Hypodiploidie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29216">
+                                            <OrphaCode>585948</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585948</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(5;14)(q31.1;q32.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29217">
+                                            <OrphaCode>585956</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=585956</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(1;19)(q23;p13.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -1857,7 +1994,7 @@
                                       <Name lang="de">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="3747">
                                         <OrphaCode>543</OrphaCode>
@@ -2007,18 +2144,6 @@
                                         <OrphaCode>86852</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86852</ExpertLink>
                                         <Name lang="de">B-Zell-Prolymphozytenleukämie</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="14433">
-                                        <OrphaCode>99860</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99860</ExpertLink>
-                                        <Name lang="de">Lymphoblastische B-Vorläuferzell-Leukämie, akute</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -3044,7 +3169,7 @@
                           <Disorder id="12466">
                             <OrphaCode>93685</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93685</ExpertLink>
-                            <Name lang="de">Castleman-Krankheit, lokalisierte</Name>
+                            <Name lang="de">Castleman-Krankheit, unizentrische</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -3056,7 +3181,7 @@
                           <Disorder id="28675">
                             <OrphaCode>570438</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570438</ExpertLink>
-                            <Name lang="de">HHV-8-associated multicentric Castleman disease</Name>
+                            <Name lang="de">Castleman-Krankheit, multizentrische, HHV-8-assoziierte</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -3068,7 +3193,7 @@
                           <Disorder id="28674">
                             <OrphaCode>570431</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570431</ExpertLink>
-                            <Name lang="de">Multicentric idiopathic Castleman disease</Name>
+                            <Name lang="de">Castleman-Krankheit, multizentrische, idiopathische</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -3076,18 +3201,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12466">
-                        <OrphaCode>93685</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93685</ExpertLink>
-                        <Name lang="de">Castleman-Krankheit, lokalisierte</Name>
-                        <DisorderType id="21450">
-                          <Name lang="de">Klinischer Subtyp</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -3522,7 +3635,7 @@
                               <Disorder id="12423">
                                 <OrphaCode>93585</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93585</ExpertLink>
-                                <Name lang="de">Thrombotisch-thrombozytopenische Purpura, erworbene Form</Name>
+                                <Name lang="de">Thrombotisch-thrombozytopenische Purpura, immun-vermittelte</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -3978,7 +4091,7 @@
                               <Disorder id="8691">
                                 <OrphaCode>465</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=465</ExpertLink>
-                                <Name lang="de">Plasminogen-Aktivator-Inhibitor-1-Mangel, kongenitaler</Name>
+                                <Name lang="de">Plasminogenaktivator-Inhibitor Typ 1-Mangel, kongenitaler</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -4014,7 +4127,7 @@
                               <Disorder id="10405">
                                 <OrphaCode>35909</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35909</ExpertLink>
-                                <Name lang="de">Faktor V und Faktor VIII, kombinierter Mangel</Name>
+                                <Name lang="de">Kombinierter Mangel an Faktor V und Faktor VIII</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -4098,7 +4211,7 @@
                               <Disorder id="22604">
                                 <OrphaCode>391320</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=391320</ExpertLink>
-                                <Name lang="de">Bluterkrankeit vom Ost-Texanischen Typ</Name>
+                                <Name lang="de">Gerinnungsstörung vom Ost-Texanischen Typ</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -4238,7 +4351,7 @@
                                       <Disorder id="595">
                                         <OrphaCode>3320</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3320</ExpertLink>
-                                        <Name lang="de">Thrombozytopenie - Radiusaplasie</Name>
+                                        <Name lang="de">Thrombozytopenie-Radiusaplasie-Syndrom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                                         </DisorderType>
@@ -4497,7 +4610,7 @@
                                       <Name lang="de">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="18911">
                                         <OrphaCode>220452</OrphaCode>
@@ -4694,19 +4807,7 @@
                                       <Disorder id="3053">
                                         <OrphaCode>3319</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3319</ExpertLink>
-                                        <Name lang="de">Thrombozytopenie, amegakaryozytische, kongenitale</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="22346">
-                                        <OrphaCode>363727</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=363727</ExpertLink>
-                                        <Name lang="de">X-chromosomale dyserythropoetische Anämie mit abnormen Blutplättchen und Neutropenie</Name>
+                                        <Name lang="de">Angeborenen amegakaryozytäre Thrombozytopenie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -4754,7 +4855,7 @@
                                       <Disorder id="28487">
                                         <OrphaCode>566192</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566192</ExpertLink>
-                                        <Name lang="de">Congenital autosmal recessive small-platelet thrombocytopenia</Name>
+                                        <Name lang="de">Kongenitale autosmale-rezessive Thrombozytopenie der kleinen Blutplättchen</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -4840,7 +4941,7 @@
                                   <Disorder id="11047">
                                     <OrphaCode>73271</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=73271</ExpertLink>
-                                    <Name lang="de">Hämorrhagische Diathese  durch Kollagen-Rezeptor-Mangel</Name>
+                                    <Name lang="de">Hämorrhagische Diathese durch Kollagen-Rezeptor-Mangel</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -4960,7 +5061,7 @@
                                   <Disorder id="784">
                                     <OrphaCode>3002</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3002</ExpertLink>
-                                    <Name lang="de">Purpura, immune thrombozytopenische</Name>
+                                    <Name lang="de">Immunthrombozytopenie, immune</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -5264,7 +5365,7 @@
                           <Disorder id="19226">
                             <OrphaCode>232288</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=232288</ExpertLink>
-                            <Name lang="de">Alpha-Thalassämie-verwandte Krankheiten</Name>
+                            <Name lang="de">Syndrome mit Alpha-Thalassämie als Hauptmerkmal</Name>
                             <DisorderType id="36561">
                               <Name lang="de">Category</Name>
                             </DisorderType>
@@ -5275,8 +5376,8 @@
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=847</ExpertLink>
                                 <Name lang="de">Alpha-Thalassämie-X-chromosomale Intelligenzminderung-Syndrom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="de">Fehlbildungs-Syndrom</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5287,8 +5388,8 @@
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98791</ExpertLink>
                                 <Name lang="de">Alpha-Thalassämie-Intelligenzminderung-Syndrom, gekoppelt an Chr. 16</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="de">Fehlbildungs-Syndrom</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5454,7 +5555,7 @@
                               <Disorder id="19182">
                                 <OrphaCode>231393</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=231393</ExpertLink>
-                                <Name lang="de">Beta-Thalassämie - X-chromosomale Thrombozytopenie</Name>
+                                <Name lang="de">Beta-Thalassämie-X-chromosomale Thrombozytopenie-Syndrom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5514,7 +5615,7 @@
                               <Disorder id="19635">
                                 <OrphaCode>251365</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251365</ExpertLink>
-                                <Name lang="de">Sichelzellkrankheit  - Hämoglobin-C-Krankheit</Name>
+                                <Name lang="de">Sichelzellkrankheit mit Hämoglobin-C-Krankheit</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5550,7 +5651,7 @@
                               <Disorder id="19638">
                                 <OrphaCode>251380</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251380</ExpertLink>
-                                <Name lang="de">Hereditäre Persistenz des fetalen Hämoglobins  - Sichelzellkrankheit</Name>
+                                <Name lang="de">Hereditäre Persistenz des fetalen Hämoglobins mit Sichelzellkrankheit</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5648,7 +5749,7 @@
                           <Disorder id="413">
                             <OrphaCode>1046</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1046</ExpertLink>
-                            <Name lang="de">Anämie, hämolytische letale - Genitalfehlbildungen</Name>
+                            <Name lang="de">Letale hämolytischeAnämie-Genitalfehlbildungen-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -5672,7 +5773,7 @@
                           <Disorder id="11738">
                             <OrphaCode>86818</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86818</ExpertLink>
-                            <Name lang="de">Alport-Syndrom - geistige Retardierung - Mittelgesichtshypoplasie - Elliptozytose</Name>
+                            <Name lang="de">Alport-Syndrom-Intelligenzminderung-Mittelgesichtshypoplasie-Elliptozytose-Syndrom</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -6162,7 +6263,7 @@
                               <Disorder id="12421">
                                 <OrphaCode>93581</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93581</ExpertLink>
-                                <Name lang="de">Atypisches hämolytisch-urämische Syndrom mit anti-Faktor H-</Name>
+                                <Name lang="de">Atypisches hämolytisch-urämische Syndrom mit anti-Faktor H-Antikörpern</Name>
                                 <DisorderType id="21443">
                                   <Name lang="de">Ätiologischer Subtyp</Name>
                                 </DisorderType>
@@ -6200,7 +6301,7 @@
                           <Disorder id="22195">
                             <OrphaCode>357008</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=357008</ExpertLink>
-                            <Name lang="de">Hämolytisch-urämisches Syndrom, atypische From mit DGKE-Mangel</Name>
+                            <Name lang="de">Hämolytisch-urämisches Syndrom mit DGKE-Mangel</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -6378,7 +6479,7 @@
                               <Disorder id="11935">
                                 <OrphaCode>90038</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90038</ExpertLink>
-                                <Name lang="de">Hämolytisch-urämisches Syndrom, typisches</Name>
+                                <Name lang="de">Shiga-ähnliches Toxin-assoziiertes Hämolytisch-urämisches Syndrom</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -6500,7 +6601,7 @@
                           <Disorder id="3053">
                             <OrphaCode>3319</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3319</ExpertLink>
-                            <Name lang="de">Thrombozytopenie, amegakaryozytische, kongenitale</Name>
+                            <Name lang="de">Angeborenen amegakaryozytäre Thrombozytopenie</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -6608,9 +6709,9 @@
                           <Disorder id="13438">
                             <OrphaCode>98421</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98421</ExpertLink>
-                            <Name lang="de">Aplasie der roten Blutkörperchen</Name>
-                            <DisorderType id="36561">
-                              <Name lang="de">Category</Name>
+                            <Name lang="de">Primäre erworbene Aplasie der roten Blutkörperchen</Name>
+                            <DisorderType id="21436">
+                              <Name lang="de">Phenom-Gruppe</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -6630,7 +6731,7 @@
                               <Disorder id="13889">
                                 <OrphaCode>98872</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98872</ExpertLink>
-                                <Name lang="de">PRCA, adulte</Name>
+                                <Name lang="de">Primäre erworbene reine Aplasie der roten Blutkörperchen</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -7202,7 +7303,7 @@
               <Disorder id="28676">
                 <OrphaCode>570470</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570470</ExpertLink>
-                <Name lang="de">Ricin poisoning</Name>
+                <Name lang="de">Rizin-Vergiftung</Name>
                 <DisorderType id="21394">
                   <Name lang="de">Krankheit</Name>
                 </DisorderType>

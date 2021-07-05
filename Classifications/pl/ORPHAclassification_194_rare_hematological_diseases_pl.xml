@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2020-06-29 19:38:51" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:43:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="194">
       <OrphaNumber>162949</OrphaNumber>
-      <Name lang="en">Orphanet classification of rare hematological diseases</Name>
+      <Name lang="pl">Klasyfikacja Orphanetu rzadkich chorób hematologicznych</Name>
       <ClassificationNodeRootList count="1">
         <ClassificationNode>
           <Disorder id="13010">
@@ -18,7 +11,7 @@
             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97992</ExpertLink>
             <Name lang="pl">Rzadkie choroby hematologiczne</Name>
             <DisorderType id="36561">
-              <Name lang="en">Category</Name>
+              <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="9">
@@ -28,7 +21,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68347</ExpertLink>
                 <Name lang="pl">Nowotwory z tkanki hematopoetycznej i limfatycznej</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="6">
@@ -62,7 +55,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98292</ExpertLink>
                     <Name lang="pl">Mastocytoza</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="4">
@@ -326,7 +319,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171895</ExpertLink>
                     <Name lang="pl">Hemopatia szpiku</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
@@ -358,7 +351,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=86846</ExpertLink>
                             <Name lang="pl">Polekowa ostra białaczka szpikowa i zespół mielodysplastyczny</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -406,7 +399,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=86851</ExpertLink>
                             <Name lang="pl">Ostra białaczka z niezidentyfikowanej linii</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -414,12 +407,36 @@
                               <Disorder id="27686">
                                 <OrphaCode>530995</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=530995</ExpertLink>
-                                <Name lang="en">Mixed phenotype acute leukemia</Name>
+                                <Name lang="pl">Ostra białaczka o mieszanym fenotypie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="29433">
+                                    <OrphaCode>589534</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589534</ExpertLink>
+                                    <Name lang="en">Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="pl">Podtyp etiologiczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29436">
+                                    <OrphaCode>589595</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589595</ExpertLink>
+                                    <Name lang="en">Mixed phenotype acute leukemia with t(v;11q23.3)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="pl">Podtyp etiologiczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -442,10 +459,10 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98277</ExpertLink>
                             <Name lang="pl">Ostra białaczka szpikowa z powracającą wadą genetyczną</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="12">
                             <ClassificationNode>
                               <Disorder id="8559">
                                 <OrphaCode>520</OrphaCode>
@@ -578,6 +595,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29204">
+                                <OrphaCode>585867</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585867</ExpertLink>
+                                <Name lang="en">Acute myeloid leukemia with t(9;22)(q34.1;q11.2)</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -586,7 +615,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=167714</ExpertLink>
                             <Name lang="pl">Niesklasyfikowana ostra białaczka szpikowa</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="10">
@@ -896,7 +925,7 @@
                           <Disorder id="25813">
                             <OrphaCode>495930</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=495930</ExpertLink>
-                            <Name lang="en">Familial monosomy 7 syndrome</Name>
+                            <Name lang="pl">Zespół rodzinnej mosomii 7</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -920,7 +949,7 @@
                           <Disorder id="25397">
                             <OrphaCode>488280</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488280</ExpertLink>
-                            <Name lang="en">14q32 duplication syndrome</Name>
+                            <Name lang="pl">Zespół duplikacji 14q32</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -1164,10 +1193,10 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=168943</ExpertLink>
                         <Name lang="pl">Nowotwory szpiku związane z eozynofilią i nieprawidłowościami PDGFRA, PDGFRB lub FGFR1</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="17802">
                             <OrphaCode>168947</OrphaCode>
@@ -1204,6 +1233,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29434">
+                            <OrphaCode>589542</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589542</ExpertLink>
+                            <Name lang="pl">Nowotwór szpikowy/limfoidalny związany z rearanżacją JAK2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1214,10 +1255,10 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171898</ExpertLink>
                     <Name lang="pl">Hemopatia limfoidalna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="3468">
                         <OrphaCode>3261</OrphaCode>
@@ -1236,7 +1277,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98282</ExpertLink>
                         <Name lang="pl">Guz z komórek plazmatycznych</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="7">
@@ -1452,7 +1493,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98287</ExpertLink>
                         <Name lang="pl">Guz z komórek histiocytarnych i dendrytycznych</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -1462,7 +1503,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98288</ExpertLink>
                             <Name lang="pl">Guz z komórek histiocytarnych</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
@@ -1486,7 +1527,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98289</ExpertLink>
                             <Name lang="pl">Guz z komórek dendrytycznych</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -1560,7 +1601,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98290</ExpertLink>
                         <Name lang="pl">Niedobór odporności towarzyszący chorobie limfoproliferacyjnej</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
@@ -1594,7 +1635,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98291</ExpertLink>
                             <Name lang="pl">Choroba limfoproliferacyjna z towarzyszącym pierwotnym  niedoborem odporności</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1608,7 +1649,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=223735</ExpertLink>
                         <Name lang="pl">Chłoniak</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -1618,7 +1659,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=547</ExpertLink>
                             <Name lang="pl">Chłoniak nieziarniczy</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -1641,7 +1682,103 @@
                                       <Name lang="pl">Choroba</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="1">
+                                    <ClassificationNode>
+                                      <Disorder id="29205">
+                                        <OrphaCode>585877</OrphaCode>
+                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585877</ExpertLink>
+                                        <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z powtarzalnymi zmianami genetycznymi</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="pl">Podtyp etiologiczny</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="7">
+                                        <ClassificationNode>
+                                          <Disorder id="29211">
+                                            <OrphaCode>585909</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585909</ExpertLink>
+                                            <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29212">
+                                            <OrphaCode>585918</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585918</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(v;11q23.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29213">
+                                            <OrphaCode>585929</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585929</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(12;21)(p13.2;q22.1) </Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29214">
+                                            <OrphaCode>585936</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585936</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z hiperdiploidią</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29215">
+                                            <OrphaCode>585942</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585942</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z hipodiploidią</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29216">
+                                            <OrphaCode>585948</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585948</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(5;14)(q31.1;q32.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29217">
+                                            <OrphaCode>585956</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585956</ExpertLink>
+                                            <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(1;19)(q23;p13.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="pl">Podtyp etiologiczny</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -1664,7 +1801,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171915</ExpertLink>
                                 <Name lang="pl">Chłoniak nieziarniczy B-komórkowy</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -1674,7 +1811,7 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300842</ExpertLink>
                                     <Name lang="pl">Przewlekły chłoniak nieziarniczy B-komórkowy</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="8">
@@ -1854,10 +1991,10 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=300846</ExpertLink>
                                     <Name lang="pl">Agresywny chłoniak nieziarniczy B-komórkowy</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="3747">
                                         <OrphaCode>543</OrphaCode>
@@ -2015,18 +2152,6 @@
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
-                                      <Disorder id="14433">
-                                        <OrphaCode>99860</OrphaCode>
-                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99860</ExpertLink>
-                                        <Name lang="pl">Ostra białaczka limfoblastyczna z prekursorowych komórek B</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="pl">Choroba</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
                                       <Disorder id="18050">
                                         <OrphaCode>178554</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178554</ExpertLink>
@@ -2084,7 +2209,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171918</ExpertLink>
                                 <Name lang="pl">Chłoniak nieziarniczy T-komórkowy</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="11">
@@ -2202,7 +2327,7 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171901</ExpertLink>
                                     <Name lang="pl">Pierwotny chłoniak skóry T-komórkowy</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
@@ -2602,7 +2727,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=279911</ExpertLink>
                             <Name lang="pl">Pierwotny chłoniak specyficzny narządowo</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
@@ -2624,7 +2749,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=542</ExpertLink>
                                 <Name lang="pl">Pierwotny chłoniak skóry</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -2634,7 +2759,7 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171901</ExpertLink>
                                     <Name lang="pl">Pierwotny chłoniak skóry T-komórkowy</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
@@ -2862,7 +2987,7 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178563</ExpertLink>
                                     <Name lang="pl">Pierwotny chłoniak skóry B-komórkowy</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
@@ -3056,7 +3181,7 @@
                           <Disorder id="28675">
                             <OrphaCode>570438</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=570438</ExpertLink>
-                            <Name lang="en">HHV-8-associated multicentric Castleman disease</Name>
+                            <Name lang="pl">Choroba Castelmana multicentryczna związana z HHV-8</Name>
                             <DisorderType id="21450">
                               <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
@@ -3068,7 +3193,7 @@
                           <Disorder id="28674">
                             <OrphaCode>570431</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=570431</ExpertLink>
-                            <Name lang="en">Idiopathic multicentric Castleman disease</Name>
+                            <Name lang="pl">Idiopatyczna choroba Castelmana multicentryczna</Name>
                             <DisorderType id="21450">
                               <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
@@ -3078,25 +3203,13 @@
                         </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12466">
-                        <OrphaCode>93685</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93685</ExpertLink>
-                        <Name lang="pl">Zlokalizowana choroba Castlemana</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="27593">
                     <OrphaCode>529468</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=529468</ExpertLink>
-                    <Name lang="en">Monoclonal mast cell activation syndrome</Name>
+                    <Name lang="pl">Zespół monoklonalnej aktywacji mastocytów</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -3170,7 +3283,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98428</ExpertLink>
                     <Name lang="pl">Policytemia wtórna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -3180,7 +3293,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238536</ExpertLink>
                         <Name lang="pl">Wrodzona wtórna policytemia</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
@@ -3228,7 +3341,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238547</ExpertLink>
                         <Name lang="pl">Nabyta wtórna policytemia</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="1">
@@ -3268,7 +3381,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98429</ExpertLink>
                 <Name lang="pl">Rzadkie zaburzenia koagulacji</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
@@ -3278,7 +3391,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182054</ExpertLink>
                     <Name lang="pl">Rzadka choroba zakrzepowa pochodzenia hematologicznego</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -3288,7 +3401,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248358</ExpertLink>
                         <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu defektu czynników krzepnięcia</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -3298,7 +3411,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248361</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu defektu czynników krzepnięcia</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
@@ -3406,7 +3519,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248365</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu nabytego defektu czynników krzepnięcia</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="6">
@@ -3492,7 +3605,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248368</ExpertLink>
                         <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu anomalii płytek krwi</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
@@ -3538,7 +3651,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248401</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu konstytucjonalnej anomalii płytek krwi</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -3574,7 +3687,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248404</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenie krzepnięcia z powodu nabytej anomalii płytek krwi</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
@@ -3602,7 +3715,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248308</ExpertLink>
                     <Name lang="pl">Rzadka skaza krwotoczna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -3612,7 +3725,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248315</ExpertLink>
                         <Name lang="pl">Rzadka skaza krwotoczna z powodu defektu czynnika krzepnięcia</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -3622,7 +3735,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68334</ExpertLink>
                             <Name lang="pl">Rzadkie skazy krwotoczne spowodowane defektami czynników krzepnięcia</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="16">
@@ -4014,7 +4127,7 @@
                               <Disorder id="10405">
                                 <OrphaCode>35909</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=35909</ExpertLink>
-                                <Name lang="pl">Złożony Niedobór czynnika V i czynnika VIII</Name>
+                                <Name lang="pl">Złożony niedobór czynnika V i czynnika VII</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -4028,7 +4141,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=169826</ExpertLink>
                                 <Name lang="pl">Wrodzony Niedobór czynników krzepnięcia zależny od witaminy K</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="4">
@@ -4072,7 +4185,7 @@
                                   <Disorder id="13451">
                                     <OrphaCode>98434</OrphaCode>
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98434</ExpertLink>
-                                    <Name lang="pl">Dziedziczny złożony Niedobór czynników krzepnięcia zależnych od witaminy K</Name>
+                                    <Name lang="pl">Dziedziczny złożony niedobór czynników krzepnięcia zależnych od witaminy K</Name>
                                     <DisorderType id="21394">
                                       <Name lang="pl">Choroba</Name>
                                     </DisorderType>
@@ -4126,7 +4239,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166775</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenia krzepnięcia z powodu nabytego defektu czynnika krzepnięcia</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -4176,7 +4289,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248326</ExpertLink>
                         <Name lang="pl">Rzadka skaza krwotoczna z powodu anomalii płytek krwi</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -4186,7 +4299,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=71202</ExpertLink>
                             <Name lang="pl">Rzadkie zaburzenia krzepnięcia spowodowane anomaliami płytek</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -4196,7 +4309,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275729</ExpertLink>
                                 <Name lang="pl">Rzadkie zaburzenia krzepnięcia spowodowan konstytucjonalną małopłytkowością</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -4206,7 +4319,7 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=477794</ExpertLink>
                                     <Name lang="pl">Syndromiczna małopłytkowość konstytucyjna</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="13">
@@ -4324,7 +4437,7 @@
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98456</ExpertLink>
                                         <Name lang="pl">Choroba ziarnistości gęstych</Name>
                                         <DisorderType id="36561">
-                                          <Name lang="en">Category</Name>
+                                          <Name lang="pl">Kategoria</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="4">
@@ -4454,7 +4567,7 @@
                                       <Disorder id="25364">
                                         <OrphaCode>487796</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=487796</ExpertLink>
-                                        <Name lang="en">Macrothrombocytopenia-lymphedema-developmental delay-facial dysmorphism-camptodactyly syndrome</Name>
+                                        <Name lang="pl">Zespół makrotrombocytopenii, obrzęku limfatycznego, opóźnienia rozwoju, dysmorfii twarzy I przykurczów palców</Name>
                                         <DisorderType id="21401">
                                           <Name lang="pl">Zespół wad wrodzonych</Name>
                                         </DisorderType>
@@ -4466,7 +4579,7 @@
                                       <Disorder id="25676">
                                         <OrphaCode>494444</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=494444</ExpertLink>
-                                        <Name lang="en">DIAPH1-related sensorineural hearing loss-thrombocytopenia syndrome</Name>
+                                        <Name lang="pl">Zespół niedosłuchu czuciowo-nerwowego i małopłytkowości związany z DIAPH1</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pl">Choroba</Name>
                                         </DisorderType>
@@ -4494,17 +4607,17 @@
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=477797</ExpertLink>
                                     <Name lang="pl">Izolowana małopłytkowość konstytucyjna</Name>
                                     <DisorderType id="36561">
-                                      <Name lang="en">Category</Name>
+                                      <Name lang="pl">Kategoria</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="18911">
                                         <OrphaCode>220452</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220452</ExpertLink>
                                         <Name lang="pl">Izolowane dziedziczne zaburzenie z obecnością płytek olbrzymich</Name>
                                         <DisorderType id="36561">
-                                          <Name lang="en">Category</Name>
+                                          <Name lang="pl">Kategoria</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="6">
@@ -4562,7 +4675,7 @@
                                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98455</ExpertLink>
                                             <Name lang="pl">Choroba ziarnistości alfa</Name>
                                             <DisorderType id="36561">
-                                              <Name lang="en">Category</Name>
+                                              <Name lang="pl">Kategoria</Name>
                                             </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="5">
@@ -4703,18 +4816,6 @@
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
-                                      <Disorder id="22346">
-                                        <OrphaCode>363727</OrphaCode>
-                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363727</ExpertLink>
-                                        <Name lang="pl">Niedokrwistość dyserytropoetyczna sprzężona z chromosomem X z nieprawidłowymi płytkami i neutropenią</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="pl">Choroba</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
                                       <Disorder id="18909">
                                         <OrphaCode>220443</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220443</ExpertLink>
@@ -4754,7 +4855,7 @@
                                       <Disorder id="28487">
                                         <OrphaCode>566192</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=566192</ExpertLink>
-                                        <Name lang="en">Congenital autosomal recessive small-platelet thrombocytopenia</Name>
+                                        <Name lang="pl">Wrodzona płytkowa trombocytopenia autosomalna recesywna</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pl">Choroba</Name>
                                         </DisorderType>
@@ -4772,7 +4873,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275736</ExpertLink>
                                 <Name lang="pl">Rzadkie zaburzenia krzepnięcia spowodowane jakościową wadą płytek</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="7">
@@ -4894,7 +4995,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248347</ExpertLink>
                             <Name lang="pl">Rzadka skaza krwotoczna z powodu nabytej anomalii płytek krwi</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="6">
@@ -5020,7 +5121,7 @@
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=108997</ExpertLink>
                 <Name lang="pl">Rzadka niedokrwistość</Name>
                 <DisorderType id="36561">
-                  <Name lang="en">Category</Name>
+                  <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="6">
@@ -5030,7 +5131,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1047</ExpertLink>
                     <Name lang="pl">Niedokrwistość syderoblastyczna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -5052,7 +5153,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98362</ExpertLink>
                         <Name lang="pl">Niedokrwistość sideroblastyczna konstytucjonalna</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="9">
@@ -5174,7 +5275,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68364</ExpertLink>
                     <Name lang="pl">Hemoglobinopatia</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="11">
@@ -5220,7 +5321,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275745</ExpertLink>
                         <Name lang="pl">Alfa-talasemia i choroby powiązane</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -5266,7 +5367,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=232288</ExpertLink>
                             <Name lang="pl">Choroby towarzyszące alfa-talasemii</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -5275,8 +5376,8 @@
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=847</ExpertLink>
                                 <Name lang="pl">Zespół alfa talasemia - niepełnosprawność intelektualna sprzężona z chromosomem X</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="pl">Zespół wad wrodzonych</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5287,8 +5388,8 @@
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98791</ExpertLink>
                                 <Name lang="pl">Zespół alfa-talasemii i niepełnosprawności intelektualnej sprzężony z chromosomem 16</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="pl">Zespół wad wrodzonych</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5316,7 +5417,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275749</ExpertLink>
                         <Name lang="pl">Beta-talasemia i choroby powiązane</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
@@ -5374,7 +5475,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=231230</ExpertLink>
                             <Name lang="pl">Beta-talasemia z towarzyszącą inną anomalią hemoglobiny</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -5446,7 +5547,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=231386</ExpertLink>
                             <Name lang="pl">Beta-talasemia z innymi objawami</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
@@ -5472,7 +5573,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275752</ExpertLink>
                         <Name lang="pl">Niedokrwistość sierpowata i choroby powiązane</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -5494,7 +5595,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251355</ExpertLink>
                             <Name lang="pl">Niedokrwistość sierpowata związana z inną anomalią hemoglobiny</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -5630,7 +5731,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98363</ExpertLink>
                     <Name lang="pl">Rzadka niedokrwistość hemolityczna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -5640,7 +5741,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182043</ExpertLink>
                         <Name lang="pl">Rzadka konstytucjonalna niedokrwistość hemolityczna</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="8">
@@ -5686,7 +5787,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98364</ExpertLink>
                             <Name lang="pl">Rzadka niedokrwistość hemolityczna konstytucjonalna z powodu anomalii błony komórkowej czerwonych krwinek</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="6">
@@ -5828,7 +5929,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98366</ExpertLink>
                                 <Name lang="pl">Niedokrwistość hemolityczna konstytucjonalna z powodu akantolizy</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -5878,7 +5979,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98369</ExpertLink>
                             <Name lang="pl">Rzadka niedokrwistość hemolityczna konstytucjonalna z powodu zaburzeń enzymatycznych</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
@@ -5900,7 +6001,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98370</ExpertLink>
                                 <Name lang="pl">Niedokrwistość hemolityczna z powodu minięcia monofosforanu heksozy i zaburzeń metabolizmu glutationu</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="4">
@@ -5984,7 +6085,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98372</ExpertLink>
                                 <Name lang="pl">Niedokrwistość hemolityczna z powodu zaburzeń enzymów glikolitycznych</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="9">
@@ -6104,7 +6205,7 @@
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98374</ExpertLink>
                                 <Name lang="pl">Niedokrwistość hemolityczna z powodu zaburzeń metabolizmu nukleotydów w erytrocytach</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="en">Category</Name>
+                                  <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="3">
@@ -6174,7 +6275,7 @@
                               <Disorder id="28081">
                                 <OrphaCode>544472</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=544472</ExpertLink>
-                                <Name lang="en">Atypical hemolytic uremic syndrome with complement gene abnormality</Name>
+                                <Name lang="pl">Atypowy zespół mocznicowy hemolityczny z defektem genu dopełniacza</Name>
                                 <DisorderType id="21443">
                                   <Name lang="pl">Podtyp etiologiczny</Name>
                                 </DisorderType>
@@ -6216,7 +6317,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182047</ExpertLink>
                         <Name lang="pl">Rzadka nabyta niedokrwistość hemolityczna</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -6346,7 +6447,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=275938</ExpertLink>
                             <Name lang="pl">Choroba hemolityczna z powodu alloimmunizacji płodowo-matczynej</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
@@ -6368,7 +6469,7 @@
                           <Disorder id="28082">
                             <OrphaCode>544482</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=544482</ExpertLink>
-                            <Name lang="en">Infection-related hemolytic uremic syndrome</Name>
+                            <Name lang="pl">Zespół hemolityczny mocznicowy związany z infekcją</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -6390,7 +6491,7 @@
                               <Disorder id="28084">
                                 <OrphaCode>544493</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=544493</ExpertLink>
-                                <Name lang="en">Streptococcus pneumoniae-associated hemolytic uremic syndrome</Name>
+                                <Name lang="pl">Zespół mocznicowy hemolityczny związany z streptococcus pneumoniae</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -6410,7 +6511,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=182040</ExpertLink>
                     <Name lang="pl">Aplazja szpiku</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -6420,7 +6521,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=68383</ExpertLink>
                         <Name lang="pl">Rzadka aplazja szpiku</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="11">
@@ -6564,7 +6665,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=164823</ExpertLink>
                         <Name lang="pl">Rzadka nabyta aplazja szpiku</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -6608,9 +6709,9 @@
                           <Disorder id="13438">
                             <OrphaCode>98421</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98421</ExpertLink>
-                            <Name lang="pl">Aplazja czerwonych krwinek</Name>
-                            <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                            <Name lang="pl">Pierwotna nabyta aplazja krwinek czerwonych</Name>
+                            <DisorderType id="21436">
+                              <Name lang="pl">Grupa fenomenów</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -6630,7 +6731,7 @@
                               <Disorder id="13889">
                                 <OrphaCode>98872</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98872</ExpertLink>
-                                <Name lang="pl">Czysta aplazja czerwonokrwinkowa dorosłych</Name>
+                                <Name lang="pl">Pierwotna nabyta czysta aplazja krwinek czerwonych</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -6650,7 +6751,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248293</ExpertLink>
                     <Name lang="pl">Rzadka niedokrwistość niedoborowa</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -6660,7 +6761,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248296</ExpertLink>
                         <Name lang="pl">Konstytucyjna niedokrwistość niedoborowa</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -6670,7 +6771,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98360</ExpertLink>
                             <Name lang="pl">Niedokrwistość konstytucjonalna z powodu zaburzenia metabolizmu żelaza</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -6742,7 +6843,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98396</ExpertLink>
                             <Name lang="pl">Niedokrwistość megaloblastyczna konstytucjonalna z powodu zaburzenia metabolizmu witaminy B12</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -6910,7 +7011,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98408</ExpertLink>
                             <Name lang="pl">Niedokrwistość megaloblastyczna konstytucjonalna z powodu zaburzenia metabolizmu kwasu foliowego</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -6958,7 +7059,7 @@
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98415</ExpertLink>
                             <Name lang="pl">Niedokrwistość megaloblastyczna konstytucjonalna zależna od witaminy B12 i kwasu foliowego</Name>
                             <DisorderType id="36561">
-                              <Name lang="en">Category</Name>
+                              <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -7032,7 +7133,7 @@
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=248302</ExpertLink>
                         <Name lang="pl">Rzadka nabyta niedokrwistość niedoborowa</Name>
                         <DisorderType id="36561">
-                          <Name lang="en">Category</Name>
+                          <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="1">
@@ -7058,7 +7159,7 @@
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=293830</ExpertLink>
                     <Name lang="pl">Niedokrwistość dyserytropoetyczna konstytucjonalna</Name>
                     <DisorderType id="36561">
-                      <Name lang="en">Category</Name>
+                      <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
@@ -7202,7 +7303,7 @@
               <Disorder id="28676">
                 <OrphaCode>570470</OrphaCode>
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=570470</ExpertLink>
-                <Name lang="en">Ricin poisoning</Name>
+                <Name lang="pl">Zatrucie rycyną</Name>
                 <DisorderType id="21394">
                   <Name lang="pl">Choroba</Name>
                 </DisorderType>

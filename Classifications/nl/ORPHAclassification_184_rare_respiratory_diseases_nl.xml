@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:34:31" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:56:11" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="184">
       <OrphaNumber>162655</OrphaNumber>
@@ -51,8 +44,8 @@
                 <OrphaCode>63999</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=63999</ExpertLink>
                 <Name lang="nl">IgG4-gerelateerde mediastinitis</Name>
-                <DisorderType id="21394">
-                  <Name lang="nl">Ziekte</Name>
+                <DisorderType id="21450">
+                  <Name lang="nl">Klinisch subtype</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -116,7 +109,7 @@
                           <Disorder id="20328">
                             <OrphaCode>275777</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=275777</ExpertLink>
-                            <Name lang="nl">Erfelijke pulmonale arteriële hypertensie</Name>
+                            <Name lang="nl">Hereditaire pulmonale arteriële hypertensie</Name>
                             <DisorderType id="21443">
                               <Name lang="nl">Etiologisch subtype</Name>
                             </DisorderType>
@@ -490,7 +483,7 @@
                       <Disorder id="1310">
                         <OrphaCode>994</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=994</ExpertLink>
-                        <Name lang="nl">Foetale akinesie-deformatiesequentie</Name>
+                        <Name lang="nl">Foetale akinesie - deformatie-sequentie</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -641,7 +634,43 @@
                       <Name lang="nl">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="20">
+                  <ClassificationNodeChildList count="26">
+                    <ClassificationNode>
+                      <Disorder id="14100">
+                        <OrphaCode>99083</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99083</ExpertLink>
+                        <Name lang="nl">Hypoplasie van de longslagader</Name>
+                        <DisorderType id="21415">
+                          <Name lang="nl">Morfologische anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3459">
+                        <OrphaCode>3188</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3188</ExpertLink>
+                        <Name lang="nl">Congenitale longaderatresie of -stenose</Name>
+                        <DisorderType id="21415">
+                          <Name lang="nl">Morfologische anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3462">
+                        <OrphaCode>185</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=185</ExpertLink>
+                        <Name lang="nl">Scimitarsyndroom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="nl">Malformatiesyndroom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="534">
                         <OrphaCode>2414</OrphaCode>
@@ -658,7 +687,7 @@
                       <Disorder id="538">
                         <OrphaCode>2444</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2444</ExpertLink>
-                        <Name lang="nl">Congenitale pulmonale luchtwegmalformatie</Name>
+                        <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -668,7 +697,7 @@
                           <Disorder id="20506">
                             <OrphaCode>280827</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280827</ExpertLink>
-                            <Name lang="nl">Congenitale pulmonale luchtwegmalformatie type 0</Name>
+                            <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 0</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -680,7 +709,7 @@
                           <Disorder id="20507">
                             <OrphaCode>280832</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280832</ExpertLink>
-                            <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 1</Name>
+                            <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 1</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -692,7 +721,7 @@
                           <Disorder id="20508">
                             <OrphaCode>280840</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280840</ExpertLink>
-                            <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 2</Name>
+                            <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 2</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -704,7 +733,7 @@
                           <Disorder id="20509">
                             <OrphaCode>280847</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280847</ExpertLink>
-                            <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 3</Name>
+                            <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 3</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -716,7 +745,7 @@
                           <Disorder id="20510">
                             <OrphaCode>280854</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280854</ExpertLink>
-                            <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 4</Name>
+                            <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 4</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -730,7 +759,7 @@
                       <Disorder id="597">
                         <OrphaCode>3346</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3346</ExpertLink>
-                        <Name lang="nl">Tracheale agenesie</Name>
+                        <Name lang="nl">Agenesie van trachea</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -886,7 +915,7 @@
                       <Disorder id="2233">
                         <OrphaCode>2407</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2407</ExpertLink>
-                        <Name lang="nl">LOC-syndroom</Name>
+                        <Name lang="nl">Laryngo-onycho-cutaan syndroom</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -980,7 +1009,7 @@
                           <Disorder id="14095">
                             <OrphaCode>99078</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99078</ExpertLink>
-                            <Name lang="nl">Neuhauseranomalie</Name>
+                            <Name lang="nl">Anomalie van Neuhauser</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -1111,10 +1140,46 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="236">
+                        <OrphaCode>774</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=774</ExpertLink>
+                        <Name lang="nl">Erfelijke hemorragische teleangiëctasie</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="23661">
                         <OrphaCode>454750</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=454750</ExpertLink>
                         <Name lang="nl">Geïsoleerde tracheo-oesofageale fistel</Name>
+                        <DisorderType id="21415">
+                          <Name lang="nl">Morfologische anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="3441">
+                        <OrphaCode>2038</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2038</ExpertLink>
+                        <Name lang="nl">Pulmonale arterioveneuze malformatie</Name>
+                        <DisorderType id="21415">
+                          <Name lang="nl">Morfologische anomalie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="14067">
+                        <OrphaCode>99050</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99050</ExpertLink>
+                        <Name lang="nl">Abnormale oorsprong van de rechter- of linkerlongslagader in de aorta</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1152,7 +1217,7 @@
                   <Disorder id="1063">
                     <OrphaCode>150</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=150</ExpertLink>
-                    <Name lang="nl">Nasofaryngeaal carcinoom</Name>
+                    <Name lang="nl">Carcinoom van nasofarynx</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1220,7 +1285,7 @@
                           <Disorder id="14506">
                             <OrphaCode>99933</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99933</ExpertLink>
-                            <Name lang="nl">Pleuropulmonaal blastoom type I</Name>
+                            <Name lang="nl">Pleuropulmonaal blastoom type 1</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -1232,7 +1297,7 @@
                           <Disorder id="14507">
                             <OrphaCode>99934</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99934</ExpertLink>
-                            <Name lang="nl">Pleuropulmonaal blastoom type II</Name>
+                            <Name lang="nl">Pleuropulmonaal blastoom type 2</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -1244,7 +1309,7 @@
                           <Disorder id="14508">
                             <OrphaCode>99935</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99935</ExpertLink>
-                            <Name lang="nl">Pleuropulmonaal blastoom type III</Name>
+                            <Name lang="nl">Pleuropulmonaal blastoom type 3</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -1327,7 +1392,19 @@
                   <Name lang="nl">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="39">
+              <ClassificationNodeChildList count="43">
+                <ClassificationNode>
+                  <Disorder id="3768">
+                    <OrphaCode>389</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=389</ExpertLink>
+                    <Name lang="nl">Langerhanscelhistiocytose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
@@ -1344,7 +1421,7 @@
                   <Disorder id="194">
                     <OrphaCode>60</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=60</ExpertLink>
-                    <Name lang="nl">Alfa-1-antitrypsinedeficiëntie</Name>
+                    <Name lang="nl">Deficiëntie van alfa-1-antitrypsine</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1356,7 +1433,7 @@
                   <Disorder id="506">
                     <OrphaCode>2140</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2140</ExpertLink>
-                    <Name lang="nl">Congenitale diafragmatische hernia</Name>
+                    <Name lang="nl">Congenitale hernia diaphragmatica</Name>
                     <DisorderType id="21415">
                       <Name lang="nl">Morfologische anomalie</Name>
                     </DisorderType>
@@ -1416,7 +1493,7 @@
                   <Disorder id="3050">
                     <OrphaCode>3471</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3471</ExpertLink>
-                    <Name lang="nl">Youngsyndroom</Name>
+                    <Name lang="nl">Syndroom van Young</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1529,19 +1606,7 @@
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="14554">
-                        <OrphaCode>99981</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99981</ExpertLink>
-                        <Name lang="nl">Apneu door prematuriteit</Name>
-                        <DisorderType id="21450">
-                          <Name lang="nl">Klinisch subtype</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1594,7 +1659,7 @@
                       <Disorder id="18907">
                         <OrphaCode>220407</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=220407</ExpertLink>
-                        <Name lang="nl">Beperkte systemische sclerose</Name>
+                        <Name lang="nl">Gelimiteerde systemische sclerose</Name>
                         <DisorderType id="21450">
                           <Name lang="nl">Klinisch subtype</Name>
                         </DisorderType>
@@ -1620,7 +1685,7 @@
                   <Disorder id="17779">
                     <OrphaCode>168593</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=168593</ExpertLink>
-                    <Name lang="nl">Wiegendood - dysgenesie van de testes</Name>
+                    <Name lang="nl">Wiegendood - dysgenesie van testes-syndroom</Name>
                     <DisorderType id="21401">
                       <Name lang="nl">Malformatiesyndroom</Name>
                     </DisorderType>
@@ -1645,8 +1710,8 @@
                     <OrphaCode>178320</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=178320</ExpertLink>
                     <Name lang="nl">Acuut longletsel</Name>
-                    <DisorderType id="21422">
-                      <Name lang="nl">Klinisch syndroom</Name>
+                    <DisorderType id="21429">
+                      <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -1686,7 +1751,7 @@
                               <Disorder id="16696">
                                 <OrphaCode>137631</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=137631</ExpertLink>
-                                <Name lang="nl">Longfibrose - immuundeficiëntie - 46,XX gonadale dysgenesie</Name>
+                                <Name lang="nl">Longfibrose - immuundeficiëntie - 46,XX gonadale dysgenesie-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -1804,7 +1869,7 @@
                                   <Disorder id="21219">
                                     <OrphaCode>306504</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=306504</ExpertLink>
-                                    <Name lang="nl">Junctionele epidermolysis bullosa met respiratoire en renale betrokkenheid</Name>
+                                    <Name lang="nl">Interstitiële longziekte - nefrotisch syndroom - epidermolysis bullosa-syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -1987,31 +2052,7 @@
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="2">
-                                        <ClassificationNode>
-                                          <Disorder id="19555">
-                                            <OrphaCode>247839</OrphaCode>
-                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247839</ExpertLink>
-                                            <Name lang="nl">Oligoarticulaire juveniele idiopathische artritis met antinucleaire antilichamen</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="nl">Etiologisch subtype</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
-                                        <ClassificationNode>
-                                          <Disorder id="19556">
-                                            <OrphaCode>247846</OrphaCode>
-                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247846</ExpertLink>
-                                            <Name lang="nl">Oligoarticulaire juveniele idiopathische artritis zonder antinucleaire antilichamen</Name>
-                                            <DisorderType id="21443">
-                                              <Name lang="nl">Etiologisch subtype</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
+                                      <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
@@ -2081,31 +2122,7 @@
                                               <Name lang="nl">Ziekte</Name>
                                             </DisorderType>
                                           </Disorder>
-                                          <ClassificationNodeChildList count="2">
-                                            <ClassificationNode>
-                                              <Disorder id="19557">
-                                                <OrphaCode>247854</OrphaCode>
-                                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247854</ExpertLink>
-                                                <Name lang="nl">Reumafactor-negatieve juveniele idiopathische artritis met antinucleaire antilichamen</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="nl">Etiologisch subtype</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
-                                            <ClassificationNode>
-                                              <Disorder id="19558">
-                                                <OrphaCode>247861</OrphaCode>
-                                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247861</ExpertLink>
-                                                <Name lang="nl">Reumafactor-negatieve juveniele idiopathische artritis zonder antinucleaire antilichamen</Name>
-                                                <DisorderType id="21443">
-                                                  <Name lang="nl">Etiologisch subtype</Name>
-                                                </DisorderType>
-                                              </Disorder>
-                                              <ClassificationNodeChildList count="0">
-                                              </ClassificationNodeChildList>
-                                            </ClassificationNode>
+                                          <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
                                         </ClassificationNode>
                                         <ClassificationNode>
@@ -2370,7 +2387,7 @@
                               <Disorder id="8627">
                                 <OrphaCode>122</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=122</ExpertLink>
-                                <Name lang="nl">Birt-Hogg-Dubesyndroom</Name>
+                                <Name lang="nl">Syndroom van Birt-Hogg-Dubé</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -2428,7 +2445,7 @@
                                   <Disorder id="7029">
                                     <OrphaCode>2032</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2032</ExpertLink>
-                                    <Name lang="nl">Idiopathische longfibrose</Name>
+                                    <Name lang="nl">Idiopathische pulmonale fibrose</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -2605,7 +2622,19 @@
                               <Name lang="nl">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="1">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="8611">
+                                <OrphaCode>81</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=81</ExpertLink>
+                                <Name lang="nl">Antisynthetasesyndroom</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="735">
                                 <OrphaCode>797</OrphaCode>
@@ -2788,7 +2817,7 @@
                                   <Disorder id="747">
                                     <OrphaCode>375</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=375</ExpertLink>
-                                    <Name lang="nl">Antiglomerulair basaalmembraanziekte</Name>
+                                    <Name lang="nl">Antiglomerulair basaal membraanziekte</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -2940,7 +2969,7 @@
                                           <Disorder id="12396">
                                             <OrphaCode>93554</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93554</ExpertLink>
-                                            <Name lang="nl">Type II gemengde cryoglobulinemie</Name>
+                                            <Name lang="nl">Gemengde cryoglobulinemie type II</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -3165,6 +3194,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="23209">
+                    <OrphaCode>425120</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=425120</ExpertLink>
+                    <Name lang="nl">STING-geassocieerde vasculopathie met aanvang in de zuigelingentijd</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="21958">
                     <OrphaCode>330012</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=330012</ExpertLink>
@@ -3192,7 +3233,7 @@
                   <Disorder id="26330">
                     <OrphaCode>505248</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=505248</ExpertLink>
-                    <Name lang="nl">Mucopolysaccharidose-achtig syndroom met congenitale hartdefecten en hematopoëtische stoornissen</Name>
+                    <Name lang="nl">Mucopolysacharidose-achtig syndroom met congenitale hartdefecten en hematopoëtische stoornissen</Name>
                     <DisorderType id="21401">
                       <Name lang="nl">Malformatiesyndroom</Name>
                     </DisorderType>
@@ -3264,7 +3305,7 @@
                   <Disorder id="14376">
                     <OrphaCode>99803</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99803</ExpertLink>
-                    <Name lang="nl">Haddadsyndroom</Name>
+                    <Name lang="nl">Syndroom van Haddad</Name>
                     <DisorderType id="21401">
                       <Name lang="nl">Malformatiesyndroom</Name>
                     </DisorderType>
@@ -3291,6 +3332,30 @@
                     <Name lang="nl">Pulmonale fungale infecties bij risicopatiënten</Name>
                     <DisorderType id="21429">
                       <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="14554">
+                    <OrphaCode>99981</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99981</ExpertLink>
+                    <Name lang="nl">Apneu door prematuriteit</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20721">
+                    <OrphaCode>289390</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=289390</ExpertLink>
+                    <Name lang="nl">Primair syndroom van Sjögren</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">

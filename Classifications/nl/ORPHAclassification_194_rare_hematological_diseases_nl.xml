@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:39:12" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:56:55" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="194">
       <OrphaNumber>162949</OrphaNumber>
@@ -36,7 +29,7 @@
                   <Disorder id="430">
                     <OrphaCode>125</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=125</ExpertLink>
-                    <Name lang="nl">Bloomsyndroom</Name>
+                    <Name lang="nl">Syndroom van Bloom</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -419,7 +412,31 @@
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="29433">
+                                    <OrphaCode>589534</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589534</ExpertLink>
+                                    <Name lang="nl">Acute leukemie met gemengd fenotype en t(9;22)(q34.1;q11.2)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="nl">Etiologisch subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29436">
+                                    <OrphaCode>589595</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589595</ExpertLink>
+                                    <Name lang="nl">Acute leukemie met gemengd fenotype en t(v;11q23.3)</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="nl">Etiologisch subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -445,7 +462,7 @@
                               <Name lang="nl">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="11">
+                          <ClassificationNodeChildList count="12">
                             <ClassificationNode>
                               <Disorder id="8559">
                                 <OrphaCode>520</OrphaCode>
@@ -571,6 +588,18 @@
                                 <OrphaCode>402026</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=402026</ExpertLink>
                                 <Name lang="nl">Acute myeloïde leukemie met somatische NPM1-mutaties</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29204">
+                                <OrphaCode>585867</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585867</ExpertLink>
+                                <Name lang="nl">Acute myeloïde leukemie met t(9;22)(q34.1;q11.2)</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -836,7 +865,7 @@
                           <Disorder id="11749">
                             <OrphaCode>86839</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=86839</ExpertLink>
-                            <Name lang="nl">Refractaire anemie met exces aan blasten</Name>
+                            <Name lang="nl">Refractaire anemie met overmaat aan blasten</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1102,7 +1131,7 @@
                       <Disorder id="13292">
                         <OrphaCode>98275</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98275</ExpertLink>
-                        <Name lang="nl">Myelodysplastische/myeloproliferatieve ziekte</Name>
+                        <Name lang="nl">Myelodysplastische/myeloproliferatieve aandoening</Name>
                         <DisorderType id="21436">
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
@@ -1162,12 +1191,12 @@
                       <Disorder id="17801">
                         <OrphaCode>168943</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=168943</ExpertLink>
-                        <Name lang="nl">Myeloïde/lymfoïde neoplasmata geassocieerd met eosinofilie en abnormaliteit van PDGFRA, PDGFRB of FGFR1</Name>
+                        <Name lang="nl">Myeloïde/lymfoïde neoplasmata geassocieerd met eosinofilie en afwijking van PDGFRA, PDGFRB, FGFR1 of JAK2</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="17802">
                             <OrphaCode>168947</OrphaCode>
@@ -1204,6 +1233,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="29434">
+                            <OrphaCode>589542</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589542</ExpertLink>
+                            <Name lang="nl">Myeloïd/lymfoïd neoplasma geassocieerd met JAK2-herschikking</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -1217,7 +1258,7 @@
                       <Name lang="nl">Category</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="3468">
                         <OrphaCode>3261</OrphaCode>
@@ -1256,7 +1297,7 @@
                           <Disorder id="8776">
                             <OrphaCode>29073</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=29073</ExpertLink>
-                            <Name lang="nl">Meervoudig myeloom</Name>
+                            <Name lang="nl">Multipel myeloom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1641,7 +1682,103 @@
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="1">
+                                    <ClassificationNode>
+                                      <Disorder id="29205">
+                                        <OrphaCode>585877</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585877</ExpertLink>
+                                        <Name lang="nl">B-lymfoblastische leukemie/lymfoom met terugkerende genetische afwijking</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="nl">Etiologisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="7">
+                                        <ClassificationNode>
+                                          <Disorder id="29211">
+                                            <OrphaCode>585909</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585909</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met t(9;22)(q34.1;q11.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29212">
+                                            <OrphaCode>585918</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585918</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met t(v;11q23.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29213">
+                                            <OrphaCode>585929</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585929</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met t(12;21)(p13.2;q22.1)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29214">
+                                            <OrphaCode>585936</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585936</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met hyperdiploïdie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29215">
+                                            <OrphaCode>585942</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585942</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met hypodiploïdie</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29216">
+                                            <OrphaCode>585948</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585948</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met t(5;14)(q31.1;q32.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="29217">
+                                            <OrphaCode>585956</OrphaCode>
+                                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=585956</ExpertLink>
+                                            <Name lang="nl">B-lymfoblastische leukemie/lymfoom met t(1;19)(q23;p13.3)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="nl">Etiologisch subtype</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -1766,7 +1903,7 @@
                                       <Disorder id="21149">
                                         <OrphaCode>300878</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=300878</ExpertLink>
-                                        <Name lang="nl">Haarcelleukemie variant</Name>
+                                        <Name lang="nl">Variant van haarcelleukemie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -1857,7 +1994,7 @@
                                       <Name lang="nl">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="3747">
                                         <OrphaCode>543</OrphaCode>
@@ -2007,18 +2144,6 @@
                                         <OrphaCode>86852</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=86852</ExpertLink>
                                         <Name lang="nl">B-cel prolymfocytische leukemie</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="nl">Ziekte</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="14433">
-                                        <OrphaCode>99860</OrphaCode>
-                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99860</ExpertLink>
-                                        <Name lang="nl">Precursor B-cel acute lymfoblastische leukemie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -2994,7 +3119,7 @@
                               <Disorder id="21689">
                                 <OrphaCode>319667</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=319667</ExpertLink>
-                                <Name lang="nl">Primair lymfoom van het bindvlies</Name>
+                                <Name lang="nl">Primair lymfoom van conjunctiva</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -3076,18 +3201,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12466">
-                        <OrphaCode>93685</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93685</ExpertLink>
-                        <Name lang="nl">Unicentrische ziekte van Castleman</Name>
-                        <DisorderType id="21450">
-                          <Name lang="nl">Klinisch subtype</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -3522,7 +3635,7 @@
                               <Disorder id="12423">
                                 <OrphaCode>93585</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93585</ExpertLink>
-                                <Name lang="nl">Verworven trombotische trombocytopenische purpura</Name>
+                                <Name lang="nl">Immuungemedieerde trombotische trombocytopenische purpura</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -3558,7 +3671,7 @@
                               <Disorder id="21926">
                                 <OrphaCode>329319</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=329319</ExpertLink>
-                                <Name lang="nl">Trombocytemie met defecten aan distale ledematen</Name>
+                                <Name lang="nl">Trombocytemie met distale ledemaatdefecten</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -3990,7 +4103,7 @@
                               <Disorder id="8693">
                                 <OrphaCode>483</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=483</ExpertLink>
-                                <Name lang="nl">Congenitale hoogmoleculaire kininogeendeficiëntie</Name>
+                                <Name lang="nl">Congenitale deficiëntie van hoogmoleculair kininogeen</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -4072,7 +4185,7 @@
                                   <Disorder id="13451">
                                     <OrphaCode>98434</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98434</ExpertLink>
-                                    <Name lang="nl">Erfelijke gecombineerde deficiëntie van vitamine K-afhankelijke stollingsfactoren</Name>
+                                    <Name lang="nl">Hereditaire gecombineerde deficiëntie van vitamine K-afhankelijke stollingsfactoren</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -4238,7 +4351,7 @@
                                       <Disorder id="595">
                                         <OrphaCode>3320</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3320</ExpertLink>
-                                        <Name lang="nl">Trombocytopenie - afwezige radius-syndroom</Name>
+                                        <Name lang="nl">Trombocytopenie - aplasie van radius-syndroom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -4497,12 +4610,12 @@
                                       <Name lang="nl">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="9">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="18911">
                                         <OrphaCode>220452</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=220452</ExpertLink>
-                                        <Name lang="nl">Geïsoleerde erfelijke reuzebloedplaatjesstoornis</Name>
+                                        <Name lang="nl">Geïsoleerde erfelijke reuzenbloedplaatjesstoornis</Name>
                                         <DisorderType id="36561">
                                           <Name lang="nl">Category</Name>
                                         </DisorderType>
@@ -4594,7 +4707,7 @@
                                               <Disorder id="22486">
                                                 <OrphaCode>370127</OrphaCode>
                                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=370127</ExpertLink>
-                                                <Name lang="nl">Medich reuzenbloedplaatjessyndroom</Name>
+                                                <Name lang="nl">Reuzenbloedplaatjessyndroom, Medich-type</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="nl">Ziekte</Name>
                                                 </DisorderType>
@@ -4695,18 +4808,6 @@
                                         <OrphaCode>3319</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3319</ExpertLink>
                                         <Name lang="nl">Congenitale amegakaryocytaire trombocytopenie</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="nl">Ziekte</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="22346">
-                                        <OrphaCode>363727</OrphaCode>
-                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=363727</ExpertLink>
-                                        <Name lang="nl">X-gebonden dyserytropoëtische anemie met abnormale bloedplaatjes en neutropenie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -4960,7 +5061,7 @@
                                   <Disorder id="784">
                                     <OrphaCode>3002</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3002</ExpertLink>
-                                    <Name lang="nl">Immuungemedieerde trombocytopenische purpura</Name>
+                                    <Name lang="nl">Immuuntrombocytopenie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -5206,7 +5307,7 @@
                       <Disorder id="14156">
                         <OrphaCode>99139</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99139</ExpertLink>
-                        <Name lang="nl">Onstabiele hemoglobineziekte</Name>
+                        <Name lang="nl">Instabiel hemoglobine-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -5264,7 +5365,7 @@
                           <Disorder id="19226">
                             <OrphaCode>232288</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=232288</ExpertLink>
-                            <Name lang="nl">Alfa-thalassemie-gerelateerde ziekte</Name>
+                            <Name lang="nl">Syndroom met alfa-thalassemie als belangrijk kenmerk</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Category</Name>
                             </DisorderType>
@@ -5275,8 +5376,8 @@
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=847</ExpertLink>
                                 <Name lang="nl">Alfa-thalassemie - X-gebonden intellectuele achterstand-syndroom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5286,9 +5387,9 @@
                               <Disorder id="13808">
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98791</ExpertLink>
-                                <Name lang="nl">Alfa-thalassemie - intellectuele achterstand-syndroom gelinkt aan chromosoom 16</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
+                                <Name lang="nl">Alfa-thalassemie - intellectuele achterstand-syndroom gekoppeld aan chromosoom 16</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5346,7 +5447,7 @@
                               <Disorder id="19172">
                                 <OrphaCode>231222</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231222</ExpertLink>
-                                <Name lang="nl">Bèta-thalassemie intermediair</Name>
+                                <Name lang="nl">Beta-thalassemia intermedia</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -5514,7 +5615,7 @@
                               <Disorder id="19635">
                                 <OrphaCode>251365</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=251365</ExpertLink>
-                                <Name lang="nl">Sikkelcel - hemoglobine C-ziekte</Name>
+                                <Name lang="nl">Sikkelcel - hemoglobine C-ziekte-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -5526,7 +5627,7 @@
                               <Disorder id="19636">
                                 <OrphaCode>251370</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=251370</ExpertLink>
-                                <Name lang="nl">Sikkelcel - hemoglobine D-ziekte</Name>
+                                <Name lang="nl">Sikkelcel - hemoglobine D-ziekte-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -5694,7 +5795,7 @@
                               <Disorder id="3252">
                                 <OrphaCode>822</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=822</ExpertLink>
-                                <Name lang="nl">Erfelijke sferocytose</Name>
+                                <Name lang="nl">Hereditaire sferocytose</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -5812,7 +5913,7 @@
                                   <Disorder id="22723">
                                     <OrphaCode>398088</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398088</ExpertLink>
-                                    <Name lang="nl">Erfelijke cryohydrocytose met normale stomatine</Name>
+                                    <Name lang="nl">Hereditaire cryohydrocytose met normaal stomatine</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -6040,7 +6141,7 @@
                                   <Disorder id="3257">
                                     <OrphaCode>766</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=766</ExpertLink>
-                                    <Name lang="nl">Hemolytische anemie als gevolg van pyruvaatkinasedeficiëntie van de rode bloedcellen</Name>
+                                    <Name lang="nl">Hemolytische anemie door deficiëntie van pyruvaatkinase in rode bloedcellen</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -6124,7 +6225,7 @@
                                   <Disorder id="11737">
                                     <OrphaCode>86817</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=86817</ExpertLink>
-                                    <Name lang="nl">Hemolytische anemie als gevolg van adenylaatkinasedeficiëntie</Name>
+                                    <Name lang="nl">Hemolytische anemie door adenylaatkinasedeficiëntie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -6174,7 +6275,7 @@
                               <Disorder id="28081">
                                 <OrphaCode>544472</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=544472</ExpertLink>
-                                <Name lang="nl">Atypisch hemolytisch-uremisch syndroom met afwijking in een gen van het complementsysteem</Name>
+                                <Name lang="nl">Atypisch hemolytisch-uremisch syndroom met afwijking van gen van complementsysteem</Name>
                                 <DisorderType id="21443">
                                   <Name lang="nl">Etiologisch subtype</Name>
                                 </DisorderType>
@@ -6464,7 +6565,7 @@
                           <Disorder id="2771">
                             <OrphaCode>3088</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3088</ExpertLink>
-                            <Name lang="nl">Reveszsyndroom</Name>
+                            <Name lang="nl">Syndroom van Revesz</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -6608,9 +6709,9 @@
                           <Disorder id="13438">
                             <OrphaCode>98421</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98421</ExpertLink>
-                            <Name lang="nl">Rode celaplasie</Name>
-                            <DisorderType id="36561">
-                              <Name lang="nl">Category</Name>
+                            <Name lang="nl">Primaire verworven erytrocytaire aplasie</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -6630,7 +6731,7 @@
                               <Disorder id="13889">
                                 <OrphaCode>98872</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98872</ExpertLink>
-                                <Name lang="nl">Volwassen zuivere rode bloedcelaplasie</Name>
+                                <Name lang="nl">Primaire verworven zuivere erytrocytaire aplasie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -6702,7 +6803,7 @@
                               <Disorder id="11602">
                                 <OrphaCode>83642</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=83642</ExpertLink>
-                                <Name lang="nl">Microcytaire anemie met ijzerstapeling in de lever</Name>
+                                <Name lang="nl">Microcytaire anemie met ijzerstapeling in lever</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -7162,7 +7263,7 @@
                       <Disorder id="18404">
                         <OrphaCode>199337</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=199337</ExpertLink>
-                        <Name lang="nl">Pancreasinsufficiëntie - anemie - hyperostose</Name>
+                        <Name lang="nl">Pancreasinsufficiëntie - anemie - hyperostose-syndroom</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -7190,7 +7291,7 @@
               <Disorder id="23635">
                 <OrphaCode>450322</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=450322</ExpertLink>
-                <Name lang="nl">Polyklonaal hyperviscositeitssyndroom</Name>
+                <Name lang="nl">Polyklonale hyperviscositeitssyndroom</Name>
                 <DisorderType id="21422">
                   <Name lang="nl">Klinisch syndroom</Name>
                 </DisorderType>
@@ -7202,7 +7303,7 @@
               <Disorder id="28676">
                 <OrphaCode>570470</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=570470</ExpertLink>
-                <Name lang="nl">Ricin poisoning</Name>
+                <Name lang="nl">Intoxicatie door ricine</Name>
                 <DisorderType id="21394">
                   <Name lang="nl">Ziekte</Name>
                 </DisorderType>

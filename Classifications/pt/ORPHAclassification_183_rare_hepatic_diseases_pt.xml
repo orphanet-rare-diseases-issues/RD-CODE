@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:34:00" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 09:09:30" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="183">
       <OrphaNumber>162651</OrphaNumber>
@@ -43,7 +36,7 @@
                   <Name lang="pt">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="11">
+              <ClassificationNodeChildList count="9">
                 <ClassificationNode>
                   <Disorder id="236">
                     <OrphaCode>774</OrphaCode>
@@ -75,18 +68,6 @@
                     <Name lang="pt">Anomalia congénita da veia hepática</Name>
                     <DisorderType id="21415">
                       <Name lang="pt">Anomalia morfológica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10615">
-                    <OrphaCode>48372</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=48372</ExpertLink>
-                    <Name lang="pt">Hiperplasia regenerativa nodular</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pt">Doença</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -141,18 +122,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10847">
-                    <OrphaCode>64743</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=64743</ExpertLink>
-                    <Name lang="pt">Esclerose hepato-portal</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pt">Doença</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="11152">
                     <OrphaCode>79124</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=79124</ExpertLink>
@@ -165,15 +134,51 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="25668">
-                    <OrphaCode>494348</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=494348</ExpertLink>
-                    <Name lang="pt">Hipertensão portal não-cirrótica familiar de início precoce</Name>
+                  <Disorder id="29788">
+                    <OrphaCode>596937</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=596937</ExpertLink>
+                    <Name lang="pt">Doença vascular portosinusoidal</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="29789">
+                        <OrphaCode>596941</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=596941</ExpertLink>
+                        <Name lang="pt">Cirrose septal incompleta</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pt">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10615">
+                        <OrphaCode>48372</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=48372</ExpertLink>
+                        <Name lang="pt">Hiperplasia regenerativa nodular</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pt">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10847">
+                        <OrphaCode>64743</OrphaCode>
+                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=64743</ExpertLink>
+                        <Name lang="pt">Esclerose hepato-portal</Name>
+                        <DisorderType id="21457">
+                          <Name lang="pt">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
@@ -202,7 +207,7 @@
                       <Disorder id="28362">
                         <OrphaCode>563576</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=563576</ExpertLink>
-                        <Name lang="pt">Autoimmune hepatitis type 1</Name>
+                        <Name lang="pt">Hepatite autoimune tipo 1</Name>
                         <DisorderType id="21450">
                           <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
@@ -214,7 +219,7 @@
                       <Disorder id="28363">
                         <OrphaCode>563581</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=563581</ExpertLink>
-                        <Name lang="pt">Autoimmune hepatitis type 2</Name>
+                        <Name lang="pt">Hepatite autoimune tipo 2</Name>
                         <DisorderType id="21450">
                           <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
@@ -226,7 +231,7 @@
                       <Disorder id="28364">
                         <OrphaCode>563589</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=563589</ExpertLink>
-                        <Name lang="pt">Seronegative autoimmune hepatitis</Name>
+                        <Name lang="pt">Hepatite autoimune seronegativa</Name>
                         <DisorderType id="21450">
                           <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
@@ -298,7 +303,7 @@
                       <Disorder id="28105">
                         <OrphaCode>555434</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=555434</ExpertLink>
-                        <Name lang="pt">Fibrohistiocytic inflammatory pseudotumor of the liver</Name>
+                        <Name lang="pt">Pseudotumor inflamatório fibrohistiocítico do fígado</Name>
                         <DisorderType id="21450">
                           <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
@@ -310,7 +315,7 @@
                       <Disorder id="28106">
                         <OrphaCode>555437</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=555437</ExpertLink>
-                        <Name lang="pt">Lymphoplasmacytic inflammatory pseudotumor of the liver</Name>
+                        <Name lang="pt">Pseudotumor inflamatório linfoplasmocítico do fígado</Name>
                         <DisorderType id="21450">
                           <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
@@ -360,7 +365,7 @@
                   <Disorder id="21105">
                     <OrphaCode>300293</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=300293</ExpertLink>
-                    <Name lang="pt">Infantile regressive hypertriglyceridemia and hepatosteatosis</Name>
+                    <Name lang="pt">Hipertrigliceridemia e esteatose hepática infantil regressiva</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -468,7 +473,7 @@
                   <Disorder id="28017">
                     <OrphaCode>541423</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=541423</ExpertLink>
-                    <Name lang="pt">Growth delay-intellectual disability-hepatopathy syndrome</Name>
+                    <Name lang="pt">Síndrome de atraso do crescimento-défice intelectual-hepatopatia</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -528,7 +533,7 @@
                   <Disorder id="28337">
                     <OrphaCode>562639</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=562639</ExpertLink>
-                    <Name lang="pt">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <Name lang="pt">Síndrome de sobreposição fenótipica a colangite biliar primária/colangite esclerosante primária</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -547,7 +552,7 @@
                   <Name lang="pt">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="42">
+              <ClassificationNodeChildList count="40">
                 <ClassificationNode>
                   <Disorder id="12578">
                     <OrphaCode>95157</OrphaCode>
@@ -876,7 +881,7 @@
                   <Disorder id="194">
                     <OrphaCode>60</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=60</ExpertLink>
-                    <Name lang="pt">Deficiência de alfa-1 antitripsina (AAT)</Name>
+                    <Name lang="pt">Deficiência de alfa-1 antitripsina</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -1317,18 +1322,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="19267">
-                    <OrphaCode>238475</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=238475</ExpertLink>
-                    <Name lang="pt">Hipercolanemia familiar</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pt">Doença</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="19546">
                     <OrphaCode>247790</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247790</ExpertLink>
@@ -1617,18 +1610,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="22319">
-                    <OrphaCode>363534</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=363534</ExpertLink>
-                    <Name lang="pt">Síndrome de depleção do ADN mitocondrial, forma hepatocerebrorenal</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pt">Doença</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="22451">
                     <OrphaCode>369942</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=369942</ExpertLink>
@@ -1896,7 +1877,7 @@
                   <Disorder id="28606">
                     <OrphaCode>567983</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=567983</ExpertLink>
-                    <Name lang="pt">Parenteral nutrition-associated cholestasis</Name>
+                    <Name lang="pt">Colestase associada a nutrição parentérica</Name>
                     <DisorderType id="21429">
                       <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
                     </DisorderType>
@@ -2003,8 +1984,8 @@
                         <OrphaCode>447764</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=447764</ExpertLink>
                         <Name lang="pt">Colangite esclerosante relacionada comIgG4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pt">Doença</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pt">Subtipo clínico</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -2028,7 +2009,7 @@
                   <Disorder id="28337">
                     <OrphaCode>562639</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=562639</ExpertLink>
-                    <Name lang="pt">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
+                    <Name lang="pt">Síndrome de sobreposição fenótipica a colangite biliar primária/colangite esclerosante primária</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -2256,7 +2237,7 @@
                   <Disorder id="27317">
                     <OrphaCode>521219</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=521219</ExpertLink>
-                    <Name lang="pt">Mirizzi syndrome</Name>
+                    <Name lang="pt">Síndrome Mirizzi</Name>
                     <DisorderType id="21422">
                       <Name lang="pt">Síndrome clínica</Name>
                     </DisorderType>
@@ -2268,7 +2249,7 @@
                   <Disorder id="27330">
                     <OrphaCode>521432</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=521432</ExpertLink>
-                    <Name lang="pt">Congenital cataract-severe neonatal hepatopathy-global developmental delay syndrome</Name>
+                    <Name lang="pt">Síndrome de cataracta congénita-hepatopatia neonatal grave-atraso global do desenvolvimento</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -2348,7 +2329,7 @@
                           <Disorder id="23206">
                             <OrphaCode>424991</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424991</ExpertLink>
-                            <Name lang="pt">Adenocarcinoma of gallbladder and extrahepatic biliary tract</Name>
+                            <Name lang="pt">Adenocarcinoma da vesícula biliar e do tracto biliar extra-hepático</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2360,7 +2341,7 @@
                           <Disorder id="23207">
                             <OrphaCode>424996</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424996</ExpertLink>
-                            <Name lang="pt">Squamous cell carcinoma of gallbladder and extrahepatic biliary tract</Name>
+                            <Name lang="pt">Carcinoma da vesícula biliar e do tracto biliar extra-hepático de células escamosas</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2372,7 +2353,7 @@
                           <Disorder id="27629">
                             <OrphaCode>529852</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=529852</ExpertLink>
-                            <Name lang="pt">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                            <Name lang="pt">Carcinoma hepatocelular e colangiocarcinoma combinado</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2490,7 +2471,7 @@
                               <Disorder id="27629">
                                 <OrphaCode>529852</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=529852</ExpertLink>
-                                <Name lang="pt">Combined hepatocellular carcinoma and cholangiocarcinoma</Name>
+                                <Name lang="pt">Carcinoma hepatocelular e colangiocarcinoma combinado</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2550,7 +2531,7 @@
                               <Disorder id="22851">
                                 <OrphaCode>401920</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=401920</ExpertLink>
-                                <Name lang="pt">Fibrolamellar hepatocellular carcinoma</Name>
+                                <Name lang="pt">Carcinoma hepatocelular fibrolamelar</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2562,7 +2543,7 @@
                               <Disorder id="23202">
                                 <OrphaCode>424943</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424943</ExpertLink>
-                                <Name lang="pt">Adenocarcinoma of liver and intrahepatic biliary tract</Name>
+                                <Name lang="pt">Adenocarcinoma hepático e do tracto biliar intra-hepático</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2574,7 +2555,7 @@
                               <Disorder id="23203">
                                 <OrphaCode>424970</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424970</ExpertLink>
-                                <Name lang="pt">Undifferentiated carcinoma of liver and intrahepatic biliary tract</Name>
+                                <Name lang="pt">Carcinoma hepático e do tracto biliar intra-hepático não diferenciado</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2586,7 +2567,7 @@
                               <Disorder id="23204">
                                 <OrphaCode>424975</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424975</ExpertLink>
-                                <Name lang="pt">Squamous cell carcinoma of liver and intrahepatic biliary tract</Name>
+                                <Name lang="pt">Carcinoma hepático e do tracto biliar intra-hepático de células escamosas</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2598,7 +2579,7 @@
                               <Disorder id="23205">
                                 <OrphaCode>424982</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=424982</ExpertLink>
-                                <Name lang="pt">Biliary cystadenocarcinoma</Name>
+                                <Name lang="pt">Cistoadenocarcinoma biliar</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2626,7 +2607,7 @@
                       <Disorder id="28552">
                         <OrphaCode>566841</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=566841</ExpertLink>
-                        <Name lang="pt">Liver adenomatosis</Name>
+                        <Name lang="pt">Adenomatose hepática</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>

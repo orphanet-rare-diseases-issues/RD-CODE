@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-06-29 19:44:00" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
-    <Licence>
-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-    </Licence>
-  </Availability>
+<JDBOR date="2021-07-02 08:48:42" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <ClassificationList count="1">
     <Classification id="202">
       <OrphaNumber>162973</OrphaNumber>
@@ -861,7 +854,31 @@
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="29433">
+                                        <OrphaCode>589534</OrphaCode>
+                                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589534</ExpertLink>
+                                        <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(9;22)(q34.1;q11.2)</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="fr">Sous-type étiologique</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="29436">
+                                        <OrphaCode>589595</OrphaCode>
+                                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589595</ExpertLink>
+                                        <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(v;11q23.3)</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="fr">Sous-type étiologique</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -887,7 +904,7 @@
                                   <Name lang="fr">Catégorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="11">
+                              <ClassificationNodeChildList count="12">
                                 <ClassificationNode>
                                   <Disorder id="8559">
                                     <OrphaCode>520</OrphaCode>
@@ -1013,6 +1030,18 @@
                                     <OrphaCode>402026</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=402026</ExpertLink>
                                     <Name lang="fr">Leucémie myéloïde aiguë associée à des mutations somatiques de NPM1</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="fr">Maladie</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="29204">
+                                    <OrphaCode>585867</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585867</ExpertLink>
+                                    <Name lang="fr">Leucémie myéloïde aiguë associée à t(9;22)(q34.1;q11.2)</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -1604,12 +1633,12 @@
                           <Disorder id="17801">
                             <OrphaCode>168943</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168943</ExpertLink>
-                            <Name lang="fr">Tumeur myéloïde/lymphoïde avec éosinophiles associée à une anomalie de PDGFRA, PDGFRB ou FGFR1</Name>
+                            <Name lang="fr">Tumeur myéloïde/lymphoïde avec éosinophiles associée à une anomalie de PDGFRA, PDGFRB, FGFR1 ou JAK2</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="17802">
                                 <OrphaCode>168947</OrphaCode>
@@ -1639,6 +1668,18 @@
                                 <OrphaCode>168953</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168953</ExpertLink>
                                 <Name lang="fr">Tumeur myéloïde/lymphoïde associée à un réarrangement de FGFR1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29434">
+                                <OrphaCode>589542</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589542</ExpertLink>
+                                <Name lang="fr">Tumeur myéloïde/lymphoïde associée à un réarrangement de JAK2</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2083,7 +2124,103 @@
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="0">
+                                      <ClassificationNodeChildList count="1">
+                                        <ClassificationNode>
+                                          <Disorder id="29205">
+                                            <OrphaCode>585877</OrphaCode>
+                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585877</ExpertLink>
+                                            <Name lang="fr">Leucémie/lymphome lymphoblastique B avec anomalie génétique récurrente</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="fr">Sous-type étiologique</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="7">
+                                            <ClassificationNode>
+                                              <Disorder id="29211">
+                                                <OrphaCode>585909</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585909</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(9;22)(q34.1;q11.2)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29212">
+                                                <OrphaCode>585918</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585918</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(v;11q23.3)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29213">
+                                                <OrphaCode>585929</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585929</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(12;21)(p13.2;q22.1)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29214">
+                                                <OrphaCode>585936</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585936</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hyperdiploïdie</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29215">
+                                                <OrphaCode>585942</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585942</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hypodiploïdie</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29216">
+                                                <OrphaCode>585948</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585948</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(5;14)(q31.1;q32.3)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="29217">
+                                                <OrphaCode>585956</OrphaCode>
+                                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585956</ExpertLink>
+                                                <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(1;19)(q23;p13.3)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="fr">Sous-type étiologique</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
@@ -2299,7 +2436,7 @@
                                           <Name lang="fr">Catégorie</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="9">
+                                      <ClassificationNodeChildList count="8">
                                         <ClassificationNode>
                                           <Disorder id="3747">
                                             <OrphaCode>543</OrphaCode>
@@ -2449,18 +2586,6 @@
                                             <OrphaCode>86852</OrphaCode>
                                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86852</ExpertLink>
                                             <Name lang="fr">Leucémie prolymphocytaire à cellules B</Name>
-                                            <DisorderType id="21394">
-                                              <Name lang="fr">Maladie</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
-                                        <ClassificationNode>
-                                          <Disorder id="14433">
-                                            <OrphaCode>99860</OrphaCode>
-                                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99860</ExpertLink>
-                                            <Name lang="fr">Leucémie aiguë lymphoblastique à précurseurs B</Name>
                                             <DisorderType id="21394">
                                               <Name lang="fr">Maladie</Name>
                                             </DisorderType>
@@ -3797,7 +3922,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="13">
+                  <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="25142">
                         <OrphaCode>477742</OrphaCode>
@@ -3867,7 +3992,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="21">
+                      <ClassificationNodeChildList count="22">
                         <ClassificationNode>
                           <Disorder id="24185">
                             <OrphaCode>466962</OrphaCode>
@@ -4229,6 +4354,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="29460">
+                            <OrphaCode>590539</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=590539</ExpertLink>
+                            <Name lang="fr">Schwannome mélanotique isolé</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="11779">
                             <OrphaCode>86902</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86902</ExpertLink>
@@ -4331,6 +4468,18 @@
                         <OrphaCode>391651</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=391651</ExpertLink>
                         <Name lang="fr">Tumeur glomique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29725">
+                        <OrphaCode>595133</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=595133</ExpertLink>
+                        <Name lang="fr">Tumeur des cellules épithélioïdes périvasculaires</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -4455,19 +4604,7 @@
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="1">
-                        <ClassificationNode>
-                          <Disorder id="11485">
-                            <OrphaCode>79459</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79459</ExpertLink>
-                            <Name lang="fr">Syndrome d'atrophodermie folliculaire-carcinome basocellulaire</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -5537,12 +5674,12 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="565">
-                            <OrphaCode>744</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=744</ExpertLink>
-                            <Name lang="fr">Syndrome de Protée</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
+                          <Disorder id="10867">
+                            <OrphaCode>65285</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65285</ExpertLink>
+                            <Name lang="fr">Maladie de Lhermitte-Duclos</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -7048,7 +7185,7 @@
                                   <Disorder id="26438">
                                     <OrphaCode>506112</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=506112</ExpertLink>
-                                    <Name lang="fr">Néoplasme neuroendocrine-nonneuroendocrine mixte du pancréas</Name>
+                                    <Name lang="fr">Néoplasme neuroendocrine-non neuroendocrine mixte du pancréas</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -8689,7 +8826,7 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="19727">
                                 <OrphaCode>252164</OrphaCode>
@@ -8731,6 +8868,18 @@
                                 <OrphaCode>300501</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=300501</ExpertLink>
                                 <Name lang="fr">Syndrome marfanoïde-neurofibromes systémiques et orbitaux douloureux</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="29460">
+                                <OrphaCode>590539</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=590539</ExpertLink>
+                                <Name lang="fr">Schwannome mélanotique isolé</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -10539,7 +10688,19 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
+                        <ClassificationNode>
+                          <Disorder id="29876">
+                            <OrphaCode>598216</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=598216</ExpertLink>
+                            <Name lang="fr">Cancer urothélial des voies supérieures</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="25898">
                             <OrphaCode>498228</OrphaCode>
@@ -10948,7 +11109,7 @@
                                   <Disorder id="26438">
                                     <OrphaCode>506112</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=506112</ExpertLink>
-                                    <Name lang="fr">Néoplasme neuroendocrine-nonneuroendocrine mixte du pancréas</Name>
+                                    <Name lang="fr">Néoplasme neuroendocrine-non neuroendocrine mixte du pancréas</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -11413,7 +11574,19 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
+                            <ClassificationNode>
+                              <Disorder id="14205">
+                                <OrphaCode>99361</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99361</ExpertLink>
+                                <Name lang="fr">Cancer médullaire de la thyroïde familial</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="905">
                                 <OrphaCode>146</OrphaCode>
@@ -11435,19 +11608,7 @@
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
-                                <ClassificationNode>
-                                  <Disorder id="14205">
-                                    <OrphaCode>99361</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99361</ExpertLink>
-                                    <Name lang="fr">Cancer médullaire de la thyroïde familial</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
                                   <Disorder id="19538">
                                     <OrphaCode>247698</OrphaCode>
@@ -11557,7 +11718,7 @@
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="121">
                                 <OrphaCode>652</OrphaCode>
@@ -11599,6 +11760,18 @@
                                 <OrphaCode>99880</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99880</ExpertLink>
                                 <Name lang="fr">Syndrome d'hyperparathyroïdie-tumeur mandibulaire</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="14451">
+                                <OrphaCode>99878</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99878</ExpertLink>
+                                <Name lang="fr">Hyperplasie primaire de la parathyroïde</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -11879,19 +12052,7 @@
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
-                                <ClassificationNode>
-                                  <Disorder id="14205">
-                                    <OrphaCode>99361</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99361</ExpertLink>
-                                    <Name lang="fr">Cancer médullaire de la thyroïde familial</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
                                   <Disorder id="19538">
                                     <OrphaCode>247698</OrphaCode>
@@ -13023,7 +13184,7 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="13">
+                      <ClassificationNodeChildList count="14">
                         <ClassificationNode>
                           <Disorder id="26030">
                             <OrphaCode>500464</OrphaCode>
@@ -13204,6 +13365,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="19728">
+                            <OrphaCode>252175</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=252175</ExpertLink>
+                            <Name lang="fr">Neurinome de l'acoustique</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -13237,18 +13410,6 @@
                     <OrphaCode>252206</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=252206</ExpertLink>
                     <Name lang="fr">Syndrome mélanome-tumeur du système nerveux</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="3384">
-                    <OrphaCode>145</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=145</ExpertLink>
-                    <Name lang="fr">Syndrome héréditaire de prédisposition au cancer du sein et de l'ovaire</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -13485,8 +13646,8 @@
                             <OrphaCode>353277</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=353277</ExpertLink>
                             <Name lang="fr">Syndrome de Rubinstein-Taybi dû à des mutations de CREBBP</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
+                            <DisorderType id="21443">
+                              <Name lang="fr">Sous-type étiologique</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -13497,8 +13658,8 @@
                             <OrphaCode>353281</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=353281</ExpertLink>
                             <Name lang="fr">Syndrome de Rubinstein-Taybi dû à une microdélétion 16p13.3</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
+                            <DisorderType id="21443">
+                              <Name lang="fr">Sous-type étiologique</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -13509,8 +13670,8 @@
                             <OrphaCode>353284</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=353284</ExpertLink>
                             <Name lang="fr">Syndrome de Rubinstein-Taybi par haploinsuffisance de EP300</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
+                            <DisorderType id="21443">
+                              <Name lang="fr">Sous-type étiologique</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -13870,7 +14031,7 @@
                       <Disorder id="634">
                         <OrphaCode>84</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=84</ExpertLink>
-                        <Name lang="fr">Anémie de Fanconi</Name>
+                        <Name lang="fr">Maladie de Fanconi</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -14261,12 +14422,12 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="565">
-                            <OrphaCode>744</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=744</ExpertLink>
-                            <Name lang="fr">Syndrome de Protée</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
+                          <Disorder id="10867">
+                            <OrphaCode>65285</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65285</ExpertLink>
+                            <Name lang="fr">Maladie de Lhermitte-Duclos</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -14518,7 +14679,7 @@
                       <Disorder id="28036">
                         <OrphaCode>542301</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=542301</ExpertLink>
-                        <Name lang="fr">Déficit immunitaire combiné sévère par déficit en CARMIL2</Name>
+                        <Name lang="fr">Déficit immunitaire combiné par déficit en CARMIL2</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -14873,7 +15034,19 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="6">
+                    <ClassificationNode>
+                      <Disorder id="14205">
+                        <OrphaCode>99361</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99361</ExpertLink>
+                        <Name lang="fr">Cancer médullaire de la thyroïde familial</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="121">
                         <OrphaCode>652</OrphaCode>
@@ -14895,19 +15068,7 @@
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
-                        <ClassificationNode>
-                          <Disorder id="14205">
-                            <OrphaCode>99361</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99361</ExpertLink>
-                            <Name lang="fr">Cancer médullaire de la thyroïde familial</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="19538">
                             <OrphaCode>247698</OrphaCode>
@@ -15092,7 +15253,7 @@
                           <Disorder id="17146">
                             <OrphaCode>157798</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=157798</ExpertLink>
-                            <Name lang="fr">Polypose hyperplasique</Name>
+                            <Name lang="fr">Syndrome de polypose dentelée</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -15318,6 +15479,138 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="29440">
+                    <OrphaCode>589746</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589746</ExpertLink>
+                    <Name lang="fr">Syndrome héréditaire de prédisposition aux cancers gynécologiques</Name>
+                    <DisorderType id="36561">
+                      <Name lang="fr">Catégorie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="18744">
+                        <OrphaCode>213517</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=213517</ExpertLink>
+                        <Name lang="fr">Cancer de l'ovaire, forme familiale</Name>
+                        <DisorderType id="21436">
+                          <Name lang="fr">Groupe clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="3384">
+                            <OrphaCode>145</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=145</ExpertLink>
+                            <Name lang="fr">Syndrome héréditaire de prédisposition au cancer du sein et de l'ovaire</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="18745">
+                            <OrphaCode>213524</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=213524</ExpertLink>
+                            <Name lang="fr">Syndrome héréditaire de prédisposition au cancer de l'ovaire</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23469">
+                        <OrphaCode>443909</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443909</ExpertLink>
+                        <Name lang="fr">Cancer du côlon héréditaire non polyposique</Name>
+                        <DisorderType id="21436">
+                          <Name lang="fr">Groupe clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="543">
+                            <OrphaCode>587</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=587</ExpertLink>
+                            <Name lang="fr">Syndrome de Muir-Torre</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="3245">
+                            <OrphaCode>144</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=144</ExpertLink>
+                            <Name lang="fr">Syndrome de Lynch</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23409">
+                            <OrphaCode>440437</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440437</ExpertLink>
+                            <Name lang="fr">Cancer colorectal familial type X</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="233">
+                        <OrphaCode>2869</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2869</ExpertLink>
+                        <Name lang="fr">Syndrome de Peutz-Jeghers</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="8649">
+                        <OrphaCode>523</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=523</ExpertLink>
+                        <Name lang="fr">Léiomyomatose familiale et cancer du rein</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="243">
+                        <OrphaCode>201</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=201</ExpertLink>
+                        <Name lang="fr">Syndrome de Cowden</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
