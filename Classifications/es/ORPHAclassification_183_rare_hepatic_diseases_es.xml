@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 09:00:35" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:38:08" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="183">
       <OrphaNumber>162651</OrphaNumber>
@@ -11,7 +18,7 @@
             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=57146</ExpertLink>
             <Name lang="es">Enfermedad hepática rara</Name>
             <DisorderType id="36561">
-              <Name lang="es">Category</Name>
+              <Name lang="es">Categoría</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="12">
@@ -33,7 +40,7 @@
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=101938</ExpertLink>
                 <Name lang="es">Enfermedad hepática vascular rara</Name>
                 <DisorderType id="36561">
-                  <Name lang="es">Category</Name>
+                  <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="9">
@@ -189,7 +196,7 @@
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=101939</ExpertLink>
                 <Name lang="es">Enfermedad hepática parenquimatosa rara</Name>
                 <DisorderType id="36561">
-                  <Name lang="es">Category</Name>
+                  <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="24">
@@ -549,10 +556,58 @@
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=101940</ExpertLink>
                 <Name lang="es">Enfermedad metabólica hepática</Name>
                 <DisorderType id="36561">
-                  <Name lang="es">Category</Name>
+                  <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="40">
+              <ClassificationNodeChildList count="41">
+                <ClassificationNode>
+                  <Disorder id="31389">
+                    <OrphaCode>618899</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618899</ExpertLink>
+                    <Name lang="es">Deficiencia de esfingomielinasa ácida</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="11105">
+                        <OrphaCode>77292</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77292</ExpertLink>
+                        <Name lang="es">Deficiencia de esfingomielinasa ácida neurovisceral infantil</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11106">
+                        <OrphaCode>77293</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77293</ExpertLink>
+                        <Name lang="es">Deficiencia de esfingomielinasa ácida visceral crónica</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31388">
+                        <OrphaCode>618891</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618891</ExpertLink>
+                        <Name lang="es">Deficiencia crónica de esfingomielinasa ácida neurovisceral</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="12578">
                     <OrphaCode>95157</OrphaCode>
@@ -1085,7 +1140,7 @@
                   <Disorder id="11215">
                     <OrphaCode>79189</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79189</ExpertLink>
-                    <Name lang="es">Trastorno de la biogénesis peroxisomal</Name>
+                    <Name lang="es">Trastorno de la biogénesis del peroxisoma</Name>
                     <DisorderType id="21436">
                       <Name lang="es">Grupo de fenomas</Name>
                     </DisorderType>
@@ -1255,10 +1310,10 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=220489</ExpertLink>
                     <Name lang="es">Hemocromatosis hereditaria rara</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="4">
                     <ClassificationNode>
                       <Disorder id="11256">
                         <OrphaCode>79230</OrphaCode>
@@ -1288,18 +1343,6 @@
                         <OrphaCode>225123</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=225123</ExpertLink>
                         <Name lang="es">Hemocromatosis tipo 3</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23545">
-                        <OrphaCode>447792</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447792</ExpertLink>
-                        <Name lang="es">Hemocromatosis tipo 5</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -1351,7 +1394,7 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=284385</ExpertLink>
                     <Name lang="es">Colestasis intrahepática familiar</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
@@ -1493,7 +1536,7 @@
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=163631</ExpertLink>
                         <Name lang="es">Defecto en la síntesis de ácido biliar</Name>
                         <DisorderType id="36561">
-                          <Name lang="es">Category</Name>
+                          <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="4">
@@ -1627,7 +1670,7 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=371157</ExpertLink>
                     <Name lang="es">Trastorno congénito de la glicosilación con afectación hepática</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="14">
@@ -1869,7 +1912,7 @@
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=101941</ExpertLink>
                 <Name lang="es">Enfermedad rara del tracto biliar</Name>
                 <DisorderType id="36561">
-                  <Name lang="es">Category</Name>
+                  <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="21">
@@ -2131,7 +2174,7 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=498345</ExpertLink>
                     <Name lang="es">Atresia biliar y trastornos asociados</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -2277,7 +2320,7 @@
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=101943</ExpertLink>
                 <Name lang="es">Tumor raro hepático y del tracto biliar</Name>
                 <DisorderType id="36561">
-                  <Name lang="es">Category</Name>
+                  <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
@@ -2287,7 +2330,7 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306633</ExpertLink>
                     <Name lang="es">Tumor raro de vesícula y vías biliares extrahepáticas</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -2383,7 +2426,7 @@
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306636</ExpertLink>
                     <Name lang="es">Tumor raro de hígado y vías biliares intrahepáticas</Name>
                     <DisorderType id="36561">
-                      <Name lang="es">Category</Name>
+                      <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="7">
@@ -2441,7 +2484,7 @@
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=424933</ExpertLink>
                         <Name lang="es">Tumor epitelial maligno raro de hígado y vías biliares intrahepáticas</Name>
                         <DisorderType id="36561">
-                          <Name lang="es">Category</Name>
+                          <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -2463,7 +2506,7 @@
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=424936</ExpertLink>
                             <Name lang="es">Carcinoma de hígado y vías biliares intrahepáticas</Name>
                             <DisorderType id="36561">
-                              <Name lang="es">Category</Name>
+                              <Name lang="es">Categoría</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">

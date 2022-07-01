@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2021-07-02 08:44:53" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:54:00" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="231">
       <OrphaNumber>280338</OrphaNumber>
@@ -540,7 +547,7 @@
                   <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="8">
+              <ClassificationNodeChildList count="7">
                 <ClassificationNode>
                   <Disorder id="720">
                     <OrphaCode>92</OrphaCode>
@@ -662,18 +669,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="3057">
-                    <OrphaCode>3243</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3243</ExpertLink>
-                    <Name lang="pl">Zespół Sweeta</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="8684">
                     <OrphaCode>73</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=73</ExpertLink>
@@ -718,17 +713,29 @@
                       <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="21810">
                         <OrphaCode>324933</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324933</ExpertLink>
-                        <Name lang="pl">Mieszany zespół autozapalenia i autoodporności</Name>
+                        <Name lang="pl">Mieszany zespół autozapalny i autoimmunologiczny</Name>
                         <DisorderType id="36561">
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31418">
+                            <OrphaCode>619948</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=619948</ExpertLink>
+                            <Name lang="pl">Autoimmunologiczny autozapalny zespół niedoboru odporności o wczesnym początku</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="21782">
                             <OrphaCode>324530</OrphaCode>
@@ -844,7 +851,7 @@
                                   <Name lang="pl">Grupa fenomenów</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
                                 <ClassificationNode>
                                   <Disorder id="2375">
                                     <OrphaCode>575</OrphaCode>
@@ -881,6 +888,18 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31372">
+                                    <OrphaCode>617919</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617919</ExpertLink>
+                                    <Name lang="pl">Indukowany zimnem zespół autozapalny związany z F12</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -900,8 +919,8 @@
                                 <OrphaCode>309025</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=309025</ExpertLink>
                                 <Name lang="pl">Niedobór kinazy mewalonowej</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="pl">Grupa fenomenów</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -910,8 +929,8 @@
                                     <OrphaCode>29</OrphaCode>
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=29</ExpertLink>
                                     <Name lang="pl">Kwasica mewalonianowa</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="pl">Choroba</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -922,8 +941,8 @@
                                     <OrphaCode>343</OrphaCode>
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=343</ExpertLink>
                                     <Name lang="pl">Hiperimmunoglobulinemia D z gorączką okresową</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="pl">Choroba</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -1124,7 +1143,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="703">
                             <OrphaCode>117</OrphaCode>
@@ -1142,18 +1161,6 @@
                             <OrphaCode>251307</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251307</ExpertLink>
                             <Name lang="pl">Idiopatyczne nawracające zapalenie osierdzia</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21819">
-                            <OrphaCode>324977</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324977</ExpertLink>
-                            <Name lang="pl">Zespół niestabilności proteasomów</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -1200,6 +1207,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="3057">
+                        <OrphaCode>3243</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3243</ExpertLink>
+                        <Name lang="pl">Zespół Sweeta</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="25241">
                         <OrphaCode>481671</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=481671</ExpertLink>
@@ -1208,7 +1227,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="12">
+                      <ClassificationNodeChildList count="13">
                         <ClassificationNode>
                           <Disorder id="1309">
                             <OrphaCode>51</OrphaCode>
@@ -1346,6 +1365,18 @@
                             <OrphaCode>481665</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=481665</ExpertLink>
                             <Name lang="pl">Niedobór UPS18</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31416">
+                            <OrphaCode>619367</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=619367</ExpertLink>
+                            <Name lang="pl">Zespół autozapalny związany z SAMD9L</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>

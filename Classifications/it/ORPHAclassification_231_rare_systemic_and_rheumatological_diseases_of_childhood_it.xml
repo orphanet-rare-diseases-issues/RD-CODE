@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 09:07:12" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:54:16" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="231">
       <OrphaNumber>280338</OrphaNumber>
@@ -11,7 +18,7 @@
             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=280342</ExpertLink>
             <Name lang="it">Malattia reumatologica rara dell'infanzia</Name>
             <DisorderType id="36561">
-              <Name lang="it">Category</Name>
+              <Name lang="it">Categoria</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="3">
@@ -21,7 +28,7 @@
                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=280369</ExpertLink>
                 <Name lang="it">Vasculite pediatrica</Name>
                 <DisorderType id="36561">
-                  <Name lang="it">Category</Name>
+                  <Name lang="it">Categoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="11">
@@ -187,7 +194,7 @@
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=445197</ExpertLink>
                     <Name lang="it">Vasculite secondaria</Name>
                     <DisorderType id="36561">
-                      <Name lang="it">Category</Name>
+                      <Name lang="it">Categoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -249,7 +256,7 @@
                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=280373</ExpertLink>
                 <Name lang="it">Malattia sistemica pediatrica</Name>
                 <DisorderType id="36561">
-                  <Name lang="it">Category</Name>
+                  <Name lang="it">Categoria</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="13">
@@ -341,7 +348,7 @@
                   <Disorder id="12394">
                     <OrphaCode>93552</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93552</ExpertLink>
-                    <Name lang="it">Lupus eritematoso sistemico a esordio pediatrico</Name>
+                    <Name lang="it">Lupus eritematoso sistemico pediatrico</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -415,7 +422,7 @@
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=398091</ExpertLink>
                     <Name lang="it">Malattia autoimmune neonatale secondaria</Name>
                     <DisorderType id="36561">
-                      <Name lang="it">Category</Name>
+                      <Name lang="it">Categoria</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="6">
@@ -497,7 +504,7 @@
                   <Disorder id="23366">
                     <OrphaCode>438159</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=438159</ExpertLink>
-                    <Name lang="it">Malattia autoimmune multisistemica a esordio precoce STAT3-correlata</Name>
+                    <Name lang="it">Malattia autoimmune multisistemica ad esordio precoce correlata a STAT3</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -537,10 +544,10 @@
                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=486955</ExpertLink>
                 <Name lang="it">Malattia reumatica pediatrica rara</Name>
                 <DisorderType id="36561">
-                  <Name lang="it">Category</Name>
+                  <Name lang="it">Categoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="8">
+              <ClassificationNodeChildList count="7">
                 <ClassificationNode>
                   <Disorder id="720">
                     <OrphaCode>92</OrphaCode>
@@ -662,18 +669,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="3057">
-                    <OrphaCode>3243</OrphaCode>
-                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3243</ExpertLink>
-                    <Name lang="it">Sindrome di Sweet</Name>
-                    <DisorderType id="21394">
-                      <Name lang="it">Malattia</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="8684">
                     <OrphaCode>73</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=73</ExpertLink>
@@ -715,20 +710,32 @@
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=319719</ExpertLink>
                     <Name lang="it">Sindrome autoinfiammatoria dell'infanzia</Name>
                     <DisorderType id="36561">
-                      <Name lang="it">Category</Name>
+                      <Name lang="it">Categoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="21810">
                         <OrphaCode>324933</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324933</ExpertLink>
                         <Name lang="it">Sindrome mista autoinfiammatoria e autoimmune</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31418">
+                            <OrphaCode>619948</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=619948</ExpertLink>
+                            <Name lang="it">Sindrome autoimmune e autoinfiammatoria con immunodeficienza ad esordio precoce</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="21782">
                             <OrphaCode>324530</OrphaCode>
@@ -773,7 +780,7 @@
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324939</ExpertLink>
                         <Name lang="it">Sindrome da febbre periodica dell'infanzia</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -783,7 +790,7 @@
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324924</ExpertLink>
                             <Name lang="it">Sindrome da febbre ricorrente ereditaria</Name>
                             <DisorderType id="36561">
-                              <Name lang="it">Category</Name>
+                              <Name lang="it">Categoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="9">
@@ -844,7 +851,7 @@
                                   <Name lang="it">Gruppo di fenomi</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
                                 <ClassificationNode>
                                   <Disorder id="2375">
                                     <OrphaCode>575</OrphaCode>
@@ -881,6 +888,18 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31372">
+                                    <OrphaCode>617919</OrphaCode>
+                                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=617919</ExpertLink>
+                                    <Name lang="it">Sindrome autoinfiammatoria indotta dal freddo correlata a F12</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="it">Malattia</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -900,8 +919,8 @@
                                 <OrphaCode>309025</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=309025</ExpertLink>
                                 <Name lang="it">Deficit di mevalonato chinasi</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="it">Gruppo di fenomi</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -910,8 +929,8 @@
                                     <OrphaCode>29</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=29</ExpertLink>
                                     <Name lang="it">Aciduria mevalonica</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="it">Malattia</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="it">Sottotipo clinico</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -922,8 +941,8 @@
                                     <OrphaCode>343</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=343</ExpertLink>
                                     <Name lang="it">Iperimmunoglobulinemia D con febbre periodica</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="it">Malattia</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="it">Sottotipo clinico</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -963,7 +982,7 @@
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324960</ExpertLink>
                             <Name lang="it">Sindrome da febbre periodica di causa sconosciuta dell'infanzia</Name>
                             <DisorderType id="36561">
-                              <Name lang="it">Category</Name>
+                              <Name lang="it">Categoria</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
@@ -989,7 +1008,7 @@
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324942</ExpertLink>
                         <Name lang="it">Sindrome autoinfiammatoria piogenica dell'infanzia</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="7">
@@ -1085,7 +1104,7 @@
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324950</ExpertLink>
                         <Name lang="it">Sindrome autoinfiammatoria granulomatosa dell'infanzia</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -1121,10 +1140,10 @@
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324953</ExpertLink>
                         <Name lang="it">Sindrome autoinfiammatoria non classificata dell'infanzia</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="703">
                             <OrphaCode>117</OrphaCode>
@@ -1142,18 +1161,6 @@
                             <OrphaCode>251307</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=251307</ExpertLink>
                             <Name lang="it">Pericardite idiopatica ricorrente</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21819">
-                            <OrphaCode>324977</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324977</ExpertLink>
-                            <Name lang="it">Sindrome da disfunzione del proteosoma</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1200,15 +1207,27 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="3057">
+                        <OrphaCode>3243</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3243</ExpertLink>
+                        <Name lang="it">Sindrome di Sweet</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="25241">
                         <OrphaCode>481671</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=481671</ExpertLink>
                         <Name lang="it">Interferonopatia tipo 1 dell'infanzia</Name>
                         <DisorderType id="36561">
-                          <Name lang="it">Category</Name>
+                          <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="12">
+                      <ClassificationNodeChildList count="13">
                         <ClassificationNode>
                           <Disorder id="1309">
                             <OrphaCode>51</OrphaCode>
@@ -1346,6 +1365,18 @@
                             <OrphaCode>481665</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=481665</ExpertLink>
                             <Name lang="it">Deficit di UPS18</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31416">
+                            <OrphaCode>619367</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=619367</ExpertLink>
+                            <Name lang="it">Sindrome autoinfiammatoria correlata a SAMD9L</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>

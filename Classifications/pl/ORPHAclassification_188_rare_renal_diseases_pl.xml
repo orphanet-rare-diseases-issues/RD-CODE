@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2021-07-02 08:43:10" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:41:19" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="188">
       <OrphaNumber>162715</OrphaNumber>
@@ -1263,7 +1270,7 @@
                       <Disorder id="2577">
                         <OrphaCode>2838</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2838</ExpertLink>
-                        <Name lang="pl">Torbiel nerkowa miedniczkopochodna - głuchota</Name>
+                        <Name lang="pl">Zespół uchyłków kielicha nerkowego i głuchoty</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -2667,7 +2674,7 @@
                       <Disorder id="12169">
                         <OrphaCode>93114</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93114</ExpertLink>
-                        <Name lang="pl">Autosomalna dominująca pośrednia choroba Charcot,Marie i Tooth typu E</Name>
+                        <Name lang="pl">Polineuropatia  Charcot, Marie i Tooth typu E o dziedziczeniu autosomalnym dominującym</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -3096,7 +3103,19 @@
                   <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="15">
+              <ClassificationNodeChildList count="23">
+                <ClassificationNode>
+                  <Disorder id="1682">
+                    <OrphaCode>1515</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1515</ExpertLink>
+                    <Name lang="pl">Dysplazja czaszkowo-ektodermalna</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="97">
                     <OrphaCode>731</OrphaCode>
@@ -3254,6 +3273,66 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="519">
+                    <OrphaCode>2318</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2318</ExpertLink>
+                    <Name lang="pl">Zespół Joubert z wadą narządu wzroku i nerek</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="17013">
+                    <OrphaCode>140976</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=140976</ExpertLink>
+                    <Name lang="pl">Zespół RHYNS</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2824">
+                    <OrphaCode>3156</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3156</ExpertLink>
+                    <Name lang="pl">Zespół  Seniora i Lokena</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="11612">
+                    <OrphaCode>84081</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=84081</ExpertLink>
+                    <Name lang="pl">Zespół Seniora i Boichisa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="287">
+                    <OrphaCode>289</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=289</ExpertLink>
+                    <Name lang="pl">Zespół Ellisa Van Crevelda</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pl">Zespół wad wrodzonych</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="823">
                     <OrphaCode>730</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=730</ExpertLink>
@@ -3263,6 +3342,114 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10332">
+                    <OrphaCode>34149</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34149</ExpertLink>
+                    <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek z lub bez hiperurykemii</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="4">
+                    <ClassificationNode>
+                      <Disorder id="12168">
+                        <OrphaCode>93111</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93111</ExpertLink>
+                        <Name lang="pl">Zespół torbiele nerek i cukrzyca</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11881">
+                        <OrphaCode>88949</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=88949</ExpertLink>
+                        <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek bez hiperurykemii</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11882">
+                        <OrphaCode>88950</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=88950</ExpertLink>
+                        <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek z hiperurykemią</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="18845">
+                        <OrphaCode>217330</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217330</ExpertLink>
+                        <Name lang="pl">Hiperurykemia - niedokrwistość - niewydolność nerek</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="3549">
+                    <OrphaCode>655</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=655</ExpertLink>
+                    <Name lang="pl">Nefronoftyza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="12425">
+                        <OrphaCode>93589</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93589</ExpertLink>
+                        <Name lang="pl">Nefronoftyza o późnym początku</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="12426">
+                        <OrphaCode>93591</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93591</ExpertLink>
+                        <Name lang="pl">Nefronoftyza dziecięca</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="12427">
+                        <OrphaCode>93592</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93592</ExpertLink>
+                        <Name lang="pl">Nefronoftyza młodzieńcza</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -3288,7 +3475,7 @@
                   <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="29">
+              <ClassificationNodeChildList count="31">
                 <ClassificationNode>
                   <Disorder id="94">
                     <OrphaCode>324</OrphaCode>
@@ -4142,10 +4329,34 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="21781">
+                    <OrphaCode>324525</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324525</ExpertLink>
+                    <Name lang="pl">Kardiomiopatia przerostowa i choroba kanalików nerkowych spowodowana mutacjami mitochondrialnego DNA</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="19815">
                     <OrphaCode>255249</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=255249</ExpertLink>
                     <Name lang="pl">Zespół Leigha z zespołem nerczycowym</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31442">
+                    <OrphaCode>620371</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620371</ExpertLink>
+                    <Name lang="pl">Tubulopatia nerkowa podobna do zespołu Gitelmana związana z mutacją w mitochondrialnym DNA</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -4164,7 +4375,7 @@
                   <Name lang="pl">Kategoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="40">
+              <ClassificationNodeChildList count="38">
                 <ClassificationNode>
                   <Disorder id="1587">
                     <OrphaCode>1380</OrphaCode>
@@ -4194,54 +4405,6 @@
                     <OrphaCode>64</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=64</ExpertLink>
                     <Name lang="pl">Zespół Alströma</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="1682">
-                    <OrphaCode>1515</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1515</ExpertLink>
-                    <Name lang="pl">Dysplazja czaszkowo-ektodermalna</Name>
-                    <DisorderType id="21401">
-                      <Name lang="pl">Zespół wad wrodzonych</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="11612">
-                    <OrphaCode>84081</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=84081</ExpertLink>
-                    <Name lang="pl">Zespół Seniora i Boichisa</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="17012">
-                    <OrphaCode>140969</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=140969</ExpertLink>
-                    <Name lang="pl">Zespół Saldino i Mainzera</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="17013">
-                    <OrphaCode>140976</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=140976</ExpertLink>
-                    <Name lang="pl">Zespół RHYNS</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -4294,7 +4457,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="3719">
                         <OrphaCode>1652</OrphaCode>
@@ -4329,6 +4492,18 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19477">
+                        <OrphaCode>244305</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=244305</ExpertLink>
+                        <Name lang="pl">Dominująca hipofosfatemia z kamicą nerkową lub osteoporozą</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -4426,24 +4601,12 @@
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
+                  <ClassificationNodeChildList count="5">
                     <ClassificationNode>
                       <Disorder id="11913">
                         <OrphaCode>89938</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=89938</ExpertLink>
                         <Name lang="pl">Dziecięcy zespół Barttera z głuchotą zmysłowo-nerwową</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12437">
-                        <OrphaCode>93604</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93604</ExpertLink>
-                        <Name lang="pl">Prenatalny zespół Battera</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -4468,6 +4631,30 @@
                         <OrphaCode>570371</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=570371</ExpertLink>
                         <Name lang="pl">Przemijający przedporodowy zespół Barttera</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31438">
+                        <OrphaCode>620217</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620217</ExpertLink>
+                        <Name lang="pl">Zespół Barttera typu 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31439">
+                        <OrphaCode>620220</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620220</ExpertLink>
+                        <Name lang="pl">Zespół Barttera typu 2</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -4538,135 +4725,15 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10344">
-                    <OrphaCode>34526</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34526</ExpertLink>
-                    <Name lang="pl">Rodzinna pierwotna hipomagnezemia</Name>
-                    <DisorderType id="36561">
-                      <Name lang="pl">Kategoria</Name>
+                  <Disorder id="10346">
+                    <OrphaCode>34528</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34528</ExpertLink>
+                    <Name lang="pl">Autosomalna dominująca pierwotna hipomagnezemia z hipokalcurią</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="28399">
-                        <OrphaCode>564178</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=564178</ExpertLink>
-                        <Name lang="pl">Pierwotna hipomagnezemia z napadami opornymi na leczenie i niepełnosprawnością intelektualną</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21222">
-                        <OrphaCode>306516</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306516</ExpertLink>
-                        <Name lang="pl">Rodzinna pierwotna hipomagnezemia z hiperkalciurią i nefrokalcynozą</Name>
-                        <DisorderType id="21436">
-                          <Name lang="pl">Grupa fenomenów</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="2078">
-                            <OrphaCode>2196</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2196</ExpertLink>
-                            <Name lang="pl">Pierwotna hipomagnezemia rodzinna z hiperkalciurią i nefrokalcynozą z ciężkim zajęciem narządu wzroku</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="9284">
-                            <OrphaCode>31043</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31043</ExpertLink>
-                            <Name lang="pl">Pierwotna hipomagnezemia rodzinna z hiperkalciurią i nefrokalcynozą bez ciężkiego uszkodzenia oczu</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21223">
-                        <OrphaCode>306519</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306519</ExpertLink>
-                        <Name lang="pl">Rodzinna pierwotna hipomagnezemia z hipokalciurią</Name>
-                        <DisorderType id="21436">
-                          <Name lang="pl">Grupa fenomenów</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="1">
-                        <ClassificationNode>
-                          <Disorder id="10346">
-                            <OrphaCode>34528</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34528</ExpertLink>
-                            <Name lang="pl">Autosomalna dominująca pierwotna hipomagnezemia z hipokalcurią</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21224">
-                        <OrphaCode>306522</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306522</ExpertLink>
-                        <Name lang="pl">Rodzinna pierwotna hipomagnezemia z normokalciurią</Name>
-                        <DisorderType id="21436">
-                          <Name lang="pl">Grupa fenomenów</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="3">
-                        <ClassificationNode>
-                          <Disorder id="9282">
-                            <OrphaCode>30924</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=30924</ExpertLink>
-                            <Name lang="pl">Hipomagnezemia pierwotna z wtórną hipokalcemią</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10345">
-                            <OrphaCode>34527</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34527</ExpertLink>
-                            <Name lang="pl">Rodzinna pierwotna hipomagnezemia z normokalcurią i normokalcemią</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="18401">
-                            <OrphaCode>199326</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=199326</ExpertLink>
-                            <Name lang="pl">Izolowana autosomalnie dominująca hipomagnezemia, typ Glaudemansa</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -4814,66 +4881,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10332">
-                    <OrphaCode>34149</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=34149</ExpertLink>
-                    <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek z lub bez hiperurykemii</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="12168">
-                        <OrphaCode>93111</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93111</ExpertLink>
-                        <Name lang="pl">Zespół torbiele nerek i cukrzyca</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11881">
-                        <OrphaCode>88949</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=88949</ExpertLink>
-                        <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek bez hiperurykemii</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11882">
-                        <OrphaCode>88950</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=88950</ExpertLink>
-                        <Name lang="pl">Autosomalna dominująca torbielowatość rdzenia nerek z hiperurykemią</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="18845">
-                        <OrphaCode>217330</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=217330</ExpertLink>
-                        <Name lang="pl">Hiperurykemia - niedokrwistość - niewydolność nerek</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="19271">
                     <OrphaCode>238517</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238517</ExpertLink>
@@ -4942,7 +4949,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="4">
                     <ClassificationNode>
                       <Disorder id="555">
                         <OrphaCode>2785</OrphaCode>
@@ -5049,18 +5056,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21781">
-                        <OrphaCode>324525</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324525</ExpertLink>
-                        <Name lang="pl">Kardiomiopatia przerostowa i choroba kanalików nerkowych z powodu mutacji mitochondrialnego DNA</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -5222,6 +5217,90 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="9282">
+                    <OrphaCode>30924</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=30924</ExpertLink>
+                    <Name lang="pl">Hipomagnezemia pierwotna z wtórną hipokalcemią</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="18401">
+                    <OrphaCode>199326</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=199326</ExpertLink>
+                    <Name lang="pl">Izolowana autosomalnie dominująca hipomagnezemia, typ Glaudemansa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21222">
+                    <OrphaCode>306516</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=306516</ExpertLink>
+                    <Name lang="pl">Rodzinna pierwotna hipomagnezemia z hiperkalciurią i nefrokalcynozą</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="2078">
+                        <OrphaCode>2196</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2196</ExpertLink>
+                        <Name lang="pl">Pierwotna hipomagnezemia rodzinna z hiperkalciurią i nefrokalcynozą z ciężkim zajęciem narządu wzroku</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="9284">
+                        <OrphaCode>31043</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=31043</ExpertLink>
+                        <Name lang="pl">Pierwotna hipomagnezemia rodzinna z hiperkalciurią i nefrokalcynozą bez ciężkiego uszkodzenia oczu</Name>
+                        <DisorderType id="21450">
+                          <Name lang="pl">Podtyp kliniczny</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21781">
+                    <OrphaCode>324525</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=324525</ExpertLink>
+                    <Name lang="pl">Kardiomiopatia przerostowa i choroba kanalików nerkowych spowodowana mutacjami mitochondrialnego DNA</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28399">
+                    <OrphaCode>564178</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=564178</ExpertLink>
+                    <Name lang="pl">Pierwotna hipomagnezemia z napadami opornymi na leczenie i niepełnosprawnością intelektualną</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="26329">
                     <OrphaCode>505242</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=505242</ExpertLink>
@@ -5234,10 +5313,34 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="823">
-                    <OrphaCode>730</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=730</ExpertLink>
-                    <Name lang="pl">Autosomalna dominująca  wielotorbielowatość nerek</Name>
+                  <Disorder id="31440">
+                    <OrphaCode>620363</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620363</ExpertLink>
+                    <Name lang="pl">Zespół pierwotnej hipomagnezemii-uogólnionych drgawek-niepełnosprawności intelektualnej-otyłości</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31441">
+                    <OrphaCode>620368</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620368</ExpertLink>
+                    <Name lang="pl">Pierwotna hipomagnezemia związana z EGF, z niepełnosprawnością intelektualną</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31442">
+                    <OrphaCode>620371</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=620371</ExpertLink>
+                    <Name lang="pl">Tubulopatia nerkowa podobna do zespołu Gitelmana związana z mutacją w mitochondrialnym DNA</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -5258,96 +5361,12 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="519">
-                    <OrphaCode>2318</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2318</ExpertLink>
-                    <Name lang="pl">Zespół Joubert z wadą narządu wzroku i nerek</Name>
-                    <DisorderType id="21401">
-                      <Name lang="pl">Zespół wad wrodzonych</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="3549">
-                    <OrphaCode>655</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=655</ExpertLink>
-                    <Name lang="pl">Nefronoftyza</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="12425">
-                        <OrphaCode>93589</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93589</ExpertLink>
-                        <Name lang="pl">Nefronoftyza o późnym początku</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12426">
-                        <OrphaCode>93591</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93591</ExpertLink>
-                        <Name lang="pl">Nefronoftyza dziecięca</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12427">
-                        <OrphaCode>93592</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93592</ExpertLink>
-                        <Name lang="pl">Nefronoftyza młodzieńcza</Name>
-                        <DisorderType id="21450">
-                          <Name lang="pl">Podtyp kliniczny</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2824">
-                    <OrphaCode>3156</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3156</ExpertLink>
-                    <Name lang="pl">Zespół  Seniora i Lokena</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="27494">
                     <OrphaCode>528105</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=528105</ExpertLink>
                     <Name lang="pl">Zespół hipohydrozy-zaburzeń elektrolitowych-niewydolności gruczołu łzowego-rybiej łuski-suchości jamy ustnej</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="23618">
-                    <OrphaCode>449395</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=449395</ExpertLink>
-                    <Name lang="pl">Choroba nerek związana z IgG4</Name>
-                    <DisorderType id="21450">
-                      <Name lang="pl">Podtyp kliniczny</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -6029,7 +6048,7 @@
                   <Disorder id="22928">
                     <OrphaCode>404476</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=404476</ExpertLink>
-                    <Name lang="pl">Zespół całościowe opóźnienie w rozwoju-torbiele płucne-przerost-guz Wilmsa</Name>
+                    <Name lang="pl">Zespół całościowego opóźnienia w rozwoju, torbieli płucnych, przerostu ciała i guza Wilmsa</Name>
                     <DisorderType id="21401">
                       <Name lang="pl">Zespół wad wrodzonych</Name>
                     </DisorderType>

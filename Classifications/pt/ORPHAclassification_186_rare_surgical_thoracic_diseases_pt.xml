@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 09:09:46" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:40:17" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="186">
       <OrphaNumber>162709</OrphaNumber>
@@ -294,8 +301,8 @@
                     <OrphaCode>2257</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2257</ExpertLink>
                     <Name lang="pt">Hipoplasia pulmonar primária familiar</Name>
-                    <DisorderType id="21401">
-                      <Name lang="pt">Síndrome malformativo</Name>
+                    <DisorderType id="21415">
+                      <Name lang="pt">Anomalia morfológica</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -569,7 +576,7 @@
                   <Disorder id="2233">
                     <OrphaCode>2407</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2407</ExpertLink>
-                    <Name lang="pt">Síndrome LOGIC</Name>
+                    <Name lang="pt">Síndrome laringo-onico-cutâneo</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>
@@ -581,7 +588,7 @@
                   <Disorder id="3423">
                     <OrphaCode>2745</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2745</ExpertLink>
-                    <Name lang="pt">Síndrome de Opitz BBB/G</Name>
+                    <Name lang="pt">Síndrome Opitz GBBB</Name>
                     <DisorderType id="21401">
                       <Name lang="pt">Síndrome malformativo</Name>
                     </DisorderType>
@@ -1080,7 +1087,19 @@
                   <Name lang="pt">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="10">
+              <ClassificationNodeChildList count="11">
+                <ClassificationNode>
+                  <Disorder id="31460">
+                    <OrphaCode>622925</OrphaCode>
+                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=622925</ExpertLink>
+                    <Name lang="pt">Aneurisma e disseção da aorta torácica sindrómica grave ligada ao X</Name>
+                    <DisorderType id="21401">
+                      <Name lang="pt">Síndrome malformativo</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="109">
                     <OrphaCode>558</OrphaCode>
@@ -1133,7 +1152,7 @@
                   <Disorder id="4042">
                     <OrphaCode>286</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=286</ExpertLink>
-                    <Name lang="pt">Síndrome de Ehlers-Danlos tipo 4</Name>
+                    <Name lang="pt">Síndrome Ehlers-Danlos vascular</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>

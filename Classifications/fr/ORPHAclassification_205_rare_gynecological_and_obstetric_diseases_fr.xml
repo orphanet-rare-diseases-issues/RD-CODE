@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 08:49:00" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:51:46" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="205">
       <OrphaNumber>162982</OrphaNumber>
@@ -301,7 +308,7 @@
                           <Disorder id="18763">
                             <OrphaCode>213726</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=213726</ExpertLink>
-                            <Name lang="fr">Carcinome papillaire du corps de l'utérus</Name>
+                            <Name lang="fr">Carcinome séreux du corps de l'utérus</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -858,7 +865,7 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="8">
+                          <ClassificationNodeChildList count="7">
                             <ClassificationNode>
                               <Disorder id="18500">
                                 <OrphaCode>206473</OrphaCode>
@@ -888,18 +895,6 @@
                                 <OrphaCode>213512</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=213512</ExpertLink>
                                 <Name lang="fr">Tumeur maligne mixte müllérienne de l'ovaire</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="22495">
-                                <OrphaCode>370396</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=370396</ExpertLink>
-                                <Name lang="fr">Carcinome à petites cellules de l'ovaire</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -966,7 +961,19 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
+                            <ClassificationNode>
+                              <Disorder id="22495">
+                                <OrphaCode>370396</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=370396</ExpertLink>
+                                <Name lang="fr">Carcinome à petites cellules de l'ovaire</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="10400">
                                 <OrphaCode>35807</OrphaCode>
@@ -1291,12 +1298,132 @@
               <Disorder id="17510">
                 <OrphaCode>163637</OrphaCode>
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=163637</ExpertLink>
-                <Name lang="fr">Condition rare associée à la grossesse et la perinatalité</Name>
+                <Name lang="fr">Maladie rare lié à la grossesse et la perinatalité</Name>
                 <DisorderType id="36561">
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="12">
+              <ClassificationNodeChildList count="16">
+                <ClassificationNode>
+                  <Disorder id="5517">
+                    <OrphaCode>80</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=80</ExpertLink>
+                    <Name lang="fr">Syndrome des antiphospholipides</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31341">
+                    <OrphaCode>617307</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617307</ExpertLink>
+                    <Name lang="fr">Maladie rare liée à la grossesse gémellaire monochoriale</Name>
+                    <DisorderType id="36561">
+                      <Name lang="fr">Catégorie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="31342">
+                        <OrphaCode>617310</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617310</ExpertLink>
+                        <Name lang="fr">Maladie rare due à une anomalie de transfusion sanguine inter-gémellaire</Name>
+                        <DisorderType id="36561">
+                          <Name lang="fr">Catégorie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="12590">
+                            <OrphaCode>95431</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95431</ExpertLink>
+                            <Name lang="fr">Syndrome de transfusion foeto-foetale</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31337">
+                            <OrphaCode>617294</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617294</ExpertLink>
+                            <Name lang="fr">Séquence anémie-polycythémie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31338">
+                            <OrphaCode>617297</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617297</ExpertLink>
+                            <Name lang="fr">Séquence de perfusion artérielle inversée</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31343">
+                        <OrphaCode>617313</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617313</ExpertLink>
+                        <Name lang="fr">Maladie rare due à un partage inadéquat du placenta</Name>
+                        <DisorderType id="36561">
+                          <Name lang="fr">Catégorie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="1">
+                        <ClassificationNode>
+                          <Disorder id="31339">
+                            <OrphaCode>617301</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617301</ExpertLink>
+                            <Name lang="fr">Retard de croissance intra-utérin sélectif</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31340">
+                    <OrphaCode>617304</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617304</ExpertLink>
+                    <Name lang="fr">Embolie de liquide amniotique</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31322">
+                    <OrphaCode>615970</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=615970</ExpertLink>
+                    <Name lang="fr">Intervillite chronique d'étiologie indéterminée</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="8610">
                     <OrphaCode>563</OrphaCode>
@@ -1726,7 +1853,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="7">
                     <ClassificationNode>
                       <Disorder id="1082">
                         <OrphaCode>1552</OrphaCode>
@@ -1804,18 +1931,6 @@
                         <OrphaCode>3411</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3411</ExpertLink>
                         <Name lang="fr">Syndrome d'utérus double-hémivagin-agénésie rénale</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12562">
-                        <OrphaCode>94095</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=94095</ExpertLink>
-                        <Name lang="fr">Syndrome de dysostose spondylo-costale-atrésie anale-malformation génito-urinaire</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -3613,7 +3728,7 @@
                           <Disorder id="324">
                             <OrphaCode>753</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=753</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit en 5-alpha-réductase</Name>
+                            <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit en 5-alpha-réductase de type 2</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>

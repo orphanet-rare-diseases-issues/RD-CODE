@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 08:48:25" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:47:34" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="199">
       <OrphaNumber>162964</OrphaNumber>
@@ -774,8 +781,8 @@
                     <OrphaCode>2346</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2346</ExpertLink>
                     <Name lang="fr">Syndrome angio-ostéo-hypertrophique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -784,8 +791,8 @@
                         <OrphaCode>90307</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90307</ExpertLink>
                         <Name lang="fr">Syndrome de Parkes Weber</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -796,8 +803,8 @@
                         <OrphaCode>90308</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90308</ExpertLink>
                         <Name lang="fr">Syndrome de Klippel-Trénaunay</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1042,7 +1049,19 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="13">
+                  <ClassificationNodeChildList count="14">
+                    <ClassificationNode>
+                      <Disorder id="31460">
+                        <OrphaCode>622925</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=622925</ExpertLink>
+                        <Name lang="fr">Anévrisme de l'aorte thoracique et dissection aortique, forme syndromique sévère liée à l'X</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="109">
                         <OrphaCode>558</OrphaCode>
@@ -1179,7 +1198,7 @@
                       <Disorder id="21905">
                         <OrphaCode>329191</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=329191</ExpertLink>
-                        <Name lang="fr">Syndrome de grande taille-scoliose-macrodactylie du gros orteil</Name>
+                        <Name lang="fr">Syndrome de grande taille-gros orteils longs-épiphyses surnuméraires multiples</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1203,7 +1222,7 @@
                       <Disorder id="25161">
                         <OrphaCode>477831</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=477831</ExpertLink>
-                        <Name lang="fr">Syndrome de dysmorphie craniofaciale-hyperélasticité de la peau-lésions de la substance blanche</Name>
+                        <Name lang="fr">Syndrome hypertrophique de Kosaki</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1426,7 +1445,7 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="57">
+                  <ClassificationNodeChildList count="58">
                     <ClassificationNode>
                       <Disorder id="1647">
                         <OrphaCode>1458</OrphaCode>
@@ -1899,7 +1918,7 @@
                       <Disorder id="17514">
                         <OrphaCode>163649</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=163649</ExpertLink>
-                        <Name lang="fr">Dysplasie spondylo-épiphysaire type Nishimura</Name>
+                        <Name lang="fr">Syndrome de dysplasie spondylo-épiphysaire-craniosynostose-fente palatine-cataracte-déficience intellectuelle</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1911,7 +1930,7 @@
                       <Disorder id="17515">
                         <OrphaCode>163654</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=163654</ExpertLink>
-                        <Name lang="fr">Dysplasie spondylo-épiphysaire type Cantu</Name>
+                        <Name lang="fr">Syndrome de dysplasie spondylo-épiphysaire-brachydactylie-trouble du langage</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -2106,6 +2125,18 @@
                         <Name lang="fr">Syndrome EVEN-plus</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="30689">
+                        <OrphaCode>611207</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=611207</ExpertLink>
+                        <Name lang="fr">Syndrome de dysplasie spondyloépiphysaire-surdité neurosensorielle-déficience intellectuelle-amaurose congénitale de Leber</Name>
+                        <DisorderType id="21422">
+                          <Name lang="fr">Syndrome clinique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -2878,7 +2909,19 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="13">
+                    <ClassificationNode>
+                      <Disorder id="31461">
+                        <OrphaCode>622934</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=622934</ExpertLink>
+                        <Name lang="fr">Dysplasie spondylo-métaphysaire néonatale sévère liée à SBDS</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="553">
                         <OrphaCode>2746</OrphaCode>
@@ -3130,7 +3173,19 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="14">
+                  <ClassificationNodeChildList count="15">
+                    <ClassificationNode>
+                      <Disorder id="31467">
+                        <OrphaCode>623695</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=623695</ExpertLink>
+                        <Name lang="fr">Dysplasie spondylo-épiphysaire liée à MIR140</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="24011">
                         <OrphaCode>464288</OrphaCode>
@@ -3454,7 +3509,7 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="22">
+                  <ClassificationNodeChildList count="23">
                     <ClassificationNode>
                       <Disorder id="1043">
                         <OrphaCode>240</OrphaCode>
@@ -3756,6 +3811,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="30691">
+                        <OrphaCode>611223</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=611223</ExpertLink>
+                        <Name lang="fr">Syndrome dorsoventral lié à EN1</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="28932">
                         <OrphaCode>580940</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=580940</ExpertLink>
@@ -3910,7 +3977,7 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="17">
+                  <ClassificationNodeChildList count="16">
                     <ClassificationNode>
                       <Disorder id="2185">
                         <OrphaCode>2333</OrphaCode>
@@ -3990,18 +4057,6 @@
                         <Name lang="fr">Syndrome de petite taille-onychodysplasie-dysmorphie faciale-hypotrichose</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="22433">
-                        <OrphaCode>369837</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=369837</ExpertLink>
-                        <Name lang="fr">Syndrome de déficience intellectuelle-épilepsie-hypophosphatasie-anomalies ophtalmiques et squelettiques</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -4796,7 +4851,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="20">
+                      <ClassificationNodeChildList count="21">
                         <ClassificationNode>
                           <Disorder id="12544">
                             <OrphaCode>94063</OrphaCode>
@@ -5032,6 +5087,18 @@
                             <Name lang="fr">Leucoencéphalopathie calcifiante-dysplasie squelettique à début précoce</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="30614">
+                            <OrphaCode>603494</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=603494</ExpertLink>
+                            <Name lang="fr">Syndrome de colobome-microphtalmie-macrocéphalie-albinisme-surdité</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -5499,7 +5566,7 @@
                       <Disorder id="11650">
                         <OrphaCode>85192</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85192</ExpertLink>
-                        <Name lang="fr">Syndrome de lésions en anneau de la voûte cranienne-fragilité osseuse</Name>
+                        <Name lang="fr">Syndrome de lésions en anneau de la voûte crânienne-fragilité osseuse</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -5698,7 +5765,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="1614">
                         <OrphaCode>1416</OrphaCode>
@@ -5904,18 +5971,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="19477">
-                        <OrphaCode>244305</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=244305</ExpertLink>
-                        <Name lang="fr">Hypophosphatémie dominante avec néphrolithiase ou ostéoporose</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="20698">
                         <OrphaCode>289098</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=289098</ExpertLink>
@@ -5934,7 +5989,19 @@
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
+                            <ClassificationNode>
+                              <Disorder id="19477">
+                                <OrphaCode>244305</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=244305</ExpertLink>
+                                <Name lang="fr">Hypophosphatémie dominante avec néphrolithiase ou ostéoporose</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="3719">
                                 <OrphaCode>1652</OrphaCode>
@@ -6123,7 +6190,7 @@
                       <Disorder id="1899">
                         <OrphaCode>1952</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1952</ExpertLink>
-                        <Name lang="fr">Dysplasie de Pacman</Name>
+                        <Name lang="fr">Syndrome épiphyses ponctuées-hyperplasie ostéoclastique</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -6682,7 +6749,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="7">
+                  <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="19622">
                         <OrphaCode>251290</OrphaCode>
@@ -6750,18 +6817,6 @@
                         <Name lang="fr">Syndrome de craniosynostose-anomalies anales-porokératose</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="18404">
-                        <OrphaCode>199337</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=199337</ExpertLink>
-                        <Name lang="fr">Syndrome d'insuffisance pancréatique-anémie-hyperostose</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -6891,94 +6946,214 @@
                       <Disorder id="16882">
                         <OrphaCode>139390</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=139390</ExpertLink>
-                        <Name lang="fr">Craniosynostose isoléee</Name>
+                        <Name lang="fr">Craniosynostose non syndromique</Name>
                         <DisorderType id="21436">
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
+                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
-                          <Disorder id="521">
-                            <OrphaCode>2343</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2343</ExpertLink>
-                            <Name lang="fr">Crâne en trèfle isolé</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
+                          <Disorder id="31425">
+                            <OrphaCode>620096</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620096</ExpertLink>
+                            <Name lang="fr">Craniosynostose unisuturaire non syndromique</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="6">
+                            <ClassificationNode>
+                              <Disorder id="31426">
+                                <OrphaCode>620102</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620102</ExpertLink>
+                                <Name lang="fr">Craniosynostose coronale unilatérale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31427">
+                                <OrphaCode>620113</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620113</ExpertLink>
+                                <Name lang="fr">Craniosynostose lambdoïde unilatérale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31428">
+                                <OrphaCode>620139</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620139</ExpertLink>
+                                <Name lang="fr">Craniosynostose frontosphénoïdale unilatérale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31429">
+                                <OrphaCode>620146</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620146</ExpertLink>
+                                <Name lang="fr">Craniosynostose squameuse unilatérale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="2983">
+                                <OrphaCode>3366</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3366</ExpertLink>
+                                <Name lang="fr">Craniosynostose métopique non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10367">
+                                <OrphaCode>35093</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35093</ExpertLink>
+                                <Name lang="fr">Craniosynostose sagittale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2918">
-                            <OrphaCode>3267</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3267</ExpertLink>
-                            <Name lang="fr">Synostose lambdoïde familiale</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
+                          <Disorder id="31430">
+                            <OrphaCode>620152</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620152</ExpertLink>
+                            <Name lang="fr">Craniosynostose multisuturaire non syndromique</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2983">
-                            <OrphaCode>3366</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3366</ExpertLink>
-                            <Name lang="fr">Trigonocéphalie isolée</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10367">
-                            <OrphaCode>35093</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35093</ExpertLink>
-                            <Name lang="fr">Scaphocéphalie isolée</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10368">
-                            <OrphaCode>35098</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35098</ExpertLink>
-                            <Name lang="fr">Plagiocéphalie isolée</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10369">
-                            <OrphaCode>35099</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35099</ExpertLink>
-                            <Name lang="fr">Brachycéphalie isolée</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10822">
-                            <OrphaCode>63440</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=63440</ExpertLink>
-                            <Name lang="fr">Oxycéphalie isolée</Name>
-                            <DisorderType id="21415">
-                              <Name lang="fr">Anomalie morphologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="9">
+                            <ClassificationNode>
+                              <Disorder id="31431">
+                                <OrphaCode>620158</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620158</ExpertLink>
+                                <Name lang="fr">Craniosynostose multisuturaire non syndromique non spécifique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31432">
+                                <OrphaCode>620178</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620178</ExpertLink>
+                                <Name lang="fr">Craniosynostose lambdoïde bilatérale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31433">
+                                <OrphaCode>620186</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620186</ExpertLink>
+                                <Name lang="fr">Craniosynostose unicoronale et sagittale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31434">
+                                <OrphaCode>620192</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620192</ExpertLink>
+                                <Name lang="fr">Craniosynostose métopique et sagittale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31435">
+                                <OrphaCode>620198</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620198</ExpertLink>
+                                <Name lang="fr">Craniosynostose bicoronale et métopique non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31436">
+                                <OrphaCode>620205</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620205</ExpertLink>
+                                <Name lang="fr">Craniosynostose bicoronale et sagittale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31437">
+                                <OrphaCode>620212</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=620212</ExpertLink>
+                                <Name lang="fr">Pansynostose non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10369">
+                                <OrphaCode>35099</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35099</ExpertLink>
+                                <Name lang="fr">Craniosynostose bicoronale non syndromique</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="fr">Anomalie morphologique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="1683">
+                                <OrphaCode>1516</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1516</ExpertLink>
+                                <Name lang="fr">Craniosynostose bilambdoïde et sagittale non syndromique</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -6992,12 +7167,24 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="41">
+                      <ClassificationNodeChildList count="61">
+                        <ClassificationNode>
+                          <Disorder id="10880">
+                            <OrphaCode>65798</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65798</ExpertLink>
+                            <Name lang="fr">Syndrome de Goodman</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="244">
                             <OrphaCode>207</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=207</ExpertLink>
-                            <Name lang="fr">Maladie de Crouzon</Name>
+                            <Name lang="fr">Syndrome de Crouzon</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7018,135 +7205,15 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="1265">
-                            <OrphaCode>946</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=946</ExpertLink>
-                            <Name lang="fr">Acro-céphalo-syndactylie</Name>
-                            <DisorderType id="21436">
-                              <Name lang="fr">Groupe clinique</Name>
+                          <Disorder id="261">
+                            <OrphaCode>87</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=87</ExpertLink>
+                            <Name lang="fr">Syndrome d'Apert</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="7">
-                            <ClassificationNode>
-                              <Disorder id="234">
-                                <OrphaCode>710</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=710</ExpertLink>
-                                <Name lang="fr">Syndrome de Pfeiffer</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="3">
-                                <ClassificationNode>
-                                  <Disorder id="12201">
-                                    <OrphaCode>93258</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93258</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 1</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="12202">
-                                    <OrphaCode>93259</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93259</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 2</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="12203">
-                                    <OrphaCode>93260</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93260</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 3</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="235">
-                                <OrphaCode>794</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=794</ExpertLink>
-                                <Name lang="fr">Syndrome de Saethre-Chotzen</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="261">
-                                <OrphaCode>87</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=87</ExpertLink>
-                                <Name lang="fr">Syndrome d'Apert</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="1699">
-                                <OrphaCode>1540</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1540</ExpertLink>
-                                <Name lang="fr">Syndrome de Jackson-Weiss</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="10879">
-                                <OrphaCode>65759</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65759</ExpertLink>
-                                <Name lang="fr">Syndrome de Carpenter</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="10880">
-                                <OrphaCode>65798</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65798</ExpertLink>
-                                <Name lang="fr">Syndrome de Goodman</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="2865">
-                                <OrphaCode>3210</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3210</ExpertLink>
-                                <Name lang="fr">Syndrome de Summitt</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -7234,10 +7301,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="1697">
-                            <OrphaCode>1533</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1533</ExpertLink>
-                            <Name lang="fr">Syndrome de craniosynostose-aplasie du péroné</Name>
+                          <Disorder id="1699">
+                            <OrphaCode>1540</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1540</ExpertLink>
+                            <Name lang="fr">Syndrome de Jackson-Weiss</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7426,6 +7493,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="19533">
+                            <OrphaCode>247651</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247651</ExpertLink>
+                            <Name lang="fr">Hypophosphatasie infantile</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="11657">
                             <OrphaCode>85199</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85199</ExpertLink>
@@ -7462,12 +7541,12 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="12896">
-                            <OrphaCode>97340</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=97340</ExpertLink>
-                            <Name lang="fr">Syndrome de Hunter-McAlpine</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
+                          <Disorder id="19532">
+                            <OrphaCode>247638</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247638</ExpertLink>
+                            <Name lang="fr">Hypophosphatasie prénatale bénigne</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -7558,18 +7637,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="18945">
-                            <OrphaCode>221120</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=221120</ExpertLink>
-                            <Name lang="fr">Syndrome pseudo-aminoptérine</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="20578">
                             <OrphaCode>284149</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=284149</ExpertLink>
@@ -7594,10 +7661,334 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="26077">
-                            <OrphaCode>502430</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=502430</ExpertLink>
-                            <Name lang="fr">Syndrome d'épaississement de la suture métopique-ptosis-dysmorphie faciale</Name>
+                          <Disorder id="19534">
+                            <OrphaCode>247667</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247667</ExpertLink>
+                            <Name lang="fr">Hypophosphatasie de l'enfant</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="206">
+                            <OrphaCode>648</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=648</ExpertLink>
+                            <Name lang="fr">Syndrome de Noonan</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11239">
+                            <OrphaCode>79213</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79213</ExpertLink>
+                            <Name lang="fr">Mucopolysaccharidose</Name>
+                            <DisorderType id="36561">
+                              <Name lang="fr">Catégorie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="7">
+                            <ClassificationNode>
+                              <Disorder id="131">
+                                <OrphaCode>580</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=580</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="18824">
+                                    <OrphaCode>217085</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=217085</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 2, forme sévère</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="18825">
+                                    <OrphaCode>217093</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=217093</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 2, forme atténuée</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="653">
+                                <OrphaCode>581</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=581</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 3</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="11295">
+                                    <OrphaCode>79269</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79269</ExpertLink>
+                                    <Name lang="fr">Maladie de Sanfilippo type A</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="11296">
+                                    <OrphaCode>79270</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79270</ExpertLink>
+                                    <Name lang="fr">Maladie de Sanfilippo type B</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="11297">
+                                    <OrphaCode>79271</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79271</ExpertLink>
+                                    <Name lang="fr">Maladie de Sanfilippo type C</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="11298">
+                                    <OrphaCode>79272</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79272</ExpertLink>
+                                    <Name lang="fr">Maladie de Sanfilippo type D</Name>
+                                    <DisorderType id="21443">
+                                      <Name lang="fr">Sous-type étiologique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="872">
+                                <OrphaCode>582</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=582</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 4</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="21370">
+                                    <OrphaCode>309310</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309310</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 4B</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="21369">
+                                    <OrphaCode>309297</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309297</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 4A</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="24">
+                                <OrphaCode>583</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=583</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 6</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="20356">
+                                    <OrphaCode>276212</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276212</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 6, forme rapidement progressive</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="20357">
+                                    <OrphaCode>276223</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276223</ExpertLink>
+                                    <Name lang="fr">Mucopolysaccharidose type 6, forme lentement progressive</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="40">
+                                <OrphaCode>584</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=584</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 7</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="132">
+                                <OrphaCode>579</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=579</ExpertLink>
+                                <Name lang="fr">Mucopolysaccharidose type 1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="3">
+                                <ClassificationNode>
+                                  <Disorder id="12381">
+                                    <OrphaCode>93473</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93473</ExpertLink>
+                                    <Name lang="fr">Syndrome de Hurler</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="12382">
+                                    <OrphaCode>93474</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93474</ExpertLink>
+                                    <Name lang="fr">Syndrome de Scheie</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="12383">
+                                    <OrphaCode>93476</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93476</ExpertLink>
+                                    <Name lang="fr">Syndrome de Hurler-Scheie</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10901">
+                                <OrphaCode>67041</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=67041</ExpertLink>
+                                <Name lang="fr">Déficit en hyaluronidase</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="2420">
+                            <OrphaCode>2645</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2645</ExpertLink>
+                            <Name lang="fr">Dysplasie ostéoglophonique</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="145">
+                            <OrphaCode>904</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=904</ExpertLink>
+                            <Name lang="fr">Syndrome de Williams</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="2920">
+                            <OrphaCode>3270</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3270</ExpertLink>
+                            <Name lang="fr">Syndrome de synostose radio-cubitale-retard de développement-hypotonie</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="2865">
+                            <OrphaCode>3210</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3210</ExpertLink>
+                            <Name lang="fr">Syndrome de Summitt</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="22433">
+                            <OrphaCode>369837</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=369837</ExpertLink>
+                            <Name lang="fr">Syndrome de déficience intellectuelle-épilepsie-hypophosphatasie-anomalies ophtalmiques et squelettiques</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7618,10 +8009,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="1683">
-                            <OrphaCode>1516</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1516</ExpertLink>
-                            <Name lang="fr">Dyssynostose craniofaciale</Name>
+                          <Disorder id="1687">
+                            <OrphaCode>1520</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1520</ExpertLink>
+                            <Name lang="fr">Dysplasie cranio-fronto-nasale</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7630,10 +8021,106 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="23705">
-                            <OrphaCode>457193</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=457193</ExpertLink>
-                            <Name lang="fr">Syndrome de déficience intellectuelle autosomique dominante-anomalies craniofaciales-hypotonie-cardiopathie</Name>
+                          <Disorder id="20879">
+                            <OrphaCode>293843</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=293843</ExpertLink>
+                            <Name lang="fr">Syndrome 3MC</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="547">
+                            <OrphaCode>2655</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2655</ExpertLink>
+                            <Name lang="fr">Dysplasie thanatophore</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="1837">
+                                <OrphaCode>1860</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1860</ExpertLink>
+                                <Name lang="fr">Dysplasie thanatophore type 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="12216">
+                                <OrphaCode>93274</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93274</ExpertLink>
+                                <Name lang="fr">Dysplasie thanatophore type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="571">
+                            <OrphaCode>763</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=763</ExpertLink>
+                            <Name lang="fr">Pycnodysostose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="321">
+                            <OrphaCode>1465</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1465</ExpertLink>
+                            <Name lang="fr">Syndrome de Coffin-Siris</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="405">
+                            <OrphaCode>36</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=36</ExpertLink>
+                            <Name lang="fr">Syndrome acrocalleux</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="472">
+                            <OrphaCode>235</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=235</ExpertLink>
+                            <Name lang="fr">Syndrome de Dubowitz</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="12888">
+                            <OrphaCode>97297</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=97297</ExpertLink>
+                            <Name lang="fr">Syndrome de Bohring-Opitz</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7646,6 +8133,114 @@
                             <OrphaCode>565858</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=565858</ExpertLink>
                             <Name lang="fr">Syndrome de craniosynostose-microrétrognathie-déficience intellectuelle sévère</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="2184">
+                            <OrphaCode>2332</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2332</ExpertLink>
+                            <Name lang="fr">Syndrome KBG</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="12793">
+                            <OrphaCode>96169</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=96169</ExpertLink>
+                            <Name lang="fr">Syndrome de Koolen-De Vries</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="1868">
+                            <OrphaCode>1906</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1906</ExpertLink>
+                            <Name lang="fr">Embryofoetopathie au valproate</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="234">
+                            <OrphaCode>710</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=710</ExpertLink>
+                            <Name lang="fr">Syndrome de Pfeiffer</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="12201">
+                                <OrphaCode>93258</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93258</ExpertLink>
+                                <Name lang="fr">Syndrome de Pfeiffer type 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="12202">
+                                <OrphaCode>93259</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93259</ExpertLink>
+                                <Name lang="fr">Syndrome de Pfeiffer type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="12203">
+                                <OrphaCode>93260</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93260</ExpertLink>
+                                <Name lang="fr">Syndrome de Pfeiffer type 3</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="235">
+                            <OrphaCode>794</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=794</ExpertLink>
+                            <Name lang="fr">Syndrome de Saethre-Chotzen</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10879">
+                            <OrphaCode>65759</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65759</ExpertLink>
+                            <Name lang="fr">Syndrome de Carpenter</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -7678,12 +8273,12 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="11">
+                  <ClassificationNodeChildList count="12">
                     <ClassificationNode>
                       <Disorder id="1684">
                         <OrphaCode>1517</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1517</ExpertLink>
-                        <Name lang="fr">Ostéochondrodysplasie hypertrichotique type Cantu</Name>
+                        <Name lang="fr">Syndrome de Cantú</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -8268,6 +8863,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="21494">
+                        <OrphaCode>314555</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314555</ExpertLink>
+                        <Name lang="fr">Syndrome de dysmorphie faciale-anomalies oculaires-ostéopénie-déficience intellectuelle-anomalies dentaires</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="2914">
                         <OrphaCode>3262</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3262</ExpertLink>
@@ -8290,7 +8897,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="23">
+                  <ClassificationNodeChildList count="21">
                     <ClassificationNode>
                       <Disorder id="1042">
                         <OrphaCode>2311</OrphaCode>
@@ -8451,7 +9058,7 @@
                       <Disorder id="11631">
                         <OrphaCode>85164</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85164</ExpertLink>
-                        <Name lang="fr">Syndrome de camptodactylie-petite taille-scoliose-déficience auditive</Name>
+                        <Name lang="fr">Syndrome de camptodactylie-grande taille-scoliose-déficience auditive</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -8464,18 +9071,6 @@
                         <OrphaCode>85200</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=85200</ExpertLink>
                         <Name lang="fr">Syndrome ischio-vertébral</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12562">
-                        <OrphaCode>94095</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=94095</ExpertLink>
-                        <Name lang="fr">Syndrome de dysostose spondylo-costale-atrésie anale-malformation génito-urinaire</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -8499,19 +9094,7 @@
                       <Disorder id="21905">
                         <OrphaCode>329191</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=329191</ExpertLink>
-                        <Name lang="fr">Syndrome de grande taille-scoliose-macrodactylie du gros orteil</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21917">
-                        <OrphaCode>329252</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=329252</ExpertLink>
-                        <Name lang="fr">Syndrome de dysostose spondylo-costale-hypospadias-déficience intellectuelle</Name>
+                        <Name lang="fr">Syndrome de grande taille-gros orteils longs-épiphyses surnuméraires multiples</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -8602,7 +9185,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="392">
                         <OrphaCode>2614</OrphaCode>
@@ -8610,18 +9193,6 @@
                         <Name lang="fr">Syndrome nail-patella</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="727">
-                        <OrphaCode>1428</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1428</ExpertLink>
-                        <Name lang="fr">Chondromalacie patellaire familiale</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -8670,18 +9241,6 @@
                         <Name lang="fr">Pied bot familial dû à une mutation ponctuelle de PITX1</Name>
                         <DisorderType id="21443">
                           <Name lang="fr">Sous-type étiologique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="25800">
-                        <OrphaCode>495818</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=495818</ExpertLink>
-                        <Name lang="fr">Syndrome de microdélétion 9q33.3q34.11</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -8748,10 +9307,10 @@
                   </Disorder>
                   <ClassificationNodeChildList count="20">
                     <ClassificationNode>
-                      <Disorder id="25256">
-                        <OrphaCode>482606</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=482606</ExpertLink>
-                        <Name lang="fr">Syndrome lié à l'X de cicatrices chéloïdes-mobilité articulaire réduite-rapport excavation/disque optique accru</Name>
+                      <Disorder id="25400">
+                        <OrphaCode>488434</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=488434</ExpertLink>
+                        <Name lang="fr">Camptodactylie de Guadalajara type 3</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -8760,10 +9319,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="25400">
-                        <OrphaCode>488434</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=488434</ExpertLink>
-                        <Name lang="fr">Camptodactylie de Guadalajara type 3</Name>
+                      <Disorder id="2932">
+                        <OrphaCode>3292</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3292</ExpertLink>
+                        <Name lang="fr">Camptodactylie de Tel Hashomer</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -9174,7 +9733,7 @@
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="24">
+                          <ClassificationNodeChildList count="23">
                             <ClassificationNode>
                               <Disorder id="29437">
                                 <OrphaCode>589608</OrphaCode>
@@ -9216,18 +9775,6 @@
                                 <OrphaCode>444077</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=444077</ExpertLink>
                                 <Name lang="fr">Syndrome de déficit cognitif-traits grossiers du visage-malformations cardiaques-obésité-atteinte pulmonaire-petite taille</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="25675">
-                                <OrphaCode>494439</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=494439</ExpertLink>
-                                <Name lang="fr">Syndrome de rétinite pigmentaire-surdité-vieillissement prématuré-petite taille-dysmorphie faciale</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -10208,7 +10755,7 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="15">
+                      <ClassificationNodeChildList count="14">
                         <ClassificationNode>
                           <Disorder id="11083">
                             <OrphaCode>75496</OrphaCode>
@@ -10231,138 +10778,6 @@
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="1265">
-                            <OrphaCode>946</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=946</ExpertLink>
-                            <Name lang="fr">Acro-céphalo-syndactylie</Name>
-                            <DisorderType id="21436">
-                              <Name lang="fr">Groupe clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="7">
-                            <ClassificationNode>
-                              <Disorder id="234">
-                                <OrphaCode>710</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=710</ExpertLink>
-                                <Name lang="fr">Syndrome de Pfeiffer</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="3">
-                                <ClassificationNode>
-                                  <Disorder id="12201">
-                                    <OrphaCode>93258</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93258</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 1</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="12202">
-                                    <OrphaCode>93259</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93259</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 2</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="12203">
-                                    <OrphaCode>93260</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93260</ExpertLink>
-                                    <Name lang="fr">Syndrome de Pfeiffer type 3</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="235">
-                                <OrphaCode>794</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=794</ExpertLink>
-                                <Name lang="fr">Syndrome de Saethre-Chotzen</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="261">
-                                <OrphaCode>87</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=87</ExpertLink>
-                                <Name lang="fr">Syndrome d'Apert</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="1699">
-                                <OrphaCode>1540</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1540</ExpertLink>
-                                <Name lang="fr">Syndrome de Jackson-Weiss</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="10879">
-                                <OrphaCode>65759</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65759</ExpertLink>
-                                <Name lang="fr">Syndrome de Carpenter</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="10880">
-                                <OrphaCode>65798</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=65798</ExpertLink>
-                                <Name lang="fr">Syndrome de Goodman</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="2865">
-                                <OrphaCode>3210</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3210</ExpertLink>
-                                <Name lang="fr">Syndrome de Summitt</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -10880,7 +11295,7 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="50">
+                      <ClassificationNodeChildList count="49">
                         <ClassificationNode>
                           <Disorder id="25392">
                             <OrphaCode>488232</OrphaCode>
@@ -11494,18 +11909,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2956">
-                            <OrphaCode>3332</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3332</ExpertLink>
-                            <Name lang="fr">Syndrome de tibia hypoplasique-polydactylie</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="1549">
                             <OrphaCode>1326</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1326</ExpertLink>
@@ -11636,19 +12039,7 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="47">
-                        <ClassificationNode>
-                          <Disorder id="2956">
-                            <OrphaCode>3332</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3332</ExpertLink>
-                            <Name lang="fr">Syndrome de tibia hypoplasique-polydactylie</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="44">
                         <ClassificationNode>
                           <Disorder id="28585">
                             <OrphaCode>567502</OrphaCode>
@@ -12178,18 +12569,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2662">
-                            <OrphaCode>2950</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2950</ExpertLink>
-                            <Name lang="fr">Syndrome de pouce triphalangé-polysyndactylie</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="2668">
                             <OrphaCode>2957</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2957</ExpertLink>
@@ -12206,18 +12585,6 @@
                             <OrphaCode>3004</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3004</ExpertLink>
                             <Name lang="fr">Syndrome de polydactylie en miroir-segmentation vertébrale-anomalies des membres</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2804">
-                            <OrphaCode>3133</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3133</ExpertLink>
-                            <Name lang="fr">Syndrome de Say-Field-Coldwell</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -12687,7 +13054,7 @@
                       <Disorder id="1544">
                         <OrphaCode>1321</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1321</ExpertLink>
-                        <Name lang="fr">Syndrome de camptodactylie-dysplasie osseuse</Name>
+                        <Name lang="fr">Syndrome de camptodactylie-hyperplasie fibreuse-anomalies squelettiques</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -12699,7 +13066,7 @@
                       <Disorder id="1546">
                         <OrphaCode>1323</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1323</ExpertLink>
-                        <Name lang="fr">Syndrome de camptodactylie-raideur articulaire-anomalies osseuses de la face</Name>
+                        <Name lang="fr">Syndrome de camptodactylie-contractures articulaires-anomalies osseuses de la face</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>

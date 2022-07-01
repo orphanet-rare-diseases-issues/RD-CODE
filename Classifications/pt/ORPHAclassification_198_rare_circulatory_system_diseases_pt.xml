@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2021-07-02 09:10:40" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2022-06-14 07:47:07" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability> 
+    <Licence>
+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+    </Licence>
+  </Availability>
   <ClassificationList count="1">
     <Classification id="198">
       <OrphaNumber>162961</OrphaNumber>
@@ -111,7 +118,7 @@
                       <Disorder id="1511">
                         <OrphaCode>1276</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1276</ExpertLink>
-                        <Name lang="pt">Braquidactilia - hipertensão</Name>
+                        <Name lang="pt">Síndrome de braquidactilia-hipertensão arterial</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -414,7 +421,19 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="10">
+                          <ClassificationNodeChildList count="11">
+                            <ClassificationNode>
+                              <Disorder id="31460">
+                                <OrphaCode>622925</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=622925</ExpertLink>
+                                <Name lang="pt">Aneurisma e disseção da aorta torácica sindrómica grave ligada ao X</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="pt">Síndrome malformativo</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="109">
                                 <OrphaCode>558</OrphaCode>
@@ -467,7 +486,7 @@
                               <Disorder id="4042">
                                 <OrphaCode>286</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=286</ExpertLink>
-                                <Name lang="pt">Síndrome de Ehlers-Danlos tipo 4</Name>
+                                <Name lang="pt">Síndrome Ehlers-Danlos vascular</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -663,7 +682,7 @@
                       <Disorder id="8614">
                         <OrphaCode>838</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=838</ExpertLink>
-                        <Name lang="pt">Síndrome de Susac</Name>
+                        <Name lang="pt">Síndrome Susac</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>
@@ -995,7 +1014,7 @@
                               <Disorder id="11918">
                                 <OrphaCode>90000</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90000</ExpertLink>
-                                <Name lang="pt">Eritema elevatum diutinum</Name>
+                                <Name lang="pt">Eritema elevado diutino</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1204,8 +1223,8 @@
                         <OrphaCode>2346</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2346</ExpertLink>
                         <Name lang="pt">Síndrome angio-osteo-hipertrófico</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pt">Doença</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pt">Grupo de fenótipos</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -1214,8 +1233,8 @@
                             <OrphaCode>90307</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90307</ExpertLink>
                             <Name lang="pt">Síndrome de Parkes-Weber</Name>
-                            <DisorderType id="21450">
-                              <Name lang="pt">Subtipo clínico</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pt">Doença</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1226,8 +1245,8 @@
                             <OrphaCode>90308</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90308</ExpertLink>
                             <Name lang="pt">Síndrome de Klippel-Trenaunay</Name>
-                            <DisorderType id="21450">
-                              <Name lang="pt">Subtipo clínico</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pt">Doença</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
