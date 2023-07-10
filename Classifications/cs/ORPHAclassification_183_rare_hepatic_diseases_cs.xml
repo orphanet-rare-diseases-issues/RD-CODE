@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2022-06-14 07:38:03" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-21 18:08:52" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -144,7 +144,7 @@
                   <Disorder id="29788">
                     <OrphaCode>596937</OrphaCode>
                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=596937</ExpertLink>
-                    <Name lang="en">Portosinusoidal vascular disease</Name>
+                    <Name lang="cs">Portosinusoidální cévní onemocnění</Name>
                     <DisorderType id="21394">
                       <Name lang="cs">Onemocnění</Name>
                     </DisorderType>
@@ -154,7 +154,7 @@
                       <Disorder id="29789">
                         <OrphaCode>596941</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=596941</ExpertLink>
-                        <Name lang="en">Incomplete septal cirrhosis</Name>
+                        <Name lang="cs">Neúplná septální cirhóza</Name>
                         <DisorderType id="21457">
                           <Name lang="cs">Histopatologický podtyp</Name>
                         </DisorderType>
@@ -559,7 +559,7 @@
                   <Name lang="cs">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="41">
+              <ClassificationNodeChildList count="42">
                 <ClassificationNode>
                   <Disorder id="31389">
                     <OrphaCode>618899</OrphaCode>
@@ -1313,48 +1313,72 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="11256">
-                        <OrphaCode>79230</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=79230</ExpertLink>
-                        <Name lang="cs">Hemochromatóza, typ 2</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="16909">
-                        <OrphaCode>139491</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=139491</ExpertLink>
-                        <Name lang="cs">Hemochromatóza, typ 4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="18976">
-                        <OrphaCode>225123</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=225123</ExpertLink>
-                        <Name lang="cs">Hemochromatóza, typ 3</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="24056">
                         <OrphaCode>465508</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=465508</ExpertLink>
                         <Name lang="cs">Symptomatická forma hemochromatózy, typ 1</Name>
+                        <DisorderType id="21394">
+                          <Name lang="cs">Onemocnění</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31842">
+                        <OrphaCode>648569</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=648569</ExpertLink>
+                        <Name lang="en">Non-HFE-related hemochromatosis</Name>
+                        <DisorderType id="21436">
+                          <Name lang="cs">Klinická skupina</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="18976">
+                            <OrphaCode>225123</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=225123</ExpertLink>
+                            <Name lang="cs">Hemochromatóza, typ 3</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31821">
+                            <OrphaCode>647834</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647834</ExpertLink>
+                            <Name lang="en">SLC40A1-related hemochromatosis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11256">
+                            <OrphaCode>79230</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=79230</ExpertLink>
+                            <Name lang="cs">Hemochromatóza, typ 2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31843">
+                        <OrphaCode>648581</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=648581</ExpertLink>
+                        <Name lang="en">Digenic hemochromatosis</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -1842,6 +1866,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31841">
+                    <OrphaCode>648562</OrphaCode>
+                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=648562</ExpertLink>
+                    <Name lang="en">Ferroportin Disease</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>

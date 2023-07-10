@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:24:59" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:17:53" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -26,7 +26,7 @@
               <Disorder id="3553">
                 <OrphaCode>137</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=137</ExpertLink>
-                <Name lang="de">Glykosylierungs-Krankheit, kongenitale</Name>
+                <Name lang="de">Kongenitale Glykosylierungsstörung</Name>
                 <DisorderType id="36561">
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
@@ -363,7 +363,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="24178">
                             <OrphaCode>466926</OrphaCode>
@@ -419,18 +419,6 @@
                             <Name lang="de">B4GALT7-assoziiertes spondylodysplastisches Ehlers-Danlos-Syndrom</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12290">
-                            <OrphaCode>93359</OrphaCode>
-                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93359</ExpertLink>
-                            <Name lang="de">Spondyloepimetaphysäre Dysplasie mit Überstreckbarkeit der Gelenke</Name>
-                            <DisorderType id="21394">
-                              <Name lang="de">Krankheit</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -785,7 +773,7 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="22835">
                         <OrphaCode>401820</OrphaCode>
@@ -815,6 +803,18 @@
                         <OrphaCode>370933</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=370933</ExpertLink>
                         <Name lang="de">GM3-Synthase-Mangel</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22704">
+                        <OrphaCode>397922</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=397922</ExpertLink>
+                        <Name lang="de">Ferro-zerebro-kutanes Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2062,7 +2062,7 @@
                       <Disorder id="12">
                         <OrphaCode>333</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=333</ExpertLink>
-                        <Name lang="de">Farber-Lipogranulomatose</Name>
+                        <Name lang="de">Farber-Krankheit</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -3031,7 +3031,7 @@
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="4">
+              <ClassificationNodeChildList count="8">
                 <ClassificationNode>
                   <Disorder id="11215">
                     <OrphaCode>79189</OrphaCode>
@@ -3332,6 +3332,54 @@
                     </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31740">
+                    <OrphaCode>642954</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642954</ExpertLink>
+                    <Name lang="de">Ataxie, autosomal-rezessive, PEX16-assoziierte</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31741">
+                    <OrphaCode>642965</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642965</ExpertLink>
+                    <Name lang="de">Ataxie, autosomal-rezessive, PEX2-assoziierte</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="12592">
+                    <OrphaCode>95433</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95433</ExpertLink>
+                    <Name lang="de">Autosomal-rezessive spinozerebelläre Ataxie-Blindheit-Schwerhörigkeit-Syndrom</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19551">
+                    <OrphaCode>247815</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247815</ExpertLink>
+                    <Name lang="de">Ataxie, autosomal-rezessive, durch PEX10-Mangel</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -3464,7 +3512,7 @@
                           <Disorder id="17524">
                             <OrphaCode>163690</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=163690</ExpertLink>
-                            <Name lang="de">Hypotonie - Cystinurie-Syndrom</Name>
+                            <Name lang="de">Hypotonie-Cystinurie-Syndrom</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -3610,7 +3658,7 @@
                       <Disorder id="461">
                         <OrphaCode>147</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=147</ExpertLink>
-                        <Name lang="de">Carbamoyl-Phosphat-Synthetase-Mangel</Name>
+                        <Name lang="de">Carbamoyl-Phosphat-Synthetase 1-Mangel</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -3642,7 +3690,7 @@
                               <Disorder id="19525">
                                 <OrphaCode>247546</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247546</ExpertLink>
-                                <Name lang="de">Akute neonatale Zitrullinämie Typ 1</Name>
+                                <Name lang="de">Zitrullinämie Typ I, akute neonatale</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -3654,7 +3702,7 @@
                               <Disorder id="19526">
                                 <OrphaCode>247573</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247573</ExpertLink>
-                                <Name lang="de">Zitrullinämie, adulte, Typ 1</Name>
+                                <Name lang="de">Zitrullinämie Typ I, spät-beginnende</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -3790,7 +3838,7 @@
                       <Disorder id="31423">
                         <OrphaCode>619979</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=619979</ExpertLink>
-                        <Name lang="de">Entwicklungsverzögerung-Immunschwäche-Leukoenzephalopathie-Hypohomocysteinämie-Syndrom</Name>
+                        <Name lang="de">Entwicklungsverzögerung-Immundefekt-Leukoenzephalopathie-Hypohomocysteinämie-Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -3958,7 +4006,7 @@
                       <Disorder id="17780">
                         <OrphaCode>168598</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168598</ExpertLink>
-                        <Name lang="de">Demyelinisierung des Gehirns durch Methionin-Adenosyltransferase-Mangel</Name>
+                        <Name lang="de">Methionin-Adenosyltransferase I/III-Mangel</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -5466,7 +5514,7 @@
                               <Disorder id="10892">
                                 <OrphaCode>66634</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=66634</ExpertLink>
-                                <Name lang="de">Kardiomyopathie, dilatative - Ataxie</Name>
+                                <Name lang="de">Dilatative Kardiomyopathie mit Ataxie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -6622,7 +6670,7 @@
                       <Disorder id="11325">
                         <OrphaCode>79299</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79299</ExpertLink>
-                        <Name lang="de">Hyperinsulinismus durch Glukokinase-Mangel</Name>
+                        <Name lang="de">Hyperinsulinismus, kongenitaler, durch Glukokinase-Mangel</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -7129,7 +7177,7 @@
                               <Name lang="de">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="14">
+                          <ClassificationNodeChildList count="15">
                             <ClassificationNode>
                               <Disorder id="27441">
                                 <OrphaCode>527276</OrphaCode>
@@ -7183,59 +7231,11 @@
                                 <OrphaCode>506</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=506</ExpertLink>
                                 <Name lang="de">Leigh-Syndrom</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="de">Phenom-Gruppe</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
-                                <ClassificationNode>
-                                  <Disorder id="10945">
-                                    <OrphaCode>70472</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=70472</ExpertLink>
-                                    <Name lang="de">Laktatazidose, kongenitale, Typ Saguenay-Lac-St. Jean</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="10947">
-                                    <OrphaCode>70474</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=70474</ExpertLink>
-                                    <Name lang="de">Leigh-Syndrom - Kardiomyopathie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="19814">
-                                    <OrphaCode>255241</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=255241</ExpertLink>
-                                    <Name lang="de">Leigh-Syndrom mit Leukodystrophie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="19815">
-                                    <OrphaCode>255249</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=255249</ExpertLink>
-                                    <Name lang="de">Leigh-Syndrom mit nephrotischem Syndrom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -7259,7 +7259,7 @@
                                   <Name lang="de">Phenom-Gruppe</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="7">
+                              <ClassificationNodeChildList count="6">
                                 <ClassificationNode>
                                   <Disorder id="1427">
                                     <OrphaCode>1168</OrphaCode>
@@ -7289,18 +7289,6 @@
                                     <OrphaCode>254898</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=254898</ExpertLink>
                                     <Name lang="de">Schwerhörigkeit-Enzephaloneuropathie-Adipositas-Valvulopathie-Syndrom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="19815">
-                                    <OrphaCode>255249</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=255249</ExpertLink>
-                                    <Name lang="de">Leigh-Syndrom mit nephrotischem Syndrom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -7377,7 +7365,31 @@
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="31739">
+                                        <OrphaCode>642945</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642945</ExpertLink>
+                                        <Name lang="de">Perrault-Syndrom Typ 1</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="de">Klinischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31742">
+                                        <OrphaCode>642976</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642976</ExpertLink>
+                                        <Name lang="de">Perrault-Syndrom Typ 2</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="de">Klinischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -7492,7 +7504,7 @@
                                   <Disorder id="19738">
                                     <OrphaCode>254343</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=254343</ExpertLink>
-                                    <Name lang="de">Spastische Ataxie - Optikusatrophie - Dysarthrie, autosomal-rezessiv</Name>
+                                    <Name lang="de">Autosomal-rezessive spastische Ataxie-Optikusatrophie-Dysarthrie-Syndrom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -8642,6 +8654,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10945">
+                                <OrphaCode>70472</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=70472</ExpertLink>
+                                <Name lang="de">Laktatazidose, kongenitale, Typ Saguenay-Lac-St. Jean</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -8800,7 +8824,7 @@
                                   <Disorder id="12050">
                                     <OrphaCode>90641</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90641</ExpertLink>
-                                    <Name lang="de">Sensorineurale Schwerhörigkeit, nicht-syndromale, mitochondriale</Name>
+                                    <Name lang="de">Seltene mitochondriale nicht-syndromale sensorineurale Schwerhörigkeit</Name>
                                     <DisorderType id="21443">
                                       <Name lang="de">Ätiologischer Subtyp</Name>
                                     </DisorderType>
@@ -9303,7 +9327,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="5520">
                             <OrphaCode>2394</OrphaCode>
@@ -9431,6 +9455,18 @@
                             <Name lang="de">Spastik mit Hyperglyzinämie, im Kindesalter beginnend</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23546">
+                            <OrphaCode>447795</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=447795</ExpertLink>
+                            <Name lang="de">Lipoyl-Transferase 2-Mangel</Name>
+                            <DisorderType id="21408">
+                              <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -10409,7 +10445,7 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="16">
+                  <ClassificationNodeChildList count="17">
                     <ClassificationNode>
                       <Disorder id="429">
                         <OrphaCode>124</OrphaCode>
@@ -10669,6 +10705,18 @@
                         <Name lang="de">ITPA-assoziierte letale infantile neurologische Störung mit Katarakt und kardialer Beteiligung</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31670">
+                        <OrphaCode>633099</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=633099</ExpertLink>
+                        <Name lang="de">Phosphoribosylaminoimidazol-Carboxylase-Mangel</Name>
+                        <DisorderType id="21401">
+                          <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -12980,7 +13028,7 @@
                           <Disorder id="10673">
                             <OrphaCode>51208</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=51208</ExpertLink>
-                            <Name lang="de">Formiminoglutaminsäure-Krankheit</Name>
+                            <Name lang="de">Formiminoglutaminsäure-Azidurie</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -13407,7 +13455,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="8">
+                      <ClassificationNodeChildList count="9">
                         <ClassificationNode>
                           <Disorder id="504">
                             <OrphaCode>446</OrphaCode>
@@ -13489,48 +13537,72 @@
                               <Name lang="de">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
-                            <ClassificationNode>
-                              <Disorder id="11256">
-                                <OrphaCode>79230</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79230</ExpertLink>
-                                <Name lang="de">Hämochromatose Typ 2</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="16909">
-                                <OrphaCode>139491</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139491</ExpertLink>
-                                <Name lang="de">Hämochromatose Typ 4</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="18976">
-                                <OrphaCode>225123</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=225123</ExpertLink>
-                                <Name lang="de">Hämochromatose Typ 3</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="3">
                             <ClassificationNode>
                               <Disorder id="24056">
                                 <OrphaCode>465508</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=465508</ExpertLink>
-                                <Name lang="de">Hämochromatose Typ 1, symptomatische Form</Name>
+                                <Name lang="de">Symptomatische Form der HFE-Gen-assoziierten Hämochromatose</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31842">
+                                <OrphaCode>648569</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648569</ExpertLink>
+                                <Name lang="de">'Hämochromatose, nicht-HFE-assoziierte '</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="de">Phenom-Gruppe</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="3">
+                                <ClassificationNode>
+                                  <Disorder id="18976">
+                                    <OrphaCode>225123</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=225123</ExpertLink>
+                                    <Name lang="de">'Hämochromatose, TFR2-Gen-assoziierte'</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="de">Krankheit</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31821">
+                                    <OrphaCode>647834</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647834</ExpertLink>
+                                    <Name lang="de">'Hämochromatose, SLC40A1-Gen-assoziierte'</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="de">Krankheit</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="11256">
+                                    <OrphaCode>79230</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79230</ExpertLink>
+                                    <Name lang="de">'Hämochromatose, HJV oder HAMP-assoziierte '</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="de">Krankheit</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31843">
+                                <OrphaCode>648581</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648581</ExpertLink>
+                                <Name lang="de">'Hämochromatose, digene '</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -13545,6 +13617,18 @@
                             <OrphaCode>247790</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247790</ExpertLink>
                             <Name lang="de">FTH1-abhängige Eisenüberladung</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31841">
+                            <OrphaCode>648562</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648562</ExpertLink>
+                            <Name lang="de">Ferroportin-Krankheit</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -13664,7 +13748,7 @@
                           <Disorder id="31440">
                             <OrphaCode>620363</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=620363</ExpertLink>
-                            <Name lang="de">Primäre Hypomagnesiämie-generalisierte Krampfanfälle-intellektuelle Entwicklungsstörung-Adipositas-Syndrom</Name>
+                            <Name lang="de">Primäre Hypomagnesiämie-generalisierte Krampfanfälle-Intelligenzminderung-Adipositas-Syndrom</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -13676,7 +13760,7 @@
                           <Disorder id="31441">
                             <OrphaCode>620368</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=620368</ExpertLink>
-                            <Name lang="de">EGF-assoziierte primäre Hypomagnesiämie mit intellektueller Entwicklungsstörung</Name>
+                            <Name lang="de">EGF-assoziierte primäre Hypomagnesiämie mit Intelligenzminderung</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>

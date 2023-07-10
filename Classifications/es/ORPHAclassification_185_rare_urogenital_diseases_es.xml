@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:39:21" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:39:44" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -75,7 +75,7 @@
                           <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="18085">
                             <OrphaCode>180065</OrphaCode>
@@ -417,6 +417,18 @@
                             <OrphaCode>603515</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=603515</ExpertLink>
                             <Name lang="es">Hipospadias femenino aislado</Name>
+                            <DisorderType id="21415">
+                              <Name lang="es">Anomalía morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31814">
+                            <OrphaCode>647794</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=647794</ExpertLink>
+                            <Name lang="es">Seno urogenital persistente aislado</Name>
                             <DisorderType id="21415">
                               <Name lang="es">Anomalía morfológica</Name>
                             </DisorderType>
@@ -1604,7 +1616,7 @@
                           <Disorder id="1011">
                             <OrphaCode>243</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=243</ExpertLink>
-                            <Name lang="es">Disgenesia gonadal 46,XX</Name>
+                            <Name lang="es">'Disgenesia gonadal 46,XX'</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -1681,7 +1693,31 @@
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="31739">
+                                <OrphaCode>642945</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=642945</ExpertLink>
+                                <Name lang="es">Síndrome de Perrault tipo 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31742">
+                                <OrphaCode>642976</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=642976</ExpertLink>
+                                <Name lang="es">Síndrome de Perrault tipo 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -1712,7 +1748,7 @@
                           <Disorder id="11623">
                             <OrphaCode>85112</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=85112</ExpertLink>
-                            <Name lang="es">Síndrome de queratodermia palmoplantar-inversión de sexo XX-predisposición a carcinoma de células escamosas</Name>
+                            <Name lang="es">Síndrome de queratodermia palmoplantar-reversión sexual XX-predisposición a carcinoma de células escamosas</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -1808,7 +1844,7 @@
                           <Disorder id="334">
                             <OrphaCode>1642</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1642</ExpertLink>
-                            <Name lang="es">Monosomía terminal 9p</Name>
+                            <Name lang="es">Deleción terminal 9p</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>

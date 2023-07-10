@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:45:33" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:47:46" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -1265,7 +1265,7 @@
                       <Name lang="es">Grupo de fenomas</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="15">
+                  <ClassificationNodeChildList count="16">
                     <ClassificationNode>
                       <Disorder id="612">
                         <OrphaCode>287</OrphaCode>
@@ -1506,6 +1506,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31696">
+                        <OrphaCode>636941</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=636941</ExpertLink>
+                        <Name lang="es">Síndrome de Ehlers-Danlos vascular-polimicrogiria</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1681,7 +1693,43 @@
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="31785">
+                                <OrphaCode>645617</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=645617</ExpertLink>
+                                <Name lang="es">Dermatomiositis amiopática</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31786">
+                                <OrphaCode>645626</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=645626</ExpertLink>
+                                <Name lang="es">Dermatomiositis adermatopática</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31784">
+                                <OrphaCode>645613</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=645613</ExpertLink>
+                                <Name lang="es">Dermatomiositis clásica</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="es">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -1899,43 +1947,7 @@
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
-                        <ClassificationNode>
-                          <Disorder id="14992">
-                            <OrphaCode>103919</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=103919</ExpertLink>
-                            <Name lang="es">Pancreatitis autoinmune</Name>
-                            <DisorderType id="21436">
-                              <Name lang="es">Grupo de fenomas</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="20452">
-                                <OrphaCode>280302</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=280302</ExpertLink>
-                                <Name lang="es">Pancreatitis autoinmune tipo 1</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="es">Subtipo clínico</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="20453">
-                                <OrphaCode>280315</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=280315</ExpertLink>
-                                <Name lang="es">Pancreatitis autoinmune tipo 2</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="23641">
                             <OrphaCode>451602</OrphaCode>
@@ -2254,7 +2266,7 @@
                       <Disorder id="23366">
                         <OrphaCode>438159</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=438159</ExpertLink>
-                        <Name lang="es">Enfermedad autoinmune multisistémica de inicio temprano asociada al gen STAT3</Name>
+                        <Name lang="es">Enfermedad autoinmune multisistémica de inicio precoz asociada al gen STAT3</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -2381,7 +2393,19 @@
                       <Name lang="es">Grupo de fenomas</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="13">
+                    <ClassificationNode>
+                      <Disorder id="17180">
+                        <OrphaCode>158029</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158029</ExpertLink>
+                        <Name lang="es">Histiocitosis azul marino</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="17176">
                         <OrphaCode>158014</OrphaCode>
@@ -2698,7 +2722,7 @@
                       <Disorder id="12138">
                         <OrphaCode>91387</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=91387</ExpertLink>
-                        <Name lang="es">Aneurisma aórtico torácico y la disección aórtica familiar</Name>
+                        <Name lang="es">Aneurisma aórtico torácico y disección aórtica familiar</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -3191,7 +3215,7 @@
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
+                              <ClassificationNodeChildList count="5">
                                 <ClassificationNode>
                                   <Disorder id="2375">
                                     <OrphaCode>575</OrphaCode>
@@ -3221,6 +3245,18 @@
                                     <OrphaCode>47045</OrphaCode>
                                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=47045</ExpertLink>
                                     <Name lang="es">Urticaria familiar por frío</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31819">
+                                    <OrphaCode>647815</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=647815</ExpertLink>
+                                    <Name lang="es">Queratoendotelitis fugaz hereditaria</Name>
                                     <DisorderType id="21394">
                                       <Name lang="es">Enfermedad</Name>
                                     </DisorderType>
@@ -3327,7 +3363,31 @@
                           <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="14">
+                        <ClassificationNode>
+                          <Disorder id="31720">
+                            <OrphaCode>641380</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=641380</ExpertLink>
+                            <Name lang="es">Síndrome PAPASH</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31721">
+                            <OrphaCode>641385</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=641385</ExpertLink>
+                            <Name lang="es">Síndrome PASS</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="6523">
                             <OrphaCode>793</OrphaCode>
@@ -3404,7 +3464,7 @@
                           <Disorder id="10924">
                             <OrphaCode>69126</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=69126</ExpertLink>
-                            <Name lang="es">Síndrome de artritis piógena-pioderma gangrenosum-acné</Name>
+                            <Name lang="es">Síndrome PAPA</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -3440,7 +3500,7 @@
                           <Disorder id="20725">
                             <OrphaCode>289478</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289478</ExpertLink>
-                            <Name lang="es">Síndrome de pioderma gangrenoso-acné-hidradenitis supurativa</Name>
+                            <Name lang="es">Síndrome PASH</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -3489,6 +3549,18 @@
                             <OrphaCode>294023</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=294023</ExpertLink>
                             <Name lang="es">Enfermedad inflamatoria neonatal intestinal y cutánea</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31722">
+                            <OrphaCode>641390</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=641390</ExpertLink>
+                            <Name lang="es">Síndrome PsAPASH</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -4203,7 +4275,7 @@
                           <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="10">
+                      <ClassificationNodeChildList count="9">
                         <ClassificationNode>
                           <Disorder id="28397">
                             <OrphaCode>564003</OrphaCode>
@@ -4211,18 +4283,6 @@
                             <Name lang="es">Osteocondrosis de hueso metatarsiano</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="579">
-                            <OrphaCode>3135</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3135</ExpertLink>
-                            <Name lang="es">Enfermedad familiar de Scheuermann</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">

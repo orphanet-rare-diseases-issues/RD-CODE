@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:37:58" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:38:21" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -516,7 +516,7 @@
                   <Disorder id="20908">
                     <OrphaCode>294415</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=294415</ExpertLink>
-                    <Name lang="de">Renal-hepato-pankreatischen Dysplasie</Name>
+                    <Name lang="de">Reno-hepato-pankreatische Dysplasie</Name>
                     <DisorderType id="21401">
                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                     </DisorderType>
@@ -559,7 +559,7 @@
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="41">
+              <ClassificationNodeChildList count="42">
                 <ClassificationNode>
                   <Disorder id="31389">
                     <OrphaCode>618899</OrphaCode>
@@ -1313,48 +1313,72 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="11256">
-                        <OrphaCode>79230</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79230</ExpertLink>
-                        <Name lang="de">Hämochromatose Typ 2</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="16909">
-                        <OrphaCode>139491</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139491</ExpertLink>
-                        <Name lang="de">Hämochromatose Typ 4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="18976">
-                        <OrphaCode>225123</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=225123</ExpertLink>
-                        <Name lang="de">Hämochromatose Typ 3</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="24056">
                         <OrphaCode>465508</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=465508</ExpertLink>
-                        <Name lang="de">Hämochromatose Typ 1, symptomatische Form</Name>
+                        <Name lang="de">Symptomatische Form der HFE-Gen-assoziierten Hämochromatose</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31842">
+                        <OrphaCode>648569</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648569</ExpertLink>
+                        <Name lang="de">'Hämochromatose, nicht-HFE-assoziierte '</Name>
+                        <DisorderType id="21436">
+                          <Name lang="de">Phenom-Gruppe</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="18976">
+                            <OrphaCode>225123</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=225123</ExpertLink>
+                            <Name lang="de">'Hämochromatose, TFR2-Gen-assoziierte'</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31821">
+                            <OrphaCode>647834</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647834</ExpertLink>
+                            <Name lang="de">'Hämochromatose, SLC40A1-Gen-assoziierte'</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11256">
+                            <OrphaCode>79230</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79230</ExpertLink>
+                            <Name lang="de">'Hämochromatose, HJV oder HAMP-assoziierte '</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31843">
+                        <OrphaCode>648581</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648581</ExpertLink>
+                        <Name lang="de">'Hämochromatose, digene '</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -1668,7 +1692,7 @@
                   <Disorder id="22521">
                     <OrphaCode>371157</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=371157</ExpertLink>
-                    <Name lang="de">Kongenitale Glykosylierungs-Krankheit mit Leberstörung</Name>
+                    <Name lang="de">Kongenitale Glykosylierungsstörung mit hepatischer Beteiligung</Name>
                     <DisorderType id="36561">
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
@@ -1842,6 +1866,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31841">
+                    <OrphaCode>648562</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648562</ExpertLink>
+                    <Name lang="de">Ferroportin-Krankheit</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>

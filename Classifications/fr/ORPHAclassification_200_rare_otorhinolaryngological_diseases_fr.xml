@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:48:18" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:50:51" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -77,7 +77,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="185">
+                  <ClassificationNodeChildList count="187">
                     <ClassificationNode>
                       <Disorder id="27595">
                         <OrphaCode>529574</OrphaCode>
@@ -658,7 +658,7 @@
                       <Disorder id="183">
                         <OrphaCode>637</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=637</ExpertLink>
-                        <Name lang="fr">Neurofibromatose type 2</Name>
+                        <Name lang="fr">Schwannomatose liée à NF2 germinale</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1426,7 +1426,7 @@
                       <Disorder id="28140">
                         <OrphaCode>557003</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=557003</ExpertLink>
-                        <Name lang="fr">Syndrome oculo-cérébro-dentaire</Name>
+                        <Name lang="fr">Syndrome oculo-squeletto-dentaire</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1465,6 +1465,18 @@
                         <Name lang="fr">Syndrome à début précoce d'encéphalopathie progressive-surdité-hypoplasie du pont-atrophie cérébrale</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31592">
+                        <OrphaCode>631248</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=631248</ExpertLink>
+                        <Name lang="fr">Syndrome de Mitchell</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1743,7 +1755,31 @@
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="31739">
+                            <OrphaCode>642945</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=642945</ExpertLink>
+                            <Name lang="fr">Syndrome de Perrault type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31742">
+                            <OrphaCode>642976</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=642976</ExpertLink>
+                            <Name lang="fr">Syndrome de Perrault type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2670,13 +2706,49 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31661">
+                        <OrphaCode>633014</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=633014</ExpertLink>
+                        <Name lang="fr">Syndrome de déficience intellectuelle-surdité neurosensorielle associé à SLC12A2</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="31662">
+                            <OrphaCode>633021</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=633021</ExpertLink>
+                            <Name lang="fr">Syndrome de retard de développement néonatal autosomique récessif-déficience intellectuelle-difficulté d'alimentation-surdité neurosensorielle associé à SLC12A2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31663">
+                            <OrphaCode>633024</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=633024</ExpertLink>
+                            <Name lang="fr">Syndrome de retard de développement autosomique dominant-infantile-déficience intellectuelle-surdité neurosensorielle associé à SLC12A2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="11950">
                     <OrphaCode>90059</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90059</ExpertLink>
-                    <Name lang="fr">Perte auditive neurosensorielle aiguë par trauma sonore aigu, surdité brutale ou trauma sonore par chirurgie</Name>
+                    <Name lang="fr">Perte auditive neurosensorielle brutale</Name>
                     <DisorderType id="21429">
                       <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
                     </DisorderType>
@@ -2698,7 +2770,7 @@
                       <Disorder id="12047">
                         <OrphaCode>90636</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90636</ExpertLink>
-                        <Name lang="fr">Surdité neurosensorielle non syndromique autosomique récessive type DFNB</Name>
+                        <Name lang="fr">Surdité rare neurosensorielle non syndromique autosomique récessive type DFNB</Name>
                         <DisorderType id="21443">
                           <Name lang="fr">Sous-type étiologique</Name>
                         </DisorderType>
@@ -2710,7 +2782,7 @@
                       <Disorder id="12050">
                         <OrphaCode>90641</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90641</ExpertLink>
-                        <Name lang="fr">Surdité neurosensorielle non syndromique mitochondriale</Name>
+                        <Name lang="fr">Surdité rare neurosensorielle non syndromique mitochondriale</Name>
                         <DisorderType id="21443">
                           <Name lang="fr">Sous-type étiologique</Name>
                         </DisorderType>
@@ -2722,7 +2794,7 @@
                       <Disorder id="12045">
                         <OrphaCode>90625</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90625</ExpertLink>
-                        <Name lang="fr">Surdité neurosensorielle non syndromique liée à l'X type DFN</Name>
+                        <Name lang="fr">Surdité rare neurosensorielle non syndromique liée à l'X type DFN</Name>
                         <DisorderType id="21443">
                           <Name lang="fr">Sous-type étiologique</Name>
                         </DisorderType>
@@ -2734,7 +2806,7 @@
                       <Disorder id="12046">
                         <OrphaCode>90635</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90635</ExpertLink>
-                        <Name lang="fr">Surdité neurosensorielle non syndromique autosomique dominante type DFNA</Name>
+                        <Name lang="fr">Surdité rare neurosensorielle non syndromique autosomique dominante type DFNA</Name>
                         <DisorderType id="21443">
                           <Name lang="fr">Sous-type étiologique</Name>
                         </DisorderType>
@@ -3003,7 +3075,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="293">
                             <OrphaCode>861</OrphaCode>
@@ -3023,18 +3095,6 @@
                             <Name lang="fr">Acrodysostose</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20490">
-                            <OrphaCode>280651</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=280651</ExpertLink>
-                            <Name lang="fr">Acrodysostose avec résistance aux multiples hormones</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -3768,7 +3828,7 @@
                   <Disorder id="17564">
                     <OrphaCode>164004</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=164004</ExpertLink>
-                    <Name lang="fr">Anomalie de l'oreille moyenne</Name>
+                    <Name lang="fr">Anomalie de l'oreille moyenne et/ou interne</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -4176,7 +4236,7 @@
                   <Disorder id="478">
                     <OrphaCode>246</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=246</ExpertLink>
-                    <Name lang="fr">Dysostose acrofaciale postaxiale</Name>
+                    <Name lang="fr">Dysostose acrofaciale post-axiale</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>

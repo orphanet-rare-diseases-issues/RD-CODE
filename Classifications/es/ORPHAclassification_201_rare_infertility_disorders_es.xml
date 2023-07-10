@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:48:49" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:51:30" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -89,10 +89,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="863">
-                            <OrphaCode>3389</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3389</ExpertLink>
-                            <Name lang="es">Tuberculosis</Name>
+                          <Disorder id="31798">
+                            <OrphaCode>645874</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=645874</ExpertLink>
+                            <Name lang="es">Tuberculosis genitourinaria primaria</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -479,7 +479,19 @@
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="31664">
+                                    <OrphaCode>633028</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=633028</ExpertLink>
+                                    <Name lang="es">Síndrome similar a Prader-Willi asociado al gen CPE</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="17936">
                                     <OrphaCode>171829</OrphaCode>
@@ -594,7 +606,7 @@
                               <Disorder id="12618">
                                 <OrphaCode>95494</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95494</ExpertLink>
-                                <Name lang="es">Deficiencias combinadas de hormonas hipofisarias de causas genéticas</Name>
+                                <Name lang="es">Deficiencia combinada de hormonas hipofisarias de causa genética</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -711,7 +723,7 @@
                           <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="12096">
                             <OrphaCode>90793</OrphaCode>
@@ -797,58 +809,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14466">
-                            <OrphaCode>99893</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99893</ExpertLink>
-                            <Name lang="es">Síndrome de Cushing no dependiente de ACTH</Name>
-                            <DisorderType id="21436">
-                              <Name lang="es">Grupo de fenomas</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="18376">
-                                <OrphaCode>189439</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=189439</ExpertLink>
-                                <Name lang="es">Enfermedad adrenocortical nodular pigmentada primaria</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23454">
-                                <OrphaCode>443287</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=443287</ExpertLink>
-                                <Name lang="es">Síndrome de Cushing independiente de ACTH por un tumor suprarrenal productor de cortisol</Name>
-                                <DisorderType id="36561">
-                                  <Name lang="es">Categoría</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="1">
-                                <ClassificationNode>
-                                  <Disorder id="3731">
-                                    <OrphaCode>1501</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1501</ExpertLink>
-                                    <Name lang="es">Carcinoma adrenocortical</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="18374">
                             <OrphaCode>189427</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=189427</ExpertLink>
-                            <Name lang="es">Hiperplasia suprarrenal macronodular debida al síndrome de Cushing</Name>
+                            <Name lang="es">Síndrome de Cushing por una enfermedad corticosuprarrenal macronodular bilateral</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -1734,7 +1698,7 @@
                               <Disorder id="12618">
                                 <OrphaCode>95494</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95494</ExpertLink>
-                                <Name lang="es">Deficiencias combinadas de hormonas hipofisarias de causas genéticas</Name>
+                                <Name lang="es">Deficiencia combinada de hormonas hipofisarias de causa genética</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -1943,7 +1907,19 @@
                                   <Name lang="es">Grupo de fenomas</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="31664">
+                                    <OrphaCode>633028</OrphaCode>
+                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=633028</ExpertLink>
+                                    <Name lang="es">Síndrome similar a Prader-Willi asociado al gen CPE</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="es">Enfermedad</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="17936">
                                     <OrphaCode>171829</OrphaCode>
@@ -1995,7 +1971,7 @@
                           <Name lang="es">Categoría</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="203">
                             <OrphaCode>752</OrphaCode>
@@ -2124,54 +2100,6 @@
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="14466">
-                            <OrphaCode>99893</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99893</ExpertLink>
-                            <Name lang="es">Síndrome de Cushing no dependiente de ACTH</Name>
-                            <DisorderType id="21436">
-                              <Name lang="es">Grupo de fenomas</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="18376">
-                                <OrphaCode>189439</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=189439</ExpertLink>
-                                <Name lang="es">Enfermedad adrenocortical nodular pigmentada primaria</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23454">
-                                <OrphaCode>443287</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=443287</ExpertLink>
-                                <Name lang="es">Síndrome de Cushing independiente de ACTH por un tumor suprarrenal productor de cortisol</Name>
-                                <DisorderType id="36561">
-                                  <Name lang="es">Categoría</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="1">
-                                <ClassificationNode>
-                                  <Disorder id="3731">
-                                    <OrphaCode>1501</OrphaCode>
-                                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1501</ExpertLink>
-                                    <Name lang="es">Carcinoma adrenocortical</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="es">Enfermedad</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                           </ClassificationNodeChildList>
@@ -2374,7 +2302,7 @@
                       <Disorder id="1011">
                         <OrphaCode>243</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=243</ExpertLink>
-                        <Name lang="es">Disgenesia gonadal 46,XX</Name>
+                        <Name lang="es">'Disgenesia gonadal 46,XX'</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2403,7 +2331,31 @@
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="31739">
+                            <OrphaCode>642945</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=642945</ExpertLink>
+                            <Name lang="es">Síndrome de Perrault tipo 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31742">
+                            <OrphaCode>642976</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=642976</ExpertLink>
+                            <Name lang="es">Síndrome de Perrault tipo 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>

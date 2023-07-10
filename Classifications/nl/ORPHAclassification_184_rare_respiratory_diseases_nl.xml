@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:39:00" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:39:23" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -264,7 +264,7 @@
                   <Disorder id="20339">
                     <OrphaCode>275853</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=275853</ExpertLink>
-                    <Name lang="nl">Syndroom met pulmonale hypertensie als belangrijkste kenmerk</Name>
+                    <Name lang="nl">Syndroom met pulmonale hypertensie als hoofdkenmerk</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -646,7 +646,7 @@
                       <Disorder id="14100">
                         <OrphaCode>99083</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99083</ExpertLink>
-                        <Name lang="nl">Hypoplasie van de longslagader</Name>
+                        <Name lang="nl">Hypoplasie van longslagader</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -659,18 +659,42 @@
                         <OrphaCode>3188</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3188</ExpertLink>
                         <Name lang="nl">Congenitale longaderatresie of -stenose</Name>
-                        <DisorderType id="21415">
-                          <Name lang="nl">Morfologische anomalie</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="14143">
+                            <OrphaCode>99126</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99126</ExpertLink>
+                            <Name lang="nl">Congenitale atresie van vena pulmonalis</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31729">
+                            <OrphaCode>642071</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=642071</ExpertLink>
+                            <Name lang="nl">Primaire stenose van vena pulmonalis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="3462">
                         <OrphaCode>185</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=185</ExpertLink>
-                        <Name lang="nl">Scimitarsyndroom</Name>
+                        <Name lang="nl">Scimitar-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -779,18 +803,6 @@
                         <OrphaCode>984</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=984</ExpertLink>
                         <Name lang="nl">Pulmonale agenesie</Name>
-                        <DisorderType id="21415">
-                          <Name lang="nl">Morfologische anomalie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="797">
-                        <OrphaCode>2357</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2357</ExpertLink>
-                        <Name lang="nl">Bronchogenische cyste</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1147,6 +1159,66 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31859">
+                        <OrphaCode>649014</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=649014</ExpertLink>
+                        <Name lang="nl">Bronchiale malformatie</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31856">
+                            <OrphaCode>648992</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648992</ExpertLink>
+                            <Name lang="nl">Niet-syndromale 'bridging bronchus'</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31858">
+                            <OrphaCode>649010</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=649010</ExpertLink>
+                            <Name lang="nl">Niet-syndromale congenitale atresie van bronchus</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31861">
+                            <OrphaCode>649029</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=649029</ExpertLink>
+                            <Name lang="nl">Geïsoleerde isomerie van linker bronchus</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="797">
+                            <OrphaCode>2357</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2357</ExpertLink>
+                            <Name lang="nl">Bronchogenische cyste</Name>
+                            <DisorderType id="21415">
+                              <Name lang="nl">Morfologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="236">
                         <OrphaCode>774</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=774</ExpertLink>
@@ -1186,7 +1258,7 @@
                       <Disorder id="14067">
                         <OrphaCode>99050</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99050</ExpertLink>
-                        <Name lang="nl">Abnormale oorsprong van de rechter- of linkerlongslagader in de aorta</Name>
+                        <Name lang="nl">Abnormale oorsprong van rechter- of linkerlongslagader in aorta</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -1328,9 +1400,9 @@
                           <Disorder id="20598">
                             <OrphaCode>284343</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=284343</ExpertLink>
-                            <Name lang="nl">Familiaal tumorpredispositiesyndroom voor pleuropulmonaal blastoom</Name>
-                            <DisorderType id="21450">
-                              <Name lang="nl">Klinisch subtype</Name>
+                            <Name lang="nl">DICER1-tumorpredispositiesyndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1378,7 +1450,7 @@
                       <Disorder id="20604">
                         <OrphaCode>284395</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=284395</ExpertLink>
-                        <Name lang="nl">Goed gedifferentieerd foetaal adenocarcinoom van de long</Name>
+                        <Name lang="nl">Goed gedifferentieerd foetaal adenocarcinoom van long</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -1485,18 +1557,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="863">
-                    <OrphaCode>3389</OrphaCode>
-                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3389</ExpertLink>
-                    <Name lang="nl">Tuberculose</Name>
-                    <DisorderType id="21394">
-                      <Name lang="nl">Ziekte</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="3050">
                     <OrphaCode>3471</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3471</ExpertLink>
@@ -1572,7 +1632,7 @@
                   <Disorder id="10801">
                     <OrphaCode>60032</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=60032</ExpertLink>
-                    <Name lang="nl">Terugkerende respiratoire papillomatose</Name>
+                    <Name lang="nl">Recidiverende respiratoire papillomatose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1770,7 +1830,7 @@
                               <Disorder id="20107">
                                 <OrphaCode>264670</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264670</ExpertLink>
-                                <Name lang="nl">Primaire interstitiële longziekte specifiek voor de kinderjaren door een alveolaire structuurstoornis</Name>
+                                <Name lang="nl">Primaire interstitiële longziekte specifiek voor de kinderjaren door alveolaire structuurstoornis</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -1890,7 +1950,7 @@
                               <Disorder id="20109">
                                 <OrphaCode>264683</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264683</ExpertLink>
-                                <Name lang="nl">Primaire interstitiële longziekte specifiek voor de kinderjaren door een alveolaire vasculaire stoornis</Name>
+                                <Name lang="nl">Primaire interstitiële longziekte specifiek voor de kinderjaren door alveolaire vasculaire stoornis</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2036,7 +2096,7 @@
                           <Disorder id="20113">
                             <OrphaCode>264699</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264699</ExpertLink>
-                            <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met een systemische ziekte</Name>
+                            <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met systemische ziekte</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -2046,7 +2106,7 @@
                               <Disorder id="20114">
                                 <OrphaCode>264704</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264704</ExpertLink>
-                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met een bindweefselziekte</Name>
+                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met bindweefselziekte</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2226,7 +2286,7 @@
                               <Disorder id="20116">
                                 <OrphaCode>264714</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264714</ExpertLink>
-                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met een granulomateuze ziekte</Name>
+                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met granulomateuze ziekte</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2262,7 +2322,7 @@
                               <Disorder id="20117">
                                 <OrphaCode>264719</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264719</ExpertLink>
-                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met een stofwisselingsziekte</Name>
+                                <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de kinderjaren geassocieerd met stofwisselingsziekte</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2696,7 +2756,7 @@
                           <Disorder id="20121">
                             <OrphaCode>264745</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264745</ExpertLink>
-                            <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de volwassenheid geassocieerd met een systemische ziekte</Name>
+                            <Name lang="nl">Secundaire interstitiële longziekte specifiek voor de volwassenheid geassocieerd met systemische ziekte</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -2886,7 +2946,7 @@
                               <Disorder id="20128">
                                 <OrphaCode>264949</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264949</ExpertLink>
-                                <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met een systemische ziekte</Name>
+                                <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met systemische ziekte</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2908,7 +2968,7 @@
                                   <Disorder id="18214">
                                     <OrphaCode>182104</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=182104</ExpertLink>
-                                    <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met een bindweefselziekte</Name>
+                                    <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met bindweefselziekte</Name>
                                     <DisorderType id="36561">
                                       <Name lang="nl">Categorie</Name>
                                     </DisorderType>
@@ -2918,7 +2978,7 @@
                                       <Disorder id="3631">
                                         <OrphaCode>809</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=809</ExpertLink>
-                                        <Name lang="nl">Gemengd bindweefselziekte</Name>
+                                        <Name lang="nl">Gemengde bindweefselziekte</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -2932,7 +2992,7 @@
                                   <Disorder id="20130">
                                     <OrphaCode>264968</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264968</ExpertLink>
-                                    <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met een stofwisselingsziekte</Name>
+                                    <Name lang="nl">Secundaire interstitiële longziekte in de kinderjaren en volwassenheid geassocieerd met stofwisselingsziekte</Name>
                                     <DisorderType id="36561">
                                       <Name lang="nl">Categorie</Name>
                                     </DisorderType>
@@ -3060,7 +3120,7 @@
                                           <Disorder id="12397">
                                             <OrphaCode>93555</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93555</ExpertLink>
-                                            <Name lang="nl">Type III gemengde cryoglobulinemie</Name>
+                                            <Name lang="nl">Gemengde cryoglobulinemie type III</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -3136,7 +3196,7 @@
                                   <Disorder id="9794">
                                     <OrphaCode>31740</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=31740</ExpertLink>
-                                    <Name lang="nl">Hypersensitiviteitpneumonitis</Name>
+                                    <Name lang="nl">Hypersensitiviteitspneumonitis</Name>
                                     <DisorderType id="21436">
                                       <Name lang="nl">Group of phenomes</Name>
                                     </DisorderType>
@@ -3372,7 +3432,7 @@
                   <Disorder id="26354">
                     <OrphaCode>505395</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=505395</ExpertLink>
-                    <Name lang="nl">Disfunctie van het diafragma geïnduceerd door kunstmatige beademing</Name>
+                    <Name lang="nl">Disfunctie van diafragma geïnduceerd door kunstmatige beademing</Name>
                     <DisorderType id="21429">
                       <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                     </DisorderType>
@@ -3429,6 +3489,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="31793">
+                    <OrphaCode>645814</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=645814</ExpertLink>
+                    <Name lang="nl">Primaire pulmonale tuberculose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="20721">
                     <OrphaCode>289390</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=289390</ExpertLink>
@@ -3446,7 +3518,7 @@
               <Disorder id="20771">
                 <OrphaCode>289877</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=289877</ExpertLink>
-                <Name lang="nl">Voorbijgaande hyperammoniëmie van de neonaat</Name>
+                <Name lang="nl">Transiënte hyperammoniëmie van neonaat</Name>
                 <DisorderType id="21429">
                   <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                 </DisorderType>

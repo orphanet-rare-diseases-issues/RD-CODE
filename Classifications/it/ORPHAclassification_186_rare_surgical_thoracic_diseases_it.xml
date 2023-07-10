@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:40:07" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:40:31" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -273,18 +273,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="797">
-                    <OrphaCode>2357</OrphaCode>
-                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2357</ExpertLink>
-                    <Name lang="it">Cisti broncogene</Name>
-                    <DisorderType id="21415">
-                      <Name lang="it">Anomalia morfologica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="798">
                     <OrphaCode>2040</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2040</ExpertLink>
@@ -402,6 +390,66 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31859">
+                    <OrphaCode>649014</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=649014</ExpertLink>
+                    <Name lang="it">Malformazione bronchiale</Name>
+                    <DisorderType id="21436">
+                      <Name lang="it">Gruppo di fenomi</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="4">
+                    <ClassificationNode>
+                      <Disorder id="31856">
+                        <OrphaCode>648992</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=648992</ExpertLink>
+                        <Name lang="it">Bronco a cavaliere non sindromico</Name>
+                        <DisorderType id="21415">
+                          <Name lang="it">Anomalia morfologica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31858">
+                        <OrphaCode>649010</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=649010</ExpertLink>
+                        <Name lang="it">Atresia bronchiale congenita non sindromica</Name>
+                        <DisorderType id="21415">
+                          <Name lang="it">Anomalia morfologica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31861">
+                        <OrphaCode>649029</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=649029</ExpertLink>
+                        <Name lang="it">Isomerismo bronchiale sinistro isolato</Name>
+                        <DisorderType id="21415">
+                          <Name lang="it">Anomalia morfologica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="797">
+                        <OrphaCode>2357</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2357</ExpertLink>
+                        <Name lang="it">Cisti broncogene</Name>
+                        <DisorderType id="21415">
+                          <Name lang="it">Anomalia morfologica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -720,7 +768,7 @@
                   <Disorder id="612">
                     <OrphaCode>287</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=287</ExpertLink>
-                    <Name lang="it">Sindrome di Ehlers-Danlos, tipo classico</Name>
+                    <Name lang="it">Sindrome di Ehlers-Danlos tipo classico</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>

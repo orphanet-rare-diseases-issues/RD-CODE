@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2022-06-14 07:54:42" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-21 18:12:32" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="8">
+          <ClassificationNodeChildList count="9">
             <ClassificationNode>
               <Disorder id="11944">
                 <OrphaCode>90053</OrphaCode>
@@ -65,6 +65,18 @@
                 <Name lang="pl">Potransplantacyjne ostre zapalenie układu limbicznego</Name>
                 <DisorderType id="21429">
                   <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="31676">
+                <OrphaCode>633124</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=633124</ExpertLink>
+                <Name lang="pl">Inwazyjne zakażenie grzybem z rodzaju scopulariopsis</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -387,7 +399,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="55">
                             <OrphaCode>262</OrphaCode>
@@ -561,18 +573,6 @@
                             <OrphaCode>397937</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=397937</ExpertLink>
                             <Name lang="pl">Miopatia z ciałkami poliglukozanowymi typu 1</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="24171">
-                            <OrphaCode>466801</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=466801</ExpertLink>
-                            <Name lang="pl">Autosomalna recesywna dystrofia obręczowo-kończynowa typu 2W</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -2158,7 +2158,7 @@
                       <Disorder id="28337">
                         <OrphaCode>562639</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=562639</ExpertLink>
-                        <Name lang="pl">Zespół nakładania się objawów pierwotnego żółciowego zapalenia dróg żółciowych/pierwotnego stwardniającego zapalenia dróg żólciowych i autoimmunologicznego zapalenia wątroby</Name>
+                        <Name lang="pl">Zespół nakładania się objawów pierwotnego żółciowego zapalenia dróg żółciowych/pierwotnego stwardniającego zapalenia dróg żółciowych i autoimmunologicznego zapalenia wątroby</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -2811,31 +2811,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
-                        <ClassificationNode>
-                          <Disorder id="11256">
-                            <OrphaCode>79230</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79230</ExpertLink>
-                            <Name lang="pl">Hemochromatoza typu 2</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="16909">
-                            <OrphaCode>139491</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139491</ExpertLink>
-                            <Name lang="pl">Hemochromatoza typu 4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="pl">Choroba</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="24056">
                             <OrphaCode>465508</OrphaCode>
@@ -2849,10 +2825,58 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="18976">
-                            <OrphaCode>225123</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=225123</ExpertLink>
-                            <Name lang="pl">Hemochromatoza typu 3</Name>
+                          <Disorder id="31842">
+                            <OrphaCode>648569</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=648569</ExpertLink>
+                            <Name lang="pl">Hemochromatoza niezwiązana z HFE</Name>
+                            <DisorderType id="21436">
+                              <Name lang="pl">Grupa fenomenów</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="11256">
+                                <OrphaCode>79230</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79230</ExpertLink>
+                                <Name lang="pl">Hemochromatoza typu 2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="18976">
+                                <OrphaCode>225123</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=225123</ExpertLink>
+                                <Name lang="pl">Hemochromatoza typu 3</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31821">
+                                <OrphaCode>647834</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647834</ExpertLink>
+                                <Name lang="pl">Hemochromatoza związana z SLC40A1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pl">Choroba</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31843">
+                            <OrphaCode>648581</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=648581</ExpertLink>
+                            <Name lang="pl">Hemochromatoza digenowa</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -4515,12 +4539,24 @@
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="19618">
                             <OrphaCode>251274</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251274</ExpertLink>
                             <Name lang="pl">Rodzinny hiperaldosteronizm typu III</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31732">
+                            <OrphaCode>642671</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642671</ExpertLink>
+                            <Name lang="pl">Rodzinny hiperaldosteronizm typu IV</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -5468,7 +5504,7 @@
                           <Disorder id="912">
                             <OrphaCode>373</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=373</ExpertLink>
-                            <Name lang="pl">Zespół Simpsona, Golabiego i Behmela</Name>
+                            <Name lang="pl">Zespół Simpson, Golabi i Behmel</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -8024,7 +8060,7 @@
                           <Disorder id="28082">
                             <OrphaCode>544482</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=544482</ExpertLink>
-                            <Name lang="pl">Zespół hemolityczny mocznicowy związany z infekcją</Name>
+                            <Name lang="pl">Zespół hemolityczno-mocznicowy związany z infekcją</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -8529,7 +8565,43 @@
                                       <Name lang="pl">Choroba</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="3">
+                                    <ClassificationNode>
+                                      <Disorder id="31785">
+                                        <OrphaCode>645617</OrphaCode>
+                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=645617</ExpertLink>
+                                        <Name lang="pl">Amiopatyczne zapalenie skórno-mięśniowe</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="pl">Podtyp kliniczny</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31786">
+                                        <OrphaCode>645626</OrphaCode>
+                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=645626</ExpertLink>
+                                        <Name lang="pl">Adermatopatyczne zapalenie skórno-mięśniowe</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="pl">Podtyp kliniczny</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31784">
+                                        <OrphaCode>645613</OrphaCode>
+                                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=645613</ExpertLink>
+                                        <Name lang="pl">Klasyczne zapalenie skórno-mięśniowe</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="pl">Podtyp kliniczny</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -8582,7 +8654,7 @@
                                       <Disorder id="18906">
                                         <OrphaCode>220402</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220402</ExpertLink>
-                                        <Name lang="pl">Twardzina skórna rozlana</Name>
+                                        <Name lang="pl">Systemowa ograniczona twardzina skórna</Name>
                                         <DisorderType id="21450">
                                           <Name lang="pl">Podtyp kliniczny</Name>
                                         </DisorderType>
@@ -8606,7 +8678,7 @@
                                       <Disorder id="18905">
                                         <OrphaCode>220393</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220393</ExpertLink>
-                                        <Name lang="pl">Twardzina skórna rozlana</Name>
+                                        <Name lang="pl">Systemowa rozlana twardzina skórna</Name>
                                         <DisorderType id="21450">
                                           <Name lang="pl">Podtyp kliniczny</Name>
                                         </DisorderType>
@@ -9265,7 +9337,7 @@
                               <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="18">
+                          <ClassificationNodeChildList count="17">
                             <ClassificationNode>
                               <Disorder id="392">
                                 <OrphaCode>2614</OrphaCode>
@@ -9415,18 +9487,6 @@
                                 <OrphaCode>93114</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93114</ExpertLink>
                                 <Name lang="pl">Polineuropatia  Charcot, Marie i Tooth typu E o dziedziczeniu autosomalnym dominującym</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="19815">
-                                <OrphaCode>255249</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=255249</ExpertLink>
-                                <Name lang="pl">Zespół Leigha z zespołem nerczycowym</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -12736,7 +12796,7 @@
                                   <Disorder id="29204">
                                     <OrphaCode>585867</OrphaCode>
                                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585867</ExpertLink>
-                                    <Name lang="en">Acute myeloid leukemia with t(9;22)(q34.1;q11.2)</Name>
+                                    <Name lang="pl">Ostra białaczka szpikowa z t(9;22)(q34.1;q11.2)</Name>
                                     <DisorderType id="21394">
                                       <Name lang="pl">Choroba</Name>
                                     </DisorderType>
@@ -13010,7 +13070,7 @@
                                       <Disorder id="29433">
                                         <OrphaCode>589534</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589534</ExpertLink>
-                                        <Name lang="en">Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)</Name>
+                                        <Name lang="pl">Ostra białaczka o mieszanym fenotypie z t(9;22)(q34.1;q11.2)</Name>
                                         <DisorderType id="21443">
                                           <Name lang="pl">Podtyp etiologiczny</Name>
                                         </DisorderType>
@@ -13022,7 +13082,7 @@
                                       <Disorder id="29436">
                                         <OrphaCode>589595</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589595</ExpertLink>
-                                        <Name lang="en">Mixed phenotype acute leukemia with t(v;11q23.3)</Name>
+                                        <Name lang="pl">Ostra białaczka o mieszanym fenotypie z t(v;11q23.3)</Name>
                                         <DisorderType id="21443">
                                           <Name lang="pl">Podtyp etiologiczny</Name>
                                         </DisorderType>
@@ -14511,7 +14571,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="29">
+                      <ClassificationNodeChildList count="30">
                         <ClassificationNode>
                           <Disorder id="14385">
                             <OrphaCode>99812</OrphaCode>
@@ -14661,6 +14721,18 @@
                             <OrphaCode>572</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572</ExpertLink>
                             <Name lang="pl">Niedobór odporności z powodu wadliwej ekspresji HLA klasy 2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31816">
+                            <OrphaCode>647804</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647804</ExpertLink>
+                            <Name lang="pl">Złożony niedobór odporności spowodowany niedoborem FCHO1</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -15030,7 +15102,7 @@
                               <Disorder id="19062">
                                 <OrphaCode>228003</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=228003</ExpertLink>
-                                <Name lang="pl">Ciężki złożony Niedobór odporności z powodu niedoboru CORO1A</Name>
+                                <Name lang="pl">Ciężki złożony niedobór odporności z powodu niedoboru CORO1A</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -15941,12 +16013,24 @@
                                               <Name lang="pl">Podtyp etiologiczny</Name>
                                             </DisorderType>
                                           </Disorder>
-                                          <ClassificationNodeChildList count="7">
+                                          <ClassificationNodeChildList count="9">
+                                            <ClassificationNode>
+                                              <Disorder id="31718">
+                                                <OrphaCode>641375</OrphaCode>
+                                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=641375</ExpertLink>
+                                                <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z  t(17;19)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="pl">Podtyp etiologiczny</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
                                             <ClassificationNode>
                                               <Disorder id="29211">
                                                 <OrphaCode>585909</OrphaCode>
                                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585909</ExpertLink>
-                                                <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)</Name>
+                                                <Name lang="pl">Białaczka limfoblastyczna/chłoniak z komórek B z t(9;22)(q34.1;q11.2)</Name>
                                                 <DisorderType id="21443">
                                                   <Name lang="pl">Podtyp etiologiczny</Name>
                                                 </DisorderType>
@@ -16019,6 +16103,18 @@
                                                 <OrphaCode>585956</OrphaCode>
                                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585956</ExpertLink>
                                                 <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(1;19)(q23;p13.3)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="pl">Podtyp etiologiczny</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="31717">
+                                                <OrphaCode>641372</OrphaCode>
+                                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=641372</ExpertLink>
+                                                <Name lang="pl">Białaczka/chłoniak limfoblastyczny z komórek B z t(7;9)(q11.2;p13.2)</Name>
                                                 <DisorderType id="21443">
                                                   <Name lang="pl">Podtyp etiologiczny</Name>
                                                 </DisorderType>
@@ -18915,7 +19011,7 @@
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="21">
+                      <ClassificationNodeChildList count="20">
                         <ClassificationNode>
                           <Disorder id="18682">
                             <OrphaCode>210110</OrphaCode>
@@ -19077,18 +19173,6 @@
                             <OrphaCode>2777</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2777</ExpertLink>
                             <Name lang="pl">Osteoskleroza osiowa</Name>
-                            <DisorderType id="21401">
-                              <Name lang="pl">Zespół wad wrodzonych</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2533">
-                            <OrphaCode>1306</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1306</ExpertLink>
-                            <Name lang="pl">Zespół Buschkego i Ollendorffa</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -19655,11 +19739,35 @@
                         <OrphaCode>3188</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3188</ExpertLink>
                         <Name lang="pl">Wrodzona atrezja lub zwężenie żył płucnych</Name>
-                        <DisorderType id="21415">
-                          <Name lang="pl">Wada morfologiczna</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="14143">
+                            <OrphaCode>99126</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99126</ExpertLink>
+                            <Name lang="pl">NIEAKTUALNE: Atrezja zyly plucnej</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31729">
+                            <OrphaCode>642071</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642071</ExpertLink>
+                            <Name lang="pl">Pierwotne zwężenie żył płucnych</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>

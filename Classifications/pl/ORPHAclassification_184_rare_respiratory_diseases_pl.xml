@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2022-06-14 07:38:39" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-21 18:08:57" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -659,11 +659,35 @@
                         <OrphaCode>3188</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3188</ExpertLink>
                         <Name lang="pl">Wrodzona atrezja lub zwężenie żył płucnych</Name>
-                        <DisorderType id="21415">
-                          <Name lang="pl">Wada morfologiczna</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="14143">
+                            <OrphaCode>99126</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99126</ExpertLink>
+                            <Name lang="pl">NIEAKTUALNE: Atrezja zyly plucnej</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31729">
+                            <OrphaCode>642071</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642071</ExpertLink>
+                            <Name lang="pl">Pierwotne zwężenie żył płucnych</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -779,18 +803,6 @@
                         <OrphaCode>984</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=984</ExpertLink>
                         <Name lang="pl">Agenezja płuc</Name>
-                        <DisorderType id="21415">
-                          <Name lang="pl">Wada morfologiczna</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="797">
-                        <OrphaCode>2357</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2357</ExpertLink>
-                        <Name lang="pl">Torbiel bronchogenna</Name>
                         <DisorderType id="21415">
                           <Name lang="pl">Wada morfologiczna</Name>
                         </DisorderType>
@@ -1147,6 +1159,66 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31859">
+                        <OrphaCode>649014</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=649014</ExpertLink>
+                        <Name lang="pl">Malformacja oskrzeli</Name>
+                        <DisorderType id="21436">
+                          <Name lang="pl">Grupa fenomenów</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31856">
+                            <OrphaCode>648992</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=648992</ExpertLink>
+                            <Name lang="pl">Niesyndromiczna anomalia rozgałęzienia oskrzela</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31858">
+                            <OrphaCode>649010</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=649010</ExpertLink>
+                            <Name lang="pl">Niesyndromiczka wrodzona atrezja oskrzela</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31861">
+                            <OrphaCode>649029</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=649029</ExpertLink>
+                            <Name lang="pl">Izolowana izomeria lewego oskrzela</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="797">
+                            <OrphaCode>2357</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2357</ExpertLink>
+                            <Name lang="pl">Torbiel bronchogenna</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pl">Wada morfologiczna</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="236">
                         <OrphaCode>774</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=774</ExpertLink>
@@ -1329,8 +1401,8 @@
                             <OrphaCode>284343</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=284343</ExpertLink>
                             <Name lang="pl">Rodzinny zespół podatności na blastoma opłucnej i płuc</Name>
-                            <DisorderType id="21450">
-                              <Name lang="pl">Podtyp kliniczny</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1485,18 +1557,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="863">
-                    <OrphaCode>3389</OrphaCode>
-                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3389</ExpertLink>
-                    <Name lang="pl">Gruźlica</Name>
-                    <DisorderType id="21394">
-                      <Name lang="pl">Choroba</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="3050">
                     <OrphaCode>3471</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3471</ExpertLink>
@@ -1642,7 +1702,7 @@
                       <Disorder id="18905">
                         <OrphaCode>220393</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220393</ExpertLink>
-                        <Name lang="pl">Twardzina skórna rozlana</Name>
+                        <Name lang="pl">Systemowa rozlana twardzina skórna</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -1654,7 +1714,7 @@
                       <Disorder id="18906">
                         <OrphaCode>220402</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220402</ExpertLink>
-                        <Name lang="pl">Twardzina skórna rozlana</Name>
+                        <Name lang="pl">Systemowa ograniczona twardzina skórna</Name>
                         <DisorderType id="21450">
                           <Name lang="pl">Podtyp kliniczny</Name>
                         </DisorderType>
@@ -3421,6 +3481,18 @@
                     <OrphaCode>99981</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99981</ExpertLink>
                     <Name lang="pl">Bezdech wcześniaków</Name>
+                    <DisorderType id="21394">
+                      <Name lang="pl">Choroba</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31793">
+                    <OrphaCode>645814</OrphaCode>
+                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=645814</ExpertLink>
+                    <Name lang="pl">Pierwotna gruźlica płuc</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>

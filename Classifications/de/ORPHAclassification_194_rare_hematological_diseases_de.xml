@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:43:57" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:45:42" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -80,7 +80,7 @@
                           <Disorder id="13865">
                             <OrphaCode>98848</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98848</ExpertLink>
-                            <Name lang="de">Mastozytose, systemische, indolente Form</Name>
+                            <Name lang="de">Indolente systemische Mastozytose</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -1684,7 +1684,7 @@
                                   <Disorder id="14433">
                                     <OrphaCode>99860</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99860</ExpertLink>
-                                    <Name lang="de">Lymphoblastische B-Vorläuferzell-Leukämie, akute</Name>
+                                    <Name lang="de">Akute lymphoblastische B-Vorläuferzell-Leukämie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -1699,7 +1699,19 @@
                                           <Name lang="de">Ätiologischer Subtyp</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="7">
+                                      <ClassificationNodeChildList count="9">
+                                        <ClassificationNode>
+                                          <Disorder id="31718">
+                                            <OrphaCode>641375</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=641375</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(17;19)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
                                         <ClassificationNode>
                                           <Disorder id="29211">
                                             <OrphaCode>585909</OrphaCode>
@@ -1784,6 +1796,18 @@
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
                                         </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="31717">
+                                            <OrphaCode>641372</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=641372</ExpertLink>
+                                            <Name lang="de">B-lymphoblastische Leukämie/Lymphom mit t(7;9)(q11.2;p13.2)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="de">Ätiologischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                   </ClassificationNodeChildList>
@@ -1792,7 +1816,7 @@
                                   <Disorder id="14434">
                                     <OrphaCode>99861</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99861</ExpertLink>
-                                    <Name lang="de">T-Vorläuferzell-Leukämie/Lymphom, akut lymphoblastisch</Name>
+                                    <Name lang="de">Akute lymphoblastische T-Vorläuferzell-Leukämie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -2236,7 +2260,7 @@
                                   <Disorder id="11764">
                                     <OrphaCode>86870</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86870</ExpertLink>
-                                    <Name lang="de">CD4+/CD56+ hämatoderme Neoplasie</Name>
+                                    <Name lang="de">Blastische plasmazytoide dendritische Zell-Neoplasie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -2422,7 +2446,7 @@
                                               <Disorder id="3400">
                                                 <OrphaCode>2584</OrphaCode>
                                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2584</ExpertLink>
-                                                <Name lang="de">Mycosis fungoides</Name>
+                                                <Name lang="de">Klassische Mycosis fungoides</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="de">Krankheit</Name>
                                                 </DisorderType>
@@ -2496,7 +2520,7 @@
                                           <Disorder id="11768">
                                             <OrphaCode>86875</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86875</ExpertLink>
-                                            <Name lang="de">T-Zell-Lymphom/Leukämie, adult</Name>
+                                            <Name lang="de">Adulte T-Zell-Leukämie/Lymphom</Name>
                                             <DisorderType id="21394">
                                               <Name lang="de">Krankheit</Name>
                                             </DisorderType>
@@ -2854,7 +2878,7 @@
                                               <Disorder id="3400">
                                                 <OrphaCode>2584</OrphaCode>
                                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2584</ExpertLink>
-                                                <Name lang="de">Mycosis fungoides</Name>
+                                                <Name lang="de">Klassische Mycosis fungoides</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="de">Krankheit</Name>
                                                 </DisorderType>
@@ -2928,7 +2952,7 @@
                                           <Disorder id="11768">
                                             <OrphaCode>86875</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86875</ExpertLink>
-                                            <Name lang="de">T-Zell-Lymphom/Leukämie, adult</Name>
+                                            <Name lang="de">Adulte T-Zell-Leukämie/Lymphom</Name>
                                             <DisorderType id="21394">
                                               <Name lang="de">Krankheit</Name>
                                             </DisorderType>
@@ -3360,7 +3384,7 @@
                   <Disorder id="21762">
                     <OrphaCode>324299</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=324299</ExpertLink>
-                    <Name lang="de">Parangangliom, multiples, mit assoziierter Polyzythämie</Name>
+                    <Name lang="de">Multiple Parangangliome mit assoziierter Polyzythämie</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
@@ -4970,7 +4994,7 @@
                                       <Disorder id="28487">
                                         <OrphaCode>566192</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566192</ExpertLink>
-                                        <Name lang="de">Kongenitale autosmale-rezessive Thrombozytopenie der kleinen Blutplättchen</Name>
+                                        <Name lang="de">Kongenitale autosomale-rezessive Thrombozytopenie der kleinen Blutplättchen</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -5718,7 +5742,7 @@
                               <Disorder id="19634">
                                 <OrphaCode>251359</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251359</ExpertLink>
-                                <Name lang="de">Sichelzellkrankheit - Beta-Thalassämie</Name>
+                                <Name lang="de">Sichelzellkrankheit HbSbeta-Thal</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5730,7 +5754,7 @@
                               <Disorder id="19635">
                                 <OrphaCode>251365</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251365</ExpertLink>
-                                <Name lang="de">Sichelzellkrankheit mit Hämoglobin-C-Krankheit</Name>
+                                <Name lang="de">Sichelzellkrankheit HbSC</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5742,7 +5766,7 @@
                               <Disorder id="19636">
                                 <OrphaCode>251370</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251370</ExpertLink>
-                                <Name lang="de">Sichelzellkrankheit - Hämoglobin-D-Krankheit</Name>
+                                <Name lang="de">Sichelzellkrankheit HbSD</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5754,7 +5778,7 @@
                               <Disorder id="19637">
                                 <OrphaCode>251375</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251375</ExpertLink>
-                                <Name lang="de">Sichelzellkrankheit - Hämoglobin-E-Krankheit</Name>
+                                <Name lang="de">Sichelzellkrankheit HbSE</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -6648,7 +6672,7 @@
                   <Disorder id="18195">
                     <OrphaCode>182040</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=182040</ExpertLink>
-                    <Name lang="de">Aplastische Anämie</Name>
+                    <Name lang="de">'Aplastische Anämie, seltene '</Name>
                     <DisorderType id="36561">
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
@@ -7170,7 +7194,7 @@
                               <Disorder id="10673">
                                 <OrphaCode>51208</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=51208</ExpertLink>
-                                <Name lang="de">Formiminoglutaminsäure-Krankheit</Name>
+                                <Name lang="de">Formiminoglutaminsäure-Azidurie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>

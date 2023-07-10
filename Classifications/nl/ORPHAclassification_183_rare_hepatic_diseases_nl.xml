@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:38:24" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:38:47" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -559,7 +559,7 @@
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="41">
+              <ClassificationNodeChildList count="42">
                 <ClassificationNode>
                   <Disorder id="31389">
                     <OrphaCode>618899</OrphaCode>
@@ -1140,7 +1140,7 @@
                   <Disorder id="11215">
                     <OrphaCode>79189</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79189</ExpertLink>
-                    <Name lang="nl">Peroxisomale biogenesestoornis</Name>
+                    <Name lang="nl">Stoornis van peroxisoombiogenese</Name>
                     <DisorderType id="21436">
                       <Name lang="nl">Group of phenomes</Name>
                     </DisorderType>
@@ -1313,48 +1313,72 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="11256">
-                        <OrphaCode>79230</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79230</ExpertLink>
-                        <Name lang="nl">Hemochromatose type 2</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="16909">
-                        <OrphaCode>139491</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=139491</ExpertLink>
-                        <Name lang="nl">Hemochromatose type 4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="18976">
-                        <OrphaCode>225123</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=225123</ExpertLink>
-                        <Name lang="nl">Hemochromatose type 3</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="24056">
                         <OrphaCode>465508</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=465508</ExpertLink>
-                        <Name lang="nl">Symptomatische vorm van hemochromatose type 1</Name>
+                        <Name lang="nl">Symptomatische vorm van HFE-gerelateerde hemochromatose</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31842">
+                        <OrphaCode>648569</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648569</ExpertLink>
+                        <Name lang="nl">Niet-HFE-gerelateerde hemochromatose</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="18976">
+                            <OrphaCode>225123</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=225123</ExpertLink>
+                            <Name lang="nl">TFR2-gerelateerde hemochromatose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31821">
+                            <OrphaCode>647834</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=647834</ExpertLink>
+                            <Name lang="nl">SLC40A1-gerelateerde hemochromatose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11256">
+                            <OrphaCode>79230</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79230</ExpertLink>
+                            <Name lang="nl">HJV- of HAMP-gerelateerde hemochromatose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31843">
+                        <OrphaCode>648581</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648581</ExpertLink>
+                        <Name lang="nl">Digenetische hemochromatose</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -1845,6 +1869,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="31841">
+                    <OrphaCode>648562</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648562</ExpertLink>
+                    <Name lang="nl">Ferroportine-ziekte</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="10737">
                     <OrphaCode>53693</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=53693</ExpertLink>
@@ -2268,7 +2304,7 @@
                   <Disorder id="23416">
                     <OrphaCode>440987</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=440987</ExpertLink>
-                    <Name lang="nl">Geïsoleerde agenesie van de galblaas</Name>
+                    <Name lang="nl">Geïsoleerde agenesie van galblaas</Name>
                     <DisorderType id="21415">
                       <Name lang="nl">Morfologische anomalie</Name>
                     </DisorderType>
@@ -2338,7 +2374,7 @@
                       <Disorder id="10765">
                         <OrphaCode>56044</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=56044</ExpertLink>
-                        <Name lang="nl">Carcinoom van de galblaas en extrahepatische galwegen</Name>
+                        <Name lang="nl">Carcinoom van galblaas en extrahepatische galwegen</Name>
                         <DisorderType id="21436">
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
@@ -2410,7 +2446,7 @@
                       <Disorder id="14658">
                         <OrphaCode>100086</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=100086</ExpertLink>
-                        <Name lang="nl">Neuro-endocriene tumor van de galblaas</Name>
+                        <Name lang="nl">Neuro-endocriene tumor van galblaas</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>

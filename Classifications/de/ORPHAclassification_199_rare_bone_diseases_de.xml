@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:47:12" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:49:25" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="de">Kategorie</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="8">
+          <ClassificationNodeChildList count="10">
             <ClassificationNode>
               <Disorder id="10552">
                 <OrphaCode>68411</OrphaCode>
@@ -1054,7 +1054,7 @@
                       <Disorder id="31460">
                         <OrphaCode>622925</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=622925</ExpertLink>
-                        <Name lang="de">X-linked severe syndromic thoracic aortic aneurysm and dissection</Name>
+                        <Name lang="de">X-chromosomales schweres thorakales Aortenaneurysma mit Dissektion</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -1198,7 +1198,7 @@
                       <Disorder id="21905">
                         <OrphaCode>329191</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329191</ExpertLink>
-                        <Name lang="de">Hochwuchs-Skoliose-Makrodaktylie der Großzehen-Syndrom</Name>
+                        <Name lang="de">Hochwuchs-lange Großzehen-multiple zusätzliche Epiphysen-Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -1445,7 +1445,19 @@
                       <Name lang="de">Phenom-Gruppe</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="58">
+                  <ClassificationNodeChildList count="59">
+                    <ClassificationNode>
+                      <Disorder id="31731">
+                        <OrphaCode>642099</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642099</ExpertLink>
+                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit Überstreckbarkeit der Gelenke, Typ Beighton</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1647">
                         <OrphaCode>1458</OrphaCode>
@@ -1819,22 +1831,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="12290">
-                        <OrphaCode>93359</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93359</ExpertLink>
-                        <Name lang="de">Spondyloepimetaphysäre Dysplasie mit Überstreckbarkeit der Gelenke</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="12291">
                         <OrphaCode>93360</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93360</ExpertLink>
-                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit multiplen Luxationen</Name>
+                        <Name lang="de">'Dysplasie, spondyloepimetaphysäre, mit multiplen Luxationen, leptodaktyler Typ'</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2002,7 +2002,7 @@
                       <Disorder id="17763">
                         <OrphaCode>168451</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168451</ExpertLink>
-                        <Name lang="de">Spondyloepimetaphysäre Dysplasie mit gestörter Zahnentwicklung</Name>
+                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit gestörter Zahnentwicklung</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2086,7 +2086,7 @@
                       <Disorder id="22464">
                         <OrphaCode>370015</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=370015</ExpertLink>
-                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, Typ Isidor</Name>
+                        <Name lang="de">'Dysplasie, spondyloepimetaphysäre, Typ Isidor-Toutain'</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2111,6 +2111,18 @@
                         <OrphaCode>436174</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=436174</ExpertLink>
                         <Name lang="de">Katarakt-Wachstumshormonmangel-sensorische Neuropathie-sensorineurale Schwerhörigkeit-Skelettdysplasie-Syndrom</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31730">
+                        <OrphaCode>642085</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642085</ExpertLink>
+                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit Überstreckbarkeit der Gelenke, Typ EXOC6B</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2189,24 +2201,12 @@
                       <Name lang="de">Phenom-Gruppe</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="13">
+                  <ClassificationNodeChildList count="12">
                     <ClassificationNode>
                       <Disorder id="17770">
                         <OrphaCode>168555</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168555</ExpertLink>
                         <Name lang="de">Dysplasie, spondyloepimetaphysäre, Typ A4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="22465">
-                        <OrphaCode>370019</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=370019</ExpertLink>
-                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, Typ Czarny-Ratajczak</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2571,7 +2571,7 @@
                           <Name lang="de">Phenom-Gruppe</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="9">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="12244">
                             <OrphaCode>93307</OrphaCode>
@@ -2673,6 +2673,18 @@
                             <OrphaCode>166032</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166032</ExpertLink>
                             <Name lang="de">Dysplasie, epiphysäre multiple, mit Miniepiphysen</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31807">
+                            <OrphaCode>647676</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647676</ExpertLink>
+                            <Name lang="de">'Dysplasie, epiphysäre multiple, Typ 7'</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -2914,7 +2926,7 @@
                       <Disorder id="31461">
                         <OrphaCode>622934</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=622934</ExpertLink>
-                        <Name lang="de">SBDS-related severe neonatal spondylometaphyseal dysplasia</Name>
+                        <Name lang="de">SBDS-assoziierte schwere neonatale spondylometaphysäre Dysplasie</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -3178,7 +3190,7 @@
                       <Disorder id="31467">
                         <OrphaCode>623695</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=623695</ExpertLink>
-                        <Name lang="de">MIR140-related spondyloepiphyseal dysplasia</Name>
+                        <Name lang="de">'Dysplasie, spondyloepiphysäre, MIR140-assoziierte '</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -3344,7 +3356,7 @@
                           <Disorder id="11101">
                             <OrphaCode>77258</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=77258</ExpertLink>
-                            <Name lang="de">Tricho-rhino-phalangeales Syndrom Typ 1 und 3</Name>
+                            <Name lang="de">Tricho-rhino-phalangeales Syndrom Typ 1</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -3509,7 +3521,7 @@
                       <Name lang="de">Phenom-Gruppe</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="23">
+                  <ClassificationNodeChildList count="24">
                     <ClassificationNode>
                       <Disorder id="1043">
                         <OrphaCode>240</OrphaCode>
@@ -3834,6 +3846,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31658">
+                        <OrphaCode>632603</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=632603</ExpertLink>
+                        <Name lang="de">Mesomele Dysplasie-digitale Anomalien-Intelligenzminderung-Syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="de">Fehlbildungs-Syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -3845,7 +3869,7 @@
                       <Name lang="de">Phenom-Gruppe</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="933">
                         <OrphaCode>140</OrphaCode>
@@ -3875,18 +3899,6 @@
                         <OrphaCode>1801</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1801</ExpertLink>
                         <Name lang="de">Dysplasie, kyphomele</Name>
-                        <DisorderType id="21401">
-                          <Name lang="de">Fehlbildungs-Syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="2160">
-                        <OrphaCode>2292</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2292</ExpertLink>
-                        <Name lang="de">Verbiegung der langen Knochen, kongenitale</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -3958,7 +3970,7 @@
                       <Disorder id="21763">
                         <OrphaCode>324307</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=324307</ExpertLink>
-                        <Name lang="de">Schwere laterale Tibia-Verkrümmung mit Kleinwuchs</Name>
+                        <Name lang="de">Schwere laterale Tibiaverkrümmung-Kleinwuchs-milde Scapula alata-Gesichtsdysmorphie-Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -4229,12 +4241,12 @@
                       <Name lang="de">Phenom-Gruppe</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="18">
+                  <ClassificationNodeChildList count="19">
                     <ClassificationNode>
                       <Disorder id="12291">
                         <OrphaCode>93360</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93360</ExpertLink>
-                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit multiplen Luxationen</Name>
+                        <Name lang="de">'Dysplasie, spondyloepimetaphysäre, mit multiplen Luxationen, leptodaktyler Typ'</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -4399,18 +4411,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="12290">
-                        <OrphaCode>93359</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93359</ExpertLink>
-                        <Name lang="de">Spondyloepimetaphysäre Dysplasie mit Überstreckbarkeit der Gelenke</Name>
-                        <DisorderType id="21394">
-                          <Name lang="de">Krankheit</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="23364">
                         <OrphaCode>438117</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=438117</ExpertLink>
@@ -4441,6 +4441,30 @@
                         <Name lang="de">Kleinwuchs-Skelettdysplasie-Netzhautdystrophie-Intelligenzminderung-sensorineuraler Hörverlust-Syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31731">
+                        <OrphaCode>642099</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642099</ExpertLink>
+                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit Überstreckbarkeit der Gelenke, Typ Beighton</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31730">
+                        <OrphaCode>642085</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642085</ExpertLink>
+                        <Name lang="de">Dysplasie, spondyloepimetaphysäre, mit Überstreckbarkeit der Gelenke, Typ EXOC6B</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -4831,15 +4855,39 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="3175">
-                        <OrphaCode>2204</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2204</ExpertLink>
-                        <Name lang="de">Hyperostosis corticalis, dysplastische</Name>
+                      <Disorder id="31802">
+                        <OrphaCode>646139</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=646139</ExpertLink>
+                        <Name lang="de">Dysplastische kortikale Hyperostose</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="3175">
+                            <OrphaCode>2204</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2204</ExpertLink>
+                            <Name lang="de">Dysplastische kortikale Hyperostose Typ Kozlowski-Tsuruta</Name>
+                            <DisorderType id="21450">
+                              <Name lang="de">Klinischer Subtyp</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31801">
+                            <OrphaCode>646136</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=646136</ExpertLink>
+                            <Name lang="de">Dysplastische kortikale Hyperostose Typ Al-Gazali</Name>
+                            <DisorderType id="21450">
+                              <Name lang="de">Klinischer Subtyp</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -4851,7 +4899,7 @@
                           <Name lang="de">Phenom-Gruppe</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="21">
+                      <ClassificationNodeChildList count="20">
                         <ClassificationNode>
                           <Disorder id="12544">
                             <OrphaCode>94063</OrphaCode>
@@ -5013,18 +5061,6 @@
                             <OrphaCode>2783</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2783</ExpertLink>
                             <Name lang="de">Osteopetrose, autosomal-dominante, Typ 1</Name>
-                            <DisorderType id="21401">
-                              <Name lang="de">Fehlbildungs-Syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2533">
-                            <OrphaCode>1306</OrphaCode>
-                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1306</ExpertLink>
-                            <Name lang="de">Buschke-Ollendorff-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -5782,7 +5818,7 @@
                       <Disorder id="28140">
                         <OrphaCode>557003</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=557003</ExpertLink>
-                        <Name lang="de">Okulo-zerebro-dentales Syndrom</Name>
+                        <Name lang="de">Okuloskeletodentales Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -6137,7 +6173,19 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="13">
+                    <ClassificationNode>
+                      <Disorder id="31806">
+                        <OrphaCode>647667</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647667</ExpertLink>
+                        <Name lang="de">'Dysplasie, mandibulo-akrale, MTX2-assoziierte'</Name>
+                        <DisorderType id="21401">
+                          <Name lang="de">Fehlbildungs-Syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="25921">
                         <OrphaCode>498474</OrphaCode>
@@ -6212,7 +6260,7 @@
                           <Disorder id="11984">
                             <OrphaCode>90153</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90153</ExpertLink>
-                            <Name lang="de">Dysplasie, mandibulo-akrale, mit Typ A-Lipodystrophie</Name>
+                            <Name lang="de">Mandibuloakrale Dysplasie mit Lipodystrophie Typ A</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -6224,7 +6272,7 @@
                           <Disorder id="11985">
                             <OrphaCode>90154</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90154</ExpertLink>
-                            <Name lang="de">Dysplasie, mandibulo-akrale, mit Typ B-Lipodystrophie</Name>
+                            <Name lang="de">Mandibuloakrale Dysplasie mit Lipodystrophie Typ B</Name>
                             <DisorderType id="21450">
                               <Name lang="de">Klinischer Subtyp</Name>
                             </DisorderType>
@@ -7167,7 +7215,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="61">
+                      <ClassificationNodeChildList count="62">
                         <ClassificationNode>
                           <Disorder id="10880">
                             <OrphaCode>65798</OrphaCode>
@@ -8129,6 +8177,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="31808">
+                            <OrphaCode>647681</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647681</ExpertLink>
+                            <Name lang="de">Kraniosynostose-Gesichtsdysmorphien-Chiari-Malformation Typ 1-Entwicklungs- und Sprachverzögerung-Sndrom</Name>
+                            <DisorderType id="21401">
+                              <Name lang="de">Fehlbildungs-Syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="28451">
                             <OrphaCode>565858</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565858</ExpertLink>
@@ -8161,7 +8221,31 @@
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="22350">
+                                <OrphaCode>363958</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=363958</ExpertLink>
+                                <Name lang="de">Mikrodeletionssyndrom 17q21.31</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="de">Ätiologischer Subtyp</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="22351">
+                                <OrphaCode>363965</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=363965</ExpertLink>
+                                <Name lang="de">Koolen-De Vries-Syndrom durch Punktmutation</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="de">Ätiologischer Subtyp</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -8482,7 +8566,7 @@
                       <Disorder id="2522">
                         <OrphaCode>2769</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2769</ExpertLink>
-                        <Name lang="de">Osteodysplastie, familiäre, Typ Anderson</Name>
+                        <Name lang="de">Osteodysplasie, familiäre, Typ Anderson</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -8749,7 +8833,7 @@
                               <Name lang="de">Phenom-Gruppe</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="293">
                                 <OrphaCode>861</OrphaCode>
@@ -8779,18 +8863,6 @@
                                 <OrphaCode>357158</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=357158</ExpertLink>
                                 <Name lang="de">Mandibulofaziale Dysostose - Makroblepharon - Makrostomie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="20490">
-                                <OrphaCode>280651</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280651</ExpertLink>
-                                <Name lang="de">Akrodysostose mit multipler Hormonresistenz</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -9094,7 +9166,7 @@
                       <Disorder id="21905">
                         <OrphaCode>329191</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329191</ExpertLink>
-                        <Name lang="de">Hochwuchs-Skoliose-Makrodaktylie der Großzehen-Syndrom</Name>
+                        <Name lang="de">Hochwuchs-lange Großzehen-multiple zusätzliche Epiphysen-Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -9517,12 +9589,24 @@
                               <Name lang="de">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="15">
+                          <ClassificationNodeChildList count="16">
                             <ClassificationNode>
                               <Disorder id="3071">
                                 <OrphaCode>1570</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1570</ExpertLink>
                                 <Name lang="de">Symbrachydaktylie der Hände und Füße</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="de">Fehlbildungs-Syndrom</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31679">
+                                <OrphaCode>633211</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=633211</ExpertLink>
+                                <Name lang="de">Präaxiale Brachydaktylie und Syndaktylie der Finger</Name>
                                 <DisorderType id="21401">
                                   <Name lang="de">Fehlbildungs-Syndrom</Name>
                                 </DisorderType>
@@ -9930,7 +10014,7 @@
                               <Disorder id="1512">
                                 <OrphaCode>1278</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1278</ExpertLink>
-                                <Name lang="de">Brachydaktylie, präaxiale - Hallux varus</Name>
+                                <Name lang="de">Präaxiale Brachydaktylie-Hallux varus-Syndrom</Name>
                                 <DisorderType id="21401">
                                   <Name lang="de">Fehlbildungs-Syndrom</Name>
                                 </DisorderType>
@@ -10333,7 +10417,7 @@
                               <Name lang="de">Phenom-Gruppe</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="20937">
                                 <OrphaCode>294975</OrphaCode>
@@ -10375,6 +10459,18 @@
                                 <OrphaCode>294973</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=294973</ExpertLink>
                                 <Name lang="de">Humerus-Agenesie/Hypoplasie</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="de">Morphologische Anomalie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31680">
+                                <OrphaCode>633228</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=633228</ExpertLink>
+                                <Name lang="de">Proximaler fokaler Femurdefekt</Name>
                                 <DisorderType id="21415">
                                   <Name lang="de">Morphologische Anomalie</Name>
                                 </DisorderType>
@@ -10456,7 +10552,7 @@
                                   <Disorder id="12274">
                                     <OrphaCode>93339</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93339</ExpertLink>
-                                    <Name lang="de">Polydaktylie eines biphalangealen Daumens</Name>
+                                    <Name lang="de">Polydaktylie eines biphalangealen Daumens und/oder Hallux</Name>
                                     <DisorderType id="21415">
                                       <Name lang="de">Morphologische Anomalie</Name>
                                     </DisorderType>
@@ -10755,7 +10851,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="14">
+                      <ClassificationNodeChildList count="13">
                         <ClassificationNode>
                           <Disorder id="11083">
                             <OrphaCode>75496</OrphaCode>
@@ -10893,18 +10989,6 @@
                             <OrphaCode>71289</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=71289</ExpertLink>
                             <Name lang="de">Radioulnar-Synostose - amegakaryozytische Thrombozytopenie</Name>
-                            <DisorderType id="21401">
-                              <Name lang="de">Fehlbildungs-Syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2486">
-                            <OrphaCode>2725</OrphaCode>
-                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2725</ExpertLink>
-                            <Name lang="de">Augendefekte - Arachnodaktylie - Kardiopathie</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -11540,7 +11624,7 @@
                           <Disorder id="2170">
                             <OrphaCode>2310</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2310</ExpertLink>
-                            <Name lang="de">Beindeformität - Katarakt</Name>
+                            <Name lang="de">Syndrom der Beinverlust-Deformität mit Katarakt</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -11924,7 +12008,7 @@
                           <Disorder id="1070">
                             <OrphaCode>1354</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1354</ExpertLink>
-                            <Name lang="de">Kardiopathie - Extremitätenverkürzung</Name>
+                            <Name lang="de">Herzfehler-Extremitätenverkürzung-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -12452,7 +12536,7 @@
                           <Disorder id="2011">
                             <OrphaCode>380</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=380</ExpertLink>
-                            <Name lang="de">Greig-Syndrom</Name>
+                            <Name lang="de">Greig-Zephalopolysyndaktylie-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -12829,7 +12913,7 @@
                               <Name lang="de">Phenom-Gruppe</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="16">
+                          <ClassificationNodeChildList count="15">
                             <ClassificationNode>
                               <Disorder id="407">
                                 <OrphaCode>245</OrphaCode>
@@ -12999,18 +13083,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="20490">
-                                <OrphaCode>280651</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=280651</ExpertLink>
-                                <Name lang="de">Akrodysostose mit multipler Hormonresistenz</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="2777">
                                 <OrphaCode>3102</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3102</ExpertLink>
@@ -13109,19 +13181,7 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
-                    <ClassificationNode>
-                      <Disorder id="579">
-                        <OrphaCode>3135</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3135</ExpertLink>
-                        <Name lang="de">Scheuermann-Krankheit, familiäre</Name>
-                        <DisorderType id="21401">
-                          <Name lang="de">Fehlbildungs-Syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="841">
                         <OrphaCode>2380</OrphaCode>
@@ -13138,7 +13198,7 @@
                       <Disorder id="2945">
                         <OrphaCode>3314</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3314</ExpertLink>
-                        <Name lang="de">Thiemann-Krankheit, familiäre From</Name>
+                        <Name lang="de">Thiemann-Krankheit, familiäre Form</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -13496,6 +13556,30 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="31794">
+                <OrphaCode>645822</OrphaCode>
+                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=645822</ExpertLink>
+                <Name lang="de">Primäre Tuberkulose der Knochen und Gelenke</Name>
+                <DisorderType id="21394">
+                  <Name lang="de">Krankheit</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="31820">
+                <OrphaCode>647823</OrphaCode>
+                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647823</ExpertLink>
+                <Name lang="de">'Osteoporose, schwangerschaftsassoziierte '</Name>
+                <DisorderType id="21394">
+                  <Name lang="de">Krankheit</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>

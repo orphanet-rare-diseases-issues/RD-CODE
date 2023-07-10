@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:38:34" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:38:57" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -659,11 +659,35 @@
                         <OrphaCode>3188</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3188</ExpertLink>
                         <Name lang="de">Pulmonalvenenatresie oder -stenose, kongenital</Name>
-                        <DisorderType id="21415">
-                          <Name lang="de">Morphologische Anomalie</Name>
+                        <DisorderType id="21436">
+                          <Name lang="de">Phenom-Gruppe</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="14143">
+                            <OrphaCode>99126</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99126</ExpertLink>
+                            <Name lang="de">'Pulmonalvenenatresie, kongenitale'</Name>
+                            <DisorderType id="21415">
+                              <Name lang="de">Morphologische Anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31729">
+                            <OrphaCode>642071</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=642071</ExpertLink>
+                            <Name lang="de">Pulmonalvenenstenose, primäre</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -779,18 +803,6 @@
                         <OrphaCode>984</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=984</ExpertLink>
                         <Name lang="de">Lungenagenesie</Name>
-                        <DisorderType id="21415">
-                          <Name lang="de">Morphologische Anomalie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="797">
-                        <OrphaCode>2357</OrphaCode>
-                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2357</ExpertLink>
-                        <Name lang="de">Zyste, bronchiale</Name>
                         <DisorderType id="21415">
                           <Name lang="de">Morphologische Anomalie</Name>
                         </DisorderType>
@@ -1147,6 +1159,66 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31859">
+                        <OrphaCode>649014</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=649014</ExpertLink>
+                        <Name lang="de">Fehlbildung der Bronchien</Name>
+                        <DisorderType id="21436">
+                          <Name lang="de">Phenom-Gruppe</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31856">
+                            <OrphaCode>648992</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648992</ExpertLink>
+                            <Name lang="de">'Bridging-Bronchus, nicht syndromaler'</Name>
+                            <DisorderType id="21415">
+                              <Name lang="de">Morphologische Anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31858">
+                            <OrphaCode>649010</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=649010</ExpertLink>
+                            <Name lang="de">Nicht-syndromale kongenitale Bronchialatresie</Name>
+                            <DisorderType id="21415">
+                              <Name lang="de">Morphologische Anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31861">
+                            <OrphaCode>649029</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=649029</ExpertLink>
+                            <Name lang="de">Isolierte Linksisomerie des Bronchialbaums</Name>
+                            <DisorderType id="21415">
+                              <Name lang="de">Morphologische Anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="797">
+                            <OrphaCode>2357</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2357</ExpertLink>
+                            <Name lang="de">Zyste, bronchiale</Name>
+                            <DisorderType id="21415">
+                              <Name lang="de">Morphologische Anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="236">
                         <OrphaCode>774</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=774</ExpertLink>
@@ -1328,9 +1400,9 @@
                           <Disorder id="20598">
                             <OrphaCode>284343</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=284343</ExpertLink>
-                            <Name lang="de">Prädisposition für die familiäre Form des Pleuropulmonalen Blastom-Syndroms</Name>
-                            <DisorderType id="21450">
-                              <Name lang="de">Klinischer Subtyp</Name>
+                            <Name lang="de">DICER1-Tumorprädispositionssyndrom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1477,18 +1549,6 @@
                     <OrphaCode>1164</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1164</ExpertLink>
                     <Name lang="de">Aspergillose, allergische bronchopulmonale</Name>
-                    <DisorderType id="21394">
-                      <Name lang="de">Krankheit</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="863">
-                    <OrphaCode>3389</OrphaCode>
-                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3389</ExpertLink>
-                    <Name lang="de">Tuberkulose</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
@@ -3300,7 +3360,7 @@
                   <Disorder id="20900">
                     <OrphaCode>293987</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=293987</ExpertLink>
-                    <Name lang="de">Frühkindliche Adipositas - Hypothalamus Dysfunktion - Hypoventilation -autonome Dysregulation - neurale Tumoren</Name>
+                    <Name lang="de">Syndrom der schnell einsetzenden Adipositas im Kindesalter mit hypothalamischer Dysfunktion, Hypoventilation und autonomer Dysregulation</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
@@ -3421,6 +3481,18 @@
                     <OrphaCode>99981</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99981</ExpertLink>
                     <Name lang="de">Frühgeborenen-Apnoe</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31793">
+                    <OrphaCode>645814</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=645814</ExpertLink>
+                    <Name lang="de">Primäre Tuberkulose der Lunge</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>

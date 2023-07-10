@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:44:25" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:46:18" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -1388,7 +1388,7 @@
                           <Disorder id="11760">
                             <OrphaCode>86861</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86861</ExpertLink>
-                            <Name lang="it">Malattia da accumulo di immunoglobulina monoclonale non amiloide</Name>
+                            <Name lang="it">Malattia da accumulo di immunoglobuline monoclonali non amiloidi</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1699,7 +1699,19 @@
                                           <Name lang="it">Sottotipo eziologico</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="7">
+                                      <ClassificationNodeChildList count="9">
+                                        <ClassificationNode>
+                                          <Disorder id="31718">
+                                            <OrphaCode>641375</OrphaCode>
+                                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=641375</ExpertLink>
+                                            <Name lang="it">Leucemia linfoblastica a cellule B/linfoma con t(17;19)</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="it">Sottotipo eziologico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
                                         <ClassificationNode>
                                           <Disorder id="29211">
                                             <OrphaCode>585909</OrphaCode>
@@ -1777,6 +1789,18 @@
                                             <OrphaCode>585956</OrphaCode>
                                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=585956</ExpertLink>
                                             <Name lang="it">'Leucemia linfoblastica a cellule B/linfoma con t(1;19)(q23;p13.3)'</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="it">Sottotipo eziologico</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="31717">
+                                            <OrphaCode>641372</OrphaCode>
+                                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=641372</ExpertLink>
+                                            <Name lang="it">Leucemia linfoblastica a cellule B/linfoma con t(7;9)(q11.2;p13.2)</Name>
                                             <DisorderType id="21443">
                                               <Name lang="it">Sottotipo eziologico</Name>
                                             </DisorderType>
@@ -2236,7 +2260,7 @@
                                   <Disorder id="11764">
                                     <OrphaCode>86870</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86870</ExpertLink>
-                                    <Name lang="it">Neoplasia ematodermica CD4+/CD56+</Name>
+                                    <Name lang="it">Neoplasia a cellule dendritiche plasmacitoidi blastiche</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -5422,7 +5446,7 @@
                       <Disorder id="14156">
                         <OrphaCode>99139</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99139</ExpertLink>
-                        <Name lang="it">Emoglobinopatia instabile</Name>
+                        <Name lang="it">Malattia dell'emoglobina instabile</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -5502,7 +5526,7 @@
                               <Disorder id="13808">
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98791</ExpertLink>
-                                <Name lang="it">Sindrome alfa talassemia-disabilità cognitiva, legata al cromosoma 16</Name>
+                                <Name lang="it">Sindrome alfa talassemia-disabilità intellettiva associata al cromosoma 16</Name>
                                 <DisorderType id="21401">
                                   <Name lang="it">Sindrome malformativa</Name>
                                 </DisorderType>
@@ -5948,7 +5972,7 @@
                           <Disorder id="413">
                             <OrphaCode>1046</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1046</ExpertLink>
-                            <Name lang="it">Anemia emolitica letale - anomalie genitali</Name>
+                            <Name lang="it">Sindrome da anemia emolitica letale-anomalie genitali</Name>
                             <DisorderType id="21401">
                               <Name lang="it">Sindrome malformativa</Name>
                             </DisorderType>
@@ -6328,7 +6352,7 @@
                                   <Disorder id="739">
                                     <OrphaCode>713</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=713</ExpertLink>
-                                    <Name lang="it">Malattia da deposito di glicogeno dovuta a deficit di fosfoglicerato chinasi</Name>
+                                    <Name lang="it">Malattia da accumulo di glicogeno da deficit di fosfoglicerato chinasi 1</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -6648,7 +6672,7 @@
                   <Disorder id="18195">
                     <OrphaCode>182040</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=182040</ExpertLink>
-                    <Name lang="it">Anemia aplastica</Name>
+                    <Name lang="it">Anemia aplastica rara</Name>
                     <DisorderType id="36561">
                       <Name lang="it">Categoria</Name>
                     </DisorderType>
@@ -6668,7 +6692,7 @@
                           <Disorder id="429">
                             <OrphaCode>124</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=124</ExpertLink>
-                            <Name lang="it">Malattia di Blackfan-Diamond</Name>
+                            <Name lang="it">Anemia di Diamond-Blackfan</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>

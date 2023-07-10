@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2022-06-14 07:47:19" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-21 18:11:22" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="8">
+          <ClassificationNodeChildList count="10">
             <ClassificationNode>
               <Disorder id="10552">
                 <OrphaCode>68411</OrphaCode>
@@ -900,7 +900,7 @@
                   <Disorder id="25395">
                     <OrphaCode>488265</OrphaCode>
                     <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488265</ExpertLink>
-                    <Name lang="pl">Dysplazja włóknista kości</Name>
+                    <Name lang="pl">Dysplazja kostno-włóknista</Name>
                     <DisorderType id="21394">
                       <Name lang="pl">Choroba</Name>
                     </DisorderType>
@@ -1054,7 +1054,7 @@
                       <Disorder id="31460">
                         <OrphaCode>622925</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=622925</ExpertLink>
-                        <Name lang="en">X-linked severe syndromic thoracic aortic aneurysm and dissection</Name>
+                        <Name lang="pl">Sprzężone z chromosomem X ciężkie syndromiczne rozwarstwienie i tętniak aorty</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -1162,7 +1162,7 @@
                       <Disorder id="1481">
                         <OrphaCode>115</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=115</ExpertLink>
-                        <Name lang="pl">Wrodzona archanodaktylia przykurczowa</Name>
+                        <Name lang="pl">Wrodzona archanodaktylia z przykurczami</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -1445,7 +1445,19 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="58">
+                  <ClassificationNodeChildList count="59">
+                    <ClassificationNode>
+                      <Disorder id="31731">
+                        <OrphaCode>642099</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642099</ExpertLink>
+                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów typu Beightona</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="1647">
                         <OrphaCode>1458</OrphaCode>
@@ -1819,18 +1831,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="12290">
-                        <OrphaCode>93359</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93359</ExpertLink>
-                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="12291">
                         <OrphaCode>93360</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93360</ExpertLink>
@@ -2119,6 +2119,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31730">
+                        <OrphaCode>642085</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642085</ExpertLink>
+                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów typu EXOC6B</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="25846">
                         <OrphaCode>496751</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=496751</ExpertLink>
@@ -2189,24 +2201,12 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="13">
+                  <ClassificationNodeChildList count="12">
                     <ClassificationNode>
                       <Disorder id="17770">
                         <OrphaCode>168555</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=168555</ExpertLink>
                         <Name lang="pl">Dysplazja kręgowo-przynasadowa typu A4</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="22465">
-                        <OrphaCode>370019</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370019</ExpertLink>
-                        <Name lang="pl">Dysplazja kręgowo-nasadowa typu Czarny-Ratajczak</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -2571,7 +2571,7 @@
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="9">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="12244">
                             <OrphaCode>93307</OrphaCode>
@@ -2673,6 +2673,18 @@
                             <OrphaCode>166032</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166032</ExpertLink>
                             <Name lang="pl">Dysplazja wielonasadowa, with miniepiphyses</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31807">
+                            <OrphaCode>647676</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647676</ExpertLink>
+                            <Name lang="pl">Dysplazja wielonasadowa typu 7</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -2914,7 +2926,7 @@
                       <Disorder id="31461">
                         <OrphaCode>622934</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=622934</ExpertLink>
-                        <Name lang="en">SBDS-related severe neonatal spondylometaphyseal dysplasia</Name>
+                        <Name lang="pl">Ciężka dysplazja kręgowo-przynasadowa noworodków związana z SBDS</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -3178,7 +3190,7 @@
                       <Disorder id="31467">
                         <OrphaCode>623695</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=623695</ExpertLink>
-                        <Name lang="en">MIR140-related spondyloepiphyseal dysplasia</Name>
+                        <Name lang="pl">Dysplazja kręgowo-nasadowa związana z MIR140</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -3344,7 +3356,7 @@
                           <Disorder id="11101">
                             <OrphaCode>77258</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=77258</ExpertLink>
-                            <Name lang="pl">Zespół włosowo-nosowo-paliczkowy typu 1 i 3</Name>
+                            <Name lang="pl">Zespół włosowo-nosowo-paliczkowy typu 1</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -3380,7 +3392,7 @@
                           <Disorder id="11469">
                             <OrphaCode>79443</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79443</ExpertLink>
-                            <Name lang="pl">Rzekoma niedoczynność tarczycy typu 1A</Name>
+                            <Name lang="pl">Rzekoma niedoczynność przytarczyc typu 1A</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -3392,7 +3404,7 @@
                           <Disorder id="11470">
                             <OrphaCode>79444</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79444</ExpertLink>
-                            <Name lang="pl">Rzekoma niedoczynność tarczycy typu 1C</Name>
+                            <Name lang="pl">Rzekoma niedoczynność przytarczyc typu 1C</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -3404,7 +3416,7 @@
                           <Disorder id="11471">
                             <OrphaCode>79445</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79445</ExpertLink>
-                            <Name lang="pl">Rzekoma niedoczynność tarczycy</Name>
+                            <Name lang="pl">Rzekomo rzekoma niedoczynność przytarczyc</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -3509,7 +3521,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="23">
+                  <ClassificationNodeChildList count="24">
                     <ClassificationNode>
                       <Disorder id="1043">
                         <OrphaCode>240</OrphaCode>
@@ -3834,6 +3846,18 @@
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31658">
+                        <OrphaCode>632603</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=632603</ExpertLink>
+                        <Name lang="pl">Zespół dysplazji mezomelicznej - anomalii palców - niepełnosprawności intelektualnej</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -3845,7 +3869,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="933">
                         <OrphaCode>140</OrphaCode>
@@ -3875,18 +3899,6 @@
                         <OrphaCode>1801</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1801</ExpertLink>
                         <Name lang="pl">Dysplazja kifomeliczna</Name>
-                        <DisorderType id="21401">
-                          <Name lang="pl">Zespół wad wrodzonych</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="2160">
-                        <OrphaCode>2292</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2292</ExpertLink>
-                        <Name lang="pl">Wrodzona łukowatość kości długich</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
@@ -4196,7 +4208,7 @@
                           <Disorder id="28765">
                             <OrphaCode>572768</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572768</ExpertLink>
-                            <Name lang="en">Microcephaly-micromelia syndrome</Name>
+                            <Name lang="pl">Zespół małogłowia i mikromelii</Name>
                             <DisorderType id="21450">
                               <Name lang="pl">Podtyp kliniczny</Name>
                             </DisorderType>
@@ -4229,7 +4241,7 @@
                       <Name lang="pl">Grupa fenomenów</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="18">
+                  <ClassificationNodeChildList count="19">
                     <ClassificationNode>
                       <Disorder id="12291">
                         <OrphaCode>93360</OrphaCode>
@@ -4399,18 +4411,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="12290">
-                        <OrphaCode>93359</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93359</ExpertLink>
-                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów</Name>
-                        <DisorderType id="21394">
-                          <Name lang="pl">Choroba</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="23364">
                         <OrphaCode>438117</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=438117</ExpertLink>
@@ -4441,6 +4441,30 @@
                         <Name lang="pl">Zespół niskiego wzrostu, dysplazji szkieletowej, degeneracji siatkówki, niepełnosprawności intelektualnej i utraty słuchu czuciowo-nerwowego</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31731">
+                        <OrphaCode>642099</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642099</ExpertLink>
+                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów typu Beightona</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31730">
+                        <OrphaCode>642085</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642085</ExpertLink>
+                        <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów typu EXOC6B</Name>
+                        <DisorderType id="21394">
+                          <Name lang="pl">Choroba</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -4831,15 +4855,39 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="3175">
-                        <OrphaCode>2204</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2204</ExpertLink>
+                      <Disorder id="31802">
+                        <OrphaCode>646139</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=646139</ExpertLink>
                         <Name lang="pl">Dysplastyczna hiperostoza korowa</Name>
                         <DisorderType id="21401">
                           <Name lang="pl">Zespół wad wrodzonych</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="3175">
+                            <OrphaCode>2204</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2204</ExpertLink>
+                            <Name lang="pl">Dysplastyczna hiperostoza korowa typu Kozłowskiego i Tsuruta</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31801">
+                            <OrphaCode>646136</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=646136</ExpertLink>
+                            <Name lang="pl">Dysplastyczna hiperostoza korowa typu Al-Gazali</Name>
+                            <DisorderType id="21450">
+                              <Name lang="pl">Podtyp kliniczny</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -4851,7 +4899,7 @@
                           <Name lang="pl">Grupa fenomenów</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="21">
+                      <ClassificationNodeChildList count="20">
                         <ClassificationNode>
                           <Disorder id="12544">
                             <OrphaCode>94063</OrphaCode>
@@ -5013,18 +5061,6 @@
                             <OrphaCode>2783</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2783</ExpertLink>
                             <Name lang="pl">Autosomalna dominująca osteopetroza typu 1</Name>
-                            <DisorderType id="21401">
-                              <Name lang="pl">Zespół wad wrodzonych</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2533">
-                            <OrphaCode>1306</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1306</ExpertLink>
-                            <Name lang="pl">Zespół Buschkego i Ollendorffa</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -6137,7 +6173,19 @@
                       <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="13">
+                    <ClassificationNode>
+                      <Disorder id="31806">
+                        <OrphaCode>647667</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647667</ExpertLink>
+                        <Name lang="pl">Dysplazja żuchwowo-obojczykowa związana z MTX2</Name>
+                        <DisorderType id="21401">
+                          <Name lang="pl">Zespół wad wrodzonych</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="25921">
                         <OrphaCode>498474</OrphaCode>
@@ -7167,7 +7215,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="61">
+                      <ClassificationNodeChildList count="62">
                         <ClassificationNode>
                           <Disorder id="10880">
                             <OrphaCode>65798</OrphaCode>
@@ -8129,10 +8177,22 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="31808">
+                            <OrphaCode>647681</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647681</ExpertLink>
+                            <Name lang="pl">Zespół kraniosynostozy-dysmorfii twarzy-malformacji Chiariego 1-opóźnienia rozwoju i mowy</Name>
+                            <DisorderType id="21401">
+                              <Name lang="pl">Zespół wad wrodzonych</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="28451">
                             <OrphaCode>565858</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=565858</ExpertLink>
-                            <Name lang="en">Craniosynostosis-microretrognathia-severe intellectual disability syndrome</Name>
+                            <Name lang="pl">Zespół kraniosynostozy, mikroretrognacji i ciężkiej niepełnosprawności intelektualnej</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -8161,7 +8221,31 @@
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="22350">
+                                <OrphaCode>363958</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363958</ExpertLink>
+                                <Name lang="pl">Zespół mikrodelecji 17q21.31</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="pl">Podtyp etiologiczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="22351">
+                                <OrphaCode>363965</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=363965</ExpertLink>
+                                <Name lang="pl">Zespół Koolena i De Vries spowodowany mutacją punktową</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="pl">Podtyp etiologiczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -8456,7 +8540,7 @@
                           <Disorder id="17152">
                             <OrphaCode>157832</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=157832</ExpertLink>
-                            <Name lang="en">Craniorhiny</Name>
+                            <Name lang="pl">Kraniorynia</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -8749,7 +8833,7 @@
                               <Name lang="pl">Grupa fenomenów</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="293">
                                 <OrphaCode>861</OrphaCode>
@@ -8779,18 +8863,6 @@
                                 <OrphaCode>357158</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=357158</ExpertLink>
                                 <Name lang="pl">Dyzostoza żuchwowo-twarzowa - macroblepharon - makrostomia</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="20490">
-                                <OrphaCode>280651</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280651</ExpertLink>
-                                <Name lang="pl">Dyzostoza kończynowa ze mnogą opornością hormonalną</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -9334,7 +9406,7 @@
                       <Disorder id="25922">
                         <OrphaCode>498477</OrphaCode>
                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498477</ExpertLink>
-                        <Name lang="en">Ectrodactyly with and without other manifestations</Name>
+                        <Name lang="pl">Ektrodaktylia z i bez innych objawów</Name>
                         <DisorderType id="36561">
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
@@ -9517,12 +9589,24 @@
                               <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="15">
+                          <ClassificationNodeChildList count="16">
                             <ClassificationNode>
                               <Disorder id="3071">
                                 <OrphaCode>1570</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1570</ExpertLink>
                                 <Name lang="pl">Symbrachydaktylia dłoni i stóp</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="pl">Zespół wad wrodzonych</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31679">
+                                <OrphaCode>633211</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=633211</ExpertLink>
+                                <Name lang="pl">Przedosiowa brachydaktylia - palce płetwiaste</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pl">Zespół wad wrodzonych</Name>
                                 </DisorderType>
@@ -10333,7 +10417,7 @@
                               <Name lang="pl">Grupa fenomenów</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="20937">
                                 <OrphaCode>294975</OrphaCode>
@@ -10382,6 +10466,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31680">
+                                <OrphaCode>633228</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=633228</ExpertLink>
+                                <Name lang="pl">Ogniskowe skrócenie proksymalnego odcinka kości udowej</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="pl">Wada morfologiczna</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -10410,7 +10506,7 @@
                               <Disorder id="25918">
                                 <OrphaCode>498464</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498464</ExpertLink>
-                                <Name lang="en">Non-syndromic preaxial polydactyly</Name>
+                                <Name lang="pl">Niesyndromiczna polidaktylia przedosiowa</Name>
                                 <DisorderType id="36561">
                                   <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
@@ -10470,7 +10566,7 @@
                               <Disorder id="25919">
                                 <OrphaCode>498467</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498467</ExpertLink>
-                                <Name lang="en">Non-syndromic postaxial polydactyly</Name>
+                                <Name lang="pl">Niesyndromiczna polidaktylia zaosiowa</Name>
                                 <DisorderType id="36561">
                                   <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
@@ -10506,7 +10602,7 @@
                               <Disorder id="25920">
                                 <OrphaCode>498470</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498470</ExpertLink>
-                                <Name lang="en">Non-syndromic complex polydactyly</Name>
+                                <Name lang="pl">Niesyndromiczna polidaktylia złożona</Name>
                                 <DisorderType id="36561">
                                   <Name lang="pl">Kategoria</Name>
                                 </DisorderType>
@@ -10755,7 +10851,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="14">
+                      <ClassificationNodeChildList count="13">
                         <ClassificationNode>
                           <Disorder id="11083">
                             <OrphaCode>75496</OrphaCode>
@@ -10893,18 +10989,6 @@
                             <OrphaCode>71289</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=71289</ExpertLink>
                             <Name lang="pl">Synostoza promieniowo-łokciowa - małopłytkowość amegakariocytowa</Name>
-                            <DisorderType id="21401">
-                              <Name lang="pl">Zespół wad wrodzonych</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2486">
-                            <OrphaCode>2725</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2725</ExpertLink>
-                            <Name lang="pl">Wady oka - arachnodaktylia - kardiopatia</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -11300,7 +11384,7 @@
                           <Disorder id="25392">
                             <OrphaCode>488232</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488232</ExpertLink>
-                            <Name lang="en">Split-foot malformation-mesoaxial polydactyly syndrome</Name>
+                            <Name lang="pl">Zespół rozszczepienia stopy - polidaktylii promienia środkowego</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -11312,7 +11396,7 @@
                           <Disorder id="25843">
                             <OrphaCode>496693</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=496693</ExpertLink>
-                            <Name lang="en">Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome</Name>
+                            <Name lang="pl">Zespół przepukliny pępowinowej, przepukliny przeponowej, wad układu sercowo-naczyniowego oraz wad promieniowej strony kończyny górnej</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -12044,7 +12128,7 @@
                           <Disorder id="28585">
                             <OrphaCode>567502</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=567502</ExpertLink>
-                            <Name lang="pl">Zespół malformacji moczowo-plciowych, wad kończyn i niedoboru odporności komórek B syndrome</Name>
+                            <Name lang="pl">Zespół malformacji moczowo-płciowych, wad kończyn i niedoboru odporności związanej z komórkami B</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -12728,7 +12812,7 @@
                           <Disorder id="25392">
                             <OrphaCode>488232</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488232</ExpertLink>
-                            <Name lang="en">Split-foot malformation-mesoaxial polydactyly syndrome</Name>
+                            <Name lang="pl">Zespół rozszczepienia stopy - polidaktylii promienia środkowego</Name>
                             <DisorderType id="21401">
                               <Name lang="pl">Zespół wad wrodzonych</Name>
                             </DisorderType>
@@ -12829,7 +12913,7 @@
                               <Name lang="pl">Grupa fenomenów</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="16">
+                          <ClassificationNodeChildList count="15">
                             <ClassificationNode>
                               <Disorder id="407">
                                 <OrphaCode>245</OrphaCode>
@@ -12999,18 +13083,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="20490">
-                                <OrphaCode>280651</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280651</ExpertLink>
-                                <Name lang="pl">Dyzostoza kończynowa ze mnogą opornością hormonalną</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="2777">
                                 <OrphaCode>3102</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3102</ExpertLink>
@@ -13109,19 +13181,7 @@
                       <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="10">
-                    <ClassificationNode>
-                      <Disorder id="579">
-                        <OrphaCode>3135</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3135</ExpertLink>
-                        <Name lang="pl">Rodzinna choroba Scheuermanna</Name>
-                        <DisorderType id="21401">
-                          <Name lang="pl">Zespół wad wrodzonych</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="9">
                     <ClassificationNode>
                       <Disorder id="841">
                         <OrphaCode>2380</OrphaCode>
@@ -13316,7 +13376,7 @@
                           <Disorder id="22754">
                             <OrphaCode>399180</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399180</ExpertLink>
-                            <Name lang="pl">Wtórna martwica awaskularna</Name>
+                            <Name lang="pl">Wtórna martwica awaskularna niezwiązana z urazem</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -13496,6 +13556,30 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="31794">
+                <OrphaCode>645822</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=645822</ExpertLink>
+                <Name lang="pl">Pierwotna gruźlica kości i stawów</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="31820">
+                <OrphaCode>647823</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647823</ExpertLink>
+                <Name lang="pl">Idiopatyczna osteoporoza związana z ciążą</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>

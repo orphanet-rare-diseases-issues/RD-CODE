@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:37:53" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:38:16" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,19 @@
               <Name lang="pt">Category</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="16">
+          <ClassificationNodeChildList count="17">
+            <ClassificationNode>
+              <Disorder id="31791">
+                <OrphaCode>645793</OrphaCode>
+                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=645793</ExpertLink>
+                <Name lang="pt">Spontaneous intestinal perforation</Name>
+                <DisorderType id="21394">
+                  <Name lang="pt">Doença</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
             <ClassificationNode>
               <Disorder id="19068">
                 <OrphaCode>228113</OrphaCode>
@@ -50,7 +62,7 @@
               <Disorder id="10637">
                 <OrphaCode>49041</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=49041</ExpertLink>
-                <Name lang="pt">Fibrose retroperitoneal</Name>
+                <Name lang="pt">Fibrose retroperitoneal IgG4-relacionada</Name>
                 <DisorderType id="21450">
                   <Name lang="pt">Subtipo clínico</Name>
                 </DisorderType>
@@ -96,7 +108,7 @@
                   <Disorder id="11886">
                     <OrphaCode>88993</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=88993</ExpertLink>
-                    <Name lang="pt">Esofágica, malformação</Name>
+                    <Name lang="pt">Esophageal malformation</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -106,12 +118,12 @@
                       <Disorder id="15011">
                         <OrphaCode>108959</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108959</ExpertLink>
-                        <Name lang="pt">Malformação esofágica, não-sindrómica</Name>
+                        <Name lang="pt">Malformação esofágica não-sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="724">
                             <OrphaCode>1199</OrphaCode>
@@ -165,6 +177,18 @@
                             <OrphaCode>91358</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=91358</ExpertLink>
                             <Name lang="pt">Divertículo esofágico congénito</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pt">Anomalia morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31788">
+                            <OrphaCode>645749</OrphaCode>
+                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=645749</ExpertLink>
+                            <Name lang="pt">Congenital esophageal stenosis</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -262,7 +286,7 @@
                       <Disorder id="15012">
                         <OrphaCode>108961</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108961</ExpertLink>
-                        <Name lang="pt">Malformação esofágica sindrómica</Name>
+                        <Name lang="pt">Malformação esofágica sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -272,7 +296,7 @@
                           <Disorder id="603">
                             <OrphaCode>887</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=887</ExpertLink>
-                            <Name lang="pt">Associação VATER</Name>
+                            <Name lang="pt">Associação VACTERL/VATER</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -296,7 +320,7 @@
                           <Disorder id="1254">
                             <OrphaCode>929</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=929</ExpertLink>
-                            <Name lang="pt">Acalasia microcefalia</Name>
+                            <Name lang="pt">Síndrome de acalasia-microcefalia</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -308,7 +332,7 @@
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1305</ExpertLink>
-                            <Name lang="pt">Síndrome oculo-digito-esofago-duodenal</Name>
+                            <Name lang="pt">Síndrome Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -344,7 +368,7 @@
                           <Disorder id="11110">
                             <OrphaCode>77298</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=77298</ExpertLink>
-                            <Name lang="pt">Anoftalmia/microftalmia - atresia esofágica</Name>
+                            <Name lang="pt">Síndrome de anoftalmia/microftalmia-atresia esofágica</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -356,7 +380,7 @@
                           <Disorder id="27125">
                             <OrphaCode>514352</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=514352</ExpertLink>
-                            <Name lang="pt">Síndrome de braquiesófago congénito-estômago intratoráxico-anomalias vertebrais</Name>
+                            <Name lang="pt">Síndrome de braquiesófago congénito-estômago intratorácico-anomalias vertebrais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -382,7 +406,7 @@
                       <Disorder id="1058">
                         <OrphaCode>557</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=557</ExpertLink>
-                        <Name lang="pt">Malformação anoretal não-sindrómica</Name>
+                        <Name lang="pt">Malformação anoretal não-sindromática</Name>
                         <DisorderType id="21436">
                           <Name lang="pt">Grupo de fenótipos</Name>
                         </DisorderType>
@@ -392,7 +416,7 @@
                           <Disorder id="30540">
                             <OrphaCode>600952</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600952</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula perineal</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula perineal</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -404,7 +428,7 @@
                           <Disorder id="30541">
                             <OrphaCode>600961</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600961</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula rectouretral</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula rectouretral</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -414,7 +438,7 @@
                               <Disorder id="30542">
                                 <OrphaCode>600966</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600966</ExpertLink>
-                                <Name lang="pt">Malformação anorrectal não-sindrómica com fístula rectouretral, tipo bulbar</Name>
+                                <Name lang="pt">Malformação anorrectal não-sindromática com fístula rectouretral, tipo bulbar</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
@@ -426,7 +450,7 @@
                               <Disorder id="30543">
                                 <OrphaCode>600975</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600975</ExpertLink>
-                                <Name lang="pt">Malformação anorrectal não-sindrómica com fístula rectouretral, tipo prostática</Name>
+                                <Name lang="pt">Malformação anorrectal não-sindromática com fístula rectouretral, tipo prostática</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
@@ -440,7 +464,7 @@
                           <Disorder id="30544">
                             <OrphaCode>600984</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600984</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula rectovesical</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula rectovesical</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -452,7 +476,7 @@
                           <Disorder id="30545">
                             <OrphaCode>600993</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600993</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula vestibular</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula vestibular</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -464,7 +488,7 @@
                           <Disorder id="30546">
                             <OrphaCode>600998</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=600998</ExpertLink>
-                            <Name lang="pt">Malformação cloacal não-sindrómica</Name>
+                            <Name lang="pt">Malformação cloacal não-sindromática</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -476,7 +500,7 @@
                           <Disorder id="30547">
                             <OrphaCode>601002</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601002</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica sem fístula</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática sem fístula</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -488,7 +512,7 @@
                           <Disorder id="30548">
                             <OrphaCode>601008</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601008</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com estenose anal</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com estenose anal</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -500,7 +524,7 @@
                           <Disorder id="30549">
                             <OrphaCode>601013</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601013</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com colón bolsa</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com bolsa do colón</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -512,7 +536,7 @@
                           <Disorder id="30550">
                             <OrphaCode>601018</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601018</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com atrésia rectal</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com atrésia rectal</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -524,7 +548,7 @@
                           <Disorder id="30551">
                             <OrphaCode>601023</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601023</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com estenose rectal</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com estenose rectal</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -536,7 +560,7 @@
                           <Disorder id="30552">
                             <OrphaCode>601028</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601028</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula rectovaginal</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula rectovaginal</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -548,7 +572,7 @@
                           <Disorder id="30553">
                             <OrphaCode>601033</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=601033</ExpertLink>
-                            <Name lang="pt">Malformação anorrectal não-sindrómica com fístula tipo H</Name>
+                            <Name lang="pt">Malformação anorrectal não-sindromática com fístula tipo H</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -562,7 +586,7 @@
                       <Disorder id="15041">
                         <OrphaCode>117573</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=117573</ExpertLink>
-                        <Name lang="pt">Malformação ano-retal sindrómica</Name>
+                        <Name lang="pt">Malformação ano-retal sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -572,7 +596,7 @@
                           <Disorder id="126">
                             <OrphaCode>567</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=567</ExpertLink>
-                            <Name lang="pt">Microdeleção 22q11</Name>
+                            <Name lang="pt">Síndrome de deleção 22q11.2</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -584,7 +608,7 @@
                           <Disorder id="218">
                             <OrphaCode>857</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=857</ExpertLink>
-                            <Name lang="pt">Síndrome de Townes-Brocks</Name>
+                            <Name lang="pt">Síndrome Townes-Brocks</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -596,7 +620,7 @@
                           <Disorder id="246">
                             <OrphaCode>195</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=195</ExpertLink>
-                            <Name lang="pt">Síndrome de 'Cat eye'</Name>
+                            <Name lang="pt">Síndrome "cat-eye"</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -644,7 +668,7 @@
                           <Disorder id="603">
                             <OrphaCode>887</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=887</ExpertLink>
-                            <Name lang="pt">Associação VATER</Name>
+                            <Name lang="pt">Associação VACTERL/VATER</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -656,7 +680,7 @@
                           <Disorder id="1046">
                             <OrphaCode>2052</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2052</ExpertLink>
-                            <Name lang="pt">Síndrome de Fraser</Name>
+                            <Name lang="pt">Síndrome Fraser</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -668,7 +692,7 @@
                           <Disorder id="1082">
                             <OrphaCode>1552</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1552</ExpertLink>
-                            <Name lang="pt">Tríade de Currarino</Name>
+                            <Name lang="pt">Síndrome Currarino</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -680,7 +704,7 @@
                           <Disorder id="1092">
                             <OrphaCode>1590</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1590</ExpertLink>
-                            <Name lang="pt">Deleção 13q32</Name>
+                            <Name lang="pt">Monossomia distal 13q</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -692,7 +716,7 @@
                           <Disorder id="1469">
                             <OrphaCode>1225</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1225</ExpertLink>
-                            <Name lang="pt">Síndrome de craniossinostose - aplasia radial</Name>
+                            <Name lang="pt">Síndrome Baller-Gerold</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -704,7 +728,7 @@
                           <Disorder id="1588">
                             <OrphaCode>1381</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1381</ExpertLink>
-                            <Name lang="pt">Catarata - atraso mental - atresia anal - anomalias urinárias</Name>
+                            <Name lang="pt">Síndrome de catarata-perturbação do desenvolvimento intelectual-atresia anal-anomalias urinárias</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -716,7 +740,7 @@
                           <Disorder id="1639">
                             <OrphaCode>1436</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1436</ExpertLink>
-                            <Name lang="pt">Displasia óssea - défice intelectual</Name>
+                            <Name lang="pt">Síndrome de displasia esquelética-perturbação do desenvolvimento intelectual ligada ao X</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -740,7 +764,7 @@
                           <Disorder id="1814">
                             <OrphaCode>1834</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1834</ExpertLink>
-                            <Name lang="pt">Displasia axial mesodérmica</Name>
+                            <Name lang="pt">Espectro clínico de displasia mesodérmica axial</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -752,7 +776,7 @@
                           <Disorder id="2130">
                             <OrphaCode>672</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=672</ExpertLink>
-                            <Name lang="pt">Síndrome de Pallister-Hall</Name>
+                            <Name lang="pt">Pallister-Hall syndrome</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -764,7 +788,7 @@
                           <Disorder id="2172">
                             <OrphaCode>2315</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2315</ExpertLink>
-                            <Name lang="pt">Síndrome de Johanson-Blizzard</Name>
+                            <Name lang="pt">Síndrome Johanson-Blizzard</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -776,7 +800,7 @@
                           <Disorder id="2177">
                             <OrphaCode>2322</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2322</ExpertLink>
-                            <Name lang="pt">Síndrome de Kabuki</Name>
+                            <Name lang="pt">Síndrome Kabuki</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -788,7 +812,7 @@
                           <Disorder id="2234">
                             <OrphaCode>2408</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2408</ExpertLink>
-                            <Name lang="pt">Síndrome de Lowe-Kohn-Cohen</Name>
+                            <Name lang="pt">Síndrome Lowe-Kohn-Cohen</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -800,7 +824,7 @@
                           <Disorder id="2359">
                             <OrphaCode>2556</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2556</ExpertLink>
-                            <Name lang="pt">Síndrome MIDAS</Name>
+                            <Name lang="pt">Síndrome de microftalmia com defeitos cutâneos lineares</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -812,7 +836,7 @@
                           <Disorder id="2378">
                             <OrphaCode>2578</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2578</ExpertLink>
-                            <Name lang="pt">Associação MURCS</Name>
+                            <Name lang="pt">Síndrome Mayer-Rokitansky-Küster-Hauser tipo 2</Name>
                             <DisorderType id="21450">
                               <Name lang="pt">Subtipo clínico</Name>
                             </DisorderType>
@@ -824,7 +848,7 @@
                           <Disorder id="2679">
                             <OrphaCode>2973</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2973</ExpertLink>
-                            <Name lang="pt">Pseudo-hermafroditismo - anomalias ano-rectais</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX-anomalias ano-rectais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -836,7 +860,7 @@
                           <Disorder id="2808">
                             <OrphaCode>3138</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3138</ExpertLink>
-                            <Name lang="pt">Síndrome de Schinzel</Name>
+                            <Name lang="pt">Síndrome cúbito-mamário</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -848,7 +872,7 @@
                           <Disorder id="3007">
                             <OrphaCode>3412</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3412</ExpertLink>
-                            <Name lang="pt">Associação VACTERL - hidrocefalia</Name>
+                            <Name lang="pt">VACTERL com hidrocefalia</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -872,7 +896,7 @@
                           <Disorder id="3485">
                             <OrphaCode>782</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=782</ExpertLink>
-                            <Name lang="pt">Síndrome de Axenfeld-Rieger</Name>
+                            <Name lang="pt">Síndrome Axenfeld-Rieger</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -896,7 +920,7 @@
                           <Disorder id="11599">
                             <OrphaCode>83628</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=83628</ExpertLink>
-                            <Name lang="pt">Síndrome PELVIS</Name>
+                            <Name lang="pt">Síndrome LUMBAR</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -908,7 +932,7 @@
                           <Disorder id="12214">
                             <OrphaCode>93271</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=93271</ExpertLink>
-                            <Name lang="pt">Síndrome costelas curtas-polidactilia tipo Verma-Naumoff (tipo 3)</Name>
+                            <Name lang="pt">Síndrome costelas curtas-polidactilia, tipo Verma-Naumoff</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -920,7 +944,7 @@
                           <Disorder id="12230">
                             <OrphaCode>93293</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=93293</ExpertLink>
-                            <Name lang="pt">Síndrome de Okihiro</Name>
+                            <Name lang="pt">Síndrome Okihiro</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -930,7 +954,7 @@
                               <Disorder id="19897">
                                 <OrphaCode>261638</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261638</ExpertLink>
-                                <Name lang="pt">Síndrome de Okihiro devido a monossomia 20q13</Name>
+                                <Name lang="pt">Síndrome Okihiro por microdeleção 20q13</Name>
                                 <DisorderType id="21443">
                                   <Name lang="pt">Subtipo etiologico</Name>
                                 </DisorderType>
@@ -942,7 +966,7 @@
                               <Disorder id="19898">
                                 <OrphaCode>261647</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261647</ExpertLink>
-                                <Name lang="pt">Síndrome de Okihiro devido a uma mutação pontual</Name>
+                                <Name lang="pt">Síndrome Okihiro por uma mutação pontual</Name>
                                 <DisorderType id="21443">
                                   <Name lang="pt">Subtipo etiologico</Name>
                                 </DisorderType>
@@ -992,7 +1016,7 @@
                           <Disorder id="17006">
                             <OrphaCode>140952</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=140952</ExpertLink>
-                            <Name lang="pt">Sindactilia - telecanto - malformações anogenitais e renais</Name>
+                            <Name lang="pt">Síndrome de sindactilia-telecanto-malformações anogenitais e renais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1016,7 +1040,7 @@
                           <Disorder id="23513">
                             <OrphaCode>444941</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=444941</ExpertLink>
-                            <Name lang="pt">Espectro de regressão caudal-sirenomelia</Name>
+                            <Name lang="pt">Espectro clínico de regressão caudal-sirenomelia</Name>
                             <DisorderType id="21436">
                               <Name lang="pt">Grupo de fenótipos</Name>
                             </DisorderType>
@@ -1076,7 +1100,7 @@
                           <Disorder id="116">
                             <OrphaCode>870</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=870</ExpertLink>
-                            <Name lang="pt">Trissomia 21</Name>
+                            <Name lang="pt">Síndrome Down</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1088,7 +1112,7 @@
                           <Disorder id="3709">
                             <OrphaCode>2345</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2345</ExpertLink>
-                            <Name lang="pt">Síndrome de Klippel-Feil</Name>
+                            <Name lang="pt">Síndrome Klippel-Feil isolado</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1112,7 +1136,7 @@
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1305</ExpertLink>
-                            <Name lang="pt">Síndrome oculo-digito-esofago-duodenal</Name>
+                            <Name lang="pt">Síndrome Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1160,7 +1184,7 @@
                           <Disorder id="12213">
                             <OrphaCode>93270</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=93270</ExpertLink>
-                            <Name lang="pt">Síndrome costelas curtas-polidactilia tipo Saldino-Noonan (tipo 1)</Name>
+                            <Name lang="pt">Síndrome costelas curtas-polidactilia, tipo Saldino-Noonan</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1186,7 +1210,7 @@
                       <Disorder id="15013">
                         <OrphaCode>108963</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108963</ExpertLink>
-                        <Name lang="pt">Malformação gastroduodenal, não-sindrómica</Name>
+                        <Name lang="pt">Malformação gastroduodenal não-sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1222,7 +1246,7 @@
                       <Disorder id="15014">
                         <OrphaCode>108965</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108965</ExpertLink>
-                        <Name lang="pt">Malformação gastroduodenal sindrómica</Name>
+                        <Name lang="pt">Malformação gastroduodenal sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1232,7 +1256,7 @@
                           <Disorder id="1536">
                             <OrphaCode>1305</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1305</ExpertLink>
-                            <Name lang="pt">Síndrome oculo-digito-esofago-duodenal</Name>
+                            <Name lang="pt">Síndrome Feingold</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1268,7 +1292,7 @@
                           <Disorder id="3155">
                             <OrphaCode>2538</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2538</ExpertLink>
-                            <Name lang="pt">Microgastria - defeitos de redução dos membros</Name>
+                            <Name lang="pt">Síndrome de microgastria-defeitos de redução dos membros</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1294,7 +1318,7 @@
                       <Disorder id="15015">
                         <OrphaCode>108967</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108967</ExpertLink>
-                        <Name lang="pt">Malformação intestinal, não-sindrómica</Name>
+                        <Name lang="pt">Malformação intestinal não-sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1352,7 +1376,7 @@
                           <Disorder id="516">
                             <OrphaCode>2301</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2301</ExpertLink>
-                            <Name lang="pt">Intestino curto congénito</Name>
+                            <Name lang="pt">Congenital short bowel syndrome</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -1400,7 +1424,7 @@
                           <Disorder id="28167">
                             <OrphaCode>557866</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=557866</ExpertLink>
-                            <Name lang="pt">Doença Hirschsprung como principal característica da doença rara</Name>
+                            <Name lang="pt">Doença rara com doença de Hirschsprung como característica principal</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -1410,7 +1434,7 @@
                               <Disorder id="2054">
                                 <OrphaCode>2155</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2155</ExpertLink>
-                                <Name lang="pt">Doença de Hirschsprung - surdez - polidactilia</Name>
+                                <Name lang="pt">Síndrome de doença Hirschsprung-surdez-polidactilia</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -1422,7 +1446,7 @@
                               <Disorder id="3244">
                                 <OrphaCode>110</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=110</ExpertLink>
-                                <Name lang="pt">Síndrome de Bardet-Biedl</Name>
+                                <Name lang="pt">Síndrome Bardet-Biedl</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1470,7 +1494,7 @@
                               <Disorder id="959">
                                 <OrphaCode>897</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=897</ExpertLink>
-                                <Name lang="pt">Síndrome de Waardenburg-Shah</Name>
+                                <Name lang="pt">Síndrome Waardenburg-Shah</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1482,7 +1506,7 @@
                               <Disorder id="2050">
                                 <OrphaCode>2150</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2150</ExpertLink>
-                                <Name lang="pt">Doença de Hirschsprung - braquidactilia tipo D</Name>
+                                <Name lang="pt">Síndrome de doença Hirschsprung-braquidactilia tipo D</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -1494,7 +1518,7 @@
                               <Disorder id="2051">
                                 <OrphaCode>2152</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2152</ExpertLink>
-                                <Name lang="pt">Síndrome de Hirschsprung - atraso mental</Name>
+                                <Name lang="pt">Síndrome Mowat-Wilson</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -1504,7 +1528,7 @@
                                   <Disorder id="19888">
                                     <OrphaCode>261537</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261537</ExpertLink>
-                                    <Name lang="pt">Síndrome de Mowat-Wilson devido a monossomia 2q22</Name>
+                                    <Name lang="pt">Síndrome Mowat-Wilson por monossomia 2q22</Name>
                                     <DisorderType id="21443">
                                       <Name lang="pt">Subtipo etiologico</Name>
                                     </DisorderType>
@@ -1516,7 +1540,7 @@
                                   <Disorder id="19889">
                                     <OrphaCode>261552</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261552</ExpertLink>
-                                    <Name lang="pt">Síndrome de Mowat-Wilson devido a uma mutação pontual</Name>
+                                    <Name lang="pt">Síndrome Mowat-Wilson por uma mutação pontual ZEB2</Name>
                                     <DisorderType id="21443">
                                       <Name lang="pt">Subtipo etiologico</Name>
                                     </DisorderType>
@@ -1530,7 +1554,7 @@
                               <Disorder id="2052">
                                 <OrphaCode>2153</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2153</ExpertLink>
-                                <Name lang="pt">Hirschsprung - hipoplasia ungueal - dismorfias</Name>
+                                <Name lang="pt">Síndrome de doença Hirschsprung-hipoplasia ungueal-dismorfia</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -1544,7 +1568,7 @@
                           <Disorder id="2278">
                             <OrphaCode>2464</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2464</ExpertLink>
-                            <Name lang="pt">Síndrome hábito marfanóide tipo de Silva</Name>
+                            <Name lang="pt">Síndrome hábito marfanóide, tipo De Silva</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1568,7 +1592,7 @@
                           <Disorder id="3130">
                             <OrphaCode>3405</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3405</ExpertLink>
-                            <Name lang="pt">Úlcera do cordão umbilical - atresia intestinal</Name>
+                            <Name lang="pt">Síndrome de úlcera do cordão umbilical-atresia intestinal</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1592,7 +1616,7 @@
                           <Disorder id="23336">
                             <OrphaCode>436252</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=436252</ExpertLink>
-                            <Name lang="pt">Doença inflamatória intestinal de início precoce/ atresias intestinais múltiplas e imunodeficiência combinada</Name>
+                            <Name lang="pt">Espectro clínico de imunodeficiência combinada-enteropatia</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1656,7 +1680,7 @@
                   <Disorder id="15017">
                     <OrphaCode>108971</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108971</ExpertLink>
-                    <Name lang="pt">Malformação visceral, não-sindrómica</Name>
+                    <Name lang="pt">Malformação visceral não-sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -1678,7 +1702,7 @@
                       <Disorder id="2548">
                         <OrphaCode>2805</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2805</ExpertLink>
-                        <Name lang="pt">Agenesia do pâncreas</Name>
+                        <Name lang="pt">Agenesia pancreática parcial</Name>
                         <DisorderType id="21415">
                           <Name lang="pt">Anomalia morfológica</Name>
                         </DisorderType>
@@ -1714,7 +1738,7 @@
                       <Disorder id="8781">
                         <OrphaCode>30391</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=30391</ExpertLink>
-                        <Name lang="pt">Atresia biliar</Name>
+                        <Name lang="pt">Atresia biliar isolada</Name>
                         <DisorderType id="21415">
                           <Name lang="pt">Anomalia morfológica</Name>
                         </DisorderType>
@@ -1788,7 +1812,7 @@
                   <Disorder id="15018">
                     <OrphaCode>108973</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108973</ExpertLink>
-                    <Name lang="pt">Malformação visceral sindrómica</Name>
+                    <Name lang="pt">Malformação visceral sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -1822,7 +1846,7 @@
                       <Disorder id="19476">
                         <OrphaCode>244283</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=244283</ExpertLink>
-                        <Name lang="pt">Síndrome atresia biliar - malformação esplénica</Name>
+                        <Name lang="pt">Atrésia biliar com síndrome de malformação esplénica</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1834,7 +1858,7 @@
                       <Disorder id="253">
                         <OrphaCode>52</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=52</ExpertLink>
-                        <Name lang="pt">Síndrome de Alagille</Name>
+                        <Name lang="pt">Síndrome Alagille</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1844,7 +1868,7 @@
                           <Disorder id="19894">
                             <OrphaCode>261600</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261600</ExpertLink>
-                            <Name lang="pt">Síndrome de Alagille devido a monossomia 20p12</Name>
+                            <Name lang="pt">Síndrome Alagille por microdeleção 20p12</Name>
                             <DisorderType id="21443">
                               <Name lang="pt">Subtipo etiologico</Name>
                             </DisorderType>
@@ -1856,7 +1880,7 @@
                           <Disorder id="19895">
                             <OrphaCode>261619</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261619</ExpertLink>
-                            <Name lang="pt">Síndrome de Alagille devido a mutação pontual no gene JAG1</Name>
+                            <Name lang="pt">Síndrome Alagille por uma mutação pontual no JAG1</Name>
                             <DisorderType id="21443">
                               <Name lang="pt">Subtipo etiologico</Name>
                             </DisorderType>
@@ -1868,7 +1892,7 @@
                           <Disorder id="19896">
                             <OrphaCode>261629</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261629</ExpertLink>
-                            <Name lang="pt">Síndrome de Alagille devido a mutação pontual no gene NOTCH2</Name>
+                            <Name lang="pt">Síndrome Alagille por uma mutação pontual no NOTCH2</Name>
                             <DisorderType id="21443">
                               <Name lang="pt">Subtipo etiologico</Name>
                             </DisorderType>
@@ -1882,7 +1906,7 @@
                       <Disorder id="280">
                         <OrphaCode>564</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=564</ExpertLink>
-                        <Name lang="pt">Síndrome de Meckel</Name>
+                        <Name lang="pt">Síndrome Meckel</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1894,7 +1918,7 @@
                       <Disorder id="1982">
                         <OrphaCode>2063</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2063</ExpertLink>
-                        <Name lang="pt">Fusão esplenogonadal - anomalias dos membros - micrognatia</Name>
+                        <Name lang="pt">Síndrome de fusão esplenogonadal-anomalias dos membros-micrognatia</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1906,7 +1930,7 @@
                       <Disorder id="12922">
                         <OrphaCode>97548</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=97548</ExpertLink>
-                        <Name lang="pt">Síndrome de Ivemark</Name>
+                        <Name lang="pt">Isomerismo auricular lado direito</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1956,7 +1980,7 @@
                   <Disorder id="15020">
                     <OrphaCode>108977</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108977</ExpertLink>
-                    <Name lang="pt">Malformação do diafragma ou da parede abdominal, não-sindrómica</Name>
+                    <Name lang="pt">Malformação do diafragma ou da parede abdominal não-sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -1990,7 +2014,7 @@
                       <Disorder id="730">
                         <OrphaCode>322</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=322</ExpertLink>
-                        <Name lang="pt">Complexo de extrofia da bexiga - epispádias</Name>
+                        <Name lang="pt">Complexo de extrofia da bexiga-epispádias</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2064,7 +2088,7 @@
                   <Disorder id="15021">
                     <OrphaCode>108979</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=108979</ExpertLink>
-                    <Name lang="pt">Malformação do diafragma ou da parede abdominal, sindrómica</Name>
+                    <Name lang="pt">Malformação do diafragma ou da parede abdominal sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -2086,7 +2110,7 @@
                       <Disorder id="147">
                         <OrphaCode>280</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=280</ExpertLink>
-                        <Name lang="pt">Síndrome de Wolf-Hirschhorn</Name>
+                        <Name lang="pt">Síndrome Wolf-Hirschhorn</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2098,7 +2122,7 @@
                       <Disorder id="299">
                         <OrphaCode>199</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=199</ExpertLink>
-                        <Name lang="pt">Síndrome de Cornelia de Lange (CdLS)</Name>
+                        <Name lang="pt">Síndrome Cornelia de Lange</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2146,7 +2170,7 @@
                       <Disorder id="612">
                         <OrphaCode>287</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=287</ExpertLink>
-                        <Name lang="pt">Síndrome de Ehlers-Danlos clássico</Name>
+                        <Name lang="pt">Síndrome Ehlers-Danlos clássico</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>
@@ -2158,7 +2182,7 @@
                       <Disorder id="912">
                         <OrphaCode>373</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=373</ExpertLink>
-                        <Name lang="pt">Síndrome de Simpson-Golabi-Behmel</Name>
+                        <Name lang="pt">Síndrome Simpson-Golabi-Behmel</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2182,7 +2206,7 @@
                       <Disorder id="1979">
                         <OrphaCode>2059</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2059</ExpertLink>
-                        <Name lang="pt">Síndrome de Fryns</Name>
+                        <Name lang="pt">Síndrome Fryns</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2194,7 +2218,7 @@
                       <Disorder id="2040">
                         <OrphaCode>2141</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2141</ExpertLink>
-                        <Name lang="pt">Anomalia diafragmática - anomalia dos membros - anomalia craniana</Name>
+                        <Name lang="pt">Síndrome de anomalia diafragmática-anomalia dos membros-anomalia craniana</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2206,7 +2230,7 @@
                       <Disorder id="2043">
                         <OrphaCode>2143</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2143</ExpertLink>
-                        <Name lang="pt">Hérnia diafragmática - onfalocelo - agenesia do corpo caloso</Name>
+                        <Name lang="pt">Síndrome Donnai-Barrow</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2218,7 +2242,7 @@
                       <Disorder id="2177">
                         <OrphaCode>2322</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2322</ExpertLink>
-                        <Name lang="pt">Síndrome de Kabuki</Name>
+                        <Name lang="pt">Síndrome Kabuki</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2230,7 +2254,7 @@
                       <Disorder id="2210">
                         <OrphaCode>2369</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2369</ExpertLink>
-                        <Name lang="pt">Parede abdominal lateral, complexo</Name>
+                        <Name lang="pt">Complexo parede abdominal-membros</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2242,7 +2266,7 @@
                       <Disorder id="2283">
                         <OrphaCode>2470</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2470</ExpertLink>
-                        <Name lang="pt">Síndrome de Matthew-Wood</Name>
+                        <Name lang="pt">Síndrome Matthew-Wood</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2254,7 +2278,7 @@
                       <Disorder id="2496">
                         <OrphaCode>2736</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2736</ExpertLink>
-                        <Name lang="pt">Síndrome onfalocelo - fenda do palato (letal)</Name>
+                        <Name lang="pt">Síndrome onfalocelo-fenda palatina letal</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2266,7 +2290,7 @@
                       <Disorder id="2582">
                         <OrphaCode>2847</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2847</ExpertLink>
-                        <Name lang="pt">Anomalia de pericárdio - hérnia difragmática</Name>
+                        <Name lang="pt">Defeito do pericárdio e diafragma</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2278,7 +2302,7 @@
                       <Disorder id="2830">
                         <OrphaCode>3164</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3164</ExpertLink>
-                        <Name lang="pt">Síndrome de onfalocelo de Shprintzen</Name>
+                        <Name lang="pt">Síndrome de onfalocelo, tipo Shprintzen-Goldberg</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2312,7 +2336,7 @@
                           <Disorder id="2673">
                             <OrphaCode>2962</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2962</ExpertLink>
-                            <Name lang="pt">Síndrome progeróide tipo de Barsy</Name>
+                            <Name lang="pt">Síndrome De Barsy</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2322,7 +2346,7 @@
                               <Disorder id="10381">
                                 <OrphaCode>35664</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=35664</ExpertLink>
-                                <Name lang="pt">Deficiência de delta-1-pirrolina-5-carboxilato sintetase</Name>
+                                <Name lang="pt">Síndrome De Barsy ALDH18A1-relacionada</Name>
                                 <DisorderType id="21443">
                                   <Name lang="pt">Subtipo etiologico</Name>
                                 </DisorderType>
@@ -2334,7 +2358,7 @@
                               <Disorder id="20864">
                                 <OrphaCode>293633</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=293633</ExpertLink>
-                                <Name lang="pt">Síndrome de DeBarsy associado a PYCR1</Name>
+                                <Name lang="pt">Síndrome De Barsy PYCR1-relacionado</Name>
                                 <DisorderType id="21443">
                                   <Name lang="pt">Subtipo etiologico</Name>
                                 </DisorderType>
@@ -2348,7 +2372,7 @@
                           <Disorder id="2805">
                             <OrphaCode>3134</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3134</ExpertLink>
-                            <Name lang="pt">Síndrome de SCARF</Name>
+                            <Name lang="pt">Síndrome SCARF</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -2384,7 +2408,7 @@
                           <Disorder id="12024">
                             <OrphaCode>90348</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90348</ExpertLink>
-                            <Name lang="pt">Cutis laxa, tipo dominante</Name>
+                            <Name lang="pt">Cutis laxa autossómica dominante</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2396,7 +2420,7 @@
                           <Disorder id="12025">
                             <OrphaCode>90349</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90349</ExpertLink>
-                            <Name lang="pt">Cutis laxa recessiva, tipo 1</Name>
+                            <Name lang="pt">Cutis laxa autossómica recessiva tipo 1</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2408,7 +2432,7 @@
                           <Disorder id="12026">
                             <OrphaCode>90350</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90350</ExpertLink>
-                            <Name lang="pt">Cutis laxa recessiva, tipo 2</Name>
+                            <Name lang="pt">Cutis laxa autossómica recessiva tipo 2</Name>
                             <DisorderType id="21436">
                               <Name lang="pt">Grupo de fenótipos</Name>
                             </DisorderType>
@@ -2418,7 +2442,7 @@
                               <Disorder id="22201">
                                 <OrphaCode>357058</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=357058</ExpertLink>
-                                <Name lang="pt">Cutis laxa autossómica recessiva, tipo 2A</Name>
+                                <Name lang="pt">Cutis laxa autossómica recessiva tipo 2A</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2440,7 +2464,7 @@
                                   <Disorder id="22203">
                                     <OrphaCode>357074</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=357074</ExpertLink>
-                                    <Name lang="pt">Cutis laxa autossómica recessiva, tipo 2, clássica</Name>
+                                    <Name lang="pt">Cutis laxa autossómica recessiva tipo 2, clássica</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -2454,7 +2478,7 @@
                               <Disorder id="22202">
                                 <OrphaCode>357064</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=357064</ExpertLink>
-                                <Name lang="pt">Cutis laxa autossómica recessiva, tipo 2B</Name>
+                                <Name lang="pt">Cutis laxa autossómica recessiva tipo 2B</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2518,7 +2542,7 @@
                       <Disorder id="12794">
                         <OrphaCode>96170</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=96170</ExpertLink>
-                        <Name lang="pt">Síndrome de Emanuel</Name>
+                        <Name lang="pt">Síndrome Emanuel</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2542,7 +2566,7 @@
                       <Disorder id="20469">
                         <OrphaCode>280403</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=280403</ExpertLink>
-                        <Name lang="pt">Síndrome omfalocelo familiar com dismorfias faciais</Name>
+                        <Name lang="pt">Síndrome de onfalocelo familiar com dismorfia facial</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2738,7 +2762,7 @@
               <Disorder id="23373">
                 <OrphaCode>438274</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=438274</ExpertLink>
-                <Name lang="pt">Hiperglucagonémia relacionada com GCGR</Name>
+                <Name lang="pt">Hiperglucagonemia GCGR-relacionada</Name>
                 <DisorderType id="21394">
                   <Name lang="pt">Doença</Name>
                 </DisorderType>
@@ -2750,7 +2774,7 @@
               <Disorder id="23619">
                 <OrphaCode>449400</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=449400</ExpertLink>
-                <Name lang="pt">Aortite relacionada comIgG4</Name>
+                <Name lang="pt">Aortite IgG4-relacionada</Name>
                 <DisorderType id="21450">
                   <Name lang="pt">Subtipo clínico</Name>
                 </DisorderType>

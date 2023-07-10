@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:42:45" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:44:08" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -144,7 +144,7 @@
                   <Disorder id="23414">
                     <OrphaCode>440727</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=440727</ExpertLink>
-                    <Name lang="nl">Gecombineerd hamartoom van de retina en het retinaal pigmentepitheel</Name>
+                    <Name lang="nl">Gecombineerd hamartoom van retina en retinaal pigmentepitheel</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -202,7 +202,7 @@
                       <Disorder id="22341">
                         <OrphaCode>363700</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=363700</ExpertLink>
-                        <Name lang="nl">Neurofibromatose type 1 als gevolg van NF1-mutatie of intragenische deletie</Name>
+                        <Name lang="nl">Neurofibromatose type 1 door NF1-mutatie of intragenische deletie</Name>
                         <DisorderType id="21443">
                           <Name lang="nl">Etiologisch subtype</Name>
                         </DisorderType>
@@ -350,7 +350,7 @@
               <Disorder id="27310">
                 <OrphaCode>520814</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=520814</ExpertLink>
-                <Name lang="nl">Zeldzame stoornis van de visuele organen</Name>
+                <Name lang="nl">Zeldzame aandoening van visuele organen</Name>
                 <DisorderType id="36561">
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
@@ -370,7 +370,7 @@
                       <Disorder id="27244">
                         <OrphaCode>519349</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519349</ExpertLink>
-                        <Name lang="nl">Zeldzame oftalmische stoornis met betrokkenheid van hersenzenuwen</Name>
+                        <Name lang="nl">Zeldzame oftalmische aandoening met betrokkenheid van hersenzenuwen</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -404,7 +404,7 @@
                           <Disorder id="23398">
                             <OrphaCode>440233</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=440233</ExpertLink>
-                            <Name lang="nl">Congenitale verlamming van de nervus abducens</Name>
+                            <Name lang="nl">Congenitale paralyse van nervus abducens</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -416,7 +416,7 @@
                           <Disorder id="27246">
                             <OrphaCode>519353</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519353</ExpertLink>
-                            <Name lang="nl">Zeldzame stoornis van de nervus trochlearis</Name>
+                            <Name lang="nl">Zeldzame aandoening van nervus trochlearis</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -426,7 +426,7 @@
                               <Disorder id="12157">
                                 <OrphaCode>91498</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=91498</ExpertLink>
-                                <Name lang="nl">Familiale congenitale paralyse van de trochleaire zenuw</Name>
+                                <Name lang="nl">Familiale congenitale paralyse van nervus trochlearis</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -438,7 +438,7 @@
                               <Disorder id="13703">
                                 <OrphaCode>98686</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98686</ExpertLink>
-                                <Name lang="nl">Congenitale paralyse van de nervus trochlearis</Name>
+                                <Name lang="nl">Congenitale paralyse van nervus trochlearis</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -452,17 +452,17 @@
                           <Disorder id="27245">
                             <OrphaCode>519351</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519351</ExpertLink>
-                            <Name lang="nl">Zeldzame stoornis van de oogzenuw</Name>
+                            <Name lang="nl">Zeldzame aandoening van oogzenuw</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="9">
+                          <ClassificationNodeChildList count="10">
                             <ClassificationNode>
                               <Disorder id="27238">
                                 <OrphaCode>519337</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519337</ExpertLink>
-                                <Name lang="nl">Stoornis met compressie van de oogzenuw</Name>
+                                <Name lang="nl">Aandoening met compressie van oogzenuw</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -507,22 +507,10 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="16740">
-                                <OrphaCode>137902</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=137902</ExpertLink>
-                                <Name lang="nl">Geïsoleerde opticushypoplasie/-aplasie</Name>
-                                <DisorderType id="21415">
-                                  <Name lang="nl">Morfologische anomalie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="16741">
                                 <OrphaCode>137905</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=137905</ExpertLink>
-                                <Name lang="nl">Syndromale nervus opticushypoplasie</Name>
+                                <Name lang="nl">Syndromale hypoplasie van oogzenuw</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -592,7 +580,7 @@
                                   <Disorder id="13964">
                                     <OrphaCode>98947</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98947</ExpertLink>
-                                    <Name lang="nl">Coloboom van de optische papil</Name>
+                                    <Name lang="nl">Coloboom van papil</Name>
                                     <DisorderType id="21415">
                                       <Name lang="nl">Morfologische anomalie</Name>
                                     </DisorderType>
@@ -628,7 +616,7 @@
                                   <Disorder id="27259">
                                     <OrphaCode>519404</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519404</ExpertLink>
-                                    <Name lang="nl">Kuiltje in de papil</Name>
+                                    <Name lang="nl">Putje in papil</Name>
                                     <DisorderType id="21415">
                                       <Name lang="nl">Morfologische anomalie</Name>
                                     </DisorderType>
@@ -654,7 +642,7 @@
                               <Disorder id="27242">
                                 <OrphaCode>519345</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519345</ExpertLink>
-                                <Name lang="nl">Zeldzame stoornis met malformatie van de papil</Name>
+                                <Name lang="nl">Zeldzame aandoening met malformatie van papil</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -912,6 +900,30 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31705">
+                                <OrphaCode>637064</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=637064</ExpertLink>
+                                <Name lang="nl">Geïsoleerde aplasie van oogzenuw</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="nl">Morfologische anomalie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31704">
+                                <OrphaCode>637061</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=637061</ExpertLink>
+                                <Name lang="nl">Geïsoleerde hypoplasie van oogzenuw</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="nl">Morfologische anomalie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -1346,7 +1358,7 @@
                                       <Disorder id="22093">
                                         <OrphaCode>352654</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352654</ExpertLink>
-                                        <Name lang="nl">Progressieve neurodegeneratie met vroege aanvang - blindheid - ataxie - spasticiteit-syndroom</Name>
+                                        <Name lang="nl">Vroeg optredende progressieve neurodegeneratie - blindheid - ataxie - spasticiteit-syndroom</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -1770,7 +1782,7 @@
                               <Disorder id="23397">
                                 <OrphaCode>440221</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=440221</ExpertLink>
-                                <Name lang="nl">Congenitale verlamming van de oculomotorische zenuw</Name>
+                                <Name lang="nl">Congenitale paralyse van nervus oculomotorius</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -1786,7 +1798,7 @@
                       <Disorder id="27247">
                         <OrphaCode>519355</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519355</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de oculaire motiliteit/uitlijning</Name>
+                        <Name lang="nl">Zeldzame aandoening van beweging/stand van oog</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -1796,7 +1808,7 @@
                           <Disorder id="27243">
                             <OrphaCode>519347</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519347</ExpertLink>
-                            <Name lang="nl">Zeldzame neuromusculaire stoornis met anomalie van de oculaire motiliteit/uitlijning</Name>
+                            <Name lang="nl">Zeldzame neuromusculaire aandoening met anomalie van beweging/stand van oog</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -2868,7 +2880,7 @@
                                           <Disorder id="12201">
                                             <OrphaCode>93258</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93258</ExpertLink>
-                                            <Name lang="nl">Pfeiffersyndroom type 1</Name>
+                                            <Name lang="nl">Syndroom van Pfeiffer type 1</Name>
                                             <DisorderType id="21450">
                                               <Name lang="nl">Klinisch subtype</Name>
                                             </DisorderType>
@@ -2880,7 +2892,7 @@
                                           <Disorder id="12202">
                                             <OrphaCode>93259</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93259</ExpertLink>
-                                            <Name lang="nl">Pfeiffersyndroom type 2</Name>
+                                            <Name lang="nl">Syndroom van Pfeiffer type 2</Name>
                                             <DisorderType id="21450">
                                               <Name lang="nl">Klinisch subtype</Name>
                                             </DisorderType>
@@ -2892,7 +2904,7 @@
                                           <Disorder id="12203">
                                             <OrphaCode>93260</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93260</ExpertLink>
-                                            <Name lang="nl">Pfeiffersyndroom type 3</Name>
+                                            <Name lang="nl">Syndroom van Pfeiffer type 3</Name>
                                             <DisorderType id="21450">
                                               <Name lang="nl">Klinisch subtype</Name>
                                             </DisorderType>
@@ -3112,7 +3124,7 @@
                                   <Disorder id="1086">
                                     <OrphaCode>1581</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1581</ExpertLink>
-                                    <Name lang="nl">Niet-distale monosomie 10q</Name>
+                                    <Name lang="nl">Niet-distale deletie 10q</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -3358,7 +3370,7 @@
                       <Disorder id="27241">
                         <OrphaCode>519343</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519343</ExpertLink>
-                        <Name lang="nl">Zeldzame oftalmische stoornis met betrokkenheid van de hersenschors</Name>
+                        <Name lang="nl">Zeldzame oftalmische aandoening met betrokkenheid van hersenschors</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -3598,7 +3610,7 @@
                       <Disorder id="27240">
                         <OrphaCode>519341</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519341</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de hersenstam of het cerebellum met oftalmische betrokkenheid als hoofdkenmerk</Name>
+                        <Name lang="nl">Zeldzame aandoening van hersenstam of cerebellum met betrokkenheid van oog als hoofdkenmerk</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -3913,7 +3925,7 @@
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="6">
+                          <ClassificationNodeChildList count="7">
                             <ClassificationNode>
                               <Disorder id="12567">
                                 <OrphaCode>94147</OrphaCode>
@@ -3955,59 +3967,11 @@
                                 <OrphaCode>506</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=506</ExpertLink>
                                 <Name lang="nl">Syndroom van Leigh</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="nl">Group of phenomes</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
-                                <ClassificationNode>
-                                  <Disorder id="10945">
-                                    <OrphaCode>70472</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=70472</ExpertLink>
-                                    <Name lang="nl">Congenitale lactaatacidose, Saguenay-Lac-Saint-Jean-type</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="10947">
-                                    <OrphaCode>70474</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=70474</ExpertLink>
-                                    <Name lang="nl">Syndroom van Leigh met cardiomyopathie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="19814">
-                                    <OrphaCode>255241</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=255241</ExpertLink>
-                                    <Name lang="nl">Syndroom van Leigh met leukodystrofie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="19815">
-                                    <OrphaCode>255249</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=255249</ExpertLink>
-                                    <Name lang="nl">Syndroom van Leigh met nefrotisch syndroom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -4166,6 +4130,18 @@
                                 </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="10945">
+                                <OrphaCode>70472</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=70472</ExpertLink>
+                                <Name lang="nl">Congenitale lactaatacidose, Saguenay-Lac-Saint-Jean-type</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -4212,12 +4188,60 @@
                   <Disorder id="27219">
                     <OrphaCode>519298</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519298</ExpertLink>
-                    <Name lang="nl">Zeldzame stoornis van de sclera</Name>
+                    <Name lang="nl">Zeldzame aandoening van sclera</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="31840">
+                        <OrphaCode>648559</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648559</ExpertLink>
+                        <Name lang="nl">Zeldzame scleritis</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="31847">
+                            <OrphaCode>648681</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648681</ExpertLink>
+                            <Name lang="nl">Immuungemedieerde scleritis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31846">
+                            <OrphaCode>648675</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648675</ExpertLink>
+                            <Name lang="nl">Idiopathische scleritis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31845">
+                            <OrphaCode>648665</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648665</ExpertLink>
+                            <Name lang="nl">Infectieuze scleritis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="27218">
                         <OrphaCode>519296</OrphaCode>
@@ -4227,7 +4251,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="20">
+                      <ClassificationNodeChildList count="19">
                         <ClassificationNode>
                           <Disorder id="372">
                             <OrphaCode>2772</OrphaCode>
@@ -4458,7 +4482,7 @@
                               <Disorder id="19161">
                                 <OrphaCode>231140</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231140</ExpertLink>
-                                <Name lang="nl">Syndroom van Silver-Russell als gevolg van imprentdefect van 11p15</Name>
+                                <Name lang="nl">Syndroom van Silver-Russell door imprintingsdefect van 11p15</Name>
                                 <DisorderType id="21443">
                                   <Name lang="nl">Etiologisch subtype</Name>
                                 </DisorderType>
@@ -4482,7 +4506,7 @@
                               <Disorder id="22683">
                                 <OrphaCode>397590</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=397590</ExpertLink>
-                                <Name lang="nl">Syndroom van Silver-Russell door een puntmutatie</Name>
+                                <Name lang="nl">Syndroom van Silver-Russell door puntmutatie</Name>
                                 <DisorderType id="21443">
                                   <Name lang="nl">Etiologisch subtype</Name>
                                 </DisorderType>
@@ -4502,18 +4526,6 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="12290">
-                            <OrphaCode>93359</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93359</ExpertLink>
-                            <Name lang="nl">Spondylo-epimetafysaire dysplasie met gewrichtslaxiteit</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -4575,24 +4587,12 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="20416">
                             <OrphaCode>279922</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=279922</ExpertLink>
                             <Name lang="nl">Infectieuze anterieure uveïtis</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20516">
-                            <OrphaCode>280914</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280914</ExpertLink>
-                            <Name lang="nl">Idiopathische anterieure uveïtis</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -5040,7 +5040,7 @@
                   <Disorder id="27225">
                     <OrphaCode>519311</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519311</ExpertLink>
-                    <Name lang="nl">Zeldzame stoornis van het achterste oogsegment</Name>
+                    <Name lang="nl">Zeldzame aandoening van achterste oogsegment</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -5062,7 +5062,7 @@
                       <Disorder id="27224">
                         <OrphaCode>519309</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519309</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de choroidea</Name>
+                        <Name lang="nl">Zeldzame aandoening van choroidea</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -5338,7 +5338,7 @@
                       <Disorder id="27227">
                         <OrphaCode>519315</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519315</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de retina</Name>
+                        <Name lang="nl">Zeldzame aandoening van retina</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -5360,7 +5360,7 @@
                           <Disorder id="18662">
                             <OrphaCode>209867</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=209867</ExpertLink>
-                            <Name lang="nl">Autosomaal dominante rhegmatogene netvliesloslating</Name>
+                            <Name lang="nl">Autosomaal dominante regmatogene netvliesloslating</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -5377,7 +5377,7 @@
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="16">
+                          <ClassificationNodeChildList count="17">
                             <ClassificationNode>
                               <Disorder id="1645">
                                 <OrphaCode>190</OrphaCode>
@@ -5419,6 +5419,18 @@
                                 <OrphaCode>838</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=838</ExpertLink>
                                 <Name lang="nl">Syndroom van Susac</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31848">
+                                <OrphaCode>648684</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=648684</ExpertLink>
+                                <Name lang="nl">Occlusie van centrale retinale arterie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -5636,7 +5648,7 @@
                           <Disorder id="27226">
                             <OrphaCode>519313</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519313</ExpertLink>
-                            <Name lang="nl">Zeldzame stoornis van de macula</Name>
+                            <Name lang="nl">Zeldzame aandoening van macula</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -5658,7 +5670,7 @@
                               <Disorder id="13962">
                                 <OrphaCode>98945</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98945</ExpertLink>
-                                <Name lang="nl">Coloboom van de macula</Name>
+                                <Name lang="nl">Coloboom van macula</Name>
                                 <DisorderType id="21415">
                                   <Name lang="nl">Morfologische anomalie</Name>
                                 </DisorderType>
@@ -5742,7 +5754,7 @@
                               <Disorder id="27311">
                                 <OrphaCode>520817</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=520817</ExpertLink>
-                                <Name lang="nl">Geïsoleerde erfelijke stoornis van de retina</Name>
+                                <Name lang="nl">Geïsoleerde erfelijke aandoening van retina</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -5752,7 +5764,7 @@
                                   <Disorder id="27229">
                                     <OrphaCode>519319</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519319</ExpertLink>
-                                    <Name lang="nl">Geïsoleerde stationaire erfelijke stoornis van de retina</Name>
+                                    <Name lang="nl">Geïsoleerde stationaire erfelijke aandoening van retina</Name>
                                     <DisorderType id="36561">
                                       <Name lang="nl">Categorie</Name>
                                     </DisorderType>
@@ -5908,7 +5920,7 @@
                                   <Disorder id="27223">
                                     <OrphaCode>519306</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519306</ExpertLink>
-                                    <Name lang="nl">Geïsoleerde progressieve erfelijke stoornis van de retina</Name>
+                                    <Name lang="nl">Geïsoleerde progressieve erfelijke aandoening van retina</Name>
                                     <DisorderType id="36561">
                                       <Name lang="nl">Categorie</Name>
                                     </DisorderType>
@@ -6060,7 +6072,7 @@
                                           <Disorder id="10826">
                                             <OrphaCode>63454</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=63454</ExpertLink>
-                                            <Name lang="nl">Patroonvormige dystrofie van het retinale pigmentepitheel</Name>
+                                            <Name lang="nl">Patroondystrofie</Name>
                                             <DisorderType id="36561">
                                               <Name lang="nl">Categorie</Name>
                                             </DisorderType>
@@ -6640,7 +6652,7 @@
                                   <Disorder id="17766">
                                     <OrphaCode>168491</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=168491</ExpertLink>
-                                    <Name lang="nl">Laat infantiele neuronale ceroïdlipofuscinose</Name>
+                                    <Name lang="nl">Laat-infantiele neuronale ceroïdlipofuscinose</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -7478,7 +7490,7 @@
                                       <Disorder id="3096">
                                         <OrphaCode>1415</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1415</ExpertLink>
-                                        <Name lang="nl">Cholestase - pigmentretinopathie - gespleten verhemelte-syndroom</Name>
+                                        <Name lang="nl">Cholestase - pigmentretinopathie - gespleten gehemelte-syndroom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -7538,7 +7550,7 @@
                                       <Disorder id="11215">
                                         <OrphaCode>79189</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79189</ExpertLink>
-                                        <Name lang="nl">Peroxisomale biogenesestoornis</Name>
+                                        <Name lang="nl">Stoornis van peroxisoombiogenese</Name>
                                         <DisorderType id="21436">
                                           <Name lang="nl">Group of phenomes</Name>
                                         </DisorderType>
@@ -7634,7 +7646,7 @@
                                       <Disorder id="2981">
                                         <OrphaCode>3363</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3363</ExpertLink>
-                                        <Name lang="nl">Trichomegalie - pigmentdegeneratie van de retina - dwerggroei-syndroom</Name>
+                                        <Name lang="nl">Trichomegalie - retinale pigmentdegeneratie - dwerggroei-syndroom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -8032,7 +8044,7 @@
                                   <Disorder id="30618">
                                     <OrphaCode>603694</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=603694</ExpertLink>
-                                    <Name lang="nl">KLHL7-gerelateerd koudegeïnduceerd zweten-achtig syndroom</Name>
+                                    <Name lang="nl">KLHL7-gerelateerd Crisponi/koudegeïnduceerd zweten-achtig syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -8044,7 +8056,7 @@
                                   <Disorder id="30616">
                                     <OrphaCode>603684</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=603684</ExpertLink>
-                                    <Name lang="nl">KLHL7-gerelateerd Bohring-Opitz-achtig/koudegeïnduceerd zweten-achtig overlapsyndroom</Name>
+                                    <Name lang="nl">KLHL7-gerelateerd Bohring-Opitz-achtig en Crisponi/koudegeïnduceerd zweten-achtig overlapsyndroom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -8381,7 +8393,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="8">
+                  <ClassificationNodeChildList count="10">
                     <ClassificationNode>
                       <Disorder id="31348">
                         <OrphaCode>617449</OrphaCode>
@@ -8886,7 +8898,7 @@
                               <Disorder id="13648">
                                 <OrphaCode>98631</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98631</ExpertLink>
-                                <Name lang="nl">Secundair dysgenetisch glaucoom</Name>
+                                <Name lang="nl">Congenitale malformatie van oog met glaucoom als hoofdkenmerk</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -8932,7 +8944,7 @@
                                   <Disorder id="13651">
                                     <OrphaCode>98634</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98634</ExpertLink>
-                                    <Name lang="nl">Ontwikkelingsanomalie van het voorste oogsegment zonder extraoculaire manifestaties</Name>
+                                    <Name lang="nl">Ontwikkelingsanomalie van voorste oogsegment zonder extraoculaire manifestaties</Name>
                                     <DisorderType id="36561">
                                       <Name lang="nl">Categorie</Name>
                                     </DisorderType>
@@ -8966,7 +8978,7 @@
                                       <Disorder id="2590">
                                         <OrphaCode>708</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=708</ExpertLink>
-                                        <Name lang="nl">Anomalie van Peters</Name>
+                                        <Name lang="nl">Peters-anomalie</Name>
                                         <DisorderType id="21415">
                                           <Name lang="nl">Morfologische anomalie</Name>
                                         </DisorderType>
@@ -8978,7 +8990,7 @@
                                       <Disorder id="27251">
                                         <OrphaCode>519388</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519388</ExpertLink>
-                                        <Name lang="nl">Autosomaal recessieve dysgenesie van het voorste oogsegment</Name>
+                                        <Name lang="nl">Autosomaal recessieve dysgenesie van voorste oogsegment</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -9038,7 +9050,7 @@
                                       <Disorder id="13961">
                                         <OrphaCode>98944</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98944</ExpertLink>
-                                        <Name lang="nl">Coloboom van de iris</Name>
+                                        <Name lang="nl">Coloboom van iris</Name>
                                         <DisorderType id="21415">
                                           <Name lang="nl">Morfologische anomalie</Name>
                                         </DisorderType>
@@ -9162,7 +9174,7 @@
                               <Disorder id="13655">
                                 <OrphaCode>98638</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98638</ExpertLink>
-                                <Name lang="nl">Zeldzame ziekte met glaucoom als belangrijk kenmerk</Name>
+                                <Name lang="nl">Zeldzame ziekte met glaucoom als hoofdkenmerk</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -9254,7 +9266,7 @@
                                       <Disorder id="22127">
                                         <OrphaCode>353277</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=353277</ExpertLink>
-                                        <Name lang="nl">Rubinstein-Taybisyndroom door CREBBP-mutaties</Name>
+                                        <Name lang="nl">Syndroom van Rubinstein-Taybi door CREBBP-mutaties</Name>
                                         <DisorderType id="21443">
                                           <Name lang="nl">Etiologisch subtype</Name>
                                         </DisorderType>
@@ -9772,7 +9784,7 @@
                                   <Disorder id="12749">
                                     <OrphaCode>96125</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96125</ExpertLink>
-                                    <Name lang="nl">Distale monosomie 6p</Name>
+                                    <Name lang="nl">Distale deletie 6p</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -9895,10 +9907,34 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31698">
+                        <OrphaCode>636950</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=636950</ExpertLink>
+                        <Name lang="nl">Glaucomatocyclitische crisis-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31819">
+                        <OrphaCode>647815</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=647815</ExpertLink>
+                        <Name lang="nl">Keratoendotheliitis fugax hereditaria</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="11971">
                         <OrphaCode>90080</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90080</ExpertLink>
-                        <Name lang="nl">Littekenvorming bij chirurgische glaucoomfiltratieprocedures</Name>
+                        <Name lang="nl">Littekenvorming bij filtrerende glaucoomchirurgie</Name>
                         <DisorderType id="21429">
                           <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                         </DisorderType>
@@ -9912,7 +9948,7 @@
                   <Disorder id="27206">
                     <OrphaCode>519272</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519272</ExpertLink>
-                    <Name lang="nl">Structureel ontwikkelingsdefect van het oog</Name>
+                    <Name lang="nl">Structureel ontwikkelingsdefect van oog</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -10038,7 +10074,7 @@
                               <Disorder id="3081">
                                 <OrphaCode>2547</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2547</ExpertLink>
-                                <Name lang="nl">Microftalmie - microtie - foetale akinesie</Name>
+                                <Name lang="nl">Microftalmie - microtie - foetale akinesie-syndroom</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -10320,7 +10356,7 @@
                   <Disorder id="27203">
                     <OrphaCode>519266</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519266</ExpertLink>
-                    <Name lang="nl">Zeldzame stoornis van de oculaire adnexen</Name>
+                    <Name lang="nl">Zeldzame aandoening van adnex van oog</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -10888,7 +10924,7 @@
                                   <Disorder id="1156">
                                     <OrphaCode>1705</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1705</ExpertLink>
-                                    <Name lang="nl">Distale trisomie 14q</Name>
+                                    <Name lang="nl">Distale duplicatie 14q</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -11058,7 +11094,7 @@
                               <Disorder id="27205">
                                 <OrphaCode>519270</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519270</ExpertLink>
-                                <Name lang="nl">Zeldzame stoornis met entropion</Name>
+                                <Name lang="nl">Zeldzame aandoening met entropion</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -11130,7 +11166,7 @@
                               <Disorder id="27204">
                                 <OrphaCode>519268</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519268</ExpertLink>
-                                <Name lang="nl">Zeldzame stoornis met ectropion</Name>
+                                <Name lang="nl">Zeldzame aandoening met ectropion</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -11256,7 +11292,7 @@
                                           <Disorder id="11420">
                                             <OrphaCode>79394</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79394</ExpertLink>
-                                            <Name lang="nl">Congenitale niet-bulleuze ichthyosiforme erytrodermie</Name>
+                                            <Name lang="nl">Congenitale ichthyosiforme erytrodermie</Name>
                                             <DisorderType id="21394">
                                               <Name lang="nl">Ziekte</Name>
                                             </DisorderType>
@@ -11394,7 +11430,7 @@
                               <Disorder id="13593">
                                 <OrphaCode>98576</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98576</ExpertLink>
-                                <Name lang="nl">Malpositie van de externe canthus</Name>
+                                <Name lang="nl">Malpositie van canthus externus</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -12064,12 +12100,12 @@
                                   <Disorder id="20866">
                                     <OrphaCode>293642</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293642</ExpertLink>
-                                    <Name lang="nl">Blefarofimose - intellectuele achterstandsyndroom</Name>
+                                    <Name lang="nl">Blefarofimose - intellectuele achterstand-syndroom</Name>
                                     <DisorderType id="21436">
                                       <Name lang="nl">Group of phenomes</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="5">
+                                  <ClassificationNodeChildList count="6">
                                     <ClassificationNode>
                                       <Disorder id="2739">
                                         <OrphaCode>3047</OrphaCode>
@@ -12110,7 +12146,7 @@
                                       <Disorder id="1114">
                                         <OrphaCode>1620</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1620</ExpertLink>
-                                        <Name lang="nl">Distale monosomie 3p</Name>
+                                        <Name lang="nl">Distale deletie 3p</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -12130,13 +12166,25 @@
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31702">
+                                        <OrphaCode>637013</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=637013</ExpertLink>
+                                        <Name lang="nl">SMARCA2-gerelateerd blefarofimose - intellectuele achterstand-syndroom</Name>
+                                        <DisorderType id="21401">
+                                          <Name lang="nl">Malformatiesyndroom</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="26077">
                                     <OrphaCode>502430</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=502430</ExpertLink>
-                                    <Name lang="nl">Verdikking van de voorhoofdsnaad - ptose - faciale dysmorfie-syndroom</Name>
+                                    <Name lang="nl">Metopica-richel - ptosis - faciale dysmorfie-syndroom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -12452,7 +12500,7 @@
                           <Disorder id="27202">
                             <OrphaCode>519264</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519264</ExpertLink>
-                            <Name lang="nl">Inflammatoire/auto-immune stoornis met betrokkenheid van het traansysteem</Name>
+                            <Name lang="nl">Inflammatoire/auto-immune aandoening met betrokkenheid van traansysteem</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -12476,7 +12524,7 @@
                           <Disorder id="13622">
                             <OrphaCode>98605</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98605</ExpertLink>
-                            <Name lang="nl">Excretorisch apparaat van het traansysteemanomalie</Name>
+                            <Name lang="nl">Anomalie van lacrimaal drainagesysteem</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -12486,7 +12534,7 @@
                               <Disorder id="27207">
                                 <OrphaCode>519274</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519274</ExpertLink>
-                                <Name lang="nl">Syndromale stoornis van het traansysteem</Name>
+                                <Name lang="nl">Syndromale aandoening van traansysteem</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -12576,7 +12624,7 @@
                   <Disorder id="27212">
                     <OrphaCode>519284</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519284</ExpertLink>
-                    <Name lang="nl">Zeldzame stoornis van het voorste oogsegment</Name>
+                    <Name lang="nl">Zeldzame aandoening van voorste oogsegment</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -12586,7 +12634,7 @@
                       <Disorder id="13627">
                         <OrphaCode>98610</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98610</ExpertLink>
-                        <Name lang="nl">Zeldzame conjunctivale ziekte</Name>
+                        <Name lang="nl">Zeldzame aandoening met betrokkenheid van conjunctiva als hoofdkenmerk</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -12718,7 +12766,7 @@
                       <Disorder id="27211">
                         <OrphaCode>519282</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519282</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de cornea</Name>
+                        <Name lang="nl">Zeldzame aandoening van cornea</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -12788,7 +12836,7 @@
                           <Disorder id="27214">
                             <OrphaCode>519288</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519288</ExpertLink>
-                            <Name lang="nl">Zeldzame stoornis met betrokkenheid van de cornea als hoofdkenmerk</Name>
+                            <Name lang="nl">Zeldzame aandoening met betrokkenheid van cornea als hoofdkenmerk</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -13080,7 +13128,7 @@
                                           <Disorder id="20864">
                                             <OrphaCode>293633</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293633</ExpertLink>
-                                            <Name lang="nl">PYCR1-gerelateerd DeBarsysyndroom</Name>
+                                            <Name lang="nl">PYCR1-gerelateerd syndroom van De Barsy</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -13554,7 +13602,7 @@
                               <Disorder id="27215">
                                 <OrphaCode>519290</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519290</ExpertLink>
-                                <Name lang="nl">Zeldzame inflammatoire/auto-immune stoornis van de cornea</Name>
+                                <Name lang="nl">Zeldzame inflammatoire/auto-immune aandoening van cornea</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -14003,7 +14051,7 @@
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="122">
+                              <ClassificationNodeChildList count="121">
                                 <ClassificationNode>
                                   <Disorder id="190">
                                     <OrphaCode>649</OrphaCode>
@@ -14342,7 +14390,7 @@
                                       <Disorder id="910">
                                         <OrphaCode>574</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=574</ExpertLink>
-                                        <Name lang="nl">Monosomie 21</Name>
+                                        <Name lang="nl">21q-deletiesyndroom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -14366,7 +14414,7 @@
                                       <Disorder id="1092">
                                         <OrphaCode>1590</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1590</ExpertLink>
-                                        <Name lang="nl">Distale monosomie 13q</Name>
+                                        <Name lang="nl">Distale deletie 13q</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -14378,7 +14426,7 @@
                                       <Disorder id="1149">
                                         <OrphaCode>1695</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1695</ExpertLink>
-                                        <Name lang="nl">Niet-distale trisomie 10q</Name>
+                                        <Name lang="nl">Niet-distale duplicatie 10q</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -14426,7 +14474,7 @@
                                       <Disorder id="12694">
                                         <OrphaCode>96070</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96070</ExpertLink>
-                                        <Name lang="nl">Distale trisomie 2p</Name>
+                                        <Name lang="nl">Distale duplicatie 2p</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -14450,7 +14498,7 @@
                                       <Disorder id="12726">
                                         <OrphaCode>96102</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96102</ExpertLink>
-                                        <Name lang="nl">Distale trisomie 10q</Name>
+                                        <Name lang="nl">Distale duplicatie 10q</Name>
                                         <DisorderType id="21401">
                                           <Name lang="nl">Malformatiesyndroom</Name>
                                         </DisorderType>
@@ -14484,7 +14532,7 @@
                                           <Disorder id="338">
                                             <OrphaCode>1707</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1707</ExpertLink>
-                                            <Name lang="nl">Distale trisomie 15q</Name>
+                                            <Name lang="nl">Distale duplicatie 15q</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -14496,7 +14544,7 @@
                                           <Disorder id="21499">
                                             <OrphaCode>314588</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314588</ExpertLink>
-                                            <Name lang="nl">Distale tetrasomie 15q</Name>
+                                            <Name lang="nl">Distale triplicatie 15q</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -14542,18 +14590,6 @@
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="17944">
-                                    <OrphaCode>171860</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=171860</ExpertLink>
-                                    <Name lang="nl">Intellectuele achterstand - cataract - kyfose-syndroom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -14832,7 +14868,7 @@
                                           <Disorder id="20864">
                                             <OrphaCode>293633</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293633</ExpertLink>
-                                            <Name lang="nl">PYCR1-gerelateerd DeBarsysyndroom</Name>
+                                            <Name lang="nl">PYCR1-gerelateerd syndroom van De Barsy</Name>
                                             <DisorderType id="21443">
                                               <Name lang="nl">Etiologisch subtype</Name>
                                             </DisorderType>
@@ -15168,7 +15204,7 @@
                                           <Disorder id="11849">
                                             <OrphaCode>88917</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88917</ExpertLink>
-                                            <Name lang="nl">X-gebonden Alportsyndroom</Name>
+                                            <Name lang="nl">X-gebonden syndroom van Alport</Name>
                                             <DisorderType id="21450">
                                               <Name lang="nl">Klinisch subtype</Name>
                                             </DisorderType>
@@ -15180,7 +15216,7 @@
                                           <Disorder id="11850">
                                             <OrphaCode>88918</OrphaCode>
                                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88918</ExpertLink>
-                                            <Name lang="nl">Autosomaal dominant Alportsyndroom</Name>
+                                            <Name lang="nl">Autosomaal dominant syndroom van Alport</Name>
                                             <DisorderType id="21450">
                                               <Name lang="nl">Klinisch subtype</Name>
                                             </DisorderType>
@@ -16081,18 +16117,6 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="2486">
-                                    <OrphaCode>2725</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2725</ExpertLink>
-                                    <Name lang="nl">Oogdefecten - arachnodactylie - cardiopathie-syndroom</Name>
-                                    <DisorderType id="21401">
-                                      <Name lang="nl">Malformatiesyndroom</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
                                   <Disorder id="2111">
                                     <OrphaCode>2238</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2238</ExpertLink>
@@ -16298,7 +16322,7 @@
                                       <Disorder id="11984">
                                         <OrphaCode>90153</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90153</ExpertLink>
-                                        <Name lang="nl">Mandibuloacrale dysplasie met type A-lipodystrofie</Name>
+                                        <Name lang="nl">Mandibuloacrale dysplasie met lipodystrofie type A</Name>
                                         <DisorderType id="21450">
                                           <Name lang="nl">Klinisch subtype</Name>
                                         </DisorderType>
@@ -16432,7 +16456,7 @@
                                   <Disorder id="183">
                                     <OrphaCode>637</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=637</ExpertLink>
-                                    <Name lang="nl">Neurofibromatose type 2</Name>
+                                    <Name lang="nl">Volledige schwannomatose gerelateerd aan NF2</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -16612,7 +16636,7 @@
                                   <Disorder id="28140">
                                     <OrphaCode>557003</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=557003</ExpertLink>
-                                    <Name lang="nl">Oculocerebrodentaal syndroom</Name>
+                                    <Name lang="nl">Oculoskeletodentaal syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -16841,6 +16865,18 @@
                                     <OrphaCode>2720</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2720</ExpertLink>
                                     <Name lang="nl">Oculocerebrale hypopigmentatie-syndroom, Preus-type</Name>
+                                    <DisorderType id="21401">
+                                      <Name lang="nl">Malformatiesyndroom</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31665">
+                                    <OrphaCode>633035</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=633035</ExpertLink>
+                                    <Name lang="nl">Intellectuele achterstand - vroeg optredend cataract - microcefalie-syndroom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="nl">Malformatiesyndroom</Name>
                                     </DisorderType>
@@ -17284,7 +17320,7 @@
                                   <Disorder id="22127">
                                     <OrphaCode>353277</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=353277</ExpertLink>
-                                    <Name lang="nl">Rubinstein-Taybisyndroom door CREBBP-mutaties</Name>
+                                    <Name lang="nl">Syndroom van Rubinstein-Taybi door CREBBP-mutaties</Name>
                                     <DisorderType id="21443">
                                       <Name lang="nl">Etiologisch subtype</Name>
                                     </DisorderType>
@@ -17356,7 +17392,7 @@
                                   <Disorder id="11849">
                                     <OrphaCode>88917</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88917</ExpertLink>
-                                    <Name lang="nl">X-gebonden Alportsyndroom</Name>
+                                    <Name lang="nl">X-gebonden syndroom van Alport</Name>
                                     <DisorderType id="21450">
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
@@ -17368,7 +17404,7 @@
                                   <Disorder id="11850">
                                     <OrphaCode>88918</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88918</ExpertLink>
-                                    <Name lang="nl">Autosomaal dominant Alportsyndroom</Name>
+                                    <Name lang="nl">Autosomaal dominant syndroom van Alport</Name>
                                     <DisorderType id="21450">
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
@@ -17432,7 +17468,7 @@
                           <Disorder id="13960">
                             <OrphaCode>98943</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98943</ExpertLink>
-                            <Name lang="nl">Coloboom van de ooglens</Name>
+                            <Name lang="nl">Coloboom van ooglens</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -17446,7 +17482,7 @@
                       <Disorder id="27213">
                         <OrphaCode>519286</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519286</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis van de pupil</Name>
+                        <Name lang="nl">Zeldzame aandoening van pupil</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -17612,7 +17648,7 @@
                           <Disorder id="2989">
                             <OrphaCode>3374</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3374</ExpertLink>
-                            <Name lang="nl">Triopie</Name>
+                            <Name lang="nl">Unilaterale oculaire duplicatie</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -17804,7 +17840,7 @@
                           <Disorder id="27208">
                             <OrphaCode>519276</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519276</ExpertLink>
-                            <Name lang="nl">Ontwikkelingsanomalie van het voorste oogsegment met extra-oculaire manifestaties</Name>
+                            <Name lang="nl">Ontwikkelingsanomalie van voorste oogsegment met extra-oculaire manifestaties</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -17886,7 +17922,7 @@
                               <Disorder id="12749">
                                 <OrphaCode>96125</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96125</ExpertLink>
-                                <Name lang="nl">Distale monosomie 6p</Name>
+                                <Name lang="nl">Distale deletie 6p</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -18092,7 +18128,7 @@
                           <Disorder id="13651">
                             <OrphaCode>98634</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98634</ExpertLink>
-                            <Name lang="nl">Ontwikkelingsanomalie van het voorste oogsegment zonder extraoculaire manifestaties</Name>
+                            <Name lang="nl">Ontwikkelingsanomalie van voorste oogsegment zonder extraoculaire manifestaties</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -18126,7 +18162,7 @@
                               <Disorder id="2590">
                                 <OrphaCode>708</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=708</ExpertLink>
-                                <Name lang="nl">Anomalie van Peters</Name>
+                                <Name lang="nl">Peters-anomalie</Name>
                                 <DisorderType id="21415">
                                   <Name lang="nl">Morfologische anomalie</Name>
                                 </DisorderType>
@@ -18138,7 +18174,7 @@
                               <Disorder id="27251">
                                 <OrphaCode>519388</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=519388</ExpertLink>
-                                <Name lang="nl">Autosomaal recessieve dysgenesie van het voorste oogsegment</Name>
+                                <Name lang="nl">Autosomaal recessieve dysgenesie van voorste oogsegment</Name>
                                 <DisorderType id="21401">
                                   <Name lang="nl">Malformatiesyndroom</Name>
                                 </DisorderType>
@@ -18198,7 +18234,7 @@
                               <Disorder id="13961">
                                 <OrphaCode>98944</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98944</ExpertLink>
-                                <Name lang="nl">Coloboom van de iris</Name>
+                                <Name lang="nl">Coloboom van iris</Name>
                                 <DisorderType id="21415">
                                   <Name lang="nl">Morfologische anomalie</Name>
                                 </DisorderType>

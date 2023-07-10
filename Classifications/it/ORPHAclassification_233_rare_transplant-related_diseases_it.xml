@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:55:15" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:58:40" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="it">Categoria</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="8">
+          <ClassificationNodeChildList count="9">
             <ClassificationNode>
               <Disorder id="11944">
                 <OrphaCode>90053</OrphaCode>
@@ -71,6 +71,18 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
+              <Disorder id="31676">
+                <OrphaCode>633124</OrphaCode>
+                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=633124</ExpertLink>
+                <Name lang="it">Infezione invasiva da scopulariopsis</Name>
+                <DisorderType id="21394">
+                  <Name lang="it">Malattia</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
               <Disorder id="26441">
                 <OrphaCode>506207</OrphaCode>
                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=506207</ExpertLink>
@@ -94,7 +106,7 @@
                       <Disorder id="28442">
                         <OrphaCode>565612</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=565612</ExpertLink>
-                        <Name lang="it">Cardiomiovasculopatia da depositi di trigliceridi</Name>
+                        <Name lang="it">Cardiomiovasculopatia primitiva da deposito di trigliceridi</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -387,7 +399,7 @@
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="55">
                             <OrphaCode>262</OrphaCode>
@@ -561,18 +573,6 @@
                             <OrphaCode>397937</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397937</ExpertLink>
                             <Name lang="it">Miopatia da corpi di poliglucosano, tipo 1</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="24171">
-                            <OrphaCode>466801</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=466801</ExpertLink>
-                            <Name lang="it">Distrofia muscolare dei cingoli automica recessiva tipo 2W</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -776,7 +776,7 @@
                           <Disorder id="10864">
                             <OrphaCode>65282</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=65282</ExpertLink>
-                            <Name lang="it">Sindrome capelli lanosi-cheratoderma palmoplantare-cardiomiopatia dilatativa</Name>
+                            <Name lang="it">Sindrome di Carvajal</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -2811,36 +2811,12 @@
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
-                        <ClassificationNode>
-                          <Disorder id="11256">
-                            <OrphaCode>79230</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79230</ExpertLink>
-                            <Name lang="it">Emocromatosi, tipo 2</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="16909">
-                            <OrphaCode>139491</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=139491</ExpertLink>
-                            <Name lang="it">Emocromatosi, tipo 4</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="24056">
                             <OrphaCode>465508</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=465508</ExpertLink>
-                            <Name lang="it">Forma sintomatica dell'emocromatosi tipo 1</Name>
+                            <Name lang="it">Forma sintomatica dell'emocromatosi correlata ad HFE</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -2849,10 +2825,58 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="18976">
-                            <OrphaCode>225123</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=225123</ExpertLink>
-                            <Name lang="it">Emocromatosi, tipo 3</Name>
+                          <Disorder id="31842">
+                            <OrphaCode>648569</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=648569</ExpertLink>
+                            <Name lang="it">Emocromatosi non correlata a HFE</Name>
+                            <DisorderType id="21436">
+                              <Name lang="it">Gruppo di fenomi</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="11256">
+                                <OrphaCode>79230</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79230</ExpertLink>
+                                <Name lang="it">Emocromatosi correlata a HJV o HAMP</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="18976">
+                                <OrphaCode>225123</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=225123</ExpertLink>
+                                <Name lang="it">Emocromatosi correlata a TFR2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31821">
+                                <OrphaCode>647834</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=647834</ExpertLink>
+                                <Name lang="it">Emocromatosi correlata a SLC40A1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31843">
+                            <OrphaCode>648581</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=648581</ExpertLink>
+                            <Name lang="it">Emocromatosi digenica</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -3114,7 +3138,7 @@
                               <Disorder id="21802">
                                 <OrphaCode>324723</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324723</ExpertLink>
-                                <Name lang="it">Amiloidosi Abeta, tipo artico</Name>
+                                <Name lang="it">Amiloidosi ABeta tipo artico</Name>
                                 <DisorderType id="21450">
                                   <Name lang="it">Sottotipo clinico</Name>
                                 </DisorderType>
@@ -3126,7 +3150,7 @@
                               <Disorder id="14579">
                                 <OrphaCode>100006</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100006</ExpertLink>
-                                <Name lang="it">Amiloidosi Abeta, tipo olandese</Name>
+                                <Name lang="it">'Amiloidosi Abeta, tipo olandese'</Name>
                                 <DisorderType id="21450">
                                   <Name lang="it">Sottotipo clinico</Name>
                                 </DisorderType>
@@ -4246,7 +4270,7 @@
                       <Disorder id="183">
                         <OrphaCode>637</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=637</ExpertLink>
-                        <Name lang="it">Neurofibromatosi, tipo 2</Name>
+                        <Name lang="it">Schwannomatosi completa correlata a NF2</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -4258,7 +4282,7 @@
                       <Disorder id="185">
                         <OrphaCode>636</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=636</ExpertLink>
-                        <Name lang="it">Neurofibromatosi, tipo 1</Name>
+                        <Name lang="it">Neurofibromatosi tipo 1</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -4515,12 +4539,24 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="19618">
                             <OrphaCode>251274</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=251274</ExpertLink>
                             <Name lang="it">Iperaldosteronismo familiare, tipo III</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31732">
+                            <OrphaCode>642671</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=642671</ExpertLink>
+                            <Name lang="it">Iperaldosteronismo familiare tipo IV</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -6262,7 +6298,7 @@
                       <Disorder id="12482">
                         <OrphaCode>93921</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93921</ExpertLink>
-                        <Name lang="it">Neurofibromatosi, tipo 3</Name>
+                        <Name lang="it">Schwannomatosi completa</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -6310,7 +6346,7 @@
                       <Disorder id="3727">
                         <OrphaCode>3337</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3337</ExpertLink>
-                        <Name lang="it">Sindrome di Fanconi primitiva</Name>
+                        <Name lang="it">Sindrome di Fanconi renotubulare primitiva</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -6322,7 +6358,7 @@
                       <Disorder id="1011">
                         <OrphaCode>243</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=243</ExpertLink>
-                        <Name lang="it">Disgenesia gonadica 46,XX</Name>
+                        <Name lang="it">'Disgenesia gonadica 46,XX'</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -6940,7 +6976,7 @@
                                   <Disorder id="18099">
                                     <OrphaCode>180139</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=180139</ExpertLink>
-                                    <Name lang="it">Ipoplasia uterina</Name>
+                                    <Name lang="it">Ipoplasia dell'utero</Name>
                                     <DisorderType id="21415">
                                       <Name lang="it">Anomalia morfologica</Name>
                                     </DisorderType>
@@ -7498,7 +7534,7 @@
                       <Disorder id="10332">
                         <OrphaCode>34149</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=34149</ExpertLink>
-                        <Name lang="it">Nefropatia tubulo-interstiziale autosomica dominante </Name>
+                        <Name lang="it">Malattia renale tubulointerstiziale autosomica dominante</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -8272,7 +8308,7 @@
                                   <Disorder id="3650">
                                     <OrphaCode>1018</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1018</ExpertLink>
-                                    <Name lang="it">Leiomiomatosi diffusa legata all'X - sindrome di Alport</Name>
+                                    <Name lang="it">Sindrome di Alport legata all'X-leiomiomatosi diffusa</Name>
                                     <DisorderType id="21450">
                                       <Name lang="it">Sottotipo clinico</Name>
                                     </DisorderType>
@@ -8529,7 +8565,43 @@
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="3">
+                                    <ClassificationNode>
+                                      <Disorder id="31785">
+                                        <OrphaCode>645617</OrphaCode>
+                                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=645617</ExpertLink>
+                                        <Name lang="it">Dermatomiosite amiopatica</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="it">Sottotipo clinico</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31786">
+                                        <OrphaCode>645626</OrphaCode>
+                                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=645626</ExpertLink>
+                                        <Name lang="it">Dermatomiosite adermopatica</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="it">Sottotipo clinico</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31784">
+                                        <OrphaCode>645613</OrphaCode>
+                                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=645613</ExpertLink>
+                                        <Name lang="it">Dermatomiosite classica</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="it">Sottotipo clinico</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -8740,7 +8812,7 @@
                                   <Disorder id="11760">
                                     <OrphaCode>86861</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86861</ExpertLink>
-                                    <Name lang="it">Malattia da accumulo di immunoglobulina monoclonale non amiloide</Name>
+                                    <Name lang="it">Malattia da accumulo di immunoglobuline monoclonali non amiloidi</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -9148,7 +9220,7 @@
                                   <Disorder id="3551">
                                     <OrphaCode>656</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=656</ExpertLink>
-                                    <Name lang="it">Sindrome nefrosica idiopatica steroido-resistente, forma familiare</Name>
+                                    <Name lang="it">Sindrome nefrosica genetica resistente agli steroidi</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -9265,7 +9337,7 @@
                               <Name lang="it">Categoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="18">
+                          <ClassificationNodeChildList count="17">
                             <ClassificationNode>
                               <Disorder id="392">
                                 <OrphaCode>2614</OrphaCode>
@@ -9415,18 +9487,6 @@
                                 <OrphaCode>93114</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93114</ExpertLink>
                                 <Name lang="it">Malattia di Charcot-Marie-Tooth autosomica dominante intermedia tipo E</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="it">Malattia</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="19815">
-                                <OrphaCode>255249</OrphaCode>
-                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=255249</ExpertLink>
-                                <Name lang="it">Sindrome di Leigh con sindrome nefrosica</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -10842,7 +10902,7 @@
                               <Disorder id="722">
                                 <OrphaCode>1201</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1201</ExpertLink>
-                                <Name lang="it">Atresia del piccolo intestino</Name>
+                                <Name lang="it">Atresia dell’intestino tenue</Name>
                                 <DisorderType id="21415">
                                   <Name lang="it">Anomalia morfologica</Name>
                                 </DisorderType>
@@ -11346,7 +11406,7 @@
                               <Disorder id="3035">
                                 <OrphaCode>3453</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3453</ExpertLink>
-                                <Name lang="it">Poliendocrinopatia autoimmune, tipo 1</Name>
+                                <Name lang="it">Poliendocrinopatia autoimmune tipo 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -11478,7 +11538,7 @@
                               <Disorder id="1092">
                                 <OrphaCode>1590</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1590</ExpertLink>
-                                <Name lang="it">Monosomia 13q distale</Name>
+                                <Name lang="it">Delezione 13q distale</Name>
                                 <DisorderType id="21401">
                                   <Name lang="it">Sindrome malformativa</Name>
                                 </DisorderType>
@@ -12246,7 +12306,7 @@
                               <Disorder id="722">
                                 <OrphaCode>1201</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1201</ExpertLink>
-                                <Name lang="it">Atresia del piccolo intestino</Name>
+                                <Name lang="it">Atresia dell’intestino tenue</Name>
                                 <DisorderType id="21415">
                                   <Name lang="it">Anomalia morfologica</Name>
                                 </DisorderType>
@@ -14420,7 +14480,7 @@
                           <Disorder id="3035">
                             <OrphaCode>3453</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3453</ExpertLink>
-                            <Name lang="it">Poliendocrinopatia autoimmune, tipo 1</Name>
+                            <Name lang="it">Poliendocrinopatia autoimmune tipo 1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -14511,7 +14571,7 @@
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="29">
+                      <ClassificationNodeChildList count="30">
                         <ClassificationNode>
                           <Disorder id="14385">
                             <OrphaCode>99812</OrphaCode>
@@ -14661,6 +14721,18 @@
                             <OrphaCode>572</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=572</ExpertLink>
                             <Name lang="it">Immunodeficienza da deficit di espressione delle molecole HLA di classe 2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31816">
+                            <OrphaCode>647804</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=647804</ExpertLink>
+                            <Name lang="it">Immunodeficienza combinata da deficit di FCHO1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -15346,7 +15418,7 @@
                       <Disorder id="18195">
                         <OrphaCode>182040</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=182040</ExpertLink>
-                        <Name lang="it">Anemia aplastica</Name>
+                        <Name lang="it">Anemia aplastica rara</Name>
                         <DisorderType id="36561">
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
@@ -15534,7 +15606,7 @@
                               <Disorder id="429">
                                 <OrphaCode>124</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=124</ExpertLink>
-                                <Name lang="it">Malattia di Blackfan-Diamond</Name>
+                                <Name lang="it">Anemia di Diamond-Blackfan</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -15654,7 +15726,7 @@
                               <Disorder id="11760">
                                 <OrphaCode>86861</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86861</ExpertLink>
-                                <Name lang="it">Malattia da accumulo di immunoglobulina monoclonale non amiloide</Name>
+                                <Name lang="it">Malattia da accumulo di immunoglobuline monoclonali non amiloidi</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -15941,7 +16013,19 @@
                                               <Name lang="it">Sottotipo eziologico</Name>
                                             </DisorderType>
                                           </Disorder>
-                                          <ClassificationNodeChildList count="7">
+                                          <ClassificationNodeChildList count="9">
+                                            <ClassificationNode>
+                                              <Disorder id="31718">
+                                                <OrphaCode>641375</OrphaCode>
+                                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=641375</ExpertLink>
+                                                <Name lang="it">Leucemia linfoblastica a cellule B/linfoma con t(17;19)</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="it">Sottotipo eziologico</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
                                             <ClassificationNode>
                                               <Disorder id="29211">
                                                 <OrphaCode>585909</OrphaCode>
@@ -16019,6 +16103,18 @@
                                                 <OrphaCode>585956</OrphaCode>
                                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=585956</ExpertLink>
                                                 <Name lang="it">'Leucemia linfoblastica a cellule B/linfoma con t(1;19)(q23;p13.3)'</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="it">Sottotipo eziologico</Name>
+                                                </DisorderType>
+                                              </Disorder>
+                                              <ClassificationNodeChildList count="0">
+                                              </ClassificationNodeChildList>
+                                            </ClassificationNode>
+                                            <ClassificationNode>
+                                              <Disorder id="31717">
+                                                <OrphaCode>641372</OrphaCode>
+                                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=641372</ExpertLink>
+                                                <Name lang="it">Leucemia linfoblastica a cellule B/linfoma con t(7;9)(q11.2;p13.2)</Name>
                                                 <DisorderType id="21443">
                                                   <Name lang="it">Sottotipo eziologico</Name>
                                                 </DisorderType>
@@ -16538,7 +16634,7 @@
                                       <Disorder id="11764">
                                         <OrphaCode>86870</OrphaCode>
                                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86870</ExpertLink>
-                                        <Name lang="it">Neoplasia ematodermica CD4+/CD56+</Name>
+                                        <Name lang="it">Neoplasia a cellule dendritiche plasmacitoidi blastiche</Name>
                                         <DisorderType id="21394">
                                           <Name lang="it">Malattia</Name>
                                         </DisorderType>
@@ -18452,7 +18548,7 @@
                           <Disorder id="14156">
                             <OrphaCode>99139</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99139</ExpertLink>
-                            <Name lang="it">Emoglobinopatia instabile</Name>
+                            <Name lang="it">Malattia dell'emoglobina instabile</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -18868,7 +18964,7 @@
                                   <Disorder id="13808">
                                     <OrphaCode>98791</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98791</ExpertLink>
-                                    <Name lang="it">Sindrome alfa talassemia-disabilità cognitiva, legata al cromosoma 16</Name>
+                                    <Name lang="it">Sindrome alfa talassemia-disabilità intellettiva associata al cromosoma 16</Name>
                                     <DisorderType id="21401">
                                       <Name lang="it">Sindrome malformativa</Name>
                                     </DisorderType>
@@ -18915,7 +19011,7 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="21">
+                      <ClassificationNodeChildList count="20">
                         <ClassificationNode>
                           <Disorder id="18682">
                             <OrphaCode>210110</OrphaCode>
@@ -19077,18 +19173,6 @@
                             <OrphaCode>2777</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2777</ExpertLink>
                             <Name lang="it">Osteomesopicnosi</Name>
-                            <DisorderType id="21401">
-                              <Name lang="it">Sindrome malformativa</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2533">
-                            <OrphaCode>1306</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1306</ExpertLink>
-                            <Name lang="it">Sindrome di Buschke-Ollendorff</Name>
                             <DisorderType id="21401">
                               <Name lang="it">Sindrome malformativa</Name>
                             </DisorderType>
@@ -19655,11 +19739,35 @@
                         <OrphaCode>3188</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3188</ExpertLink>
                         <Name lang="it">Stenosi o atresia congenita delle vene polmonari</Name>
-                        <DisorderType id="21415">
-                          <Name lang="it">Anomalia morfologica</Name>
+                        <DisorderType id="21436">
+                          <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="14143">
+                            <OrphaCode>99126</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99126</ExpertLink>
+                            <Name lang="it">Atresia congenita delle vene polmonari</Name>
+                            <DisorderType id="21415">
+                              <Name lang="it">Anomalia morfologica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31729">
+                            <OrphaCode>642071</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=642071</ExpertLink>
+                            <Name lang="it">Stenosi primaria delle vene polmonari</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -21022,7 +21130,7 @@
                                               <Disorder id="11709">
                                                 <OrphaCode>85408</OrphaCode>
                                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85408</ExpertLink>
-                                                <Name lang="it">Poliartrite con fattore reumatoide negativo</Name>
+                                                <Name lang="it">Artrite idiopatica giovanile poliarticolare con fattore reumatoide negativo</Name>
                                                 <DisorderType id="21394">
                                                   <Name lang="it">Malattia</Name>
                                                 </DisorderType>
@@ -21220,7 +21328,7 @@
                                   <Disorder id="12855">
                                     <OrphaCode>97214</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=97214</ExpertLink>
-                                    <Name lang="it">Malattia di Eisenmenger</Name>
+                                    <Name lang="it">Sindrome di Eisenmenger</Name>
                                     <DisorderType id="21401">
                                       <Name lang="it">Sindrome malformativa</Name>
                                     </DisorderType>

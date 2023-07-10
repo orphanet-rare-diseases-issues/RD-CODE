@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:49:05" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:51:46" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -58,7 +58,7 @@
                       <Disorder id="22777">
                         <OrphaCode>399824</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399824</ExpertLink>
-                        <Name lang="nl">Zeldzame stoornis met obstructieve azoöspermie</Name>
+                        <Name lang="nl">Zeldzame aandoening met obstructieve azoöspermie</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -89,10 +89,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="863">
-                            <OrphaCode>3389</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3389</ExpertLink>
-                            <Name lang="nl">Tuberculose</Name>
+                          <Disorder id="31798">
+                            <OrphaCode>645874</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=645874</ExpertLink>
+                            <Name lang="nl">Primaire urogenitale tuberculose</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -156,7 +156,7 @@
                   <Disorder id="22767">
                     <OrphaCode>399572</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399572</ExpertLink>
-                    <Name lang="nl">Zeldzame mannelijke onvruchtbaarheid als gevolg van een stoornis van de hypothalamus-hypofyse-gonaden-as</Name>
+                    <Name lang="nl">Zeldzame mannelijke onvruchtbaarheid door stoornis van hypothalamus-hypofyse-gonaden-as</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -292,7 +292,7 @@
                                   <Disorder id="17995">
                                     <OrphaCode>177910</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=177910</ExpertLink>
-                                    <Name lang="nl">Prader-Willisyndroom door imprinting-mutatie</Name>
+                                    <Name lang="nl">Syndroom van Prader-Willi door imprintingsmutatie</Name>
                                     <DisorderType id="21443">
                                       <Name lang="nl">Etiologisch subtype</Name>
                                     </DisorderType>
@@ -479,7 +479,19 @@
                                   <Name lang="nl">Group of phenomes</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="31664">
+                                    <OrphaCode>633028</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=633028</ExpertLink>
+                                    <Name lang="nl">CPE-gerelateerd Prader-Willi-achtig syndroom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="17936">
                                     <OrphaCode>171829</OrphaCode>
@@ -496,7 +508,7 @@
                                   <Disorder id="22722">
                                     <OrphaCode>398079</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398079</ExpertLink>
-                                    <Name lang="nl">Prader-Willi-achtig syndroom door een puntmutatie</Name>
+                                    <Name lang="nl">SIM1-gerelateerd Prader-Willi-achtig syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -508,7 +520,7 @@
                                   <Disorder id="22720">
                                     <OrphaCode>398069</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398069</ExpertLink>
-                                    <Name lang="nl">Syndroom van Prader-Willi door een puntmutatie</Name>
+                                    <Name lang="nl">MAGEL2-gerelateerd Prader-Willi-achtig syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -548,7 +560,7 @@
                           <Disorder id="18175">
                             <OrphaCode>181390</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=181390</ExpertLink>
-                            <Name lang="nl">Endocrinopathie met congenitaal hypogonadotroop hypogonadisme als belangrijk kenmerk</Name>
+                            <Name lang="nl">Endocrinopathie met congenitaal hypogonadotroop hypogonadisme als hoofdkenmerk</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -558,7 +570,7 @@
                               <Disorder id="10886">
                                 <OrphaCode>66628</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=66628</ExpertLink>
-                                <Name lang="nl">Obesitas als gevolg van congenitale leptinedeficiëntie</Name>
+                                <Name lang="nl">Obesitas door congenitale deficiëntie van leptine</Name>
                                 <DisorderType id="21443">
                                   <Name lang="nl">Etiologisch subtype</Name>
                                 </DisorderType>
@@ -711,7 +723,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="12096">
                             <OrphaCode>90793</OrphaCode>
@@ -797,58 +809,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14466">
-                            <OrphaCode>99893</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99893</ExpertLink>
-                            <Name lang="nl">ACTH-onafhankelijk syndroom van Cushing</Name>
-                            <DisorderType id="21436">
-                              <Name lang="nl">Group of phenomes</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="18376">
-                                <OrphaCode>189439</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=189439</ExpertLink>
-                                <Name lang="nl">Primaire gepigmenteerde nodulaire adrenocorticale ziekte</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23454">
-                                <OrphaCode>443287</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443287</ExpertLink>
-                                <Name lang="nl">ACTH-onafhankelijk syndroom van Cushing door zeldzame cortisolproducerende adrenale tumor</Name>
-                                <DisorderType id="36561">
-                                  <Name lang="nl">Categorie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="1">
-                                <ClassificationNode>
-                                  <Disorder id="3731">
-                                    <OrphaCode>1501</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1501</ExpertLink>
-                                    <Name lang="nl">Bijnierschorscarcinoom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="18374">
                             <OrphaCode>189427</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=189427</ExpertLink>
-                            <Name lang="nl">Syndroom van Cushing als gevolg van macronodulaire adrenale hyperplasie</Name>
+                            <Name lang="nl">Syndroom van Cushing door bilaterale macronodulaire adrenocorticale ziekte</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -874,7 +838,7 @@
                       <Disorder id="22769">
                         <OrphaCode>399685</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399685</ExpertLink>
-                        <Name lang="nl">Zeldzame mannelijke onvruchtbaarheid als gevolg van een testiculaire endocriene stoornis</Name>
+                        <Name lang="nl">Zeldzame mannelijke onvruchtbaarheid door testiculaire endocriene stoornis</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -1236,7 +1200,7 @@
                   <Disorder id="22770">
                     <OrphaCode>399764</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399764</ExpertLink>
-                    <Name lang="nl">Mannelijke onvruchtbaarheid als gevolg van gonadale dysgenesie of spermastoornis</Name>
+                    <Name lang="nl">Mannelijke onvruchtbaarheid door gonadale dysgenesie of spermastoornis</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -1340,7 +1304,7 @@
                           <Disorder id="21833">
                             <OrphaCode>325124</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=325124</ExpertLink>
-                            <Name lang="nl">Agenesie van de testikels</Name>
+                            <Name lang="nl">Testiculaire agenesie</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
                             </DisorderType>
@@ -1354,7 +1318,7 @@
                       <Disorder id="22771">
                         <OrphaCode>399771</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399771</ExpertLink>
-                        <Name lang="nl">Mannelijke onvruchtbaarheid als gevolg van spermastoornis</Name>
+                        <Name lang="nl">Mannelijke onvruchtbaarheid door spermastoornis</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -1376,7 +1340,7 @@
                           <Disorder id="22772">
                             <OrphaCode>399775</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399775</ExpertLink>
-                            <Name lang="nl">Mannelijke onvruchtbaarheid met stoornis van de spermatogenese</Name>
+                            <Name lang="nl">Mannelijke onvruchtbaarheid met stoornis van spermatogenese</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -1398,7 +1362,7 @@
                               <Disorder id="22773">
                                 <OrphaCode>399786</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399786</ExpertLink>
-                                <Name lang="nl">Mannelijke onvruchtbaarheid met stoornis van de spermatogenese als gevolg van een enkele genmutatie</Name>
+                                <Name lang="nl">Mannelijke onvruchtbaarheid met stoornis van spermatogenese door mutatie van een enkel gen</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -1472,7 +1436,7 @@
                           <Disorder id="22776">
                             <OrphaCode>399813</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399813</ExpertLink>
-                            <Name lang="nl">Mannelijke onvruchtbaarheid als gevolg van een stoornis van de spermamotiliteit</Name>
+                            <Name lang="nl">Mannelijke onvruchtbaarheid door stoornis van spermamotiliteit</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -1608,7 +1572,7 @@
                   <Disorder id="22778">
                     <OrphaCode>399831</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399831</ExpertLink>
-                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid als gevolg van een stoornis van de hypothalamus-hypofyse-gonaden-as</Name>
+                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door stoornis van hypothalamus-hypofyse-gonaden-as</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -1678,7 +1642,7 @@
                       <Disorder id="22779">
                         <OrphaCode>399839</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399839</ExpertLink>
-                        <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid als gevolg van congenitaal hypogonadotroop hypogonadisme</Name>
+                        <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door congenitaal hypogonadotroop hypogonadisme</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -1688,7 +1652,7 @@
                           <Disorder id="18175">
                             <OrphaCode>181390</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=181390</ExpertLink>
-                            <Name lang="nl">Endocrinopathie met congenitaal hypogonadotroop hypogonadisme als belangrijk kenmerk</Name>
+                            <Name lang="nl">Endocrinopathie met congenitaal hypogonadotroop hypogonadisme als hoofdkenmerk</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -1698,7 +1662,7 @@
                               <Disorder id="10886">
                                 <OrphaCode>66628</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=66628</ExpertLink>
-                                <Name lang="nl">Obesitas als gevolg van congenitale leptinedeficiëntie</Name>
+                                <Name lang="nl">Obesitas door congenitale deficiëntie van leptine</Name>
                                 <DisorderType id="21443">
                                   <Name lang="nl">Etiologisch subtype</Name>
                                 </DisorderType>
@@ -1820,7 +1784,7 @@
                           <Disorder id="22780">
                             <OrphaCode>399846</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399846</ExpertLink>
-                            <Name lang="nl">Zeldzame stoornis met vrouwelijke onvruchtbaarheid als gevolg van congenitaal hypogonadotroop hypogonadisme</Name>
+                            <Name lang="nl">Zeldzame aandoening met vrouwelijke onvruchtbaarheid door congenitaal hypogonadotroop hypogonadisme</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -1912,7 +1876,7 @@
                                   <Disorder id="17995">
                                     <OrphaCode>177910</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=177910</ExpertLink>
-                                    <Name lang="nl">Prader-Willisyndroom door imprinting-mutatie</Name>
+                                    <Name lang="nl">Syndroom van Prader-Willi door imprintingsmutatie</Name>
                                     <DisorderType id="21443">
                                       <Name lang="nl">Etiologisch subtype</Name>
                                     </DisorderType>
@@ -1943,7 +1907,19 @@
                                   <Name lang="nl">Group of phenomes</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="31664">
+                                    <OrphaCode>633028</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=633028</ExpertLink>
+                                    <Name lang="nl">CPE-gerelateerd Prader-Willi-achtig syndroom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                                 <ClassificationNode>
                                   <Disorder id="17936">
                                     <OrphaCode>171829</OrphaCode>
@@ -1960,7 +1936,7 @@
                                   <Disorder id="22722">
                                     <OrphaCode>398079</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398079</ExpertLink>
-                                    <Name lang="nl">Prader-Willi-achtig syndroom door een puntmutatie</Name>
+                                    <Name lang="nl">SIM1-gerelateerd Prader-Willi-achtig syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -1972,7 +1948,7 @@
                                   <Disorder id="22720">
                                     <OrphaCode>398069</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398069</ExpertLink>
-                                    <Name lang="nl">Syndroom van Prader-Willi door een puntmutatie</Name>
+                                    <Name lang="nl">MAGEL2-gerelateerd Prader-Willi-achtig syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -1995,7 +1971,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="203">
                             <OrphaCode>752</OrphaCode>
@@ -2128,61 +2104,13 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="14466">
-                            <OrphaCode>99893</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99893</ExpertLink>
-                            <Name lang="nl">ACTH-onafhankelijk syndroom van Cushing</Name>
-                            <DisorderType id="21436">
-                              <Name lang="nl">Group of phenomes</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="18376">
-                                <OrphaCode>189439</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=189439</ExpertLink>
-                                <Name lang="nl">Primaire gepigmenteerde nodulaire adrenocorticale ziekte</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23454">
-                                <OrphaCode>443287</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443287</ExpertLink>
-                                <Name lang="nl">ACTH-onafhankelijk syndroom van Cushing door zeldzame cortisolproducerende adrenale tumor</Name>
-                                <DisorderType id="36561">
-                                  <Name lang="nl">Categorie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="1">
-                                <ClassificationNode>
-                                  <Disorder id="3731">
-                                    <OrphaCode>1501</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1501</ExpertLink>
-                                    <Name lang="nl">Bijnierschorscarcinoom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="22782">
                         <OrphaCode>399853</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399853</ExpertLink>
-                        <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid als gevolg van een afwijking van de ovariële functie</Name>
+                        <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door functiestoornis van ovarium</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -2304,7 +2232,7 @@
                   <Disorder id="22784">
                     <OrphaCode>399877</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399877</ExpertLink>
-                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid als gevolg van gonadale dysgenesie</Name>
+                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door gonadale dysgenesie</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -2403,7 +2331,31 @@
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="31739">
+                            <OrphaCode>642945</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=642945</ExpertLink>
+                            <Name lang="nl">Syndroom van Perrault type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="nl">Klinisch subtype</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31742">
+                            <OrphaCode>642976</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=642976</ExpertLink>
+                            <Name lang="nl">Syndroom van Perrault type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="nl">Klinisch subtype</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2424,7 +2376,7 @@
                   <Disorder id="22785">
                     <OrphaCode>399882</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=399882</ExpertLink>
-                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid als gevolg van een implantatiedefect</Name>
+                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door implantatiedefect</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -2530,7 +2482,7 @@
                       <Disorder id="18101">
                         <OrphaCode>180145</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=180145</ExpertLink>
-                        <Name lang="nl">Agenesie en aplasie van de baarmoederhals</Name>
+                        <Name lang="nl">Agenesie en aplasie van cervix uteri</Name>
                         <DisorderType id="21415">
                           <Name lang="nl">Morfologische anomalie</Name>
                         </DisorderType>
@@ -2544,7 +2496,7 @@
                   <Disorder id="22926">
                     <OrphaCode>404469</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=404469</ExpertLink>
-                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door een defect van de oöcytmaturatie</Name>
+                    <Name lang="nl">Zeldzame vrouwelijke onvruchtbaarheid door defect van oöcytmaturatie</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>

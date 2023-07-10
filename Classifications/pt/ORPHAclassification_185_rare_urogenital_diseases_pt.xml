@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2022-06-14 07:39:41" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR date="2023-06-22 06:40:05" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -16,7 +16,7 @@
           <Disorder id="14860">
             <OrphaCode>101433</OrphaCode>
             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=101433</ExpertLink>
-            <Name lang="pt">Doença urogenital, rara</Name>
+            <Name lang="pt">Doença urogenital rara</Name>
             <DisorderType id="36561">
               <Name lang="pt">Category</Name>
             </DisorderType>
@@ -26,7 +26,7 @@
               <Disorder id="3114">
                 <OrphaCode>2795</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2795</ExpertLink>
-                <Name lang="pt">Ovários poliquísticos - disfunção do esfíncter uretral</Name>
+                <Name lang="pt">Síndrome de disfunção do esfíncter uretral Fowler</Name>
                 <DisorderType id="21394">
                   <Name lang="pt">Doença</Name>
                 </DisorderType>
@@ -60,7 +60,7 @@
                   <Disorder id="17576">
                     <OrphaCode>165704</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=165704</ExpertLink>
-                    <Name lang="pt">Malformação do trato urogenital, não-sindrómica</Name>
+                    <Name lang="pt">Malformação do trato urogenital não-sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -70,17 +70,17 @@
                       <Disorder id="18218">
                         <OrphaCode>182117</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=182117</ExpertLink>
-                        <Name lang="pt">Malformação do trato genito-urinário feminino, não sindrómica</Name>
+                        <Name lang="pt">Malformação do trato genito-urinário feminino não sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="18085">
                             <OrphaCode>180065</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=180065</ExpertLink>
-                            <Name lang="pt">Malformação uterovaginal, não-sindrómica</Name>
+                            <Name lang="pt">Malformação uterovaginal não-sindromática</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -90,7 +90,7 @@
                               <Disorder id="1879">
                                 <OrphaCode>1916</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1916</ExpertLink>
-                                <Name lang="pt">Embriofetopatia por Distilbeno</Name>
+                                <Name lang="pt">Embriofetopatia por dietilstilbestrol</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -122,7 +122,7 @@
                                       <Disorder id="2783">
                                         <OrphaCode>3109</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3109</ExpertLink>
-                                        <Name lang="pt">Síndrome de Mayer-Rokitansky-Küster-Hauser</Name>
+                                        <Name lang="pt">Síndrome Mayer-Rokitansky-Küster-Hauser</Name>
                                         <DisorderType id="21401">
                                           <Name lang="pt">Síndrome malformativo</Name>
                                         </DisorderType>
@@ -132,7 +132,7 @@
                                           <Disorder id="2378">
                                             <OrphaCode>2578</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2578</ExpertLink>
-                                            <Name lang="pt">Associação MURCS</Name>
+                                            <Name lang="pt">Síndrome Mayer-Rokitansky-Küster-Hauser tipo 2</Name>
                                             <DisorderType id="21450">
                                               <Name lang="pt">Subtipo clínico</Name>
                                             </DisorderType>
@@ -424,13 +424,25 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31814">
+                            <OrphaCode>647794</OrphaCode>
+                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=647794</ExpertLink>
+                            <Name lang="pt">Isolated persistent urogenital sinus</Name>
+                            <DisorderType id="21415">
+                              <Name lang="pt">Anomalia morfológica</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="18219">
                         <OrphaCode>182121</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=182121</ExpertLink>
-                        <Name lang="pt">Malformação do trato genito-urinário masculino, não sindrómica</Name>
+                        <Name lang="pt">Malformação do trato genito-urinário masculino não sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -440,7 +452,7 @@
                           <Disorder id="1000">
                             <OrphaCode>48</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=48</ExpertLink>
-                            <Name lang="pt">Aplasia bilateral congénita dos canais deferentes</Name>
+                            <Name lang="pt">Aplasia dos canais deferentes bilateral congénita</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -526,7 +538,7 @@
                       <Disorder id="18220">
                         <OrphaCode>182124</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=182124</ExpertLink>
-                        <Name lang="pt">Malformação do trato genito-urinário masculino e feminino, não sindrómica</Name>
+                        <Name lang="pt">Malformação do trato genito-urinário masculino e feminino não sindromática</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -536,7 +548,7 @@
                           <Disorder id="730">
                             <OrphaCode>322</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=322</ExpertLink>
-                            <Name lang="pt">Complexo de extrofia da bexiga - epispádias</Name>
+                            <Name lang="pt">Complexo de extrofia da bexiga-epispádias</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -606,7 +618,7 @@
                               <Disorder id="19288">
                                 <OrphaCode>238642</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=238642</ExpertLink>
-                                <Name lang="pt">Megaureter primário, forma de apresentação no adulto</Name>
+                                <Name lang="pt">Megaureter primário, forma de início no adulto</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
@@ -690,7 +702,7 @@
                               <Disorder id="566">
                                 <OrphaCode>2970</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2970</ExpertLink>
-                                <Name lang="pt">Síndrome 'Prune belly'</Name>
+                                <Name lang="pt">Síndrome "prune belly"</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -804,7 +816,7 @@
                   <Disorder id="17577">
                     <OrphaCode>165707</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=165707</ExpertLink>
-                    <Name lang="pt">Malformação sindrómica do trato urogenital, sindrómica</Name>
+                    <Name lang="pt">Malformação sindrómica do trato urogenital sindromática</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -814,7 +826,7 @@
                       <Disorder id="44">
                         <OrphaCode>881</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=881</ExpertLink>
-                        <Name lang="pt">Síndrome de Turner</Name>
+                        <Name lang="pt">Síndrome Turner</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -862,7 +874,7 @@
                       <Disorder id="110">
                         <OrphaCode>138</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=138</ExpertLink>
-                        <Name lang="pt">Associação CHARGE</Name>
+                        <Name lang="pt">Síndrome CHARGE</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -874,7 +886,7 @@
                       <Disorder id="394">
                         <OrphaCode>915</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=915</ExpertLink>
-                        <Name lang="pt">Síndrome de Aarskog-Scott</Name>
+                        <Name lang="pt">Síndrome Aarskog-Scott</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -886,7 +898,7 @@
                       <Disorder id="413">
                         <OrphaCode>1046</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1046</ExpertLink>
-                        <Name lang="pt">Anemia hemolítica letal - anomalias genitais</Name>
+                        <Name lang="pt">Síndrome de anemia hemolítica letal-anomalias genitais</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -898,7 +910,7 @@
                       <Disorder id="23513">
                         <OrphaCode>444941</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=444941</ExpertLink>
-                        <Name lang="pt">Espectro de regressão caudal-sirenomelia</Name>
+                        <Name lang="pt">Espectro clínico de regressão caudal-sirenomelia</Name>
                         <DisorderType id="21436">
                           <Name lang="pt">Grupo de fenótipos</Name>
                         </DisorderType>
@@ -946,7 +958,7 @@
                       <Disorder id="1056">
                         <OrphaCode>10</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=10</ExpertLink>
-                        <Name lang="pt">Síndrome 48 XXYY</Name>
+                        <Name lang="pt">Síndrome 48,XXYY</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -958,7 +970,7 @@
                       <Disorder id="1226">
                         <OrphaCode>3176</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3176</ExpertLink>
-                        <Name lang="pt">Espinha bífida - hipospadias</Name>
+                        <Name lang="pt">Síndrome de espinha bífida-hipospadias</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -970,7 +982,7 @@
                       <Disorder id="1248">
                         <OrphaCode>921</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=921</ExpertLink>
-                        <Name lang="pt">Síndrome de Abruzzo-Erickson</Name>
+                        <Name lang="pt">Síndrome Abruzzo-Erickson</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -994,7 +1006,7 @@
                       <Disorder id="1918">
                         <OrphaCode>1974</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1974</ExpertLink>
-                        <Name lang="pt">Síndrome facio-digito-genital tipo recessiva</Name>
+                        <Name lang="pt">Síndrome facio-digito-genital autossómica recessiva</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1006,7 +1018,7 @@
                       <Disorder id="2089">
                         <OrphaCode>2211</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2211</ExpertLink>
-                        <Name lang="pt">Síndrome de hipertelorismo - hipospadias - polissindactilia</Name>
+                        <Name lang="pt">Síndrome de hipertelorismo-hipospadias-polissindactilia</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1018,7 +1030,7 @@
                       <Disorder id="2122">
                         <OrphaCode>2252</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2252</ExpertLink>
-                        <Name lang="pt">Hipoplasia radial - polegar trifalângico - hipospadias - diastema maxilar</Name>
+                        <Name lang="pt">Síndrome de hipoplasia radial-polegar trifalângico-hipospadias-diastema maxilar</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1030,7 +1042,7 @@
                       <Disorder id="2129">
                         <OrphaCode>2261</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2261</ExpertLink>
-                        <Name lang="pt">Hipospadias - atraso mental, tipo Goldblatt</Name>
+                        <Name lang="pt">Síndrome de hipospadias-perturbação do desenvolvimento intelectual, tipo Goldblatt</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1042,7 +1054,7 @@
                       <Disorder id="2202">
                         <OrphaCode>2353</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2353</ExpertLink>
-                        <Name lang="pt">Síndrome de Krieble-Bixler</Name>
+                        <Name lang="pt">Síndrome Schilbach-Rott</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1054,7 +1066,7 @@
                       <Disorder id="2258">
                         <OrphaCode>2437</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2437</ExpertLink>
-                        <Name lang="pt">Ectrodactilia das mãos - anomalias urinárias - espinha bífida</Name>
+                        <Name lang="pt">Síndrome Czeizel-Losonci</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1066,7 +1078,7 @@
                       <Disorder id="2300">
                         <OrphaCode>2487</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2487</ExpertLink>
-                        <Name lang="pt">Anomalias dos membros inferiores - hipospadias</Name>
+                        <Name lang="pt">Síndrome de malformação dos membros inferiores-hipospadias</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1078,7 +1090,7 @@
                       <Disorder id="2304">
                         <OrphaCode>2491</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2491</ExpertLink>
-                        <Name lang="pt">Hipomelia - anomalias dos canais mullerianos</Name>
+                        <Name lang="pt">Síndrome de anomalias dos canais mullerianos-hipomelia</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1090,7 +1102,7 @@
                       <Disorder id="2436">
                         <OrphaCode>2669</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2669</ExpertLink>
-                        <Name lang="pt">Nefrose - surdez - malformações uro-digitais</Name>
+                        <Name lang="pt">Síndrome de nefrose-surdez-malformações do tracto urinário e digitais</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1102,7 +1114,7 @@
                       <Disorder id="2668">
                         <OrphaCode>2957</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2957</ExpertLink>
-                        <Name lang="pt">Anomalia pré-axial - polidactilia pós-axial - hipospadias</Name>
+                        <Name lang="pt">Síndrome Guttmacher</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1114,7 +1126,7 @@
                       <Disorder id="2881">
                         <OrphaCode>3224</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3224</ExpertLink>
-                        <Name lang="pt">Surdez - hipospadias - sinostose metacárpica e metatársica</Name>
+                        <Name lang="pt">Síndrome de surdez-anomalias genitais-sinostose metacárpica e metatársica</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1126,7 +1138,7 @@
                       <Disorder id="2964">
                         <OrphaCode>3341</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3341</ExpertLink>
-                        <Name lang="pt">Torcicolo - quelóides - criptorquidia - displasia renal</Name>
+                        <Name lang="pt">Síndrome de torcicolo-quelóides-criptorquidia-displasia renal</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1150,7 +1162,7 @@
                       <Disorder id="3495">
                         <OrphaCode>3411</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3411</ExpertLink>
-                        <Name lang="pt">Duplo útero - hemivagina - agenesia renal</Name>
+                        <Name lang="pt">Síndrome de duplo útero-hemivagina-agenesia renal</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1174,7 +1186,7 @@
                       <Disorder id="3214">
                         <OrphaCode>1655</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1655</ExpertLink>
-                        <Name lang="pt">Derivados Mullerianos - linfangiectasia - polidactilia</Name>
+                        <Name lang="pt">Síndrome de derivados müllerianos-linfangiectasia-polidactilia</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1210,7 +1222,7 @@
                       <Disorder id="14202">
                         <OrphaCode>99329</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99329</ExpertLink>
-                        <Name lang="pt">48,XYYY, síndrome</Name>
+                        <Name lang="pt">Síndrome 48,XYYY</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1234,7 +1246,7 @@
                       <Disorder id="23161">
                         <OrphaCode>423655</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=423655</ExpertLink>
-                        <Name lang="pt">Espectro de malformação cerebral-encefalopatia relacionada com ARX</Name>
+                        <Name lang="pt">Espectro clínico de malformação cerebral-encefalopatia ARX-relacionada</Name>
                         <DisorderType id="21436">
                           <Name lang="pt">Grupo de fenótipos</Name>
                         </DisorderType>
@@ -1244,7 +1256,7 @@
                           <Disorder id="2320">
                             <OrphaCode>2508</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2508</ExpertLink>
-                            <Name lang="pt">Microcefalia - agenesia do corpo caloso</Name>
+                            <Name lang="pt">Síndrome de agenesia do corpo caloso-anomalias genitais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1256,7 +1268,7 @@
                           <Disorder id="4057">
                             <OrphaCode>452</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=452</ExpertLink>
-                            <Name lang="pt">Lisencefalia com anomalias genitais ligada ao X</Name>
+                            <Name lang="pt">Lisencefalia ligada ao X com anomalias genitais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1282,7 +1294,7 @@
                       <Disorder id="25997">
                         <OrphaCode>500135</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=500135</ExpertLink>
-                        <Name lang="pt">Neurónios multinucleados - anidrâmnio - displasia renal - hipoplasia cerebelar - síndrome da hidranencefalia</Name>
+                        <Name lang="pt">Síndrome de neurónios multinucleados-anidrâmnio-displasia renal-hipoplasia cerebelosa-hidranencefalia</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1294,7 +1306,7 @@
                       <Disorder id="25804">
                         <OrphaCode>495875</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=495875</ExpertLink>
-                        <Name lang="pt">Agenesia labioscrotal congénita - malformação cerebelar - síndrome dismorfismo facial-distrófico da córnea</Name>
+                        <Name lang="pt">Síndrome de agenesia labioescrotal congénita-malformação cerebelosa-distrofia córnea-dismorfia facial</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1352,7 +1364,7 @@
                           <Disorder id="29865">
                             <OrphaCode>597746</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=597746</ExpertLink>
-                            <Name lang="pt">Síndrome de blefarofimose-perturbação do desenvolvimento intelectual, síndrome de sobreposição tipo SBBYS/genitopatelar</Name>
+                            <Name lang="pt">Síndrome de blefarofimose-perturbação do desenvolvimento intelectual/síndrome de sobreposição genitopatelar</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1366,7 +1378,7 @@
                       <Disorder id="29864">
                         <OrphaCode>597743</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=597743</ExpertLink>
-                        <Name lang="pt">Síndrome de anomalias congénitas múltiplas-perturbação do desenvolvimento intelectual grave-microcefalia SETD2-relacionada</Name>
+                        <Name lang="pt">Síndrome de microcefalia-perturbação do desenvolvimento intelectual grave-anomalias congénitas múltiplas SETD2-relacionada</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -1382,7 +1394,7 @@
               <Disorder id="11613">
                 <OrphaCode>84085</OrphaCode>
                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=84085</ExpertLink>
-                <Name lang="pt">Síndrome de Hinman</Name>
+                <Name lang="pt">Síndrome Hinman</Name>
                 <DisorderType id="21394">
                   <Name lang="pt">Doença</Name>
                 </DisorderType>
@@ -1404,7 +1416,7 @@
                   <Disorder id="569">
                     <OrphaCode>2982</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2982</ExpertLink>
-                    <Name lang="pt">Pseudo-hermafroditismo feminino</Name>
+                    <Name lang="pt">Doença do desenvolvimento sexual 46,XX</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -1414,7 +1426,7 @@
                       <Disorder id="13096">
                         <OrphaCode>98078</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98078</ExpertLink>
-                        <Name lang="pt">Anomalias do desenvolvimento sexual 46,XX induzida pelo androgénio</Name>
+                        <Name lang="pt">Doença do desenvolvimento sexual 46,XX induzida por excesso de androgénio</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1424,7 +1436,7 @@
                           <Disorder id="12087">
                             <OrphaCode>90776</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90776</ExpertLink>
-                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX induzido por androgénio de origem fetal</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX induzido por excesso de androgénio de origem fetal</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -1446,7 +1458,7 @@
                               <Disorder id="12095">
                                 <OrphaCode>90791</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90791</ExpertLink>
-                                <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência de 3-beta-hidroxi-esteróide desidrogenase</Name>
+                                <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de 3-beta-hidroxi-esteróide desidrogenase</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1458,7 +1470,7 @@
                               <Disorder id="12097">
                                 <OrphaCode>90794</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90794</ExpertLink>
-                                <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência de 21-hidroxilase, forma clássica</Name>
+                                <Name lang="pt">Hiperplasia supra-renal congénita clássica por deficiência de 21-hidroxilase</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1468,7 +1480,7 @@
                                   <Disorder id="21548">
                                     <OrphaCode>315306</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=315306</ExpertLink>
-                                    <Name lang="pt">Hiperplasia adrenal congénita classica devido à deficiência de 21-hidroxilase,  com perda de sais</Name>
+                                    <Name lang="pt">Hiperplasia supra-renal congénita clássica por deficiência de 21-hidroxilase, com perda de sais</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -1480,7 +1492,7 @@
                                   <Disorder id="21549">
                                     <OrphaCode>315311</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=315311</ExpertLink>
-                                    <Name lang="pt">Hiperplasia adrenal congénita classica devido à deficiência de 21-hidroxilase,  forma virilizante simples</Name>
+                                    <Name lang="pt">Hiperplasia supra-renal congénita clássica por deficiência de 21-hidroxilase, forma virilizante simples</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -1494,7 +1506,7 @@
                               <Disorder id="12098">
                                 <OrphaCode>90795</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90795</ExpertLink>
-                                <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência de 11-beta-hidroxilase</Name>
+                                <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de 11-beta-hidroxilase</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1506,7 +1518,7 @@
                               <Disorder id="12654">
                                 <OrphaCode>95699</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=95699</ExpertLink>
-                                <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência na citocromo P450 oxidorreductase (POR)</Name>
+                                <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de citocromo P450 oxidorreductase</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1532,7 +1544,7 @@
                           <Disorder id="12119">
                             <OrphaCode>91144</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=91144</ExpertLink>
-                            <Name lang="pt">Doença do desenvolvimento sexual induzido por androgénios de origem materna</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX induzida por androgénio de origem materna</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -1542,7 +1554,7 @@
                               <Disorder id="21829">
                                 <OrphaCode>325093</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325093</ExpertLink>
-                                <Name lang="pt">Alteração 46, XX do desenvolvimento sexual induzida por andrógenios maternos endógenos</Name>
+                                <Name lang="pt">Doença do desenvolvimento sexual 46,XX induzida por andrógenios de origem materna endógenos</Name>
                                 <DisorderType id="21436">
                                   <Name lang="pt">Grupo de fenótipos</Name>
                                 </DisorderType>
@@ -1604,7 +1616,7 @@
                           <Disorder id="1011">
                             <OrphaCode>243</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=243</ExpertLink>
-                            <Name lang="pt">Disgenesia gonadal, tipo XX</Name>
+                            <Name lang="pt">Disgenesia gonadal 46,XX</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1616,7 +1628,7 @@
                           <Disorder id="2037">
                             <OrphaCode>2138</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2138</ExpertLink>
-                            <Name lang="pt">Hermafroditismo verdadeiro</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX ovotesticular</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1628,7 +1640,7 @@
                           <Disorder id="5546">
                             <OrphaCode>393</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=393</ExpertLink>
-                            <Name lang="pt">Síndrome homem XX</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX testicular</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1640,7 +1652,7 @@
                           <Disorder id="23475">
                             <OrphaCode>444048</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=444048</ExpertLink>
-                            <Name lang="pt">Síndrome de disgenésia ovárica – baixa estatura</Name>
+                            <Name lang="pt">Síndrome de disgenésia ovárica 46,XX-baixa estatura</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1654,7 +1666,7 @@
                       <Disorder id="21831">
                         <OrphaCode>325109</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325109</ExpertLink>
-                        <Name lang="pt">Síndrome com alteração 46, XX do desenvolvimento sexual</Name>
+                        <Name lang="pt">Síndrome com doença do desenvolvimento sexual 46,XX</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1664,7 +1676,7 @@
                           <Disorder id="1306">
                             <OrphaCode>991</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=991</ExpertLink>
-                            <Name lang="pt">Agonadismo - dextrocardia - hérnia diafragmática</Name>
+                            <Name lang="pt">Síndrome PAGOD</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1676,19 +1688,43 @@
                           <Disorder id="2589">
                             <OrphaCode>2855</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2855</ExpertLink>
-                            <Name lang="pt">Síndrome de Perrault</Name>
+                            <Name lang="pt">Síndrome Perrault</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="31739">
+                                <OrphaCode>642945</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=642945</ExpertLink>
+                                <Name lang="pt">Perrault syndrome type 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pt">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31742">
+                                <OrphaCode>642976</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=642976</ExpertLink>
+                                <Name lang="pt">Perrault syndrome type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pt">Subtipo clínico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="2679">
                             <OrphaCode>2973</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2973</ExpertLink>
-                            <Name lang="pt">Pseudo-hermafroditismo - anomalias ano-rectais</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XX-anomalias ano-rectais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1700,7 +1736,7 @@
                           <Disorder id="2681">
                             <OrphaCode>2975</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2975</ExpertLink>
-                            <Name lang="pt">Pseuso-hermafroditismo feminino - anomalias ósseas</Name>
+                            <Name lang="pt">Síndrome de doença do desenvolvimento sexual 46,XX-anomalias esqueléticas</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1712,7 +1748,7 @@
                           <Disorder id="11623">
                             <OrphaCode>85112</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85112</ExpertLink>
-                            <Name lang="pt">Queratodermia palmoplantar - reversão sexual XX - predisposição a carcinoma de células escamosas</Name>
+                            <Name lang="pt">Síndrome de queratodermia palmoplantar-reversão sexual XX-predisposição a carcinoma de células escamosas</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1724,7 +1760,7 @@
                           <Disorder id="16696">
                             <OrphaCode>137631</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=137631</ExpertLink>
-                            <Name lang="pt">Fibrose pulmonar - imunodeficiência - disgenesia gonadal</Name>
+                            <Name lang="pt">Síndrome de fibrose pulmonar-imunodeficiência-disgenesia gonadal 46,XX</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1786,7 +1822,7 @@
                       <Disorder id="13105">
                         <OrphaCode>98087</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98087</ExpertLink>
-                        <Name lang="pt">Anomalia disgenética do desenvolvimento sexual 46,XY</Name>
+                        <Name lang="pt">Síndrome com doença do desenvolvimento sexual 46,XY</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -1808,7 +1844,7 @@
                           <Disorder id="334">
                             <OrphaCode>1642</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1642</ExpertLink>
-                            <Name lang="pt">Deleção 9p</Name>
+                            <Name lang="pt">Monossomia distal 9p</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1820,7 +1856,7 @@
                           <Disorder id="476">
                             <OrphaCode>1770</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1770</ExpertLink>
-                            <Name lang="pt">Disgenesia gonadal tipo XY, anomalias associadas</Name>
+                            <Name lang="pt">Síndrome de anomalias associadas a disgenesia gonadal tipo XY</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1832,7 +1868,7 @@
                           <Disorder id="570">
                             <OrphaCode>2983</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2983</ExpertLink>
-                            <Name lang="pt">Pseudo-hermafroditismo atraso mental</Name>
+                            <Name lang="pt">Síndrome de pseudo-hermafroditismo-perturbação do desenvolvimento intelectual</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1844,7 +1880,7 @@
                           <Disorder id="606">
                             <OrphaCode>1422</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1422</ExpertLink>
-                            <Name lang="pt">Condrodisplasia - pseudo-hermafroditismo</Name>
+                            <Name lang="pt">Síndrome de condrodisplasia-doença do desenvolvimento sexual</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1856,7 +1892,7 @@
                           <Disorder id="900">
                             <OrphaCode>847</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=847</ExpertLink>
-                            <Name lang="pt">Alfa talassemia - atraso mental, ligada ao X</Name>
+                            <Name lang="pt">Síndrome de alfa talassemia-perturbação do desenvolvimento intelectual ligada ao X</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1880,7 +1916,7 @@
                           <Disorder id="1306">
                             <OrphaCode>991</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=991</ExpertLink>
-                            <Name lang="pt">Agonadismo - dextrocardia - hérnia diafragmática</Name>
+                            <Name lang="pt">Síndrome PAGOD</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1892,7 +1928,7 @@
                           <Disorder id="2151">
                             <OrphaCode>2282</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2282</ExpertLink>
-                            <Name lang="pt">Síndrome de Ieshima-Koeda-Inagaki</Name>
+                            <Name lang="pt">Síndrome de dismorfia-baixa estatura-surdez-doença do desenvolvimento sexual</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1904,7 +1940,7 @@
                           <Disorder id="2773">
                             <OrphaCode>3097</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3097</ExpertLink>
-                            <Name lang="pt">Displasia rabdomiomatosa - cardiopatia - anomalias genitais</Name>
+                            <Name lang="pt">Síndrome Meacham</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1916,7 +1952,7 @@
                           <Disorder id="3552">
                             <OrphaCode>220</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=220</ExpertLink>
-                            <Name lang="pt">Síndrome de Denys-Drash</Name>
+                            <Name lang="pt">Síndrome Denys-Drash</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1928,7 +1964,7 @@
                           <Disorder id="3616">
                             <OrphaCode>347</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=347</ExpertLink>
-                            <Name lang="pt">Síndrome de Frasier</Name>
+                            <Name lang="pt">Síndrome Frasier</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1940,7 +1976,7 @@
                           <Disorder id="4057">
                             <OrphaCode>452</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=452</ExpertLink>
-                            <Name lang="pt">Lisencefalia com anomalias genitais ligada ao X</Name>
+                            <Name lang="pt">Lisencefalia ligada ao X com anomalias genitais</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1952,7 +1988,7 @@
                           <Disorder id="12655">
                             <OrphaCode>95700</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=95700</ExpertLink>
-                            <Name lang="pt">Hipoplasia suprarrenal familiar</Name>
+                            <Name lang="pt">Hipoplasia supra-renal familiar com ausência de hormona luteinizante hipofisária</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1964,7 +2000,7 @@
                           <Disorder id="17772">
                             <OrphaCode>168563</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=168563</ExpertLink>
-                            <Name lang="pt">Disgenesia gonádica 46,XY - neuropatia motora e sensitiva</Name>
+                            <Name lang="pt">Síndrome de disgenesia gonadal 46,XY-neuropatia sensitiva e motora</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -1988,7 +2024,7 @@
                           <Disorder id="23678">
                             <OrphaCode>456328</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=456328</ExpertLink>
-                            <Name lang="pt">Síndrome de miopatia microfibrilar – anomalias genitais, ligada ao cromossoma X</Name>
+                            <Name lang="pt">Síndrome de miopatia microtubular-anomalias genitais ligada ao X</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2000,7 +2036,7 @@
                           <Disorder id="25674">
                             <OrphaCode>494433</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=494433</ExpertLink>
-                            <Name lang="pt">Síndrome de MIRAGE</Name>
+                            <Name lang="pt">Síndrome MIRAGE</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2048,7 +2084,7 @@
                           <Disorder id="1300">
                             <OrphaCode>983</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=983</ExpertLink>
-                            <Name lang="pt">Agenesia gonadal XY</Name>
+                            <Name lang="pt">Síndrome de regressão testicular</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -2072,7 +2108,7 @@
                           <Disorder id="21833">
                             <OrphaCode>325124</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325124</ExpertLink>
-                            <Name lang="pt">Agenésia testicular</Name>
+                            <Name lang="pt">Agenesia testicular</Name>
                             <DisorderType id="21415">
                               <Name lang="pt">Anomalia morfológica</Name>
                             </DisorderType>
@@ -2084,7 +2120,7 @@
                           <Disorder id="21838">
                             <OrphaCode>325345</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325345</ExpertLink>
-                            <Name lang="pt">Anomalia do desenvolvimento sexual ovotesticular , 46, XY</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XY ovotesticular</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2098,7 +2134,7 @@
                       <Disorder id="21839">
                         <OrphaCode>325351</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325351</ExpertLink>
-                        <Name lang="pt">Alteração 46, XY do desenvolvimento sexual de origem endócrina</Name>
+                        <Name lang="pt">Doença do desenvolvimento sexual 46,XY de origem endócrina</Name>
                         <DisorderType id="36561">
                           <Name lang="pt">Category</Name>
                         </DisorderType>
@@ -2144,7 +2180,7 @@
                           <Disorder id="1553">
                             <OrphaCode>2856</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2856</ExpertLink>
-                            <Name lang="pt">Síndrome de canal de Muller persistente</Name>
+                            <Name lang="pt">Síndrome de canal de Müller persistente</Name>
                             <DisorderType id="21401">
                               <Name lang="pt">Síndrome malformativo</Name>
                             </DisorderType>
@@ -2156,7 +2192,7 @@
                           <Disorder id="21840">
                             <OrphaCode>325357</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325357</ExpertLink>
-                            <Name lang="pt">Alteração 46, XY do desenvolvimento sexual devido à produção prejudicada de andrógenio</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XY devida à produção prejudicada de andrógenio</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -2200,7 +2236,7 @@
                                   <Disorder id="21841">
                                     <OrphaCode>325448</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325448</ExpertLink>
-                                    <Name lang="pt">Hipoplasia das células de Leydig devido a défice de LHB</Name>
+                                    <Name lang="pt">Hipoplasia das células de Leydig por deficiência de LHB</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -2224,7 +2260,7 @@
                                   <Disorder id="12090">
                                     <OrphaCode>90786</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90786</ExpertLink>
-                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY por deficiência enzimática afetando a síntese de corticosteroides e testosterona</Name>
+                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY por defeito da esteroidogénese supra-renal e testicular</Name>
                                     <DisorderType id="36561">
                                       <Name lang="pt">Category</Name>
                                     </DisorderType>
@@ -2234,7 +2270,7 @@
                                       <Disorder id="12094">
                                         <OrphaCode>90790</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90790</ExpertLink>
-                                        <Name lang="pt">Hiperplasia suprarrenal lipóide congénita (deficiência STAR)</Name>
+                                        <Name lang="pt">Hiperplasia supra-renal lipóide congénita por deficiência de STAR</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2244,7 +2280,7 @@
                                           <Disorder id="21843">
                                             <OrphaCode>325524</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325524</ExpertLink>
-                                            <Name lang="pt">Hiperplasia clássica congénita lipoide da glândula supra - renal devido a défice de STAR</Name>
+                                            <Name lang="pt">Hiperplasia supra-renal lipoide congénita clássica por deficiência de STAR</Name>
                                             <DisorderType id="21450">
                                               <Name lang="pt">Subtipo clínico</Name>
                                             </DisorderType>
@@ -2256,7 +2292,7 @@
                                           <Disorder id="21844">
                                             <OrphaCode>325529</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325529</ExpertLink>
-                                            <Name lang="pt">Hiperplasia congénita lipóide não-clássica da supra-renal, devido a défice de STAR</Name>
+                                            <Name lang="pt">Hiperplasia supra-renal lipoide congénita não-clássica por deficiência de STAR</Name>
                                             <DisorderType id="21450">
                                               <Name lang="pt">Subtipo clínico</Name>
                                             </DisorderType>
@@ -2270,7 +2306,7 @@
                                       <Disorder id="12095">
                                         <OrphaCode>90791</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90791</ExpertLink>
-                                        <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência de 3-beta-hidroxi-esteróide desidrogenase</Name>
+                                        <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de 3-beta-hidroxi-esteróide desidrogenase</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2282,7 +2318,7 @@
                                       <Disorder id="12096">
                                         <OrphaCode>90793</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90793</ExpertLink>
-                                        <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência de 17-alfa-hidroxilase</Name>
+                                        <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de 17-alfa-hidroxilase</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2294,7 +2330,7 @@
                                       <Disorder id="12654">
                                         <OrphaCode>95699</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=95699</ExpertLink>
-                                        <Name lang="pt">Hiperplasia suprarrenal congénita por deficiência na citocromo P450 oxidorreductase (POR)</Name>
+                                        <Name lang="pt">Hiperplasia supra-renal congénita por deficiência de citocromo P450 oxidorreductase</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2306,7 +2342,7 @@
                                       <Disorder id="17771">
                                         <OrphaCode>168558</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=168558</ExpertLink>
-                                        <Name lang="pt">Doença do desenvolvimento sexual 46,XY  - insuficiência suprarrenal</Name>
+                                        <Name lang="pt">Doença do desenvolvimento sexual 46,XY-insuficiência supra-renal por deficiência de CYP11A1</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2342,7 +2378,7 @@
                                       <Disorder id="203">
                                         <OrphaCode>752</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=752</ExpertLink>
-                                        <Name lang="pt">Deficiência de 17-beta-hidroxiesteróide desidrogenase</Name>
+                                        <Name lang="pt">Doença do desenvolvimento sexual 46,XY por deficiência de 17-beta-hidroxiesteróide desidrogenase</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2354,7 +2390,7 @@
                                       <Disorder id="12099">
                                         <OrphaCode>90796</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=90796</ExpertLink>
-                                        <Name lang="pt">Doenças do desenvolvimento sexual 46,XY, por deficiência isolada da 17,20-liase</Name>
+                                        <Name lang="pt">Doença do desenvolvimento sexual 46,XY por deficiência de 17,20-liase isolada</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pt">Doença</Name>
                                         </DisorderType>
@@ -2368,7 +2404,7 @@
                                   <Disorder id="21842">
                                     <OrphaCode>325511</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325511</ExpertLink>
-                                    <Name lang="pt">Alteração 46, XY do desenvolvimento sexual devido a defeito de síntese de colesterol</Name>
+                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY devida a defeito de síntese de colesterol</Name>
                                     <DisorderType id="36561">
                                       <Name lang="pt">Category</Name>
                                     </DisorderType>
@@ -2378,7 +2414,7 @@
                                       <Disorder id="3574">
                                         <OrphaCode>818</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=818</ExpertLink>
-                                        <Name lang="pt">Síndrome de Smith-Lemli-Opitz (SLO)</Name>
+                                        <Name lang="pt">Síndrome Smith-Lemli-Opitz</Name>
                                         <DisorderType id="21401">
                                           <Name lang="pt">Síndrome malformativo</Name>
                                         </DisorderType>
@@ -2404,7 +2440,7 @@
                                   <Disorder id="324">
                                     <OrphaCode>753</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=753</ExpertLink>
-                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY devido a deficiência de 5-alfa-redutase 2</Name>
+                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY por deficiência de 5-alfa-redutase 2</Name>
                                     <DisorderType id="21394">
                                       <Name lang="pt">Doença</Name>
                                     </DisorderType>
@@ -2418,7 +2454,7 @@
                               <Disorder id="23441">
                                 <OrphaCode>443090</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=443090</ExpertLink>
-                                <Name lang="pt">Transtorno 46, XY do desenvolvimento sexual devido ao defeito de biossíntese da via da porta das traseiras da dihidrotestosterona</Name>
+                                <Name lang="pt">Doença 46, XY do desenvolvimento sexual devido ao defeito de biossíntese da via da porta das traseiras da dihidrotestosterona</Name>
                                 <DisorderType id="36561">
                                   <Name lang="pt">Category</Name>
                                 </DisorderType>
@@ -2428,7 +2464,7 @@
                                   <Disorder id="23440">
                                     <OrphaCode>443087</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=443087</ExpertLink>
-                                    <Name lang="pt">Anomalia do desenvolvimento sexual, 46, XY, por défice testicular da enzima 17,20 - desmolase</Name>
+                                    <Name lang="pt">Doença do desenvolvimento sexual 46,XY devida a deficiência da enzima 17,20-desmolase testicular</Name>
                                     <DisorderType id="21394">
                                       <Name lang="pt">Doença</Name>
                                     </DisorderType>
@@ -2444,7 +2480,7 @@
                           <Disorder id="21845">
                             <OrphaCode>325537</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325537</ExpertLink>
-                            <Name lang="pt">Alteração 46, XY do desenvolvimento sexual induzida por exposição materna a disruptores endócrinos</Name>
+                            <Name lang="pt">Doença do desenvolvimento sexual 46,XY induzida por exposição materna a disruptores endócrinos</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
                             </DisorderType>
@@ -2460,7 +2496,7 @@
                   <Disorder id="21846">
                     <OrphaCode>325546</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=325546</ExpertLink>
-                    <Name lang="pt">Transtorno cromossómico sexual do desenvolvimento sexual</Name>
+                    <Name lang="pt">doença cromossómica sexual do desenvolvimento sexual</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -2470,7 +2506,7 @@
                       <Disorder id="44">
                         <OrphaCode>881</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=881</ExpertLink>
-                        <Name lang="pt">Síndrome de Turner</Name>
+                        <Name lang="pt">Síndrome Turner</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2518,7 +2554,7 @@
                       <Disorder id="1056">
                         <OrphaCode>10</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=10</ExpertLink>
-                        <Name lang="pt">Síndrome 48 XXYY</Name>
+                        <Name lang="pt">Síndrome 48,XXYY</Name>
                         <DisorderType id="21401">
                           <Name lang="pt">Síndrome malformativo</Name>
                         </DisorderType>
@@ -2698,7 +2734,7 @@
                       <Disorder id="22311">
                         <OrphaCode>363489</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=363489</ExpertLink>
-                        <Name lang="pt">Tumor testicular do estroma – cordão sexual</Name>
+                        <Name lang="pt">Tumor testicular do estroma dos cordões sexuais</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>
