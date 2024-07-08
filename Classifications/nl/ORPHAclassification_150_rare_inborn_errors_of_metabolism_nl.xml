@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:18:48" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:59:55" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -1301,7 +1301,7 @@
                       <Name lang="nl">Group of phenomes</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="7">
+                  <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="353">
                         <OrphaCode>1947</OrphaCode>
@@ -1315,339 +1315,63 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11288">
-                        <OrphaCode>79262</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79262</ExpertLink>
-                        <Name lang="nl">Adulte neuronale ceroïdlipofuscinose</Name>
+                      <Disorder id="19105">
+                        <OrphaCode>228329</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
+                        <Name lang="nl">CLN1-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
-                            <Name lang="nl">CLN1-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228337</ExpertLink>
-                            <Name lang="nl">CLN10-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19107">
-                            <OrphaCode>228340</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228340</ExpertLink>
-                            <Name lang="nl">CLN4A-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19108">
-                            <OrphaCode>228343</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228343</ExpertLink>
-                            <Name lang="nl">CLN4B-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19114">
-                            <OrphaCode>228363</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228363</ExpertLink>
-                            <Name lang="nl">CLN6-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21505">
-                            <OrphaCode>314629</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314629</ExpertLink>
-                            <Name lang="nl">CLN11-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="22104">
-                            <OrphaCode>352709</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352709</ExpertLink>
-                            <Name lang="nl">CLN13-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11289">
-                        <OrphaCode>79263</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79263</ExpertLink>
-                        <Name lang="nl">Infantiele neuronale ceroïdlipofuscinose</Name>
+                      <Disorder id="19110">
+                        <OrphaCode>228349</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228349</ExpertLink>
+                        <Name lang="nl">CLN2-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
-                            <Name lang="nl">CLN1-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20066">
-                            <OrphaCode>263516</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=263516</ExpertLink>
-                            <Name lang="nl">Progressieve myoclonische epilepsie type 3</Name>
-                            <DisorderType id="21450">
-                              <Name lang="nl">Klinisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11290">
-                        <OrphaCode>79264</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79264</ExpertLink>
-                        <Name lang="nl">Juveniele neuronale ceroïdlipofuscinose</Name>
+                      <Disorder id="19109">
+                        <OrphaCode>228346</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228346</ExpertLink>
+                        <Name lang="nl">CLN3-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
-                            <Name lang="nl">CLN1-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228337</ExpertLink>
-                            <Name lang="nl">CLN10-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19109">
-                            <OrphaCode>228346</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228346</ExpertLink>
-                            <Name lang="nl">CLN3-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19110">
-                            <OrphaCode>228349</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228349</ExpertLink>
-                            <Name lang="nl">CLN2-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19111">
-                            <OrphaCode>228354</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228354</ExpertLink>
-                            <Name lang="nl">CLN8-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19112">
-                            <OrphaCode>228357</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228357</ExpertLink>
-                            <Name lang="nl">CLN9-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="17765">
-                        <OrphaCode>168486</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=168486</ExpertLink>
-                        <Name lang="nl">Congenitale neuronale ceroïdlipofuscinose</Name>
+                      <Disorder id="19108">
+                        <OrphaCode>228343</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228343</ExpertLink>
+                        <Name lang="nl">CLN4-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="1">
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228337</ExpertLink>
-                            <Name lang="nl">CLN10-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="17766">
-                        <OrphaCode>168491</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=168491</ExpertLink>
-                        <Name lang="nl">Laat-infantiele neuronale ceroïdlipofuscinose</Name>
+                      <Disorder id="20066">
+                        <OrphaCode>263516</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=263516</ExpertLink>
+                        <Name lang="nl">Progressieve myoclonische epilepsie type 3</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
-                            <Name lang="nl">CLN1-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228337</ExpertLink>
-                            <Name lang="nl">CLN10-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19110">
-                            <OrphaCode>228349</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228349</ExpertLink>
-                            <Name lang="nl">CLN2-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19111">
-                            <OrphaCode>228354</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228354</ExpertLink>
-                            <Name lang="nl">CLN8-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19113">
-                            <OrphaCode>228360</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228360</ExpertLink>
-                            <Name lang="nl">CLN5-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19114">
-                            <OrphaCode>228363</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228363</ExpertLink>
-                            <Name lang="nl">CLN6-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19115">
-                            <OrphaCode>228366</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228366</ExpertLink>
-                            <Name lang="nl">CLN7-ziekte</Name>
-                            <DisorderType id="21443">
-                              <Name lang="nl">Etiologisch subtype</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -1655,6 +1379,90 @@
                         <OrphaCode>314632</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314632</ExpertLink>
                         <Name lang="nl">ATP13A2-gerelateerde juveniele neuronale ceroïdlipofuscinose</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="21505">
+                        <OrphaCode>314629</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314629</ExpertLink>
+                        <Name lang="nl">CLN11-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19113">
+                        <OrphaCode>228360</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228360</ExpertLink>
+                        <Name lang="nl">CLN5-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19114">
+                        <OrphaCode>228363</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228363</ExpertLink>
+                        <Name lang="nl">CLN6-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19115">
+                        <OrphaCode>228366</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228366</ExpertLink>
+                        <Name lang="nl">CLN7-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19111">
+                        <OrphaCode>228354</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228354</ExpertLink>
+                        <Name lang="nl">CLN8-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22104">
+                        <OrphaCode>352709</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352709</ExpertLink>
+                        <Name lang="nl">CLN13-ziekte</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19106">
+                        <OrphaCode>228337</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228337</ExpertLink>
+                        <Name lang="nl">CLN10-ziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -1738,7 +1546,7 @@
                       <Disorder id="578">
                         <OrphaCode>834</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=834</ExpertLink>
-                        <Name lang="nl">Vrij siaalzuurstapelingsziekte</Name>
+                        <Name lang="nl">Vrij-siaalzuurstapelingsziekte</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -1748,7 +1556,7 @@
                           <Disorder id="21372">
                             <OrphaCode>309324</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=309324</ExpertLink>
-                            <Name lang="nl">Vrij siaalzuurstapelingsziekte, infantiele vorm</Name>
+                            <Name lang="nl">Vrij-siaalzuurstapelingsziekte, infantiele vorm</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -1793,7 +1601,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="7">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="24">
                         <OrphaCode>583</OrphaCode>
@@ -2027,6 +1835,18 @@
                         <OrphaCode>67041</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=67041</ExpertLink>
                         <Name lang="nl">Hyaluronidasedeficiëntie</Name>
+                        <DisorderType id="21394">
+                          <Name lang="nl">Ziekte</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32001">
+                        <OrphaCode>662216</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=662216</ExpertLink>
+                        <Name lang="nl">Mucopolysacharidose type 10</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -2519,12 +2339,12 @@
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
+                              <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
                                   <Disorder id="21356">
                                     <OrphaCode>309178</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=309178</ExpertLink>
-                                    <Name lang="nl">Ziekte van Tay-Sachs, B-variant, infantiele vorm</Name>
+                                    <Name lang="nl">Ziekte van Tay-Sachs, infantiele vorm</Name>
                                     <DisorderType id="21450">
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
@@ -2536,7 +2356,7 @@
                                   <Disorder id="21357">
                                     <OrphaCode>309185</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=309185</ExpertLink>
-                                    <Name lang="nl">Ziekte van Tay-Sachs, B-variant, juveniele vorm</Name>
+                                    <Name lang="nl">Ziekte van Tay-Sachs, juveniele vorm</Name>
                                     <DisorderType id="21450">
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
@@ -2548,19 +2368,7 @@
                                   <Disorder id="21358">
                                     <OrphaCode>309192</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=309192</ExpertLink>
-                                    <Name lang="nl">Ziekte van Tay-Sachs, B-variant, volwassen vorm</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="nl">Klinisch subtype</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="21359">
-                                    <OrphaCode>309239</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=309239</ExpertLink>
-                                    <Name lang="nl">Ziekte van Tay-Sachs, B1-variant</Name>
+                                    <Name lang="nl">Ziekte van Tay-Sachs, volwassen vorm</Name>
                                     <DisorderType id="21450">
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
@@ -2974,7 +2782,7 @@
                       <Disorder id="14">
                         <OrphaCode>365</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=365</ExpertLink>
-                        <Name lang="nl">Glycogeenstapelingsziekte type 2</Name>
+                        <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -2984,7 +2792,7 @@
                           <Disorder id="21321">
                             <OrphaCode>308552</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=308552</ExpertLink>
-                            <Name lang="nl">Glycogeenstapelingsziekte type 2, infantiele vorm</Name>
+                            <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, infantiele aanvang</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -2996,7 +2804,7 @@
                           <Disorder id="23106">
                             <OrphaCode>420429</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=420429</ExpertLink>
-                            <Name lang="nl">Glycogeenstapelingsziekte door zure maltasedeficiëntie, late aanvang</Name>
+                            <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, late aanvang</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -3010,7 +2818,7 @@
                       <Disorder id="10348">
                         <OrphaCode>34587</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=34587</ExpertLink>
-                        <Name lang="nl">Glycogeenstapelingsziekte als gevolg van LAMP-2-deficiëntie</Name>
+                        <Name lang="nl">Ziekte van Danon</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -3850,7 +3658,7 @@
                       <Disorder id="173">
                         <OrphaCode>394</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=394</ExpertLink>
-                        <Name lang="nl">Klassieke homocystinurie</Name>
+                        <Name lang="nl">Homocystinurie door deficiëntie van cystathionine-bèta-synthase</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -5067,7 +4875,19 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
+                        <ClassificationNode>
+                          <Disorder id="31914">
+                            <OrphaCode>653880</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=653880</ExpertLink>
+                            <Name lang="nl">Deficiëntie van mitochondriaal korteketen enoyl-CoA-hydratase 1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="3362">
                             <OrphaCode>19</OrphaCode>
@@ -5574,7 +5394,7 @@
                               <Disorder id="23516">
                                 <OrphaCode>445038</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=445038</ExpertLink>
-                                <Name lang="nl">3-methylglutaconacidurie type 7</Name>
+                                <Name lang="nl">3-methylglutaconacidurie - neonataal cataract - neurologische betrokkenheid - congenitale neutropenie-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -6154,7 +5974,7 @@
                       <Disorder id="14">
                         <OrphaCode>365</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=365</ExpertLink>
-                        <Name lang="nl">Glycogeenstapelingsziekte type 2</Name>
+                        <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -6164,7 +5984,7 @@
                           <Disorder id="21321">
                             <OrphaCode>308552</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=308552</ExpertLink>
-                            <Name lang="nl">Glycogeenstapelingsziekte type 2, infantiele vorm</Name>
+                            <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, infantiele aanvang</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -6176,7 +5996,7 @@
                           <Disorder id="23106">
                             <OrphaCode>420429</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=420429</ExpertLink>
-                            <Name lang="nl">Glycogeenstapelingsziekte door zure maltasedeficiëntie, late aanvang</Name>
+                            <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, late aanvang</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -6502,7 +6322,7 @@
                       <Disorder id="10348">
                         <OrphaCode>34587</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=34587</ExpertLink>
-                        <Name lang="nl">Glycogeenstapelingsziekte als gevolg van LAMP-2-deficiëntie</Name>
+                        <Name lang="nl">Ziekte van Danon</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -6514,7 +6334,7 @@
                       <Disorder id="12860">
                         <OrphaCode>97234</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=97234</ExpertLink>
-                        <Name lang="nl">Glycogeenstapelingsziekte type 10</Name>
+                        <Name lang="nl">Glycogeenstapelingsziekte door deficiëntie van fosfoglyceraatmutase</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -7172,7 +6992,7 @@
                           <Disorder id="277">
                             <OrphaCode>2443</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2443</ExpertLink>
-                            <Name lang="nl">Stoornis van mitochondriale oxidatieve fosforylatie door afwijkingen in nucleair DNA</Name>
+                            <Name lang="nl">Stoornis van mitochondriale oxidatieve fosforylatie door anomalieën van nucleair DNA</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -7259,7 +7079,7 @@
                                   <Name lang="nl">Group of phenomes</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="6">
+                              <ClassificationNodeChildList count="7">
                                 <ClassificationNode>
                                   <Disorder id="1427">
                                     <OrphaCode>1168</OrphaCode>
@@ -7325,6 +7145,18 @@
                                     <OrphaCode>457185</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=457185</ExpertLink>
                                     <Name lang="nl">Neonatale encefalomyopathie - cardiomyopathie - ademnood-syndroom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31943">
+                                    <OrphaCode>658778</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=658778</ExpertLink>
+                                    <Name lang="nl">COQ7-gerelateerde distale hereditaire motorische neuropathie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -7938,7 +7770,7 @@
                               <Disorder id="19780">
                                 <OrphaCode>254822</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=254822</ExpertLink>
-                                <Name lang="nl">Mitochondriale oxidatieve fosforylatiestoornis met onbekend mechanisme</Name>
+                                <Name lang="nl">Stoornis van mitochondriale oxidatieve fosforylatie met onbekend mechanisme</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -8759,7 +8591,7 @@
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="14">
+                              <ClassificationNodeChildList count="13">
                                 <ClassificationNode>
                                   <Disorder id="63">
                                     <OrphaCode>550</OrphaCode>
@@ -8801,18 +8633,6 @@
                                     <OrphaCode>644</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=644</ExpertLink>
                                     <Name lang="nl">NARP-syndroom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="7037">
-                                    <OrphaCode>225</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=225</ExpertLink>
-                                    <Name lang="nl">Maternaal overgeërfde diabetes en doofheid</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -9183,7 +9003,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
+                      <ClassificationNodeChildList count="8">
                         <ClassificationNode>
                           <Disorder id="25849">
                             <OrphaCode>496790</OrphaCode>
@@ -9201,6 +9021,18 @@
                             <OrphaCode>502423</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=502423</ExpertLink>
                             <Name lang="nl">Mitochondriale myopathie - cerebellaire ataxie - pigmentretinopathie-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31924">
+                            <OrphaCode>656279</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656279</ExpertLink>
+                            <Name lang="nl">1p36.33-duplicatiesyndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -10206,7 +10038,7 @@
                               <Disorder id="771">
                                 <OrphaCode>13</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=13</ExpertLink>
-                                <Name lang="nl">Deficiëntie van 6-pyruvoyl-tetrahydropterine-synthase</Name>
+                                <Name lang="nl">Deficiëntie van 6-pyruvoyl-tetrahydropterinesynthase</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -10402,7 +10234,7 @@
                       <Disorder id="3704">
                         <OrphaCode>132</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=132</ExpertLink>
-                        <Name lang="nl">Deficiëntie van butyrylcholinesterase</Name>
+                        <Name lang="nl">Hereditaire deficiëntie van butyrylcholinesterase</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -10690,7 +10522,7 @@
                       <Disorder id="23160">
                         <OrphaCode>423479</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=423479</ExpertLink>
-                        <Name lang="nl">X-gebonden intellectuele achterstand - spasticiteit van ledemaat - retinale dystrofie - diabetes insipidus-syndroom</Name>
+                        <Name lang="nl">X-gebonden intellectuele achterstand - spasticiteit van ledemaat - retinadystrofie - deficiëntie van arginine-vasopressine-syndroom</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -10855,7 +10687,223 @@
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="9">
+              <ClassificationNodeChildList count="10">
+                <ClassificationNode>
+                  <Disorder id="1025">
+                    <OrphaCode>657</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=657</ExpertLink>
+                    <Name lang="nl">Congenitaal geïsoleerd hyperinsulinisme</Name>
+                    <DisorderType id="21436">
+                      <Name lang="nl">Group of phenomes</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="17593">
+                        <OrphaCode>165985</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=165985</ExpertLink>
+                        <Name lang="nl">Diazoxidesensitief diffuus hyperinsulinisme</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="9">
+                        <ClassificationNode>
+                          <Disorder id="10403">
+                            <OrphaCode>35878</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=35878</ExpertLink>
+                            <Name lang="nl">Hyperinsulinisme - hyperammoniëmie-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10987">
+                            <OrphaCode>71212</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=71212</ExpertLink>
+                            <Name lang="nl">Hyperinsulinisme door deficiëntie van korte-keten-3-hydroxylacyl-CoA-dehydrogenase</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11325">
+                            <OrphaCode>79299</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79299</ExpertLink>
+                            <Name lang="nl">Congenitaal hyperinsulinisme gerelateerd aan glucokinase</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="17595">
+                            <OrphaCode>165991</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=165991</ExpertLink>
+                            <Name lang="nl">Inspanningsgeïnduceerd hyperinsulinisme</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20056">
+                            <OrphaCode>263455</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=263455</ExpertLink>
+                            <Name lang="nl">Congenitaal hyperinsulinisme door HNF4A-deficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20383">
+                            <OrphaCode>276556</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276556</ExpertLink>
+                            <Name lang="nl">Hyperinsulinisme door UCP2-deficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20384">
+                            <OrphaCode>276575</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276575</ExpertLink>
+                            <Name lang="nl">Autosomaal dominant hyperinsulinisme door SUR1-deficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20385">
+                            <OrphaCode>276580</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276580</ExpertLink>
+                            <Name lang="nl">Autosomaal dominant hyperinsulinisme door Kir6.2-deficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="21787">
+                            <OrphaCode>324575</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324575</ExpertLink>
+                            <Name lang="nl">Hyperinsulinisme door HNF1A-deficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20386">
+                        <OrphaCode>276585</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276585</ExpertLink>
+                        <Name lang="nl">Diazoxideresistent hyperinsulinisme</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="11324">
+                            <OrphaCode>79298</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79298</ExpertLink>
+                            <Name lang="nl">Diazoxideresistent focaal hyperinsulinisme</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="20387">
+                                <OrphaCode>276598</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276598</ExpertLink>
+                                <Name lang="nl">Diazoxideresistent focaal hyperinsulinisme door SUR1-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="20388">
+                                <OrphaCode>276603</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276603</ExpertLink>
+                                <Name lang="nl">Diazoxideresistent focaal hyperinsulinisme door Kir6.2-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="17594">
+                            <OrphaCode>165988</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=165988</ExpertLink>
+                            <Name lang="nl">Diazoxideresistent diffuus hyperinsulinisme</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="11541">
+                                <OrphaCode>79643</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79643</ExpertLink>
+                                <Name lang="nl">Autosomaal recessief hyperinsulinisme als gevolg van SUR1-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11542">
+                                <OrphaCode>79644</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79644</ExpertLink>
+                                <Name lang="nl">Autosomaal recessief hyperinsulinisme als gevolg van Kir6.2-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="194">
                     <OrphaCode>60</OrphaCode>
@@ -11360,7 +11408,7 @@
                           <Disorder id="23491">
                             <OrphaCode>444490</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=444490</ExpertLink>
-                            <Name lang="nl">Familiaal chylomicronemiesyndroom</Name>
+                            <Name lang="nl">Familiale chylomicronemie-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -12090,7 +12138,7 @@
                               <Disorder id="13925">
                                 <OrphaCode>98908</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98908</ExpertLink>
-                                <Name lang="nl">Neutrale vetstapelingsmyopathie</Name>
+                                <Name lang="nl">Neutrale vetstapelingsziekte met myopathie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -12163,7 +12211,7 @@
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="4">
+              <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="249">
                     <OrphaCode>167</OrphaCode>
@@ -12219,7 +12267,31 @@
                           <Name lang="nl">Klinisch subtype</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="32042">
+                            <OrphaCode>664500</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664500</ExpertLink>
+                            <Name lang="nl">Syndroom van Hermansky-Pudlak door AP3B1-deficiëntie</Name>
+                            <DisorderType id="21450">
+                              <Name lang="nl">Klinisch subtype</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32043">
+                            <OrphaCode>664511</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664511</ExpertLink>
+                            <Name lang="nl">Vroeg optredend ernstig syndroom van Hermansky-Pudlak met gehoorverlies door AP3D1-deficiëntie</Name>
+                            <DisorderType id="21450">
+                              <Name lang="nl">Klinisch subtype</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -12260,6 +12332,18 @@
                     </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32130">
+                    <OrphaCode>675782</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=675782</ExpertLink>
+                    <Name lang="nl">Progressieve hypotonie - intellectuele achterstand - faciale dysmorfie-syndroom door FYVE-deficiënt Rabenosyn-5</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -12281,46 +12365,22 @@
                       <Name lang="nl">Group of phenomes</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
-                      <Disorder id="11303">
-                        <OrphaCode>79277</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79277</ExpertLink>
-                        <Name lang="nl">Congenitale erytropoëtische porfyrie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11304">
-                        <OrphaCode>79278</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79278</ExpertLink>
-                        <Name lang="nl">Autosomale erytropoëtische protoporfyrie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12578">
-                        <OrphaCode>95157</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95157</ExpertLink>
-                        <Name lang="nl">Acute hepatische porfyrie</Name>
+                      <Disorder id="31964">
+                        <OrphaCode>659681</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=659681</ExpertLink>
+                        <Name lang="nl">Erytropoëtische porfyrie</Name>
                         <DisorderType id="21436">
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
-                          <Disorder id="11299">
-                            <OrphaCode>79273</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79273</ExpertLink>
-                            <Name lang="nl">Erfelijke coproporfyrie</Name>
+                          <Disorder id="11303">
+                            <OrphaCode>79277</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79277</ExpertLink>
+                            <Name lang="nl">Congenitale erytropoëtische porfyrie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -12329,10 +12389,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="11302">
-                            <OrphaCode>79276</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79276</ExpertLink>
-                            <Name lang="nl">Acute intermitterende porfyrie</Name>
+                          <Disorder id="11304">
+                            <OrphaCode>79278</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79278</ExpertLink>
+                            <Name lang="nl">Autosomale erytropoëtische protoporfyrie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -12341,10 +12401,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="11499">
-                            <OrphaCode>79473</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79473</ExpertLink>
-                            <Name lang="nl">Porphyria variegata</Name>
+                          <Disorder id="23451">
+                            <OrphaCode>443197</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443197</ExpertLink>
+                            <Name lang="nl">X-gebonden erytropoëtische protoporfyrie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -12353,10 +12413,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14678">
-                            <OrphaCode>100924</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=100924</ExpertLink>
-                            <Name lang="nl">Porfyrie door deficiëntie van ALA-dehydratase</Name>
+                          <Disorder id="20463">
+                            <OrphaCode>280379</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280379</ExpertLink>
+                            <Name lang="nl">Erytropoëtische uroporfyrie geassocieerd met myeloïde maligniteiten</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -12364,18 +12424,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12581">
-                        <OrphaCode>95161</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95161</ExpertLink>
-                        <Name lang="nl">Chronische hepatische porfyrie</Name>
-                        <DisorderType id="21436">
-                          <Name lang="nl">Group of phenomes</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="12580">
                             <OrphaCode>95159</OrphaCode>
@@ -12389,34 +12437,82 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14841">
-                            <OrphaCode>101330</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=101330</ExpertLink>
-                            <Name lang="nl">Porphyria cutanea tarda</Name>
+                          <Disorder id="31963">
+                            <OrphaCode>659672</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=659672</ExpertLink>
+                            <Name lang="nl">Harderoporfyrie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31965">
+                        <OrphaCode>659694</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=659694</ExpertLink>
+                        <Name lang="nl">Hepatische porfyrie</Name>
+                        <DisorderType id="21436">
+                          <Name lang="nl">Group of phenomes</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="12578">
+                            <OrphaCode>95157</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95157</ExpertLink>
+                            <Name lang="nl">Acute hepatische porfyrie</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
-                              <Disorder id="23434">
-                                <OrphaCode>443057</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443057</ExpertLink>
-                                <Name lang="nl">Sporadische porphyria cutanea tarda</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
+                              <Disorder id="11299">
+                                <OrphaCode>79273</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79273</ExpertLink>
+                                <Name lang="nl">Erfelijke coproporfyrie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="23435">
-                                <OrphaCode>443062</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443062</ExpertLink>
-                                <Name lang="nl">Familiale porphyria cutanea tarda</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="nl">Klinisch subtype</Name>
+                              <Disorder id="11302">
+                                <OrphaCode>79276</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79276</ExpertLink>
+                                <Name lang="nl">Acute intermitterende porfyrie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11499">
+                                <OrphaCode>79473</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79473</ExpertLink>
+                                <Name lang="nl">Porphyria variegata</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="14678">
+                                <OrphaCode>100924</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=100924</ExpertLink>
+                                <Name lang="nl">Porfyrie door deficiëntie van ALA-dehydratase</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -12424,30 +12520,54 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="20463">
-                        <OrphaCode>280379</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280379</ExpertLink>
-                        <Name lang="nl">Erytropoëtische uroporfyrie geassocieerd met myeloïde maligniteiten</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23451">
-                        <OrphaCode>443197</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443197</ExpertLink>
-                        <Name lang="nl">X-gebonden erytropoëtische protoporfyrie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
+                        <ClassificationNode>
+                          <Disorder id="31966">
+                            <OrphaCode>659698</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=659698</ExpertLink>
+                            <Name lang="nl">Hepatische cutane porfyrie</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="1">
+                            <ClassificationNode>
+                              <Disorder id="14841">
+                                <OrphaCode>101330</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=101330</ExpertLink>
+                                <Name lang="nl">Porphyria cutanea tarda</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="23434">
+                                    <OrphaCode>443057</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443057</ExpertLink>
+                                    <Name lang="nl">Sporadische porphyria cutanea tarda</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="nl">Klinisch subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23435">
+                                    <OrphaCode>443062</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=443062</ExpertLink>
+                                    <Name lang="nl">Familiale porphyria cutanea tarda</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="nl">Klinisch subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -12999,12 +13119,36 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="8">
                         <ClassificationNode>
                           <Disorder id="29867">
                             <OrphaCode>597874</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=597874</ExpertLink>
                             <Name lang="nl">MTHFS-gerelateerd syndroom van ontwikkelingsachterstand - microcefalie - kleine gestalte - epilepsie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31946">
+                            <OrphaCode>658813</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=658813</ExpertLink>
+                            <Name lang="nl">Gecombineerde immuundeficiëntie - megaloblastische anemie door deficiëntie van methyleentetrahydrofolaat-dehydrogenase 1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31990">
+                            <OrphaCode>661412</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=661412</ExpertLink>
+                            <Name lang="nl">Megaloblastische anemie - immuundeficiëntie door deficiëntie van folaattransporter 1</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -13455,7 +13599,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="9">
+                      <ClassificationNodeChildList count="11">
                         <ClassificationNode>
                           <Disorder id="504">
                             <OrphaCode>446</OrphaCode>
@@ -13617,6 +13761,30 @@
                             <OrphaCode>247790</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247790</ExpertLink>
                             <Name lang="nl">FTH1-gerelateerde ijzerstapeling</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23415">
+                            <OrphaCode>440731</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=440731</ExpertLink>
+                            <Name lang="nl">L-ferritinedeficiëntie</Name>
+                            <DisorderType id="21408">
+                              <Name lang="nl">Biologische anomalie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="1580">
+                            <OrphaCode>163</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=163</ExpertLink>
+                            <Name lang="nl">Hereditaire hyperferritinemie - cataract-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>

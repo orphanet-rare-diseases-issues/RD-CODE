@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2023-06-21 18:09:55" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:43:23" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -747,7 +747,7 @@
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -765,6 +765,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99880</ExpertLink>
                             <Name lang="cs">Syndrom zahrnující hyperparathyroidismus a nádor čelisti</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=652</ExpertLink>
+                            <Name lang="cs">Syndrom mnohočetné endokrinní neoplázie, typ 1</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -1155,7 +1167,7 @@
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -1173,6 +1185,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99880</ExpertLink>
                             <Name lang="cs">Syndrom zahrnující hyperparathyroidismus a nádor čelisti</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=652</ExpertLink>
+                            <Name lang="cs">Syndrom mnohočetné endokrinní neoplázie, typ 1</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -1215,7 +1239,7 @@
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="3719">
                             <OrphaCode>1652</OrphaCode>
@@ -1243,6 +1267,54 @@
                                 <OrphaCode>93623</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93623</ExpertLink>
                                 <Name lang="cs">Nefrolitiáza, typ 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="cs">Klinický podtyp</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11">
+                            <OrphaCode>213</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=213</ExpertLink>
+                            <Name lang="cs">Cystinóza</Name>
+                            <DisorderType id="21394">
+                              <Name lang="cs">Onemocnění</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="23024">
+                                <OrphaCode>411634</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411634</ExpertLink>
+                                <Name lang="cs">Juvenilní nefropatická cystinóza</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="cs">Klinický podtyp</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23025">
+                                <OrphaCode>411641</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411641</ExpertLink>
+                                <Name lang="cs">Okulární cystinóza</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="cs">Klinický podtyp</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23023">
+                                <OrphaCode>411629</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411629</ExpertLink>
+                                <Name lang="cs">Infantilní nefropatická cystinóza</Name>
                                 <DisorderType id="21450">
                                   <Name lang="cs">Klinický podtyp</Name>
                                 </DisorderType>
@@ -1517,12 +1589,12 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="36">
+                  <ClassificationNodeChildList count="37">
                     <ClassificationNode>
                       <Disorder id="387">
                         <OrphaCode>819</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=819</ExpertLink>
-                        <Name lang="cs">Smithův-Magenisův syndrom</Name>
+                        <Name lang="cs">Smithové-Magenisové syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -2143,6 +2215,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31892">
+                        <OrphaCode>652487</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=652487</ExpertLink>
+                        <Name lang="cs">Syndrom zahrnující vývojové opoždění, nadváhu, faciální dysmorfii a poruchy chování</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="31440">
                         <OrphaCode>620363</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=620363</ExpertLink>
@@ -2170,7 +2254,7 @@
                       <Disorder id="31815">
                         <OrphaCode>647799</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647799</ExpertLink>
-                        <Name lang="en">MYT1L-related developmental delay-intellectual disability-obesity syndrome</Name>
+                        <Name lang="cs">Syndrom zahrnující vývojové opoždění, mentální retardaci a obezitu asociovaný s MYT1L</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -3788,7 +3872,7 @@
                           <Disorder id="31867">
                             <OrphaCode>649929</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=649929</ExpertLink>
-                            <Name lang="en">Central precocious puberty in male</Name>
+                            <Name lang="cs">Centrální předčasná puberta u chlapce</Name>
                             <DisorderType id="21436">
                               <Name lang="cs">Klinická skupina</Name>
                             </DisorderType>
@@ -4088,7 +4172,7 @@
                           <Disorder id="31739">
                             <OrphaCode>642945</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642945</ExpertLink>
-                            <Name lang="en">Perrault syndrome type 1</Name>
+                            <Name lang="cs">Perraultův syndrom, typ 1</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -4100,7 +4184,7 @@
                           <Disorder id="31742">
                             <OrphaCode>642976</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642976</ExpertLink>
-                            <Name lang="en">Perrault syndrome type 2</Name>
+                            <Name lang="cs">Perraultův syndrom, typ 2</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -4270,7 +4354,7 @@
                       <Disorder id="31734">
                         <OrphaCode>642691</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642691</ExpertLink>
-                        <Name lang="en">Fragile X-associated primary ovarian insufficiency</Name>
+                        <Name lang="cs">Primární ovariální insuficience spojená se syndromem fragilního X</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -4686,7 +4770,7 @@
                               <Disorder id="31739">
                                 <OrphaCode>642945</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642945</ExpertLink>
-                                <Name lang="en">Perrault syndrome type 1</Name>
+                                <Name lang="cs">Perraultův syndrom, typ 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="cs">Klinický podtyp</Name>
                                 </DisorderType>
@@ -4698,7 +4782,7 @@
                               <Disorder id="31742">
                                 <OrphaCode>642976</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642976</ExpertLink>
-                                <Name lang="en">Perrault syndrome type 2</Name>
+                                <Name lang="cs">Perraultův syndrom, typ 2</Name>
                                 <DisorderType id="21450">
                                   <Name lang="cs">Klinický podtyp</Name>
                                 </DisorderType>
@@ -6401,7 +6485,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="849">
                         <OrphaCode>3198</OrphaCode>
@@ -6515,18 +6599,6 @@
                         <OrphaCode>2596</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2596</ExpertLink>
                         <Name lang="cs">Myopatie a diabetes mellitus</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="7037">
-                        <OrphaCode>225</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=225</ExpertLink>
-                        <Name lang="cs">Maternálně dědičný diabetes a hluchota</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -7032,7 +7104,7 @@
                   <Disorder id="31726">
                     <OrphaCode>641613</OrphaCode>
                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=641613</ExpertLink>
-                    <Name lang="en">Endogenous Cushing syndrome</Name>
+                    <Name lang="cs">Endogenní Cushingův syndrom</Name>
                     <DisorderType id="36561">
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
@@ -7042,7 +7114,7 @@
                       <Disorder id="31809">
                         <OrphaCode>647758</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647758</ExpertLink>
-                        <Name lang="en">Adrenal Cushing syndrome</Name>
+                        <Name lang="cs">Adrenální Cushingův syndrom</Name>
                         <DisorderType id="21436">
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
@@ -7134,7 +7206,7 @@
                               <Disorder id="31810">
                                 <OrphaCode>647768</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647768</ExpertLink>
-                                <Name lang="en">Rare adrenocortical nodular disease with Cushing syndrome as a major feature</Name>
+                                <Name lang="cs">Vzácné adrenokortikální nodulární onemocnění s Cushingovým syndromem jako hlavním příznakem</Name>
                                 <DisorderType id="21436">
                                   <Name lang="cs">Klinická skupina</Name>
                                 </DisorderType>
@@ -7144,7 +7216,7 @@
                                   <Disorder id="31811">
                                     <OrphaCode>647772</OrphaCode>
                                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647772</ExpertLink>
-                                    <Name lang="en">Isolated primary pigmented nodular adrenocortical disease</Name>
+                                    <Name lang="cs">Izolované primární pigmentované nodulární onemocnění kůry nadledvin</Name>
                                     <DisorderType id="21394">
                                       <Name lang="cs">Onemocnění</Name>
                                     </DisorderType>
@@ -7156,7 +7228,7 @@
                                   <Disorder id="31812">
                                     <OrphaCode>647782</OrphaCode>
                                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647782</ExpertLink>
-                                    <Name lang="en">Isolated micronodular adrenocortical disease</Name>
+                                    <Name lang="cs">Izolované mikronodulární adrenokortikální onemocnění</Name>
                                     <DisorderType id="21394">
                                       <Name lang="cs">Onemocnění</Name>
                                     </DisorderType>
@@ -7172,7 +7244,7 @@
                           <Disorder id="31738">
                             <OrphaCode>642788</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642788</ExpertLink>
-                            <Name lang="en">Cushing syndrome due to cortisol-producing adrenocortical adenoma</Name>
+                            <Name lang="cs">Cushingův syndrom způsobený adenomem kůry nadledvin produkujícím kortizol</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -7282,7 +7354,7 @@
                       <Disorder id="31860">
                         <OrphaCode>649017</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=649017</ExpertLink>
-                        <Name lang="en">Rare adrenocortical nodular disease</Name>
+                        <Name lang="cs">Vzácné adrenokortikální nodulární onemocnění</Name>
                         <DisorderType id="21436">
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
@@ -7292,7 +7364,7 @@
                           <Disorder id="31811">
                             <OrphaCode>647772</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647772</ExpertLink>
-                            <Name lang="en">Isolated primary pigmented nodular adrenocortical disease</Name>
+                            <Name lang="cs">Izolované primární pigmentované nodulární onemocnění kůry nadledvin</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -7304,7 +7376,7 @@
                           <Disorder id="31812">
                             <OrphaCode>647782</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647782</ExpertLink>
-                            <Name lang="en">Isolated micronodular adrenocortical disease</Name>
+                            <Name lang="cs">Izolované mikronodulární adrenokortikální onemocnění</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -8238,7 +8310,7 @@
                               <Disorder id="31732">
                                 <OrphaCode>642671</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642671</ExpertLink>
-                                <Name lang="en">Familial hyperaldosteronism type IV</Name>
+                                <Name lang="cs">Familiární hyperaldosteronismus, typ IV</Name>
                                 <DisorderType id="21394">
                                   <Name lang="cs">Onemocnění</Name>
                                 </DisorderType>
@@ -10854,7 +10926,7 @@
                               <Disorder id="31796">
                                 <OrphaCode>645854</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=645854</ExpertLink>
-                                <Name lang="en">Multifocal tuberculosis</Name>
+                                <Name lang="cs">Multifokální tuberkulóza</Name>
                                 <DisorderType id="21394">
                                   <Name lang="cs">Onemocnění</Name>
                                 </DisorderType>
@@ -10964,7 +11036,7 @@
                           <Disorder id="31713">
                             <OrphaCode>641350</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=641350</ExpertLink>
-                            <Name lang="en">Immunotherapy induced hypophysitis</Name>
+                            <Name lang="cs">Hypofyzitida vyvolaná imunoterapií</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>

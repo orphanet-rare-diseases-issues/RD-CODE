@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:18:26" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:46:57" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -1301,7 +1301,7 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="7">
+                  <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="353">
                         <OrphaCode>1947</OrphaCode>
@@ -1315,346 +1315,154 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11288">
-                        <OrphaCode>79262</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79262</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale de l'adulte</Name>
+                      <Disorder id="19105">
+                        <OrphaCode>228329</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228329</ExpertLink>
+                        <Name lang="fr">Maladie CLN1</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228329</ExpertLink>
-                            <Name lang="fr">Maladie CLN1</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228337</ExpertLink>
-                            <Name lang="fr">Maladie CLN10</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19107">
-                            <OrphaCode>228340</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228340</ExpertLink>
-                            <Name lang="fr">Maladie CLN4A</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19108">
-                            <OrphaCode>228343</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228343</ExpertLink>
-                            <Name lang="fr">Maladie CLN4B</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19114">
-                            <OrphaCode>228363</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228363</ExpertLink>
-                            <Name lang="fr">Maladie CLN6</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21505">
-                            <OrphaCode>314629</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314629</ExpertLink>
-                            <Name lang="fr">Maladie CLN11</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="22104">
-                            <OrphaCode>352709</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=352709</ExpertLink>
-                            <Name lang="fr">Maladie CLN13</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11289">
-                        <OrphaCode>79263</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79263</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale infantile</Name>
+                      <Disorder id="19110">
+                        <OrphaCode>228349</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228349</ExpertLink>
+                        <Name lang="fr">Maladie CLN2</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228329</ExpertLink>
-                            <Name lang="fr">Maladie CLN1</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20066">
-                            <OrphaCode>263516</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=263516</ExpertLink>
-                            <Name lang="fr">Epilepsie myoclonique progressive type 3</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11290">
-                        <OrphaCode>79264</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79264</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale juvénile</Name>
+                      <Disorder id="19109">
+                        <OrphaCode>228346</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228346</ExpertLink>
+                        <Name lang="fr">Maladie CLN3</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228329</ExpertLink>
-                            <Name lang="fr">Maladie CLN1</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228337</ExpertLink>
-                            <Name lang="fr">Maladie CLN10</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19109">
-                            <OrphaCode>228346</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228346</ExpertLink>
-                            <Name lang="fr">Maladie CLN3</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19110">
-                            <OrphaCode>228349</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228349</ExpertLink>
-                            <Name lang="fr">Maladie CLN2</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19111">
-                            <OrphaCode>228354</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228354</ExpertLink>
-                            <Name lang="fr">Maladie CLN8</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19112">
-                            <OrphaCode>228357</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228357</ExpertLink>
-                            <Name lang="fr">Maladie CLN9</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="17765">
-                        <OrphaCode>168486</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168486</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale congénitale</Name>
+                      <Disorder id="19108">
+                        <OrphaCode>228343</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228343</ExpertLink>
+                        <Name lang="fr">Maladie CLN4</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="1">
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228337</ExpertLink>
-                            <Name lang="fr">Maladie CLN10</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="17766">
-                        <OrphaCode>168491</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168491</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale infantile tardive</Name>
+                      <Disorder id="20066">
+                        <OrphaCode>263516</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=263516</ExpertLink>
+                        <Name lang="fr">Epilepsie myoclonique progressive type 3</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
-                        <ClassificationNode>
-                          <Disorder id="19105">
-                            <OrphaCode>228329</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228329</ExpertLink>
-                            <Name lang="fr">Maladie CLN1</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19106">
-                            <OrphaCode>228337</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228337</ExpertLink>
-                            <Name lang="fr">Maladie CLN10</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19110">
-                            <OrphaCode>228349</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228349</ExpertLink>
-                            <Name lang="fr">Maladie CLN2</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19111">
-                            <OrphaCode>228354</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228354</ExpertLink>
-                            <Name lang="fr">Maladie CLN8</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19113">
-                            <OrphaCode>228360</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228360</ExpertLink>
-                            <Name lang="fr">Maladie CLN5</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19114">
-                            <OrphaCode>228363</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228363</ExpertLink>
-                            <Name lang="fr">Maladie CLN6</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19115">
-                            <OrphaCode>228366</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228366</ExpertLink>
-                            <Name lang="fr">Maladie CLN7</Name>
-                            <DisorderType id="21443">
-                              <Name lang="fr">Sous-type étiologique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="21506">
                         <OrphaCode>314632</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314632</ExpertLink>
-                        <Name lang="fr">Céroïde-lipofuscinose neuronale juvénile associée à ATP13A2</Name>
+                        <Name lang="fr">Maladie CLN12</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="21505">
+                        <OrphaCode>314629</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314629</ExpertLink>
+                        <Name lang="fr">Maladie CLN11</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19113">
+                        <OrphaCode>228360</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228360</ExpertLink>
+                        <Name lang="fr">Maladie CLN5</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19114">
+                        <OrphaCode>228363</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228363</ExpertLink>
+                        <Name lang="fr">Maladie CLN6</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19115">
+                        <OrphaCode>228366</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228366</ExpertLink>
+                        <Name lang="fr">Maladie CLN7</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19111">
+                        <OrphaCode>228354</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228354</ExpertLink>
+                        <Name lang="fr">Maladie CLN8</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22104">
+                        <OrphaCode>352709</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=352709</ExpertLink>
+                        <Name lang="fr">Maladie CLN13</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19106">
+                        <OrphaCode>228337</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=228337</ExpertLink>
+                        <Name lang="fr">Maladie CLN10</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1793,7 +1601,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="7">
+                  <ClassificationNodeChildList count="8">
                     <ClassificationNode>
                       <Disorder id="24">
                         <OrphaCode>583</OrphaCode>
@@ -2027,6 +1835,18 @@
                         <OrphaCode>67041</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=67041</ExpertLink>
                         <Name lang="fr">Déficit en hyaluronidase</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32001">
+                        <OrphaCode>662216</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662216</ExpertLink>
+                        <Name lang="fr">Mucopolysaccharidose type 10</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -2519,12 +2339,12 @@
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
+                              <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
                                   <Disorder id="21356">
                                     <OrphaCode>309178</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309178</ExpertLink>
-                                    <Name lang="fr">Maladie de Tay-Sachs, variant B, forme infantile</Name>
+                                    <Name lang="fr">Maladie de Tay-Sachs, forme infantile</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -2536,7 +2356,7 @@
                                   <Disorder id="21357">
                                     <OrphaCode>309185</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309185</ExpertLink>
-                                    <Name lang="fr">Maladie de Tay-Sachs, variant B, forme juvénile</Name>
+                                    <Name lang="fr">Maladie de Tay-Sachs, forme juvénile</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -2548,19 +2368,7 @@
                                   <Disorder id="21358">
                                     <OrphaCode>309192</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309192</ExpertLink>
-                                    <Name lang="fr">Maladie de Tay-Sachs, variant B, forme adulte</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="fr">Sous-type clinique</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="21359">
-                                    <OrphaCode>309239</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=309239</ExpertLink>
-                                    <Name lang="fr">Maladie de Tay-Sachs, variant B1</Name>
+                                    <Name lang="fr">Maladie de Tay-Sachs, forme adulte</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -3010,7 +2818,7 @@
                       <Disorder id="10348">
                         <OrphaCode>34587</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=34587</ExpertLink>
-                        <Name lang="fr">Glycogénose par déficit en LAMP-2</Name>
+                        <Name lang="fr">Maladie de Danon</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -3850,7 +3658,7 @@
                       <Disorder id="173">
                         <OrphaCode>394</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=394</ExpertLink>
-                        <Name lang="fr">Homocystinurie classique</Name>
+                        <Name lang="fr">Homocystinurie par déficit en cystathionine bêta-synthase</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -5067,7 +4875,19 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
+                        <ClassificationNode>
+                          <Disorder id="31914">
+                            <OrphaCode>653880</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=653880</ExpertLink>
+                            <Name lang="fr">Déficit mitochondrial en énoyl-CoA hydratase 1 à chaîne courte</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="3362">
                             <OrphaCode>19</OrphaCode>
@@ -5574,7 +5394,7 @@
                               <Disorder id="23516">
                                 <OrphaCode>445038</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=445038</ExpertLink>
-                                <Name lang="fr">Acidurie 3-méthylglutaconique type 7</Name>
+                                <Name lang="fr">Syndrome de cataracte néonatale-atteinte neurologique-neutropénie congénitale-acidurie 3-méthylglutaconique</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -6502,7 +6322,7 @@
                       <Disorder id="10348">
                         <OrphaCode>34587</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=34587</ExpertLink>
-                        <Name lang="fr">Glycogénose par déficit en LAMP-2</Name>
+                        <Name lang="fr">Maladie de Danon</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -7259,7 +7079,7 @@
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="6">
+                              <ClassificationNodeChildList count="7">
                                 <ClassificationNode>
                                   <Disorder id="1427">
                                     <OrphaCode>1168</OrphaCode>
@@ -7325,6 +7145,18 @@
                                     <OrphaCode>457185</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=457185</ExpertLink>
                                     <Name lang="fr">Syndrome d'encéphalomyopathie néonatale-cardiomyopathie-détresse respiratoire</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="fr">Maladie</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31943">
+                                    <OrphaCode>658778</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=658778</ExpertLink>
+                                    <Name lang="fr">Neuropathie motrice distale héréditaire associée à COQ7</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -8759,7 +8591,7 @@
                                   <Name lang="fr">Catégorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="14">
+                              <ClassificationNodeChildList count="13">
                                 <ClassificationNode>
                                   <Disorder id="63">
                                     <OrphaCode>550</OrphaCode>
@@ -8801,18 +8633,6 @@
                                     <OrphaCode>644</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=644</ExpertLink>
                                     <Name lang="fr">Syndrome NARP</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="fr">Maladie</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="7037">
-                                    <OrphaCode>225</OrphaCode>
-                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=225</ExpertLink>
-                                    <Name lang="fr">Diabète-surdité de transmission maternelle</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -9183,7 +9003,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
+                      <ClassificationNodeChildList count="8">
                         <ClassificationNode>
                           <Disorder id="25849">
                             <OrphaCode>496790</OrphaCode>
@@ -9201,6 +9021,18 @@
                             <OrphaCode>502423</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=502423</ExpertLink>
                             <Name lang="fr">Syndrome de myopathie mitochondriale-ataxie cérébelleuse-rétinopathie pigmentaire</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31924">
+                            <OrphaCode>656279</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=656279</ExpertLink>
+                            <Name lang="fr">Syndrome de duplication 1p36.33</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -10402,7 +10234,7 @@
                       <Disorder id="3704">
                         <OrphaCode>132</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=132</ExpertLink>
-                        <Name lang="fr">Déficit en butyrylcholinestérase</Name>
+                        <Name lang="fr">Déficit héréditaire en butyrylcholinestérase</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -10690,7 +10522,7 @@
                       <Disorder id="23160">
                         <OrphaCode>423479</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=423479</ExpertLink>
-                        <Name lang="fr">Syndrome de déficience intellectuelle liée à l'X-spasticité des membres-dystrophie de la rétine-diabète insipide</Name>
+                        <Name lang="fr">Syndrome de déficience intellectuelle liée à l'X-spasticité des membres-dystrophie de la rétine-déficit en arginine vasopressine</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -10855,7 +10687,223 @@
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="9">
+              <ClassificationNodeChildList count="10">
+                <ClassificationNode>
+                  <Disorder id="1025">
+                    <OrphaCode>657</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=657</ExpertLink>
+                    <Name lang="fr">Hyperinsulinisme congénital isolé</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="17593">
+                        <OrphaCode>165985</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=165985</ExpertLink>
+                        <Name lang="fr">Hyperinsulinisme diffus sensible au diazoxide</Name>
+                        <DisorderType id="21436">
+                          <Name lang="fr">Groupe clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="9">
+                        <ClassificationNode>
+                          <Disorder id="10403">
+                            <OrphaCode>35878</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=35878</ExpertLink>
+                            <Name lang="fr">Syndrome d'hyperinsulinisme et hyperammoniémie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="10987">
+                            <OrphaCode>71212</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=71212</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme par déficit en 3-hydroxylacyl-CoA déshydrogénase des acides gras à chaîne courte</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11325">
+                            <OrphaCode>79299</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79299</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme congénital lié à la glucokinase</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="17595">
+                            <OrphaCode>165991</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=165991</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme induit par l'effort</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20056">
+                            <OrphaCode>263455</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=263455</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme congénital par déficit en HNF4A</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20383">
+                            <OrphaCode>276556</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276556</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme par déficit en UCP2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20384">
+                            <OrphaCode>276575</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276575</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme autosomique dominant par déficit en SUR1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20385">
+                            <OrphaCode>276580</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276580</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme autosomique dominant par déficit en Kir6.2</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="21787">
+                            <OrphaCode>324575</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=324575</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme par déficit en HNF1A</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20386">
+                        <OrphaCode>276585</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276585</ExpertLink>
+                        <Name lang="fr">Hyperinsulinisme resistant au diazoxide</Name>
+                        <DisorderType id="21436">
+                          <Name lang="fr">Groupe clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="11324">
+                            <OrphaCode>79298</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79298</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme focal résistant au diazoxide</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="20387">
+                                <OrphaCode>276598</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276598</ExpertLink>
+                                <Name lang="fr">Hyperinsulinisme focal résistant au diazoxide par déficit en SUR1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="20388">
+                                <OrphaCode>276603</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276603</ExpertLink>
+                                <Name lang="fr">Hyperinsulinisme focal résistant au diazoxide par déficit en Kir6.2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="17594">
+                            <OrphaCode>165988</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=165988</ExpertLink>
+                            <Name lang="fr">Hyperinsulinisme diffus résistant au diazoxide</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="11541">
+                                <OrphaCode>79643</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79643</ExpertLink>
+                                <Name lang="fr">Hyperinsulinisme autosomique récessif par déficit en SUR1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11542">
+                                <OrphaCode>79644</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79644</ExpertLink>
+                                <Name lang="fr">Hyperinsulinisme autosomique récessif par déficit en Kir6.2</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="194">
                     <OrphaCode>60</OrphaCode>
@@ -12163,7 +12211,7 @@
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="4">
+              <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="249">
                     <OrphaCode>167</OrphaCode>
@@ -12219,7 +12267,31 @@
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="0">
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="32042">
+                            <OrphaCode>664500</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=664500</ExpertLink>
+                            <Name lang="fr">Syndrome de Hermansky-Pudlak par déficit en AP3B1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32043">
+                            <OrphaCode>664511</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=664511</ExpertLink>
+                            <Name lang="fr">Syndrome de Hermansky-Pudlak sévère à début précoce avec surdité par déficit en AP3D1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -12260,6 +12332,18 @@
                     </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32130">
+                    <OrphaCode>675782</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675782</ExpertLink>
+                    <Name lang="fr">Syndrome d'hypotonie progressive-déficience intellectuelle-dysmorphie faciale par déficit FYVE de RBSN</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -12281,46 +12365,22 @@
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
-                      <Disorder id="11303">
-                        <OrphaCode>79277</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79277</ExpertLink>
-                        <Name lang="fr">Porphyrie érythropoïétique congénitale</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11304">
-                        <OrphaCode>79278</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79278</ExpertLink>
-                        <Name lang="fr">Protoporphyrie érythropoïétique autosomique</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12578">
-                        <OrphaCode>95157</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95157</ExpertLink>
-                        <Name lang="fr">Porphyrie hépatique aiguë</Name>
+                      <Disorder id="31964">
+                        <OrphaCode>659681</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=659681</ExpertLink>
+                        <Name lang="fr">Porphyrie érythropoïétique</Name>
                         <DisorderType id="21436">
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
-                          <Disorder id="11299">
-                            <OrphaCode>79273</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79273</ExpertLink>
-                            <Name lang="fr">Coproporphyrie héréditaire</Name>
+                          <Disorder id="11303">
+                            <OrphaCode>79277</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79277</ExpertLink>
+                            <Name lang="fr">Porphyrie érythropoïétique congénitale</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -12329,10 +12389,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="11302">
-                            <OrphaCode>79276</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79276</ExpertLink>
-                            <Name lang="fr">Porphyrie aiguë intermittente</Name>
+                          <Disorder id="11304">
+                            <OrphaCode>79278</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79278</ExpertLink>
+                            <Name lang="fr">Protoporphyrie érythropoïétique autosomique</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -12341,10 +12401,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="11499">
-                            <OrphaCode>79473</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79473</ExpertLink>
-                            <Name lang="fr">Porphyrie variegata</Name>
+                          <Disorder id="23451">
+                            <OrphaCode>443197</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443197</ExpertLink>
+                            <Name lang="fr">Protoporphyrie érythropoïétique liée à l'X</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -12353,10 +12413,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14678">
-                            <OrphaCode>100924</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100924</ExpertLink>
-                            <Name lang="fr">Porphyrie par déficit en ALA déshydratase</Name>
+                          <Disorder id="20463">
+                            <OrphaCode>280379</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=280379</ExpertLink>
+                            <Name lang="fr">Uroporphyrie érythropoïétique associée à une tumeur maligne myéloïde</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -12364,18 +12424,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="12581">
-                        <OrphaCode>95161</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95161</ExpertLink>
-                        <Name lang="fr">Porphyrie hépatique chronique</Name>
-                        <DisorderType id="21436">
-                          <Name lang="fr">Groupe clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="12580">
                             <OrphaCode>95159</OrphaCode>
@@ -12389,34 +12437,82 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="14841">
-                            <OrphaCode>101330</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101330</ExpertLink>
-                            <Name lang="fr">Porphyrie cutanée tardive</Name>
+                          <Disorder id="31963">
+                            <OrphaCode>659672</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=659672</ExpertLink>
+                            <Name lang="fr">Harderoporphyrie</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31965">
+                        <OrphaCode>659694</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=659694</ExpertLink>
+                        <Name lang="fr">Porphyrie hépatique</Name>
+                        <DisorderType id="21436">
+                          <Name lang="fr">Groupe clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="2">
+                        <ClassificationNode>
+                          <Disorder id="12578">
+                            <OrphaCode>95157</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95157</ExpertLink>
+                            <Name lang="fr">Porphyrie hépatique aiguë</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
-                              <Disorder id="23434">
-                                <OrphaCode>443057</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443057</ExpertLink>
-                                <Name lang="fr">Porphyrie cutanée tardive sporadique</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="fr">Sous-type clinique</Name>
+                              <Disorder id="11299">
+                                <OrphaCode>79273</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79273</ExpertLink>
+                                <Name lang="fr">Coproporphyrie héréditaire</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="23435">
-                                <OrphaCode>443062</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443062</ExpertLink>
-                                <Name lang="fr">Porphyrie cutanée tardive familiale</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="fr">Sous-type clinique</Name>
+                              <Disorder id="11302">
+                                <OrphaCode>79276</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79276</ExpertLink>
+                                <Name lang="fr">Porphyrie aiguë intermittente</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11499">
+                                <OrphaCode>79473</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79473</ExpertLink>
+                                <Name lang="fr">Porphyrie variegate</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="14678">
+                                <OrphaCode>100924</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100924</ExpertLink>
+                                <Name lang="fr">Porphyrie par déficit en ALA déshydratase</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -12424,30 +12520,54 @@
                             </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="20463">
-                        <OrphaCode>280379</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=280379</ExpertLink>
-                        <Name lang="fr">Uroporphyrie érythropoïétique associée à une tumeur maligne myéloïde</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23451">
-                        <OrphaCode>443197</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443197</ExpertLink>
-                        <Name lang="fr">Protoporphyrie érythropoïétique liée à l'X</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
+                        <ClassificationNode>
+                          <Disorder id="31966">
+                            <OrphaCode>659698</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=659698</ExpertLink>
+                            <Name lang="fr">Porphyrie cutanée hépatique</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="1">
+                            <ClassificationNode>
+                              <Disorder id="14841">
+                                <OrphaCode>101330</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101330</ExpertLink>
+                                <Name lang="fr">Porphyrie cutanée tardive</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="23434">
+                                    <OrphaCode>443057</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443057</ExpertLink>
+                                    <Name lang="fr">Porphyrie cutanée tardive sporadique</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23435">
+                                    <OrphaCode>443062</OrphaCode>
+                                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443062</ExpertLink>
+                                    <Name lang="fr">Porphyrie cutanée tardive familiale</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="fr">Sous-type clinique</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -12999,12 +13119,36 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="8">
                         <ClassificationNode>
                           <Disorder id="29867">
                             <OrphaCode>597874</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=597874</ExpertLink>
                             <Name lang="fr">Syndrome de retard de développement-microcéphalie-petite taille-épilepsie associé à MTHFS</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31946">
+                            <OrphaCode>658813</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=658813</ExpertLink>
+                            <Name lang="fr">Déficit immunitaire combiné-anémie mégaloblastique par déficit en méthylènetétrahydrofolate déshydrogénase 1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31990">
+                            <OrphaCode>661412</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=661412</ExpertLink>
+                            <Name lang="fr">Anémie mégaloblastique-immunodéficience par déficit en transporteur de folate 1</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -13455,7 +13599,7 @@
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="9">
+                      <ClassificationNodeChildList count="11">
                         <ClassificationNode>
                           <Disorder id="504">
                             <OrphaCode>446</OrphaCode>
@@ -13617,6 +13761,30 @@
                             <OrphaCode>247790</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247790</ExpertLink>
                             <Name lang="fr">Surcharge en fer liée à FTH1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="23415">
+                            <OrphaCode>440731</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440731</ExpertLink>
+                            <Name lang="fr">Déficit en L-ferritine</Name>
+                            <DisorderType id="21408">
+                              <Name lang="fr">Anomalie biologique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="1580">
+                            <OrphaCode>163</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=163</ExpertLink>
+                            <Name lang="fr">Syndrome d'hyperferritinémie-cataracte héréditaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>

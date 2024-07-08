@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:57:24" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:17:22" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -562,7 +562,7 @@
                       <Disorder id="11710">
                         <OrphaCode>85410</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85410</ExpertLink>
-                        <Name lang="it">Artrite oligoarticolare giovanile</Name>
+                        <Name lang="it">Artrite idiopatica giovanile oligoarticolare</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -586,7 +586,7 @@
                       <Disorder id="11713">
                         <OrphaCode>85436</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85436</ExpertLink>
-                        <Name lang="it">Artrite psoriasica giovanile</Name>
+                        <Name lang="it">Artrite idiopatica giovanile correlata alla psoriasi</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -598,7 +598,7 @@
                       <Disorder id="11715">
                         <OrphaCode>85438</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85438</ExpertLink>
-                        <Name lang="it">Artrite associata a entesite</Name>
+                        <Name lang="it">Entesite correlata all'artrite idiopatica giovanile</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -644,7 +644,7 @@
                           <Disorder id="11712">
                             <OrphaCode>85435</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=85435</ExpertLink>
-                            <Name lang="it">Poliartrite positiva al fattore reumatoide</Name>
+                            <Name lang="it">Artrite idiopatica giovanile poliarticolare con fattore reumatoide positivo</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -723,12 +723,24 @@
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="31418">
                             <OrphaCode>619948</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=619948</ExpertLink>
                             <Name lang="it">Sindrome autoimmune e autoinfiammatoria con immunodeficienza ad esordio precoce</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31951">
+                            <OrphaCode>658946</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=658946</ExpertLink>
+                            <Name lang="it">Malattia autoimmune ad esordio precoce da deficit parziale di DOCK11</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -793,7 +805,7 @@
                               <Name lang="it">Categoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="9">
+                          <ClassificationNodeChildList count="11">
                             <ClassificationNode>
                               <Disorder id="28477">
                                 <OrphaCode>566067</OrphaCode>
@@ -851,7 +863,7 @@
                                   <Name lang="it">Gruppo di fenomi</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="5">
+                              <ClassificationNodeChildList count="4">
                                 <ClassificationNode>
                                   <Disorder id="2375">
                                     <OrphaCode>575</OrphaCode>
@@ -893,18 +905,6 @@
                                     <OrphaCode>647815</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=647815</ExpertLink>
                                     <Name lang="it">Cheratoendotelite fugace ereditaria</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="it">Malattia</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="31372">
-                                    <OrphaCode>617919</OrphaCode>
-                                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=617919</ExpertLink>
-                                    <Name lang="it">Sindrome autoinfiammatoria indotta dal freddo correlata a F12</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -979,6 +979,30 @@
                                 <OrphaCode>576349</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=576349</ExpertLink>
                                 <Name lang="it">Sindrome autoinfiammatoria familiare da freddo correlata a NLRC4</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31896">
+                                <OrphaCode>652522</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652522</ExpertLink>
+                                <Name lang="it">Sindrome febbre periodica-immunodeficienza-trombocitopenia</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="it">Malattia</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31372">
+                                <OrphaCode>617919</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=617919</ExpertLink>
+                                <Name lang="it">Sindrome autoinfiammatoria indotta dal freddo correlata a F12</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -1155,7 +1179,7 @@
                           <Name lang="it">Categoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="703">
                             <OrphaCode>117</OrphaCode>
@@ -1181,10 +1205,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="25087">
-                            <OrphaCode>476102</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=476102</ExpertLink>
-                            <Name lang="it">Malattia pediatrica ereditaria simil-Behçet</Name>
+                          <Disorder id="32094">
+                            <OrphaCode>674762</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=674762</ExpertLink>
+                            <Name lang="it">Sindrome autoinfiammatoria ad esordio precoce da aploinsufficienza di A20</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1199,18 +1223,6 @@
                             <Name lang="it">Cherubismo</Name>
                             <DisorderType id="21401">
                               <Name lang="it">Sindrome malformativa</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23209">
-                            <OrphaCode>425120</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=425120</ExpertLink>
-                            <Name lang="it">Vasculopatia associata a STING ad esordio infantile</Name>
-                            <DisorderType id="21394">
-                              <Name lang="it">Malattia</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">

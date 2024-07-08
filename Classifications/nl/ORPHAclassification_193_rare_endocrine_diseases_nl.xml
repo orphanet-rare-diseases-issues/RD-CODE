@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:45:24" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:02:52" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -747,7 +747,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -765,6 +765,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99880</ExpertLink>
                             <Name lang="nl">Hyperparathyreoïdie - kaaktumor-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=652</ExpertLink>
+                            <Name lang="nl">Multipele endocriene neoplasie type 1</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1155,7 +1167,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -1173,6 +1185,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99880</ExpertLink>
                             <Name lang="nl">Hyperparathyreoïdie - kaaktumor-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=652</ExpertLink>
+                            <Name lang="nl">Multipele endocriene neoplasie type 1</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1215,7 +1239,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="3719">
                             <OrphaCode>1652</OrphaCode>
@@ -1243,6 +1267,54 @@
                                 <OrphaCode>93623</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93623</ExpertLink>
                                 <Name lang="nl">Ziekte van Dent type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11">
+                            <OrphaCode>213</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=213</ExpertLink>
+                            <Name lang="nl">Cystinose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="23024">
+                                <OrphaCode>411634</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=411634</ExpertLink>
+                                <Name lang="nl">Juveniele nefropathische cystinose</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23025">
+                                <OrphaCode>411641</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=411641</ExpertLink>
+                                <Name lang="nl">Oculaire cystinose</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23023">
+                                <OrphaCode>411629</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=411629</ExpertLink>
+                                <Name lang="nl">Infantiele nefropathische cystinose</Name>
                                 <DisorderType id="21450">
                                   <Name lang="nl">Klinisch subtype</Name>
                                 </DisorderType>
@@ -1517,7 +1589,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="36">
+                  <ClassificationNodeChildList count="37">
                     <ClassificationNode>
                       <Disorder id="387">
                         <OrphaCode>819</OrphaCode>
@@ -1664,7 +1736,7 @@
                           <Disorder id="22129">
                             <OrphaCode>353284</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=353284</ExpertLink>
-                            <Name lang="nl">Syndroom van Rubinstein-Taybi door haplo-insufficiëntie van EP300</Name>
+                            <Name lang="nl">Syndroom van Rubinstein-Taybi door haploinsufficiëntie van EP300</Name>
                             <DisorderType id="21443">
                               <Name lang="nl">Etiologisch subtype</Name>
                             </DisorderType>
@@ -2135,6 +2207,18 @@
                         <OrphaCode>464288</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=464288</ExpertLink>
                         <Name lang="nl">Kleine gestalte - brachydactylie - obesitas - algemene ontwikkelingsachterstand-syndroom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="nl">Malformatiesyndroom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31892">
+                        <OrphaCode>652487</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=652487</ExpertLink>
+                        <Name lang="nl">Ontwikkelingsachterstand - overgewicht - faciale dysmorfie - gedragsstoornis-syndroom</Name>
                         <DisorderType id="21401">
                           <Name lang="nl">Malformatiesyndroom</Name>
                         </DisorderType>
@@ -3768,7 +3852,7 @@
                   <Disorder id="12663">
                     <OrphaCode>95708</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95708</ExpertLink>
-                    <Name lang="nl">Zeldzame vroegtijdige puberteit</Name>
+                    <Name lang="nl">Zeldzame pubertas praecox</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -3936,7 +4020,7 @@
                   <Disorder id="12664">
                     <OrphaCode>95709</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95709</ExpertLink>
-                    <Name lang="nl">Verworven vroegtijdig ovariumfalen</Name>
+                    <Name lang="nl">Zeldzaam verworven prematuur ovariumfalen</Name>
                     <DisorderType id="36561">
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
@@ -4868,7 +4952,7 @@
                           <Disorder id="606">
                             <OrphaCode>1422</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1422</ExpertLink>
-                            <Name lang="nl">Chondrodysplasie - geslachtsontwikkelingsstoornis-syndroom</Name>
+                            <Name lang="nl">Chondrodysplasie - variatie in geslachtelijke ontwikkeling-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -4880,7 +4964,7 @@
                           <Disorder id="900">
                             <OrphaCode>847</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=847</ExpertLink>
-                            <Name lang="nl">Alfa-thalassemie - X-gebonden intellectuele achterstand-syndroom</Name>
+                            <Name lang="nl">X-gebonden alfa-thalassemie - intellectuele achterstand-syndroom</Name>
                             <DisorderType id="21401">
                               <Name lang="nl">Malformatiesyndroom</Name>
                             </DisorderType>
@@ -5948,7 +6032,7 @@
                           <Disorder id="11987">
                             <OrphaCode>90157</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90157</ExpertLink>
-                            <Name lang="nl">Geneesmiddel-geïnduceerde gelokaliseerde lipodystrofie</Name>
+                            <Name lang="nl">Medicatiegeïnduceerde gelokaliseerde lipodystrofie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -6401,7 +6485,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="849">
                         <OrphaCode>3198</OrphaCode>
@@ -6515,18 +6599,6 @@
                         <OrphaCode>2596</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2596</ExpertLink>
                         <Name lang="nl">Myopathie en diabetes mellitus</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="7037">
-                        <OrphaCode>225</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=225</ExpertLink>
-                        <Name lang="nl">Maternaal overgeërfde diabetes en doofheid</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -6658,7 +6730,7 @@
                       <Disorder id="23491">
                         <OrphaCode>444490</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=444490</ExpertLink>
-                        <Name lang="nl">Familiaal chylomicronemiesyndroom</Name>
+                        <Name lang="nl">Familiale chylomicronemie-syndroom</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -9432,7 +9504,7 @@
                   <Disorder id="22628">
                     <OrphaCode>391487</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391487</ExpertLink>
-                    <Name lang="nl">Auto-immune enteropathie en endocrinopathie - vatbaarheid voor chronische infecties-syndroom</Name>
+                    <Name lang="nl">STAT1-gerelateerde auto-immune enteropathie en endocrinopathie - susceptibiliteit voor chronische infecties-syndroom</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -10978,7 +11050,7 @@
                       <Disorder id="17999">
                         <OrphaCode>178029</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=178029</ExpertLink>
-                        <Name lang="nl">Centrale diabetes insipidus</Name>
+                        <Name lang="nl">Deficiëntie van arginine-vasopressine</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -10988,7 +11060,7 @@
                           <Disorder id="9283">
                             <OrphaCode>30925</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=30925</ExpertLink>
-                            <Name lang="nl">Erfelijke centrale diabetes insipidus</Name>
+                            <Name lang="nl">Hereditaire deficiëntie van arginine-vasopressine</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
@@ -11000,7 +11072,7 @@
                           <Disorder id="12650">
                             <OrphaCode>95626</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95626</ExpertLink>
-                            <Name lang="nl">Verworven centrale diabetes insipidus</Name>
+                            <Name lang="nl">Verworven deficiëntie van arginine-vasopressine</Name>
                             <DisorderType id="21450">
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>

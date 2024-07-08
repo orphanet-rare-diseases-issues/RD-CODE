@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:42:54" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:56:15" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -31,7 +31,43 @@
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="11">
+              <ClassificationNodeChildList count="14">
+                <ClassificationNode>
+                  <Disorder id="31939">
+                    <OrphaCode>658590</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=658590</ExpertLink>
+                    <Name lang="de">Talgdrüsenkarzinom des Augenlids</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31972">
+                    <OrphaCode>659744</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=659744</ExpertLink>
+                    <Name lang="de">Neoplasie der plattenepithelialen okulären Oberfäche</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32103">
+                    <OrphaCode>674965</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674965</ExpertLink>
+                    <Name lang="de">Aderhautosteom</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="122">
                     <OrphaCode>790</OrphaCode>
@@ -266,7 +302,7 @@
               <Disorder id="13635">
                 <OrphaCode>98618</OrphaCode>
                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98618</ExpertLink>
-                <Name lang="de">Refraktionsstörun, seltene</Name>
+                <Name lang="de">Refraktionsstörung, seltene</Name>
                 <DisorderType id="36561">
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
@@ -380,7 +416,7 @@
                           <Disorder id="22689">
                             <OrphaCode>397618</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=397618</ExpertLink>
-                            <Name lang="de">Foveahypoplasie-Sehnervenkreuzung-Dysgenesie des vorderen Augensegmentes-Syndrom</Name>
+                            <Name lang="de">Syndrom der Foveahypoplasie mit Anomalie des Chiasma opticum und Dysgenesie des vorderen Augensegmentes</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -707,7 +743,7 @@
                                   <Name lang="de">Phenom-Gruppe</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="6">
+                              <ClassificationNodeChildList count="5">
                                 <ClassificationNode>
                                   <Disorder id="10986">
                                     <OrphaCode>71211</OrphaCode>
@@ -793,18 +829,6 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="25950">
-                                    <OrphaCode>499085</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=499085</ExpertLink>
-                                    <Name lang="de">Optikusneuritis, chronisch rezidivierende, inflammatorische</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
                                   <Disorder id="25953">
                                     <OrphaCode>499103</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=499103</ExpertLink>
@@ -825,12 +849,12 @@
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="2">
+                                  <ClassificationNodeChildList count="3">
                                     <ClassificationNode>
-                                      <Disorder id="29580">
-                                        <OrphaCode>592885</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=592885</ExpertLink>
-                                        <Name lang="de">Optikusneuritis, isolierte, ohne anti-MOG-Antikörper</Name>
+                                      <Disorder id="25950">
+                                        <OrphaCode>499085</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=499085</ExpertLink>
+                                        <Name lang="de">Optikusneuritis, chronisch rezidivierende, inflammatorische</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -839,10 +863,22 @@
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
-                                      <Disorder id="29581">
-                                        <OrphaCode>592888</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=592888</ExpertLink>
-                                        <Name lang="de">Optikusneuritis mit anti-MOG-Antikörper</Name>
+                                      <Disorder id="31960">
+                                        <OrphaCode>659634</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=659634</ExpertLink>
+                                        <Name lang="de">Optikusneuritis, isolierte, rezidivierende Form</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="de">Klinischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31959">
+                                        <OrphaCode>659626</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=659626</ExpertLink>
+                                        <Name lang="de">Optikusneuritis, isolierte, einfache Form</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -1298,7 +1334,7 @@
                                       <Disorder id="14030">
                                         <OrphaCode>99013</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99013</ExpertLink>
-                                        <Name lang="de">Spastische Paraplegie, autosomal-rezessive, Typ 7</Name>
+                                        <Name lang="de">Spastische Paraplegie Typ 7</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -2500,7 +2536,7 @@
                                   <Disorder id="2869">
                                     <OrphaCode>3214</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3214</ExpertLink>
-                                    <Name lang="de">Taubheit - Blindheit - Hypopigmentierung</Name>
+                                    <Name lang="de">Hörverlust-Blindheit-Hypopigmentierung-Syndrom, jemenitischer Typ</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -2978,7 +3014,7 @@
                                       <Disorder id="10369">
                                         <OrphaCode>35099</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35099</ExpertLink>
-                                        <Name lang="de">Synostose, bikoronare, nicht-syndromale</Name>
+                                        <Name lang="de">Synostose, bikoronale, nicht-syndromale</Name>
                                         <DisorderType id="21415">
                                           <Name lang="de">Morphologische Anomalie</Name>
                                         </DisorderType>
@@ -2990,7 +3026,7 @@
                                       <Disorder id="12205">
                                         <OrphaCode>93262</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93262</ExpertLink>
-                                        <Name lang="de">Crouzon-Syndrom - Acanthosis nigricans</Name>
+                                        <Name lang="de">Crouzon-Syndrom-Acanthosis nigricans-Syndrom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                                         </DisorderType>
@@ -3016,7 +3052,7 @@
                                   <Disorder id="23326">
                                     <OrphaCode>436141</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=436141</ExpertLink>
-                                    <Name lang="de">Schwere Intelligenzminderung-Hypotonie-Strabismus-grobe Gesichtsszüge-Planovalgus-Syndrom</Name>
+                                    <Name lang="de">HIDEA-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -3040,7 +3076,7 @@
                                   <Disorder id="19121">
                                     <OrphaCode>228390</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228390</ExpertLink>
-                                    <Name lang="de">Fronto-nasale Dysplasie mit Alopezie und Genitalanomalien</Name>
+                                    <Name lang="de">Frontonasale Dysplasie-Alopezie-Genitalanomalien-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -3100,7 +3136,7 @@
                                   <Disorder id="1720">
                                     <OrphaCode>1568</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1568</ExpertLink>
-                                    <Name lang="de">X-chromosomale Intelligenzminderung-Dandy-Walker-Malformation-Basalganglienkrankheit-Krämpfe-Syndrom</Name>
+                                    <Name lang="de">X-chromosomale Intelligenzminderung-Dandy-Walker-Fehlbildung-Basalganglienkrankheit-Krämpfe-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -3998,7 +4034,7 @@
                                       <Disorder id="19332">
                                         <OrphaCode>240085</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=240085</ExpertLink>
-                                        <Name lang="de">Progressive supranukleäre Blickparese - Parkinsonismus</Name>
+                                        <Name lang="de">Progressive supranukleäre Blickparese-predominanter Parkinsonismus-Syndrom</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -4208,7 +4244,7 @@
                           <Disorder id="31847">
                             <OrphaCode>648681</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648681</ExpertLink>
-                            <Name lang="de">'Skleritis, immunvermittelte '</Name>
+                            <Name lang="de">Skleritis, immunvermittelte</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -4220,7 +4256,7 @@
                           <Disorder id="31846">
                             <OrphaCode>648675</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648675</ExpertLink>
-                            <Name lang="de">'Skleritis, idiopathische '</Name>
+                            <Name lang="de">Skleritis, idiopathische</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -4232,7 +4268,7 @@
                           <Disorder id="31845">
                             <OrphaCode>648665</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648665</ExpertLink>
-                            <Name lang="de">'Skleritis, infektiöse '</Name>
+                            <Name lang="de">Skleritis, infektiöse</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -4436,7 +4472,7 @@
                           <Disorder id="10891">
                             <OrphaCode>66633</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=66633</ExpertLink>
-                            <Name lang="de">Sensorineurale Schwerhörigkeit - frühes Ergrauen - essentieller Tremor</Name>
+                            <Name lang="de">Sensorineurale Schwerhörigkeit-frühes Ergrauen-essentieller Tremor-Syndrom</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -4842,7 +4878,7 @@
                               <Disorder id="28934">
                                 <OrphaCode>580951</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=580951</ExpertLink>
-                                <Name lang="de">Punktierte innere Choroidopathie</Name>
+                                <Name lang="de">Punktförmige innere Choroidopathie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5067,7 +5103,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="16899">
                             <OrphaCode>139450</OrphaCode>
@@ -5324,7 +5360,31 @@
                           <Disorder id="28934">
                             <OrphaCode>580951</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=580951</ExpertLink>
-                            <Name lang="de">Punktierte innere Choroidopathie</Name>
+                            <Name lang="de">Punktförmige innere Choroidopathie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32102">
+                            <OrphaCode>674958</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674958</ExpertLink>
+                            <Name lang="de">Sternförmige multiforme amelanotische Aderhauterkrankung</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32103">
+                            <OrphaCode>674965</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674965</ExpertLink>
+                            <Name lang="de">Aderhautosteom</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -5343,7 +5403,7 @@
                           <Name lang="de">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="12">
+                      <ClassificationNodeChildList count="16">
                         <ClassificationNode>
                           <Disorder id="25393">
                             <OrphaCode>488239</OrphaCode>
@@ -5377,7 +5437,7 @@
                               <Name lang="de">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="17">
+                          <ClassificationNodeChildList count="19">
                             <ClassificationNode>
                               <Disorder id="1645">
                                 <OrphaCode>190</OrphaCode>
@@ -5427,10 +5487,34 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
+                              <Disorder id="32096">
+                                <OrphaCode>674924</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674924</ExpertLink>
+                                <Name lang="de">Isoliertes razemöses Hämangiom der Netzhaut</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="31848">
                                 <OrphaCode>648684</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=648684</ExpertLink>
                                 <Name lang="de">Zentralarterienverschluss der Netzhaut</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32097">
+                                <OrphaCode>674930</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674930</ExpertLink>
+                                <Name lang="de">Perifovealer exsudativer Gefäßanomaliekomplex</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5609,6 +5693,54 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="32099">
+                            <OrphaCode>674943</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674943</ExpertLink>
+                            <Name lang="de">Angioide Streifen, isolierte</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32100">
+                            <OrphaCode>674947</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674947</ExpertLink>
+                            <Name lang="de">Diffuse unilaterale subakute Neuroretinitis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32101">
+                            <OrphaCode>674953</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674953</ExpertLink>
+                            <Name lang="de">Syndrom der multiplen evaneszenten weißen Punkte</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32104">
+                            <OrphaCode>674968</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674968</ExpertLink>
+                            <Name lang="de">Bilaterale diffuse uveale melanozytäre Proliferationskrankheit</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="20613">
                             <OrphaCode>284454</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=284454</ExpertLink>
@@ -5655,18 +5787,6 @@
                           </Disorder>
                           <ClassificationNodeChildList count="6">
                             <ClassificationNode>
-                              <Disorder id="18033">
-                                <OrphaCode>178493</OrphaCode>
-                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=178493</ExpertLink>
-                                <Name lang="de">Makuladegeneration, myopische</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="de">Krankheit</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="13962">
                                 <OrphaCode>98945</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98945</ExpertLink>
@@ -5695,6 +5815,18 @@
                                 <OrphaCode>353351</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=353351</ExpertLink>
                                 <Name lang="de">Idiopathische makuläre Teleangiektasie Typ 3</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32098">
+                                <OrphaCode>674935</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=674935</ExpertLink>
+                                <Name lang="de">Torpedo-Makulopathie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -5925,7 +6057,7 @@
                                       <Name lang="de">Kategorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="14">
+                                  <ClassificationNodeChildList count="15">
                                     <ClassificationNode>
                                       <Disorder id="3243">
                                         <OrphaCode>65</OrphaCode>
@@ -5954,7 +6086,7 @@
                                       <Disorder id="11624">
                                         <OrphaCode>85128</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85128</ExpertLink>
-                                        <Name lang="de">Netzhautdystrophie Typ Bothnia</Name>
+                                        <Name lang="de">Netzhautdystrophie Typ Bottnien</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -6227,6 +6359,18 @@
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
+                                      <Disorder id="31907">
+                                        <OrphaCode>653709</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=653709</ExpertLink>
+                                        <Name lang="de">Zapfenstäbchendystrophie-Kleinwuchs-Syndrom</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="de">Krankheit</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
                                       <Disorder id="659">
                                         <OrphaCode>791</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=791</ExpertLink>
@@ -6287,7 +6431,7 @@
                                   <Name lang="de">Kategorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="57">
+                              <ClassificationNodeChildList count="51">
                                 <ClassificationNode>
                                   <Disorder id="11544">
                                     <OrphaCode>79665</OrphaCode>
@@ -6309,12 +6453,12 @@
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="4">
+                                  <ClassificationNodeChildList count="3">
                                     <ClassificationNode>
                                       <Disorder id="21356">
                                         <OrphaCode>309178</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=309178</ExpertLink>
-                                        <Name lang="de">Tay-Sachs-Krankheit, B-Variante, infantile Form</Name>
+                                        <Name lang="de">Tay-Sachs-Krankheit, infantile Form</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -6326,19 +6470,7 @@
                                       <Disorder id="21358">
                                         <OrphaCode>309192</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=309192</ExpertLink>
-                                        <Name lang="de">Tay-Sachs-Krankheit, B-Variante, adulte Form</Name>
-                                        <DisorderType id="21450">
-                                          <Name lang="de">Klinischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="21359">
-                                        <OrphaCode>309239</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=309239</ExpertLink>
-                                        <Name lang="de">Tay-Sachs-Krankheit, B1-Variante</Name>
+                                        <Name lang="de">Tay-Sachs-Krankheit, adulte Form</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -6350,7 +6482,7 @@
                                       <Disorder id="21357">
                                         <OrphaCode>309185</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=309185</ExpertLink>
-                                        <Name lang="de">Tay-Sachs-Krankheit, B-Variante, juvenile Form</Name>
+                                        <Name lang="de">Tay-Sachs-Krankheit, juvenile Form</Name>
                                         <DisorderType id="21450">
                                           <Name lang="de">Klinischer Subtyp</Name>
                                         </DisorderType>
@@ -6385,18 +6517,6 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="7037">
-                                    <OrphaCode>225</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=225</ExpertLink>
-                                    <Name lang="de">Maternal vererbter Diabetes mit Schwerhörigkeit</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
                                   <Disorder id="3728">
                                     <OrphaCode>758</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=758</ExpertLink>
@@ -6406,342 +6526,6 @@
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="11288">
-                                    <OrphaCode>79262</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79262</ExpertLink>
-                                    <Name lang="de">Ceroid-Lipofuszinose, neuronale, adulte</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="7">
-                                    <ClassificationNode>
-                                      <Disorder id="19107">
-                                        <OrphaCode>228340</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228340</ExpertLink>
-                                        <Name lang="de">CLN4A-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19114">
-                                        <OrphaCode>228363</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228363</ExpertLink>
-                                        <Name lang="de">CLN6-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19106">
-                                        <OrphaCode>228337</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228337</ExpertLink>
-                                        <Name lang="de">CLN10-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19108">
-                                        <OrphaCode>228343</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228343</ExpertLink>
-                                        <Name lang="de">CLN4B-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="22104">
-                                        <OrphaCode>352709</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=352709</ExpertLink>
-                                        <Name lang="de">CLN13-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19105">
-                                        <OrphaCode>228329</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228329</ExpertLink>
-                                        <Name lang="de">CLN1-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="21505">
-                                        <OrphaCode>314629</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=314629</ExpertLink>
-                                        <Name lang="de">CLN11-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="11289">
-                                    <OrphaCode>79263</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79263</ExpertLink>
-                                    <Name lang="de">Ceroid-Lipofuszinose, neuronale, infantile</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="2">
-                                    <ClassificationNode>
-                                      <Disorder id="19105">
-                                        <OrphaCode>228329</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228329</ExpertLink>
-                                        <Name lang="de">CLN1-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="20066">
-                                        <OrphaCode>263516</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=263516</ExpertLink>
-                                        <Name lang="de">Myoklonische Epilepsie, progressive, Typ 3</Name>
-                                        <DisorderType id="21450">
-                                          <Name lang="de">Klinischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="17765">
-                                    <OrphaCode>168486</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168486</ExpertLink>
-                                    <Name lang="de">Ceroid-Lipofuszinose, neuronale, kongenitale</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="1">
-                                    <ClassificationNode>
-                                      <Disorder id="19106">
-                                        <OrphaCode>228337</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228337</ExpertLink>
-                                        <Name lang="de">CLN10-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="11290">
-                                    <OrphaCode>79264</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79264</ExpertLink>
-                                    <Name lang="de">Ceroid-Lipofuszinose, neuronale, juvenile</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="6">
-                                    <ClassificationNode>
-                                      <Disorder id="19106">
-                                        <OrphaCode>228337</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228337</ExpertLink>
-                                        <Name lang="de">CLN10-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19110">
-                                        <OrphaCode>228349</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228349</ExpertLink>
-                                        <Name lang="de">CLN2-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19111">
-                                        <OrphaCode>228354</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228354</ExpertLink>
-                                        <Name lang="de">CLN8-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19105">
-                                        <OrphaCode>228329</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228329</ExpertLink>
-                                        <Name lang="de">CLN1-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19109">
-                                        <OrphaCode>228346</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228346</ExpertLink>
-                                        <Name lang="de">CLN3-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19112">
-                                        <OrphaCode>228357</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228357</ExpertLink>
-                                        <Name lang="de">CLN9-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="17766">
-                                    <OrphaCode>168491</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=168491</ExpertLink>
-                                    <Name lang="de">Ceroid-Lipofuszinose, neuronale, spät-infantile</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="7">
-                                    <ClassificationNode>
-                                      <Disorder id="19105">
-                                        <OrphaCode>228329</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228329</ExpertLink>
-                                        <Name lang="de">CLN1-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19113">
-                                        <OrphaCode>228360</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228360</ExpertLink>
-                                        <Name lang="de">CLN5-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19111">
-                                        <OrphaCode>228354</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228354</ExpertLink>
-                                        <Name lang="de">CLN8-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19115">
-                                        <OrphaCode>228366</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228366</ExpertLink>
-                                        <Name lang="de">CLN7-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19106">
-                                        <OrphaCode>228337</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228337</ExpertLink>
-                                        <Name lang="de">CLN10-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19110">
-                                        <OrphaCode>228349</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228349</ExpertLink>
-                                        <Name lang="de">CLN2-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="19114">
-                                        <OrphaCode>228363</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228363</ExpertLink>
-                                        <Name lang="de">CLN6-Krankheit</Name>
-                                        <DisorderType id="21443">
-                                          <Name lang="de">Ätiologischer Subtyp</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -6832,7 +6616,7 @@
                                   <Disorder id="1731">
                                     <OrphaCode>1573</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1573</ExpertLink>
-                                    <Name lang="de">Hypotrichose - juvenile Makuladegeneration</Name>
+                                    <Name lang="de">Hypotrichose mit juveniler Makuladegeneration</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -7065,7 +6849,7 @@
                                       <Name lang="de">Kategorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="39">
+                                  <ClassificationNodeChildList count="38">
                                     <ClassificationNode>
                                       <Disorder id="17940">
                                         <OrphaCode>171848</OrphaCode>
@@ -7349,18 +7133,6 @@
                                         <Name lang="de">Spastische Tetraplegie-Retinitis pigmentosa-Intelligenzminderung-Syndrom</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="3103">
-                                        <OrphaCode>2653</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2653</ExpertLink>
-                                        <Name lang="de">Kleinwuchs, osteochondrodysplastischer - Schwerhörigkeit - Retinitis pigmentosa</Name>
-                                        <DisorderType id="21401">
-                                          <Name lang="de">Fehlbildungs-Syndrom</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -7840,7 +7612,7 @@
                                   <Disorder id="23160">
                                     <OrphaCode>423479</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=423479</ExpertLink>
-                                    <Name lang="de">X-chromosomale Intelligenzminderung-Spastizität der Extremitäten-Netzhautdystrophie-Diabetes insipidus-Syndrom</Name>
+                                    <Name lang="de">X-chromosomale Intelligenzminderung-Spastizität der Extremitäten-Netzhautdystrophie-Arginin-Vasopressin-Mangel-Syndrom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -8512,7 +8284,7 @@
                                   <Disorder id="22110">
                                     <OrphaCode>352734</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=352734</ExpertLink>
-                                    <Name lang="de">Albinismus, okulokutaner minimal-pigmentierter, Typ 1</Name>
+                                    <Name lang="de">Albinismus, okulokutaner , Typ 1, minimal-pigmentierter</Name>
                                     <DisorderType id="21450">
                                       <Name lang="de">Klinischer Subtyp</Name>
                                     </DisorderType>
@@ -8524,7 +8296,7 @@
                                   <Disorder id="22111">
                                     <OrphaCode>352737</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=352737</ExpertLink>
-                                    <Name lang="de">Albinismus, okulokutaner, Typ TS</Name>
+                                    <Name lang="de">Albinismus, okulokutaner, Typ 1, temperaturempfindlicher</Name>
                                     <DisorderType id="21450">
                                       <Name lang="de">Klinischer Subtyp</Name>
                                     </DisorderType>
@@ -8733,7 +8505,31 @@
                                       <Name lang="de">Klinischer Subtyp</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="32042">
+                                        <OrphaCode>664500</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=664500</ExpertLink>
+                                        <Name lang="de">Hermansky-Pudlak-Syndrom durch AP3B1-Mangel</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="de">Klinischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="32043">
+                                        <OrphaCode>664511</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=664511</ExpertLink>
+                                        <Name lang="de">Früh einsetzendes schweres Hermansky-Pudlak-Syndrom mit Hörverlust durch AP3D1-Genmutation</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="de">Klinischer Subtyp</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -9304,7 +9100,7 @@
                                   <Disorder id="173">
                                     <OrphaCode>394</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=394</ExpertLink>
-                                    <Name lang="de">Homocystinurie, klassische</Name>
+                                    <Name lang="de">Homocystinurie durch Cystathionin-beta-Synthase-Mangel</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -9537,7 +9333,7 @@
                                       <Name lang="de">Kategorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="7">
+                                  <ClassificationNodeChildList count="8">
                                     <ClassificationNode>
                                       <Disorder id="10901">
                                         <OrphaCode>67041</OrphaCode>
@@ -9778,6 +9574,18 @@
                                         </ClassificationNode>
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="32001">
+                                        <OrphaCode>662216</OrphaCode>
+                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=662216</ExpertLink>
+                                        <Name lang="de">Mukopolysaccharidose Typ 10</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="de">Krankheit</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -9953,7 +9761,19 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="7">
+                    <ClassificationNode>
+                      <Disorder id="31981">
+                        <OrphaCode>659904</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=659904</ExpertLink>
+                        <Name lang="de">Multiple kongenitale Anomalien-neurologische Entwicklungsverzögerung-Augenanomalie-Syndrom</Name>
+                        <DisorderType id="21401">
+                          <Name lang="de">Fehlbildungs-Syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="24157">
                         <OrphaCode>466682</OrphaCode>
@@ -9994,7 +9814,7 @@
                       <Disorder id="27249">
                         <OrphaCode>519384</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=519384</ExpertLink>
-                        <Name lang="de">Kongenitale Augenzyste</Name>
+                        <Name lang="de">Zystenauge, kongenitales</Name>
                         <DisorderType id="21415">
                           <Name lang="de">Morphologische Anomalie</Name>
                         </DisorderType>
@@ -10996,7 +10816,7 @@
                                   <Disorder id="238">
                                     <OrphaCode>126</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=126</ExpertLink>
-                                    <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+                                    <Name lang="de">Blepharophimose-Ptosis-Epicanthus inversus-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -11186,7 +11006,7 @@
                                       <Disorder id="1934">
                                         <OrphaCode>1997</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1997</ExpertLink>
-                                        <Name lang="de">Blepharo-cheilo-dentales Syndrom</Name>
+                                        <Name lang="de">Blepharo-cheilo-dontie-Syndrom</Name>
                                         <DisorderType id="21401">
                                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                                         </DisorderType>
@@ -11644,7 +11464,7 @@
                                   <Disorder id="238">
                                     <OrphaCode>126</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=126</ExpertLink>
-                                    <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+                                    <Name lang="de">Blepharophimose-Ptosis-Epicanthus inversus-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -12184,7 +12004,7 @@
                                   <Disorder id="26077">
                                     <OrphaCode>502430</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=502430</ExpertLink>
-                                    <Name lang="de">Metopicaleiste-Ptosis-Gesichtsdysmorphie-Syndrom</Name>
+                                    <Name lang="de">Weiss-Kruszka-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -12248,7 +12068,7 @@
                           <Disorder id="10305">
                             <OrphaCode>33001</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=33001</ExpertLink>
-                            <Name lang="de">Lymphödem - Distichiasis</Name>
+                            <Name lang="de">Lymphödem-Distichiasis-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -12539,7 +12359,7 @@
                                   <Name lang="de">Kategorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
+                              <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
                                   <Disorder id="477">
                                     <OrphaCode>1775</OrphaCode>
@@ -12569,18 +12389,6 @@
                                     <OrphaCode>228396</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228396</ExpertLink>
                                     <Name lang="de">Ptosis - Bewegungseinschränkung des Auges - Fehlen des Tränenpünktchens</Name>
-                                    <DisorderType id="21401">
-                                      <Name lang="de">Fehlbildungs-Syndrom</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="1715">
-                                    <OrphaCode>1562</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1562</ExpertLink>
-                                    <Name lang="de">Dakryozystitis-Osteopoikilose-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -12841,7 +12649,7 @@
                               <Name lang="de">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="13">
+                          <ClassificationNodeChildList count="14">
                             <ClassificationNode>
                               <Disorder id="1864">
                                 <OrphaCode>1896</OrphaCode>
@@ -12873,19 +12681,7 @@
                                       <Name lang="de">Kategorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="5">
-                                    <ClassificationNode>
-                                      <Disorder id="13992">
-                                        <OrphaCode>98975</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98975</ExpertLink>
-                                        <Name lang="de">Endotheldystrophie, hereditäre kongenitale 1</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
+                                  <ClassificationNodeChildList count="4">
                                     <ClassificationNode>
                                       <Disorder id="20863">
                                         <OrphaCode>293621</OrphaCode>
@@ -13827,6 +13623,18 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
+                              <Disorder id="12597">
+                                <OrphaCode>95455</OrphaCode>
+                                <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95455</ExpertLink>
+                                <Name lang="de">Stevens-Johnson-Syndrom/toxische epidermale Nekrolyse-Spektrum</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="de">Krankheit</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="8772">
                                 <OrphaCode>28378</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=28378</ExpertLink>
@@ -14212,7 +14020,7 @@
                                   <Disorder id="8748">
                                     <OrphaCode>162</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=162</ExpertLink>
-                                    <Name lang="de">Katarakt-Glaukom-Syndrom</Name>
+                                    <Name lang="de">Syndrom der kongenitalen Katarakt mit Dysgenesie des vorderen Augensegmentes</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -14253,7 +14061,7 @@
                                       <Name lang="de">Kategorie</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="23">
+                                  <ClassificationNodeChildList count="22">
                                     <ClassificationNode>
                                       <Disorder id="44">
                                         <OrphaCode>881</OrphaCode>
@@ -14439,18 +14247,6 @@
                                         <OrphaCode>1742</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1742</ExpertLink>
                                         <Name lang="de">Trisomie 5p</Name>
-                                        <DisorderType id="21401">
-                                          <Name lang="de">Fehlbildungs-Syndrom</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="1739">
-                                        <OrphaCode>1617</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1617</ExpertLink>
-                                        <Name lang="de">Mikrodeletionssyndrom 2q24</Name>
                                         <DisorderType id="21401">
                                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                                         </DisorderType>
@@ -14882,7 +14678,7 @@
                                       <Disorder id="23516">
                                         <OrphaCode>445038</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=445038</ExpertLink>
-                                        <Name lang="de">3-Methylglutaconazidurie Typ 7</Name>
+                                        <Name lang="de">3-Methylglutaconazidurie-Katarakt-neurologische Beteiligung-Neutropenie-Syndrom</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -14918,7 +14714,7 @@
                                       <Disorder id="13924">
                                         <OrphaCode>98907</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98907</ExpertLink>
-                                        <Name lang="de">Neutrale Lipidspeicherkrankheit mit Ichthyose</Name>
+                                        <Name lang="de">Neutralfett-Speicherkrankheit mit Ichthyose</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -15146,7 +14942,7 @@
                                       <Disorder id="173">
                                         <OrphaCode>394</OrphaCode>
                                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=394</ExpertLink>
-                                        <Name lang="de">Homocystinurie, klassische</Name>
+                                        <Name lang="de">Homocystinurie durch Cystathionin-beta-Synthase-Mangel</Name>
                                         <DisorderType id="21394">
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
@@ -15199,7 +14995,7 @@
                                           <Name lang="de">Krankheit</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="4">
+                                      <ClassificationNodeChildList count="5">
                                         <ClassificationNode>
                                           <Disorder id="11849">
                                             <OrphaCode>88917</OrphaCode>
@@ -15241,6 +15037,18 @@
                                             <OrphaCode>1018</OrphaCode>
                                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1018</ExpertLink>
                                             <Name lang="de">X-chromosomales Alport-Syndrom mit diffuser Leiomyomatose</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="de">Klinischer Subtyp</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="31909">
+                                            <OrphaCode>653722</OrphaCode>
+                                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=653722</ExpertLink>
+                                            <Name lang="de">Digenisches Alport-Syndrom</Name>
                                             <DisorderType id="21450">
                                               <Name lang="de">Klinischer Subtyp</Name>
                                             </DisorderType>
@@ -15673,6 +15481,18 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
+                                  <Disorder id="1485">
+                                    <OrphaCode>1239</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1239</ExpertLink>
+                                    <Name lang="de">Behr-Syndrom</Name>
+                                    <DisorderType id="21401">
+                                      <Name lang="de">Fehlbildungs-Syndrom</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
                                   <Disorder id="588">
                                     <OrphaCode>821</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=821</ExpertLink>
@@ -15802,42 +15622,6 @@
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="523">
-                                    <OrphaCode>2346</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2346</ExpertLink>
-                                    <Name lang="de">Angio-osteo-hypertrophisches Syndrom</Name>
-                                    <DisorderType id="21436">
-                                      <Name lang="de">Phenom-Gruppe</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="2">
-                                    <ClassificationNode>
-                                      <Disorder id="12004">
-                                        <OrphaCode>90307</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90307</ExpertLink>
-                                        <Name lang="de">Parkes-Weber-Syndrom</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
-                                    <ClassificationNode>
-                                      <Disorder id="12005">
-                                        <OrphaCode>90308</OrphaCode>
-                                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90308</ExpertLink>
-                                        <Name lang="de">Klippel-Trénaunay-Syndrom</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="de">Krankheit</Name>
-                                        </DisorderType>
-                                      </Disorder>
-                                      <ClassificationNodeChildList count="0">
-                                      </ClassificationNodeChildList>
-                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -16300,7 +16084,7 @@
                                   <Disorder id="10305">
                                     <OrphaCode>33001</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=33001</ExpertLink>
-                                    <Name lang="de">Lymphödem - Distichiasis</Name>
+                                    <Name lang="de">Lymphödem-Distichiasis-Syndrom</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -16435,18 +16219,6 @@
                                     <Name lang="de">Mikrosphärophakie - metaphysäre Dysplasie</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="17598">
-                                    <OrphaCode>166011</OrphaCode>
-                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166011</ExpertLink>
-                                    <Name lang="de">Dysplasie, epiphysäre multiple, Typ Beighton</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -16744,7 +16516,7 @@
                                   <Disorder id="11691">
                                     <OrphaCode>85321</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85321</ExpertLink>
-                                    <Name lang="de">Schwerhörigkeit-Intelligenzminderung-Syndrom vom Typ Martin-Probst</Name>
+                                    <Name lang="de">Schwerhörigkeit-Intelligenzminderung-Syndrom Typ Martin-Probst</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
                                     </DisorderType>
@@ -16867,6 +16639,18 @@
                                     <Name lang="de">Okulozerebrales Hypopigmentierungs-Syndrom Typ Preus</Name>
                                     <DisorderType id="21401">
                                       <Name lang="de">Fehlbildungs-Syndrom</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31996">
+                                    <OrphaCode>662184</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=662184</ExpertLink>
+                                    <Name lang="de">Kongenitale Muskeldystrophie-Katarakt-Intelligenzminderung-Syndrom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="de">Krankheit</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -17104,7 +16888,7 @@
                                   <Disorder id="173">
                                     <OrphaCode>394</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=394</ExpertLink>
-                                    <Name lang="de">Homocystinurie, klassische</Name>
+                                    <Name lang="de">Homocystinurie durch Cystathionin-beta-Synthase-Mangel</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -17387,7 +17171,7 @@
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="4">
+                              <ClassificationNodeChildList count="5">
                                 <ClassificationNode>
                                   <Disorder id="11849">
                                     <OrphaCode>88917</OrphaCode>
@@ -17429,6 +17213,18 @@
                                     <OrphaCode>1018</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1018</ExpertLink>
                                     <Name lang="de">X-chromosomales Alport-Syndrom mit diffuser Leiomyomatose</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="de">Klinischer Subtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31909">
+                                    <OrphaCode>653722</OrphaCode>
+                                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=653722</ExpertLink>
+                                    <Name lang="de">Digenisches Alport-Syndrom</Name>
                                     <DisorderType id="21450">
                                       <Name lang="de">Klinischer Subtyp</Name>
                                     </DisorderType>
@@ -17525,6 +17321,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="22924">
+                            <OrphaCode>404463</OrphaCode>
+                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=404463</ExpertLink>
+                            <Name lang="de">Multisystemische Dysfunktion der glatten Muskeln</Name>
+                            <DisorderType id="21394">
+                              <Name lang="de">Krankheit</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="23657">
                             <OrphaCode>454718</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=454718</ExpertLink>
@@ -17565,18 +17373,6 @@
                             <OrphaCode>2151</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2151</ExpertLink>
                             <Name lang="de">Hirschsprung-Krankheit-Ganglioneuroblastom-Syndrom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="de">Fehlbildungs-Syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2508">
-                            <OrphaCode>2752</OrphaCode>
-                            <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2752</ExpertLink>
-                            <Name lang="de">Oro-fazio-digitales Syndrom Typ 3</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>
@@ -17792,7 +17588,7 @@
                           <Disorder id="606">
                             <OrphaCode>1422</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1422</ExpertLink>
-                            <Name lang="de">Chondrodysplasie-Störung der Geschlechtsentwicklung-Syndrom</Name>
+                            <Name lang="de">Chondrodysplasie-Variante der Geschlechtsentwicklung-Syndrom</Name>
                             <DisorderType id="21401">
                               <Name lang="de">Fehlbildungs-Syndrom</Name>
                             </DisorderType>

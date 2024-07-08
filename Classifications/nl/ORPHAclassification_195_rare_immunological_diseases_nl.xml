@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:47:21" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:03:06" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,19 +21,7 @@
               <Name lang="nl">Categorie</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="7">
-            <ClassificationNode>
-              <Disorder id="3611">
-                <OrphaCode>2194</OrphaCode>
-                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2194</ExpertLink>
-                <Name lang="nl">Anti-HLA hyperimmunisatie</Name>
-                <DisorderType id="21394">
-                  <Name lang="nl">Ziekte</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
+          <ClassificationNodeChildList count="6">
             <ClassificationNode>
               <Disorder id="10460">
                 <OrphaCode>39812</OrphaCode>
@@ -111,12 +99,12 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="14923">
                             <OrphaCode>101987</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=101987</ExpertLink>
-                            <Name lang="nl">Constitutionele neutropenie</Name>
+                            <Name lang="nl">Congenitale neutropenie</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
@@ -194,7 +182,7 @@
                                       <Disorder id="21992">
                                         <OrphaCode>331176</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=331176</ExpertLink>
-                                        <Name lang="nl">Autosomaal recessieve ernstige congenitale neutropenie door G6PC3-deficiëntie</Name>
+                                        <Name lang="nl">Ernstige congenitale neutropenie door G6PC3-deficiëntie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -230,7 +218,7 @@
                                       <Disorder id="23154">
                                         <OrphaCode>423384</OrphaCode>
                                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=423384</ExpertLink>
-                                        <Name lang="nl">Autosomaal recessieve ernstige congenitale neutropenie door JAGN1-deficiëntie</Name>
+                                        <Name lang="nl">Ernstige congenitale neutropenie door JAGN1-deficiëntie</Name>
                                         <DisorderType id="21394">
                                           <Name lang="nl">Ziekte</Name>
                                         </DisorderType>
@@ -246,17 +234,53 @@
                               <Disorder id="21993">
                                 <OrphaCode>331184</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=331184</ExpertLink>
-                                <Name lang="nl">Constitutionele neutropenie met extra-hematopoëtische manifestaties</Name>
+                                <Name lang="nl">Syndroom met congenitale neutropenie als hoofdkenmerk</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="12">
+                              <ClassificationNodeChildList count="16">
                                 <ClassificationNode>
-                                  <Disorder id="193">
-                                    <OrphaCode>699</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=699</ExpertLink>
-                                    <Name lang="nl">Syndroom van Pearson</Name>
+                                  <Disorder id="23516">
+                                    <OrphaCode>445038</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=445038</ExpertLink>
+                                    <Name lang="nl">3-methylglutaconacidurie - neonataal cataract - neurologische betrokkenheid - congenitale neutropenie-syndroom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23154">
+                                    <OrphaCode>423384</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=423384</ExpertLink>
+                                    <Name lang="nl">Ernstige congenitale neutropenie door JAGN1-deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32126">
+                                    <OrphaCode>675767</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=675767</ExpertLink>
+                                    <Name lang="nl">Ernstige congenitale neutropenie - ontwikkelingsachterstand - pancreasinsufficiëntie-syndroom door SRP54-deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32119">
+                                    <OrphaCode>675628</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=675628</ExpertLink>
+                                    <Name lang="nl">TLR8-gerelateerd inflammatie - ernstige neutropenie - beenmergfalen - lymfoproliferatie-syndroom</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -313,18 +337,6 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="10676">
-                                    <OrphaCode>51636</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=51636</ExpertLink>
-                                    <Name lang="nl">WHIM-syndroom</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
                                   <Disorder id="11285">
                                     <OrphaCode>79259</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79259</ExpertLink>
@@ -337,22 +349,10 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="11503">
-                                    <OrphaCode>79477</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79477</ExpertLink>
-                                    <Name lang="nl">Syndroom van Griscelli type 2</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="nl">Klinisch subtype</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
                                   <Disorder id="11925">
                                     <OrphaCode>90023</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90023</ExpertLink>
-                                    <Name lang="nl">Primaire immuundeficiëntiesyndroom door LAMTOR2-deficiëntie</Name>
+                                    <Name lang="nl">Primair immuundeficiëntiesyndroom door P14/LAMTOR2-deficiëntie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -369,7 +369,31 @@
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="0">
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="32042">
+                                        <OrphaCode>664500</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664500</ExpertLink>
+                                        <Name lang="nl">Syndroom van Hermansky-Pudlak door AP3B1-deficiëntie</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="32043">
+                                        <OrphaCode>664511</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664511</ExpertLink>
+                                        <Name lang="nl">Vroeg optredend ernstig syndroom van Hermansky-Pudlak met gehoorverlies door AP3D1-deficiëntie</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
@@ -396,6 +420,42 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="21992">
+                                    <OrphaCode>331176</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=331176</ExpertLink>
+                                    <Name lang="nl">Ernstige congenitale neutropenie door G6PC3-deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="5536">
+                                    <OrphaCode>811</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=811</ExpertLink>
+                                    <Name lang="nl">Syndroom van Shwachman-Diamond</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="17826">
+                                    <OrphaCode>169142</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169142</ExpertLink>
+                                    <Name lang="nl">Terugkerende infectie door specifieke granulaire deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                           </ClassificationNodeChildList>
@@ -404,89 +464,89 @@
                           <Disorder id="18310">
                             <OrphaCode>183681</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=183681</ExpertLink>
-                            <Name lang="nl">Functioneel neutrofiel defect</Name>
+                            <Name lang="nl">Congenitaal functioneel defect van fagocyt</Name>
                             <DisorderType id="36561">
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="10">
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
-                              <Disorder id="176">
-                                <OrphaCode>379</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=379</ExpertLink>
-                                <Name lang="nl">Chronische granulomateuze ziekte</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
+                              <Disorder id="32095">
+                                <OrphaCode>674896</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=674896</ExpertLink>
+                                <Name lang="nl">Niet-syndromaal congenitaal functioneel defect van fagocyt</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="nl">Categorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="857">
-                                <OrphaCode>2587</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2587</ExpertLink>
-                                <Name lang="nl">Deficiëntie van myeloperoxidase</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="2551">
-                                <OrphaCode>678</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=678</ExpertLink>
-                                <Name lang="nl">Syndroom van Papillon-Lefèvre</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="3559">
-                                <OrphaCode>2968</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2968</ExpertLink>
-                                <Name lang="nl">Deficiëntie van leukocytenadhesie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="3">
+                              <ClassificationNodeChildList count="6">
                                 <ClassificationNode>
-                                  <Disorder id="14415">
-                                    <OrphaCode>99842</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99842</ExpertLink>
-                                    <Name lang="nl">Deficiëntie van leukocytenadhesie type I</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="nl">Klinisch subtype</Name>
+                                  <Disorder id="19131">
+                                    <OrphaCode>228423</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228423</ExpertLink>
+                                    <Name lang="nl">GATA2-deficiëntie-spectrum</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="14416">
-                                    <OrphaCode>99843</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99843</ExpertLink>
-                                    <Name lang="nl">Deficiëntie van leukocytenadhesie type II</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="nl">Klinisch subtype</Name>
+                                  <Disorder id="20108">
+                                    <OrphaCode>264675</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264675</ExpertLink>
+                                    <Name lang="nl">Erfelijke pulmonale alveolaire proteïnose</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
-                                  <Disorder id="14417">
-                                    <OrphaCode>99844</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99844</ExpertLink>
-                                    <Name lang="nl">Deficiëntie van leukocytenadhesie type III</Name>
-                                    <DisorderType id="21450">
-                                      <Name lang="nl">Klinisch subtype</Name>
+                                  <Disorder id="176">
+                                    <OrphaCode>379</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=379</ExpertLink>
+                                    <Name lang="nl">Chronische granulomateuze ziekte</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="18311">
+                                    <OrphaCode>183707</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=183707</ExpertLink>
+                                    <Name lang="nl">Infantiele LAD-achtige ziekte door RAC2-deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="857">
+                                    <OrphaCode>2587</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2587</ExpertLink>
+                                    <Name lang="nl">Deficiëntie van myeloperoxidase</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31417">
+                                    <OrphaCode>619941</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619941</ExpertLink>
+                                    <Name lang="nl">Immuundeficiëntie door verstoorde fagocytose en migratie van neutrofielen</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -495,101 +555,101 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="5536">
-                                <OrphaCode>811</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=811</ExpertLink>
-                                <Name lang="nl">Syndroom van Shwachman-Diamond</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
+                              <Disorder id="32091">
+                                <OrphaCode>674648</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=674648</ExpertLink>
+                                <Name lang="nl">Syndroom met congenitaal functioneel defect van fagocyt als hoofdkenmerk</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="nl">Categorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="3559">
+                                    <OrphaCode>2968</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2968</ExpertLink>
+                                    <Name lang="nl">Deficiëntie van leukocytenadhesie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="3">
+                                    <ClassificationNode>
+                                      <Disorder id="14415">
+                                        <OrphaCode>99842</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99842</ExpertLink>
+                                        <Name lang="nl">Deficiëntie van leukocytenadhesie type I</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="14416">
+                                        <OrphaCode>99843</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99843</ExpertLink>
+                                        <Name lang="nl">Deficiëntie van leukocytenadhesie type II</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="14417">
+                                        <OrphaCode>99844</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99844</ExpertLink>
+                                        <Name lang="nl">Deficiëntie van leukocytenadhesie type III</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23535">
+                                    <OrphaCode>447740</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=447740</ExpertLink>
+                                    <Name lang="nl">Gevoeligheid voor gelokaliseerde juveniele parodontitis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32092">
+                                    <OrphaCode>674653</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=674653</ExpertLink>
+                                    <Name lang="nl">Syndromale trombocytopenie geassocieerd met actinomyopathie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="2551">
+                                    <OrphaCode>678</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=678</ExpertLink>
+                                    <Name lang="nl">Syndroom van Papillon-Lefèvre</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="17826">
-                                <OrphaCode>169142</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169142</ExpertLink>
-                                <Name lang="nl">Terugkerende infectie door specifieke granulaire deficiëntie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="18311">
-                                <OrphaCode>183707</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=183707</ExpertLink>
-                                <Name lang="nl">Neutrofiel immuundeficiëntiesyndroom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23535">
-                                <OrphaCode>447740</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=447740</ExpertLink>
-                                <Name lang="nl">Gevoeligheid voor gelokaliseerde juveniele parodontitis</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="31417">
-                                <OrphaCode>619941</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619941</ExpertLink>
-                                <Name lang="nl">Immuundeficiëntie door verstoorde fagocytose en migratie van neutrofielen</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="249">
-                                <OrphaCode>167</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=167</ExpertLink>
-                                <Name lang="nl">Syndroom van Chédiak-Higashi</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19131">
-                            <OrphaCode>228423</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228423</ExpertLink>
-                            <Name lang="nl">Monocytopenie met susceptibiliteit voor infecties</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20108">
-                            <OrphaCode>264675</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264675</ExpertLink>
-                            <Name lang="nl">Erfelijke pulmonale alveolaire proteïnose</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -759,7 +819,43 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="9">
+                      <ClassificationNodeChildList count="12">
+                        <ClassificationNode>
+                          <Disorder id="10676">
+                            <OrphaCode>51636</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=51636</ExpertLink>
+                            <Name lang="nl">WHIM-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="8531">
+                            <OrphaCode>302</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=302</ExpertLink>
+                            <Name lang="nl">Hereditaire epidermodysplasia verruciformis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="21761">
+                            <OrphaCode>324294</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324294</ExpertLink>
+                            <Name lang="nl">T-cel-immuundeficiëntie met epidermodysplasia verruciformis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="432">
                             <OrphaCode>1334</OrphaCode>
@@ -1100,7 +1196,7 @@
                           <Disorder id="22628">
                             <OrphaCode>391487</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391487</ExpertLink>
-                            <Name lang="nl">Auto-immune enteropathie en endocrinopathie - vatbaarheid voor chronische infecties-syndroom</Name>
+                            <Name lang="nl">STAT1-gerelateerde auto-immune enteropathie en endocrinopathie - susceptibiliteit voor chronische infecties-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1119,7 +1215,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="16">
+                      <ClassificationNodeChildList count="18">
                         <ClassificationNode>
                           <Disorder id="920">
                             <OrphaCode>342</OrphaCode>
@@ -1169,18 +1265,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="10924">
-                            <OrphaCode>69126</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=69126</ExpertLink>
-                            <Name lang="nl">PAPA-syndroom</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="11109">
                             <OrphaCode>77297</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=77297</ExpertLink>
@@ -1213,7 +1297,7 @@
                               <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="4">
                             <ClassificationNode>
                               <Disorder id="2375">
                                 <OrphaCode>575</OrphaCode>
@@ -1255,18 +1339,6 @@
                                 <OrphaCode>647815</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=647815</ExpertLink>
                                 <Name lang="nl">Keratoendotheliitis fugax hereditaria</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="31372">
-                                <OrphaCode>617919</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=617919</ExpertLink>
-                                <Name lang="nl">F12-geassocieerd auto-inflammatoir syndroom door koude</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -1325,6 +1397,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="11724">
+                            <OrphaCode>85453</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=85453</ExpertLink>
+                            <Name lang="nl">X-gebonden reticulaire pigmentstoornis</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="31419">
                             <OrphaCode>619953</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619953</ExpertLink>
@@ -1372,6 +1456,30 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32094">
+                            <OrphaCode>674762</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=674762</ExpertLink>
+                            <Name lang="nl">Vroeg optredend auto-inflammatoir syndroom door A20-haploinsufficiëntie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31896">
+                            <OrphaCode>652522</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=652522</ExpertLink>
+                            <Name lang="nl">Periodieke koorts - immuundeficiëntie - trombocytopenie-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -1383,36 +1491,12 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="28611">
                             <OrphaCode>568056</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=568056</ExpertLink>
                             <Name lang="nl">Wratten - immuundeficiëntie - lymfoedeem - anogenitale dysplasie-syndroom</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="8531">
-                            <OrphaCode>302</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=302</ExpertLink>
-                            <Name lang="nl">Epidermodysplasia verruciformis</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="10676">
-                            <OrphaCode>51636</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=51636</ExpertLink>
-                            <Name lang="nl">WHIM-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1427,18 +1511,6 @@
                             <Name lang="nl">Familiale geïsoleerde congenitale asplenie</Name>
                             <DisorderType id="21415">
                               <Name lang="nl">Morfologische anomalie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="21761">
-                            <OrphaCode>324294</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324294</ExpertLink>
-                            <Name lang="nl">T-cel-immuundeficiëntie met epidermodysplasia verruciformis</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1535,7 +1607,7 @@
                                   <Name lang="nl">Group of phenomes</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="8">
+                              <ClassificationNodeChildList count="9">
                                 <ClassificationNode>
                                   <Disorder id="26293">
                                     <OrphaCode>504523</OrphaCode>
@@ -1625,6 +1697,18 @@
                                     <OrphaCode>228003</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228003</ExpertLink>
                                     <Name lang="nl">Ernstige gecombineerde immuundeficiëntie als gevolg van CORO1A-deficiëntie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="17819">
+                                    <OrphaCode>169095</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169095</ExpertLink>
+                                    <Name lang="nl">Ernstige gecombineerde immuundeficiëntie door FOXN1-deficiëntie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -1744,7 +1828,7 @@
                                   <Disorder id="22219">
                                     <OrphaCode>357237</OrphaCode>
                                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=357237</ExpertLink>
-                                    <Name lang="nl">Ernstige gecombineerde immuundeficiëntie door CARD11-deficiëntie</Name>
+                                    <Name lang="nl">Gecombineerde immuundeficiëntie door CARD11-deficiëntie</Name>
                                     <DisorderType id="21394">
                                       <Name lang="nl">Ziekte</Name>
                                     </DisorderType>
@@ -1789,7 +1873,19 @@
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="30">
+                          <ClassificationNodeChildList count="36">
+                            <ClassificationNode>
+                              <Disorder id="21761">
+                                <OrphaCode>324294</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324294</ExpertLink>
+                                <Name lang="nl">T-cel-immuundeficiëntie met epidermodysplasia verruciformis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="23533">
                                 <OrphaCode>447731</OrphaCode>
@@ -2010,7 +2106,7 @@
                               <Disorder id="21585">
                                 <OrphaCode>317476</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=317476</ExpertLink>
-                                <Name lang="nl">X-gebonden immuundeficiëntie met magnesiumdefect, infectie door Epstein-Barrvirus en neoplasie</Name>
+                                <Name lang="nl">XMEN</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2079,10 +2175,22 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
+                              <Disorder id="19269">
+                                <OrphaCode>238505</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238505</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door deficiëntie van CD27</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="23534">
                                 <OrphaCode>447737</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=447737</ExpertLink>
-                                <Name lang="nl">DOCK2-deficiëntie</Name>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door DOCK2-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2115,6 +2223,30 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
+                              <Disorder id="31912">
+                                <OrphaCode>653751</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=653751</ExpertLink>
+                                <Name lang="nl">X-gebonden gecombineerde immuundeficiëntie door SASH3-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32140">
+                                <OrphaCode>676039</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=676039</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door FOXN1-haploinsufficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="31816">
                                 <OrphaCode>647804</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=647804</ExpertLink>
@@ -2131,6 +2263,30 @@
                                 <OrphaCode>504530</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=504530</ExpertLink>
                                 <Name lang="nl">Gecombineerde immuundeficiëntie door Moesin-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="27968">
+                                <OrphaCode>538958</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538958</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door CD70-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="28036">
+                                <OrphaCode>542301</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=542301</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door CARMIL2-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2166,7 +2322,7 @@
                               <Disorder id="29784">
                                 <OrphaCode>596759</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=596759</ExpertLink>
-                                <Name lang="nl">Gecombineerde immuundeficiëntie door haplo-insufficiëntie van Rela</Name>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door Rela-haploinsufficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2559,7 +2715,7 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="10">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="17182">
                             <OrphaCode>158038</OrphaCode>
@@ -2569,60 +2725,12 @@
                               <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
-                            <ClassificationNode>
-                              <Disorder id="275">
-                                <OrphaCode>2442</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2442</ExpertLink>
-                                <Name lang="nl">X-gebonden lymfoproliferatieve aandoening</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="nl">Group of phenomes</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="2">
-                                <ClassificationNode>
-                                  <Disorder id="27963">
-                                    <OrphaCode>538931</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538931</ExpertLink>
-                                    <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door SH2D1A-deficiëntie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="27964">
-                                    <OrphaCode>538934</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538934</ExpertLink>
-                                    <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door XIAP-deficiëntie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="282">
-                                <OrphaCode>540</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=540</ExpertLink>
-                                <Name lang="nl">Familiale hemofagocytaire lymfohistiocytose</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="22006">
                                 <OrphaCode>331249</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=331249</ExpertLink>
-                                <Name lang="nl">Immuundeficiëntiesyndroom met hypopigmentatie</Name>
+                                <Name lang="nl">Primaire hemofagocytaire lymfohistiocytose met hypopigmentatie</Name>
                                 <DisorderType id="36561">
                                   <Name lang="nl">Categorie</Name>
                                 </DisorderType>
@@ -2661,6 +2769,78 @@
                                       <Name lang="nl">Klinisch subtype</Name>
                                     </DisorderType>
                                   </Disorder>
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="32042">
+                                        <OrphaCode>664500</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664500</ExpertLink>
+                                        <Name lang="nl">Syndroom van Hermansky-Pudlak door AP3B1-deficiëntie</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="32043">
+                                        <OrphaCode>664511</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664511</ExpertLink>
+                                        <Name lang="nl">Vroeg optredend ernstig syndroom van Hermansky-Pudlak met gehoorverlies door AP3D1-deficiëntie</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="nl">Klinisch subtype</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32041">
+                                <OrphaCode>664482</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664482</ExpertLink>
+                                <Name lang="nl">Primaire hemofagocytaire lymfohistiocytose zonder hypopigmentatie</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="nl">Categorie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="3">
+                                <ClassificationNode>
+                                  <Disorder id="282">
+                                    <OrphaCode>540</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=540</ExpertLink>
+                                    <Name lang="nl">Familiale hemofagocytaire lymfohistiocytose</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="3366">
+                                    <OrphaCode>470</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=470</ExpertLink>
+                                    <Name lang="nl">Lysinurische proteïne-intolerantie</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31415">
+                                    <OrphaCode>619363</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619363</ExpertLink>
+                                    <Name lang="nl">NOCARH-syndroom</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
@@ -2677,19 +2857,7 @@
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="12">
-                            <ClassificationNode>
-                              <Disorder id="2842">
-                                <OrphaCode>1855</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1855</ExpertLink>
-                                <Name lang="nl">Spondylo-enchondrodysplasie</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="nl">Malformatiesyndroom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="15">
                             <ClassificationNode>
                               <Disorder id="3035">
                                 <OrphaCode>3453</OrphaCode>
@@ -2766,7 +2934,7 @@
                               <Disorder id="20315">
                                 <OrphaCode>275517</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=275517</ExpertLink>
-                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom met recidiverende virale infecties</Name>
+                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom met recidiverende virale infecties door CASP8-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2790,7 +2958,7 @@
                               <Disorder id="22628">
                                 <OrphaCode>391487</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391487</ExpertLink>
-                                <Name lang="nl">Auto-immune enteropathie en endocrinopathie - vatbaarheid voor chronische infecties-syndroom</Name>
+                                <Name lang="nl">STAT1-gerelateerde auto-immune enteropathie en endocrinopathie - susceptibiliteit voor chronische infecties-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2802,7 +2970,7 @@
                               <Disorder id="23490">
                                 <OrphaCode>444463</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=444463</ExpertLink>
-                                <Name lang="nl">Auto-immune hemolytische anemie - auto-immune trombocytopenie - primaire immuundeficiëntie-syndroom</Name>
+                                <Name lang="nl">Auto-immune hemolytische anemie - auto-immune trombocytopenie - primaire immuundeficiëntie-syndroom door TPP2-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2814,31 +2982,7 @@
                               <Disorder id="31418">
                                 <OrphaCode>619948</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619948</ExpertLink>
-                                <Name lang="nl">Vroeg optredende auto-immuniteit - auto-inflammatie - immuundeficiëntie-syndroom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19270">
-                            <OrphaCode>238510</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238510</ExpertLink>
-                            <Name lang="nl">Lymfoproliferatief syndroom</Name>
-                            <DisorderType id="21436">
-                              <Name lang="nl">Group of phenomes</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="13">
-                            <ClassificationNode>
-                              <Disorder id="19269">
-                                <OrphaCode>238505</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238505</ExpertLink>
-                                <Name lang="nl">Gecombineerde immuundeficiëntie door deficiëntie van CD27</Name>
+                                <Name lang="nl">Vroeg optredende auto-immuniteit - auto-inflammatie - immuundeficiëntie-syndroom door SOCS1-haploinsufficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2847,58 +2991,10 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="275">
-                                <OrphaCode>2442</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2442</ExpertLink>
-                                <Name lang="nl">X-gebonden lymfoproliferatieve aandoening</Name>
-                                <DisorderType id="21436">
-                                  <Name lang="nl">Group of phenomes</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="2">
-                                <ClassificationNode>
-                                  <Disorder id="27963">
-                                    <OrphaCode>538931</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538931</ExpertLink>
-                                    <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door SH2D1A-deficiëntie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                                <ClassificationNode>
-                                  <Disorder id="27964">
-                                    <OrphaCode>538934</OrphaCode>
-                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538934</ExpertLink>
-                                    <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door XIAP-deficiëntie</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="nl">Ziekte</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="3468">
-                                <OrphaCode>3261</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3261</ExpertLink>
-                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="20315">
-                                <OrphaCode>275517</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=275517</ExpertLink>
-                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom met recidiverende virale infecties</Name>
+                              <Disorder id="31951">
+                                <OrphaCode>658946</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=658946</ExpertLink>
+                                <Name lang="nl">Vroeg-optredende immuundisregulatie met auto-immuniteit door partiële DOCK11-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2922,7 +3018,7 @@
                               <Disorder id="23329">
                                 <OrphaCode>436159</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=436159</ExpertLink>
-                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door haplo-insufficiëntie van CTLA4</Name>
+                                <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door CTLA4-haploinsufficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -2942,78 +3038,6 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="20165">
-                                <OrphaCode>268114</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=268114</ExpertLink>
-                                <Name lang="nl">RAS-geassocieerde auto-immune leukoproliferatieve ziekte</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="27968">
-                                <OrphaCode>538958</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538958</ExpertLink>
-                                <Name lang="nl">Gecombineerde immuundeficiëntie door CD70-deficiëntie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="28036">
-                                <OrphaCode>542301</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=542301</ExpertLink>
-                                <Name lang="nl">Gecombineerde immuundeficiëntie door CARMIL2-deficiëntie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="31419">
-                                <OrphaCode>619953</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619953</ExpertLink>
-                                <Name lang="nl">Familiale hyperinflammatoire lymfoproliferatieve immuundeficiëntie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="31418">
-                                <OrphaCode>619948</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619948</ExpertLink>
-                                <Name lang="nl">Vroeg optredende auto-immuniteit - auto-inflammatie - immuundeficiëntie-syndroom</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="27969">
-                                <OrphaCode>538963</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538963</ExpertLink>
-                                <Name lang="nl">Gecombineerde immuundeficiëntie door ITK-deficiëntie</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -3025,7 +3049,7 @@
                               <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="19277">
                                 <OrphaCode>238569</OrphaCode>
@@ -3063,6 +3087,18 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
+                              <Disorder id="32142">
+                                <OrphaCode>676125</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=676125</ExpertLink>
+                                <Name lang="nl">X-gebonden immuundisregulatie met inflammatoire darmziekte door ELF4-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="28448">
                                 <OrphaCode>565788</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=565788</ExpertLink>
@@ -3077,10 +3113,10 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="1309">
-                            <OrphaCode>51</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=51</ExpertLink>
-                            <Name lang="nl">Syndroom van Aicardi-Goutières</Name>
+                          <Disorder id="31952">
+                            <OrphaCode>658951</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=658951</ExpertLink>
+                            <Name lang="nl">Vroeg-optredende immuundisregulatie door volledige DOCK11-deficiëntie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -3089,63 +3125,183 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="23209">
-                            <OrphaCode>425120</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=425120</ExpertLink>
-                            <Name lang="nl">STING-geassocieerde vasculopathie met aanvang in de zuigelingentijd</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
+                          <Disorder id="32038">
+                            <OrphaCode>664456</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664456</ExpertLink>
+                            <Name lang="nl">Immuundisregulatie met immuundeficiëntie geassocieerd met EBV-susceptibiliteit</Name>
+                            <DisorderType id="21436">
+                              <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="11649">
-                            <OrphaCode>85191</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=85191</ExpertLink>
-                            <Name lang="nl">Dysplasie, Singleton-Merten-type</Name>
-                            <DisorderType id="21401">
-                              <Name lang="nl">Malformatiesyndroom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="11605">
-                            <OrphaCode>84064</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=84064</ExpertLink>
-                            <Name lang="nl">Syndromale diarree</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="11724">
-                            <OrphaCode>85453</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=85453</ExpertLink>
-                            <Name lang="nl">X-gebonden reticulaire pigmentstoornis</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="22938">
-                            <OrphaCode>404553</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=404553</ExpertLink>
-                            <Name lang="nl">Vasculitis door ADA2-deficiëntie</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="10">
+                            <ClassificationNode>
+                              <Disorder id="23115">
+                                <OrphaCode>420573</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=420573</ExpertLink>
+                                <Name lang="nl">Ernstige gecombineerde immuundeficiëntie als gevolg van CTPS1-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="28036">
+                                <OrphaCode>542301</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=542301</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door CARMIL2-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="21585">
+                                <OrphaCode>317476</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=317476</ExpertLink>
+                                <Name lang="nl">XMEN</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32051">
+                                <OrphaCode>664711</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664711</ExpertLink>
+                                <Name lang="nl">EBV-geïnduceerde lymfoproliferatieve aandoening door PRKCD-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="27969">
+                                <OrphaCode>538963</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538963</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door ITK-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32049">
+                                <OrphaCode>664699</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664699</ExpertLink>
+                                <Name lang="nl">EBV-geïnduceerde lymfoproliferatieve aandoening door RASGPR1-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="27968">
+                                <OrphaCode>538958</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538958</ExpertLink>
+                                <Name lang="nl">Gecombineerde immuundeficiëntie door CD70-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32053">
+                                <OrphaCode>664726</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664726</ExpertLink>
+                                <Name lang="nl">EBV-geïnduceerde lymfoproliferatieve aandoening door CD137-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32054">
+                                <OrphaCode>664729</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664729</ExpertLink>
+                                <Name lang="nl">EBV-geïnduceerde lymfoproliferatieve aandoening door TET2-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32055">
+                                <OrphaCode>664734</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664734</ExpertLink>
+                                <Name lang="nl">EBV-susceptibiliteit met hemofagocytaire lymfohistiocytose als hoofdkenmerk</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="nl">Group of phenomes</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="19269">
+                                    <OrphaCode>238505</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238505</ExpertLink>
+                                    <Name lang="nl">Gecombineerde immuundeficiëntie door deficiëntie van CD27</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="nl">Ziekte</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="275">
+                                    <OrphaCode>2442</OrphaCode>
+                                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2442</ExpertLink>
+                                    <Name lang="nl">X-gebonden lymfoproliferatieve aandoening</Name>
+                                    <DisorderType id="21436">
+                                      <Name lang="nl">Group of phenomes</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="2">
+                                    <ClassificationNode>
+                                      <Disorder id="27963">
+                                        <OrphaCode>538931</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538931</ExpertLink>
+                                        <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door SAP-deficiëntie</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="nl">Ziekte</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="27964">
+                                        <OrphaCode>538934</OrphaCode>
+                                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538934</ExpertLink>
+                                        <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door XIAP-deficiëntie</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="nl">Ziekte</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -3338,18 +3494,6 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17819">
-                            <OrphaCode>169095</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169095</ExpertLink>
-                            <Name lang="nl">Ernstige gecombineerde immuundeficiëntie door FOXN1-deficiëntie</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -3589,7 +3733,19 @@
                               <Name lang="nl">Categorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="5">
+                            <ClassificationNode>
+                              <Disorder id="17819">
+                                <OrphaCode>169095</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169095</ExpertLink>
+                                <Name lang="nl">Ernstige gecombineerde immuundeficiëntie door FOXN1-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="110">
                                 <OrphaCode>138</OrphaCode>
@@ -3626,6 +3782,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="518">
+                                <OrphaCode>2308</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2308</ExpertLink>
+                                <Name lang="nl">Syndroom van Jacobsen</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="nl">Malformatiesyndroom</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -3637,12 +3805,12 @@
                               <Name lang="nl">Group of phenomes</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="6">
+                          <ClassificationNodeChildList count="10">
                             <ClassificationNode>
                               <Disorder id="839">
                                 <OrphaCode>2314</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2314</ExpertLink>
-                                <Name lang="nl">Autosomaal dominant hyper-IgE-syndroom</Name>
+                                <Name lang="nl">Autosomaal dominant hyper-IgE-syndroom door STAT3-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -3655,18 +3823,6 @@
                                 <OrphaCode>634</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=634</ExpertLink>
                                 <Name lang="nl">Syndroom van Netherton</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="nl">Ziekte</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="22459">
-                                <OrphaCode>369992</OrphaCode>
-                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=369992</ExpertLink>
-                                <Name lang="nl">Ernstige dermatitis - meervoudige allergieën - metabole aftakeling-syndroom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -3690,7 +3846,67 @@
                               <Disorder id="31716">
                                 <OrphaCode>641368</OrphaCode>
                                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=641368</ExpertLink>
-                                <Name lang="nl">Autosomaal recessief hyper-IgE-syndroom</Name>
+                                <Name lang="nl">Autosomaal recessief hyper-IgE-syndroom door ZNF341-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31932">
+                                <OrphaCode>656912</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656912</ExpertLink>
+                                <Name lang="nl">Autosomaal dominante gecombineerde immuundeficiëntie door ERBIN-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31927">
+                                <OrphaCode>656313</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656313</ExpertLink>
+                                <Name lang="nl">Autosomaal dominante gecombineerde immuundeficiëntie door partiële IL6ST-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31926">
+                                <OrphaCode>656300</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656300</ExpertLink>
+                                <Name lang="nl">Autosomaal recessieve gecombineerde immuundeficiëntie door partiële IL6ST-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31925">
+                                <OrphaCode>656283</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656283</ExpertLink>
+                                <Name lang="nl">Autosomaal recessieve gecombineerde immuundeficiëntie door volledige IL6ST-deficiëntie</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="nl">Ziekte</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31928">
+                                <OrphaCode>656326</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=656326</ExpertLink>
+                                <Name lang="nl">Autosomaal recessieve gecombineerde immuundeficiëntie door IL6R-deficiëntie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="nl">Ziekte</Name>
                                 </DisorderType>
@@ -3737,6 +3953,18 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="31990">
+                            <OrphaCode>661412</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=661412</ExpertLink>
+                            <Name lang="nl">Megaloblastische anemie - immuundeficiëntie door deficiëntie van folaattransporter 1</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="31423">
                             <OrphaCode>619979</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619979</ExpertLink>
@@ -3773,60 +4001,12 @@
                       <Name lang="nl">Group of phenomes</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="275">
-                        <OrphaCode>2442</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2442</ExpertLink>
-                        <Name lang="nl">X-gebonden lymfoproliferatieve aandoening</Name>
-                        <DisorderType id="21436">
-                          <Name lang="nl">Group of phenomes</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="2">
-                        <ClassificationNode>
-                          <Disorder id="27963">
-                            <OrphaCode>538931</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538931</ExpertLink>
-                            <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door SH2D1A-deficiëntie</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="27964">
-                            <OrphaCode>538934</OrphaCode>
-                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=538934</ExpertLink>
-                            <Name lang="nl">X-gebonden lymfoproliferatieve ziekte door XIAP-deficiëntie</Name>
-                            <DisorderType id="21394">
-                              <Name lang="nl">Ziekte</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="282">
-                        <OrphaCode>540</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=540</ExpertLink>
-                        <Name lang="nl">Familiale hemofagocytaire lymfohistiocytose</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="22006">
                         <OrphaCode>331249</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=331249</ExpertLink>
-                        <Name lang="nl">Immuundeficiëntiesyndroom met hypopigmentatie</Name>
+                        <Name lang="nl">Primaire hemofagocytaire lymfohistiocytose met hypopigmentatie</Name>
                         <DisorderType id="36561">
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
@@ -3865,6 +4045,78 @@
                               <Name lang="nl">Klinisch subtype</Name>
                             </DisorderType>
                           </Disorder>
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="32042">
+                                <OrphaCode>664500</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664500</ExpertLink>
+                                <Name lang="nl">Syndroom van Hermansky-Pudlak door AP3B1-deficiëntie</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32043">
+                                <OrphaCode>664511</OrphaCode>
+                                <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664511</ExpertLink>
+                                <Name lang="nl">Vroeg optredend ernstig syndroom van Hermansky-Pudlak met gehoorverlies door AP3D1-deficiëntie</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="nl">Klinisch subtype</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32041">
+                        <OrphaCode>664482</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=664482</ExpertLink>
+                        <Name lang="nl">Primaire hemofagocytaire lymfohistiocytose zonder hypopigmentatie</Name>
+                        <DisorderType id="36561">
+                          <Name lang="nl">Categorie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="282">
+                            <OrphaCode>540</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=540</ExpertLink>
+                            <Name lang="nl">Familiale hemofagocytaire lymfohistiocytose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="3366">
+                            <OrphaCode>470</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=470</ExpertLink>
+                            <Name lang="nl">Lysinurische proteïne-intolerantie</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31415">
+                            <OrphaCode>619363</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619363</ExpertLink>
+                            <Name lang="nl">NOCARH-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
@@ -3881,19 +4133,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="4">
-                    <ClassificationNode>
-                      <Disorder id="31415">
-                        <OrphaCode>619363</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=619363</ExpertLink>
-                        <Name lang="nl">Neonatale ernstige multisystemische auto-inflammatoire aandoening met verhoogd IL18</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
                       <Disorder id="17184">
                         <OrphaCode>158048</OrphaCode>

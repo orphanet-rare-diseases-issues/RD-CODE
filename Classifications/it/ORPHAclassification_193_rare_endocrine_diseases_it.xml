@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:45:15" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:15:46" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -747,7 +747,7 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -765,6 +765,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99880</ExpertLink>
                             <Name lang="it">Sindrome iperparatiroidismo-tumore della mandibola</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652</ExpertLink>
+                            <Name lang="it">Neoplasia endocrina multipla tipo 1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1155,7 +1167,7 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -1173,6 +1185,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99880</ExpertLink>
                             <Name lang="it">Sindrome iperparatiroidismo-tumore della mandibola</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652</ExpertLink>
+                            <Name lang="it">Neoplasia endocrina multipla tipo 1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1215,7 +1239,7 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="3719">
                             <OrphaCode>1652</OrphaCode>
@@ -1243,6 +1267,54 @@
                                 <OrphaCode>93623</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93623</ExpertLink>
                                 <Name lang="it">Malattia di Dent tipo 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="it">Sottotipo clinico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11">
+                            <OrphaCode>213</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=213</ExpertLink>
+                            <Name lang="it">Cistinosi</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="23024">
+                                <OrphaCode>411634</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=411634</ExpertLink>
+                                <Name lang="it">Cistinosi nefropatica giovanile</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="it">Sottotipo clinico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23025">
+                                <OrphaCode>411641</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=411641</ExpertLink>
+                                <Name lang="it">Cistinosi oculare</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="it">Sottotipo clinico</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23023">
+                                <OrphaCode>411629</OrphaCode>
+                                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=411629</ExpertLink>
+                                <Name lang="it">Cistinosi nefropatica infantile</Name>
                                 <DisorderType id="21450">
                                   <Name lang="it">Sottotipo clinico</Name>
                                 </DisorderType>
@@ -1392,7 +1464,7 @@
                   <Disorder id="13284">
                     <OrphaCode>98267</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98267</ExpertLink>
-                    <Name lang="it">Obesità non sindromica genetica</Name>
+                    <Name lang="it">Obesità genetica  non sindromica</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -1517,7 +1589,7 @@
                       <Name lang="it">Categoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="36">
+                  <ClassificationNodeChildList count="37">
                     <ClassificationNode>
                       <Disorder id="387">
                         <OrphaCode>819</OrphaCode>
@@ -2110,7 +2182,7 @@
                       <Disorder id="27324">
                         <OrphaCode>521390</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=521390</ExpertLink>
-                        <Name lang="it">Sindrome paraplegia spastica - deficit cognitivo - nistagmo - obesità</Name>
+                        <Name lang="it">Sindrome paraplegia spastica-disabilità intellettiva-nistagmo-obesità</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -2135,6 +2207,18 @@
                         <OrphaCode>464288</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=464288</ExpertLink>
                         <Name lang="it">Sindrome bassa statura - brachidattilia - obesità - ritardo dello sviluppo globale</Name>
+                        <DisorderType id="21401">
+                          <Name lang="it">Sindrome malformativa</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31892">
+                        <OrphaCode>652487</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652487</ExpertLink>
+                        <Name lang="it">Sindrome ritardo dello sviluppo-sovrappeso-dismorfismi facciali-anomalie del comportamento</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -2490,7 +2574,7 @@
                               <Disorder id="2176">
                                 <OrphaCode>2321</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2321</ExpertLink>
-                                <Name lang="it">Sindrome di Jung-Wolff-Back-Stahl</Name>
+                                <Name lang="it">Sindrome di Jung</Name>
                                 <DisorderType id="21401">
                                   <Name lang="it">Sindrome malformativa</Name>
                                 </DisorderType>
@@ -2610,7 +2694,7 @@
                               <Disorder id="23676">
                                 <OrphaCode>456312</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=456312</ExpertLink>
-                                <Name lang="it">Malattia pancreatica-endocrina-neurologica, multisistemica infantile</Name>
+                                <Name lang="it">Malattia infantile multisistemica neurologica-endocrina-pancreatica</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -3174,7 +3258,7 @@
                               <Disorder id="12081">
                                 <OrphaCode>90695</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90695</ExpertLink>
-                                <Name lang="it">Panipopituitarismo</Name>
+                                <Name lang="it">Panipopituitarismo non acquisito</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -3630,7 +3714,7 @@
                               <Disorder id="12081">
                                 <OrphaCode>90695</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90695</ExpertLink>
-                                <Name lang="it">Panipopituitarismo</Name>
+                                <Name lang="it">Panipopituitarismo non acquisito</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -3768,7 +3852,7 @@
                   <Disorder id="12663">
                     <OrphaCode>95708</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=95708</ExpertLink>
-                    <Name lang="it">OBSOLETO: Pubertà precoce rara</Name>
+                    <Name lang="it">Pubertà precoce rara</Name>
                     <DisorderType id="36561">
                       <Name lang="it">Categoria</Name>
                     </DisorderType>
@@ -4368,7 +4452,7 @@
                   <Disorder id="23332">
                     <OrphaCode>436174</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=436174</ExpertLink>
-                    <Name lang="it">Sindrome cataratta-deficit dell'ormone della crescita-neuropatia sensitiva-sordità neurosensoriale-displasia scheletrica</Name>
+                    <Name lang="it">Sindrome cataratta-deficit dell'ormone della crescita-neuropatia sensoriale-sordità neurosensoriale-displasia scheletrica</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -4856,7 +4940,7 @@
                           <Disorder id="570">
                             <OrphaCode>2983</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2983</ExpertLink>
-                            <Name lang="it">Disturbo dello sviluppo sessuale - ritardo mentale</Name>
+                            <Name lang="it">Sindrome disturbo dello sviluppo sessuale-disabilità intellettiva</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -5428,7 +5512,7 @@
                                   <Disorder id="324">
                                     <OrphaCode>753</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=753</ExpertLink>
-                                    <Name lang="it">Disturbo dello sviluppo sessuale 46,XY da deficit di 5-alfa-reduttasi 2</Name>
+                                    <Name lang="it">Alterato sviluppo sessuale 46,XY da deficit di 5-alfa-reduttasi 2</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -6401,7 +6485,7 @@
                       <Name lang="it">Categoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="849">
                         <OrphaCode>3198</OrphaCode>
@@ -6523,18 +6607,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="7037">
-                        <OrphaCode>225</OrphaCode>
-                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=225</ExpertLink>
-                        <Name lang="it">Diabete e sordità a trasmissione materna</Name>
-                        <DisorderType id="21394">
-                          <Name lang="it">Malattia</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="10643">
                         <OrphaCode>49827</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=49827</ExpertLink>
@@ -6562,7 +6634,7 @@
                       <Disorder id="23517">
                         <OrphaCode>445062</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=445062</ExpertLink>
-                        <Name lang="it">Sindrome diabete mellito a esordio giovanile-neurodegenerazione centrale e periferica</Name>
+                        <Name lang="it">Sindrome diabete mellito ad esordio giovanile-neurodegenerazione centrale e periferica</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -7062,7 +7134,7 @@
                               <Disorder id="121">
                                 <OrphaCode>652</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652</ExpertLink>
-                                <Name lang="it">Neoplasia endocrina multipla, tipo 1</Name>
+                                <Name lang="it">Neoplasia endocrina multipla tipo 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -7318,7 +7390,7 @@
                       <Disorder id="121">
                         <OrphaCode>652</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652</ExpertLink>
-                        <Name lang="it">Neoplasia endocrina multipla, tipo 1</Name>
+                        <Name lang="it">Neoplasia endocrina multipla tipo 1</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -8492,7 +8564,7 @@
                           <Disorder id="906">
                             <OrphaCode>653</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=653</ExpertLink>
-                            <Name lang="it">Neoplasia endocrina multipla, tipo 2</Name>
+                            <Name lang="it">Neoplasia endocrina multipla tipo 2</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -8752,7 +8824,7 @@
                                   <Disorder id="2176">
                                     <OrphaCode>2321</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2321</ExpertLink>
-                                    <Name lang="it">Sindrome di Jung-Wolff-Back-Stahl</Name>
+                                    <Name lang="it">Sindrome di Jung</Name>
                                     <DisorderType id="21401">
                                       <Name lang="it">Sindrome malformativa</Name>
                                     </DisorderType>
@@ -8872,7 +8944,7 @@
                                   <Disorder id="23676">
                                     <OrphaCode>456312</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=456312</ExpertLink>
-                                    <Name lang="it">Malattia pancreatica-endocrina-neurologica, multisistemica infantile</Name>
+                                    <Name lang="it">Malattia infantile multisistemica neurologica-endocrina-pancreatica</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -9228,7 +9300,7 @@
                   <Disorder id="10440">
                     <OrphaCode>37042</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=37042</ExpertLink>
-                    <Name lang="it">Sindrome immunodisregolazione-poliendocrinopatia-enteropatia, legata all'X</Name>
+                    <Name lang="it">Sindrome disregolazione immunitaria-poliendocrinopatia-enteropatia legata all'X</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -9308,7 +9380,7 @@
                           <Disorder id="121">
                             <OrphaCode>652</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652</ExpertLink>
-                            <Name lang="it">Neoplasia endocrina multipla, tipo 1</Name>
+                            <Name lang="it">Neoplasia endocrina multipla tipo 1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -9320,7 +9392,7 @@
                           <Disorder id="906">
                             <OrphaCode>653</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=653</ExpertLink>
-                            <Name lang="it">Neoplasia endocrina multipla, tipo 2</Name>
+                            <Name lang="it">Neoplasia endocrina multipla tipo 2</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -9820,7 +9892,7 @@
                                   <Disorder id="12081">
                                     <OrphaCode>90695</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90695</ExpertLink>
-                                    <Name lang="it">Panipopituitarismo</Name>
+                                    <Name lang="it">Panipopituitarismo non acquisito</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -10276,7 +10348,7 @@
                                   <Disorder id="12081">
                                     <OrphaCode>90695</OrphaCode>
                                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90695</ExpertLink>
-                                    <Name lang="it">Panipopituitarismo</Name>
+                                    <Name lang="it">Panipopituitarismo non acquisito</Name>
                                     <DisorderType id="21394">
                                       <Name lang="it">Malattia</Name>
                                     </DisorderType>
@@ -10734,7 +10806,7 @@
                               <Disorder id="12128">
                                 <OrphaCode>91354</OrphaCode>
                                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=91354</ExpertLink>
-                                <Name lang="it">Deficit ipofisario associato alla sindrome della sella turcica vuota</Name>
+                                <Name lang="it">Deficit ipofisario da sindrome della sella turcica vuota</Name>
                                 <DisorderType id="21394">
                                   <Name lang="it">Malattia</Name>
                                 </DisorderType>
@@ -11280,7 +11352,7 @@
                   <Disorder id="17558">
                     <OrphaCode>163976</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=163976</ExpertLink>
-                    <Name lang="it">Ritardo mentale legato all'X, tipo Van Esch</Name>
+                    <Name lang="it">Disabilità intellettiva legata all'X tipo Van Esch</Name>
                     <DisorderType id="21401">
                       <Name lang="it">Sindrome malformativa</Name>
                     </DisorderType>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:46:37" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:22:21" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -31,7 +31,7 @@
                   <Name lang="pt">Category</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="6">
+              <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="430">
                     <OrphaCode>125</OrphaCode>
@@ -39,18 +39,6 @@
                     <Name lang="pt">Síndrome Bloom</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2883">
-                    <OrphaCode>3226</OrphaCode>
-                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=3226</ExpertLink>
-                    <Name lang="pt">Síndrome de surdez-linfedema-leucemia</Name>
-                    <DisorderType id="21401">
-                      <Name lang="pt">Síndrome malformativo</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -647,12 +635,12 @@
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="2">
+                              <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
                                   <Disorder id="14460">
                                     <OrphaCode>99887</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99887</ExpertLink>
-                                    <Name lang="pt">Leucemia megacarioblástica aguda no síndrome Down</Name>
+                                    <Name lang="pt">Leucemia megacarioblástica aguda em crianças com síndrome Down</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -664,7 +652,19 @@
                                   <Disorder id="21935">
                                     <OrphaCode>329469</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=329469</ExpertLink>
-                                    <Name lang="pt">Leucemia megacarioblastica aguda sem síndrome Down</Name>
+                                    <Name lang="pt">Leucemia megacarioblastica aguda em crianças sem síndrome Down</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pt">Subtipo clínico</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32019">
+                                    <OrphaCode>662934</OrphaCode>
+                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=662934</ExpertLink>
+                                    <Name lang="pt">Leucemia megacarioblástica aguda no adulto</Name>
                                     <DisorderType id="21450">
                                       <Name lang="pt">Subtipo clínico</Name>
                                     </DisorderType>
@@ -817,12 +817,12 @@
                               <Name lang="pt">Grupo de fenótipos</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="3">
                             <ClassificationNode>
                               <Disorder id="13843">
                                 <OrphaCode>98826</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98826</ExpertLink>
-                                <Name lang="pt">Anemia refratária</Name>
+                                <Name lang="pt">Neoplasia mielodisplásica com redução de blastos</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -835,18 +835,6 @@
                                 <OrphaCode>98827</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98827</ExpertLink>
                                 <Name lang="pt">Síndrome mielodisplásico, não classificado</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="14807">
-                                <OrphaCode>101096</OrphaCode>
-                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=101096</ExpertLink>
-                                <Name lang="pt">Anemia arregenerativa</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -872,7 +860,7 @@
                           <Disorder id="11749">
                             <OrphaCode>86839</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=86839</ExpertLink>
-                            <Name lang="pt">Anemia refratária com excesso de blastos</Name>
+                            <Name lang="pt">Neoplasia mielodisplásica com excesso de blastos</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -882,7 +870,7 @@
                               <Disorder id="14592">
                                 <OrphaCode>100019</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=100019</ExpertLink>
-                                <Name lang="pt">Anemia refratária com excesso de blastos-1</Name>
+                                <Name lang="pt">Neoplasia mielodisplásica com excesso de blastos tipo 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
@@ -894,7 +882,7 @@
                               <Disorder id="14593">
                                 <OrphaCode>100020</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=100020</ExpertLink>
-                                <Name lang="pt">Anemia refratária com excesso de blastos-2</Name>
+                                <Name lang="pt">Neoplasia mielodisplásica com excesso de blastos tipo 2</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
@@ -951,7 +939,7 @@
                           <Name lang="pt">Grupo de fenótipos</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="11">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
                           <Disorder id="25397">
                             <OrphaCode>488280</OrphaCode>
@@ -1074,7 +1062,7 @@
                               <Disorder id="21543">
                                 <OrphaCode>314950</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=314950</ExpertLink>
-                                <Name lang="pt">Síndrome hipereosinofílico primária</Name>
+                                <Name lang="pt">Síndrome hipereosinofílica primária</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1086,7 +1074,7 @@
                               <Disorder id="21544">
                                 <OrphaCode>314962</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=314962</ExpertLink>
-                                <Name lang="pt">Síndrome hipereosinofílico secundário</Name>
+                                <Name lang="pt">Síndrome hipereosinofílica secundária</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1125,6 +1113,18 @@
                             <OrphaCode>480851</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=480851</ExpertLink>
                             <Name lang="pt">Trombocitopenia hereditária com mielofibrose de início precoce</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pt">Doença</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32128">
+                            <OrphaCode>675775</OrphaCode>
+                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=675775</ExpertLink>
+                            <Name lang="pt">Síndrome de mielofibrose grave congénita-pancitopenia-perturbação do desenvolvimento intelectual-anomalias neurológicas e oftalmológicas</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1316,7 +1316,7 @@
                           <Disorder id="11717">
                             <OrphaCode>85443</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85443</ExpertLink>
-                            <Name lang="pt">Amiloidose primária</Name>
+                            <Name lang="pt">Amiloidose AL</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1611,7 +1611,7 @@
                           <Name lang="pt">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
                         <ClassificationNode>
                           <Disorder id="10952">
                             <OrphaCode>70568</OrphaCode>
@@ -1643,6 +1643,18 @@
                             <Name lang="pt">Doença linfoproliferativa associada a doença imune primária</Name>
                             <DisorderType id="36561">
                               <Name lang="pt">Category</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32119">
+                            <OrphaCode>675628</OrphaCode>
+                            <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=675628</ExpertLink>
+                            <Name lang="pt">Síndrome de inflamação TLR8-relacionada-neutropenia grave-falência da medula óssea-linfoproliferação</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pt">Doença</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
@@ -1704,7 +1716,7 @@
                                           <Disorder id="31718">
                                             <OrphaCode>641375</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=641375</ExpertLink>
-                                            <Name lang="pt">B-lymphoblastic leukemia/lymphoma with t(17;19)</Name>
+                                            <Name lang="pt">Leucemia linfoblástica B/linfoma com t(17;19)</Name>
                                             <DisorderType id="21443">
                                               <Name lang="pt">Subtipo etiologico</Name>
                                             </DisorderType>
@@ -1800,7 +1812,7 @@
                                           <Disorder id="31717">
                                             <OrphaCode>641372</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=641372</ExpertLink>
-                                            <Name lang="pt">B-lymphoblastic leukemia/lymphoma with t(7;9)(q11.2;p13.2)</Name>
+                                            <Name lang="pt">Leucemia linfoblástica B/linfoma com t(7;9)(q11.2;p13.2)</Name>
                                             <DisorderType id="21443">
                                               <Name lang="pt">Subtipo etiologico</Name>
                                             </DisorderType>
@@ -2088,7 +2100,7 @@
                                           <Disorder id="20756">
                                             <OrphaCode>289661</OrphaCode>
                                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=289661</ExpertLink>
-                                            <Name lang="pt">Linfoma B difuso de grandes células positivo para o vírus Epstein-Barr, do idoso</Name>
+                                            <Name lang="pt">Linfoma B difuso de grandes células positivo para o vírus Epstein-Barr</Name>
                                             <DisorderType id="21394">
                                               <Name lang="pt">Doença</Name>
                                             </DisorderType>
@@ -2243,7 +2255,7 @@
                                   <Name lang="pt">Category</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="11">
+                              <ClassificationNodeChildList count="14">
                                 <ClassificationNode>
                                   <Disorder id="10952">
                                     <OrphaCode>70568</OrphaCode>
@@ -2260,7 +2272,7 @@
                                   <Disorder id="11764">
                                     <OrphaCode>86870</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=86870</ExpertLink>
-                                    <Name lang="pt">Linfoma de células NK blástico</Name>
+                                    <Name lang="pt">Neoplasia de células dendríticas plasmocitóides blásticas</Name>
                                     <DisorderType id="21394">
                                       <Name lang="pt">Doença</Name>
                                     </DisorderType>
@@ -2605,6 +2617,30 @@
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                                 <ClassificationNode>
+                                  <Disorder id="32072">
+                                    <OrphaCode>667662</OrphaCode>
+                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=667662</ExpertLink>
+                                    <Name lang="pt">Linfoma anaplásico de células grandes associado a implante mamário</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pt">Doença</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31900">
+                                    <OrphaCode>652658</OrphaCode>
+                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=652658</ExpertLink>
+                                    <Name lang="pt">Linfoma intestinal epiteliotrópico monomórfico de células T</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pt">Doença</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
                                   <Disorder id="26906">
                                     <OrphaCode>512034</OrphaCode>
                                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=512034</ExpertLink>
@@ -2650,6 +2686,18 @@
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="31899">
+                                    <OrphaCode>652650</OrphaCode>
+                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=652650</ExpertLink>
+                                    <Name lang="pt">Linfoma nodal de células T-folicular helper, tipo folicular</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pt">Doença</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
                               </ClassificationNodeChildList>
@@ -4485,7 +4533,31 @@
                                       <Name lang="pt">Category</Name>
                                     </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="13">
+                                  <ClassificationNodeChildList count="15">
+                                    <ClassificationNode>
+                                      <Disorder id="32092">
+                                        <OrphaCode>674653</OrphaCode>
+                                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=674653</ExpertLink>
+                                        <Name lang="pt">Trombocitopenia associada a actinomiopatia sindrómica</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="pt">Doença</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="31896">
+                                        <OrphaCode>652522</OrphaCode>
+                                        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=652522</ExpertLink>
+                                        <Name lang="pt">Síndrome de febre periódica-imunodeficiência-trombocitopenia</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="pt">Doença</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
                                     <ClassificationNode>
                                       <Disorder id="25223">
                                         <OrphaCode>480851</OrphaCode>
@@ -4654,12 +4726,36 @@
                                               <Disorder id="18309">
                                                 <OrphaCode>183678</OrphaCode>
                                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=183678</ExpertLink>
-                                                <Name lang="pt">Síndrome Hermansky-Pudlak por deficiência de AP-3</Name>
+                                                <Name lang="pt">Síndrome Hermansky-Pudlak por deficiência AP-3</Name>
                                                 <DisorderType id="21450">
                                                   <Name lang="pt">Subtipo clínico</Name>
                                                 </DisorderType>
                                               </Disorder>
-                                              <ClassificationNodeChildList count="0">
+                                              <ClassificationNodeChildList count="2">
+                                                <ClassificationNode>
+                                                  <Disorder id="32042">
+                                                    <OrphaCode>664500</OrphaCode>
+                                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=664500</ExpertLink>
+                                                    <Name lang="pt">Síndrome Hermansky-Pudlak por deficiência AP3B1</Name>
+                                                    <DisorderType id="21450">
+                                                      <Name lang="pt">Subtipo clínico</Name>
+                                                    </DisorderType>
+                                                  </Disorder>
+                                                  <ClassificationNodeChildList count="0">
+                                                  </ClassificationNodeChildList>
+                                                </ClassificationNode>
+                                                <ClassificationNode>
+                                                  <Disorder id="32043">
+                                                    <OrphaCode>664511</OrphaCode>
+                                                    <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=664511</ExpertLink>
+                                                    <Name lang="pt">Síndrome Hermansky-Pudlak grave de início precoce com perda auditiva, por deficiência AP3D1</Name>
+                                                    <DisorderType id="21450">
+                                                      <Name lang="pt">Subtipo clínico</Name>
+                                                    </DisorderType>
+                                                  </Disorder>
+                                                  <ClassificationNodeChildList count="0">
+                                                  </ClassificationNodeChildList>
+                                                </ClassificationNode>
                                               </ClassificationNodeChildList>
                                             </ClassificationNode>
                                             <ClassificationNode>
@@ -4706,7 +4802,7 @@
                                       <Disorder id="25364">
                                         <OrphaCode>487796</OrphaCode>
                                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=487796</ExpertLink>
-                                        <Name lang="pt">Síndrome de macrotrombocitopenia-linfedema-perturbação do desenvolvimento-dismorfia facial-camptodactilia</Name>
+                                        <Name lang="pt">Síndrome Takenouchi-Kosaki</Name>
                                         <DisorderType id="21401">
                                           <Name lang="pt">Síndrome malformativo</Name>
                                         </DisorderType>
@@ -5238,9 +5334,9 @@
                               <Disorder id="3399">
                                 <OrphaCode>2330</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2330</ExpertLink>
-                                <Name lang="pt">Síndrome Kasabach-Merritt</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
+                                <Name lang="pt">Fenómeno Kasabach-Merritt</Name>
+                                <DisorderType id="21429">
+                                  <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5514,7 +5610,7 @@
                               <Disorder id="900">
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=847</ExpertLink>
-                                <Name lang="pt">Síndrome de alfa talassemia-perturbação do desenvolvimento intelectual ligada ao X</Name>
+                                <Name lang="pt">Síndrome de alfa-talassemia-perturbação do desenvolvimento intelectual ligada ao X</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -5526,7 +5622,7 @@
                               <Disorder id="13808">
                                 <OrphaCode>98791</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98791</ExpertLink>
-                                <Name lang="pt">Síndrome de alfa talassemia-perturbação do desenvolvimento intelectual ligada ao cromossoma 16</Name>
+                                <Name lang="pt">Síndrome de alfa-talassemia-perturbação do desenvolvimento intelectual ligada ao cromossoma 16</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pt">Síndrome malformativo</Name>
                                 </DisorderType>
@@ -5538,7 +5634,7 @@
                               <Disorder id="19184">
                                 <OrphaCode>231401</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=231401</ExpertLink>
-                                <Name lang="pt">Talassemia beta - síndrome mielodisplásico</Name>
+                                <Name lang="pt">Alfa-talassemia-síndrome mielodisplásica</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -6205,7 +6301,19 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="6">
+                            <ClassificationNode>
+                              <Disorder id="31963">
+                                <OrphaCode>659672</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=659672</ExpertLink>
+                                <Name lang="pt">Harderoporfiria</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="11303">
                                 <OrphaCode>79277</OrphaCode>
@@ -6470,6 +6578,18 @@
                                 </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11304">
+                                <OrphaCode>79278</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=79278</ExpertLink>
+                                <Name lang="pt">Protoporfiria eritropoiética autossómica</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -6672,7 +6792,7 @@
                   <Disorder id="18195">
                     <OrphaCode>182040</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=182040</ExpertLink>
-                    <Name lang="pt">Aplasia medular</Name>
+                    <Name lang="pt">Anemia aplásica rara</Name>
                     <DisorderType id="36561">
                       <Name lang="pt">Category</Name>
                     </DisorderType>
@@ -6692,7 +6812,7 @@
                           <Disorder id="429">
                             <OrphaCode>124</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=124</ExpertLink>
-                            <Name lang="pt">Doença de Blackfan-Diamond</Name>
+                            <Name lang="pt">Anemia de Diamond-Blackfan</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -7189,7 +7309,7 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="10673">
                                 <OrphaCode>51208</OrphaCode>
@@ -7219,6 +7339,30 @@
                                 <OrphaCode>319651</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=319651</ExpertLink>
                                 <Name lang="pt">Anemia constitucional megaloblástica com doença neurológica grave</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31946">
+                                <OrphaCode>658813</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=658813</ExpertLink>
+                                <Name lang="pt">Imunodeficiência combinada-anemia megaloblástica por deficiência de metilenotetrahidrofolato desidrogenase 1</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31990">
+                                <OrphaCode>661412</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=661412</ExpertLink>
+                                <Name lang="pt">Anemia megaloblástica-imunodeficiência por deficiência do transportador 1 do folato</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>

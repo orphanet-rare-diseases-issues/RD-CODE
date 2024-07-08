@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:54:39" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:57:41" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -894,7 +894,7 @@
                               <Disorder id="23658">
                                 <OrphaCode>454723</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=454723</ExpertLink>
-                                <Name lang="de">Endometriumskarzinom des Ovars</Name>
+                                <Name lang="de">Endometrioides Ovarialkarzinom</Name>
                                 <DisorderType id="21394">
                                   <Name lang="de">Krankheit</Name>
                                 </DisorderType>
@@ -940,7 +940,7 @@
                                   <Disorder id="14485">
                                     <OrphaCode>99912</OrphaCode>
                                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99912</ExpertLink>
-                                    <Name lang="de">Maligner dysgerminomatöser Keimzelltumor des Ovars</Name>
+                                    <Name lang="de">Dysgerminom des Ovars</Name>
                                     <DisorderType id="21394">
                                       <Name lang="de">Krankheit</Name>
                                     </DisorderType>
@@ -1124,7 +1124,7 @@
                           <Disorder id="3384">
                             <OrphaCode>145</OrphaCode>
                             <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=145</ExpertLink>
-                            <Name lang="de">'Brust- und/oder Ovarialkrebssyndrom, hereditäres'</Name>
+                            <Name lang="de">Brust- und/oder Ovarialkrebssyndrom, hereditäres</Name>
                             <DisorderType id="21394">
                               <Name lang="de">Krankheit</Name>
                             </DisorderType>
@@ -1219,7 +1219,7 @@
                   <Name lang="de">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="17">
+              <ClassificationNodeChildList count="19">
                 <ClassificationNode>
                   <Disorder id="5517">
                     <OrphaCode>80</OrphaCode>
@@ -1332,7 +1332,31 @@
                   <Disorder id="31820">
                     <OrphaCode>647823</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=647823</ExpertLink>
-                    <Name lang="de">'Osteoporose, schwangerschaftsassoziierte '</Name>
+                    <Name lang="de">Osteoporose, schwangerschaftsassoziierte</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32015">
+                    <OrphaCode>662721</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=662721</ExpertLink>
+                    <Name lang="de">Placenta accreta-Spektrum-Störung</Name>
+                    <DisorderType id="21394">
+                      <Name lang="de">Krankheit</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32017">
+                    <OrphaCode>662786</OrphaCode>
+                    <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=662786</ExpertLink>
+                    <Name lang="de">Vasa praevia</Name>
                     <DisorderType id="21394">
                       <Name lang="de">Krankheit</Name>
                     </DisorderType>
@@ -1710,7 +1734,7 @@
                               <Disorder id="18092">
                                 <OrphaCode>180111</OrphaCode>
                                 <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=180111</ExpertLink>
-                                <Name lang="de">Bizervikaler Uterus bicornis mit offenem Zervix und Vagina</Name>
+                                <Name lang="de">Bizervikaler Uterus bicornis mit offener Zervix und Vagina</Name>
                                 <DisorderType id="21450">
                                   <Name lang="de">Klinischer Subtyp</Name>
                                 </DisorderType>
@@ -1858,7 +1882,7 @@
                       <Disorder id="3495">
                         <OrphaCode>3411</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3411</ExpertLink>
-                        <Name lang="de">Uterusverdoppelung - Hemivagina - Nierenagenesie</Name>
+                        <Name lang="de">Uterusverdoppelung-Hemivagina-Nierenagenesie-Syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>
@@ -2153,12 +2177,24 @@
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="10839">
                         <OrphaCode>64722</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=64722</ExpertLink>
                         <Name lang="de">Granulomatöse Mastitis</Name>
+                        <DisorderType id="21394">
+                          <Name lang="de">Krankheit</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31906">
+                        <OrphaCode>653698</OrphaCode>
+                        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=653698</ExpertLink>
+                        <Name lang="de">Lymphozytische Mastitis</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -2256,7 +2292,7 @@
                   <Disorder id="12664">
                     <OrphaCode>95709</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95709</ExpertLink>
-                    <Name lang="de">Ovarialinsuffizienz, vorzeitige, erworbene</Name>
+                    <Name lang="de">Seltene vorzeitige erworbene Ovarialinsuffizienz</Name>
                     <DisorderType id="36561">
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
@@ -2292,7 +2328,7 @@
                   <Disorder id="12665">
                     <OrphaCode>95710</OrphaCode>
                     <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95710</ExpertLink>
-                    <Name lang="de">Ovarialinsuffizienz, vorzeitige, nicht-erworbene</Name>
+                    <Name lang="de">Seltene vorzeitige nicht-erworbene Ovarialinsuffizienz</Name>
                     <DisorderType id="36561">
                       <Name lang="de">Kategorie</Name>
                     </DisorderType>
@@ -2446,7 +2482,7 @@
                       <Disorder id="11070">
                         <OrphaCode>75325</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=75325</ExpertLink>
-                        <Name lang="de">Osteosklerose - Ichthyose - vorzeitige Ovarialinsuffizienz</Name>
+                        <Name lang="de">Osteosklerose-Ichthyose-vorzeitige Ovarialinsuffizienz-Syndrom</Name>
                         <DisorderType id="21394">
                           <Name lang="de">Krankheit</Name>
                         </DisorderType>
@@ -3838,7 +3874,7 @@
                       <Disorder id="606">
                         <OrphaCode>1422</OrphaCode>
                         <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1422</ExpertLink>
-                        <Name lang="de">Chondrodysplasie-Störung der Geschlechtsentwicklung-Syndrom</Name>
+                        <Name lang="de">Chondrodysplasie-Variante der Geschlechtsentwicklung-Syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="de">Fehlbildungs-Syndrom</Name>
                         </DisorderType>

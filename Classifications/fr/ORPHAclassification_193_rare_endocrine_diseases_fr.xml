@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:45:06" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:49:54" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -747,7 +747,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -765,6 +765,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99880</ExpertLink>
                             <Name lang="fr">Syndrome d'hyperparathyroïdie-tumeur mandibulaire</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=652</ExpertLink>
+                            <Name lang="fr">Néoplasie endocrinienne multiple type 1</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -1155,7 +1167,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="3">
                         <ClassificationNode>
                           <Disorder id="14452">
                             <OrphaCode>99879</OrphaCode>
@@ -1173,6 +1185,18 @@
                             <OrphaCode>99880</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99880</ExpertLink>
                             <Name lang="fr">Syndrome d'hyperparathyroïdie-tumeur mandibulaire</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="121">
+                            <OrphaCode>652</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=652</ExpertLink>
+                            <Name lang="fr">Néoplasie endocrinienne multiple type 1</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -1215,7 +1239,7 @@
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="3719">
                             <OrphaCode>1652</OrphaCode>
@@ -1243,6 +1267,54 @@
                                 <OrphaCode>93623</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93623</ExpertLink>
                                 <Name lang="fr">Maladie de Dent type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="11">
+                            <OrphaCode>213</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=213</ExpertLink>
+                            <Name lang="fr">Cystinose</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="3">
+                            <ClassificationNode>
+                              <Disorder id="23024">
+                                <OrphaCode>411634</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=411634</ExpertLink>
+                                <Name lang="fr">Cystinose néphropathique juvénile</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23025">
+                                <OrphaCode>411641</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=411641</ExpertLink>
+                                <Name lang="fr">Cystinose oculaire</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="23023">
+                                <OrphaCode>411629</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=411629</ExpertLink>
+                                <Name lang="fr">Cystinose néphropathique infantile</Name>
                                 <DisorderType id="21450">
                                   <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
@@ -1517,7 +1589,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="36">
+                  <ClassificationNodeChildList count="37">
                     <ClassificationNode>
                       <Disorder id="387">
                         <OrphaCode>819</OrphaCode>
@@ -2135,6 +2207,18 @@
                         <OrphaCode>464288</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=464288</ExpertLink>
                         <Name lang="fr">Syndrome de petite taille-brachydactylie-obésité-retard global de développement</Name>
+                        <DisorderType id="21401">
+                          <Name lang="fr">Syndrome  malformatif</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31892">
+                        <OrphaCode>652487</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=652487</ExpertLink>
+                        <Name lang="fr">Syndrome de retard du développement-surpoids-dysmorphie faciale-troubles du comportement</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -3936,7 +4020,7 @@
                   <Disorder id="12664">
                     <OrphaCode>95709</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95709</ExpertLink>
-                    <Name lang="fr">Insuffisance ovarienne précoce acquise</Name>
+                    <Name lang="fr">Insuffisance ovarienne précoce acquise rare</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -3972,7 +4056,7 @@
                   <Disorder id="12665">
                     <OrphaCode>95710</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95710</ExpertLink>
-                    <Name lang="fr">Insuffisance ovarienne précoce non acquise</Name>
+                    <Name lang="fr">Insuffisance ovarienne précoce non acquise rare</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -4394,7 +4478,7 @@
               <Disorder id="12085">
                 <OrphaCode>90771</OrphaCode>
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90771</ExpertLink>
-                <Name lang="fr">Anomalie du développement sexuel</Name>
+                <Name lang="fr">Différence du développement sexuel</Name>
                 <DisorderType id="36561">
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
@@ -4404,7 +4488,7 @@
                   <Disorder id="569">
                     <OrphaCode>2982</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2982</ExpertLink>
-                    <Name lang="fr">Anomalie du développement sexuel 46,XX</Name>
+                    <Name lang="fr">Différence du développement sexuel 46,XX</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -4414,7 +4498,7 @@
                       <Disorder id="13096">
                         <OrphaCode>98078</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98078</ExpertLink>
-                        <Name lang="fr">Anomalie du développement sexuel 46,XX induite par un excès d'androgènes</Name>
+                        <Name lang="fr">Différence du développement sexuel 46,XX induite par un excès d'androgènes</Name>
                         <DisorderType id="36561">
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
@@ -4424,7 +4508,7 @@
                           <Disorder id="12087">
                             <OrphaCode>90776</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90776</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XX due à un excès d'androgènes foetal</Name>
+                            <Name lang="fr">Différence du développement sexuel 46,XX due à un excès d'androgènes foetal</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -4532,7 +4616,7 @@
                           <Disorder id="12119">
                             <OrphaCode>91144</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=91144</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XX due aux androgènes d'origine maternelle</Name>
+                            <Name lang="fr">Différence du développement sexuel 46,XX due aux androgènes d'origine maternelle</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -4542,7 +4626,7 @@
                               <Disorder id="21829">
                                 <OrphaCode>325093</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325093</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XX due aux androgènes d'origine maternelle endogène</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XX due aux androgènes d'origine maternelle endogène</Name>
                                 <DisorderType id="21436">
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
@@ -4554,7 +4638,7 @@
                               <Disorder id="21830">
                                 <OrphaCode>325099</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325099</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XX due aux androgènes d'origine maternelle exogène</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XX due aux androgènes d'origine maternelle exogène</Name>
                                 <DisorderType id="21436">
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
@@ -4568,7 +4652,7 @@
                           <Disorder id="21828">
                             <OrphaCode>325061</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325061</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XX par excès d'androgènes foetoplacentaire</Name>
+                            <Name lang="fr">Différence du développement sexuel 46,XX par excès d'androgènes foetoplacentaire</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -4616,7 +4700,7 @@
                           <Disorder id="2037">
                             <OrphaCode>2138</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2138</ExpertLink>
-                            <Name lang="fr">Anomalie ovotesticulaire du développement sexuel 46,XX</Name>
+                            <Name lang="fr">Différence ovotesticulaire du développement sexuel 46,XX</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -4628,7 +4712,7 @@
                           <Disorder id="5546">
                             <OrphaCode>393</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=393</ExpertLink>
-                            <Name lang="fr">Anomalie testiculaire du développement sexuel 46,XX</Name>
+                            <Name lang="fr">Différence testiculaire du développement sexuel 46,XX</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -4654,7 +4738,7 @@
                       <Disorder id="21831">
                         <OrphaCode>325109</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325109</ExpertLink>
-                        <Name lang="fr">Syndrome avec une anomalie du développement sexuel 46,XX</Name>
+                        <Name lang="fr">Syndrome avec une différence du développement sexuel 46,XX</Name>
                         <DisorderType id="36561">
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
@@ -4712,7 +4796,7 @@
                           <Disorder id="2679">
                             <OrphaCode>2973</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2973</ExpertLink>
-                            <Name lang="fr">Syndrome d'anomalie du développement sexuel 46,XX-anomalies anorectales</Name>
+                            <Name lang="fr">Syndrome de différence du développement sexuel 46,XX-anomalies anorectales</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -4724,7 +4808,7 @@
                           <Disorder id="2681">
                             <OrphaCode>2975</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2975</ExpertLink>
-                            <Name lang="fr">Syndrome d'anomalie du développement sexuel 46,XX-anomalies squelettiques</Name>
+                            <Name lang="fr">Syndrome de différence du développement sexuel 46,XX-différences squelettiques</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -4788,7 +4872,7 @@
                   <Disorder id="13103">
                     <OrphaCode>98085</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98085</ExpertLink>
-                    <Name lang="fr">Anomalie du développement sexuel 46,XY</Name>
+                    <Name lang="fr">Différence du développement sexuel 46,XY</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -4810,7 +4894,7 @@
                       <Disorder id="13105">
                         <OrphaCode>98087</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98087</ExpertLink>
-                        <Name lang="fr">Syndrome avec anomalie du développement sexuel 46,XY</Name>
+                        <Name lang="fr">Syndrome avec différence du développement sexuel 46,XY</Name>
                         <DisorderType id="36561">
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
@@ -4856,7 +4940,7 @@
                           <Disorder id="570">
                             <OrphaCode>2983</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2983</ExpertLink>
-                            <Name lang="fr">Syndrome d'anomalie du développement sexuel-déficience intellectuelle</Name>
+                            <Name lang="fr">Syndrome différence du développement sexuel-déficience intellectuelle</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -4868,7 +4952,7 @@
                           <Disorder id="606">
                             <OrphaCode>1422</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1422</ExpertLink>
-                            <Name lang="fr">Syndrome de chondrodysplasie-anomalie du développement sexuel</Name>
+                            <Name lang="fr">Syndrome de chondrodysplasie-différence du développement sexuel</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -4916,7 +5000,7 @@
                           <Disorder id="2151">
                             <OrphaCode>2282</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2282</ExpertLink>
-                            <Name lang="fr">Syndrome de dysmorphie-petite taille-surdité-anomalie du développement sexuel</Name>
+                            <Name lang="fr">Syndrome de dysmorphie-petite taille-surdité-différence du développement sexuel</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -5108,7 +5192,7 @@
                           <Disorder id="21838">
                             <OrphaCode>325345</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325345</ExpertLink>
-                            <Name lang="fr">Anomalies ovotesticulaires du développement sexuel 46,XY</Name>
+                            <Name lang="fr">Différence ovotesticulaire du développement sexuel 46,XY</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -5122,7 +5206,7 @@
                       <Disorder id="21839">
                         <OrphaCode>325351</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325351</ExpertLink>
-                        <Name lang="fr">Anomalie du développement sexuel 46,XY d'origine endocrine</Name>
+                        <Name lang="fr">Différence du développement sexuel 46,XY d'origine endocrine</Name>
                         <DisorderType id="36561">
                           <Name lang="fr">Catégorie</Name>
                         </DisorderType>
@@ -5180,7 +5264,7 @@
                           <Disorder id="21840">
                             <OrphaCode>325357</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325357</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de production d'androgènes</Name>
+                            <Name lang="fr">Différence du développement sexuel 46,XY par défaut de production d'androgènes</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -5238,7 +5322,7 @@
                               <Disorder id="12089">
                                 <OrphaCode>90783</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90783</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de synthèse de testostérone</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XY par défaut de synthèse de testostérone</Name>
                                 <DisorderType id="36561">
                                   <Name lang="fr">Catégorie</Name>
                                 </DisorderType>
@@ -5248,7 +5332,7 @@
                                   <Disorder id="12090">
                                     <OrphaCode>90786</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90786</ExpertLink>
-                                    <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de la stéroïdogenèse surrénalienne et testiculaire</Name>
+                                    <Name lang="fr">Différence du développement sexuel 46,XY par défaut de la stéroïdogenèse surrénalienne et testiculaire</Name>
                                     <DisorderType id="36561">
                                       <Name lang="fr">Catégorie</Name>
                                     </DisorderType>
@@ -5330,7 +5414,7 @@
                                       <Disorder id="17771">
                                         <OrphaCode>168558</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168558</ExpertLink>
-                                        <Name lang="fr">Anomalie du développement sexuel 46,XY-insuffisance surrénalienne par déficit en CYP11A1</Name>
+                                        <Name lang="fr">Différence du développement sexuel 46,XY-insuffisance surrénalienne par déficit en CYP11A1</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -5356,7 +5440,7 @@
                                   <Disorder id="12091">
                                     <OrphaCode>90787</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90787</ExpertLink>
-                                    <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de la stéroïdogenèse testiculaire</Name>
+                                    <Name lang="fr">Différence du développement sexuel 46,XY par défaut de la stéroïdogenèse testiculaire</Name>
                                     <DisorderType id="36561">
                                       <Name lang="fr">Catégorie</Name>
                                     </DisorderType>
@@ -5366,7 +5450,7 @@
                                       <Disorder id="203">
                                         <OrphaCode>752</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=752</ExpertLink>
-                                        <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit en 17-bêta-hydroxystéroïde déshydrogénase 3</Name>
+                                        <Name lang="fr">Différence du développement sexuel 46,XY par déficit en 17-bêta-hydroxystéroïde déshydrogénase 3</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -5378,7 +5462,7 @@
                                       <Disorder id="12099">
                                         <OrphaCode>90796</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90796</ExpertLink>
-                                        <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit isolé en 17,20-lyase</Name>
+                                        <Name lang="fr">Différence du développement sexuel 46,XY par déficit isolé en 17,20-lyase</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -5392,7 +5476,7 @@
                                   <Disorder id="21842">
                                     <OrphaCode>325511</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325511</ExpertLink>
-                                    <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de synthèse du cholestérol</Name>
+                                    <Name lang="fr">Différence du développement sexuel 46,XY par défaut de synthèse du cholestérol</Name>
                                     <DisorderType id="36561">
                                       <Name lang="fr">Catégorie</Name>
                                     </DisorderType>
@@ -5418,7 +5502,7 @@
                               <Disorder id="13104">
                                 <OrphaCode>98086</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98086</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XY associée à un défaut du métabolisme périphérique de testostérone</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XY associée à un défaut du métabolisme périphérique de testostérone</Name>
                                 <DisorderType id="36561">
                                   <Name lang="fr">Catégorie</Name>
                                 </DisorderType>
@@ -5428,7 +5512,7 @@
                                   <Disorder id="324">
                                     <OrphaCode>753</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=753</ExpertLink>
-                                    <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit en 5-alpha-réductase de type 2</Name>
+                                    <Name lang="fr">Différence du développement sexuel 46,XY par déficit en 5-alpha-réductase de type 2</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -5442,7 +5526,7 @@
                               <Disorder id="23441">
                                 <OrphaCode>443090</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443090</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XY par défaut de la voie alterne de la biosynthèse de la dihydrotestosterone</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XY par défaut de la voie alterne de la biosynthèse de la dihydrotestosterone</Name>
                                 <DisorderType id="36561">
                                   <Name lang="fr">Catégorie</Name>
                                 </DisorderType>
@@ -5452,7 +5536,7 @@
                                   <Disorder id="23440">
                                     <OrphaCode>443087</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=443087</ExpertLink>
-                                    <Name lang="fr">Anomalie du développement sexuel 46,XY par déficit en 17,20-desmolase testiculaire</Name>
+                                    <Name lang="fr">Différence du développement sexuel 46,XY par déficit en 17,20-desmolase testiculaire</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -5468,7 +5552,7 @@
                           <Disorder id="21845">
                             <OrphaCode>325537</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325537</ExpertLink>
-                            <Name lang="fr">Anomalie du développement sexuel 46,XY par exposition maternelle à des perturbateurs endocriniens</Name>
+                            <Name lang="fr">Différence du développement sexuel 46,XY par exposition maternelle à des perturbateurs endocriniens</Name>
                             <DisorderType id="36561">
                               <Name lang="fr">Catégorie</Name>
                             </DisorderType>
@@ -5484,7 +5568,7 @@
                   <Disorder id="21846">
                     <OrphaCode>325546</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=325546</ExpertLink>
-                    <Name lang="fr">Anomalie du développement sexuel due à une anomalie des chromosomes sexuels</Name>
+                    <Name lang="fr">Différence du développement sexuel due à une différence des chromosomes sexuels</Name>
                     <DisorderType id="36561">
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
@@ -6401,7 +6485,7 @@
                       <Name lang="fr">Catégorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="849">
                         <OrphaCode>3198</OrphaCode>
@@ -6515,18 +6599,6 @@
                         <OrphaCode>2596</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2596</ExpertLink>
                         <Name lang="fr">Syndrome de myopathie-diabète sucré</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="7037">
-                        <OrphaCode>225</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=225</ExpertLink>
-                        <Name lang="fr">Diabète-surdité de transmission maternelle</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -7590,7 +7662,7 @@
                               <Disorder id="17771">
                                 <OrphaCode>168558</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168558</ExpertLink>
-                                <Name lang="fr">Anomalie du développement sexuel 46,XY-insuffisance surrénalienne par déficit en CYP11A1</Name>
+                                <Name lang="fr">Différence du développement sexuel 46,XY-insuffisance surrénalienne par déficit en CYP11A1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -9432,7 +9504,7 @@
                   <Disorder id="22628">
                     <OrphaCode>391487</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=391487</ExpertLink>
-                    <Name lang="fr">Syndrome d'entéropathie et endocrinopathie auto-immunes-susceptibilité aux infections chroniques</Name>
+                    <Name lang="fr">Syndrome d'entéropathie et endocrinopathie auto-immunes-susceptibilité aux infections chroniques associé à STAT1</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -10978,7 +11050,7 @@
                       <Disorder id="17999">
                         <OrphaCode>178029</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=178029</ExpertLink>
-                        <Name lang="fr">Diabète insipide d'origine centrale</Name>
+                        <Name lang="fr">Déficit en arginine vasopressine</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -10988,7 +11060,7 @@
                           <Disorder id="9283">
                             <OrphaCode>30925</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=30925</ExpertLink>
-                            <Name lang="fr">Diabète insipide central héréditaire</Name>
+                            <Name lang="fr">Déficit héréditaire en arginine vasopressine</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -11000,7 +11072,7 @@
                           <Disorder id="12650">
                             <OrphaCode>95626</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95626</ExpertLink>
-                            <Name lang="fr">Diabète insipide central acquis</Name>
+                            <Name lang="fr">Déficit acquis en arginine vasopressine</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>

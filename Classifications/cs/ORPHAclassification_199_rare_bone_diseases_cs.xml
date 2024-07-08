@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2023-06-21 18:11:22" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 12:43:58" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="cs">Kategorie</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="10">
+          <ClassificationNodeChildList count="11">
             <ClassificationNode>
               <Disorder id="10552">
                 <OrphaCode>68411</OrphaCode>
@@ -283,7 +283,7 @@
                   <Name lang="cs">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="18">
+              <ClassificationNodeChildList count="19">
                 <ClassificationNode>
                   <Disorder id="3">
                     <OrphaCode>61</OrphaCode>
@@ -764,6 +764,30 @@
                     </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32001">
+                    <OrphaCode>662216</OrphaCode>
+                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=662216</ExpertLink>
+                    <Name lang="en">Mucopolysaccharidosis type 10</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="17787">
+                <OrphaCode>168621</OrphaCode>
+                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=168621</ExpertLink>
+                <Name lang="cs">Dysplázie hlavice femuru, Meyerův typ</Name>
+                <DisorderType id="21394">
+                  <Name lang="cs">Onemocnění</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -895,19 +919,7 @@
                   <Name lang="cs">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="27">
-                <ClassificationNode>
-                  <Disorder id="25395">
-                    <OrphaCode>488265</OrphaCode>
-                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=488265</ExpertLink>
-                    <Name lang="cs">Osteofibrózní dysplázie</Name>
-                    <DisorderType id="21394">
-                      <Name lang="cs">Onemocnění</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
+              <ClassificationNodeChildList count="26">
                 <ClassificationNode>
                   <Disorder id="25912">
                     <OrphaCode>498445</OrphaCode>
@@ -1063,6 +1075,54 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31953">
+                        <OrphaCode>659387</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=659387</ExpertLink>
+                        <Name lang="cs">Spektrum nadměrného vzrůstu související s komplexem PRC-2</Name>
+                        <DisorderType id="21436">
+                          <Name lang="cs">Klinická skupina</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="3">
+                        <ClassificationNode>
+                          <Disorder id="604">
+                            <OrphaCode>3447</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3447</ExpertLink>
+                            <Name lang="cs">Weaverův syndrom</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31955">
+                            <OrphaCode>659396</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=659396</ExpertLink>
+                            <Name lang="cs">Cohenové-Gibsonův syndrom</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="31957">
+                            <OrphaCode>659463</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=659463</ExpertLink>
+                            <Name lang="cs">Imagawové-Matsumotův syndrom</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="109">
                         <OrphaCode>558</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=558</ExpertLink>
@@ -1096,18 +1156,6 @@
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="604">
-                        <OrphaCode>3447</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3447</ExpertLink>
-                        <Name lang="cs">Weaverův syndrom</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -1445,12 +1493,24 @@
                       <Name lang="cs">Klinická skupina</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="59">
+                  <ClassificationNodeChildList count="61">
+                    <ClassificationNode>
+                      <Disorder id="32028">
+                        <OrphaCode>664377</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=664377</ExpertLink>
+                        <Name lang="en">MGP-related spondyloepiphyseal dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="31731">
                         <OrphaCode>642099</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642099</ExpertLink>
-                        <Name lang="en">Spondyloepimetaphyseal dysplasia with joint laxity, Beighton type</Name>
+                        <Name lang="cs">Spondyloepimetafyzární dysplázie s kloubní laxicitou, Beightonův typ</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -1465,6 +1525,18 @@
                         <Name lang="cs">CODAS syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="2024">
+                        <OrphaCode>2114</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2114</ExpertLink>
+                        <Name lang="cs">Dysplázie kyčelního kloubu, typ Beukesových</Name>
+                        <DisorderType id="21394">
+                          <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -2122,7 +2194,7 @@
                       <Disorder id="31730">
                         <OrphaCode>642085</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642085</ExpertLink>
-                        <Name lang="en">Spondyloepimetaphyseal dysplasia with joint laxity, EXOC6B type</Name>
+                        <Name lang="cs">Spondyloepimetafyzární dysplázie s kloubní laxicitou, typ EXOC6B</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -2561,7 +2633,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="6">
+                  <ClassificationNodeChildList count="4">
                     <ClassificationNode>
                       <Disorder id="1809">
                         <OrphaCode>251</OrphaCode>
@@ -2571,7 +2643,7 @@
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="10">
+                      <ClassificationNodeChildList count="9">
                         <ClassificationNode>
                           <Disorder id="12244">
                             <OrphaCode>93307</OrphaCode>
@@ -2613,18 +2685,6 @@
                             <OrphaCode>166002</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166002</ExpertLink>
                             <Name lang="cs">Mnohočetná epifyzární dysplázie způsobená anomálií kolagenu 9</Name>
-                            <DisorderType id="21394">
-                              <Name lang="cs">Onemocnění</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17598">
-                            <OrphaCode>166011</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166011</ExpertLink>
-                            <Name lang="cs">Mnohočetná epifyzární dysplázie, Beightonův typ</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -2684,7 +2744,7 @@
                           <Disorder id="31807">
                             <OrphaCode>647676</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647676</ExpertLink>
-                            <Name lang="en">Multiple epiphyseal dysplasia type 7</Name>
+                            <Name lang="cs">Mnohočetná epifyzární dysplázie, typ 7</Name>
                             <DisorderType id="21394">
                               <Name lang="cs">Onemocnění</Name>
                             </DisorderType>
@@ -2707,34 +2767,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="2024">
-                        <OrphaCode>2114</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2114</ExpertLink>
-                        <Name lang="cs">Dysplázie kyčelního kloubu, typ Beukesových</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="2676">
                         <OrphaCode>750</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=750</ExpertLink>
                         <Name lang="cs">Pseudoachondroplázie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="17787">
-                        <OrphaCode>168621</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=168621</ExpertLink>
-                        <Name lang="cs">Dysplázie hlavice femuru, Meyerův typ</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -2765,7 +2801,7 @@
                       <Name lang="cs">Klinická skupina</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="11">
                     <ClassificationNode>
                       <Disorder id="1346">
                         <OrphaCode>1040</OrphaCode>
@@ -2785,18 +2821,6 @@
                         <Name lang="cs">Eikenův syndrom</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1486">
-                        <OrphaCode>1240</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1240</ExpertLink>
-                        <Name lang="cs">Metafyzární akroskyfodysplázie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -3185,7 +3209,7 @@
                       <Name lang="cs">Klinická skupina</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="15">
+                  <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="31467">
                         <OrphaCode>623695</OrphaCode>
@@ -3227,18 +3251,6 @@
                         <OrphaCode>950</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=950</ExpertLink>
                         <Name lang="cs">Akrodysostóza</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1270">
-                        <OrphaCode>1795</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1795</ExpertLink>
-                        <Name lang="cs">Periferní dysostóza</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -3521,7 +3533,7 @@
                       <Name lang="cs">Klinická skupina</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="24">
+                  <ClassificationNodeChildList count="23">
                     <ClassificationNode>
                       <Disorder id="1043">
                         <OrphaCode>240</OrphaCode>
@@ -3539,18 +3551,6 @@
                         <OrphaCode>1453</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1453</ExpertLink>
                         <Name lang="cs">Kleidorhizomelický syndrom</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1776">
-                        <OrphaCode>1765</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1765</ExpertLink>
-                        <Name lang="cs">Syndrom zahrnující dyschondrosteózu a nefritidu</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -3871,6 +3871,18 @@
                   </Disorder>
                   <ClassificationNodeChildList count="9">
                     <ClassificationNode>
+                      <Disorder id="31925">
+                        <OrphaCode>656283</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=656283</ExpertLink>
+                        <Name lang="cs">Autozomálně recesivní kombinovaná imunodeficience způsobená kompletním deficitem IL6ST</Name>
+                        <DisorderType id="21394">
+                          <Name lang="cs">Onemocnění</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="933">
                         <OrphaCode>140</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=140</ExpertLink>
@@ -3899,18 +3911,6 @@
                         <OrphaCode>1801</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1801</ExpertLink>
                         <Name lang="cs">Kyfomelická dysplázie</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="2421">
-                        <OrphaCode>2646</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2646</ExpertLink>
-                        <Name lang="cs">Parastrematické trpaslictví</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -3971,8 +3971,8 @@
                         <OrphaCode>324307</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=324307</ExpertLink>
                         <Name lang="cs">Syndrom zahrnující těžké laterální prohnutí holenní kosti, nízký vzrůst, mírně odstávající lopatku a mírnou faciální dysmorfii</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
+                        <DisorderType id="21401">
+                          <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -4450,7 +4450,7 @@
                       <Disorder id="31731">
                         <OrphaCode>642099</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642099</ExpertLink>
-                        <Name lang="en">Spondyloepimetaphyseal dysplasia with joint laxity, Beighton type</Name>
+                        <Name lang="cs">Spondyloepimetafyzární dysplázie s kloubní laxicitou, Beightonův typ</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -4462,7 +4462,7 @@
                       <Disorder id="31730">
                         <OrphaCode>642085</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=642085</ExpertLink>
-                        <Name lang="en">Spondyloepimetaphyseal dysplasia with joint laxity, EXOC6B type</Name>
+                        <Name lang="cs">Spondyloepimetafyzární dysplázie s kloubní laxicitou, typ EXOC6B</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -4661,19 +4661,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="30">
-                    <ClassificationNode>
-                      <Disorder id="10698">
-                        <OrphaCode>52430</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=52430</ExpertLink>
-                        <Name lang="cs">Myopatie s inkluzními tělísky s Pagetovou kostní chorobou a frontotemporální demencí</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="27">
                     <ClassificationNode>
                       <Disorder id="556">
                         <OrphaCode>2801</OrphaCode>
@@ -4715,18 +4703,6 @@
                         <OrphaCode>1522</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1522</ExpertLink>
                         <Name lang="cs">Kraniometafyzární dysplázie</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1715">
-                        <OrphaCode>1562</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1562</ExpertLink>
-                        <Name lang="cs">Syndrom zahrnující dakryocystitidu a osteopoikilózu</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -4858,7 +4834,7 @@
                       <Disorder id="31802">
                         <OrphaCode>646139</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=646139</ExpertLink>
-                        <Name lang="en">Dysplastic cortical hyperostosis</Name>
+                        <Name lang="cs">Dysplastická kortikální hyperostóza</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -4868,7 +4844,7 @@
                           <Disorder id="3175">
                             <OrphaCode>2204</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2204</ExpertLink>
-                            <Name lang="cs">Dysplastická kortikální hyperostóza</Name>
+                            <Name lang="cs">Dysplastická kortikální hyperostóza, typ Kozlowski-Tsuruta</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -4880,7 +4856,7 @@
                           <Disorder id="31801">
                             <OrphaCode>646136</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=646136</ExpertLink>
-                            <Name lang="en">Dysplastic cortical hyperostosis, Al-Gazali type</Name>
+                            <Name lang="cs">Dysplastická kortikální hyperostóza, typu Al-Gazali</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -4894,7 +4870,7 @@
                       <Disorder id="3700">
                         <OrphaCode>2781</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2781</ExpertLink>
-                        <Name lang="cs">Osteopetróza</Name>
+                        <Name lang="cs">Osteopetróza a související poruchy</Name>
                         <DisorderType id="21436">
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
@@ -5339,18 +5315,6 @@
                         <OrphaCode>443098</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=443098</ExpertLink>
                         <Name lang="cs">Nitrolební hyperostóza</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21937">
-                        <OrphaCode>329475</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329475</ExpertLink>
-                        <Name lang="cs">Syndrom zahrnující spastickou paraplegii a Pagetovu nemoc kostí</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -6025,7 +5989,55 @@
                               <Name lang="cs">Klinická skupina</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="6">
+                          <ClassificationNodeChildList count="7">
+                            <ClassificationNode>
+                              <Disorder id="11">
+                                <OrphaCode>213</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=213</ExpertLink>
+                                <Name lang="cs">Cystinóza</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="cs">Onemocnění</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="3">
+                                <ClassificationNode>
+                                  <Disorder id="23023">
+                                    <OrphaCode>411629</OrphaCode>
+                                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411629</ExpertLink>
+                                    <Name lang="cs">Infantilní nefropatická cystinóza</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="cs">Klinický podtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23024">
+                                    <OrphaCode>411634</OrphaCode>
+                                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411634</ExpertLink>
+                                    <Name lang="cs">Juvenilní nefropatická cystinóza</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="cs">Klinický podtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="23025">
+                                    <OrphaCode>411641</OrphaCode>
+                                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411641</ExpertLink>
+                                    <Name lang="cs">Okulární cystinóza</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="cs">Klinický podtyp</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="19477">
                                 <OrphaCode>244305</OrphaCode>
@@ -6178,7 +6190,7 @@
                       <Disorder id="31806">
                         <OrphaCode>647667</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647667</ExpertLink>
-                        <Name lang="en">Mandibuloacral dysplasia associated to MTX2</Name>
+                        <Name lang="cs">Mandibuloakrální dysplázie spojená s MTX2</Name>
                         <DisorderType id="21401">
                           <Name lang="cs">Malformační syndrom</Name>
                         </DisorderType>
@@ -6389,7 +6401,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="27">
+                  <ClassificationNodeChildList count="25">
                     <ClassificationNode>
                       <Disorder id="8684">
                         <OrphaCode>73</OrphaCode>
@@ -6667,18 +6679,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="10698">
-                        <OrphaCode>52430</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=52430</ExpertLink>
-                        <Name lang="cs">Myopatie s inkluzními tělísky s Pagetovou kostní chorobou a frontotemporální demencí</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="10739">
                         <OrphaCode>53697</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=53697</ExpertLink>
@@ -6751,18 +6751,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="14220">
-                        <OrphaCode>99647</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99647</ExpertLink>
-                        <Name lang="cs">Cheirospondyloenchondromatóza</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="17509">
                         <OrphaCode>163634</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=163634</ExpertLink>
@@ -6775,10 +6763,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="21937">
-                        <OrphaCode>329475</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329475</ExpertLink>
-                        <Name lang="cs">Syndrom zahrnující spastickou paraplegii a Pagetovu nemoc kostí</Name>
+                      <Disorder id="25395">
+                        <OrphaCode>488265</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=488265</ExpertLink>
+                        <Name lang="cs">Osteofibrózní dysplázie</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -7216,18 +7204,6 @@
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="62">
-                        <ClassificationNode>
-                          <Disorder id="10880">
-                            <OrphaCode>65798</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=65798</ExpertLink>
-                            <Name lang="cs">Goodmanův syndrom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="244">
                             <OrphaCode>207</OrphaCode>
@@ -7741,7 +7717,7 @@
                               <Name lang="cs">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="7">
+                          <ClassificationNodeChildList count="8">
                             <ClassificationNode>
                               <Disorder id="131">
                                 <OrphaCode>580</OrphaCode>
@@ -7836,6 +7812,18 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32001">
+                                <OrphaCode>662216</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=662216</ExpertLink>
+                                <Name lang="en">Mucopolysaccharidosis type 10</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="cs">Onemocnění</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -8021,18 +8009,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="2865">
-                            <OrphaCode>3210</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3210</ExpertLink>
-                            <Name lang="cs">Summittův syndrom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="22433">
                             <OrphaCode>369837</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=369837</ExpertLink>
@@ -8180,7 +8156,7 @@
                           <Disorder id="31808">
                             <OrphaCode>647681</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647681</ExpertLink>
-                            <Name lang="en">Craniosynostosis-facial dysmorphism-Chiari-1 malformation-developmental and language delay syndrome</Name>
+                            <Name lang="cs">Syndrom zahrnující kraniosynostózu, faciální dysmorfii, Chiariho malformaci typu 1 a opoždění vývoje a řeči</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -8193,6 +8169,30 @@
                             <OrphaCode>565858</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=565858</ExpertLink>
                             <Name lang="cs">Syndrom zahrnující kraniosynostózu, mikroretrognatii a těžké mentální postižení</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32075">
+                            <OrphaCode>672979</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=672979</ExpertLink>
+                            <Name lang="en">Craniosynostosis-facial dysmorphism-brachydactyly syndrome</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32076">
+                            <OrphaCode>672985</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=672985</ExpertLink>
+                            <Name lang="en">Craniosynostosis-skeletal and cerebellar anomalies-learning disabilities syndrome</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -8396,7 +8396,7 @@
                           <Disorder id="1686">
                             <OrphaCode>1519</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1519</ExpertLink>
-                            <Name lang="cs">Hypertelorismus, Teebiho typ</Name>
+                            <Name lang="cs">Syndrom hypertelorismu spojený se SPECC1L</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -8607,7 +8607,7 @@
                           <Name lang="cs">Klinická skupina</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="14">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="2506">
                             <OrphaCode>2750</OrphaCode>
@@ -8625,18 +8625,6 @@
                             <OrphaCode>2751</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2751</ExpertLink>
                             <Name lang="cs">Orofaciodigitální syndrom, typ 2</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2508">
-                            <OrphaCode>2752</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2752</ExpertLink>
-                            <Name lang="cs">Orofaciodigitální syndrom, typ 3</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -8693,18 +8681,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="3165">
-                            <OrphaCode>2756</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2756</ExpertLink>
-                            <Name lang="cs">Orofaciodigitální syndrom, typ 10</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="17017">
                             <OrphaCode>141000</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141000</ExpertLink>
@@ -8721,30 +8697,6 @@
                             <OrphaCode>141007</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141007</ExpertLink>
                             <Name lang="cs">Orofaciodigitální syndrom, typ 9</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17078">
-                            <OrphaCode>141327</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141327</ExpertLink>
-                            <Name lang="cs">Orofaciodigitální syndrom, typ 12</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17079">
-                            <OrphaCode>141330</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141330</ExpertLink>
-                            <Name lang="cs">Orofaciodigitální syndrom, typ 13</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -8893,24 +8845,12 @@
                               <Name lang="cs">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="3">
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
                               <Disorder id="237">
                                 <OrphaCode>107</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=107</ExpertLink>
                                 <Name lang="cs">BOR syndrom</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="218">
-                                <OrphaCode>857</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=857</ExpertLink>
-                                <Name lang="cs">Townesův-Brocksův syndrom</Name>
                                 <DisorderType id="21401">
                                   <Name lang="cs">Malformační syndrom</Name>
                                 </DisorderType>
@@ -8969,7 +8909,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="21">
+                  <ClassificationNodeChildList count="19">
                     <ClassificationNode>
                       <Disorder id="1042">
                         <OrphaCode>2311</OrphaCode>
@@ -9131,30 +9071,6 @@
                         <OrphaCode>85164</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=85164</ExpertLink>
                         <Name lang="cs">Syndrom zahrnující kamptodaktylii, velký vzrůst, skoliózu a ztrátu sluchu</Name>
-                        <DisorderType id="21394">
-                          <Name lang="cs">Onemocnění</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11658">
-                        <OrphaCode>85200</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=85200</ExpertLink>
-                        <Name lang="cs">Ischiovertebrální syndrom</Name>
-                        <DisorderType id="21401">
-                          <Name lang="cs">Malformační syndrom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="20065">
-                        <OrphaCode>263508</OrphaCode>
-                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=263508</ExpertLink>
-                        <Name lang="cs">COG1-CDG</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -9411,7 +9327,7 @@
                           <Name lang="cs">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="13">
+                      <ClassificationNodeChildList count="12">
                         <ClassificationNode>
                           <Disorder id="1864">
                             <OrphaCode>1896</OrphaCode>
@@ -9537,18 +9453,6 @@
                             <OrphaCode>2439</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2439</ExpertLink>
                             <Name lang="cs">Pattersonův-Stevensonův-Fontaineův syndrom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2609">
-                            <OrphaCode>2878</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2878</ExpertLink>
-                            <Name lang="cs">Syndrom zahrnující fokomelii, ektrodaktylii, hluchotu a sinusovou arytmii</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -9817,7 +9721,7 @@
                               <Name lang="cs">Kategorie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="23">
+                          <ClassificationNodeChildList count="21">
                             <ClassificationNode>
                               <Disorder id="29437">
                                 <OrphaCode>589608</OrphaCode>
@@ -9835,30 +9739,6 @@
                                 <OrphaCode>166035</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166035</ExpertLink>
                                 <Name lang="cs">Metafyzární chondrodysplázie s retinitis pigmentosa</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="22382">
-                                <OrphaCode>364577</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=364577</ExpertLink>
-                                <Name lang="cs">Syndrom zahrnující mentální retardaci, brachydaktylii a Pierre Robinovu anomálii</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="23479">
-                                <OrphaCode>444077</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=444077</ExpertLink>
-                                <Name lang="cs">Syndrom zahrnující kognitivní poruchu, hrubé rysy obličeje, srdeční defekty, obezitu, plicní poruchu, nízký vzrůst a skeletální dysplázii</Name>
                                 <DisorderType id="21401">
                                   <Name lang="cs">Malformační syndrom</Name>
                                 </DisorderType>
@@ -10417,7 +10297,7 @@
                               <Name lang="cs">Klinická skupina</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="6">
                             <ClassificationNode>
                               <Disorder id="20937">
                                 <OrphaCode>294975</OrphaCode>
@@ -10447,8 +10327,8 @@
                                 <OrphaCode>1987</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1987</ExpertLink>
                                 <Name lang="cs">Femorální ageneze/hypoplázie</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="cs">Morfologická anomálie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -10471,6 +10351,18 @@
                                 <OrphaCode>633228</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=633228</ExpertLink>
                                 <Name lang="cs">Proximální fokální femorální deficience</Name>
+                                <DisorderType id="21415">
+                                  <Name lang="cs">Morfologická anomálie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32063">
+                                <OrphaCode>667589</OrphaCode>
+                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=667589</ExpertLink>
+                                <Name lang="en">Isolated congenital femoral bifurcation</Name>
                                 <DisorderType id="21415">
                                   <Name lang="cs">Morfologická anomálie</Name>
                                 </DisorderType>
@@ -11235,7 +11127,7 @@
                           <Name lang="cs">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="7">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="2905">
                             <OrphaCode>3248</OrphaCode>
@@ -11281,31 +11173,7 @@
                               <Name lang="cs">Morfologická anomálie</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="21054">
-                                <OrphaCode>295217</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=295217</ExpertLink>
-                                <Name lang="cs">Unilaterální radio-ulnární synostóza</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="cs">Klinický podtyp</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="21055">
-                                <OrphaCode>295219</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=295219</ExpertLink>
-                                <Name lang="cs">Bilaterální radio-ulnární synostóza</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="cs">Klinický podtyp</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -11313,42 +11181,6 @@
                             <OrphaCode>94056</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=94056</ExpertLink>
                             <Name lang="cs">Humeroulnární synostóza</Name>
-                            <DisorderType id="21415">
-                              <Name lang="cs">Morfologická anomálie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="2">
-                            <ClassificationNode>
-                              <Disorder id="21052">
-                                <OrphaCode>295213</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=295213</ExpertLink>
-                                <Name lang="cs">Unilaterální humero-ulnární synostóza</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="cs">Klinický podtyp</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="21053">
-                                <OrphaCode>295215</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=295215</ExpertLink>
-                                <Name lang="cs">Bilaterální humero-ulnární synostóza</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="cs">Klinický podtyp</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="18818">
-                            <OrphaCode>217059</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=217059</ExpertLink>
-                            <Name lang="cs">Vrozené paličkovité prsty</Name>
                             <DisorderType id="21415">
                               <Name lang="cs">Morfologická anomálie</Name>
                             </DisorderType>
@@ -11379,7 +11211,7 @@
                           <Name lang="cs">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="49">
+                      <ClassificationNodeChildList count="48">
                         <ClassificationNode>
                           <Disorder id="25392">
                             <OrphaCode>488232</OrphaCode>
@@ -11697,18 +11529,6 @@
                             <OrphaCode>2854</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2854</ExpertLink>
                             <Name lang="cs">Fuhrmannův syndrom</Name>
-                            <DisorderType id="21401">
-                              <Name lang="cs">Malformační syndrom</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2609">
-                            <OrphaCode>2878</OrphaCode>
-                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2878</ExpertLink>
-                            <Name lang="cs">Syndrom zahrnující fokomelii, ektrodaktylii, hluchotu a sinusovou arytmii</Name>
                             <DisorderType id="21401">
                               <Name lang="cs">Malformační syndrom</Name>
                             </DisorderType>
@@ -12123,7 +11943,19 @@
                           <Name lang="cs">Kategorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="44">
+                      <ClassificationNodeChildList count="45">
+                        <ClassificationNode>
+                          <Disorder id="31944">
+                            <OrphaCode>658805</OrphaCode>
+                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=658805</ExpertLink>
+                            <Name lang="cs">Syndrom Greigovy cefalopolysyndaktylie a přilehlých genů</Name>
+                            <DisorderType id="21401">
+                              <Name lang="cs">Malformační syndrom</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="28585">
                             <OrphaCode>567502</OrphaCode>
@@ -12181,7 +12013,7 @@
                               <Name lang="cs">Klinická skupina</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="14">
+                          <ClassificationNodeChildList count="10">
                             <ClassificationNode>
                               <Disorder id="2506">
                                 <OrphaCode>2750</OrphaCode>
@@ -12199,18 +12031,6 @@
                                 <OrphaCode>2751</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2751</ExpertLink>
                                 <Name lang="cs">Orofaciodigitální syndrom, typ 2</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="2508">
-                                <OrphaCode>2752</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2752</ExpertLink>
-                                <Name lang="cs">Orofaciodigitální syndrom, typ 3</Name>
                                 <DisorderType id="21401">
                                   <Name lang="cs">Malformační syndrom</Name>
                                 </DisorderType>
@@ -12267,18 +12087,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="3165">
-                                <OrphaCode>2756</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2756</ExpertLink>
-                                <Name lang="cs">Orofaciodigitální syndrom, typ 10</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="17017">
                                 <OrphaCode>141000</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141000</ExpertLink>
@@ -12295,30 +12103,6 @@
                                 <OrphaCode>141007</OrphaCode>
                                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141007</ExpertLink>
                                 <Name lang="cs">Orofaciodigitální syndrom, typ 9</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="17078">
-                                <OrphaCode>141327</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141327</ExpertLink>
-                                <Name lang="cs">Orofaciodigitální syndrom, typ 12</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="cs">Malformační syndrom</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="17079">
-                                <OrphaCode>141330</OrphaCode>
-                                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141330</ExpertLink>
-                                <Name lang="cs">Orofaciodigitální syndrom, typ 13</Name>
                                 <DisorderType id="21401">
                                   <Name lang="cs">Malformační syndrom</Name>
                                 </DisorderType>
@@ -13444,7 +13228,7 @@
                                   <Disorder id="3267">
                                     <OrphaCode>743</OrphaCode>
                                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=743</ExpertLink>
-                                    <Name lang="cs">Hereditární trombofilie způsobená vrozeným deficitem proteinu S</Name>
+                                    <Name lang="cs">Vážná hereditární trombofilie způsobená vrozeným deficitem proteinu S</Name>
                                     <DisorderType id="21394">
                                       <Name lang="cs">Onemocnění</Name>
                                     </DisorderType>
@@ -13562,7 +13346,7 @@
               <Disorder id="31794">
                 <OrphaCode>645822</OrphaCode>
                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=645822</ExpertLink>
-                <Name lang="en">Primary bone and joint tuberculosis</Name>
+                <Name lang="cs">Primární tuberkulóza kostí a kloubů</Name>
                 <DisorderType id="21394">
                   <Name lang="cs">Onemocnění</Name>
                 </DisorderType>
@@ -13574,7 +13358,7 @@
               <Disorder id="31820">
                 <OrphaCode>647823</OrphaCode>
                 <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=647823</ExpertLink>
-                <Name lang="en">Idiopathic pregnancy-associated osteoporosis</Name>
+                <Name lang="cs">Idiopatická těhotenská osteoporóza</Name>
                 <DisorderType id="21394">
                   <Name lang="cs">Onemocnění</Name>
                 </DisorderType>

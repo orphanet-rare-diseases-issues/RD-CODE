@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:55:26" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:10:40" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -26,7 +26,7 @@
               <Disorder id="297">
                 <OrphaCode>1991</OrphaCode>
                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1991</ExpertLink>
-                <Name lang="es">Hendidura labial con o sin hendidura palatina</Name>
+                <Name lang="es">Hendidura labial con o sin paladar hendido</Name>
                 <DisorderType id="21436">
                   <Name lang="es">Grupo de fenomas</Name>
                 </DisorderType>
@@ -79,7 +79,7 @@
                   <Name lang="es">Grupo de fenomas</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="4">
+              <ClassificationNodeChildList count="5">
                 <ClassificationNode>
                   <Disorder id="14344">
                     <OrphaCode>99771</OrphaCode>
@@ -120,7 +120,19 @@
                   <Disorder id="17086">
                     <OrphaCode>155878</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=155878</ExpertLink>
-                    <Name lang="es">Hendidura submucosa del paladar</Name>
+                    <Name lang="es">Paladar hendido submucoso</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32027">
+                    <OrphaCode>664372</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=664372</ExpertLink>
+                    <Name lang="es">Hendidura del paladar blando y duro</Name>
                     <DisorderType id="21415">
                       <Name lang="es">Anomalía morfológica</Name>
                     </DisorderType>
@@ -461,19 +473,7 @@
                       <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="218">
-                        <OrphaCode>857</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=857</ExpertLink>
-                        <Name lang="es">Síndrome de Townes-Brocks</Name>
-                        <DisorderType id="21401">
-                          <Name lang="es">Síndrome de malformación</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="237">
                         <OrphaCode>107</OrphaCode>
@@ -783,7 +783,7 @@
                           <Name lang="es">Grupo de fenomas</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="14">
+                      <ClassificationNodeChildList count="10">
                         <ClassificationNode>
                           <Disorder id="2506">
                             <OrphaCode>2750</OrphaCode>
@@ -801,18 +801,6 @@
                             <OrphaCode>2751</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2751</ExpertLink>
                             <Name lang="es">Síndrome orofaciodigital tipo 2</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="2508">
-                            <OrphaCode>2752</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2752</ExpertLink>
-                            <Name lang="es">Síndrome orofaciodigital tipo 3</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -869,18 +857,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="3165">
-                            <OrphaCode>2756</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2756</ExpertLink>
-                            <Name lang="es">Síndrome orofaciodigital tipo 10</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="17017">
                             <OrphaCode>141000</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141000</ExpertLink>
@@ -897,30 +873,6 @@
                             <OrphaCode>141007</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141007</ExpertLink>
                             <Name lang="es">Síndrome orofaciodigital tipo 9</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17078">
-                            <OrphaCode>141327</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141327</ExpertLink>
-                            <Name lang="es">Síndrome orofaciodigital tipo 12</Name>
-                            <DisorderType id="21401">
-                              <Name lang="es">Síndrome de malformación</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="17079">
-                            <OrphaCode>141330</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141330</ExpertLink>
-                            <Name lang="es">Síndrome orofaciodigital tipo 13</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -1258,7 +1210,7 @@
                       <Disorder id="1366">
                         <OrphaCode>1072</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1072</ExpertLink>
-                        <Name lang="es">Síndrome de anquilobléfaron filiforme adnatum-fisura palatina</Name>
+                        <Name lang="es">Síndrome de anquilobléfaron filiforme adnatum-paladar hendido</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -1772,7 +1724,7 @@
                           <Disorder id="1868">
                             <OrphaCode>1906</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1906</ExpertLink>
-                            <Name lang="es">Trastorno del espectro valproato fetal</Name>
+                            <Name lang="es">Trastorno del espectro del síndrome fetal por valproato</Name>
                             <DisorderType id="21401">
                               <Name lang="es">Síndrome de malformación</Name>
                             </DisorderType>
@@ -1925,7 +1877,7 @@
                       <Name lang="es">Categoría</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="72">
+                  <ClassificationNodeChildList count="73">
                     <ClassificationNode>
                       <Disorder id="280">
                         <OrphaCode>564</OrphaCode>
@@ -2194,7 +2146,7 @@
                       <Disorder id="1949">
                         <OrphaCode>2013</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2013</ExpertLink>
-                        <Name lang="es">Síndrome de fisura palatina-orejas grandes-talla baja</Name>
+                        <Name lang="es">Síndrome de paladar hendido-orejas grandes-cabeza pequeña</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2206,7 +2158,7 @@
                       <Disorder id="1950">
                         <OrphaCode>2016</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2016</ExpertLink>
-                        <Name lang="es">Síndrome de fisura palatina-sinequias laterales</Name>
+                        <Name lang="es">Síndrome de paladar hendido-sinequias laterales</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2350,7 +2302,7 @@
                       <Disorder id="2331">
                         <OrphaCode>2521</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2521</ExpertLink>
-                        <Name lang="es">Síndrome de microcefalia-fisura palatina-pigmentación retiniana anómala</Name>
+                        <Name lang="es">Síndrome de microcefalia-paladar hendido-pigmentación retiniana anómala</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2362,7 +2314,7 @@
                       <Disorder id="2408">
                         <OrphaCode>2631</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2631</ExpertLink>
-                        <Name lang="es">Síndrome de displasia mesomélica-fisura palatina-camptodactilia</Name>
+                        <Name lang="es">Síndrome de displasia mesomélica-paladar hendido-camptodactilia</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2398,7 +2350,7 @@
                       <Disorder id="2496">
                         <OrphaCode>2736</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2736</ExpertLink>
-                        <Name lang="es">Síndrome letal onfalocele fisura palatina</Name>
+                        <Name lang="es">Síndrome letal de onfalocele-paladar hendido</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2602,7 +2554,7 @@
                       <Disorder id="3096">
                         <OrphaCode>1415</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1415</ExpertLink>
-                        <Name lang="es">Síndrome de colestasis-retinopatía pigmentaria-fisura palatina</Name>
+                        <Name lang="es">Síndrome de Hardikar</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2614,7 +2566,7 @@
                       <Disorder id="3149">
                         <OrphaCode>2015</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2015</ExpertLink>
-                        <Name lang="es">Síndrome de fisura palatina-talla baja-anomalías de las vértebras</Name>
+                        <Name lang="es">Síndrome de paladar hendido-talla baja-anomalías de las vértebras</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2626,7 +2578,7 @@
                       <Disorder id="3188">
                         <OrphaCode>1779</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1779</ExpertLink>
-                        <Name lang="es">Síndrome de dismorfia-fisura palatina-piel laxa</Name>
+                        <Name lang="es">Síndrome de dismorfia-paladar hendido-piel laxa</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2638,7 +2590,7 @@
                       <Disorder id="3229">
                         <OrphaCode>3263</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3263</ExpertLink>
-                        <Name lang="es">Síndrome de singnatia-fisura palatina</Name>
+                        <Name lang="es">Síndrome de singnatia-paladar hendido</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2674,7 +2626,7 @@
                       <Disorder id="11112">
                         <OrphaCode>77300</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77300</ExpertLink>
-                        <Name lang="es">Síndrome de anomalías auriculares-fisura labial con o sin fisura palatina-anomalías oculares</Name>
+                        <Name lang="es">Síndrome de anomalías auriculares-fisura labial con o sin paladar hendido-anomalías oculares</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2722,7 +2674,7 @@
                       <Disorder id="17514">
                         <OrphaCode>163649</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=163649</ExpertLink>
-                        <Name lang="es">Displasia espondiloepifisaria tipo Nishimura</Name>
+                        <Name lang="es">Síndrome de displasia espondiloepifisaria-craneosinostosis-paladar hendido-cataratas-discapacidad intelectual</Name>
                         <DisorderType id="21394">
                           <Name lang="es">Enfermedad</Name>
                         </DisorderType>
@@ -2779,6 +2731,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="31986">
+                        <OrphaCode>660021</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=660021</ExpertLink>
+                        <Name lang="es">Síndrome de hendidura orofacial-anomalías cardíacas-dismorfia facial</Name>
+                        <DisorderType id="21401">
+                          <Name lang="es">Síndrome de malformación</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="26568">
                         <OrphaCode>508476</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=508476</ExpertLink>
@@ -2801,7 +2765,7 @@
                       <Name lang="es">Grupo de fenomas</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="14">
+                  <ClassificationNodeChildList count="10">
                     <ClassificationNode>
                       <Disorder id="2506">
                         <OrphaCode>2750</OrphaCode>
@@ -2819,18 +2783,6 @@
                         <OrphaCode>2751</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2751</ExpertLink>
                         <Name lang="es">Síndrome orofaciodigital tipo 2</Name>
-                        <DisorderType id="21401">
-                          <Name lang="es">Síndrome de malformación</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="2508">
-                        <OrphaCode>2752</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2752</ExpertLink>
-                        <Name lang="es">Síndrome orofaciodigital tipo 3</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -2887,18 +2839,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="3165">
-                        <OrphaCode>2756</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2756</ExpertLink>
-                        <Name lang="es">Síndrome orofaciodigital tipo 10</Name>
-                        <DisorderType id="21401">
-                          <Name lang="es">Síndrome de malformación</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="17017">
                         <OrphaCode>141000</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141000</ExpertLink>
@@ -2915,30 +2855,6 @@
                         <OrphaCode>141007</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141007</ExpertLink>
                         <Name lang="es">Síndrome orofaciodigital tipo 9</Name>
-                        <DisorderType id="21401">
-                          <Name lang="es">Síndrome de malformación</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="17078">
-                        <OrphaCode>141327</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141327</ExpertLink>
-                        <Name lang="es">Síndrome orofaciodigital tipo 12</Name>
-                        <DisorderType id="21401">
-                          <Name lang="es">Síndrome de malformación</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="17079">
-                        <OrphaCode>141330</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=141330</ExpertLink>
-                        <Name lang="es">Síndrome orofaciodigital tipo 13</Name>
                         <DisorderType id="21401">
                           <Name lang="es">Síndrome de malformación</Name>
                         </DisorderType>
@@ -3058,7 +2974,7 @@
                       <Disorder id="28851">
                         <OrphaCode>576283</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=576283</ExpertLink>
-                        <Name lang="es">Síndrome asociado al gen SATB2 por una variante patogénica</Name>
+                        <Name lang="es">Síndrome asociado a una variante patogénica del gen SATB2</Name>
                         <DisorderType id="21443">
                           <Name lang="es">Subtipo etiológico</Name>
                         </DisorderType>

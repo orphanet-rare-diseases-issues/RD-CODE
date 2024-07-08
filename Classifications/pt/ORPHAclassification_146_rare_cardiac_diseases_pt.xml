@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:12:52" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:18:39" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -36,7 +36,7 @@
                   <Disorder id="8591">
                     <OrphaCode>247</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=247</ExpertLink>
-                    <Name lang="pt">Displasia do ventrículo direito arritmogénica</Name>
+                    <Name lang="pt">Cardiomiopatia arritmogénica hereditária</Name>
                     <DisorderType id="21436">
                       <Name lang="pt">Grupo de fenótipos</Name>
                     </DisorderType>
@@ -46,7 +46,7 @@
                       <Disorder id="10333">
                         <OrphaCode>34217</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=34217</ExpertLink>
-                        <Name lang="pt">Doença de Naxos</Name>
+                        <Name lang="pt">Doença Naxos</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>
@@ -58,7 +58,7 @@
                       <Disorder id="18885">
                         <OrphaCode>217656</OrphaCode>
                         <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=217656</ExpertLink>
-                        <Name lang="pt">Cardiomiopatia isolada do ventrículo direito familiar</Name>
+                        <Name lang="pt">Cardiomiopatia arritmogénica isolada hereditária</Name>
                         <DisorderType id="21394">
                           <Name lang="pt">Doença</Name>
                         </DisorderType>
@@ -68,7 +68,7 @@
                           <Disorder id="20886">
                             <OrphaCode>293888</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=293888</ExpertLink>
-                            <Name lang="pt">Displasia ventricular arritmogénica isolada familiar, com predominância à esquerda</Name>
+                            <Name lang="pt">Cardiomiopatia arritmogénica isolada hereditária, com predomínio à esquerda</Name>
                             <DisorderType id="21450">
                               <Name lang="pt">Subtipo clínico</Name>
                             </DisorderType>
@@ -92,7 +92,7 @@
                           <Disorder id="20888">
                             <OrphaCode>293910</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=293910</ExpertLink>
-                            <Name lang="pt">Displasia ventricular arritmogénica isolada familiar, com predominância à direita</Name>
+                            <Name lang="pt">Cardiomiopatia arritmogénica isolada hereditária, variante com predomínio à direita</Name>
                             <DisorderType id="21450">
                               <Name lang="pt">Subtipo clínico</Name>
                             </DisorderType>
@@ -198,7 +198,7 @@
                               <Disorder id="10348">
                                 <OrphaCode>34587</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=34587</ExpertLink>
-                                <Name lang="pt">Doença de armazenamento de glicogénio por deficiência de LAMP-2</Name>
+                                <Name lang="pt">Doença Danon</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -399,18 +399,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="167">
-                                <OrphaCode>104</OrphaCode>
-                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=104</ExpertLink>
-                                <Name lang="pt">Neuropatia óptica hereditária de Leber</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="315">
                                 <OrphaCode>1349</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1349</ExpertLink>
@@ -554,6 +542,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="31924">
+                                <OrphaCode>656279</OrphaCode>
+                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=656279</ExpertLink>
+                                <Name lang="pt">Síndrome de duplicação 1p36.33</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="pt">Doença</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
@@ -673,7 +673,7 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="14">
+                          <ClassificationNodeChildList count="13">
                             <ClassificationNode>
                               <Disorder id="45">
                                 <OrphaCode>95</OrphaCode>
@@ -855,18 +855,6 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="1044">
-                                <OrphaCode>242</OrphaCode>
-                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=242</ExpertLink>
-                                <Name lang="pt">Disgenesia gonadal completa 46,XY</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="pt">Síndrome malformativo</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
                               <Disorder id="12107">
                                 <OrphaCode>91130</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=91130</ExpertLink>
@@ -1028,7 +1016,7 @@
                           <Disorder id="11717">
                             <OrphaCode>85443</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85443</ExpertLink>
-                            <Name lang="pt">Amiloidose primária</Name>
+                            <Name lang="pt">Amiloidose AL</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1429,7 +1417,7 @@
                               <Name lang="pt">Category</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="7">
+                          <ClassificationNodeChildList count="6">
                             <ClassificationNode>
                               <Disorder id="61">
                                 <OrphaCode>480</OrphaCode>
@@ -1459,18 +1447,6 @@
                                 <OrphaCode>551</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=551</ExpertLink>
                                 <Name lang="pt">MERRF</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="167">
-                                <OrphaCode>104</OrphaCode>
-                                <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=104</ExpertLink>
-                                <Name lang="pt">Neuropatia óptica hereditária de Leber</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -1820,7 +1796,7 @@
                           <Disorder id="10348">
                             <OrphaCode>34587</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=34587</ExpertLink>
-                            <Name lang="pt">Doença de armazenamento de glicogénio por deficiência de LAMP-2</Name>
+                            <Name lang="pt">Doença Danon</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -1988,9 +1964,9 @@
                           <Disorder id="20307">
                             <OrphaCode>271861</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=271861</ExpertLink>
-                            <Name lang="pt">Amiloidose relacionada com transtirretina</Name>
-                            <DisorderType id="21436">
-                              <Name lang="pt">Grupo de fenótipos</Name>
+                            <Name lang="pt">Amiloidose ATTR hereditária</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pt">Doença</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
@@ -1998,9 +1974,9 @@
                               <Disorder id="11723">
                                 <OrphaCode>85451</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85451</ExpertLink>
-                                <Name lang="pt">Cardiopatia amiloidótica familiar</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
+                                <Name lang="pt">Amiloidose ATTRV122I</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -2010,9 +1986,9 @@
                               <Disorder id="11720">
                                 <OrphaCode>85447</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85447</ExpertLink>
-                                <Name lang="pt">Polineuropatia amiloidótica familiar</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pt">Doença</Name>
+                                <Name lang="pt">Amiloidose ATTRV30M</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pt">Subtipo clínico</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -2192,7 +2168,7 @@
                           <Disorder id="11718">
                             <OrphaCode>85445</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85445</ExpertLink>
-                            <Name lang="pt">Amiloidose secundária</Name>
+                            <Name lang="pt">Amiloidose AA</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2262,7 +2238,7 @@
                               <Disorder id="21544">
                                 <OrphaCode>314962</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=314962</ExpertLink>
-                                <Name lang="pt">Síndrome hipereosinofílico secundário</Name>
+                                <Name lang="pt">Síndrome hipereosinofílica secundária</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2298,7 +2274,7 @@
                               <Disorder id="21543">
                                 <OrphaCode>314950</OrphaCode>
                                 <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=314950</ExpertLink>
-                                <Name lang="pt">Síndrome hipereosinofílico primária</Name>
+                                <Name lang="pt">Síndrome hipereosinofílica primária</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pt">Doença</Name>
                                 </DisorderType>
@@ -2336,7 +2312,7 @@
                           <Disorder id="11717">
                             <OrphaCode>85443</OrphaCode>
                             <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=85443</ExpertLink>
-                            <Name lang="pt">Amiloidose primária</Name>
+                            <Name lang="pt">Amiloidose AL</Name>
                             <DisorderType id="21394">
                               <Name lang="pt">Doença</Name>
                             </DisorderType>
@@ -2460,7 +2436,7 @@
                   <Disorder id="2389">
                     <OrphaCode>1359</OrphaCode>
                     <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=1359</ExpertLink>
-                    <Name lang="pt">Complexo de Carney</Name>
+                    <Name lang="pt">Complexo Carney</Name>
                     <DisorderType id="21394">
                       <Name lang="pt">Doença</Name>
                     </DisorderType>

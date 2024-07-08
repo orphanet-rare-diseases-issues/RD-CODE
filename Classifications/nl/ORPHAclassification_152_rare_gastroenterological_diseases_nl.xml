@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2023-06-22 06:19:36" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2024-06-27 13:00:04" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -1208,7 +1208,7 @@
                           <Disorder id="23329">
                             <OrphaCode>436159</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=436159</ExpertLink>
-                            <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door haplo-insufficiëntie van CTLA4</Name>
+                            <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door CTLA4-haploinsufficiëntie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1220,7 +1220,7 @@
                           <Disorder id="22628">
                             <OrphaCode>391487</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391487</ExpertLink>
-                            <Name lang="nl">Auto-immune enteropathie en endocrinopathie - vatbaarheid voor chronische infecties-syndroom</Name>
+                            <Name lang="nl">STAT1-gerelateerde auto-immune enteropathie en endocrinopathie - susceptibiliteit voor chronische infecties-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1388,7 +1388,7 @@
                           <Disorder id="23329">
                             <OrphaCode>436159</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=436159</ExpertLink>
-                            <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door haplo-insufficiëntie van CTLA4</Name>
+                            <Name lang="nl">Auto-immuun lymfoproliferatief syndroom door CTLA4-haploinsufficiëntie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -1400,7 +1400,7 @@
                           <Disorder id="22628">
                             <OrphaCode>391487</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391487</ExpertLink>
-                            <Name lang="nl">Auto-immune enteropathie en endocrinopathie - vatbaarheid voor chronische infecties-syndroom</Name>
+                            <Name lang="nl">STAT1-gerelateerde auto-immune enteropathie en endocrinopathie - susceptibiliteit voor chronische infecties-syndroom</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -2127,7 +2127,19 @@
                           <Name lang="nl">Categorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
+                      <ClassificationNodeChildList count="4">
+                        <ClassificationNode>
+                          <Disorder id="31900">
+                            <OrphaCode>652658</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=652658</ExpertLink>
+                            <Name lang="nl">Monomorf epitheliotroop intestinaal T-cellymfoom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="11770">
                             <OrphaCode>86880</OrphaCode>
@@ -2595,7 +2607,7 @@
                           <Name lang="nl">Group of phenomes</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="4">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="27635">
                             <OrphaCode>529977</OrphaCode>
@@ -2637,6 +2649,18 @@
                             <OrphaCode>238569</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238569</ExpertLink>
                             <Name lang="nl">Immuundisregulatie - inflammatoire darmziekte - artritis - recidiverende infecties-syndroom</Name>
+                            <DisorderType id="21394">
+                              <Name lang="nl">Ziekte</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32142">
+                            <OrphaCode>676125</OrphaCode>
+                            <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=676125</ExpertLink>
+                            <Name lang="nl">X-gebonden immuundisregulatie met inflammatoire darmziekte door ELF4-deficiëntie</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -3461,19 +3485,7 @@
                       <Name lang="nl">Group of phenomes</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="543">
-                        <OrphaCode>587</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=587</ExpertLink>
-                        <Name lang="nl">Syndroom van Muir-Torre</Name>
-                        <DisorderType id="21394">
-                          <Name lang="nl">Ziekte</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="2">
                     <ClassificationNode>
                       <Disorder id="3245">
                         <OrphaCode>144</OrphaCode>
@@ -3504,7 +3516,7 @@
                   <Disorder id="23679">
                     <OrphaCode>456333</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=456333</ExpertLink>
-                    <Name lang="nl">Erfelijke neuro-endocriene tumor van dunne darm</Name>
+                    <Name lang="nl">Hereditaire neuro-endocriene tumor van dunne darm</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
