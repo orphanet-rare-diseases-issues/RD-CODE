@@ -7,8 +7,8 @@
 <li><p align="justify">Linearization files attributing one preferential medical specialty to every clinical entity.
 <li><p align="justify">ChangeLogs for each files.</p>
 <p align="justify">Separately, one can find , Master file which is a subset of the Orphanet classifications of rare diseases that contains only the ORPHAcodes that should be used for data sharing and statistical purposes at EU-level ORPHAnomenclature differential file which provides changes made to the nomenclature compared to the previous version and a PDF file describing in details all files enclosed in the Orphanet nomenclature pack for coding.</p>
-  <p align="justify">These files are generated in xml format, and made available at least once a year, in 9 different languages: Czech, Dutch, English, French, German, Italian, Polish, Portuguese and Spanish. These files are available for free download in <a href="http://www.orphadata.org/cgi-bin/ORPHAnomenclature.html" target="_blank" rel="noopener noreferrer">Orphadata</a> and also made available here in Github with the previous versions as well as their related change logs.</p>
-<p align= "justify">In order to better understand and manage the xml files, we provide a <a href="http://www.orphadata.org/cgi-bin/img/PDF/ORPHAnomenclaturexmlcontent.pdf" target="_blank" rel="noopener noreferrer">detailed description</a> of the Orphanet nomenclature files for coding.</p>
+  <p align="justify">These files are generated in xml format, and made available at least once a year, in 9 different languages: Czech, Dutch, English, French, German, Italian, Polish, Portuguese and Spanish. These files are available for free download in <a href="https://www.orphadata.com/pack-nomenclature/" target="_blank" rel="noopener noreferrer">Orphadata</a> and also made available here in Github with the previous versions as well as their related change logs.</p>
+<p align= "justify">In order to better understand and manage the xml files, we provide a <a href="https://www.orphadata.com/docs/ORPHAnomenclaturexmlcontent.pdf" target="_blank" rel="noopener noreferrer">detailed description</a> of the Orphanet nomenclature files for coding.</p>
   
   <p><h3><i><strong>Project Homepage</strong></i></h3></p>
   http://www.rd-code.eu/
@@ -21,11 +21,11 @@
    <p><h3><i><strong>How to quote</strong></i></h3></p><ul>
 <li>When quoting Orphanet, please use the following format :
 <p>Orphanet: an online rare disease and orphan drug data base. © INSERM 1999.
-  Available on http://www.orpha.net. Accessed [date accessed].</p></li>
+  Available on https://www.orpha.net. Accessed [date accessed].</p></li>
  
 <li>When quoting Orphadata (using xml files), please use the following format:
 <p>Orphadata: Free access data from Orphanet. © INSERM 1999.
-Available on http://www.orphadata.com. Data version [e.g.XML data version].</p></li></ul>
+Available on https://www.orphadata.com. Data version [e.g.XML data version].</p></li></ul>
 
 <p><h3><i><strong>License</strong></i></h3></p>
 <p>We have chosen to apply the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Commons Attribution 4.0 International (CC BY 4.0)</a> to all copyrightable parts of our databases. This means that you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.</p>
