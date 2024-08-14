@@ -25,7 +25,7 @@
  
 <li>When quoting Orphadata (using xml files), please use the following format:
 <p>Orphadata: Free access data from Orphanet. © INSERM 1999.
-Available on http://www.orphadata.org. Data version [e.g.XML data version].</p></li></ul>
+Available on http://www.orphadata.com. Data version [e.g.XML data version].</p></li></ul>
 
 <p><h3><i><strong>License</strong></i></h3></p>
 <p>We have chosen to apply the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Commons Attribution 4.0 International (CC BY 4.0)</a> to all copyrightable parts of our databases. This means that you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.</p>
