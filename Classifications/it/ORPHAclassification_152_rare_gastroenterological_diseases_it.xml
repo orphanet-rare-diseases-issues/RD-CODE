@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2024-06-27 13:12:58" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBOR ExtractionDate="2025-06-24 07:42:24" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,7 @@
               <Name lang="it">Categoria</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="10">
+          <ClassificationNodeChildList count="11">
             <ClassificationNode>
               <Disorder id="14872">
                 <OrphaCode>101936</OrphaCode>
@@ -84,7 +84,7 @@
                   <Disorder id="2080">
                     <OrphaCode>2198</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2198</ExpertLink>
-                    <Name lang="it">Sindrome cheratoderma palmoplantare-carcinoma esofageo</Name>
+                    <Name lang="it">Sindrome cheratoderma palmoplantare-carcinoma dell'esofago</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -396,7 +396,7 @@
                   <Disorder id="25368">
                     <OrphaCode>487809</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=487809</ExpertLink>
-                    <Name lang="it">Gastrite collagena pediatrica</Name>
+                    <Name lang="it">Gastrite collagenosa pediatrica</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -415,7 +415,7 @@
                   <Name lang="it">Categoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="11">
+              <ClassificationNodeChildList count="15">
                 <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
@@ -945,10 +945,82 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="32353">
+                    <OrphaCode>697132</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=697132</ExpertLink>
+                    <Name lang="it">Lymphoepithelial cyst of the pancreas</Name>
+                    <DisorderType id="21394">
+                      <Name lang="it">Malattia</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32445">
+                    <OrphaCode>700133</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=700133</ExpertLink>
+                    <Name lang="it">Idiopathic chronic pancreatitis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="it">Malattia</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="32446">
+                        <OrphaCode>700136</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=700136</ExpertLink>
+                        <Name lang="it">Early-onset idiopathic chronic pancreatitis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="it">Sottotipo clinico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32447">
+                        <OrphaCode>700139</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=700139</ExpertLink>
+                        <Name lang="it">Late-onset idiopathic chronic pancreatitis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="it">Sottotipo clinico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32444">
+                    <OrphaCode>700124</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=700124</ExpertLink>
+                    <Name lang="it">Autosomal recessive hereditary chronic pancreatitis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="it">Malattia</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="23676">
                     <OrphaCode>456312</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=456312</ExpertLink>
                     <Name lang="it">Malattia infantile multisistemica neurologica-endocrina-pancreatica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="it">Malattia</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32293">
+                    <OrphaCode>695131</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=695131</ExpertLink>
+                    <Name lang="it">Acinar cystic transformation of the pancreas</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -967,7 +1039,7 @@
                   <Name lang="it">Categoria</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="34">
+              <ClassificationNodeChildList count="35">
                 <ClassificationNode>
                   <Disorder id="789">
                     <OrphaCode>3452</OrphaCode>
@@ -1220,7 +1292,7 @@
                           <Disorder id="22628">
                             <OrphaCode>391487</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391487</ExpertLink>
-                            <Name lang="it">Sindrome enteropatia ed endocrinopatia autoimmuni-sucettibilità alle infezioni croniche</Name>
+                            <Name lang="it">Sindrome enteropatia ed endocrinopatia autoimmuni-predisposizione alle infezioni croniche correlata a STAT1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1318,7 +1390,7 @@
                       <Disorder id="3279">
                         <OrphaCode>572</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=572</ExpertLink>
-                        <Name lang="it">Immunodeficienza da deficit di espressione del complesso maggiore di istocompatibilità di classe II</Name>
+                        <Name lang="it">Immunodeficienza da deficit di espressione del complesso maggiore di istocompatibilitÃ  di classe II</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -1400,7 +1472,7 @@
                           <Disorder id="22628">
                             <OrphaCode>391487</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391487</ExpertLink>
-                            <Name lang="it">Sindrome enteropatia ed endocrinopatia autoimmuni-sucettibilità alle infezioni croniche</Name>
+                            <Name lang="it">Sindrome enteropatia ed endocrinopatia autoimmuni-predisposizione alle infezioni croniche correlata a STAT1</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -1570,7 +1642,7 @@
                       <Disorder id="10402">
                         <OrphaCode>35858</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=35858</ExpertLink>
-                        <Name lang="it">Sindrome di Imerslund-Gräsbeck</Name>
+                        <Name lang="it">Sindrome di Imerslund-GrÃ¤sbeck</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -1832,7 +1904,7 @@
                           <Disorder id="722">
                             <OrphaCode>1201</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1201</ExpertLink>
-                            <Name lang="it">Atresia dell’intestino tenue</Name>
+                            <Name lang="it">Atresia dellÂ’intestino tenue</Name>
                             <DisorderType id="21415">
                               <Name lang="it">Anomalia morfologica</Name>
                             </DisorderType>
@@ -1860,7 +1932,7 @@
                   <Disorder id="15000">
                     <OrphaCode>104009</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=104009</ExpertLink>
-                    <Name lang="it">Disturbo congenito della motilità intestinale</Name>
+                    <Name lang="it">Disturbo congenito della motilitÃ  intestinale</Name>
                     <DisorderType id="36561">
                       <Name lang="it">Categoria</Name>
                     </DisorderType>
@@ -1990,7 +2062,7 @@
                       <Disorder id="21476">
                         <OrphaCode>314373</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=314373</ExpertLink>
-                        <Name lang="it">Diarrea cronica infantile da iperattività della guanilato ciclasi 2C</Name>
+                        <Name lang="it">Diarrea cronica infantile da iperattivitÃ  della guanilato ciclasi 2C</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -2050,7 +2122,7 @@
                       <Disorder id="2054">
                         <OrphaCode>2155</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2155</ExpertLink>
-                        <Name lang="it">Malattia di Hirschsprung -  sordità - polidattilia</Name>
+                        <Name lang="it">Malattia di Hirschsprung -  sorditÃ  - polidattilia</Name>
                         <DisorderType id="21401">
                           <Name lang="it">Sindrome malformativa</Name>
                         </DisorderType>
@@ -2132,7 +2204,7 @@
                           <Disorder id="31900">
                             <OrphaCode>652658</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=652658</ExpertLink>
-                            <Name lang="it">Linfoma intestinale epiteliotropo monomorfo a cellule T</Name>
+                            <Name lang="it">Linfomi a cellule T del tratto gastrointestinale</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -2554,7 +2626,7 @@
                       <Disorder id="2611">
                         <OrphaCode>2881</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2881</ExpertLink>
-                        <Name lang="it">Fotosensibilità cutanea - colite letale</Name>
+                        <Name lang="it">FotosensibilitÃ  cutanea - colite letale</Name>
                         <DisorderType id="21394">
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
@@ -2607,7 +2679,7 @@
                           <Name lang="it">Gruppo di fenomi</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="5">
+                      <ClassificationNodeChildList count="6">
                         <ClassificationNode>
                           <Disorder id="27635">
                             <OrphaCode>529977</OrphaCode>
@@ -2660,7 +2732,19 @@
                           <Disorder id="32142">
                             <OrphaCode>676125</OrphaCode>
                             <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=676125</ExpertLink>
-                            <Name lang="it">Disregolazione immunitaria legata all’X con malattia infiammatoria intestinale da deficit di ELF4</Name>
+                            <Name lang="it">Disregolazione immunitaria legata allÂ’X con malattia infiammatoria intestinale da deficit di ELF4</Name>
+                            <DisorderType id="21394">
+                              <Name lang="it">Malattia</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32305">
+                            <OrphaCode>695807</OrphaCode>
+                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=695807</ExpertLink>
+                            <Name lang="it">Immunodeficiency-systemic inflammation-lymphoma predisposition syndrome</Name>
                             <DisorderType id="21394">
                               <Name lang="it">Malattia</Name>
                             </DisorderType>
@@ -2868,7 +2952,7 @@
                   <Disorder id="23323">
                     <OrphaCode>435988</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=435988</ExpertLink>
-                    <Name lang="it">Sindrome da disritmia atriale e intestinale cronica</Name>
+                    <Name lang="it">Sindrome da disritmia cronica atriale e intestinale</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -2889,10 +2973,22 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="32251">
+                    <OrphaCode>693832</OrphaCode>
+                    <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=693832</ExpertLink>
+                    <Name lang="it">Gastrointestinal tract arteriovenous malformation</Name>
+                    <DisorderType id="21401">
+                      <Name lang="it">Sindrome malformativa</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="28444">
                     <OrphaCode>565641</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=565641</ExpertLink>
-                    <Name lang="it">Desmosi colica primaria</Name>
+                    <Name lang="it">Desmosi primaria del colon</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -2916,7 +3012,7 @@
                   <Disorder id="31457">
                     <OrphaCode>622099</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=622099</ExpertLink>
-                    <Name lang="it">Sindrome dell’arteria mesenterica superiore</Name>
+                    <Name lang="it">Sindrome dellÂ’arteria mesenterica superiore</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -2988,7 +3084,7 @@
                   <Disorder id="24225">
                     <OrphaCode>468641</OrphaCode>
                     <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=468641</ExpertLink>
-                    <Name lang="it">Enteropatia cronica associata a SLCO2A1</Name>
+                    <Name lang="it">Enteropatia cronica associata al gene SLCO2A1</Name>
                     <DisorderType id="21394">
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
@@ -3053,19 +3149,7 @@
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="26035">
-                        <OrphaCode>500481</OrphaCode>
-                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=500481</ExpertLink>
-                        <Name lang="it">Carcinoma a cellule squamose delle ghiandole salivari</Name>
-                        <DisorderType id="21457">
-                          <Name lang="it">Sottotipo istopatologico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -3077,19 +3161,7 @@
                       <Name lang="it">Malattia</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="1">
-                    <ClassificationNode>
-                      <Disorder id="23663">
-                        <OrphaCode>454821</OrphaCode>
-                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=454821</ExpertLink>
-                        <Name lang="it">Adenoma pleomorfo delle ghiandole salivari</Name>
-                        <DisorderType id="21457">
-                          <Name lang="it">Sottotipo istopatologico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
+                  <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
               </ClassificationNodeChildList>
@@ -3233,7 +3305,67 @@
                       <Name lang="it">Gruppo di fenomi</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="9">
+                  <ClassificationNodeChildList count="15">
+                    <ClassificationNode>
+                      <Disorder id="19893">
+                        <OrphaCode>261584</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=261584</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa familiare da microdelezione 5q22.2</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19549">
+                        <OrphaCode>247798</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=247798</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa familiare attenuata legata a MUTYH</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23548">
+                        <OrphaCode>447877</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=447877</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa associata all'attivit di ''correzione delle bozze'' della polimerasi</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23666">
+                        <OrphaCode>454840</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=454840</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa familiare attenuata NTHL1-correlata</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="25215">
+                        <OrphaCode>480536</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=480536</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa familiare attenuata correlata a MSH3</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="105">
                         <OrphaCode>733</OrphaCode>
@@ -3243,43 +3375,7 @@
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="3">
-                        <ClassificationNode>
-                          <Disorder id="11544">
-                            <OrphaCode>79665</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79665</ExpertLink>
-                            <Name lang="it">Sindrome di Gardner</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="14391">
-                            <OrphaCode>99818</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99818</ExpertLink>
-                            <Name lang="it">Sindrome di Turcot con poliposi</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19893">
-                            <OrphaCode>261584</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=261584</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare da microdelezione 5q22.2</Name>
-                            <DisorderType id="21443">
-                              <Name lang="it">Sottotipo eziologico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -3299,8 +3395,8 @@
                         <OrphaCode>201</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=201</ExpertLink>
                         <Name lang="it">Sindrome di Cowden</Name>
-                        <DisorderType id="21394">
-                          <Name lang="it">Malattia</Name>
+                        <DisorderType id="21450">
+                          <Name lang="it">Sottotipo clinico</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -3347,8 +3443,8 @@
                         <OrphaCode>109</OrphaCode>
                         <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=109</ExpertLink>
                         <Name lang="it">Sindrome di Bannayan-Riley-Ruvalcaba</Name>
-                        <DisorderType id="21401">
-                          <Name lang="it">Sindrome malformativa</Name>
+                        <DisorderType id="21450">
+                          <Name lang="it">Sottotipo clinico</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -3399,79 +3495,19 @@
                           <Name lang="it">Malattia</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
-                        <ClassificationNode>
-                          <Disorder id="19549">
-                            <OrphaCode>247798</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=247798</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare attenuata legata a MUTYH</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19550">
-                            <OrphaCode>247806</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=247806</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare attenuata legata a APC</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="22850">
-                            <OrphaCode>401911</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=401911</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare attenuata legata a AXIN2</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="25215">
-                            <OrphaCode>480536</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=480536</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare attenuata correlata a MSH3</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23548">
-                            <OrphaCode>447877</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=447877</ExpertLink>
-                            <Name lang="it">'Poliposi adenomatosa associata all'attività di ''correzione delle bozze'' della polimerasi '</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="23666">
-                            <OrphaCode>454840</OrphaCode>
-                            <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=454840</ExpertLink>
-                            <Name lang="it">Poliposi adenomatosa familiare attenuata NTHL1-correlata</Name>
-                            <DisorderType id="21450">
-                              <Name lang="it">Sottotipo clinico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22850">
+                        <OrphaCode>401911</OrphaCode>
+                        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=401911</ExpertLink>
+                        <Name lang="it">Poliposi adenomatosa familiare attenuata legata a AXIN2</Name>
+                        <DisorderType id="21394">
+                          <Name lang="it">Malattia</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                   </ClassificationNodeChildList>
@@ -3542,7 +3578,19 @@
               <Disorder id="31797">
                 <OrphaCode>645859</OrphaCode>
                 <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=645859</ExpertLink>
-                <Name lang="it">Tubercolosi primitiva dell’apparato digestivo</Name>
+                <Name lang="it">Tubercolosi primitiva dellÂ’apparato digestivo</Name>
+                <DisorderType id="21394">
+                  <Name lang="it">Malattia</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="32311">
+                <OrphaCode>696175</OrphaCode>
+                <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=696175</ExpertLink>
+                <Name lang="it">Encapsulating peritoneal sclerosis</Name>
                 <DisorderType id="21394">
                   <Name lang="it">Malattia</Name>
                 </DisorderType>

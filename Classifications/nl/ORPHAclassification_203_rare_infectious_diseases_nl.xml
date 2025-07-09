@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2024-06-27 13:03:58" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBOR ExtractionDate="2025-06-24 07:56:09" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -26,12 +26,12 @@
               <Disorder id="17503">
                 <OrphaCode>163582</OrphaCode>
                 <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=163582</ExpertLink>
-                <Name lang="nl">Zeldzame bacteriële infectieziekte</Name>
+                <Name lang="nl">Zeldzame bacteriÃ«le infectieziekte</Name>
                 <DisorderType id="36561">
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="42">
+              <ClassificationNodeChildList count="43">
                 <ClassificationNode>
                   <Disorder id="725">
                     <OrphaCode>1304</OrphaCode>
@@ -82,7 +82,7 @@
                       <Disorder id="21797">
                         <OrphaCode>324648</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324648</ExpertLink>
-                        <Name lang="nl">Invasieve niet-tyfoïde salmonellose</Name>
+                        <Name lang="nl">Invasieve niet-tyfoÃ¯de salmonellose</Name>
                         <DisorderType id="21394">
                           <Name lang="nl">Ziekte</Name>
                         </DisorderType>
@@ -480,7 +480,7 @@
                   <Disorder id="9291">
                     <OrphaCode>31202</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=31202</ExpertLink>
-                    <Name lang="nl">Melioïdose</Name>
+                    <Name lang="nl">MelioÃ¯dose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -540,7 +540,7 @@
                   <Disorder id="10409">
                     <OrphaCode>36234</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=36234</ExpertLink>
-                    <Name lang="nl">Bacteriële toxischeshocksyndroom</Name>
+                    <Name lang="nl">BacteriÃ«le toxischeshocksyndroom</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -752,7 +752,7 @@
                           <Disorder id="11561">
                             <OrphaCode>83316</OrphaCode>
                             <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=83316</ExpertLink>
-                            <Name lang="nl">Pseudotyfus van Californië</Name>
+                            <Name lang="nl">Pseudotyfus van CaliforniÃ«</Name>
                             <DisorderType id="21394">
                               <Name lang="nl">Ziekte</Name>
                             </DisorderType>
@@ -936,7 +936,7 @@
                   <Disorder id="23030">
                     <OrphaCode>411703</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=411703</ExpertLink>
-                    <Name lang="nl">Pulmonale niet-tuberculeuze mycobacteriële infectie</Name>
+                    <Name lang="nl">Pulmonale niet-tuberculeuze mycobacteriÃ«le infectie</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -953,7 +953,43 @@
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="32414">
+                        <OrphaCode>699678</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=699678</ExpertLink>
+                        <Name lang="nl">Necrotiserende cellulitis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="nl">Klinisch subtype</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32417">
+                        <OrphaCode>699697</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=699697</ExpertLink>
+                        <Name lang="nl">Necrotiserende fasciitis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="nl">Klinisch subtype</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32418">
+                        <OrphaCode>699702</OrphaCode>
+                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=699702</ExpertLink>
+                        <Name lang="nl">Necrotiserende myositis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="nl">Klinisch subtype</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1088,6 +1124,18 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32202">
+                    <OrphaCode>688995</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=688995</ExpertLink>
+                    <Name lang="nl">Roodvonk</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -1128,7 +1176,7 @@
                   <Disorder id="866">
                     <OrphaCode>770</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=770</ExpertLink>
-                    <Name lang="nl">Rabiës</Name>
+                    <Name lang="nl">RabiÃ«s</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1368,7 +1416,7 @@
                   <Disorder id="10360">
                     <OrphaCode>35062</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=35062</ExpertLink>
-                    <Name lang="nl">Ernstige gedissemineerde infectie door cytomegalovirus bij immuuncompetente patiënten</Name>
+                    <Name lang="nl">Ernstige gedissemineerde infectie door cytomegalovirus bij immuuncompetente patiÃ«nten</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1397,7 +1445,7 @@
                       <Name lang="nl">Categorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="18">
+                  <ClassificationNodeChildList count="17">
                     <ClassificationNode>
                       <Disorder id="21794">
                         <OrphaCode>324625</OrphaCode>
@@ -1555,18 +1603,6 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="17150">
-                        <OrphaCode>157823</OrphaCode>
-                        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=157823</ExpertLink>
-                        <Name lang="nl">Syndroom van Klüver-Bucy</Name>
-                        <DisorderType id="21422">
-                          <Name lang="nl">Klinisch syndroom</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
                       <Disorder id="18828">
                         <OrphaCode>217260</OrphaCode>
                         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=217260</ExpertLink>
@@ -1692,7 +1728,7 @@
                   <Disorder id="12104">
                     <OrphaCode>91127</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=91127</ExpertLink>
-                    <Name lang="nl">Adenovirusinfectie bij immunogecompromitteerde patiënten</Name>
+                    <Name lang="nl">Adenovirusinfectie bij immunogecompromitteerde patiÃ«nten</Name>
                     <DisorderType id="21429">
                       <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                     </DisorderType>
@@ -1704,7 +1740,7 @@
                   <Disorder id="16710">
                     <OrphaCode>137698</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=137698</ExpertLink>
-                    <Name lang="nl">Cytomegalovirusziekte met risico voor patiënten met verminderde celgemedieerde immuniteit</Name>
+                    <Name lang="nl">Cytomegalovirusziekte met risico voor patiÃ«nten met verminderde celgemedieerde immuniteit</Name>
                     <DisorderType id="21429">
                       <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
                     </DisorderType>
@@ -1716,7 +1752,7 @@
                   <Disorder id="23562">
                     <OrphaCode>448237</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=448237</ExpertLink>
-                    <Name lang="nl">Ziekte door zika-virus</Name>
+                    <Name lang="nl">Ziekte door zikavirus</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1759,7 +1795,7 @@
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="35">
+              <ClassificationNodeChildList count="34">
                 <ClassificationNode>
                   <Disorder id="32100">
                     <OrphaCode>674947</OrphaCode>
@@ -1777,6 +1813,18 @@
                     <OrphaCode>1223</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1223</ExpertLink>
                     <Name lang="nl">Balantidiasis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32351">
+                    <OrphaCode>697096</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=697096</ExpertLink>
+                    <Name lang="nl">Cryptosporidiose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -1921,18 +1969,6 @@
                     <OrphaCode>67</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=67</ExpertLink>
                     <Name lang="nl">Amoebiase door Entamoeba histolytica</Name>
-                    <DisorderType id="21394">
-                      <Name lang="nl">Ziekte</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="3535">
-                    <OrphaCode>1546</OrphaCode>
-                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1546</ExpertLink>
-                    <Name lang="nl">Cryptokokkose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -2112,7 +2148,7 @@
                   <Disorder id="8537">
                     <OrphaCode>76</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=76</ExpertLink>
-                    <Name lang="nl">Strongyloïdiase</Name>
+                    <Name lang="nl">StrongyloÃ¯diase</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -2361,18 +2397,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="19071">
-                    <OrphaCode>228123</OrphaCode>
-                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228123</ExpertLink>
-                    <Name lang="nl">Coccidioïdomycose</Name>
-                    <DisorderType id="21394">
-                      <Name lang="nl">Ziekte</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="23166">
                     <OrphaCode>423717</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=423717</ExpertLink>
@@ -2395,7 +2419,7 @@
                   <Name lang="nl">Categorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="13">
+              <ClassificationNodeChildList count="18">
                 <ClassificationNode>
                   <Disorder id="719">
                     <OrphaCode>1163</OrphaCode>
@@ -2472,7 +2496,7 @@
                   <Disorder id="11043">
                     <OrphaCode>73260</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=73260</ExpertLink>
-                    <Name lang="nl">Paracoccidioïdomycose</Name>
+                    <Name lang="nl">ParacoccidioÃ¯domycose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -2517,10 +2541,58 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="3535">
+                    <OrphaCode>1546</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1546</ExpertLink>
+                    <Name lang="nl">Cryptokokkose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19071">
+                    <OrphaCode>228123</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228123</ExpertLink>
+                    <Name lang="nl">CoccidioÃ¯domycose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28678">
+                    <OrphaCode>570762</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=570762</ExpertLink>
+                    <Name lang="nl">Infectieuze endocarditis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="23614">
                     <OrphaCode>449280</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449280</ExpertLink>
                     <Name lang="nl">Scedosporiose</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32344">
+                    <OrphaCode>697053</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=697053</ExpertLink>
+                    <Name lang="nl">Talaromycose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>
@@ -2545,6 +2617,18 @@
                     <OrphaCode>633124</OrphaCode>
                     <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=633124</ExpertLink>
                     <Name lang="nl">Invasieve infectie door scopulariopsis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="nl">Ziekte</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32350">
+                    <OrphaCode>697091</OrphaCode>
+                    <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=697091</ExpertLink>
+                    <Name lang="nl">Emergomycose</Name>
                     <DisorderType id="21394">
                       <Name lang="nl">Ziekte</Name>
                     </DisorderType>

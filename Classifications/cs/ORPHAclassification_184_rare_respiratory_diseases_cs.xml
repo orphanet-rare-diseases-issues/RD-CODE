@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2024-06-27 12:42:42" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2025-06-24 07:45:55" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +20,7 @@
               <Name lang="cs">Kategorie</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="8">
+          <ClassificationNodeChildList count="7">
             <ClassificationNode>
               <Disorder id="2967">
                 <OrphaCode>3347</OrphaCode>
@@ -653,7 +652,7 @@
                       <Name lang="cs">Kategorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="26">
+                  <ClassificationNodeChildList count="27">
                     <ClassificationNode>
                       <Disorder id="14100">
                         <OrphaCode>99083</OrphaCode>
@@ -680,7 +679,7 @@
                           <Disorder id="14143">
                             <OrphaCode>99126</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99126</ExpertLink>
-                            <Name lang="cs">NEAKTUÁLNÍ: Atrézie plicní žíly</Name>
+                            <Name lang="cs">Vrozená atrézie plicní žíly</Name>
                             <DisorderType id="21415">
                               <Name lang="cs">Morfologická anomálie</Name>
                             </DisorderType>
@@ -1231,6 +1230,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="32457">
+                        <OrphaCode>700286</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=700286</ExpertLink>
+                        <Name lang="en">Congenital high airway obstruction syndrome</Name>
+                        <DisorderType id="21422">
+                          <Name lang="cs">Klinický syndrom</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="236">
                         <OrphaCode>774</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=774</ExpertLink>
@@ -1364,7 +1375,7 @@
                           <Disorder id="32134">
                             <OrphaCode>675837</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=675837</ExpertLink>
-                            <Name lang="en">Diffused pleural mesothelioma</Name>
+                            <Name lang="cs">Difuzní pleurální mezoteliom</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -1376,7 +1387,7 @@
                           <Disorder id="32133">
                             <OrphaCode>675833</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=675833</ExpertLink>
-                            <Name lang="en">Localized pleural mesothelioma</Name>
+                            <Name lang="cs">Lokalizovaný pleurální mezoteliom</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -1388,7 +1399,7 @@
                           <Disorder id="32135">
                             <OrphaCode>675841</OrphaCode>
                             <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=675841</ExpertLink>
-                            <Name lang="en">Pleural mesothelioma in situ</Name>
+                            <Name lang="cs">Pleurální mezoteliom in situ</Name>
                             <DisorderType id="21450">
                               <Name lang="cs">Klinický podtyp</Name>
                             </DisorderType>
@@ -1522,7 +1533,7 @@
                       <Disorder id="32132">
                         <OrphaCode>675822</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=675822</ExpertLink>
-                        <Name lang="en">Well-differentiated papillary mesothelial tumour of the pleura</Name>
+                        <Name lang="cs">Dobře diferencovaný papilární mezoteliální nádor pleury</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -1534,7 +1545,7 @@
                       <Disorder id="32131">
                         <OrphaCode>675814</OrphaCode>
                         <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=675814</ExpertLink>
-                        <Name lang="en">Adenomatoid tumour of the pleura</Name>
+                        <Name lang="cs">Adenomatoidní nádor pleury</Name>
                         <DisorderType id="21394">
                           <Name lang="cs">Onemocnění</Name>
                         </DisorderType>
@@ -1555,7 +1566,7 @@
                   <Name lang="cs">Kategorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="43">
+              <ClassificationNodeChildList count="46">
                 <ClassificationNode>
                   <Disorder id="3768">
                     <OrphaCode>389</OrphaCode>
@@ -1565,7 +1576,55 @@
                       <Name lang="cs">Onemocnění</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="0">
+                  <ClassificationNodeChildList count="4">
+                    <ClassificationNode>
+                      <Disorder id="32186">
+                        <OrphaCode>687733</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=687733</ExpertLink>
+                        <Name lang="cs">Plicní histiocytóza z Langerhansových buněk</Name>
+                        <DisorderType id="21450">
+                          <Name lang="cs">Klinický podtyp</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32188">
+                        <OrphaCode>687741</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=687741</ExpertLink>
+                        <Name lang="cs">Multisystémová histiocytóza z Langerhansových buněk</Name>
+                        <DisorderType id="21450">
+                          <Name lang="cs">Klinický podtyp</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32187">
+                        <OrphaCode>687738</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=687738</ExpertLink>
+                        <Name lang="cs">Jednosystémová multifokální histiocytóza z Langerhansových buněk</Name>
+                        <DisorderType id="21450">
+                          <Name lang="cs">Klinický podtyp</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32185">
+                        <OrphaCode>687730</OrphaCode>
+                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=687730</ExpertLink>
+                        <Name lang="cs">Unifokální histiocytóza z Langerhansových buněk</Name>
+                        <DisorderType id="21450">
+                          <Name lang="cs">Klinický podtyp</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1845,6 +1904,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="3441">
+                    <OrphaCode>2038</OrphaCode>
+                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2038</ExpertLink>
+                    <Name lang="cs">Vrozená pulmonální arteriovenózní píštěl</Name>
+                    <DisorderType id="21415">
+                      <Name lang="cs">Morfologická anomálie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="16993">
                     <OrphaCode>140896</OrphaCode>
                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=140896</ExpertLink>
@@ -1943,19 +2014,7 @@
                                   <Name lang="cs">Kategorie</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="3">
-                                <ClassificationNode>
-                                  <Disorder id="10958">
-                                    <OrphaCode>70587</OrphaCode>
-                                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=70587</ExpertLink>
-                                    <Name lang="cs">Syndrom dechové tísně novorovozence</Name>
-                                    <DisorderType id="21394">
-                                      <Name lang="cs">Onemocnění</Name>
-                                    </DisorderType>
-                                  </Disorder>
-                                  <ClassificationNodeChildList count="0">
-                                  </ClassificationNodeChildList>
-                                </ClassificationNode>
+                              <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
                                   <Disorder id="14622">
                                     <OrphaCode>100049</OrphaCode>
@@ -3281,57 +3340,33 @@
                                     <OrphaCode>31740</OrphaCode>
                                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=31740</ExpertLink>
                                     <Name lang="cs">Hypersenzitivní pneumonitida</Name>
-                                    <DisorderType id="21436">
-                                      <Name lang="cs">Klinická skupina</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="cs">Onemocnění</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
                                     <ClassificationNode>
-                                      <Disorder id="14480">
-                                        <OrphaCode>99907</OrphaCode>
-                                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99907</ExpertLink>
-                                        <Name lang="cs">Alergická alveolitida s expozicí v domácím prostředí</Name>
-                                        <DisorderType id="21394">
-                                          <Name lang="cs">Onemocnění</Name>
+                                      <Disorder id="32172">
+                                        <OrphaCode>686462</OrphaCode>
+                                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=686462</ExpertLink>
+                                        <Name lang="cs">Nefibrotická hypersenzitivní pneumonitida</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="cs">Klinický podtyp</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                     <ClassificationNode>
-                                      <Disorder id="14482">
-                                        <OrphaCode>99909</OrphaCode>
-                                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99909</ExpertLink>
-                                        <Name lang="cs">Exogenní alergická alveolitida</Name>
-                                        <DisorderType id="21436">
-                                          <Name lang="cs">Klinická skupina</Name>
+                                      <Disorder id="32173">
+                                        <OrphaCode>686465</OrphaCode>
+                                        <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=686465</ExpertLink>
+                                        <Name lang="cs">Fibrotická hypersenzitivní pneumonitida</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="cs">Klinický podtyp</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="2">
-                                        <ClassificationNode>
-                                          <Disorder id="14479">
-                                            <OrphaCode>99906</OrphaCode>
-                                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99906</ExpertLink>
-                                            <Name lang="cs">Farmářská plíce</Name>
-                                            <DisorderType id="21394">
-                                              <Name lang="cs">Onemocnění</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
-                                        <ClassificationNode>
-                                          <Disorder id="14481">
-                                            <OrphaCode>99908</OrphaCode>
-                                            <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99908</ExpertLink>
-                                            <Name lang="cs">Holubářská plíce</Name>
-                                            <DisorderType id="21394">
-                                              <Name lang="cs">Onemocnění</Name>
-                                            </DisorderType>
-                                          </Disorder>
-                                          <ClassificationNodeChildList count="0">
-                                          </ClassificationNodeChildList>
-                                        </ClassificationNode>
+                                      <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
                                     </ClassificationNode>
                                   </ClassificationNodeChildList>
@@ -3585,6 +3620,30 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="32238">
+                    <OrphaCode>692812</OrphaCode>
+                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=692812</ExpertLink>
+                    <Name lang="cs">Syndrom zahrnující kombinovanou imunodeficienci, bronchiektázii a predispozici k rakovině</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32167">
+                    <OrphaCode>685082</OrphaCode>
+                    <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=685082</ExpertLink>
+                    <Name lang="cs">Syndrom akutní dechové tísně u dětí</Name>
+                    <DisorderType id="21394">
+                      <Name lang="cs">Onemocnění</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="31793">
                     <OrphaCode>645814</OrphaCode>
                     <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=645814</ExpertLink>
@@ -3608,18 +3667,6 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="20771">
-                <OrphaCode>289877</OrphaCode>
-                <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=289877</ExpertLink>
-                <Name lang="cs">Přechodná hyperamonemie novorozenců</Name>
-                <DisorderType id="21429">
-                  <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2024-06-27 12:50:24" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBOR ExtractionDate="2025-06-24 07:52:53" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -10,15 +10,15 @@
   <ClassificationList count="1">
     <Classification id="198">
       <OrphaNumber>162961</OrphaNumber>
-      <Name lang="fr">Classification Orphanet des maladies rares du système circulatoire</Name>
+      <Name lang="fr">Classification Orphanet des maladies rares du systÃ¨me circulatoire</Name>
       <ClassificationNodeRootList count="1">
         <ClassificationNode>
           <Disorder id="13046">
             <OrphaCode>98028</OrphaCode>
             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98028</ExpertLink>
-            <Name lang="fr">Maladie rare du système circulatoire</Name>
+            <Name lang="fr">Maladie rare du systÃ¨me circulatoire</Name>
             <DisorderType id="36561">
-              <Name lang="fr">Catégorie</Name>
+              <Name lang="fr">CatÃ©gorie</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="2">
@@ -28,7 +28,7 @@
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=68362</ExpertLink>
                 <Name lang="fr">Maladie vasculaire rare</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
@@ -38,10 +38,10 @@
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=496924</ExpertLink>
                     <Name lang="fr">Vasculopathie non inflammatoire</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="12">
+                  <ClassificationNodeChildList count="14">
                     <ClassificationNode>
                       <Disorder id="32113">
                         <OrphaCode>675404</OrphaCode>
@@ -58,7 +58,7 @@
                       <Disorder id="31727">
                         <OrphaCode>641829</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=641829</ExpertLink>
-                        <Name lang="fr">Syndrome des loges néonatal</Name>
+                        <Name lang="fr">Syndrome des loges nÃ©onatal</Name>
                         <DisorderType id="21422">
                           <Name lang="fr">Syndrome clinique</Name>
                         </DisorderType>
@@ -70,7 +70,7 @@
                       <Disorder id="31773">
                         <OrphaCode>645350</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=645350</ExpertLink>
-                        <Name lang="fr">Médiolyse artérielle segmentaire</Name>
+                        <Name lang="fr">MÃ©diolyse artÃ©rielle segmentaire</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -79,12 +79,96 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="32203">
+                        <OrphaCode>689001</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=689001</ExpertLink>
+                        <Name lang="fr">Dissection isolÃ©e spontanÃ©e de l'artÃ¨re cervicale</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32378">
+                        <OrphaCode>698012</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698012</ExpertLink>
+                        <Name lang="fr">Dysplasie fibromusculaire</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="5">
+                        <ClassificationNode>
+                          <Disorder id="32379">
+                            <OrphaCode>698036</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698036</ExpertLink>
+                            <Name lang="fr">Dysplasie fibromusculaire des artÃ¨res cervicales et intracrÃ¢niennes</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32380">
+                            <OrphaCode>698043</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698043</ExpertLink>
+                            <Name lang="fr">Dysplasie fibromusculaire des artÃ¨res rÃ©nales</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32381">
+                            <OrphaCode>698059</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698059</ExpertLink>
+                            <Name lang="fr">Dysplasie fibromusculaire des artÃ¨res coronaires</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32382">
+                            <OrphaCode>698063</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698063</ExpertLink>
+                            <Name lang="fr">Dysplasie fibromusculaire des artÃ¨res viscÃ©rales</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32383">
+                            <OrphaCode>698069</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698069</ExpertLink>
+                            <Name lang="fr">Dysplasie fibromusculaire des artÃ¨res des extrÃ©mitÃ©s</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="11955">
                         <OrphaCode>90064</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90064</ExpertLink>
-                        <Name lang="fr">Occlusion artérielle périphérique aiguë</Name>
+                        <Name lang="fr">Occlusion artÃ©rielle pÃ©riphÃ©rique aiguÃ«</Name>
                         <DisorderType id="21429">
-                          <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
+                          <Name lang="fr">Situation clinique particuliÃ¨re dans une maladie ou un syndrome</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -94,9 +178,21 @@
                       <Disorder id="28055">
                         <OrphaCode>542643</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=542643</ExpertLink>
-                        <Name lang="fr">Vasculopathie livédoïde</Name>
+                        <Name lang="fr">Vasculopathie livÃ©doÃ¯de</Name>
                         <DisorderType id="21422">
                           <Name lang="fr">Syndrome clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="27630">
+                        <OrphaCode>529864</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=529864</ExpertLink>
+                        <Name lang="fr">ErythromÃ©lalgie secondaire</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -106,7 +202,7 @@
                       <Disorder id="1762">
                         <OrphaCode>1682</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1682</ExpertLink>
-                        <Name lang="fr">Syndrome de dissection artérielle-lentiginose</Name>
+                        <Name lang="fr">Syndrome de dissection artÃ©rielle-lentiginose</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -130,9 +226,9 @@
                       <Disorder id="19238">
                         <OrphaCode>233655</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=233655</ExpertLink>
-                        <Name lang="fr">Maladie vasculaire génétique rare</Name>
+                        <Name lang="fr">Maladie vasculaire gÃ©nÃ©tique rare</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="6">
@@ -140,7 +236,7 @@
                           <Disorder id="1010">
                             <OrphaCode>86</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86</ExpertLink>
-                            <Name lang="fr">Anévrisme familial de l'aorte abdominale</Name>
+                            <Name lang="fr">AnÃ©vrisme familial de l'aorte abdominale</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -152,7 +248,7 @@
                           <Disorder id="10675">
                             <OrphaCode>51608</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=51608</ExpertLink>
-                            <Name lang="fr">Calcification artérielle généralisée infantile</Name>
+                            <Name lang="fr">Calcification artÃ©rielle gÃ©nÃ©ralisÃ©e infantile</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -164,9 +260,9 @@
                           <Disorder id="20633">
                             <OrphaCode>285014</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=285014</ExpertLink>
-                            <Name lang="fr">Maladie rare avec anévrisme et dissection de l'aorte thoracique</Name>
+                            <Name lang="fr">Maladie rare avec anÃ©vrisme et dissection de l'aorte thoracique</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="11">
@@ -174,7 +270,7 @@
                               <Disorder id="31460">
                                 <OrphaCode>622925</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=622925</ExpertLink>
-                                <Name lang="fr">Anévrisme de l'aorte thoracique et dissection aortique, forme syndromique sévère liée à l'X</Name>
+                                <Name lang="fr">AnÃ©vrisme de l'aorte thoracique et dissection aortique, forme syndromique sÃ©vÃ¨re liÃ©e Ã  l'X</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -222,7 +318,7 @@
                               <Disorder id="2965">
                                 <OrphaCode>3342</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3342</ExpertLink>
-                                <Name lang="fr">Syndrome de tortuosité artérielle</Name>
+                                <Name lang="fr">Syndrome de tortuositÃ© artÃ©rielle</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -258,7 +354,7 @@
                               <Disorder id="12138">
                                 <OrphaCode>91387</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=91387</ExpertLink>
-                                <Name lang="fr">Anévrisme familial de l'aorte thoracique et dissection aortique</Name>
+                                <Name lang="fr">AnÃ©vrisme familial de l'aorte thoracique et dissection aortique</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -270,7 +366,7 @@
                               <Disorder id="20630">
                                 <OrphaCode>284979</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=284979</ExpertLink>
-                                <Name lang="fr">Syndrome de Marfan néonatal</Name>
+                                <Name lang="fr">Syndrome de Marfan nÃ©onatal</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -282,7 +378,7 @@
                               <Disorder id="20631">
                                 <OrphaCode>284984</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=284984</ExpertLink>
-                                <Name lang="fr">Syndrome d'arthrose-anévrisme</Name>
+                                <Name lang="fr">Syndrome d'arthrose-anÃ©vrisme</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -306,7 +402,7 @@
                               <Disorder id="22924">
                                 <OrphaCode>404463</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=404463</ExpertLink>
-                                <Name lang="fr">Syndrome multisystémique de dysfonctionnement des muscles lisses</Name>
+                                <Name lang="fr">Syndrome multisystÃ©mique de dysfonctionnement des muscles lisses</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -332,7 +428,7 @@
                           <Disorder id="20749">
                             <OrphaCode>289601</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=289601</ExpertLink>
-                            <Name lang="fr">Syndrome héréditaire de calcification artérielle et articulaire</Name>
+                            <Name lang="fr">Syndrome hÃ©rÃ©ditaire de calcification artÃ©rielle et articulaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -344,7 +440,7 @@
                           <Disorder id="21520">
                             <OrphaCode>314718</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314718</ExpertLink>
-                            <Name lang="fr">Syndrome d'artériopathie létale par déficit en fibuline-4</Name>
+                            <Name lang="fr">Syndrome d'artÃ©riopathie lÃ©tale par dÃ©ficit en fibuline-4</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -356,7 +452,7 @@
                           <Disorder id="12025">
                             <OrphaCode>90349</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90349</ExpertLink>
-                            <Name lang="fr">Cutis laxa autosomique récessive type 1</Name>
+                            <Name lang="fr">Cutis laxa autosomique rÃ©cessive type 1</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -380,7 +476,7 @@
                           <Disorder id="20423">
                             <OrphaCode>280065</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=280065</ExpertLink>
-                            <Name lang="fr">Calciphylaxie cutanée</Name>
+                            <Name lang="fr">Calciphylaxie cutanÃ©e</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -392,7 +488,7 @@
                           <Disorder id="20424">
                             <OrphaCode>280068</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=280068</ExpertLink>
-                            <Name lang="fr">Calciphylaxie viscérale</Name>
+                            <Name lang="fr">Calciphylaxie viscÃ©rale</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -406,21 +502,9 @@
                       <Disorder id="23377">
                         <OrphaCode>439175</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439175</ExpertLink>
-                        <Name lang="fr">Accident vasculaire cérébral ischémique de l'enfant</Name>
+                        <Name lang="fr">Accident vasculaire cÃ©rÃ©bral ischÃ©mique de l'enfant</Name>
                         <DisorderType id="21422">
                           <Name lang="fr">Syndrome clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23749">
-                        <OrphaCode>458718</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458718</ExpertLink>
-                        <Name lang="fr">Dissection spontanée idiopathique de l'artère coronaire</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -446,7 +530,7 @@
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=52759</ExpertLink>
                     <Name lang="fr">Vascularite</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
@@ -464,7 +548,7 @@
                           <Disorder id="8759">
                             <OrphaCode>26137</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=26137</ExpertLink>
-                            <Name lang="fr">Artérite temporale juvénile</Name>
+                            <Name lang="fr">ArtÃ©rite temporale juvÃ©nile</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -476,7 +560,7 @@
                           <Disorder id="703">
                             <OrphaCode>117</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=117</ExpertLink>
-                            <Name lang="fr">Maladie de Behçet</Name>
+                            <Name lang="fr">Maladie de BehÃ§et</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -488,7 +572,7 @@
                           <Disorder id="806">
                             <OrphaCode>3287</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3287</ExpertLink>
-                            <Name lang="fr">Artérite de Takayasu</Name>
+                            <Name lang="fr">ArtÃ©rite de Takayasu</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -500,7 +584,7 @@
                           <Disorder id="876">
                             <OrphaCode>397</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=397</ExpertLink>
-                            <Name lang="fr">Artérite à cellules géantes</Name>
+                            <Name lang="fr">ArtÃ©rite Ã  cellules gÃ©antes</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -560,7 +644,7 @@
                           <Disorder id="3403">
                             <OrphaCode>767</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=767</ExpertLink>
-                            <Name lang="fr">Périartérite noueuse</Name>
+                            <Name lang="fr">PÃ©riartÃ©rite noueuse</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -570,7 +654,7 @@
                               <Disorder id="23387">
                                 <OrphaCode>439737</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439737</ExpertLink>
-                                <Name lang="fr">Périartérite noueuse primaire</Name>
+                                <Name lang="fr">PÃ©riartÃ©rite noueuse primaire</Name>
                                 <DisorderType id="21450">
                                   <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
@@ -580,7 +664,7 @@
                                   <Disorder id="23386">
                                     <OrphaCode>439729</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439729</ExpertLink>
-                                    <Name lang="fr">Périartérite noueuse cutanée</Name>
+                                    <Name lang="fr">PÃ©riartÃ©rite noueuse cutanÃ©e</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -592,7 +676,7 @@
                                   <Disorder id="23389">
                                     <OrphaCode>439755</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439755</ExpertLink>
-                                    <Name lang="fr">Périartérite noueuse à organe unique</Name>
+                                    <Name lang="fr">PÃ©riartÃ©rite noueuse Ã  organe unique</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -604,7 +688,7 @@
                                   <Disorder id="23390">
                                     <OrphaCode>439762</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439762</ExpertLink>
-                                    <Name lang="fr">Périartérite noueuse systémique</Name>
+                                    <Name lang="fr">PÃ©riartÃ©rite noueuse systÃ©mique</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -618,7 +702,7 @@
                               <Disorder id="23388">
                                 <OrphaCode>439746</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=439746</ExpertLink>
-                                <Name lang="fr">Périartérite noueuse secondaire</Name>
+                                <Name lang="fr">PÃ©riartÃ©rite noueuse secondaire</Name>
                                 <DisorderType id="21450">
                                   <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
@@ -644,7 +728,7 @@
                           <Disorder id="17015">
                             <OrphaCode>140989</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=140989</ExpertLink>
-                            <Name lang="fr">Angéite primaire du système nerveux central</Name>
+                            <Name lang="fr">AngÃ©ite primaire du systÃ¨me nerveux central</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -656,7 +740,7 @@
                           <Disorder id="22938">
                             <OrphaCode>404553</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=404553</ExpertLink>
-                            <Name lang="fr">Déficit en adénosine désaminase 2</Name>
+                            <Name lang="fr">DÃ©ficit en adÃ©nosine dÃ©saminase 2</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -692,7 +776,7 @@
                           <Disorder id="17015">
                             <OrphaCode>140989</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=140989</ExpertLink>
-                            <Name lang="fr">Angéite primaire du système nerveux central</Name>
+                            <Name lang="fr">AngÃ©ite primaire du systÃ¨me nerveux central</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -704,7 +788,7 @@
                           <Disorder id="747">
                             <OrphaCode>375</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=375</ExpertLink>
-                            <Name lang="fr">Maladie des anticorps anti-membrane basale glomérulaire</Name>
+                            <Name lang="fr">Maladie des anticorps anti-membrane basale glomÃ©rulaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -716,9 +800,9 @@
                           <Disorder id="17098">
                             <OrphaCode>156149</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=156149</ExpertLink>
-                            <Name lang="fr">Vascularite à complexes immuns</Name>
+                            <Name lang="fr">Vascularite Ã  complexes immuns</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -726,7 +810,7 @@
                               <Disorder id="749">
                                 <OrphaCode>761</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=761</ExpertLink>
-                                <Name lang="fr">Vascularite à immunoglobulines A</Name>
+                                <Name lang="fr">Vascularite Ã  immunoglobulines A</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -738,7 +822,7 @@
                               <Disorder id="8613">
                                 <OrphaCode>889</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=889</ExpertLink>
-                                <Name lang="fr">Vascularite des petits vaisseaux cutanés</Name>
+                                <Name lang="fr">Vascularite des petits vaisseaux cutanÃ©s</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -750,7 +834,7 @@
                               <Disorder id="10428">
                                 <OrphaCode>36412</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=36412</ExpertLink>
-                                <Name lang="fr">Vascularite urticarienne hypocomplémentémique</Name>
+                                <Name lang="fr">Vascularite urticarienne hypocomplÃ©mentÃ©mique</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -774,7 +858,7 @@
                               <Disorder id="12115">
                                 <OrphaCode>91138</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=91138</ExpertLink>
-                                <Name lang="fr">Vascularite cryoglobulinémique</Name>
+                                <Name lang="fr">Vascularite cryoglobulinÃ©mique</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -784,9 +868,9 @@
                                   <Disorder id="12396">
                                     <OrphaCode>93554</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93554</ExpertLink>
-                                    <Name lang="fr">Cryoglobulinémie mixte type II</Name>
+                                    <Name lang="fr">CryoglobulinÃ©mie mixte type II</Name>
                                     <DisorderType id="21443">
-                                      <Name lang="fr">Sous-type étiologique</Name>
+                                      <Name lang="fr">Sous-type Ã©tiologique</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -796,9 +880,9 @@
                                   <Disorder id="12397">
                                     <OrphaCode>93555</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=93555</ExpertLink>
-                                    <Name lang="fr">Cryoglobulinémie mixte type III</Name>
+                                    <Name lang="fr">CryoglobulinÃ©mie mixte type III</Name>
                                     <DisorderType id="21443">
-                                      <Name lang="fr">Sous-type étiologique</Name>
+                                      <Name lang="fr">Sous-type Ã©tiologique</Name>
                                     </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
@@ -812,7 +896,7 @@
                           <Disorder id="17099">
                             <OrphaCode>156152</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=156152</ExpertLink>
-                            <Name lang="fr">Vascularite associée aux anticorps antineutrophiles cytoplasmiques</Name>
+                            <Name lang="fr">Vascularite associÃ©e aux anticorps antineutrophiles cytoplasmiques</Name>
                             <DisorderType id="21436">
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
@@ -822,7 +906,7 @@
                               <Disorder id="745">
                                 <OrphaCode>183</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=183</ExpertLink>
-                                <Name lang="fr">Granulomatose éosinophilique avec polyangéite</Name>
+                                <Name lang="fr">Granulomatose Ã©osinophilique avec polyangÃ©ite</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -834,7 +918,7 @@
                               <Disorder id="753">
                                 <OrphaCode>727</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=727</ExpertLink>
-                                <Name lang="fr">Polyangéite microscopique</Name>
+                                <Name lang="fr">PolyangÃ©ite microscopique</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -846,7 +930,7 @@
                               <Disorder id="759">
                                 <OrphaCode>900</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=900</ExpertLink>
-                                <Name lang="fr">Granulomatose avec polyangéite</Name>
+                                <Name lang="fr">Granulomatose avec polyangÃ©ite</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -860,7 +944,7 @@
                           <Disorder id="23209">
                             <OrphaCode>425120</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=425120</ExpertLink>
-                            <Name lang="fr">Vasculopathie de l'enfant associée à STING</Name>
+                            <Name lang="fr">Vasculopathie de l'enfant associÃ©e Ã  STING</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -874,7 +958,7 @@
                       <Disorder id="19629">
                         <OrphaCode>251328</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=251328</ExpertLink>
-                        <Name lang="fr">Vascularite non classifiée</Name>
+                        <Name lang="fr">Vascularite non classifiÃ©e</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -888,7 +972,7 @@
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=445197</ExpertLink>
                         <Name lang="fr">Vascularite secondaire</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -908,7 +992,7 @@
                           <Disorder id="19628">
                             <OrphaCode>251325</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=251325</ExpertLink>
-                            <Name lang="fr">Vascularite induite par les médicaments</Name>
+                            <Name lang="fr">Vascularite induite par les mÃ©dicaments</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -928,7 +1012,7 @@
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=68419</ExpertLink>
                 <Name lang="fr">Anomalie vasculaire rare</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="5">
@@ -936,9 +1020,9 @@
                   <Disorder id="18717">
                     <OrphaCode>211277</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211277</ExpertLink>
-                    <Name lang="fr">Malformation vasculaire complexe avec anomalies associées</Name>
+                    <Name lang="fr">Malformation vasculaire complexe avec anomalies associÃ©es</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="10">
@@ -958,9 +1042,9 @@
                       <Disorder id="16690">
                         <OrphaCode>137608</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=137608</ExpertLink>
-                        <Name lang="fr">Syndrome d'hypertrophie segmentaire-lipomatose-malformation artérioveineuse-naevus épidermique</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
+                        <Name lang="fr">Syndrome d'hypertrophie segmentaire-lipomatose-malformation artÃ©rioveineuse-naevus Ã©pidermique</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -970,7 +1054,7 @@
                       <Disorder id="523">
                         <OrphaCode>2346</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2346</ExpertLink>
-                        <Name lang="fr">Syndrome angio-ostéo-hypertrophique</Name>
+                        <Name lang="fr">Syndrome angio-ostÃ©o-hypertrophique</Name>
                         <DisorderType id="21436">
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
@@ -992,7 +1076,7 @@
                           <Disorder id="12005">
                             <OrphaCode>90308</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90308</ExpertLink>
-                            <Name lang="fr">Syndrome de Klippel-Trénaunay</Name>
+                            <Name lang="fr">Malformation capillaro-lymphatico-veineuse avec distribution segmentaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -1006,7 +1090,7 @@
                       <Disorder id="11086">
                         <OrphaCode>75508</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=75508</ExpertLink>
-                        <Name lang="fr">Syndrome angio-ostéo-hypotrophique</Name>
+                        <Name lang="fr">Syndrome angio-ostÃ©o-hypotrophique</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1019,8 +1103,8 @@
                         <OrphaCode>109</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=109</ExpertLink>
                         <Name lang="fr">Syndrome de Bannayan-Riley-Ruvalcaba</Name>
-                        <DisorderType id="21401">
-                          <Name lang="fr">Syndrome  malformatif</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1030,7 +1114,7 @@
                       <Disorder id="11787">
                         <OrphaCode>86914</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86914</ExpertLink>
-                        <Name lang="fr">Syndrome de lymphoedème-anomalie cérébrale artérioveineuse-hypertension pulmonaire primitive</Name>
+                        <Name lang="fr">Syndrome de lymphoedÃ¨me-anomalie cÃ©rÃ©brale artÃ©rioveineuse-hypertension pulmonaire primitive</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1042,7 +1126,7 @@
                       <Disorder id="565">
                         <OrphaCode>744</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=744</ExpertLink>
-                        <Name lang="fr">Syndrome de Protée</Name>
+                        <Name lang="fr">Syndrome de ProtÃ©e</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1075,10 +1159,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="21927">
-                        <OrphaCode>329324</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=329324</ExpertLink>
-                        <Name lang="fr">Syndrome de Klippel-Trénaunay inverse</Name>
+                      <Disorder id="32415">
+                        <OrphaCode>699683</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=699683</ExpertLink>
+                        <Name lang="fr">Anomalie vasculaire fibro-adipeuse</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1092,7 +1176,7 @@
                   <Disorder id="23761">
                     <OrphaCode>458837</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458837</ExpertLink>
-                    <Name lang="fr">Malformation vasculaire combinée rare</Name>
+                    <Name lang="fr">Malformation vasculaire combinÃ©e rare</Name>
                     <DisorderType id="21436">
                       <Name lang="fr">Groupe clinique</Name>
                     </DisorderType>
@@ -1106,10 +1190,10 @@
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458844</ExpertLink>
                     <Name lang="fr">Malformation vasculaire rare des gros vaisseaux</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="5">
+                  <ClassificationNodeChildList count="6">
                     <ClassificationNode>
                       <Disorder id="1299">
                         <OrphaCode>981</OrphaCode>
@@ -1126,9 +1210,9 @@
                       <Disorder id="13741">
                         <OrphaCode>98724</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98724</ExpertLink>
-                        <Name lang="fr">Anomalie congénitale des artères de gros calibre</Name>
+                        <Name lang="fr">Anomalie congÃ©nitale des artÃ¨res de gros calibre</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="6">
@@ -1138,7 +1222,7 @@
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1132</ExpertLink>
                             <Name lang="fr">Arcs aortiques anormaux</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="7">
@@ -1158,7 +1242,7 @@
                               <Disorder id="14093">
                                 <OrphaCode>99076</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99076</ExpertLink>
-                                <Name lang="fr">Persistance du cinquième arc aortique</Name>
+                                <Name lang="fr">Persistance du cinquiÃ¨me arc aortique</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1244,9 +1328,9 @@
                           <Disorder id="12609">
                             <OrphaCode>95485</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95485</ExpertLink>
-                            <Name lang="fr">Anomalie du canal artériel</Name>
+                            <Name lang="fr">Anomalie du canal artÃ©riel</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -1254,7 +1338,7 @@
                               <Disorder id="12610">
                                 <OrphaCode>95486</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95486</ExpertLink>
-                                <Name lang="fr">Fermeture anténatale du canal artériel</Name>
+                                <Name lang="fr">Fermeture antÃ©natale du canal artÃ©riel</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1266,7 +1350,7 @@
                               <Disorder id="14089">
                                 <OrphaCode>99072</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99072</ExpertLink>
-                                <Name lang="fr">Anévrisme du canal artériel</Name>
+                                <Name lang="fr">AnÃ©vrisme du canal artÃ©riel</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1278,7 +1362,7 @@
                               <Disorder id="24163">
                                 <OrphaCode>466729</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=466729</ExpertLink>
-                                <Name lang="fr">Persistance du canal artériel familiale</Name>
+                                <Name lang="fr">Persistance du canal artÃ©riel familiale</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1294,7 +1378,7 @@
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98718</ExpertLink>
                             <Name lang="fr">Malformation aortique</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
@@ -1302,7 +1386,7 @@
                               <Disorder id="2859">
                                 <OrphaCode>3193</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3193</ExpertLink>
-                                <Name lang="fr">Sténose aortique supravalvulaire</Name>
+                                <Name lang="fr">StÃ©nose aortique supravalvulaire</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1362,7 +1446,7 @@
                               <Disorder id="3454">
                                 <OrphaCode>3092</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3092</ExpertLink>
-                                <Name lang="fr">Rétrécissement aortique sous-valvulaire</Name>
+                                <Name lang="fr">RÃ©trÃ©cissement aortique sous-valvulaire</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1372,7 +1456,7 @@
                                   <Disorder id="14068">
                                     <OrphaCode>99051</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99051</ExpertLink>
-                                    <Name lang="fr">Sténose subaortique membraneuse modérée</Name>
+                                    <Name lang="fr">StÃ©nose subaortique membraneuse modÃ©rÃ©e</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1384,7 +1468,7 @@
                                   <Disorder id="14069">
                                     <OrphaCode>99052</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99052</ExpertLink>
-                                    <Name lang="fr">Sténose subaortique fibromusculaire modérée</Name>
+                                    <Name lang="fr">StÃ©nose subaortique fibromusculaire modÃ©rÃ©e</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1396,7 +1480,7 @@
                                   <Disorder id="14070">
                                     <OrphaCode>99053</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99053</ExpertLink>
-                                    <Name lang="fr">Sténose subaortique en tunnel</Name>
+                                    <Name lang="fr">StÃ©nose subaortique en tunnel</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1410,7 +1494,7 @@
                               <Disorder id="3455">
                                 <OrphaCode>3093</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3093</ExpertLink>
-                                <Name lang="fr">Sténose aortique valvulaire congénitale</Name>
+                                <Name lang="fr">StÃ©nose aortique valvulaire congÃ©nitale</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1420,7 +1504,7 @@
                                   <Disorder id="12595">
                                     <OrphaCode>95448</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95448</ExpertLink>
-                                    <Name lang="fr">Atrésie valvulaire aortique congénitale</Name>
+                                    <Name lang="fr">AtrÃ©sie valvulaire aortique congÃ©nitale</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1432,7 +1516,7 @@
                                   <Disorder id="14754">
                                     <OrphaCode>101043</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101043</ExpertLink>
-                                    <Name lang="fr">Dysplasie valvulaire aortique congénitale</Name>
+                                    <Name lang="fr">Dysplasie valvulaire aortique congÃ©nitale</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1460,9 +1544,9 @@
                           <Disorder id="13736">
                             <OrphaCode>98719</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98719</ExpertLink>
-                            <Name lang="fr">Anomalie de l'artère ou des branches pulmonaires</Name>
+                            <Name lang="fr">Anomalie de l'artÃ¨re ou des branches pulmonaires</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="7">
@@ -1470,7 +1554,7 @@
                               <Disorder id="1455">
                                 <OrphaCode>1208</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1208</ExpertLink>
-                                <Name lang="fr">Syndrome d'atrésie pulmonaire-septum ventriculaire intact</Name>
+                                <Name lang="fr">Syndrome d'atrÃ©sie pulmonaire-septum ventriculaire intact</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1482,7 +1566,7 @@
                               <Disorder id="3424">
                                 <OrphaCode>982</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=982</ExpertLink>
-                                <Name lang="fr">Agénésie des valves pulmonaires</Name>
+                                <Name lang="fr">AgÃ©nÃ©sie des valves pulmonaires</Name>
                                 <DisorderType id="21436">
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
@@ -1492,7 +1576,7 @@
                                   <Disorder id="14065">
                                     <OrphaCode>99048</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99048</ExpertLink>
-                                    <Name lang="fr">Syndrome d'agénésie de la valve pulmonaire-septum ventriculaire intact-persistance du canal artériel</Name>
+                                    <Name lang="fr">Syndrome d'agÃ©nÃ©sie de la valve pulmonaire-septum ventriculaire intact-persistance du canal artÃ©riel</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -1504,7 +1588,7 @@
                                   <Disorder id="14834">
                                     <OrphaCode>101206</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101206</ExpertLink>
-                                    <Name lang="fr">Syndrome d'agénésie de la valve pulmonaire-tétralogie de Fallot-absence du canal artériel</Name>
+                                    <Name lang="fr">Syndrome d'agÃ©nÃ©sie de la valve pulmonaire-tÃ©tralogie de Fallot-absence du canal artÃ©riel</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -1518,7 +1602,7 @@
                               <Disorder id="3425">
                                 <OrphaCode>980</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=980</ExpertLink>
-                                <Name lang="fr">Absence de l'artère pulmonaire</Name>
+                                <Name lang="fr">Absence de l'artÃ¨re pulmonaire</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1530,7 +1614,7 @@
                               <Disorder id="3460">
                                 <OrphaCode>3189</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3189</ExpertLink>
-                                <Name lang="fr">Sténose valvulaire pulmonaire congénitale</Name>
+                                <Name lang="fr">StÃ©nose valvulaire pulmonaire congÃ©nitale</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1540,7 +1624,7 @@
                                   <Disorder id="3461">
                                     <OrphaCode>3190</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3190</ExpertLink>
-                                    <Name lang="fr">Sténose sous-pulmonaire</Name>
+                                    <Name lang="fr">StÃ©nose sous-pulmonaire</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1552,7 +1636,7 @@
                                   <Disorder id="8606">
                                     <OrphaCode>3192</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3192</ExpertLink>
-                                    <Name lang="fr">Sténose supravalvulaire pulmonaire</Name>
+                                    <Name lang="fr">StÃ©nose supravalvulaire pulmonaire</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1564,7 +1648,7 @@
                                   <Disorder id="14071">
                                     <OrphaCode>99054</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99054</ExpertLink>
-                                    <Name lang="fr">Sténose valvulaire pulmonaire</Name>
+                                    <Name lang="fr">StÃ©nose valvulaire pulmonaire</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1578,7 +1662,7 @@
                               <Disorder id="8600">
                                 <OrphaCode>1676</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1676</ExpertLink>
-                                <Name lang="fr">Dilatation idiopathique de l'artère pulmonaire</Name>
+                                <Name lang="fr">Dilatation idiopathique de l'artÃ¨re pulmonaire</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -1590,7 +1674,7 @@
                               <Disorder id="14100">
                                 <OrphaCode>99083</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99083</ExpertLink>
-                                <Name lang="fr">Hypoplasie de l'artère pulmonaire</Name>
+                                <Name lang="fr">Hypoplasie de l'artÃ¨re pulmonaire</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1602,7 +1686,7 @@
                               <Disorder id="14101">
                                 <OrphaCode>99084</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99084</ExpertLink>
-                                <Name lang="fr">Sténoses des branches pulmonaires</Name>
+                                <Name lang="fr">StÃ©noses des branches pulmonaires</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1618,7 +1702,7 @@
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98725</ExpertLink>
                             <Name lang="fr">Anomalie de l'aorte ascendante</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -1626,7 +1710,7 @@
                               <Disorder id="3426">
                                 <OrphaCode>1054</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1054</ExpertLink>
-                                <Name lang="fr">Anévrisme du sinus de Valsalva</Name>
+                                <Name lang="fr">AnÃ©vrisme du sinus de Valsalva</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1638,7 +1722,7 @@
                               <Disorder id="3455">
                                 <OrphaCode>3093</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3093</ExpertLink>
-                                <Name lang="fr">Sténose aortique valvulaire congénitale</Name>
+                                <Name lang="fr">StÃ©nose aortique valvulaire congÃ©nitale</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1648,7 +1732,7 @@
                                   <Disorder id="12595">
                                     <OrphaCode>95448</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95448</ExpertLink>
-                                    <Name lang="fr">Atrésie valvulaire aortique congénitale</Name>
+                                    <Name lang="fr">AtrÃ©sie valvulaire aortique congÃ©nitale</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1660,7 +1744,7 @@
                                   <Disorder id="14754">
                                     <OrphaCode>101043</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=101043</ExpertLink>
-                                    <Name lang="fr">Dysplasie valvulaire aortique congénitale</Name>
+                                    <Name lang="fr">Dysplasie valvulaire aortique congÃ©nitale</Name>
                                     <DisorderType id="21450">
                                       <Name lang="fr">Sous-type clinique</Name>
                                     </DisorderType>
@@ -1714,9 +1798,9 @@
                       <Disorder id="22277">
                         <OrphaCode>363189</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363189</ExpertLink>
-                        <Name lang="fr">Anomalie congénitale des veines de gros calibre</Name>
+                        <Name lang="fr">Anomalie congÃ©nitale des veines de gros calibre</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -1724,9 +1808,9 @@
                           <Disorder id="3453">
                             <OrphaCode>3091</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3091</ExpertLink>
-                            <Name lang="fr">Anomalie congénitale des veines systémiques</Name>
+                            <Name lang="fr">Anomalie congÃ©nitale des veines systÃ©miques</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -1734,9 +1818,9 @@
                               <Disorder id="12622">
                                 <OrphaCode>95498</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95498</ExpertLink>
-                                <Name lang="fr">Anomalies congénitales de la veine cave supérieure</Name>
+                                <Name lang="fr">Anomalies congÃ©nitales de la veine cave supÃ©rieure</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="7">
@@ -1744,7 +1828,7 @@
                                   <Disorder id="14127">
                                     <OrphaCode>99110</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99110</ExpertLink>
-                                    <Name lang="fr">Abouchement de la veine cave supérieure droite dans l'oreillette gauche</Name>
+                                    <Name lang="fr">Abouchement de la veine cave supÃ©rieure droite dans l'oreillette gauche</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1756,7 +1840,7 @@
                                   <Disorder id="31901">
                                     <OrphaCode>652668</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=652668</ExpertLink>
-                                    <Name lang="fr">Anévrisme primitif de la veine cave supérieure</Name>
+                                    <Name lang="fr">AnÃ©vrisme primitif de la veine cave supÃ©rieure</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -1768,7 +1852,7 @@
                                   <Disorder id="14131">
                                     <OrphaCode>99114</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99114</ExpertLink>
-                                    <Name lang="fr">Agénésie de la veine cave supérieure</Name>
+                                    <Name lang="fr">AgÃ©nÃ©sie de la veine cave supÃ©rieure</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1780,7 +1864,7 @@
                                   <Disorder id="14128">
                                     <OrphaCode>99111</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99111</ExpertLink>
-                                    <Name lang="fr">Abouchement de la veine cave supérieure gauche dans le toit de l'oreillette gauche</Name>
+                                    <Name lang="fr">Abouchement de la veine cave supÃ©rieure gauche dans le toit de l'oreillette gauche</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1792,7 +1876,7 @@
                                   <Disorder id="14130">
                                     <OrphaCode>99113</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99113</ExpertLink>
-                                    <Name lang="fr">Veine innominée sous-aortique</Name>
+                                    <Name lang="fr">Veine innominÃ©e sous-aortique</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1804,7 +1888,7 @@
                                   <Disorder id="14126">
                                     <OrphaCode>99109</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99109</ExpertLink>
-                                    <Name lang="fr">Abouchement de la veine cave supérieure gauche dans l'oreillette gauche par le sinus coronaire</Name>
+                                    <Name lang="fr">Abouchement de la veine cave supÃ©rieure gauche dans l'oreillette gauche par le sinus coronaire</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1816,7 +1900,7 @@
                                   <Disorder id="14129">
                                     <OrphaCode>99112</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99112</ExpertLink>
-                                    <Name lang="fr">Absence de veine innominée</Name>
+                                    <Name lang="fr">Absence de veine innominÃ©e</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1830,9 +1914,9 @@
                               <Disorder id="12623">
                                 <OrphaCode>95499</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95499</ExpertLink>
-                                <Name lang="fr">Anomalie congénitale de la veine cave inférieure</Name>
+                                <Name lang="fr">Anomalie congÃ©nitale de la veine cave infÃ©rieure</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="6">
@@ -1840,7 +1924,7 @@
                                   <Disorder id="14136">
                                     <OrphaCode>99119</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99119</ExpertLink>
-                                    <Name lang="fr">Drainage anormal de la veine cave inférieure dans l'oreillette gauche</Name>
+                                    <Name lang="fr">Drainage anormal de la veine cave infÃ©rieure dans l'oreillette gauche</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1864,7 +1948,7 @@
                                   <Disorder id="14139">
                                     <OrphaCode>99122</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99122</ExpertLink>
-                                    <Name lang="fr">Sténose congénitale de la veine cave inférieure</Name>
+                                    <Name lang="fr">StÃ©nose congÃ©nitale de la veine cave infÃ©rieure</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1876,7 +1960,7 @@
                                   <Disorder id="14140">
                                     <OrphaCode>99123</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99123</ExpertLink>
-                                    <Name lang="fr">Interruption de la veine cave inférieure sans continuation azygos</Name>
+                                    <Name lang="fr">Interruption de la veine cave infÃ©rieure sans continuation azygos</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1888,7 +1972,7 @@
                                   <Disorder id="31902">
                                     <OrphaCode>652678</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=652678</ExpertLink>
-                                    <Name lang="fr">Anévrisme primitif de la veine cave inférieure</Name>
+                                    <Name lang="fr">AnÃ©vrisme primitif de la veine cave infÃ©rieure</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1900,7 +1984,7 @@
                                   <Disorder id="14138">
                                     <OrphaCode>99121</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99121</ExpertLink>
-                                    <Name lang="fr">Continuation azygos de la veine cave inférieure</Name>
+                                    <Name lang="fr">Continuation azygos de la veine cave infÃ©rieure</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1914,9 +1998,9 @@
                               <Disorder id="12624">
                                 <OrphaCode>95500</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95500</ExpertLink>
-                                <Name lang="fr">Anomalie congénitale du sinus coronaire</Name>
+                                <Name lang="fr">Anomalie congÃ©nitale du sinus coronaire</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -1924,7 +2008,7 @@
                                   <Disorder id="14134">
                                     <OrphaCode>99117</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99117</ExpertLink>
-                                    <Name lang="fr">Sténose du sinus coronaire</Name>
+                                    <Name lang="fr">StÃ©nose du sinus coronaire</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1936,7 +2020,7 @@
                                   <Disorder id="14135">
                                     <OrphaCode>99118</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99118</ExpertLink>
-                                    <Name lang="fr">Atrésie du sinus coronaire</Name>
+                                    <Name lang="fr">AtrÃ©sie du sinus coronaire</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -1950,7 +2034,7 @@
                               <Disorder id="12631">
                                 <OrphaCode>95507</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95507</ExpertLink>
-                                <Name lang="fr">Anomalies des veines sus-hépatiques</Name>
+                                <Name lang="fr">Anomalies des veines sus-hÃ©patiques</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1962,7 +2046,7 @@
                               <Disorder id="25214">
                                 <OrphaCode>480531</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480531</ExpertLink>
-                                <Name lang="fr">Fistule portosystémique congénitale</Name>
+                                <Name lang="fr">Fistule portosystÃ©mique congÃ©nitale</Name>
                                 <DisorderType id="21415">
                                   <Name lang="fr">Anomalie morphologique</Name>
                                 </DisorderType>
@@ -1976,9 +2060,9 @@
                           <Disorder id="13746">
                             <OrphaCode>98729</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98729</ExpertLink>
-                            <Name lang="fr">Anomalie congénitale des veines pulmonaires</Name>
+                            <Name lang="fr">Anomalie congÃ©nitale des veines pulmonaires</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -1986,7 +2070,7 @@
                               <Disorder id="2772">
                                 <OrphaCode>3090</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3090</ExpertLink>
-                                <Name lang="fr">Anomalie congénitale du retour veineux pulmonaire</Name>
+                                <Name lang="fr">Anomalie congÃ©nitale du retour veineux pulmonaire</Name>
                                 <DisorderType id="21436">
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
@@ -1996,7 +2080,7 @@
                                   <Disorder id="14141">
                                     <OrphaCode>99124</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99124</ExpertLink>
-                                    <Name lang="fr">Anomalie congénitale partielle du retour veineux pulmonaire</Name>
+                                    <Name lang="fr">Anomalie congÃ©nitale partielle du retour veineux pulmonaire</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -2008,7 +2092,7 @@
                                   <Disorder id="14142">
                                     <OrphaCode>99125</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99125</ExpertLink>
-                                    <Name lang="fr">Anomalie congénitale totale du retour veineux pulmonaire</Name>
+                                    <Name lang="fr">Anomalie congÃ©nitale totale du retour veineux pulmonaire</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -2034,7 +2118,7 @@
                               <Disorder id="3459">
                                 <OrphaCode>3188</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3188</ExpertLink>
-                                <Name lang="fr">Atrésie ou sténose congénitale des veines pulmonaires</Name>
+                                <Name lang="fr">AtrÃ©sie ou stÃ©nose congÃ©nitale des veines pulmonaires</Name>
                                 <DisorderType id="21436">
                                   <Name lang="fr">Groupe clinique</Name>
                                 </DisorderType>
@@ -2044,7 +2128,7 @@
                                   <Disorder id="14143">
                                     <OrphaCode>99126</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99126</ExpertLink>
-                                    <Name lang="fr">Atrésie congénitale des veines pulmonaires</Name>
+                                    <Name lang="fr">AtrÃ©sie congÃ©nitale des veines pulmonaires</Name>
                                     <DisorderType id="21415">
                                       <Name lang="fr">Anomalie morphologique</Name>
                                     </DisorderType>
@@ -2056,7 +2140,7 @@
                                   <Disorder id="31729">
                                     <OrphaCode>642071</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=642071</ExpertLink>
-                                    <Name lang="fr">Sténose primaire des veines pulmonaires</Name>
+                                    <Name lang="fr">StÃ©nose primaire des veines pulmonaires</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -2074,7 +2158,19 @@
                       <Disorder id="12937">
                         <OrphaCode>97598</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=97598</ExpertLink>
-                        <Name lang="fr">Sténose congénitale de l'artère rénale</Name>
+                        <Name lang="fr">StÃ©nose congÃ©nitale de l'artÃ¨re rÃ©nale</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32386">
+                        <OrphaCode>698260</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=698260</ExpertLink>
+                        <Name lang="fr">Web carotidien</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -2086,7 +2182,7 @@
                       <Disorder id="25672">
                         <OrphaCode>494424</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=494424</ExpertLink>
-                        <Name lang="fr">Anévrisme de l'artère carotide extra-crânienne</Name>
+                        <Name lang="fr">AnÃ©vrisme de l'artÃ¨re carotide extra-crÃ¢nienne</Name>
                         <DisorderType id="21415">
                           <Name lang="fr">Anomalie morphologique</Name>
                         </DisorderType>
@@ -2102,7 +2198,7 @@
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211237</ExpertLink>
                     <Name lang="fr">Tumeur vasculaire rare</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
@@ -2120,7 +2216,7 @@
                           <Disorder id="17144">
                             <OrphaCode>157791</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=157791</ExpertLink>
-                            <Name lang="fr">Hémangioendothéliome épithélioïde</Name>
+                            <Name lang="fr">HÃ©mangioendothÃ©liome Ã©pithÃ©lioÃ¯de</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2146,7 +2242,7 @@
                       <Disorder id="32078">
                         <OrphaCode>673470</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673470</ExpertLink>
-                        <Name lang="fr">Tumeur vasculaire béningne</Name>
+                        <Name lang="fr">Tumeur vasculaire bÃ©nigne</Name>
                         <DisorderType id="21436">
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
@@ -2156,7 +2252,7 @@
                           <Disorder id="1359">
                             <OrphaCode>1062</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1062</ExpertLink>
-                            <Name lang="fr">Malformation neurocutanée héréditaire</Name>
+                            <Name lang="fr">Malformation neurocutanÃ©e hÃ©rÃ©ditaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2180,7 +2276,7 @@
                           <Disorder id="10988">
                             <OrphaCode>71213</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=71213</ExpertLink>
-                            <Name lang="fr">Malformation capillaire de la rétine</Name>
+                            <Name lang="fr">Malformation capillaire de la rÃ©tine</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2192,7 +2288,7 @@
                           <Disorder id="18698">
                             <OrphaCode>210584</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=210584</ExpertLink>
-                            <Name lang="fr">Hémangiome à cellules fusiformes</Name>
+                            <Name lang="fr">HÃ©mangiome Ã  cellules fusiformes</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2204,7 +2300,7 @@
                           <Disorder id="23753">
                             <OrphaCode>458775</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458775</ExpertLink>
-                            <Name lang="fr">Hémangiome congénitale</Name>
+                            <Name lang="fr">HÃ©mangiome congÃ©nitale</Name>
                             <DisorderType id="21436">
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
@@ -2214,7 +2310,7 @@
                               <Disorder id="17056">
                                 <OrphaCode>141184</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141184</ExpertLink>
-                                <Name lang="fr">Hémangiome congénital rapidement involutif</Name>
+                                <Name lang="fr">HÃ©mangiome congÃ©nital rapidement involutif</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2226,7 +2322,7 @@
                               <Disorder id="23754">
                                 <OrphaCode>458785</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458785</ExpertLink>
-                                <Name lang="fr">Hémangiome congénital partiellement involutif</Name>
+                                <Name lang="fr">HÃ©mangiome congÃ©nital partiellement involutif</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2238,7 +2334,7 @@
                               <Disorder id="17055">
                                 <OrphaCode>141179</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141179</ExpertLink>
-                                <Name lang="fr">Hémangiome congénital non involutif</Name>
+                                <Name lang="fr">HÃ©mangiome congÃ©nital non involutif</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2252,7 +2348,7 @@
                           <Disorder id="32106">
                             <OrphaCode>675359</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675359</ExpertLink>
-                            <Name lang="fr">Hémangiome anastomotique</Name>
+                            <Name lang="fr">HÃ©mangiome anastomotique</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2264,7 +2360,7 @@
                           <Disorder id="32115">
                             <OrphaCode>675597</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675597</ExpertLink>
-                            <Name lang="fr">Hémangiome élastotic acquis</Name>
+                            <Name lang="fr">HÃ©mangiome Ã©lastotic acquis</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2276,7 +2372,7 @@
                           <Disorder id="32107">
                             <OrphaCode>675362</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675362</ExpertLink>
-                            <Name lang="fr">Hémangiome de Hobnail</Name>
+                            <Name lang="fr">HÃ©mangiome de Hobnail</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2288,7 +2384,7 @@
                           <Disorder id="32108">
                             <OrphaCode>675369</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675369</ExpertLink>
-                            <Name lang="fr">Hémangiome microveinulaire</Name>
+                            <Name lang="fr">HÃ©mangiome microveinulaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2300,7 +2396,7 @@
                           <Disorder id="32112">
                             <OrphaCode>675396</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675396</ExpertLink>
-                            <Name lang="fr">Hémangiome épithélioïde</Name>
+                            <Name lang="fr">HÃ©mangiome Ã©pithÃ©lioÃ¯de</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2312,7 +2408,7 @@
                           <Disorder id="32082">
                             <OrphaCode>673543</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673543</ExpertLink>
-                            <Name lang="fr">Hémangime papillaire</Name>
+                            <Name lang="fr">HÃ©mangime papillaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2324,7 +2420,7 @@
                           <Disorder id="32087">
                             <OrphaCode>673574</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673574</ExpertLink>
-                            <Name lang="fr">Angioendothéliomatose réactionnelle</Name>
+                            <Name lang="fr">AngioendothÃ©liomatose rÃ©actionnelle</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2348,7 +2444,7 @@
                           <Disorder id="32081">
                             <OrphaCode>673538</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673538</ExpertLink>
-                            <Name lang="fr">Angiome splénique à cellules littorales</Name>
+                            <Name lang="fr">Angiome splÃ©nique Ã  cellules littorales</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2360,7 +2456,7 @@
                           <Disorder id="32080">
                             <OrphaCode>673525</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673525</ExpertLink>
-                            <Name lang="fr">Hyperplasie endothéliale papillaire intravasculaire</Name>
+                            <Name lang="fr">Hyperplasie endothÃ©liale papillaire intravasculaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2372,7 +2468,7 @@
                           <Disorder id="18699">
                             <OrphaCode>210589</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=210589</ExpertLink>
-                            <Name lang="fr">Hémangiome infantile rare</Name>
+                            <Name lang="fr">HÃ©mangiome infantile rare</Name>
                             <DisorderType id="21436">
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
@@ -2382,9 +2478,9 @@
                               <Disorder id="2030">
                                 <OrphaCode>2123</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2123</ExpertLink>
-                                <Name lang="fr">Hémangiome multifocal infantile avec atteinte extracutanée</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                <Name lang="fr">HÃ©mangiome multifocal infantile avec atteinte extracutanÃ©e</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -2394,7 +2490,7 @@
                               <Disorder id="32110">
                                 <OrphaCode>675380</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=675380</ExpertLink>
-                                <Name lang="fr">Hémangiome infantile segmentaire isolé</Name>
+                                <Name lang="fr">HÃ©mangiome infantile segmentaire isolÃ©</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2406,7 +2502,7 @@
                               <Disorder id="16751">
                                 <OrphaCode>137935</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=137935</ExpertLink>
-                                <Name lang="fr">Hémangiome infantile des voies respiratoires</Name>
+                                <Name lang="fr">HÃ©mangiome infantile des voies respiratoires</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -2446,7 +2542,7 @@
                       <Disorder id="32079">
                         <OrphaCode>673473</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673473</ExpertLink>
-                        <Name lang="fr">Tumeur vasculaire frontière</Name>
+                        <Name lang="fr">Tumeur vasculaire frontiÃ¨re</Name>
                         <DisorderType id="21436">
                           <Name lang="fr">Groupe clinique</Name>
                         </DisorderType>
@@ -2456,7 +2552,7 @@
                           <Disorder id="3544">
                             <OrphaCode>2122</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2122</ExpertLink>
-                            <Name lang="fr">Hémangioendothéliome kaposiforme</Name>
+                            <Name lang="fr">HÃ©mangioendothÃ©liome kaposiforme</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2480,7 +2576,7 @@
                           <Disorder id="23750">
                             <OrphaCode>458758</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458758</ExpertLink>
-                            <Name lang="fr">Hémangioendothéliome composite</Name>
+                            <Name lang="fr">HÃ©mangioendothÃ©liome composite</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2492,7 +2588,7 @@
                           <Disorder id="23751">
                             <OrphaCode>458763</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458763</ExpertLink>
-                            <Name lang="fr">Hémangioendothéliome rétiforme</Name>
+                            <Name lang="fr">HÃ©mangioendothÃ©liome rÃ©tiforme</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2504,7 +2600,7 @@
                           <Disorder id="23752">
                             <OrphaCode>458768</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458768</ExpertLink>
-                            <Name lang="fr">Angioendothéliome papillaire intralymphatique</Name>
+                            <Name lang="fr">AngioendothÃ©liome papillaire intralymphatique</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2516,7 +2612,7 @@
                           <Disorder id="32085">
                             <OrphaCode>673556</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=673556</ExpertLink>
-                            <Name lang="fr">Hémangioendothéliome pseudo-myogénique</Name>
+                            <Name lang="fr">HÃ©mangioendothÃ©liome pseudo-myogÃ©nique</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2534,7 +2630,7 @@
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211243</ExpertLink>
                     <Name lang="fr">Malformation vasculaire simple</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
@@ -2544,7 +2640,7 @@
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211247</ExpertLink>
                         <Name lang="fr">Malformation capillaire rare</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="7">
@@ -2576,7 +2672,7 @@
                           <Disorder id="24017">
                             <OrphaCode>464318</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=464318</ExpertLink>
-                            <Name lang="fr">Hémangiome verruqueux</Name>
+                            <Name lang="fr">HÃ©mangiome verruqueux</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2588,9 +2684,9 @@
                           <Disorder id="23759">
                             <OrphaCode>458830</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=458830</ExpertLink>
-                            <Name lang="fr">Malformation capillaire rare avec anomalies associées</Name>
+                            <Name lang="fr">Malformation capillaire rare avec anomalies associÃ©es</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
@@ -2622,7 +2718,7 @@
                               <Disorder id="10805">
                                 <OrphaCode>60040</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=60040</ExpertLink>
-                                <Name lang="fr">Syndrome mégalencéphalie-malformation capillaire-polymicrogyrie</Name>
+                                <Name lang="fr">Syndrome mÃ©galencÃ©phalie-malformation capillaire-polymicrogyrie</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -2634,7 +2730,7 @@
                               <Disorder id="20901">
                                 <OrphaCode>294016</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=294016</ExpertLink>
-                                <Name lang="fr">Syndrome de microcéphalie-malformation capillaire</Name>
+                                <Name lang="fr">Syndrome de microcÃ©phalie-malformation capillaire</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -2646,7 +2742,7 @@
                               <Disorder id="20370">
                                 <OrphaCode>276280</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276280</ExpertLink>
-                                <Name lang="fr">Syndrome de la lipomatose multiple-hémihyperplasie</Name>
+                                <Name lang="fr">Syndrome de la lipomatose multiple-hÃ©mihyperplasie</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -2660,7 +2756,7 @@
                           <Disorder id="236">
                             <OrphaCode>774</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=774</ExpertLink>
-                            <Name lang="fr">Télangiectasie hémorragique héréditaire</Name>
+                            <Name lang="fr">TÃ©langiectasie hÃ©morragique hÃ©rÃ©ditaire</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -2684,12 +2780,36 @@
                           <Disorder id="16702">
                             <OrphaCode>137667</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=137667</ExpertLink>
-                            <Name lang="fr">Malformation capillaire-malformation artérioveineuse</Name>
-                            <DisorderType id="21401">
-                              <Name lang="fr">Syndrome  malformatif</Name>
+                            <Name lang="fr">Malformation capillaire-malformation artÃ©rioveineuse</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="0">
+                          <ClassificationNodeChildList count="2">
+                            <ClassificationNode>
+                              <Disorder id="32265">
+                                <OrphaCode>693907</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693907</ExpertLink>
+                                <Name lang="fr">Malformation capillaire-malformation artÃ©rioveineuse associÃ©es Ã  RASA1</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32266">
+                                <OrphaCode>693912</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693912</ExpertLink>
+                                <Name lang="fr">Malformation capillaire-malformation artÃ©rioveineuse associÃ©es Ã  EPHB4</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -2700,10 +2820,10 @@
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211252</ExpertLink>
                         <Name lang="fr">Malformation veineuse rare</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="16965">
                             <OrphaCode>140436</OrphaCode>
@@ -2717,10 +2837,22 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="32189">
+                            <OrphaCode>688523</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=688523</ExpertLink>
+                            <Name lang="fr">Malformation veineuse splÃ©nique</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="18935">
                             <OrphaCode>221061</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=221061</ExpertLink>
-                            <Name lang="fr">Cavernomatose cérébrale familiale</Name>
+                            <Name lang="fr">Cavernomatose cÃ©rÃ©brale familiale</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -2732,7 +2864,7 @@
                           <Disorder id="415">
                             <OrphaCode>1059</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1059</ExpertLink>
-                            <Name lang="fr">Angiomatose cutanée et digestive</Name>
+                            <Name lang="fr">Angiomatose cutanÃ©e et digestive</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -2744,7 +2876,7 @@
                           <Disorder id="2266">
                             <OrphaCode>2451</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2451</ExpertLink>
-                            <Name lang="fr">Malformation veineuse cutanéomuqueuse multiple</Name>
+                            <Name lang="fr">Malformation veineuse cutanÃ©omuqueuse multiple</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -2782,9 +2914,9 @@
                       <Disorder id="18715">
                         <OrphaCode>211255</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211255</ExpertLink>
-                        <Name lang="fr">Anomalie du système lymphatique rare</Name>
+                        <Name lang="fr">Anomalie du systÃ¨me lymphatique rare</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
@@ -2792,9 +2924,9 @@
                           <Disorder id="11097">
                             <OrphaCode>77240</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=77240</ExpertLink>
-                            <Name lang="fr">Lymphoedème primaire</Name>
+                            <Name lang="fr">LymphoedÃ¨me primaire</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -2802,9 +2934,9 @@
                               <Disorder id="28607">
                                 <OrphaCode>568041</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568041</ExpertLink>
-                                <Name lang="fr">Lymphoedème primaire sans atteinte systémique ou viscérale</Name>
+                                <Name lang="fr">LymphoedÃ¨me primaire sans atteinte systÃ©mique ou viscÃ©rale</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
@@ -2812,7 +2944,7 @@
                                   <Disorder id="780">
                                     <OrphaCode>2416</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2416</ExpertLink>
-                                    <Name lang="fr">Lymphoedème primaire congénital sans atteinte systémique ou viscérale</Name>
+                                    <Name lang="fr">LymphoedÃ¨me primaire congÃ©nital sans atteinte systÃ©mique ou viscÃ©rale</Name>
                                     <DisorderType id="21436">
                                       <Name lang="fr">Groupe clinique</Name>
                                     </DisorderType>
@@ -2846,7 +2978,7 @@
                                       <Disorder id="28655">
                                         <OrphaCode>569821</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=569821</ExpertLink>
-                                        <Name lang="fr">Lymphoedème primaire congénital de Gordon</Name>
+                                        <Name lang="fr">LymphoedÃ¨me primaire congÃ©nital de Gordon</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -2858,7 +2990,7 @@
                                       <Disorder id="2336">
                                         <OrphaCode>2526</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2526</ExpertLink>
-                                        <Name lang="fr">Syndrome de microcéphalie-lymphoedème-choriorétinopathie</Name>
+                                        <Name lang="fr">Syndrome de microcÃ©phalie-lymphoedÃ¨me-choriorÃ©tinopathie</Name>
                                         <DisorderType id="21401">
                                           <Name lang="fr">Syndrome  malformatif</Name>
                                         </DisorderType>
@@ -2884,7 +3016,7 @@
                                   <Disorder id="20760">
                                     <OrphaCode>289825</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=289825</ExpertLink>
-                                    <Name lang="fr">Lymphoedème primaire tardif sans atteinte systémique ou viscérale</Name>
+                                    <Name lang="fr">LymphoedÃ¨me primaire tardif sans atteinte systÃ©mique ou viscÃ©rale</Name>
                                     <DisorderType id="21436">
                                       <Name lang="fr">Groupe clinique</Name>
                                     </DisorderType>
@@ -2894,7 +3026,7 @@
                                       <Disorder id="437">
                                         <OrphaCode>1414</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1414</ExpertLink>
-                                        <Name lang="fr">Syndrome de cholestase-lymphoedème</Name>
+                                        <Name lang="fr">Syndrome de cholestase-lymphoedÃ¨me</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -2906,7 +3038,7 @@
                                       <Disorder id="10305">
                                         <OrphaCode>33001</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=33001</ExpertLink>
-                                        <Name lang="fr">Syndrome de lymphoedème-distichiasis</Name>
+                                        <Name lang="fr">Syndrome de lymphoedÃ¨me-distichiasis</Name>
                                         <DisorderType id="21401">
                                           <Name lang="fr">Syndrome  malformatif</Name>
                                         </DisorderType>
@@ -2918,7 +3050,7 @@
                                       <Disorder id="28610">
                                         <OrphaCode>568051</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568051</ExpertLink>
-                                        <Name lang="fr">Lymphoedème primaire tardif associé à GJC2</Name>
+                                        <Name lang="fr">LymphoedÃ¨me primaire tardif associÃ© Ã  GJC2</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -2930,7 +3062,7 @@
                                       <Disorder id="14158">
                                         <OrphaCode>99141</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99141</ExpertLink>
-                                        <Name lang="fr">Syndrome de lymphoedème-atrésie postérieure des choanes</Name>
+                                        <Name lang="fr">Syndrome de lymphoedÃ¨me-atrÃ©sie postÃ©rieure des choanes</Name>
                                         <DisorderType id="21401">
                                           <Name lang="fr">Syndrome  malformatif</Name>
                                         </DisorderType>
@@ -2954,7 +3086,7 @@
                                       <Disorder id="28654">
                                         <OrphaCode>569816</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=569816</ExpertLink>
-                                        <Name lang="fr">Lymphoedème primaire tardif associé à CELSR1</Name>
+                                        <Name lang="fr">LymphoedÃ¨me primaire tardif associÃ© Ã  CELSR1</Name>
                                         <DisorderType id="21394">
                                           <Name lang="fr">Maladie</Name>
                                         </DisorderType>
@@ -2970,9 +3102,9 @@
                               <Disorder id="28608">
                                 <OrphaCode>568044</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568044</ExpertLink>
-                                <Name lang="fr">Lymphoedème primaire avec atteinte systémique ou viscérale</Name>
+                                <Name lang="fr">LymphoedÃ¨me primaire avec atteinte systÃ©mique ou viscÃ©rale</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="9">
@@ -2992,7 +3124,7 @@
                                   <Disorder id="1397">
                                     <OrphaCode>1116</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1116</ExpertLink>
-                                    <Name lang="fr">Syndrome d'aplasie cutanée congénitale-lymphangiectasie intestinale</Name>
+                                    <Name lang="fr">Syndrome d'aplasie cutanÃ©e congÃ©nitale-lymphangiectasie intestinale</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3016,7 +3148,7 @@
                                   <Disorder id="28613">
                                     <OrphaCode>568065</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568065</ExpertLink>
-                                    <Name lang="fr">Dysplasie lymphatique généralisée avec anasarque foetoplacentaire non immunologique associée à EPHB4</Name>
+                                    <Name lang="fr">Dysplasie lymphatique gÃ©nÃ©ralisÃ©e avec anasarque foetoplacentaire non immunologique associÃ©e Ã  EPHB4</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3028,7 +3160,7 @@
                                   <Disorder id="28612">
                                     <OrphaCode>568062</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568062</ExpertLink>
-                                    <Name lang="fr">Dysplasie lymphatique généralisée avec anasarque foetoplacentaire non immunologique associée à PIEZO1</Name>
+                                    <Name lang="fr">Dysplasie lymphatique gÃ©nÃ©ralisÃ©e avec anasarque foetoplacentaire non immunologique associÃ©e Ã  PIEZO1</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3040,7 +3172,7 @@
                                   <Disorder id="28611">
                                     <OrphaCode>568056</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568056</ExpertLink>
-                                    <Name lang="fr">Syndrome de verrues multiples-déficit immunitaire-lymphoedème-dysplasies anogénitales</Name>
+                                    <Name lang="fr">Syndrome de verrues multiples-dÃ©ficit immunitaire-lymphoedÃ¨me-dysplasies anogÃ©nitales</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3052,7 +3184,7 @@
                                   <Disorder id="6520">
                                     <OrphaCode>662</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662</ExpertLink>
-                                    <Name lang="fr">Syndrome des ongles jaunes</Name>
+                                    <Name lang="fr">LymphoedÃ¨me avec ongles jaunes</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3064,7 +3196,7 @@
                                   <Disorder id="10936">
                                     <OrphaCode>69735</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69735</ExpertLink>
-                                    <Name lang="fr">Syndrome d'hypotrichose-lymphoedème-télangiectasie-atteinte rénale</Name>
+                                    <Name lang="fr">Syndrome d'hypotrichose-lymphoedÃ¨me-tÃ©langiectasie-atteinte rÃ©nale</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3076,7 +3208,7 @@
                                   <Disorder id="11788">
                                     <OrphaCode>86915</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=86915</ExpertLink>
-                                    <Name lang="fr">Syndrome de lymphoedème-communication interauriculaire-dysmorphie</Name>
+                                    <Name lang="fr">Syndrome de lymphoedÃ¨me-communication interauriculaire-dysmorphie</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -3090,9 +3222,9 @@
                               <Disorder id="28609">
                                 <OrphaCode>568047</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=568047</ExpertLink>
-                                <Name lang="fr">Maladie avec atteinte multisystémique et lymphoedème primaire</Name>
+                                <Name lang="fr">Maladie avec atteinte multisystÃ©mique et lymphoedÃ¨me primaire</Name>
                                 <DisorderType id="36561">
-                                  <Name lang="fr">Catégorie</Name>
+                                  <Name lang="fr">CatÃ©gorie</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="13">
@@ -3146,9 +3278,9 @@
                                       <Disorder id="14199">
                                         <OrphaCode>99226</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99226</ExpertLink>
-                                        <Name lang="fr">Monosomie X</Name>
+                                        <Name lang="fr">Syndrome de monosomie x</Name>
                                         <DisorderType id="21443">
-                                          <Name lang="fr">Sous-type étiologique</Name>
+                                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -3158,9 +3290,9 @@
                                       <Disorder id="14200">
                                         <OrphaCode>99228</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99228</ExpertLink>
-                                        <Name lang="fr">Monosomie X en mosaïque</Name>
+                                        <Name lang="fr">Syndrome de monosomie x en mosaÃ¯que</Name>
                                         <DisorderType id="21443">
-                                          <Name lang="fr">Sous-type étiologique</Name>
+                                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -3172,7 +3304,7 @@
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99413</ExpertLink>
                                         <Name lang="fr">Syndrome de Turner par anomalies de structure du chromosome X</Name>
                                         <DisorderType id="21443">
-                                          <Name lang="fr">Sous-type étiologique</Name>
+                                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -3184,7 +3316,7 @@
                                   <Disorder id="1559">
                                     <OrphaCode>1340</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1340</ExpertLink>
-                                    <Name lang="fr">Syndrome cardio-facio-cutané</Name>
+                                    <Name lang="fr">Syndrome cardio-facio-cutanÃ©</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -3196,7 +3328,7 @@
                                   <Disorder id="3214">
                                     <OrphaCode>1655</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1655</ExpertLink>
-                                    <Name lang="fr">Syndrome de dérivés müllériens-lymphangiectasies-polydactylie</Name>
+                                    <Name lang="fr">Syndrome de dÃ©rivÃ©s mÃ¼llÃ©riens-lymphangiectasies-polydactylie</Name>
                                     <DisorderType id="21401">
                                       <Name lang="fr">Syndrome  malformatif</Name>
                                     </DisorderType>
@@ -3230,9 +3362,9 @@
                                       <Disorder id="31993">
                                         <OrphaCode>662172</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662172</ExpertLink>
-                                        <Name lang="fr">Syndrome de Phelan-McDermid lié à une mutation de SHANK3</Name>
+                                        <Name lang="fr">Syndrome de Phelan-McDermid liÃ© Ã  une mutation de SHANK3</Name>
                                         <DisorderType id="21443">
-                                          <Name lang="fr">Sous-type étiologique</Name>
+                                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -3242,9 +3374,9 @@
                                       <Disorder id="31992">
                                         <OrphaCode>662169</OrphaCode>
                                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662169</ExpertLink>
-                                        <Name lang="fr">Syndrome de Phelan-McDermid dû à une deletion 22q13.3</Name>
+                                        <Name lang="fr">Syndrome de Phelan-McDermid dÃ» Ã  une deletion 22q13.3</Name>
                                         <DisorderType id="21443">
-                                          <Name lang="fr">Sous-type étiologique</Name>
+                                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                                         </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
@@ -3256,7 +3388,7 @@
                                   <Disorder id="10922">
                                     <OrphaCode>69088</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69088</ExpertLink>
-                                    <Name lang="fr">Syndrome de dysplasie ectodermique anhidrotique-déficit immunitaire-ostéopétrose-lymphoedème</Name>
+                                    <Name lang="fr">Syndrome de dysplasie ectodermique hypohidrotique-dÃ©ficit immunitaire-ostÃ©opÃ©trose-lymphoedÃ¨me</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3292,7 +3424,7 @@
                                   <Disorder id="660">
                                     <OrphaCode>805</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=805</ExpertLink>
-                                    <Name lang="fr">Sclérose tubéreuse de Bourneville</Name>
+                                    <Name lang="fr">SclÃ©rose tubÃ©reuse de Bourneville</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3304,7 +3436,7 @@
                                   <Disorder id="1727">
                                     <OrphaCode>742</OrphaCode>
                                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=742</ExpertLink>
-                                    <Name lang="fr">Déficit en prolidase</Name>
+                                    <Name lang="fr">DÃ©ficit en prolidase</Name>
                                     <DisorderType id="21394">
                                       <Name lang="fr">Maladie</Name>
                                     </DisorderType>
@@ -3322,7 +3454,7 @@
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2415</ExpertLink>
                             <Name lang="fr">Malformation lymphatique rare</Name>
                             <DisorderType id="36561">
-                              <Name lang="fr">Catégorie</Name>
+                              <Name lang="fr">CatÃ©gorie</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="6">
@@ -3330,7 +3462,7 @@
                               <Disorder id="14158">
                                 <OrphaCode>99141</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99141</ExpertLink>
-                                <Name lang="fr">Syndrome de lymphoedème-atrésie postérieure des choanes</Name>
+                                <Name lang="fr">Syndrome de lymphoedÃ¨me-atrÃ©sie postÃ©rieure des choanes</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -3426,7 +3558,7 @@
                               <Disorder id="24018">
                                 <OrphaCode>464321</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=464321</ExpertLink>
-                                <Name lang="fr">Syndrome de lymphangioendothéliomatose multifocale-thrombocytopénie</Name>
+                                <Name lang="fr">Syndrome de lymphangioendothÃ©liomatose multifocale-thrombocytopÃ©nie</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -3442,17 +3574,137 @@
                       <Disorder id="18716">
                         <OrphaCode>211266</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=211266</ExpertLink>
-                        <Name lang="fr">Malformation artérioveineuse rare</Name>
+                        <Name lang="fr">Malformation artÃ©rioveineuse rare</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="8">
+                      <ClassificationNodeChildList count="10">
+                        <ClassificationNode>
+                          <Disorder id="32234">
+                            <OrphaCode>692271</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=692271</ExpertLink>
+                            <Name lang="fr">Angiopathie prolifÃ©rative cÃ©rÃ©brale</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32254">
+                            <OrphaCode>693855</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693855</ExpertLink>
+                            <Name lang="fr">Malformation artÃ©rioveineuse viscÃ©rale</Name>
+                            <DisorderType id="21436">
+                              <Name lang="fr">Groupe clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="8">
+                            <ClassificationNode>
+                              <Disorder id="32253">
+                                <OrphaCode>693846</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693846</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse hÃ©patique</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32252">
+                                <OrphaCode>693839</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693839</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse rÃ©nale</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32251">
+                                <OrphaCode>693832</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693832</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse gastro-intestinale</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32255">
+                                <OrphaCode>693863</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693863</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse splÃ©nique</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32249">
+                                <OrphaCode>693815</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693815</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse utÃ©rine</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32250">
+                                <OrphaCode>693826</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693826</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse pancrÃ©atique</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32256">
+                                <OrphaCode>693869</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693869</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse de la vÃ©sicule biliaire</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32257">
+                                <OrphaCode>693872</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693872</ExpertLink>
+                                <Name lang="fr">Malformation artÃ©rioveineuse des voies urinaires</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
                         <ClassificationNode>
                           <Disorder id="3441">
                             <OrphaCode>2038</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2038</ExpertLink>
-                            <Name lang="fr">Malformation artérioveineuse pulmonaire</Name>
+                            <Name lang="fr">Malformation artÃ©rioveineuse pulmonaire</Name>
                             <DisorderType id="21415">
                               <Name lang="fr">Anomalie morphologique</Name>
                             </DisorderType>
@@ -3464,7 +3716,7 @@
                           <Disorder id="10604">
                             <OrphaCode>46724</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=46724</ExpertLink>
-                            <Name lang="fr">Malformation artérioveineuse cérébrale</Name>
+                            <Name lang="fr">Malformation artÃ©rioveineuse cÃ©rÃ©brale</Name>
                             <DisorderType id="21415">
                               <Name lang="fr">Anomalie morphologique</Name>
                             </DisorderType>
@@ -3476,7 +3728,7 @@
                           <Disorder id="1352">
                             <OrphaCode>1053</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1053</ExpertLink>
-                            <Name lang="fr">Malformation anévrysmale de la veine de Galien</Name>
+                            <Name lang="fr">Malformation anÃ©vrysmale de la veine de Galien</Name>
                             <DisorderType id="21415">
                               <Name lang="fr">Anomalie morphologique</Name>
                             </DisorderType>
@@ -3488,7 +3740,7 @@
                           <Disorder id="12895">
                             <OrphaCode>97339</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=97339</ExpertLink>
-                            <Name lang="fr">Malformation des sinus duraux du crâne</Name>
+                            <Name lang="fr">Malformation des sinus duraux du crÃ¢ne</Name>
                             <DisorderType id="21415">
                               <Name lang="fr">Anomalie morphologique</Name>
                             </DisorderType>
@@ -3500,7 +3752,7 @@
                           <Disorder id="10743">
                             <OrphaCode>53721</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53721</ExpertLink>
-                            <Name lang="fr">Syndrome métamérique artérioveineux spinal</Name>
+                            <Name lang="fr">Syndrome mÃ©tamÃ©rique artÃ©rioveineux spinal</Name>
                             <DisorderType id="21401">
                               <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
@@ -3524,9 +3776,9 @@
                           <Disorder id="17057">
                             <OrphaCode>141189</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141189</ExpertLink>
-                            <Name lang="fr">Syndrome métamérique artério-veineux cérébro-facial</Name>
-                            <DisorderType id="21436">
-                              <Name lang="fr">Groupe clinique</Name>
+                            <Name lang="fr">Syndrome mÃ©tamÃ©rique artÃ©rioveineux cÃ©rÃ©bro-facial</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
@@ -3534,9 +3786,9 @@
                               <Disorder id="10742">
                                 <OrphaCode>53719</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53719</ExpertLink>
-                                <Name lang="fr">Syndrome de Wyburn-Mason</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                <Name lang="fr">Syndrome mÃ©tamÃ©rique artÃ©rioveineux cÃ©rÃ©bro-facial type 2</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -3546,9 +3798,9 @@
                               <Disorder id="17058">
                                 <OrphaCode>141194</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141194</ExpertLink>
-                                <Name lang="fr">Syndrome métamérique artério-veineux cérébro-facial type 1</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                <Name lang="fr">Syndrome mÃ©tamÃ©rique artÃ©rioveineux cÃ©rÃ©bro-facial type 1</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -3558,9 +3810,9 @@
                               <Disorder id="17059">
                                 <OrphaCode>141199</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141199</ExpertLink>
-                                <Name lang="fr">Syndrome métamérique artério-veineux cérébro-facial type 3</Name>
-                                <DisorderType id="21401">
-                                  <Name lang="fr">Syndrome  malformatif</Name>
+                                <Name lang="fr">Syndrome mÃ©tamÃ©rique artÃ©rioveineux cÃ©rÃ©bro-facial type 3</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="fr">Sous-type clinique</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -3572,7 +3824,7 @@
                           <Disorder id="17115">
                             <OrphaCode>156230</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=156230</ExpertLink>
-                            <Name lang="fr">Malformation artérioveineuse faciale</Name>
+                            <Name lang="fr">Malformation artÃ©rioveineuse faciale</Name>
                             <DisorderType id="21436">
                               <Name lang="fr">Groupe clinique</Name>
                             </DisorderType>
@@ -3582,7 +3834,7 @@
                               <Disorder id="17052">
                                 <OrphaCode>141168</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141168</ExpertLink>
-                                <Name lang="fr">Malformation artérioveineuse frontonasale</Name>
+                                <Name lang="fr">Malformation artÃ©rioveineuse frontonasale</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -3594,7 +3846,7 @@
                               <Disorder id="17053">
                                 <OrphaCode>141171</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141171</ExpertLink>
-                                <Name lang="fr">Malformation artérioveineuse du maxillaire</Name>
+                                <Name lang="fr">Malformation artÃ©rioveineuse du maxillaire</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -3606,7 +3858,7 @@
                               <Disorder id="17054">
                                 <OrphaCode>141174</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=141174</ExpertLink>
-                                <Name lang="fr">Malformation artérioveineuse mandibulaire</Name>
+                                <Name lang="fr">Malformation artÃ©rioveineuse mandibulaire</Name>
                                 <DisorderType id="21401">
                                   <Name lang="fr">Syndrome  malformatif</Name>
                                 </DisorderType>
@@ -3622,19 +3874,31 @@
                       <Disorder id="13748">
                         <OrphaCode>98731</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98731</ExpertLink>
-                        <Name lang="fr">Fistule artérioveineuse congénitale</Name>
+                        <Name lang="fr">Fistule artÃ©rioveineuse congÃ©nitale</Name>
                         <DisorderType id="36561">
-                          <Name lang="fr">Catégorie</Name>
+                          <Name lang="fr">CatÃ©gorie</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="1">
+                      <ClassificationNodeChildList count="2">
                         <ClassificationNode>
                           <Disorder id="3442">
                             <OrphaCode>2039</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2039</ExpertLink>
-                            <Name lang="fr">Fistule artérioveineuse systémique congénitale</Name>
+                            <Name lang="fr">Fistule artÃ©rioveineuse systÃ©mique congÃ©nitale</Name>
                             <DisorderType id="21415">
                               <Name lang="fr">Anomalie morphologique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32269">
+                            <OrphaCode>694228</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=694228</ExpertLink>
+                            <Name lang="fr">Fistule artÃ©rioportale intrahÃ©patique congÃ©nitale</Name>
+                            <DisorderType id="21401">
+                              <Name lang="fr">Syndrome  malformatif</Name>
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">

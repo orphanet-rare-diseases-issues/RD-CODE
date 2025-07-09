@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2024-06-27 12:43:30" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2025-06-24 07:50:16" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +20,7 @@
               <Name lang="pl">Kategoria</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="9">
+          <ClassificationNodeChildList count="10">
             <ClassificationNode>
               <Disorder id="10486">
                 <OrphaCode>68347</OrphaCode>
@@ -822,7 +821,7 @@
                               <Disorder id="13843">
                                 <OrphaCode>98826</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98826</ExpertLink>
-                                <Name lang="pl">Niedokrwistość oporna na leczenie</Name>
+                                <Name lang="pl">Nowotwór mielodysplastyczny z niską liczbą blastów</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -860,7 +859,7 @@
                           <Disorder id="11749">
                             <OrphaCode>86839</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=86839</ExpertLink>
-                            <Name lang="pl">Niedokrwistość oporna na leczenie z nadmiarem blastów</Name>
+                            <Name lang="pl">Nowotwór mielodysplastyczny ze zwiększoną liczbą blastów</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -870,7 +869,7 @@
                               <Disorder id="14592">
                                 <OrphaCode>100019</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100019</ExpertLink>
-                                <Name lang="pl">Niedokrwistość oporna na leczenie z nadmiarem blastów-1</Name>
+                                <Name lang="pl">Nowotwór mielodysplastyczny ze zwiększoną liczbą blastów typu 1</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -882,7 +881,7 @@
                               <Disorder id="14593">
                                 <OrphaCode>100020</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=100020</ExpertLink>
-                                <Name lang="pl">Niedokrwistość oporna na leczenie z nadmiarem blastów-2</Name>
+                                <Name lang="pl">Nowotwór mielodysplastyczny ze zwiększoną liczbą blastów typu 2</Name>
                                 <DisorderType id="21450">
                                   <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
@@ -1124,7 +1123,7 @@
                           <Disorder id="32128">
                             <OrphaCode>675775</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=675775</ExpertLink>
-                            <Name lang="en">Severe congenital myelofibrosis-pancytopenia-intellectual disability-neurologic and ophthalmic abnormalities syndrome</Name>
+                            <Name lang="pl">Zespół ciężkiego wrodzonego zwłóknienia szpiku, pancytopenii, niepełnosprawności intelektualnej, zaburzeń neurologicznych i okulistycznych</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -1547,7 +1546,55 @@
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="32186">
+                                    <OrphaCode>687733</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=687733</ExpertLink>
+                                    <Name lang="pl">Płucna histiocytoza z komórek Langerhansa</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32188">
+                                    <OrphaCode>687741</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=687741</ExpertLink>
+                                    <Name lang="en">Multisystem Langerhans cell histiocytosis</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32187">
+                                    <OrphaCode>687738</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=687738</ExpertLink>
+                                    <Name lang="pl">Jednoukładowa wieloogniskowa histiocytoza z komórek Langerhansa</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32185">
+                                    <OrphaCode>687730</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=687730</ExpertLink>
+                                    <Name lang="pl">Jednoogniskowa histiocytoza z komórek Langerhansa</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="pl">Podtyp kliniczny</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -1652,7 +1699,7 @@
                           <Disorder id="32119">
                             <OrphaCode>675628</OrphaCode>
                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=675628</ExpertLink>
-                            <Name lang="en">TLR8-related inflammation-severe neutropenia-bone marrow failure-lymphoproliferation syndrome</Name>
+                            <Name lang="pl">Zapalenie związane z TLR8 – ciężka neutropenia – niewydolność szpiku kostnego – zespół limfoproliferacji</Name>
                             <DisorderType id="21394">
                               <Name lang="pl">Choroba</Name>
                             </DisorderType>
@@ -2059,7 +2106,7 @@
                                           <Name lang="pl">Grupa fenomenów</Name>
                                         </DisorderType>
                                       </Disorder>
-                                      <ClassificationNodeChildList count="8">
+                                      <ClassificationNodeChildList count="9">
                                         <ClassificationNode>
                                           <Disorder id="11763">
                                             <OrphaCode>86869</OrphaCode>
@@ -2149,6 +2196,18 @@
                                             <OrphaCode>364043</OrphaCode>
                                             <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=364043</ExpertLink>
                                             <Name lang="pl">Chłoniak ALK-pozytywny z dużych komórek B</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="pl">Choroba</Name>
+                                            </DisorderType>
+                                          </Disorder>
+                                          <ClassificationNodeChildList count="0">
+                                          </ClassificationNodeChildList>
+                                        </ClassificationNode>
+                                        <ClassificationNode>
+                                          <Disorder id="32302">
+                                            <OrphaCode>695631</OrphaCode>
+                                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=695631</ExpertLink>
+                                            <Name lang="en">Primary vitreoretinal large B-cell lymphoma</Name>
                                             <DisorderType id="21394">
                                               <Name lang="pl">Choroba</Name>
                                             </DisorderType>
@@ -3299,6 +3358,18 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
+              <Disorder id="31405">
+                <OrphaCode>619233</OrphaCode>
+                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=619233</ExpertLink>
+                <Name lang="pl">Wrodzony zespół przetrwałej hemoglobiny płodowej-niepełnosprawności intelektualnej</Name>
+                <DisorderType id="21394">
+                  <Name lang="pl">Choroba</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
               <Disorder id="11736">
                 <OrphaCode>86816</OrphaCode>
                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=86816</ExpertLink>
@@ -3591,22 +3662,70 @@
                           </Disorder>
                           <ClassificationNodeChildList count="7">
                             <ClassificationNode>
+                              <Disorder id="32390">
+                                <OrphaCode>698914</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=698914</ExpertLink>
+                                <Name lang="en">Platelet-activating anti-platelet factor 4 disorder</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="pl">Grupa fenomenów</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="4">
+                                <ClassificationNode>
+                                  <Disorder id="3282">
+                                    <OrphaCode>3325</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3325</ExpertLink>
+                                    <Name lang="pl">Małopłytkowość indukowana heparyną</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32391">
+                                    <OrphaCode>698945</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=698945</ExpertLink>
+                                    <Name lang="en">Autoimmune heparin-induced thrombocytopenia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32392">
+                                    <OrphaCode>699021</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=699021</ExpertLink>
+                                    <Name lang="en">Spontaneous heparin-induced thrombocytopenia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32393">
+                                    <OrphaCode>699029</OrphaCode>
+                                    <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=699029</ExpertLink>
+                                    <Name lang="en">Vaccine-induced immune thrombotic thrombocytopenia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="pl">Choroba</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
                               <Disorder id="24021">
                                 <OrphaCode>464343</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=464343</ExpertLink>
                                 <Name lang="pl">Katastrofalny zespół antyfosfolipidowy</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="3282">
-                                <OrphaCode>3325</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3325</ExpertLink>
-                                <Name lang="pl">Małopłytkowość indukowana heparyną</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -3797,7 +3916,19 @@
                       <Name lang="pl">Kategoria</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="2">
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="3399">
+                        <OrphaCode>2330</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2330</ExpertLink>
+                        <Name lang="pl">Zespół Kasabacha i Merritta</Name>
+                        <DisorderType id="21429">
+                          <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                     <ClassificationNode>
                       <Disorder id="19570">
                         <OrphaCode>248315</OrphaCode>
@@ -4538,7 +4669,7 @@
                                       <Disorder id="32092">
                                         <OrphaCode>674653</OrphaCode>
                                         <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=674653</ExpertLink>
-                                        <Name lang="en">Actinomyopathy-associated syndromic thrombocytopenia</Name>
+                                        <Name lang="pl">Małopłytkowość syndromiczna związana z miopatią aktynową</Name>
                                         <DisorderType id="21394">
                                           <Name lang="pl">Choroba</Name>
                                         </DisorderType>
@@ -5233,7 +5364,7 @@
                               <Name lang="pl">Kategoria</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="6">
+                          <ClassificationNodeChildList count="5">
                             <ClassificationNode>
                               <Disorder id="24018">
                                 <OrphaCode>464321</OrphaCode>
@@ -5328,18 +5459,6 @@
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
                                 </ClassificationNode>
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="3399">
-                                <OrphaCode>2330</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2330</ExpertLink>
-                                <Name lang="pl">Zespół Kasabacha i Merritta</Name>
-                                <DisorderType id="21429">
-                                  <Name lang="pl">Szczególna sytuacja w chorobie lub zespole</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                           </ClassificationNodeChildList>
@@ -5610,7 +5729,7 @@
                               <Disorder id="900">
                                 <OrphaCode>847</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=847</ExpertLink>
-                                <Name lang="pl">Zespół alfa talasemia - niepełnosprawność intelektualna sprzężona z chromosomem X</Name>
+                                <Name lang="pl">Zespół alfa-talasemii i niepełnosprawności intelektualnej sprzężony z chromosomem X</Name>
                                 <DisorderType id="21401">
                                   <Name lang="pl">Zespół wad wrodzonych</Name>
                                 </DisorderType>
@@ -5754,7 +5873,7 @@
                               <Disorder id="19177">
                                 <OrphaCode>231249</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=231249</ExpertLink>
-                                <Name lang="pl">Hemoglobina E - beta-talasemia</Name>
+                                <Name lang="pl">Zespół beta-talasemii z hemoglobiną E</Name>
                                 <DisorderType id="21394">
                                   <Name lang="pl">Choroba</Name>
                                 </DisorderType>
@@ -5811,7 +5930,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="5">
                         <ClassificationNode>
                           <Disorder id="125">
                             <OrphaCode>232</OrphaCode>
@@ -5825,34 +5944,82 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="19632">
-                            <OrphaCode>251355</OrphaCode>
-                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251355</ExpertLink>
-                            <Name lang="pl">Niedokrwistość sierpowata związana z inną anomalią hemoglobiny</Name>
-                            <DisorderType id="36561">
-                              <Name lang="pl">Kategoria</Name>
+                          <Disorder id="19634">
+                            <OrphaCode>251359</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251359</ExpertLink>
+                            <Name lang="pl">Niedokrwistość sierpowata - beta-talasemia</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="5">
+                          <ClassificationNodeChildList count="2">
                             <ClassificationNode>
-                              <Disorder id="19634">
-                                <OrphaCode>251359</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251359</ExpertLink>
-                                <Name lang="pl">Niedokrwistość sierpowata - beta-talasemia</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                              <Disorder id="32295">
+                                <OrphaCode>695140</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=695140</ExpertLink>
+                                <Name lang="en">Sickle cell-beta zero-thalassemia</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="pl">Podtyp etiologiczny</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="19635">
-                                <OrphaCode>251365</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251365</ExpertLink>
-                                <Name lang="pl">Niedokrwistość sierpowata - choroba hemoglobiny C</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                              <Disorder id="32296">
+                                <OrphaCode>695147</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=695147</ExpertLink>
+                                <Name lang="en">Sickle cell-beta plus-thalassemia</Name>
+                                <DisorderType id="21443">
+                                  <Name lang="pl">Podtyp etiologiczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="19635">
+                            <OrphaCode>251365</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251365</ExpertLink>
+                            <Name lang="pl">Niedokrwistość sierpowata - choroba hemoglobiny C</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="19638">
+                            <OrphaCode>251380</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251380</ExpertLink>
+                            <Name lang="pl">Dziedziczne przetrwanie hemoglobiny płodowej - niedokrwistość sierpowata</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32437">
+                            <OrphaCode>700085</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=700085</ExpertLink>
+                            <Name lang="en">Sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant</Name>
+                            <DisorderType id="21394">
+                              <Name lang="pl">Choroba</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="5">
+                            <ClassificationNode>
+                              <Disorder id="32442">
+                                <OrphaCode>700107</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=700107</ExpertLink>
+                                <Name lang="en">Sickle cell S-other specified hemoglobin variant</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5863,8 +6030,8 @@
                                 <OrphaCode>251370</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251370</ExpertLink>
                                 <Name lang="pl">Niedokrwistość sierpowata - choroba hemoglobiny D</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5875,20 +6042,32 @@
                                 <OrphaCode>251375</OrphaCode>
                                 <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251375</ExpertLink>
                                 <Name lang="pl">Niedokrwistość sierpowata - choroba hemoglobiny E disease</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="19638">
-                                <OrphaCode>251380</OrphaCode>
-                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=251380</ExpertLink>
-                                <Name lang="pl">Dziedziczne przetrwanie hemoglobiny płodowej - niedokrwistość sierpowata</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="pl">Choroba</Name>
+                              <Disorder id="32438">
+                                <OrphaCode>700090</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=700090</ExpertLink>
+                                <Name lang="en">Sickle cell S-O Arab disease</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="32432">
+                                <OrphaCode>699822</OrphaCode>
+                                <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=699822</ExpertLink>
+                                <Name lang="en">Sickle cell S-Lepore disease</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="pl">Podtyp kliniczny</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
@@ -5935,10 +6114,10 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="31405">
-                        <OrphaCode>619233</OrphaCode>
-                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=619233</ExpertLink>
-                        <Name lang="pl">Wrodzony zespół przetrwałej hemoglobiny płodowej-niepełnosprawności intelektualnej</Name>
+                      <Disorder id="32443">
+                        <OrphaCode>700111</OrphaCode>
+                        <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=700111</ExpertLink>
+                        <Name lang="en">Homozygous hemoglobin O Arab disease</Name>
                         <DisorderType id="21394">
                           <Name lang="pl">Choroba</Name>
                         </DisorderType>
@@ -5991,7 +6170,7 @@
                           <Name lang="pl">Kategoria</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="6">
+                      <ClassificationNodeChildList count="7">
                         <ClassificationNode>
                           <Disorder id="28857">
                             <OrphaCode>576742</OrphaCode>
@@ -6062,6 +6241,18 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="32193">
+                            <OrphaCode>688581</OrphaCode>
+                            <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=688581</ExpertLink>
+                            <Name lang="pl">Zespół hipoplazji środkowej części twarzy, upośledzenia słuchu, eliptocytozy i wapnicy nerkowej</Name>
+                            <DisorderType id="21401">
+                              <Name lang="pl">Zespół wad wrodzonych</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>

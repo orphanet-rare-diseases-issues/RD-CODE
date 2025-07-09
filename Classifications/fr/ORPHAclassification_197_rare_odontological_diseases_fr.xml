@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR ExtractionDate="2024-06-27 12:50:19" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBOR ExtractionDate="2025-06-24 07:52:16" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -18,7 +18,7 @@
             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98026</ExpertLink>
             <Name lang="fr">Maladie odontologique rare</Name>
             <DisorderType id="36561">
-              <Name lang="fr">Catégorie</Name>
+              <Name lang="fr">CatÃ©gorie</Name>
             </DisorderType>
           </Disorder>
           <ClassificationNodeChildList count="4">
@@ -28,15 +28,27 @@
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98027</ExpertLink>
                 <Name lang="fr">Maladie rare avec atteinte odontologique</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="25">
+              <ClassificationNodeChildList count="26">
                 <ClassificationNode>
                   <Disorder id="28140">
                     <OrphaCode>557003</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=557003</ExpertLink>
                     <Name lang="fr">Syndrome oculo-squeletto-dentaire</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32166">
+                    <OrphaCode>685067</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=685067</ExpertLink>
+                    <Name lang="fr">Syndrome d'hypodontie-hypotrichose du cuir chevelu-dysmorphie facial</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -58,9 +70,9 @@
                       <Disorder id="180">
                         <OrphaCode>181</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=181</ExpertLink>
-                        <Name lang="fr">Dysplasie ectodermique hypohidrotique liée à l'X</Name>
+                        <Name lang="fr">Dysplasie ectodermique hypohidrotique liÃ©e Ã  l'X</Name>
                         <DisorderType id="21443">
-                          <Name lang="fr">Sous-type étiologique</Name>
+                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -70,9 +82,9 @@
                       <Disorder id="7026">
                         <OrphaCode>248</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=248</ExpertLink>
-                        <Name lang="fr">Dysplasie ectodermique hypohidrotique autosomique récessive</Name>
+                        <Name lang="fr">Dysplasie ectodermique hypohidrotique autosomique rÃ©cessive</Name>
                         <DisorderType id="21443">
-                          <Name lang="fr">Sous-type étiologique</Name>
+                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -84,7 +96,7 @@
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1810</ExpertLink>
                         <Name lang="fr">Dysplasie ectodermique hypohidrotique autosomique dominante</Name>
                         <DisorderType id="21443">
-                          <Name lang="fr">Sous-type étiologique</Name>
+                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -108,7 +120,7 @@
                   <Disorder id="996">
                     <OrphaCode>184</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=184</ExpertLink>
-                    <Name lang="fr">Chérubisme</Name>
+                    <Name lang="fr">ChÃ©rubisme</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -156,7 +168,7 @@
                   <Disorder id="14365">
                     <OrphaCode>99792</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99792</ExpertLink>
-                    <Name lang="fr">Syndrome de dysplasie de la dentine-ostéosclérose</Name>
+                    <Name lang="fr">Syndrome de dysplasie de la dentine-ostÃ©osclÃ©rose</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -168,9 +180,9 @@
                   <Disorder id="17687">
                     <OrphaCode>167762</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=167762</ExpertLink>
-                    <Name lang="fr">Maladie rare avec dentinogenèse imparfaite</Name>
+                    <Name lang="fr">Maladie rare avec dentinogenÃ¨se imparfaite</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
@@ -202,7 +214,7 @@
                       <Disorder id="18793">
                         <OrphaCode>216812</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=216812</ExpertLink>
-                        <Name lang="fr">Ostéogenèse imparfaite type 3</Name>
+                        <Name lang="fr">OstÃ©ogenÃ¨se imparfaite type 3</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -214,7 +226,7 @@
                       <Disorder id="18794">
                         <OrphaCode>216820</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=216820</ExpertLink>
-                        <Name lang="fr">Ostéogenèse imparfaite type 4</Name>
+                        <Name lang="fr">OstÃ©ogenÃ¨se imparfaite type 4</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -288,7 +300,7 @@
                   <Disorder id="22317">
                     <OrphaCode>363523</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363523</ExpertLink>
-                    <Name lang="fr">Syndrome d'hypohidrose-hypoplasie de l'émail-kératodermie palmoplantaire-déficience intellectuelle</Name>
+                    <Name lang="fr">Syndrome d'hypohidrose-hypoplasie de l'Ã©mail-kÃ©ratodermie palmoplantaire-dÃ©ficience intellectuelle</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -300,7 +312,7 @@
                   <Disorder id="2233">
                     <OrphaCode>2407</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2407</ExpertLink>
-                    <Name lang="fr">Syndrome laryngo-onycho-cutané</Name>
+                    <Name lang="fr">Syndrome laryngo-onycho-cutanÃ©</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -312,7 +324,7 @@
                   <Disorder id="11428">
                     <OrphaCode>79402</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79402</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle généralisée, forme intermédiaire</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle gÃ©nÃ©ralisÃ©e, forme intermÃ©diaire</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -324,7 +336,7 @@
                   <Disorder id="11429">
                     <OrphaCode>79403</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79403</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle avec atrésie pylorique</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle avec atrÃ©sie pylorique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -336,7 +348,7 @@
                   <Disorder id="11430">
                     <OrphaCode>79404</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79404</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle généralisée sévère</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle gÃ©nÃ©ralisÃ©e sÃ©vÃ¨re</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -348,7 +360,7 @@
                   <Disorder id="11431">
                     <OrphaCode>79405</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79405</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle inversée</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle inversÃ©e</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -360,7 +372,7 @@
                   <Disorder id="11432">
                     <OrphaCode>79406</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79406</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle à début tardif</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle Ã  dÃ©but tardif</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -372,7 +384,7 @@
                   <Disorder id="19200">
                     <OrphaCode>231556</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=231556</ExpertLink>
-                    <Name lang="fr">Syndrome d'épidermolyse bulleuse jonctionnelle localisée à début tardif-déficience intellectuelle</Name>
+                    <Name lang="fr">Syndrome d'Ã©pidermolyse bulleuse jonctionnelle localisÃ©e Ã  dÃ©but tardif-dÃ©ficience intellectuelle</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -384,7 +396,7 @@
                   <Disorder id="19640">
                     <OrphaCode>251393</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=251393</ExpertLink>
-                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle localisée</Name>
+                    <Name lang="fr">Epidermolyse bulleuse jonctionnelle localisÃ©e</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -396,7 +408,7 @@
                   <Disorder id="23554">
                     <OrphaCode>447961</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447961</ExpertLink>
-                    <Name lang="fr">Syndrome d'anomalie de pigmentation-kératodermie palmoplantaire-carcinome de la peau</Name>
+                    <Name lang="fr">Syndrome d'anomalie de pigmentation-kÃ©ratodermie palmoplantaire-carcinome de la peau</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -408,7 +420,7 @@
                   <Disorder id="25086">
                     <OrphaCode>476096</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=476096</ExpertLink>
-                    <Name lang="fr">Syndrome d'érythrokératodermie-cardiomyopathie</Name>
+                    <Name lang="fr">Syndrome d'Ã©rythrokÃ©ratodermie-cardiomyopathie</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -420,7 +432,7 @@
                   <Disorder id="13830">
                     <OrphaCode>98813</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98813</ExpertLink>
-                    <Name lang="fr">Dysplasie ectodermique hypohidrotique avec déficit immunitaire</Name>
+                    <Name lang="fr">Dysplasie ectodermique hypohidrotique avec dÃ©ficit immunitaire</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -434,17 +446,17 @@
               <Disorder id="16857">
                 <OrphaCode>139042</OrphaCode>
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=139042</ExpertLink>
-                <Name lang="fr">Syndrome malformatif avec composante odontique et/ou péri-odontique</Name>
+                <Name lang="fr">Syndrome malformatif avec composante odontique et/ou pÃ©ri-odontique</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="66">
+              <ClassificationNodeChildList count="67">
                 <ClassificationNode>
                   <Disorder id="2481">
                     <OrphaCode>2720</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2720</ExpertLink>
-                    <Name lang="fr">Syndrome oculo-cérébral d'hypopigmentation, type Preus</Name>
+                    <Name lang="fr">Syndrome oculo-cÃ©rÃ©bral d'hypopigmentation, type Preus</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -456,7 +468,7 @@
                   <Disorder id="28850">
                     <OrphaCode>576278</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=576278</ExpertLink>
-                    <Name lang="fr">Syndrome associé à SATB2</Name>
+                    <Name lang="fr">Syndrome associÃ© Ã  SATB2</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -466,9 +478,9 @@
                       <Disorder id="19605">
                         <OrphaCode>251028</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=251028</ExpertLink>
-                        <Name lang="fr">Syndrome associé à SATB2 dû à un réarrangement chromosomique</Name>
+                        <Name lang="fr">Syndrome associÃ© Ã  SATB2 dÃ» Ã  un rÃ©arrangement chromosomique</Name>
                         <DisorderType id="21443">
-                          <Name lang="fr">Sous-type étiologique</Name>
+                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -478,9 +490,9 @@
                       <Disorder id="28851">
                         <OrphaCode>576283</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=576283</ExpertLink>
-                        <Name lang="fr">Syndrome associé à SATB2 dû à un variant pathogène</Name>
+                        <Name lang="fr">Syndrome associÃ© Ã  SATB2 dÃ» Ã  un variant pathogÃ¨ne</Name>
                         <DisorderType id="21443">
-                          <Name lang="fr">Sous-type étiologique</Name>
+                          <Name lang="fr">Sous-type Ã©tiologique</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -504,7 +516,7 @@
                   <Disorder id="1198">
                     <OrphaCode>1946</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1946</ExpertLink>
-                    <Name lang="fr">Syndrome amélocérébrohypohidrotique</Name>
+                    <Name lang="fr">Syndrome amÃ©locÃ©rÃ©brohypohidrotique</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -528,7 +540,7 @@
                   <Disorder id="1339">
                     <OrphaCode>1031</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1031</ExpertLink>
-                    <Name lang="fr">Syndrome d'amélogenèse imparfaite-néphrocalcinose</Name>
+                    <Name lang="fr">Syndrome d'amÃ©logenÃ¨se imparfaite-nÃ©phrocalcinose</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -540,7 +552,7 @@
                   <Disorder id="1728">
                     <OrphaCode>3196</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3196</ExpertLink>
-                    <Name lang="fr">Syndrome de déficit en stéroïde déshydrogénase-anomalies dentaires</Name>
+                    <Name lang="fr">Syndrome de dÃ©ficit en stÃ©roÃ¯de dÃ©shydrogÃ©nase-anomalies dentaires</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -600,7 +612,7 @@
                   <Disorder id="1934">
                     <OrphaCode>1997</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1997</ExpertLink>
-                    <Name lang="fr">Syndrome blépharo-cheilo-odontique</Name>
+                    <Name lang="fr">Syndrome blÃ©pharo-cheilo-odontique</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -648,7 +660,7 @@
                   <Disorder id="1958">
                     <OrphaCode>2027</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2027</ExpertLink>
-                    <Name lang="fr">Syndrome de fibromatose gingivale-surdité</Name>
+                    <Name lang="fr">Syndrome de fibromatose gingivale-surditÃ©</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -660,7 +672,7 @@
                   <Disorder id="1959">
                     <OrphaCode>2028</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2028</ExpertLink>
-                    <Name lang="fr">Fibromatose hyaline juvénile</Name>
+                    <Name lang="fr">Fibromatose hyaline juvÃ©nile</Name>
                     <DisorderType id="21450">
                       <Name lang="fr">Sous-type clinique</Name>
                     </DisorderType>
@@ -684,7 +696,7 @@
                   <Disorder id="2102">
                     <OrphaCode>2228</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2228</ExpertLink>
-                    <Name lang="fr">Syndrome d'hypodontie-dysplasie unguéale</Name>
+                    <Name lang="fr">Syndrome d'hypodontie-dysplasie unguÃ©ale</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -732,7 +744,7 @@
                   <Disorder id="2363">
                     <OrphaCode>2561</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2561</ExpertLink>
-                    <Name lang="fr">Syndrome de molaires pyramidales-lèvre supérieure anormale</Name>
+                    <Name lang="fr">Syndrome de molaires pyramidales-lÃ¨vre supÃ©rieure anormale</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -780,7 +792,7 @@
                   <Disorder id="2480">
                     <OrphaCode>2719</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2719</ExpertLink>
-                    <Name lang="fr">Syndrome oculo-cérébral d'hypopigmentation, type Cross</Name>
+                    <Name lang="fr">Syndrome oculo-cÃ©rÃ©bral d'hypopigmentation, type Cross</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -804,7 +816,7 @@
                   <Disorder id="2483">
                     <OrphaCode>2722</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2722</ExpertLink>
-                    <Name lang="fr">Syndrome de dysplasie odonto-onychiale-alopécie</Name>
+                    <Name lang="fr">Syndrome de dysplasie odonto-onychiale-alopÃ©cie</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -816,7 +828,7 @@
                   <Disorder id="2484">
                     <OrphaCode>2723</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2723</ExpertLink>
-                    <Name lang="fr">Syndrome odonto-trichomélique</Name>
+                    <Name lang="fr">Syndrome odonto-trichomÃ©lique</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -828,7 +840,7 @@
                   <Disorder id="2485">
                     <OrphaCode>2724</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2724</ExpertLink>
-                    <Name lang="fr">Syndrome d'odontomatose-aorte-sténose oesophagienne</Name>
+                    <Name lang="fr">Syndrome d'odontomatose-aorte-stÃ©nose oesophagienne</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -852,7 +864,7 @@
                   <Disorder id="2551">
                     <OrphaCode>678</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=678</ExpertLink>
-                    <Name lang="fr">Syndrome de Papillon-Lefèvre</Name>
+                    <Name lang="fr">Syndrome de Papillon-LefÃ¨vre</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -876,7 +888,7 @@
                   <Disorder id="2625">
                     <OrphaCode>2899</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2899</ExpertLink>
-                    <Name lang="fr">Syndrome de brachyolmie-amélogenèse imparfaite</Name>
+                    <Name lang="fr">Syndrome de brachyolmie-amÃ©logenÃ¨se imparfaite</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -888,7 +900,7 @@
                   <Disorder id="2634">
                     <OrphaCode>2916</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2916</ExpertLink>
-                    <Name lang="fr">Syndrome de polydactylie postaxiale-anomalies dentaires et vertébrales</Name>
+                    <Name lang="fr">Syndrome de polydactylie postaxiale-anomalies dentaires et vertÃ©brales</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -924,7 +936,7 @@
                   <Disorder id="2856">
                     <OrphaCode>3184</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3184</ExpertLink>
-                    <Name lang="fr">Syndrome de stéatocystome multiple-dents néonatales</Name>
+                    <Name lang="fr">Syndrome de stÃ©atocystome multiple-dents nÃ©onatales</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -936,7 +948,7 @@
                   <Disorder id="2877">
                     <OrphaCode>3220</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3220</ExpertLink>
-                    <Name lang="fr">Syndrome de surdité-hypoplasie de l'émail-anomalie des ongles</Name>
+                    <Name lang="fr">Syndrome de surditÃ©-hypoplasie de l'Ã©mail-anomalie des ongles</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -948,7 +960,7 @@
                   <Disorder id="2890">
                     <OrphaCode>3230</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3230</ExpertLink>
-                    <Name lang="fr">Syndrome de surdité-oligodontie</Name>
+                    <Name lang="fr">Syndrome de surditÃ©-oligodontie</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1008,7 +1020,7 @@
                   <Disorder id="28333">
                     <OrphaCode>562559</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=562559</ExpertLink>
-                    <Name lang="fr">Syndrome de protrusion maxillaire antérieure-strabisme-déficience intellectuelle</Name>
+                    <Name lang="fr">Syndrome de protrusion maxillaire antÃ©rieure-strabisme-dÃ©ficience intellectuelle</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1044,7 +1056,7 @@
                   <Disorder id="10664">
                     <OrphaCode>50944</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=50944</ExpertLink>
-                    <Name lang="fr">Syndrome de Schöpf-Schulz-Passarge</Name>
+                    <Name lang="fr">Syndrome de SchÃ¶pf-Schulz-Passarge</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1056,7 +1068,7 @@
                   <Disorder id="10916">
                     <OrphaCode>69082</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69082</ExpertLink>
-                    <Name lang="fr">Syndrome odonto-tricho-unguéo-digito-palmaire</Name>
+                    <Name lang="fr">Syndrome odonto-tricho-unguÃ©o-digito-palmaire</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1080,7 +1092,7 @@
                   <Disorder id="11156">
                     <OrphaCode>79129</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79129</ExpertLink>
-                    <Name lang="fr">Syndrome de trichodysplasie-amélogenèse imparfaite</Name>
+                    <Name lang="fr">Syndrome de trichodysplasie-amÃ©logenÃ¨se imparfaite</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1104,7 +1116,7 @@
                   <Disorder id="443">
                     <OrphaCode>1452</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1452</ExpertLink>
-                    <Name lang="fr">Dysostose cléidocrânienne</Name>
+                    <Name lang="fr">Dysostose clÃ©idocrÃ¢nienne</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1128,9 +1140,9 @@
                   <Disorder id="18155">
                     <OrphaCode>180766</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=180766</ExpertLink>
-                    <Name lang="fr">Syndrome malformatif avec dentinogenèse imparfaite</Name>
+                    <Name lang="fr">Syndrome malformatif avec dentinogenÃ¨se imparfaite</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="4">
@@ -1150,7 +1162,7 @@
                       <Disorder id="10989">
                         <OrphaCode>71267</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=71267</ExpertLink>
-                        <Name lang="fr">Syndrome de dentinogenèse imparfaite-petite taille-surdité-déficience intellectuelle</Name>
+                        <Name lang="fr">Syndrome de dentinogenÃ¨se imparfaite-petite taille-surditÃ©-dÃ©ficience intellectuelle</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1174,7 +1186,7 @@
                       <Disorder id="17627">
                         <OrphaCode>166277</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166277</ExpertLink>
-                        <Name lang="fr">Dysplasie squelettique avec os wormien-fractures multiples-dentinogenèse imparfaite</Name>
+                        <Name lang="fr">Dysplasie squelettique avec os wormien-fractures multiples-dentinogenÃ¨se imparfaite</Name>
                         <DisorderType id="21401">
                           <Name lang="fr">Syndrome  malformatif</Name>
                         </DisorderType>
@@ -1197,10 +1209,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="21134">
-                    <OrphaCode>300576</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=300576</ExpertLink>
-                    <Name lang="fr">Syndrome de prédisposition au cancer-oligodontie</Name>
+                  <Disorder id="22850">
+                    <OrphaCode>401911</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=401911</ExpertLink>
+                    <Name lang="fr">Polypose associÃ©e Ã  AXIN2</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1212,7 +1224,7 @@
                   <Disorder id="21283">
                     <OrphaCode>307766</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=307766</ExpertLink>
-                    <Name lang="fr">Syndrome des cheveux frisés-kératodermie acrale-caries</Name>
+                    <Name lang="fr">Syndrome des cheveux frisÃ©s-kÃ©ratodermie acrale-caries</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1224,7 +1236,7 @@
                   <Disorder id="21289">
                     <OrphaCode>307936</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=307936</ExpertLink>
-                    <Name lang="fr">Syndrome d'hypotrichose-ostéolyse-périodontite-kératodermie palmoplantaire</Name>
+                    <Name lang="fr">Syndrome d'hypotrichose-ostÃ©olyse-pÃ©riodontite-kÃ©ratodermie palmoplantaire</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1236,7 +1248,7 @@
                   <Disorder id="22298">
                     <OrphaCode>363417</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363417</ExpertLink>
-                    <Name lang="fr">Syndrome de brachydactylie préaxiale de Temtamy</Name>
+                    <Name lang="fr">Syndrome de brachydactylie prÃ©axiale de Temtamy</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1248,7 +1260,7 @@
                   <Disorder id="21494">
                     <OrphaCode>314555</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314555</ExpertLink>
-                    <Name lang="fr">Syndrome de dysmorphie faciale-anomalies oculaires-ostéopénie-déficience intellectuelle-anomalies dentaires</Name>
+                    <Name lang="fr">Syndrome de dysmorphie faciale-anomalies oculaires-ostÃ©opÃ©nie-dÃ©ficience intellectuelle-anomalies dentaires</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1260,7 +1272,7 @@
                   <Disorder id="31975">
                     <OrphaCode>659873</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=659873</ExpertLink>
-                    <Name lang="fr">Syndrome des os wormiens-micrognathie-dentition anormale-apparence progéroïde</Name>
+                    <Name lang="fr">Syndrome des os wormiens-micrognathie-dentition anormale-apparence progÃ©roÃ¯de</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1272,7 +1284,19 @@
                   <Disorder id="32036">
                     <OrphaCode>664438</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=664438</ExpertLink>
-                    <Name lang="fr">Syndrome de fibromatose gingivale-dilatation de la racine de l'aorte-dysmorphie faciale-déficience intellectuelle</Name>
+                    <Name lang="fr">Syndrome de fibromatose gingivale-dilatation de la racine de l'aorte-dysmorphie faciale-dÃ©ficience intellectuelle</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32153">
+                    <OrphaCode>684232</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=684232</ExpertLink>
+                    <Name lang="fr">Syndrome de dÃ©ficience intellectuelle-epilepsie-anomalies dentaires-dysmorphie faciale</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1284,7 +1308,7 @@
                   <Disorder id="29437">
                     <OrphaCode>589608</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589608</ExpertLink>
-                    <Name lang="fr">Hypopigmentation linéaire et asymétrie craniofaciale avec anomalies acrales, oculaires et cérébrales</Name>
+                    <Name lang="fr">Hypopigmentation linÃ©aire et asymÃ©trie craniofaciale avec anomalies acrales, oculaires et cÃ©rÃ©brales</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1296,7 +1320,7 @@
                   <Disorder id="29879">
                     <OrphaCode>598603</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=598603</ExpertLink>
-                    <Name lang="fr">Syndrome de dysmorphie faciale-hypertrichose-épilepsie-déficience intellectuelle/retard de développement-hypertrophie gingivale</Name>
+                    <Name lang="fr">Syndrome de dysmorphie faciale-hypertrichose-Ã©pilepsie-dÃ©ficience intellectuelle/retard de dÃ©veloppement-hypertrophie gingivale</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1312,7 +1336,7 @@
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=164001</ExpertLink>
                 <Name lang="fr">Affection dentaire ou parodontaire rare</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="12">
@@ -1332,7 +1356,7 @@
                   <Disorder id="1955">
                     <OrphaCode>2024</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2024</ExpertLink>
-                    <Name lang="fr">Fibromatose gingivale héréditaire</Name>
+                    <Name lang="fr">Fibromatose gingivale hÃ©rÃ©ditaire</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1368,7 +1392,7 @@
                   <Disorder id="11569">
                     <OrphaCode>83450</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=83450</ExpertLink>
-                    <Name lang="fr">Odontodysplasie régionale</Name>
+                    <Name lang="fr">Odontodysplasie rÃ©gionale</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1380,7 +1404,7 @@
                   <Disorder id="11570">
                     <OrphaCode>83451</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=83451</ExpertLink>
-                    <Name lang="fr">Dysplasie cémento-osseuse floride</Name>
+                    <Name lang="fr">Dysplasie cÃ©mento-osseuse floride</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1392,7 +1416,7 @@
                   <Disorder id="11823">
                     <OrphaCode>88661</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=88661</ExpertLink>
-                    <Name lang="fr">Amélogenèse imparfaite</Name>
+                    <Name lang="fr">AmÃ©logenÃ¨se imparfaite</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1402,7 +1426,7 @@
                       <Disorder id="14604">
                         <OrphaCode>100031</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100031</ExpertLink>
-                        <Name lang="fr">Amélogenèse imparfaite hypoplasique</Name>
+                        <Name lang="fr">AmÃ©logenÃ¨se imparfaite hypoplasique</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -1414,7 +1438,7 @@
                       <Disorder id="14605">
                         <OrphaCode>100032</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100032</ExpertLink>
-                        <Name lang="fr">Amélogenèse imparfaite hypocalcifiée</Name>
+                        <Name lang="fr">AmÃ©logenÃ¨se imparfaite hypocalcifiÃ©e</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -1426,7 +1450,7 @@
                       <Disorder id="14606">
                         <OrphaCode>100033</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100033</ExpertLink>
-                        <Name lang="fr">Amélogenèse imparfaite hypomature</Name>
+                        <Name lang="fr">AmÃ©logenÃ¨se imparfaite hypomature</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -1438,7 +1462,7 @@
                       <Disorder id="14607">
                         <OrphaCode>100034</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100034</ExpertLink>
-                        <Name lang="fr">Amélogenèse imparfaite hypomature-hypoplasique avec taurodontisme</Name>
+                        <Name lang="fr">AmÃ©logenÃ¨se imparfaite hypomature-hypoplasique avec taurodontisme</Name>
                         <DisorderType id="21450">
                           <Name lang="fr">Sous-type clinique</Name>
                         </DisorderType>
@@ -1476,9 +1500,9 @@
                   <Disorder id="17686">
                     <OrphaCode>167759</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=167759</ExpertLink>
-                    <Name lang="fr">Anomalie héréditaire de la dentine</Name>
+                    <Name lang="fr">Anomalie hÃ©rÃ©ditaire de la dentine</Name>
                     <DisorderType id="36561">
-                      <Name lang="fr">Catégorie</Name>
+                      <Name lang="fr">CatÃ©gorie</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
@@ -1520,7 +1544,7 @@
                           <Disorder id="21521">
                             <OrphaCode>314721</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314721</ExpertLink>
-                            <Name lang="fr">Dysplasie de la dentine atypique par déficit en SMOC2</Name>
+                            <Name lang="fr">Dysplasie de la dentine atypique par dÃ©ficit en SMOC2</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -1534,7 +1558,7 @@
                       <Disorder id="10638">
                         <OrphaCode>49042</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=49042</ExpertLink>
-                        <Name lang="fr">Dentinogenèse imparfaite</Name>
+                        <Name lang="fr">DentinogenÃ¨se imparfaite</Name>
                         <DisorderType id="21394">
                           <Name lang="fr">Maladie</Name>
                         </DisorderType>
@@ -1544,7 +1568,7 @@
                           <Disorder id="17624">
                             <OrphaCode>166260</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166260</ExpertLink>
-                            <Name lang="fr">Dentinogenèse imparfaite type 2</Name>
+                            <Name lang="fr">DentinogenÃ¨se imparfaite type 2</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -1556,7 +1580,7 @@
                           <Disorder id="17625">
                             <OrphaCode>166265</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166265</ExpertLink>
-                            <Name lang="fr">Dentinogenèse imparfaite type 3</Name>
+                            <Name lang="fr">DentinogenÃ¨se imparfaite type 3</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -1572,7 +1596,7 @@
                   <Disorder id="23046">
                     <OrphaCode>412206</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=412206</ExpertLink>
-                    <Name lang="fr">Défaut primaire d'éruption</Name>
+                    <Name lang="fr">DÃ©faut primaire d'Ã©ruption</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1584,7 +1608,7 @@
                   <Disorder id="23478">
                     <OrphaCode>444072</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=444072</ExpertLink>
-                    <Name lang="fr">Syndrome cérébellofaciodentaire</Name>
+                    <Name lang="fr">Syndrome cÃ©rÃ©bellofaciodentaire</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -1598,9 +1622,9 @@
               <Disorder id="21485">
                 <OrphaCode>314425</OrphaCode>
                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314425</ExpertLink>
-                <Name lang="fr">Tumeur odontogénique rare</Name>
+                <Name lang="fr">Tumeur odontogÃ©nique rare</Name>
                 <DisorderType id="36561">
-                  <Name lang="fr">Catégorie</Name>
+                  <Name lang="fr">CatÃ©gorie</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="4">
@@ -1608,7 +1632,7 @@
                   <Disorder id="21483">
                     <OrphaCode>314419</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314419</ExpertLink>
-                    <Name lang="fr">Améloblastome</Name>
+                    <Name lang="fr">AmÃ©loblastome</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1620,7 +1644,7 @@
                   <Disorder id="21484">
                     <OrphaCode>314422</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=314422</ExpertLink>
-                    <Name lang="fr">Carcinome améloblastique</Name>
+                    <Name lang="fr">Carcinome amÃ©loblastique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1632,7 +1656,7 @@
                   <Disorder id="23542">
                     <OrphaCode>447777</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447777</ExpertLink>
-                    <Name lang="fr">Tumeur odontogéne kératokystique</Name>
+                    <Name lang="fr">Tumeur odontogÃ©ne kÃ©ratokystique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1641,10 +1665,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="32073">
-                    <OrphaCode>667678</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=667678</ExpertLink>
-                    <Name lang="fr">Carcinome basocellulaire intra-oral</Name>
+                  <Disorder id="32215">
+                    <OrphaCode>689430</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=689430</ExpertLink>
+                    <Name lang="fr">AmÃ©loblastome adÃ©noÃ¯de</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
