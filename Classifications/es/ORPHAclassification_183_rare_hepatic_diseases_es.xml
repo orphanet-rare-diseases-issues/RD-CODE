@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2025-06-24 07:45:24" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2026-06-23 07:11:30" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2026" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,19 @@
               <Name lang="es">Categoría</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="12">
+          <ClassificationNodeChildList count="13">
+            <ClassificationNode>
+              <Disorder id="437">
+                <OrphaCode>1414</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1414</ExpertLink>
+                <Name lang="es">Síndrome de colestasis-linfedema</Name>
+                <DisorderType id="21394">
+                  <Name lang="es">Enfermedad</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
             <ClassificationNode>
               <Disorder id="838">
                 <OrphaCode>2312</OrphaCode>
@@ -29,6 +41,42 @@
                 <Name lang="es">Hiperbilirrubinemia transitoria neonatal familiar</Name>
                 <DisorderType id="21394">
                   <Name lang="es">Enfermedad</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11943">
+                <OrphaCode>90052</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90052</ExpertLink>
+                <Name lang="es">Enfermedad hepática por recurrencia del virus de la hepatitis C en trasplantados hepáticos</Name>
+                <DisorderType id="21429">
+                  <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11953">
+                <OrphaCode>90062</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90062</ExpertLink>
+                <Name lang="es">Insuficiencia hepática aguda</Name>
+                <DisorderType id="21422">
+                  <Name lang="es">Síndrome clínico</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11964">
+                <OrphaCode>90073</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90073</ExpertLink>
+                <Name lang="es">Reinfección por hepatitis B después de trasplante hepático</Name>
+                <DisorderType id="21429">
+                  <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -51,42 +99,6 @@
                     <Name lang="es">Telangiectasia hemorrágica hereditaria</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25212">
-                    <OrphaCode>480524</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480524</ExpertLink>
-                    <Name lang="es">Peliosis hepática idiopática</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="12631">
-                    <OrphaCode>95507</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95507</ExpertLink>
-                    <Name lang="es">Anomalía congénita de la vena hepática</Name>
-                    <DisorderType id="21415">
-                      <Name lang="es">Anomalía morfológica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25214">
-                    <OrphaCode>480531</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480531</ExpertLink>
-                    <Name lang="es">Shunt portosistémico congénito</Name>
-                    <DisorderType id="21415">
-                      <Name lang="es">Anomalía morfológica</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -141,6 +153,90 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="12631">
+                    <OrphaCode>95507</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95507</ExpertLink>
+                    <Name lang="es">Anomalía congénita de la vena hepática</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25212">
+                    <OrphaCode>480524</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480524</ExpertLink>
+                    <Name lang="es">Peliosis hepática idiopática</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25214">
+                    <OrphaCode>480531</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480531</ExpertLink>
+                    <Name lang="es">Shunt portosistémico congénito</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="29788">
+                    <OrphaCode>596937</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=596937</ExpertLink>
+                    <Name lang="es">Enfermedad vascular portosinusoidal</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="10615">
+                        <OrphaCode>48372</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=48372</ExpertLink>
+                        <Name lang="es">Hiperplasia nodular regenerativa del hígado</Name>
+                        <DisorderType id="21457">
+                          <Name lang="es">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10847">
+                        <OrphaCode>64743</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64743</ExpertLink>
+                        <Name lang="es">Esclerosis hepatoportal</Name>
+                        <DisorderType id="21457">
+                          <Name lang="es">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29789">
+                        <OrphaCode>596941</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=596941</ExpertLink>
+                        <Name lang="es">Cirrosis septal incompleta</Name>
+                        <DisorderType id="21457">
+                          <Name lang="es">Subtipo histopatológico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="32253">
                     <OrphaCode>693846</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=693846</ExpertLink>
@@ -176,54 +272,6 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="29788">
-                    <OrphaCode>596937</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=596937</ExpertLink>
-                    <Name lang="es">Enfermedad vascular portosinusoidal</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="29789">
-                        <OrphaCode>596941</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=596941</ExpertLink>
-                        <Name lang="es">Cirrosis septal incompleta</Name>
-                        <DisorderType id="21457">
-                          <Name lang="es">Subtipo histopatológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="10615">
-                        <OrphaCode>48372</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=48372</ExpertLink>
-                        <Name lang="es">Hiperplasia nodular regenerativa del hígado</Name>
-                        <DisorderType id="21457">
-                          <Name lang="es">Subtipo histopatológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="10847">
-                        <OrphaCode>64743</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64743</ExpertLink>
-                        <Name lang="es">Esclerosis hepatoportal</Name>
-                        <DisorderType id="21457">
-                          <Name lang="es">Subtipo histopatológico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -235,7 +283,19 @@
                   <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="24">
+              <ClassificationNodeChildList count="26">
+                <ClassificationNode>
+                  <Disorder id="97">
+                    <OrphaCode>731</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=731</ExpertLink>
+                    <Name lang="es">Enfermedad renal poliquística autosómica recesiva</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="873">
                     <OrphaCode>2137</OrphaCode>
@@ -285,10 +345,34 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="1644">
+                    <OrphaCode>1454</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1454</ExpertLink>
+                    <Name lang="es">Síndrome de Joubert con defecto hepático</Name>
+                    <DisorderType id="21450">
+                      <Name lang="es">Subtipo clínico</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="1961">
                     <OrphaCode>2031</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2031</ExpertLink>
                     <Name lang="es">Síndrome de fibrosis hepática-quistes renales-discapacidad intelectual</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2725">
+                    <OrphaCode>3032</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3032</ExpertLink>
+                    <Name lang="es">Síndrome similar a Meckel asociado a NPHP3</Name>
                     <DisorderType id="21401">
                       <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
@@ -312,7 +396,7 @@
                   <Disorder id="11605">
                     <OrphaCode>84064</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=84064</ExpertLink>
-                    <Name lang="es">Diarrea sindrómica</Name>
+                    <Name lang="es">Síndrome tricohepatoentérico</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -381,12 +465,36 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="18849">
+                    <OrphaCode>217371</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=217371</ExpertLink>
+                    <Name lang="es">Insuficiencia hepática infantil aguda por un defecto de síntesis de las proteínas codificadas por el ADNmt</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="19469">
                     <OrphaCode>243367</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=243367</ExpertLink>
                     <Name lang="es">Hígado graso agudo del embarazo</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20908">
+                    <OrphaCode>294415</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=294415</ExpertLink>
+                    <Name lang="es">Displasia renal-hepática-pancreática</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -441,36 +549,12 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="97">
-                    <OrphaCode>731</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=731</ExpertLink>
-                    <Name lang="es">Enfermedad renal poliquística autosómica recesiva</Name>
+                  <Disorder id="23408">
+                    <OrphaCode>440427</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=440427</ExpertLink>
+                    <Name lang="es">Proteinosis alveolar pulmonar grave por deficiencia de MARS de inicio en el adulto</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25312">
-                    <OrphaCode>485426</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485426</ExpertLink>
-                    <Name lang="es">Fibrosis hepática congénita aislada</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2725">
-                    <OrphaCode>3032</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3032</ExpertLink>
-                    <Name lang="es">Síndrome similar a Meckel asociado a NPHP3</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -501,6 +585,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="25312">
+                    <OrphaCode>485426</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485426</ExpertLink>
+                    <Name lang="es">Fibrosis hepática congénita aislada</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="28017">
                     <OrphaCode>541423</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=541423</ExpertLink>
@@ -513,46 +609,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="23408">
-                    <OrphaCode>440427</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=440427</ExpertLink>
-                    <Name lang="es">Proteinosis alveolar pulmonar grave por deficiencia de MARS de inicio en el adulto</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="1644">
-                    <OrphaCode>1454</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1454</ExpertLink>
-                    <Name lang="es">Síndrome de Joubert con defecto hepático</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="20908">
-                    <OrphaCode>294415</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=294415</ExpertLink>
-                    <Name lang="es">Displasia renal-hepática-pancreática</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="18849">
-                    <OrphaCode>217371</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=217371</ExpertLink>
-                    <Name lang="es">Insuficiencia hepática infantil aguda por un defecto de síntesis de las proteínas codificadas por el ADNmt</Name>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=562639</ExpertLink>
+                    <Name lang="es">Síndrome de solapamiento de colangitis biliar primaria/colangitis esclerosante primaria y hepatitis autoinmune</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -573,10 +633,22 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="28337">
-                    <OrphaCode>562639</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=562639</ExpertLink>
-                    <Name lang="es">Síndrome de solapamiento de colangitis biliar primaria/colangitis esclerosante primaria y hepatitis autoinmune</Name>
+                  <Disorder id="10933">
+                    <OrphaCode>69665</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=69665</ExpertLink>
+                    <Name lang="es">Colestasis intrahepática gestacional</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32897">
+                    <OrphaCode>726824</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=726824</ExpertLink>
+                    <Name lang="es">Fibrosis degenerativa hepatorrenocardíaca</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -595,96 +667,12 @@
                   <Name lang="es">Categoría</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="38">
-                <ClassificationNode>
-                  <Disorder id="31389">
-                    <OrphaCode>618899</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618899</ExpertLink>
-                    <Name lang="es">Deficiencia de esfingomielinasa ácida</Name>
-                    <DisorderType id="21436">
-                      <Name lang="es">Grupo de fenomas</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="11105">
-                        <OrphaCode>77292</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77292</ExpertLink>
-                        <Name lang="es">Deficiencia de esfingomielinasa ácida neurovisceral infantil</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11106">
-                        <OrphaCode>77293</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77293</ExpertLink>
-                        <Name lang="es">Deficiencia de esfingomielinasa ácida visceral crónica</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="31388">
-                        <OrphaCode>618891</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618891</ExpertLink>
-                        <Name lang="es">Deficiencia crónica de esfingomielinasa ácida neurovisceral</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
+              <ClassificationNodeChildList count="39">
                 <ClassificationNode>
                   <Disorder id="15">
                     <OrphaCode>366</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=366</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de enzima desramificante del glucógeno</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="11265">
-                    <OrphaCode>79239</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79239</ExpertLink>
-                    <Name lang="es">Galactosemia clásica</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="22704">
-                    <OrphaCode>397922</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=397922</ExpertLink>
-                    <Name lang="es">Síndrome férrico-cerebro-cutáneo</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10933">
-                    <OrphaCode>69665</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=69665</ExpertLink>
-                    <Name lang="es">Colestasis intrahepática gestacional</Name>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de enzima desramificante del glucógeno</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -696,7 +684,7 @@
                   <Disorder id="16">
                     <OrphaCode>367</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=367</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de enzima ramificante del glucógeno</Name>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de enzima ramificante del glucógeno</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -706,7 +694,7 @@
                       <Disorder id="18528">
                         <OrphaCode>206583</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=206583</ExpertLink>
-                        <Name lang="es">Enfermedad con cuerpos de poliglucosano del adulto</Name>
+                        <Name lang="es">Adult polyglucosan body disease</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -718,7 +706,7 @@
                       <Disorder id="21325">
                         <OrphaCode>308621</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308621</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma hepática progresiva</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma hepática progresiva</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -730,7 +718,7 @@
                       <Disorder id="21326">
                         <OrphaCode>308638</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308638</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma hepática no progresiva</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma hepática no progresiva</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -742,7 +730,7 @@
                       <Disorder id="21327">
                         <OrphaCode>308655</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308655</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de enzima desramificante, forma neuromuscular perinatal letal</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de enzima desramificante, forma neuromuscular perinatal letal</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -754,7 +742,7 @@
                       <Disorder id="21328">
                         <OrphaCode>308670</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308670</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular congénita</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular congénita</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -766,7 +754,7 @@
                       <Disorder id="21329">
                         <OrphaCode>308684</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308684</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de enzima desramificante, forma combinada hepática y miopática infantil</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de enzima desramificante, forma combinada hepática y miopática infantil</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -778,7 +766,7 @@
                       <Disorder id="21330">
                         <OrphaCode>308698</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308698</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular infantil</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular infantil</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -790,7 +778,7 @@
                       <Disorder id="21331">
                         <OrphaCode>308712</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308712</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular del adulto</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de la enzima desramificante del glucógeno, forma neuromuscular del adulto</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -804,7 +792,7 @@
                   <Disorder id="18">
                     <OrphaCode>369</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=369</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de glucógeno fosforilasa hepática</Name>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de glucógeno fosforilasa hepática</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -873,42 +861,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="11264">
-                    <OrphaCode>79238</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79238</ExpertLink>
-                    <Name lang="es">Deficiencia de galactosa epimerasa</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="2">
-                    <ClassificationNode>
-                      <Disorder id="21318">
-                        <OrphaCode>308473</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308473</ExpertLink>
-                        <Name lang="es">Deficiencia eritrocitaria de galactosa epimerasa</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21319">
-                        <OrphaCode>308487</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308487</ExpertLink>
-                        <Name lang="es">Deficiencia generalizada de galactosa epimerasa</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="504">
                     <OrphaCode>446</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=446</ExpertLink>
@@ -936,7 +888,7 @@
                   <Disorder id="645">
                     <OrphaCode>364</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=364</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa</Name>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -946,7 +898,7 @@
                       <Disorder id="11284">
                         <OrphaCode>79258</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79258</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa tipo Ia</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa tipo Ia</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -958,7 +910,7 @@
                       <Disorder id="11285">
                         <OrphaCode>79259</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79259</ExpertLink>
-                        <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa tipo Ib</Name>
+                        <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de glucosa-6-fosfatasa tipo Ib</Name>
                         <DisorderType id="21450">
                           <Name lang="es">Subtipo clínico</Name>
                         </DisorderType>
@@ -1029,6 +981,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="10737">
+                    <OrphaCode>53693</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=53693</ExpertLink>
+                    <Name lang="es">Síndrome GRACILE</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="11215">
                     <OrphaCode>79189</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79189</ExpertLink>
@@ -1077,87 +1041,51 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="11264">
+                    <OrphaCode>79238</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79238</ExpertLink>
+                    <Name lang="es">Deficiencia de galactosa epimerasa</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="21318">
+                        <OrphaCode>308473</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308473</ExpertLink>
+                        <Name lang="es">Deficiencia eritrocitaria de galactosa epimerasa</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="21319">
+                        <OrphaCode>308487</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=308487</ExpertLink>
+                        <Name lang="es">Deficiencia generalizada de galactosa epimerasa</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="11266">
                     <OrphaCode>79240</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79240</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de fosforilasa quinasa hepática y muscular</Name>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de fosforilasa quinasa hepática y muscular</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="19792">
-                    <OrphaCode>254871</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=254871</ExpertLink>
-                    <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepatocerebral</Name>
-                    <DisorderType id="21436">
-                      <Name lang="es">Grupo de fenomas</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="5">
-                    <ClassificationNode>
-                      <Disorder id="20419">
-                        <OrphaCode>279934</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=279934</ExpertLink>
-                        <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepatocerebral por deficiencia de DGUOK</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="22319">
-                        <OrphaCode>363534</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363534</ExpertLink>
-                        <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepato-cerebro-renal</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="19812">
-                        <OrphaCode>255229</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=255229</ExpertLink>
-                        <Name lang="es">Neurohepatopatía tipo Navajo</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1443">
-                        <OrphaCode>1186</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1186</ExpertLink>
-                        <Name lang="es">Ataxia espinocerebelosa de inicio en el lactante</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1730">
-                        <OrphaCode>726</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=726</ExpertLink>
-                        <Name lang="es">Síndrome de Alpers-Huttenlocher</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1229,6 +1157,18 @@
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
+                          <Disorder id="11256">
+                            <OrphaCode>79230</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79230</ExpertLink>
+                            <Name lang="es">Hemocromatosis asociada a los genes HJV o HAMP</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="18976">
                             <OrphaCode>225123</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=225123</ExpertLink>
@@ -1245,18 +1185,6 @@
                             <OrphaCode>647834</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=647834</ExpertLink>
                             <Name lang="es">Hemocromatosis asociada a SLC40A1</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="11256">
-                            <OrphaCode>79230</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79230</ExpertLink>
-                            <Name lang="es">Hemocromatosis asociada a los genes HJV o HAMP</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -1281,6 +1209,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="19528">
+                    <OrphaCode>247585</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=247585</ExpertLink>
+                    <Name lang="es">Citrulinemia tipo II</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="19546">
                     <OrphaCode>247790</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=247790</ExpertLink>
@@ -1293,15 +1233,135 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="20103">
-                    <OrphaCode>264580</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=264580</ExpertLink>
-                    <Name lang="es">Enfermedad de almacenamiento de glucógeno por deficiencia de fosforilasa quinasa hepática</Name>
+                  <Disorder id="19792">
+                    <OrphaCode>254871</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=254871</ExpertLink>
+                    <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepatocerebral</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="1443">
+                        <OrphaCode>1186</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1186</ExpertLink>
+                        <Name lang="es">Ataxia espinocerebelosa de inicio en el lactante</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="1730">
+                        <OrphaCode>726</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=726</ExpertLink>
+                        <Name lang="es">Síndrome de Alpers-Huttenlocher</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19812">
+                        <OrphaCode>255229</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=255229</ExpertLink>
+                        <Name lang="es">Neurohepatopatía tipo Navajo</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20419">
+                        <OrphaCode>279934</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=279934</ExpertLink>
+                        <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepatocerebral por deficiencia de DGUOK</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22319">
+                        <OrphaCode>363534</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363534</ExpertLink>
+                        <Name lang="es">Síndrome de depleción del ADN mitocondrial, forma hepato-cerebro-renal</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19798">
+                    <OrphaCode>254902</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=254902</ExpertLink>
+                    <Name lang="es">Síndrome de tubulopatía renal-encefalopatía-insuficiencia hepática</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20103">
+                    <OrphaCode>264580</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=264580</ExpertLink>
+                    <Name lang="es">Enfermedad por almacenamiento de glucógeno por deficiencia de fosforilasa quinasa hepática</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20326">
+                    <OrphaCode>275761</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=275761</ExpertLink>
+                    <Name lang="es">Deficiencia de lipasa ácida lisosomal</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="11067">
+                        <OrphaCode>75233</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=75233</ExpertLink>
+                        <Name lang="es">Enfermedad de Wolman</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11068">
+                        <OrphaCode>75234</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=75234</ExpertLink>
+                        <Name lang="es">Enfermedad por almacenamiento de ésteres de colesterol</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1361,30 +1421,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="25206">
-                            <OrphaCode>480483</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480483</ExpertLink>
-                            <Name lang="es">Colestasis intrahepática familiar progresiva tipo 4</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="25207">
-                            <OrphaCode>480491</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480491</ExpertLink>
-                            <Name lang="es">Colestasis intrahepática familiar progresiva asociada a MYO5B</Name>
-                            <DisorderType id="21450">
-                              <Name lang="es">Subtipo clínico</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="17777">
                             <OrphaCode>168583</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=168583</ExpertLink>
@@ -1401,6 +1437,30 @@
                             <OrphaCode>480476</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480476</ExpertLink>
                             <Name lang="es">Colestasis intrahepática familiar progresiva tipo 5</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="25206">
+                            <OrphaCode>480483</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480483</ExpertLink>
+                            <Name lang="es">Colestasis intrahepática familiar progresiva tipo 4</Name>
+                            <DisorderType id="21450">
+                              <Name lang="es">Subtipo clínico</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="25207">
+                            <OrphaCode>480491</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480491</ExpertLink>
+                            <Name lang="es">Colestasis intrahepática familiar progresiva asociada a MYO5B</Name>
                             <DisorderType id="21450">
                               <Name lang="es">Subtipo clínico</Name>
                             </DisorderType>
@@ -1469,6 +1529,30 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="19267">
+                            <OrphaCode>238475</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238475</ExpertLink>
+                            <Name lang="es">Hipercolanemia familiar</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20346">
+                            <OrphaCode>276066</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=276066</ExpertLink>
+                            <Name lang="es">Deficiencia de ácido biliar CoA ligasa y amidación defectuosa</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="25322">
                             <OrphaCode>485631</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485631</ExpertLink>
@@ -1483,6 +1567,18 @@
                                 <OrphaCode>79095</OrphaCode>
                                 <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79095</ExpertLink>
                                 <Name lang="es">Defecto congénito de la síntesis de ácidos biliares tipo 4</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="es">Enfermedad</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11327">
+                                <OrphaCode>79301</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79301</ExpertLink>
+                                <Name lang="es">Defecto congénito de la síntesis de ácidos biliares tipo 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="es">Enfermedad</Name>
                                 </DisorderType>
@@ -1514,42 +1610,6 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="11327">
-                                <OrphaCode>79301</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79301</ExpertLink>
-                                <Name lang="es">Defecto congénito de la síntesis de ácidos biliares tipo 1</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19267">
-                            <OrphaCode>238475</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238475</ExpertLink>
-                            <Name lang="es">Hipercolanemia familiar</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20346">
-                            <OrphaCode>276066</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=276066</ExpertLink>
-                            <Name lang="es">Deficiencia de ácido biliar CoA ligasa y amidación defectuosa</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -1773,34 +1833,58 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="20326">
-                    <OrphaCode>275761</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=275761</ExpertLink>
-                    <Name lang="es">Deficiencia de lipasa ácida lisosomal</Name>
+                  <Disorder id="22704">
+                    <OrphaCode>397922</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=397922</ExpertLink>
+                    <Name lang="es">Síndrome férrico-cerebro-cutáneo</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="2">
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31389">
+                    <OrphaCode>618899</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618899</ExpertLink>
+                    <Name lang="es">Deficiencia de esfingomielinasa ácida</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
-                      <Disorder id="11067">
-                        <OrphaCode>75233</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=75233</ExpertLink>
-                        <Name lang="es">Enfermedad de Wolman</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
+                      <Disorder id="11105">
+                        <OrphaCode>77292</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77292</ExpertLink>
+                        <Name lang="es">Deficiencia de esfingomielinasa ácida neurovisceral infantil</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11068">
-                        <OrphaCode>75234</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=75234</ExpertLink>
-                        <Name lang="es">Enfermedad por almacenamiento de ésteres de colesterol</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
+                      <Disorder id="11106">
+                        <OrphaCode>77293</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=77293</ExpertLink>
+                        <Name lang="es">Deficiencia de esfingomielinasa ácida visceral crónica</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31388">
+                        <OrphaCode>618891</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=618891</ExpertLink>
+                        <Name lang="es">Deficiencia crónica de esfingomielinasa ácida neurovisceral</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1841,18 +1925,6 @@
                       </Disorder>
                       <ClassificationNodeChildList count="4">
                         <ClassificationNode>
-                          <Disorder id="14678">
-                            <OrphaCode>100924</OrphaCode>
-                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100924</ExpertLink>
-                            <Name lang="es">Porfiria por deficiencia de ALA-deshidratasa</Name>
-                            <DisorderType id="21394">
-                              <Name lang="es">Enfermedad</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="11299">
                             <OrphaCode>79273</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79273</ExpertLink>
@@ -1881,6 +1953,18 @@
                             <OrphaCode>79473</OrphaCode>
                             <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79473</ExpertLink>
                             <Name lang="es">Porfiria variegata</Name>
+                            <DisorderType id="21394">
+                              <Name lang="es">Enfermedad</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="14678">
+                            <OrphaCode>100924</OrphaCode>
+                            <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100924</ExpertLink>
+                            <Name lang="es">Porfiria por deficiencia de ALA-deshidratasa</Name>
                             <DisorderType id="21394">
                               <Name lang="es">Enfermedad</Name>
                             </DisorderType>
@@ -1941,10 +2025,58 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10737">
-                    <OrphaCode>53693</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=53693</ExpertLink>
-                    <Name lang="es">Síndrome GRACILE</Name>
+                  <Disorder id="32814">
+                    <OrphaCode>723094</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=723094</ExpertLink>
+                    <Name lang="es">Deficiencia de galactosa-1-fosfato uridililtransferasa</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="11265">
+                        <OrphaCode>79239</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79239</ExpertLink>
+                        <Name lang="es">Galactosemia clásica</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32817">
+                        <OrphaCode>723106</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=723106</ExpertLink>
+                        <Name lang="es">Galactosemia variante bioquímica</Name>
+                        <DisorderType id="21408">
+                          <Name lang="es">Anomalía biológica</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32815">
+                        <OrphaCode>723101</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=723101</ExpertLink>
+                        <Name lang="es">Galactosemia variante clínica</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32929">
+                    <OrphaCode>727915</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=727915</ExpertLink>
+                    <Name lang="es">Hipobetalipoproteinemia familiar asociada al gen APOB</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -1953,22 +2085,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="19798">
-                    <OrphaCode>254902</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=254902</ExpertLink>
-                    <Name lang="es">Síndrome de tubulopatía renal-encefalopatía-insuficiencia hepática</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="19528">
-                    <OrphaCode>247585</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=247585</ExpertLink>
-                    <Name lang="es">Citrulinemia tipo II</Name>
+                  <Disorder id="32923">
+                    <OrphaCode>727861</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=727861</ExpertLink>
+                    <Name lang="es">Enfermedad multisistémica asociada al gen YARS1</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
                     </DisorderType>
@@ -1989,180 +2109,12 @@
               </Disorder>
               <ClassificationNodeChildList count="22">
                 <ClassificationNode>
-                  <Disorder id="28606">
-                    <OrphaCode>567983</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=567983</ExpertLink>
-                    <Name lang="es">Colestasis asociada a nutrición parenteral</Name>
-                    <DisorderType id="21429">
-                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="32009">
-                    <OrphaCode>662388</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=662388</ExpertLink>
-                    <Name lang="es">Duplicación aislada de la vesícula biliar</Name>
-                    <DisorderType id="21415">
-                      <Name lang="es">Anomalía morfológica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25211">
-                    <OrphaCode>480520</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480520</ExpertLink>
-                    <Name lang="es">Síndrome de Caroli</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25210">
-                    <OrphaCode>480512</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480512</ExpertLink>
-                    <Name lang="es">Ductopenia idiopática</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25209">
-                    <OrphaCode>480506</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480506</ExpertLink>
-                    <Name lang="es">Litiasis intrahepática primaria</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25208">
-                    <OrphaCode>480501</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480501</ExpertLink>
-                    <Name lang="es">Quiste de colédoco</Name>
-                    <DisorderType id="21415">
-                      <Name lang="es">Anomalía morfológica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="23540">
-                    <OrphaCode>447771</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447771</ExpertLink>
-                    <Name lang="es">Colangitis esclerosante</Name>
-                    <DisorderType id="21436">
-                      <Name lang="es">Grupo de fenomas</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="5">
-                    <ClassificationNode>
-                      <Disorder id="10788">
-                        <OrphaCode>59303</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=59303</ExpertLink>
-                        <Name lang="es">Síndrome neonatal de ictiosis-colangitis esclerosante</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="25219">
-                        <OrphaCode>480556</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480556</ExpertLink>
-                        <Name lang="es">Colangitis esclerosante neonatal aislada</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="783">
-                        <OrphaCode>171</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171</ExpertLink>
-                        <Name lang="es">Colangitis esclerosante primaria</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23539">
-                        <OrphaCode>447764</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447764</ExpertLink>
-                        <Name lang="es">Colangitis esclerosante asociada a IgG4</Name>
-                        <DisorderType id="21450">
-                          <Name lang="es">Subtipo clínico</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23541">
-                        <OrphaCode>447774</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447774</ExpertLink>
-                        <Name lang="es">Colangitis esclerosante secundaria</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="28337">
-                    <OrphaCode>562639</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=562639</ExpertLink>
-                    <Name lang="es">Síndrome de solapamiento de colangitis biliar primaria/colangitis esclerosante primaria y hepatitis autoinmune</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=586</ExpertLink>
                     <Name lang="es">Fibrosis quística</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2641">
-                    <OrphaCode>2924</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2924</ExpertLink>
-                    <Name lang="es">Enfermedad poliquística hepática aislada</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2241,12 +2193,204 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="2459">
+                    <OrphaCode>2697</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2697</ExpertLink>
+                    <Name lang="es">Síndrome de artrogriposis-disfunción renal-colestasis</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2641">
+                    <OrphaCode>2924</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2924</ExpertLink>
+                    <Name lang="es">Enfermedad poliquística hepática aislada</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="8608">
                     <OrphaCode>779</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=779</ExpertLink>
                     <Name lang="es">Síndrome de Reynolds</Name>
                     <DisorderType id="21394">
                       <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10715">
+                    <OrphaCode>53035</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=53035</ExpertLink>
+                    <Name lang="es">Enfermedad de Caroli</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10932">
+                    <OrphaCode>69663</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=69663</ExpertLink>
+                    <Name lang="es">Colelitiasis asociada a fosfolípidos bajos</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21129">
+                    <OrphaCode>300552</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=300552</ExpertLink>
+                    <Name lang="es">Colangitis folicular y pancreatitis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23416">
+                    <OrphaCode>440987</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=440987</ExpertLink>
+                    <Name lang="es">Agenesia aislada de la vesícula biliar</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23540">
+                    <OrphaCode>447771</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447771</ExpertLink>
+                    <Name lang="es">Colangitis esclerosante</Name>
+                    <DisorderType id="21436">
+                      <Name lang="es">Grupo de fenomas</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="783">
+                        <OrphaCode>171</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=171</ExpertLink>
+                        <Name lang="es">Colangitis esclerosante primaria</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10788">
+                        <OrphaCode>59303</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=59303</ExpertLink>
+                        <Name lang="es">Síndrome neonatal de ictiosis-colangitis esclerosante</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23539">
+                        <OrphaCode>447764</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447764</ExpertLink>
+                        <Name lang="es">Colangitis esclerosante asociada a IgG4</Name>
+                        <DisorderType id="21450">
+                          <Name lang="es">Subtipo clínico</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23541">
+                        <OrphaCode>447774</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447774</ExpertLink>
+                        <Name lang="es">Colangitis esclerosante secundaria</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="25219">
+                        <OrphaCode>480556</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480556</ExpertLink>
+                        <Name lang="es">Colangitis esclerosante neonatal aislada</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25208">
+                    <OrphaCode>480501</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480501</ExpertLink>
+                    <Name lang="es">Quiste de colédoco</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25209">
+                    <OrphaCode>480506</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480506</ExpertLink>
+                    <Name lang="es">Litiasis intrahepática primaria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25210">
+                    <OrphaCode>480512</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480512</ExpertLink>
+                    <Name lang="es">Ductopenia idiopática</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25211">
+                    <OrphaCode>480520</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=480520</ExpertLink>
+                    <Name lang="es">Síndrome de Caroli</Name>
+                    <DisorderType id="21401">
+                      <Name lang="es">Síndrome de malformación</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2313,54 +2457,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10715">
-                    <OrphaCode>53035</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=53035</ExpertLink>
-                    <Name lang="es">Enfermedad de Caroli</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10932">
-                    <OrphaCode>69663</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=69663</ExpertLink>
-                    <Name lang="es">Colelitiasis asociada a fosfolípidos bajos</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="21129">
-                    <OrphaCode>300552</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=300552</ExpertLink>
-                    <Name lang="es">Colangitis folicular y pancreatitis</Name>
-                    <DisorderType id="21394">
-                      <Name lang="es">Enfermedad</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="23416">
-                    <OrphaCode>440987</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=440987</ExpertLink>
-                    <Name lang="es">Agenesia aislada de la vesícula biliar</Name>
-                    <DisorderType id="21415">
-                      <Name lang="es">Anomalía morfológica</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="27317">
                     <OrphaCode>521219</OrphaCode>
                     <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=521219</ExpertLink>
@@ -2385,12 +2481,36 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="2459">
-                    <OrphaCode>2697</OrphaCode>
-                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2697</ExpertLink>
-                    <Name lang="es">Síndrome de artrogriposis-disfunción renal-colestasis</Name>
-                    <DisorderType id="21401">
-                      <Name lang="es">Síndrome de malformación</Name>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=562639</ExpertLink>
+                    <Name lang="es">Síndrome de solapamiento de colangitis biliar primaria/colangitis esclerosante primaria y hepatitis autoinmune</Name>
+                    <DisorderType id="21394">
+                      <Name lang="es">Enfermedad</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28606">
+                    <OrphaCode>567983</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=567983</ExpertLink>
+                    <Name lang="es">Colestasis asociada a nutrición parenteral</Name>
+                    <DisorderType id="21429">
+                      <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32009">
+                    <OrphaCode>662388</OrphaCode>
+                    <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=662388</ExpertLink>
+                    <Name lang="es">Duplicación aislada de la vesícula biliar</Name>
+                    <DisorderType id="21415">
+                      <Name lang="es">Anomalía morfológica</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2551,6 +2671,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="14608">
+                        <OrphaCode>100035</OrphaCode>
+                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100035</ExpertLink>
+                        <Name lang="es">Nódulo necrótico solitario del hígado</Name>
+                        <DisorderType id="21394">
+                          <Name lang="es">Enfermedad</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="18012">
                         <OrphaCode>178315</OrphaCode>
                         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=178315</ExpertLink>
@@ -2594,18 +2726,6 @@
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
-                            <ClassificationNode>
-                              <Disorder id="27629">
-                                <OrphaCode>529852</OrphaCode>
-                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=529852</ExpertLink>
-                                <Name lang="es">Carcinoma hepatocelular y colangiocarcinoma combinado</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="es">Enfermedad</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="10951">
                                 <OrphaCode>70567</OrphaCode>
@@ -2714,20 +2834,20 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="27629">
+                                <OrphaCode>529852</OrphaCode>
+                                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=529852</ExpertLink>
+                                <Name lang="es">Carcinoma hepatocelular y colangiocarcinoma combinado</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="es">Enfermedad</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="14608">
-                        <OrphaCode>100035</OrphaCode>
-                        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100035</ExpertLink>
-                        <Name lang="es">Nódulo necrótico solitario del hígado</Name>
-                        <DisorderType id="21394">
-                          <Name lang="es">Enfermedad</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2759,10 +2879,10 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="437">
-                <OrphaCode>1414</OrphaCode>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1414</ExpertLink>
-                <Name lang="es">Síndrome de colestasis-linfedema</Name>
+              <Disorder id="22889">
+                <OrphaCode>402823</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=402823</ExpertLink>
+                <Name lang="es">Hepatitis delta</Name>
                 <DisorderType id="21394">
                   <Name lang="es">Enfermedad</Name>
                 </DisorderType>
@@ -2771,46 +2891,10 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="11943">
-                <OrphaCode>90052</OrphaCode>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90052</ExpertLink>
-                <Name lang="es">Enfermedad hepática por recurrencia del virus de la hepatitis C en trasplantados hepáticos</Name>
-                <DisorderType id="21429">
-                  <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11953">
-                <OrphaCode>90062</OrphaCode>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90062</ExpertLink>
-                <Name lang="es">Insuficiencia hepática aguda</Name>
-                <DisorderType id="21422">
-                  <Name lang="es">Síndrome clínico</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11964">
-                <OrphaCode>90073</OrphaCode>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90073</ExpertLink>
-                <Name lang="es">Reinfección por hepatitis B después de trasplante hepático</Name>
-                <DisorderType id="21429">
-                  <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="22889">
-                <OrphaCode>402823</OrphaCode>
-                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=402823</ExpertLink>
-                <Name lang="es">Hepatitis delta</Name>
+              <Disorder id="19473">
+                <OrphaCode>244242</OrphaCode>
+                <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=244242</ExpertLink>
+                <Name lang="es">Síndrome HELLP</Name>
                 <DisorderType id="21394">
                   <Name lang="es">Enfermedad</Name>
                 </DisorderType>

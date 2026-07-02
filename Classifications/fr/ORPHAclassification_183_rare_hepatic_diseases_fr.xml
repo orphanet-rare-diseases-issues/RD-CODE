@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR ExtractionDate="2025-06-24 07:45:29" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+<JDBOR ExtractionDate="2026-06-23 07:11:35" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2026" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,7 +21,19 @@
               <Name lang="fr">Catégorie</Name>
             </DisorderType>
           </Disorder>
-          <ClassificationNodeChildList count="12">
+          <ClassificationNodeChildList count="13">
+            <ClassificationNode>
+              <Disorder id="437">
+                <OrphaCode>1414</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1414</ExpertLink>
+                <Name lang="fr">Syndrome de cholestase-lymphoedème</Name>
+                <DisorderType id="21394">
+                  <Name lang="fr">Maladie</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
             <ClassificationNode>
               <Disorder id="838">
                 <OrphaCode>2312</OrphaCode>
@@ -29,6 +41,42 @@
                 <Name lang="fr">Ictère néonatal transitoire</Name>
                 <DisorderType id="21394">
                   <Name lang="fr">Maladie</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11943">
+                <OrphaCode>90052</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90052</ExpertLink>
+                <Name lang="fr">Manifestations hépatiques récurrentes causées par le virus de l'hépatite C chez les transplantés hépatiques</Name>
+                <DisorderType id="21429">
+                  <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11953">
+                <OrphaCode>90062</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90062</ExpertLink>
+                <Name lang="fr">Insuffisance hépatique aiguë</Name>
+                <DisorderType id="21422">
+                  <Name lang="fr">Syndrome clinique</Name>
+                </DisorderType>
+              </Disorder>
+              <ClassificationNodeChildList count="0">
+              </ClassificationNodeChildList>
+            </ClassificationNode>
+            <ClassificationNode>
+              <Disorder id="11964">
+                <OrphaCode>90073</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90073</ExpertLink>
+                <Name lang="fr">Réinfection par l'hépatite B après transplantation hépatique</Name>
+                <DisorderType id="21429">
+                  <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
                 </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
@@ -51,42 +99,6 @@
                     <Name lang="fr">Télangiectasie hémorragique héréditaire</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25212">
-                    <OrphaCode>480524</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480524</ExpertLink>
-                    <Name lang="fr">Péliose hépatique idiopathique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="12631">
-                    <OrphaCode>95507</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95507</ExpertLink>
-                    <Name lang="fr">Anomalies des veines sus-hépatiques</Name>
-                    <DisorderType id="21415">
-                      <Name lang="fr">Anomalie morphologique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25214">
-                    <OrphaCode>480531</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480531</ExpertLink>
-                    <Name lang="fr">Fistule portosystémique congénitale</Name>
-                    <DisorderType id="21415">
-                      <Name lang="fr">Anomalie morphologique</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -141,6 +153,90 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="12631">
+                    <OrphaCode>95507</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=95507</ExpertLink>
+                    <Name lang="fr">Anomalies des veines sus-hépatiques</Name>
+                    <DisorderType id="21415">
+                      <Name lang="fr">Anomalie morphologique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25212">
+                    <OrphaCode>480524</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480524</ExpertLink>
+                    <Name lang="fr">Péliose hépatique idiopathique</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25214">
+                    <OrphaCode>480531</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480531</ExpertLink>
+                    <Name lang="fr">Fistule portosystémique congénitale</Name>
+                    <DisorderType id="21415">
+                      <Name lang="fr">Anomalie morphologique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="29788">
+                    <OrphaCode>596937</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=596937</ExpertLink>
+                    <Name lang="fr">Maladie vasculaire portosinusoïdale</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="10615">
+                        <OrphaCode>48372</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=48372</ExpertLink>
+                        <Name lang="fr">Hyperplasie nodulaire régénérative du foie</Name>
+                        <DisorderType id="21457">
+                          <Name lang="fr">Sous-type histo-pathologique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10847">
+                        <OrphaCode>64743</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=64743</ExpertLink>
+                        <Name lang="fr">Veinopathie portale oblitérante</Name>
+                        <DisorderType id="21457">
+                          <Name lang="fr">Sous-type histo-pathologique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="29789">
+                        <OrphaCode>596941</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=596941</ExpertLink>
+                        <Name lang="fr">Cirrhose septale incomplète</Name>
+                        <DisorderType id="21457">
+                          <Name lang="fr">Sous-type histo-pathologique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="32253">
                     <OrphaCode>693846</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=693846</ExpertLink>
@@ -176,54 +272,6 @@
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
                 </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="29788">
-                    <OrphaCode>596937</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=596937</ExpertLink>
-                    <Name lang="fr">Maladie vasculaire portosinusoïdale</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="29789">
-                        <OrphaCode>596941</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=596941</ExpertLink>
-                        <Name lang="fr">Cirrhose septale incomplète</Name>
-                        <DisorderType id="21457">
-                          <Name lang="fr">Sous-type histo-pathologique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="10615">
-                        <OrphaCode>48372</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=48372</ExpertLink>
-                        <Name lang="fr">Hyperplasie nodulaire régénérative du foie</Name>
-                        <DisorderType id="21457">
-                          <Name lang="fr">Sous-type histo-pathologique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="10847">
-                        <OrphaCode>64743</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=64743</ExpertLink>
-                        <Name lang="fr">Veinopathie portale oblitérante</Name>
-                        <DisorderType id="21457">
-                          <Name lang="fr">Sous-type histo-pathologique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
@@ -235,7 +283,19 @@
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="24">
+              <ClassificationNodeChildList count="26">
+                <ClassificationNode>
+                  <Disorder id="97">
+                    <OrphaCode>731</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=731</ExpertLink>
+                    <Name lang="fr">Polykystose rénale autosomique récessive</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
                 <ClassificationNode>
                   <Disorder id="873">
                     <OrphaCode>2137</OrphaCode>
@@ -285,10 +345,34 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="1644">
+                    <OrphaCode>1454</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1454</ExpertLink>
+                    <Name lang="fr">Syndrome de Joubert avec atteinte hépatique</Name>
+                    <DisorderType id="21450">
+                      <Name lang="fr">Sous-type clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="1961">
                     <OrphaCode>2031</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2031</ExpertLink>
                     <Name lang="fr">Syndrome de fibrose hépatique-kystes rénaux-déficience intellectuelle</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2725">
+                    <OrphaCode>3032</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3032</ExpertLink>
+                    <Name lang="fr">Syndrome Meckel-like associé à NPHP3</Name>
                     <DisorderType id="21401">
                       <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
@@ -312,7 +396,7 @@
                   <Disorder id="11605">
                     <OrphaCode>84064</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=84064</ExpertLink>
-                    <Name lang="fr">Diarrhée syndromique</Name>
+                    <Name lang="fr">Syndrome tricho-hépato-entérique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -381,12 +465,36 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="18849">
+                    <OrphaCode>217371</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=217371</ExpertLink>
+                    <Name lang="fr">Insuffisance hépatique infantile aiguë par défaut de synthèse des protéines codées par l'ADNmt</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="19469">
                     <OrphaCode>243367</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=243367</ExpertLink>
                     <Name lang="fr">Stéatose hépatique aiguë gravidique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20908">
+                    <OrphaCode>294415</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=294415</ExpertLink>
+                    <Name lang="fr">Dysplasie réno-hépato-pancréatique</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -441,36 +549,12 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="97">
-                    <OrphaCode>731</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=731</ExpertLink>
-                    <Name lang="fr">Polykystose rénale autosomique récessive</Name>
+                  <Disorder id="23408">
+                    <OrphaCode>440427</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440427</ExpertLink>
+                    <Name lang="fr">Protéinose alvéolaire pulmonaire sévère par déficit en MARS à début précoce</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25312">
-                    <OrphaCode>485426</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=485426</ExpertLink>
-                    <Name lang="fr">Fibrose congénitale hépatique isolée</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2725">
-                    <OrphaCode>3032</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=3032</ExpertLink>
-                    <Name lang="fr">Syndrome Meckel-like associé à NPHP3</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -501,6 +585,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="25312">
+                    <OrphaCode>485426</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=485426</ExpertLink>
+                    <Name lang="fr">Fibrose congénitale hépatique isolée</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="28017">
                     <OrphaCode>541423</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=541423</ExpertLink>
@@ -513,46 +609,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="23408">
-                    <OrphaCode>440427</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440427</ExpertLink>
-                    <Name lang="fr">Protéinose alvéolaire pulmonaire sévère par déficit en MARS à début précoce</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="1644">
-                    <OrphaCode>1454</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1454</ExpertLink>
-                    <Name lang="fr">Syndrome de Joubert avec atteinte hépatique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="20908">
-                    <OrphaCode>294415</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=294415</ExpertLink>
-                    <Name lang="fr">Dysplasie réno-hépato-pancréatique</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="18849">
-                    <OrphaCode>217371</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=217371</ExpertLink>
-                    <Name lang="fr">Insuffisance hépatique infantile aiguë par défaut de synthèse des protéines codées par l'ADNmt</Name>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=562639</ExpertLink>
+                    <Name lang="fr">Syndrome de chevauchement d'hépatite auto-immune avec cirrhose biliaire primitive/cholangite sclérosante primitive</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -573,10 +633,22 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="28337">
-                    <OrphaCode>562639</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=562639</ExpertLink>
-                    <Name lang="fr">Syndrome de chevauchement d'hépatite auto-immune avec cirrhose biliaire primitive/cholangite sclérosante primitive</Name>
+                  <Disorder id="10933">
+                    <OrphaCode>69665</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69665</ExpertLink>
+                    <Name lang="fr">Cholestase intrahépatique gestationnelle</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32897">
+                    <OrphaCode>726824</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=726824</ExpertLink>
+                    <Name lang="fr">Fibrose dégénérative hépato-réno-cardiaque</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -595,96 +667,12 @@
                   <Name lang="fr">Catégorie</Name>
                 </DisorderType>
               </Disorder>
-              <ClassificationNodeChildList count="38">
-                <ClassificationNode>
-                  <Disorder id="31389">
-                    <OrphaCode>618899</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=618899</ExpertLink>
-                    <Name lang="fr">Déficit en sphingomyélinase acide</Name>
-                    <DisorderType id="21436">
-                      <Name lang="fr">Groupe clinique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="3">
-                    <ClassificationNode>
-                      <Disorder id="11105">
-                        <OrphaCode>77292</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=77292</ExpertLink>
-                        <Name lang="fr">Déficit en sphingomyélinase acide, forme neuroviscérale infantile</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="11106">
-                        <OrphaCode>77293</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=77293</ExpertLink>
-                        <Name lang="fr">Déficit en sphingomyélinase acide, forme viscérale chronique</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="31388">
-                        <OrphaCode>618891</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=618891</ExpertLink>
-                        <Name lang="fr">Déficit en sphingomyélinase acide, forme neuro-viscérale chronique</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
+              <ClassificationNodeChildList count="39">
                 <ClassificationNode>
                   <Disorder id="15">
                     <OrphaCode>366</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=366</ExpertLink>
                     <Name lang="fr">Glycogénose par déficit en enzyme débranchante</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="11265">
-                    <OrphaCode>79239</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79239</ExpertLink>
-                    <Name lang="fr">Galactosémie classique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="22704">
-                    <OrphaCode>397922</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=397922</ExpertLink>
-                    <Name lang="fr">Syndrome ferro-cérébro-cutané</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10933">
-                    <OrphaCode>69665</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69665</ExpertLink>
-                    <Name lang="fr">Cholestase intrahépatique gestationnelle</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -873,42 +861,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="11264">
-                    <OrphaCode>79238</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79238</ExpertLink>
-                    <Name lang="fr">Déficit en galactose épimérase</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="2">
-                    <ClassificationNode>
-                      <Disorder id="21318">
-                        <OrphaCode>308473</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=308473</ExpertLink>
-                        <Name lang="fr">Déficit érythrocytaire en galactose épimérase</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="21319">
-                        <OrphaCode>308487</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=308487</ExpertLink>
-                        <Name lang="fr">Déficit généralisé en galactose épimérase</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="504">
                     <OrphaCode>446</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=446</ExpertLink>
@@ -1029,6 +981,18 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="10737">
+                    <OrphaCode>53693</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53693</ExpertLink>
+                    <Name lang="fr">Syndrome GRACILE</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="11215">
                     <OrphaCode>79189</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79189</ExpertLink>
@@ -1077,6 +1041,42 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="11264">
+                    <OrphaCode>79238</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79238</ExpertLink>
+                    <Name lang="fr">Déficit en galactose épimérase</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="21318">
+                        <OrphaCode>308473</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=308473</ExpertLink>
+                        <Name lang="fr">Déficit érythrocytaire en galactose épimérase</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="21319">
+                        <OrphaCode>308487</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=308487</ExpertLink>
+                        <Name lang="fr">Déficit généralisé en galactose épimérase</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="11266">
                     <OrphaCode>79240</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79240</ExpertLink>
@@ -1086,78 +1086,6 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="19792">
-                    <OrphaCode>254871</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=254871</ExpertLink>
-                    <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépatocérébrale</Name>
-                    <DisorderType id="21436">
-                      <Name lang="fr">Groupe clinique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="5">
-                    <ClassificationNode>
-                      <Disorder id="20419">
-                        <OrphaCode>279934</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=279934</ExpertLink>
-                        <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépatocérébrale par déficit en DGUOK</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="22319">
-                        <OrphaCode>363534</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363534</ExpertLink>
-                        <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépato-cérébro-rénale</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="19812">
-                        <OrphaCode>255229</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=255229</ExpertLink>
-                        <Name lang="fr">Neurohépatopathie type Navajo</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1443">
-                        <OrphaCode>1186</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1186</ExpertLink>
-                        <Name lang="fr">Ataxie spinocérébelleuse infantile</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="1730">
-                        <OrphaCode>726</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=726</ExpertLink>
-                        <Name lang="fr">Syndrome d'Alpers-Huttenlocher</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1229,6 +1157,18 @@
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
+                          <Disorder id="11256">
+                            <OrphaCode>79230</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79230</ExpertLink>
+                            <Name lang="fr">Hémochromatose associée à HJV ou HAMP</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="18976">
                             <OrphaCode>225123</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=225123</ExpertLink>
@@ -1245,18 +1185,6 @@
                             <OrphaCode>647834</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=647834</ExpertLink>
                             <Name lang="fr">Hémochromatose associée à SLC40A1</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="11256">
-                            <OrphaCode>79230</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79230</ExpertLink>
-                            <Name lang="fr">Hémochromatose associée à HJV ou HAMP</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -1281,10 +1209,106 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="19528">
+                    <OrphaCode>247585</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247585</ExpertLink>
+                    <Name lang="fr">Citrullinémie type II</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="19546">
                     <OrphaCode>247790</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247790</ExpertLink>
                     <Name lang="fr">Surcharge en fer liée à FTH1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19792">
+                    <OrphaCode>254871</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=254871</ExpertLink>
+                    <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépatocérébrale</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="1443">
+                        <OrphaCode>1186</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1186</ExpertLink>
+                        <Name lang="fr">Ataxie spinocérébelleuse infantile</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="1730">
+                        <OrphaCode>726</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=726</ExpertLink>
+                        <Name lang="fr">Syndrome d'Alpers-Huttenlocher</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="19812">
+                        <OrphaCode>255229</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=255229</ExpertLink>
+                        <Name lang="fr">Neurohépatopathie type Navajo</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="20419">
+                        <OrphaCode>279934</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=279934</ExpertLink>
+                        <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépatocérébrale par déficit en DGUOK</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="22319">
+                        <OrphaCode>363534</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=363534</ExpertLink>
+                        <Name lang="fr">Déplétion de l'ADN mitochondrial, forme hépato-cérébro-rénale</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="19798">
+                    <OrphaCode>254902</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=254902</ExpertLink>
+                    <Name lang="fr">Syndrome de tubulopathie rénale-encéphalopathie-insuffisance hépathique</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1302,6 +1326,42 @@
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="20326">
+                    <OrphaCode>275761</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=275761</ExpertLink>
+                    <Name lang="fr">Déficit en lipase acide lysosomale</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="2">
+                    <ClassificationNode>
+                      <Disorder id="11067">
+                        <OrphaCode>75233</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=75233</ExpertLink>
+                        <Name lang="fr">Maladie de Wolman</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="11068">
+                        <OrphaCode>75234</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=75234</ExpertLink>
+                        <Name lang="fr">Maladie de stockage des esters du cholestérol</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
@@ -1361,30 +1421,6 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
-                          <Disorder id="25206">
-                            <OrphaCode>480483</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480483</ExpertLink>
-                            <Name lang="fr">Cholestase intrahépatique familiale progressive type 4</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="25207">
-                            <OrphaCode>480491</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480491</ExpertLink>
-                            <Name lang="fr">Cholestase intrahépatique familiale progressive associée à MYO5B</Name>
-                            <DisorderType id="21450">
-                              <Name lang="fr">Sous-type clinique</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="17777">
                             <OrphaCode>168583</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=168583</ExpertLink>
@@ -1401,6 +1437,30 @@
                             <OrphaCode>480476</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480476</ExpertLink>
                             <Name lang="fr">Cholestase intrahépatique familiale progressive type 5</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="25206">
+                            <OrphaCode>480483</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480483</ExpertLink>
+                            <Name lang="fr">Cholestase intrahépatique familiale progressive type 4</Name>
+                            <DisorderType id="21450">
+                              <Name lang="fr">Sous-type clinique</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="25207">
+                            <OrphaCode>480491</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480491</ExpertLink>
+                            <Name lang="fr">Cholestase intrahépatique familiale progressive associée à MYO5B</Name>
                             <DisorderType id="21450">
                               <Name lang="fr">Sous-type clinique</Name>
                             </DisorderType>
@@ -1469,6 +1529,30 @@
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                         <ClassificationNode>
+                          <Disorder id="19267">
+                            <OrphaCode>238475</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=238475</ExpertLink>
+                            <Name lang="fr">Hypercholanémie familiale</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="20346">
+                            <OrphaCode>276066</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276066</ExpertLink>
+                            <Name lang="fr">Insuffisance en acides biliaires-CoA ligase et défaut d'amidation</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
                           <Disorder id="25322">
                             <OrphaCode>485631</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=485631</ExpertLink>
@@ -1483,6 +1567,18 @@
                                 <OrphaCode>79095</OrphaCode>
                                 <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79095</ExpertLink>
                                 <Name lang="fr">Déficit congénital de synthèse des acides biliaires type 4</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="11327">
+                                <OrphaCode>79301</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79301</ExpertLink>
+                                <Name lang="fr">Déficit congénital de synthèse des acides biliaires type 1</Name>
                                 <DisorderType id="21394">
                                   <Name lang="fr">Maladie</Name>
                                 </DisorderType>
@@ -1514,42 +1610,6 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="11327">
-                                <OrphaCode>79301</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79301</ExpertLink>
-                                <Name lang="fr">Déficit congénital de synthèse des acides biliaires type 1</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="19267">
-                            <OrphaCode>238475</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=238475</ExpertLink>
-                            <Name lang="fr">Hypercholanémie familiale</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="20346">
-                            <OrphaCode>276066</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=276066</ExpertLink>
-                            <Name lang="fr">Insuffisance en acides biliaires-CoA ligase et défaut d'amidation</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
@@ -1773,34 +1833,58 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="20326">
-                    <OrphaCode>275761</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=275761</ExpertLink>
-                    <Name lang="fr">Déficit en lipase acide lysosomale</Name>
+                  <Disorder id="22704">
+                    <OrphaCode>397922</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=397922</ExpertLink>
+                    <Name lang="fr">Syndrome ferro-cérébro-cutané</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
                   </Disorder>
-                  <ClassificationNodeChildList count="2">
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="31389">
+                    <OrphaCode>618899</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=618899</ExpertLink>
+                    <Name lang="fr">Déficit en sphingomyélinase acide</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
                     <ClassificationNode>
-                      <Disorder id="11067">
-                        <OrphaCode>75233</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=75233</ExpertLink>
-                        <Name lang="fr">Maladie de Wolman</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
+                      <Disorder id="11105">
+                        <OrphaCode>77292</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=77292</ExpertLink>
+                        <Name lang="fr">Déficit en sphingomyélinase acide, forme neuroviscérale infantile</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
-                      <Disorder id="11068">
-                        <OrphaCode>75234</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=75234</ExpertLink>
-                        <Name lang="fr">Maladie de stockage des esters du cholestérol</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
+                      <Disorder id="11106">
+                        <OrphaCode>77293</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=77293</ExpertLink>
+                        <Name lang="fr">Déficit en sphingomyélinase acide, forme viscérale chronique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="31388">
+                        <OrphaCode>618891</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=618891</ExpertLink>
+                        <Name lang="fr">Déficit en sphingomyélinase acide, forme neuro-viscérale chronique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
                         </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
@@ -1841,18 +1925,6 @@
                       </Disorder>
                       <ClassificationNodeChildList count="4">
                         <ClassificationNode>
-                          <Disorder id="14678">
-                            <OrphaCode>100924</OrphaCode>
-                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100924</ExpertLink>
-                            <Name lang="fr">Porphyrie par déficit en ALA déshydratase</Name>
-                            <DisorderType id="21394">
-                              <Name lang="fr">Maladie</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
                           <Disorder id="11299">
                             <OrphaCode>79273</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79273</ExpertLink>
@@ -1881,6 +1953,18 @@
                             <OrphaCode>79473</OrphaCode>
                             <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79473</ExpertLink>
                             <Name lang="fr">Porphyrie variegate</Name>
+                            <DisorderType id="21394">
+                              <Name lang="fr">Maladie</Name>
+                            </DisorderType>
+                          </Disorder>
+                          <ClassificationNodeChildList count="0">
+                          </ClassificationNodeChildList>
+                        </ClassificationNode>
+                        <ClassificationNode>
+                          <Disorder id="14678">
+                            <OrphaCode>100924</OrphaCode>
+                            <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100924</ExpertLink>
+                            <Name lang="fr">Porphyrie par déficit en ALA déshydratase</Name>
                             <DisorderType id="21394">
                               <Name lang="fr">Maladie</Name>
                             </DisorderType>
@@ -1941,10 +2025,58 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10737">
-                    <OrphaCode>53693</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53693</ExpertLink>
-                    <Name lang="fr">Syndrome GRACILE</Name>
+                  <Disorder id="32814">
+                    <OrphaCode>723094</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=723094</ExpertLink>
+                    <Name lang="fr">Déficit en galactose-1-phosphate uridylyltransférase</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="3">
+                    <ClassificationNode>
+                      <Disorder id="11265">
+                        <OrphaCode>79239</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=79239</ExpertLink>
+                        <Name lang="fr">Galactosémie classique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32817">
+                        <OrphaCode>723106</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=723106</ExpertLink>
+                        <Name lang="fr">Galactosémie variante biochimique</Name>
+                        <DisorderType id="21408">
+                          <Name lang="fr">Anomalie biologique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="32815">
+                        <OrphaCode>723101</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=723101</ExpertLink>
+                        <Name lang="fr">Galactosémie variante clinique</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32929">
+                    <OrphaCode>727915</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=727915</ExpertLink>
+                    <Name lang="fr">Hypobêtalipoprotéinémie familiale associée à APOB</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1953,22 +2085,10 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="19798">
-                    <OrphaCode>254902</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=254902</ExpertLink>
-                    <Name lang="fr">Syndrome de tubulopathie rénale-encéphalopathie-insuffisance hépathique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="19528">
-                    <OrphaCode>247585</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=247585</ExpertLink>
-                    <Name lang="fr">Citrullinémie type II</Name>
+                  <Disorder id="32923">
+                    <OrphaCode>727861</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=727861</ExpertLink>
+                    <Name lang="fr">Maladie multisystémique associée à YARS1</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
                     </DisorderType>
@@ -1989,180 +2109,12 @@
               </Disorder>
               <ClassificationNodeChildList count="22">
                 <ClassificationNode>
-                  <Disorder id="28606">
-                    <OrphaCode>567983</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=567983</ExpertLink>
-                    <Name lang="fr">Cholestase liée à la nutrition parentérale</Name>
-                    <DisorderType id="21429">
-                      <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="32009">
-                    <OrphaCode>662388</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662388</ExpertLink>
-                    <Name lang="fr">Duplication isolée de la vésicule biliaire</Name>
-                    <DisorderType id="21415">
-                      <Name lang="fr">Anomalie morphologique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25211">
-                    <OrphaCode>480520</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480520</ExpertLink>
-                    <Name lang="fr">Syndrome de Caroli</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25210">
-                    <OrphaCode>480512</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480512</ExpertLink>
-                    <Name lang="fr">Ductopénie idiopathique</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25209">
-                    <OrphaCode>480506</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480506</ExpertLink>
-                    <Name lang="fr">Lithiase intrahépatique primitive</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="25208">
-                    <OrphaCode>480501</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480501</ExpertLink>
-                    <Name lang="fr">Kyste du cholédoque</Name>
-                    <DisorderType id="21415">
-                      <Name lang="fr">Anomalie morphologique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="23540">
-                    <OrphaCode>447771</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447771</ExpertLink>
-                    <Name lang="fr">Cholangite sclérosante</Name>
-                    <DisorderType id="21436">
-                      <Name lang="fr">Groupe clinique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="5">
-                    <ClassificationNode>
-                      <Disorder id="10788">
-                        <OrphaCode>59303</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=59303</ExpertLink>
-                        <Name lang="fr">Syndrome néonatal d'ichtyose-cholangite sclérosante</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="25219">
-                        <OrphaCode>480556</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480556</ExpertLink>
-                        <Name lang="fr">Cholangite sclérosante néonatale isolée</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="783">
-                        <OrphaCode>171</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=171</ExpertLink>
-                        <Name lang="fr">Cholangite sclérosante primitive</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23539">
-                        <OrphaCode>447764</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447764</ExpertLink>
-                        <Name lang="fr">Cholangite sclérosante à IgG4</Name>
-                        <DisorderType id="21450">
-                          <Name lang="fr">Sous-type clinique</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="23541">
-                        <OrphaCode>447774</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447774</ExpertLink>
-                        <Name lang="fr">Cholangite sclérosante secondaire</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="28337">
-                    <OrphaCode>562639</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=562639</ExpertLink>
-                    <Name lang="fr">Syndrome de chevauchement d'hépatite auto-immune avec cirrhose biliaire primitive/cholangite sclérosante primitive</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="49">
                     <OrphaCode>586</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=586</ExpertLink>
                     <Name lang="fr">Mucoviscidose</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="2641">
-                    <OrphaCode>2924</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2924</ExpertLink>
-                    <Name lang="fr">Polykystose hépatique isolée</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2241,12 +2193,204 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
+                  <Disorder id="2459">
+                    <OrphaCode>2697</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2697</ExpertLink>
+                    <Name lang="fr">Syndrome d'arthrogrypose-insuffisance rénale-cholestase</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="2641">
+                    <OrphaCode>2924</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2924</ExpertLink>
+                    <Name lang="fr">Polykystose hépatique isolée</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
                   <Disorder id="8608">
                     <OrphaCode>779</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=779</ExpertLink>
                     <Name lang="fr">Syndrome de Reynolds</Name>
                     <DisorderType id="21394">
                       <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10715">
+                    <OrphaCode>53035</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53035</ExpertLink>
+                    <Name lang="fr">Maladie de Caroli</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="10932">
+                    <OrphaCode>69663</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69663</ExpertLink>
+                    <Name lang="fr">Lithiase biliaire à faible niveau de phospholipides</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="21129">
+                    <OrphaCode>300552</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=300552</ExpertLink>
+                    <Name lang="fr">Pancréatite et cholangite folliculaire</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23416">
+                    <OrphaCode>440987</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440987</ExpertLink>
+                    <Name lang="fr">Agénésie isolée de la vésicule biliaire</Name>
+                    <DisorderType id="21415">
+                      <Name lang="fr">Anomalie morphologique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="23540">
+                    <OrphaCode>447771</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447771</ExpertLink>
+                    <Name lang="fr">Cholangite sclérosante</Name>
+                    <DisorderType id="21436">
+                      <Name lang="fr">Groupe clinique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="5">
+                    <ClassificationNode>
+                      <Disorder id="783">
+                        <OrphaCode>171</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=171</ExpertLink>
+                        <Name lang="fr">Cholangite sclérosante primitive</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="10788">
+                        <OrphaCode>59303</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=59303</ExpertLink>
+                        <Name lang="fr">Syndrome néonatal d'ichtyose-cholangite sclérosante</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23539">
+                        <OrphaCode>447764</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447764</ExpertLink>
+                        <Name lang="fr">Cholangite sclérosante à IgG4</Name>
+                        <DisorderType id="21450">
+                          <Name lang="fr">Sous-type clinique</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="23541">
+                        <OrphaCode>447774</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=447774</ExpertLink>
+                        <Name lang="fr">Cholangite sclérosante secondaire</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
+                      <Disorder id="25219">
+                        <OrphaCode>480556</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480556</ExpertLink>
+                        <Name lang="fr">Cholangite sclérosante néonatale isolée</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25208">
+                    <OrphaCode>480501</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480501</ExpertLink>
+                    <Name lang="fr">Kyste du cholédoque</Name>
+                    <DisorderType id="21415">
+                      <Name lang="fr">Anomalie morphologique</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25209">
+                    <OrphaCode>480506</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480506</ExpertLink>
+                    <Name lang="fr">Lithiase intrahépatique primitive</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25210">
+                    <OrphaCode>480512</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480512</ExpertLink>
+                    <Name lang="fr">Ductopénie idiopathique</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="25211">
+                    <OrphaCode>480520</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=480520</ExpertLink>
+                    <Name lang="fr">Syndrome de Caroli</Name>
+                    <DisorderType id="21401">
+                      <Name lang="fr">Syndrome  malformatif</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2313,54 +2457,6 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="10715">
-                    <OrphaCode>53035</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=53035</ExpertLink>
-                    <Name lang="fr">Maladie de Caroli</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="10932">
-                    <OrphaCode>69663</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=69663</ExpertLink>
-                    <Name lang="fr">Lithiase biliaire à faible niveau de phospholipides</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="21129">
-                    <OrphaCode>300552</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=300552</ExpertLink>
-                    <Name lang="fr">Pancréatite et cholangite folliculaire</Name>
-                    <DisorderType id="21394">
-                      <Name lang="fr">Maladie</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
-                  <Disorder id="23416">
-                    <OrphaCode>440987</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=440987</ExpertLink>
-                    <Name lang="fr">Agénésie isolée de la vésicule biliaire</Name>
-                    <DisorderType id="21415">
-                      <Name lang="fr">Anomalie morphologique</Name>
-                    </DisorderType>
-                  </Disorder>
-                  <ClassificationNodeChildList count="0">
-                  </ClassificationNodeChildList>
-                </ClassificationNode>
-                <ClassificationNode>
                   <Disorder id="27317">
                     <OrphaCode>521219</OrphaCode>
                     <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=521219</ExpertLink>
@@ -2385,12 +2481,36 @@
                   </ClassificationNodeChildList>
                 </ClassificationNode>
                 <ClassificationNode>
-                  <Disorder id="2459">
-                    <OrphaCode>2697</OrphaCode>
-                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2697</ExpertLink>
-                    <Name lang="fr">Syndrome d'arthrogrypose-insuffisance rénale-cholestase</Name>
-                    <DisorderType id="21401">
-                      <Name lang="fr">Syndrome  malformatif</Name>
+                  <Disorder id="28337">
+                    <OrphaCode>562639</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=562639</ExpertLink>
+                    <Name lang="fr">Syndrome de chevauchement d'hépatite auto-immune avec cirrhose biliaire primitive/cholangite sclérosante primitive</Name>
+                    <DisorderType id="21394">
+                      <Name lang="fr">Maladie</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="28606">
+                    <OrphaCode>567983</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=567983</ExpertLink>
+                    <Name lang="fr">Cholestase liée à la nutrition parentérale</Name>
+                    <DisorderType id="21429">
+                      <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
+                    </DisorderType>
+                  </Disorder>
+                  <ClassificationNodeChildList count="0">
+                  </ClassificationNodeChildList>
+                </ClassificationNode>
+                <ClassificationNode>
+                  <Disorder id="32009">
+                    <OrphaCode>662388</OrphaCode>
+                    <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=662388</ExpertLink>
+                    <Name lang="fr">Duplication isolée de la vésicule biliaire</Name>
+                    <DisorderType id="21415">
+                      <Name lang="fr">Anomalie morphologique</Name>
                     </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
@@ -2551,6 +2671,18 @@
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
+                      <Disorder id="14608">
+                        <OrphaCode>100035</OrphaCode>
+                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100035</ExpertLink>
+                        <Name lang="fr">Nodule nécrotique solitaire du foie</Name>
+                        <DisorderType id="21394">
+                          <Name lang="fr">Maladie</Name>
+                        </DisorderType>
+                      </Disorder>
+                      <ClassificationNodeChildList count="0">
+                      </ClassificationNodeChildList>
+                    </ClassificationNode>
+                    <ClassificationNode>
                       <Disorder id="18012">
                         <OrphaCode>178315</OrphaCode>
                         <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=178315</ExpertLink>
@@ -2594,18 +2726,6 @@
                             </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
-                            <ClassificationNode>
-                              <Disorder id="27629">
-                                <OrphaCode>529852</OrphaCode>
-                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=529852</ExpertLink>
-                                <Name lang="fr">Hépatocholangiocarcinome</Name>
-                                <DisorderType id="21394">
-                                  <Name lang="fr">Maladie</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
                             <ClassificationNode>
                               <Disorder id="10951">
                                 <OrphaCode>70567</OrphaCode>
@@ -2714,20 +2834,20 @@
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
+                            <ClassificationNode>
+                              <Disorder id="27629">
+                                <OrphaCode>529852</OrphaCode>
+                                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=529852</ExpertLink>
+                                <Name lang="fr">Hépatocholangiocarcinome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="fr">Maladie</Name>
+                                </DisorderType>
+                              </Disorder>
+                              <ClassificationNodeChildList count="0">
+                              </ClassificationNodeChildList>
+                            </ClassificationNode>
                           </ClassificationNodeChildList>
                         </ClassificationNode>
-                      </ClassificationNodeChildList>
-                    </ClassificationNode>
-                    <ClassificationNode>
-                      <Disorder id="14608">
-                        <OrphaCode>100035</OrphaCode>
-                        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=100035</ExpertLink>
-                        <Name lang="fr">Nodule nécrotique solitaire du foie</Name>
-                        <DisorderType id="21394">
-                          <Name lang="fr">Maladie</Name>
-                        </DisorderType>
-                      </Disorder>
-                      <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
                     </ClassificationNode>
                     <ClassificationNode>
@@ -2759,10 +2879,10 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="437">
-                <OrphaCode>1414</OrphaCode>
-                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1414</ExpertLink>
-                <Name lang="fr">Syndrome de cholestase-lymphoedème</Name>
+              <Disorder id="22889">
+                <OrphaCode>402823</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=402823</ExpertLink>
+                <Name lang="fr">Hépatite delta</Name>
                 <DisorderType id="21394">
                   <Name lang="fr">Maladie</Name>
                 </DisorderType>
@@ -2771,46 +2891,10 @@
               </ClassificationNodeChildList>
             </ClassificationNode>
             <ClassificationNode>
-              <Disorder id="11943">
-                <OrphaCode>90052</OrphaCode>
-                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90052</ExpertLink>
-                <Name lang="fr">Manifestations hépatiques récurrentes causées par le virus de l'hépatite C chez les transplantés hépatiques</Name>
-                <DisorderType id="21429">
-                  <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11953">
-                <OrphaCode>90062</OrphaCode>
-                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90062</ExpertLink>
-                <Name lang="fr">Insuffisance hépatique aiguë</Name>
-                <DisorderType id="21422">
-                  <Name lang="fr">Syndrome clinique</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="11964">
-                <OrphaCode>90073</OrphaCode>
-                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=90073</ExpertLink>
-                <Name lang="fr">Réinfection par l'hépatite B après transplantation hépatique</Name>
-                <DisorderType id="21429">
-                  <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
-                </DisorderType>
-              </Disorder>
-              <ClassificationNodeChildList count="0">
-              </ClassificationNodeChildList>
-            </ClassificationNode>
-            <ClassificationNode>
-              <Disorder id="22889">
-                <OrphaCode>402823</OrphaCode>
-                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=402823</ExpertLink>
-                <Name lang="fr">Hépatite delta</Name>
+              <Disorder id="19473">
+                <OrphaCode>244242</OrphaCode>
+                <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=244242</ExpertLink>
+                <Name lang="fr">Syndrome HELLP</Name>
                 <DisorderType id="21394">
                   <Name lang="fr">Maladie</Name>
                 </DisorderType>
